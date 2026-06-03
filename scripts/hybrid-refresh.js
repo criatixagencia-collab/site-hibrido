@@ -2,6 +2,7 @@ import "dotenv/config";
 import { pathToFileURL } from "node:url";
 import { fetchEntertainmentNews } from "./lib/news.js";
 import { generateArticles, toBuzzItems } from "./lib/articles.js";
+import { applyIllustrativeImages } from "./lib/illustrative-images.js";
 import { localizeImages } from "./lib/local-images.js";
 import { writeJson } from "./lib/store.js";
 
@@ -9,7 +10,8 @@ export async function runHybridRefresh() {
   const news = await fetchEntertainmentNews();
   await writeJson("news.json", news);
 
-  const articles = await generateArticles(news);
+  const generatedArticles = await generateArticles(news);
+  const articles = await applyIllustrativeImages(generatedArticles);
   await writeJson("articles.json", articles);
 
   const items = await localizeImages(toBuzzItems(articles));

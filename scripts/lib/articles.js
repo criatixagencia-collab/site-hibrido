@@ -290,6 +290,8 @@ function localArticle(item) {
 ${referencesNote(item)}`,
     body,
     editorialMeta: {
+      originalTitle: item.title,
+      sourceUrl: item.link,
       sourceCount: item.sourceCount,
       evidenceSources: item.evidenceSources || [item.source],
       trendBoost: item.trendBoost,

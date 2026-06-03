@@ -24,6 +24,18 @@ Quando o usuario pedir um "site de hoje", "HTML de teste", "filtrar noticias" ou
 - Deixar fontes no rodape da materia e manter o corpo do texto limpo, com atribuicoes apenas quando forem necessarias por seguranca jornalistica.
 - Para materia principal, respeitar 350+ palavras, 2.200+ caracteres e 6+ paragrafos sempre que houver informacao factual suficiente.
 
+## Regra de imagem
+
+- A imagem publicada nao deve ser copiada da materia original nem do site usado como fonte da noticia.
+- Nao usar `og:image`, imagem RSS ou foto baixada diretamente da pagina que publicou a noticia.
+- A imagem deve ser ilustrativa e relacionada ao personagem, obra, programa, evento ou contexto geral.
+- Preferir arquivo, foto de perfil publico, material de divulgacao, rede oficial ou pagina que nao esteja cobrindo exatamente a mesma noticia.
+- A OpenAI deve sugerir `imageSearchQuery` e, quando houver candidatas, ajudar a escolher uma imagem coerente que nao venha das fontes bloqueadas.
+- Quando a noticia falar de uma pessoa especifica e houver perfil publico/oficial mapeado, usar Apify para buscar imagens recentes do Instagram e deixar a OpenAI escolher a melhor foto ilustrativa.
+- A foto do Instagram nao precisa ser da noticia exata; ela deve representar bem a pessoa, com enquadramento limpo e sem expor criancas ou terceiros sem necessidade.
+- O credito deve deixar claro quando for imagem ilustrativa.
+- Se nao houver imagem segura, usar placeholder em vez de copiar a foto da noticia.
+
 ## Tom inicial
 
 - Direto

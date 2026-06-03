@@ -24,6 +24,18 @@ Google News RSS + Google Trends RSS
          fallback local escreve uma materia cautelosa, sem bastidor editorial no corpo
   -> data/articles.json
     -> posts prontos com html, body, excerpt, tags, fonte original e metadados internos
+  -> scripts/lib/illustrative-images.js
+    -> usa imageSearchQuery sugerida pela OpenAI
+    -> se a materia falar de pessoa com perfil mapeado em data/instagram-profiles.json:
+         Apify busca posts recentes do Instagram publico/oficial
+         OpenAI visual escolhe a melhor foto ilustrativa
+         foto e salva com credito de Instagram
+       senao:
+         segue para busca ilustrativa aberta
+    -> busca imagens candidatas fora das fontes da noticia
+    -> bloqueia dominio/site que publicou a materia original ou o mesmo cluster
+    -> OpenAI escolhe a candidata mais coerente quando houver opcoes
+    -> se nao houver candidata segura, usa placeholder
   -> scripts/lib/local-images.js
     -> baixa imagem remota quando possivel e salva em public/images/auto
   -> data/hybrid-feed.json
@@ -83,8 +95,10 @@ OpenAI como editor
 
 Imagem
   -> listar imagens candidatas
-  -> preferir imagem da fonte original, assessoria, rede oficial ou banco permitido
-  -> usar OpenAI para escolher a imagem mais adequada entre candidatas
+  -> nunca usar imagem da fonte original nem do artigo que serviu como referencia
+  -> para pessoa especifica, preferir Instagram publico/oficial via Apify quando houver perfil mapeado
+  -> senao, preferir imagem ilustrativa coerente: arquivo, perfil publico, rede oficial, banco permitido ou pagina relacionada que nao cobre a mesma noticia
+  -> usar OpenAI para escolher a imagem mais adequada entre candidatas e rejeitar fonte proibida
   -> registrar credito e motivo interno
 ```
 
