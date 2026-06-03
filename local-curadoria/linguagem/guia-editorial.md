@@ -24,6 +24,15 @@ Quando o usuario pedir um "site de hoje", "HTML de teste", "filtrar noticias" ou
 - Deixar fontes no rodape da materia e manter o corpo do texto limpo, com atribuicoes apenas quando forem necessarias por seguranca jornalistica.
 - Para materia principal, respeitar 350+ palavras, 2.200+ caracteres e 6+ paragrafos sempre que houver informacao factual suficiente.
 
+## Regra de montagem do site
+
+- A home deve ser um feed vertical com todas as materias em sequencia.
+- Cada item da home mostra editoria, titulo, linha de apoio e imagem ilustrativa.
+- A home nao deve exibir o texto completo da materia.
+- Ao clicar em uma materia, abrir uma pagina propria com a materia completa.
+- Blocos como "mais vistas do dia", "mais lidas" ou recomendacoes entram na pagina interna da materia, nunca substituem o feed da home.
+- O titulo da home e o titulo da pagina interna precisam ser o mesmo titulo jornalistico aprovado.
+
 ## Regra de imagem
 
 - A imagem publicada nao deve ser copiada da materia original nem do site usado como fonte da noticia.
@@ -35,6 +44,7 @@ Quando o usuario pedir um "site de hoje", "HTML de teste", "filtrar noticias" ou
 - A foto do Instagram nao precisa ser da noticia exata; ela deve representar bem a pessoa, com enquadramento limpo e sem expor criancas ou terceiros sem necessidade.
 - O credito deve deixar claro quando for imagem ilustrativa.
 - Se nao houver imagem segura, usar placeholder em vez de copiar a foto da noticia.
+- O layout deve preservar o enquadramento da imagem em telas largas e pequenas. Nao cortar rostos ou partes importantes apenas para preencher a caixa; quando houver risco de corte, usar enquadramento contido com fundo neutro.
 
 ## Tom inicial
 
@@ -62,6 +72,9 @@ Quando o usuario pedir um "site de hoje", "HTML de teste", "filtrar noticias" ou
 - Separar fato confirmado de rumor, especulacao ou opiniao.
 - Manter nomes, datas, locais e numeros corretos.
 - Usar titulos fortes, mas sem inventar informacao.
+- Nao juntar titulo copiado da fonte com complemento generico de editoria.
+- Nao usar formulas genericas como "movimenta debate no cinema", "repercute no entretenimento" ou "volta aos holofotes".
+- Se a noticia envolver internacao, saude, diagnostico, cirurgia ou recuperacao de uma personalidade, tratar como Famosos ou TV, conforme o caso, e nao como Cinema apenas porque a pessoa e atriz ou ator.
 - Usar frases curtas.
 - Evitar adjetivo demais.
 - Explicar rapidamente quem e a pessoa quando isso ajudar o leitor.

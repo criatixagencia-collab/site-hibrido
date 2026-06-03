@@ -117,6 +117,10 @@ function validateArticle(article, item) {
   const publicText = [article.title, article.excerpt, ...(article.body || [])].join(" ");
   if (hasInternalPublicCopy(publicText)) issues.push("linguagem interna ou bastidor editorial");
   if (titleLooksCopied(item.title, article.title)) issues.push("titulo parecido demais com o titulo do RSS");
+  if (/movimenta debate|repercute no entretenimento|volta aos holofotes/i.test(article.title || "")) {
+    issues.push("titulo generico ou incoerente");
+  }
+  if ((article.title || "").length > 112) issues.push("titulo longo demais");
   if ((article.body || []).length < 5) issues.push("corpo curto demais");
   return issues;
 }
@@ -131,13 +135,16 @@ function subjectName(item) {
 
 function categoryFor(item) {
   const text = `${item.title} ${item.summary}`.toLowerCase();
+  if (/internad|hospital|diagn[oó]stico|infec[cç][aã]o|cirurgia|sa[uú]de|doen[cç]a|recupera/.test(text)) {
+    return "Famosos";
+  }
   if (/novela|ibope|audi[eê]ncia|reality|casa do patr[aã]o|tv|televis[aã]o/.test(text)) {
     return "Televisao";
   }
-  if (/filme|cinema|bilheteria|ator|atriz|he-man/.test(text)) return "Cinema";
+  if (/filme|cinema|bilheteria|he-man/.test(text)) return "Cinema";
   if (/netflix|streaming|s[eé]rie/.test(text)) return "Streaming";
   if (/m[uú]sica|cantor|cantora|show|chico|caetano|xuxa/.test(text)) return "Musica";
-  if (/virginia|leonardo|famos/.test(text)) return "Famosos";
+  if (/virginia|leonardo|famos|ator|atriz|apresentador|influenciador/.test(text)) return "Famosos";
   return "Entretenimento";
 }
 
@@ -237,12 +244,12 @@ ${(article.body || []).join("\n\n")}
 function publicFallbackTitle(item) {
   const subject = subjectName(item);
   const category = categoryFor(item);
-  if (category === "Televisao") return `${subject} ganha novo capitulo na TV`;
-  if (category === "Cinema") return `${subject} movimenta debate no cinema`;
-  if (category === "Streaming") return `${subject} vira destaque no streaming`;
-  if (category === "Musica") return `${subject} repercute entre nomes da musica`;
-  if (category === "Famosos") return `${subject} volta aos holofotes entre famosos`;
-  return `${subject} repercute no entretenimento`;
+  if (category === "Televisao") return `${subject} tem nova atualizacao na TV`;
+  if (category === "Cinema") return `${subject} tem nova atualizacao no cinema`;
+  if (category === "Streaming") return `${subject} tem novidade no streaming`;
+  if (category === "Musica") return `${subject} tem nova atualizacao na musica`;
+  if (category === "Famosos") return `${subject} atualiza fas sobre nova fase`;
+  return `${subject} tem nova atualizacao`;
 }
 
 function buildBody(item) {
@@ -313,6 +320,8 @@ Regras obrigatorias:
 - A materia NAO pode mencionar curadoria, selecao, sistema, ranking, radar, Google Trends, algoritmo, mesa automatica, "foi escolhido porque" ou bastidor editorial.
 - Nao copie frases das fontes.
 - O titulo gerado precisa ser novo. Nao repita nem parafraseie de perto o titulo RSS.
+- Nao cole um titulo de fonte com complemento generico. Nunca use formulas como "movimenta debate no cinema", "repercute no entretenimento" ou "volta aos holofotes".
+- Se a noticia for sobre saude, internacao, hospital, diagnostico ou cirurgia de uma personalidade, classifique como Famosos, nao como Cinema apenas porque a pessoa e atriz/ator.
 - Use apenas fatos presentes nos dados fornecidos. Se faltar detalhe, escreva com cautela.
 - Separe fato publicado de especulacao. Nao invente fala, data, valor, acusacao ou bastidor.
 - O corpo deve ter pelo menos 6 paragrafos, 350 palavras e 2200 caracteres quando houver informacao suficiente.

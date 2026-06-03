@@ -200,7 +200,8 @@ function stylesheet(prefix = "") {
     .media-box img {
       width: 100%;
       aspect-ratio: 4 / 5;
-      object-fit: cover;
+      object-fit: contain;
+      background: var(--wash);
     }
     figcaption {
       padding: var(--space-sm) var(--space-md);
@@ -231,36 +232,44 @@ function stylesheet(prefix = "") {
       line-height: 1.4;
       text-align: right;
     }
-    .card-grid {
+    .feed-list {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      border-bottom: 1px solid var(--line);
     }
-    .news-card {
+    .feed-item {
+      display: grid;
+      grid-template-columns: minmax(0, .95fr) minmax(220px, .38fr);
+      gap: var(--space-2xl);
+      padding: clamp(24px, 4vw, 44px);
+      border-bottom: 1px solid var(--line);
+      align-items: center;
+      background: var(--surface);
+    }
+    .feed-copy {
       display: grid;
       gap: var(--space-md);
-      min-height: 280px;
-      padding: var(--space-xl);
-      border-right: 1px solid var(--line);
-      align-content: start;
+      min-width: 0;
     }
-    .news-card:nth-child(3n) { border-right: 0; }
-    .news-card h3 {
+    .feed-copy h2 {
       font-family: Georgia, Times New Roman, serif;
-      font-size: clamp(1.45rem, 2.2vw, 2.15rem);
-      line-height: 1;
+      font-size: clamp(2rem, 4.8vw, 4.6rem);
+      line-height: .92;
     }
-    .news-card p {
+    .feed-copy p {
+      max-width: 780px;
       color: var(--muted);
-      line-height: 1.48;
-      font-weight: 680;
+      font-size: clamp(1rem, 1.6vw, 1.18rem);
+      line-height: 1.42;
+      font-weight: 760;
     }
-    .card-number {
+    .feed-number {
       color: var(--red-deep);
       font-family: Georgia, Times New Roman, serif;
       font-size: 2.1rem;
       font-weight: 900;
       line-height: 1;
+    }
+    .feed-item .media-box img {
+      aspect-ratio: 16 / 10;
     }
     .article-layout {
       display: grid;
@@ -364,8 +373,8 @@ function stylesheet(prefix = "") {
       .lead, .article-layout { grid-template-columns: 1fr; }
       .lead .media-box { order: -1; }
       .media-box img { aspect-ratio: 16 / 11; }
-      .card-grid { grid-template-columns: 1fr; }
-      .news-card { border-right: 0; border-bottom: 1px solid var(--line); min-height: auto; }
+      .feed-item { grid-template-columns: 1fr; }
+      .feed-item .media-box { order: -1; }
       .section-band { display: grid; }
       .section-band p { text-align: left; }
       .site-footer { display: grid; }
@@ -426,26 +435,29 @@ function renderLead(article) {
 }
 
 function renderCard(article, index, prefix = "") {
-  return `<a class="news-card" href="${escapeHtml(articleUrl(article, prefix))}">
-    <span class="card-number">${String(index + 1).padStart(2, "0")}</span>
-    <span class="section-label">${escapeHtml(article.category || "Pop")}</span>
-    <h3>${escapeHtml(article.title)}</h3>
-    <p>${escapeHtml(article.excerpt)}</p>
+  return `<a class="feed-item" href="${escapeHtml(articleUrl(article, prefix))}">
+    <div class="feed-copy">
+      <span class="feed-number">${String(index + 1).padStart(2, "0")}</span>
+      <span class="section-label">${escapeHtml(article.category || "Entretenimento")}</span>
+      <h2>${escapeHtml(article.title)}</h2>
+      <p>${escapeHtml(article.excerpt)}</p>
+    </div>
+    <figure class="media-box">
+      <img src="${escapeHtml(imageFor(article))}" alt="${escapeHtml(article.imageAlt || article.title)}" loading="${index === 0 ? "eager" : "lazy"}">
+      <figcaption>${escapeHtml(article.imageCredit || "Imagem ilustrativa")}</figcaption>
+    </figure>
   </a>`;
 }
 
 function renderHome(articles) {
-  const items = articles.slice(0, 6);
-  const lead = items[0];
-  const cards = items.slice(1);
+  const items = articles;
   const body = `<main>
-    ${lead ? renderLead(lead) : ""}
     <section class="section-band">
-      <h2>Mais lidas do dia</h2>
-      <p>Um giro rápido pelos assuntos que movimentam a cultura pop nesta edição.</p>
+      <h2>Últimas notícias</h2>
+      <p>Entretenimento, TV, cinema, música, streaming e famosos em atualização contínua.</p>
     </section>
-    <section class="card-grid">
-      ${cards.map((article, index) => renderCard(article, index)).join("")}
+    <section class="feed-list" aria-label="Feed de noticias">
+      ${items.map((article, index) => renderCard(article, index)).join("")}
     </section>
   </main>`;
 
