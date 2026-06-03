@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BuzzNews — Reescrita (estático)</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#fffaf2;color:#16120d}
+    main{max-width:760px;margin:0 auto;padding:18px}
+    header{Padding:18px 0;border-bottom:1px solid #e1d8cc}
+    h1{font-family:Impact,Haettenschweiler,Arial Narrow Bold,sans-serif;font-size:28px;margin:0}
+    .story{border-bottom:1px solid #e1d8cc;padding:20px 0}
+    .kicker{display:inline-block;background:#dc2626;color:#fff;padding:6px 9px;font-weight:900;font-size:11px;text-transform:uppercase}
+    h2{font-size:22px;margin:12px 0}
+    .excerpt{font-weight:700;color:#2d2721}
+    figure{margin:16px 0;background:#eee6da}
+    img{display:block;max-width:100%;height:auto}
+    .source{color:#756b61;font-weight:800;font-size:12px;text-transform:uppercase}
+    details{margin-top:12px}
+    summary{cursor:pointer;color:#dc2626;font-weight:900}
+    .body{margin-top:12px;color:#2d2721;line-height:1.6}
+    .meta{font-size:12px;color:#756b61;margin-top:8px}
+    .small{font-size:13px;color:#555;margin-top:6px}
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>BuzzNews — Reescrita (estático)</h1>
+      <div style="margin-top:10px" class="small">Versão estática para visualização local (file://)</div>
+    </header>
+
+    <section id="feed"></section>
+  </main>
+
+  <script>
+    // Inlined feed (generated from data/hybrid-feed.json)
+    window.feed = 

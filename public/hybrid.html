@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BuzzNews - Preview Mobile</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #fffaf2;
+        --paper: #ffffff;
+        --text: #16120d;
+        --muted: #756b61;
+        --line: #e1d8cc;
+        --accent: #dc2626;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 250, 242, 0.96);
+        padding: 14px 16px;
+        backdrop-filter: blur(10px);
+      }
+
+      .brand {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: 34px;
+        line-height: 0.9;
+        text-transform: uppercase;
+        letter-spacing: 0;
+      }
+
+      .tag {
+        max-width: 130px;
+        color: var(--muted);
+        font-size: 10px;
+        font-weight: 800;
+        line-height: 1.2;
+        text-align: right;
+        text-transform: uppercase;
+      }
+
+      main {
+        max-width: 560px;
+        margin: 0 auto;
+        background: var(--paper);
+      }
+
+      .status {
+        border-bottom: 1px solid var(--line);
+        padding: 14px 16px;
+      }
+
+      .status-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .status-text {
+        display: grid;
+        gap: 4px;
+        color: var(--muted);
+        font-size: 10px;
+        font-weight: 800;
+        line-height: 1.2;
+        text-transform: uppercase;
+      }
+
+      button {
+        border: 1px solid var(--line);
+        background: var(--paper);
+        color: var(--accent);
+        padding: 10px 12px;
+        font-size: 11px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      button:disabled {
+        opacity: 0.55;
+      }
+
+      .story {
+        border-bottom: 1px solid var(--line);
+        padding: 26px 16px 32px;
+      }
+
+      .kicker {
+        display: inline-flex;
+        margin-bottom: 12px;
+        background: var(--accent);
+        color: #ffffff;
+        padding: 6px 9px;
+        font-size: 11px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+      }
+
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+
+      h2 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-size: clamp(44px, 15vw, 76px);
+        font-weight: 900;
+        line-height: 0.86;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        overflow-wrap: anywhere;
+      }
+
+      .excerpt {
+        margin-top: 16px;
+        color: #2d2721;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.25;
+      }
+
+      figure {
+        margin: 22px -16px 0;
+        background: #eee6da;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+      }
+
+      figcaption {
+        padding: 8px 16px 0;
+        color: var(--muted);
+        background: var(--paper);
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 1.35;
+        text-transform: uppercase;
+        letter-spacing: 0.11em;
+      }
+
+      details {
+        margin-top: 18px;
+        border-top: 1px solid var(--line);
+        padding-top: 14px;
+      }
+
+      summary {
+        cursor: pointer;
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .body {
+        margin-top: 18px;
+        display: grid;
+        gap: 16px;
+        color: #2d2721;
+        font-size: 18px;
+        line-height: 1.55;
+      }
+
+      .source {
+        display: inline-flex;
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.08em;
+      }
+
+      .empty {
+        padding: 26px 16px 32px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="brand">BuzzNews</h1>
+      <div class="tag">Preview mobile estatico</div>
+    </header>
+    <main>
+      <section class="status">
+        <div class="status-row">
+          <div class="status-text">
+            <span id="updated">Carregando radar</span>
+            <span id="count">0 destaques</span>
+          </div>
+          <button id="refresh" type="button">Atualizar</button>
+        </div>
+      </section>
+      <section id="feed">
+        <div class="empty">Carregando BuzzNews...</div>
+      </section>
+    </main>
+
+    <script>
+      const feed = document.querySelector("#feed");
+      const updated = document.querySelector("#updated");
+      const count = document.querySelector("#count");
+      const refresh = document.querySelector("#refresh");
+
+      function slugId(item) {
+        return (
+          item.slug ||
+          String(item.id || "")
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, "-")
+        );
+      }
+
+      function fmtDate(value) {
+        if (!value) return "Radar local";
+        return new Intl.DateTimeFormat("pt-BR", {
+          day: "2-digit",
+          month: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+        }).format(new Date(value));
+      }
+
+      function imageFor(item) {
+        return item.image || "/images/news-placeholder.svg";
+      }
+
+      function paragraphs(item) {
+        const body =
+          Array.isArray(item.body) && item.body.length ? item.body : [item.excerpt || ""];
+        return body
+          .filter(Boolean)
+          .map((paragraph) => `<p>${paragraph}</p>`)
+          .join("");
+      }
+
+      function story(item) {
+        const source =
+          item.sourceLabel || (item.sources && item.sources[0]?.label) || "Fonte original";
+        const href = item.sourceUrl || (item.sources && item.sources[0]?.url) || "#";
+        return `
+          <article class="story" id="${slugId(item)}">
+            <div class="kicker">${item.category || "Entretenimento"}</div>
+            <h2>${item.title}</h2>
+            <p class="excerpt">${item.excerpt || ""}</p>
+            <figure>
+              <img src="${imageFor(item)}" alt="${item.title}" loading="lazy" onerror="this.onerror=null;this.src='/images/news-placeholder.svg';">
+              <figcaption>${item.imageCredit || "Imagem: BuzzNews"}</figcaption>
+            </figure>
+            <details>
+              <summary>Ler noticia completa</summary>
+              <div class="body">${paragraphs(item)}</div>
+            </details>
+            <a class="source" href="${href}" target="_blank" rel="noopener noreferrer">
+              ${source}
+            </a>
+          </article>
+        `;
+      }
+
+      function render(data) {
+        const items = data.items || [];
+        updated.textContent = fmtDate(data.generatedAt);
+        count.textContent = `${items.length} destaques`;
+        feed.innerHTML = items.length
+          ? items.map(story).join("")
+          : '<div class="empty">Nenhum item carregado.</div>';
+      }
+
+      async function load() {
+        const response = await fetch("/api/news");
+        render(await response.json());
+      }
+
+      async function runRefresh() {
+        refresh.disabled = true;
+        refresh.textContent = "Atualizando";
+        try {
+          const response = await fetch("/api/refresh", { method: "POST" });
+          const data = await response.json();
+          render({ generatedAt: data.generatedAt, items: data.items || [] });
+        } finally {
+          refresh.disabled = false;
+          refresh.textContent = "Atualizar";
+        }
+      }
+
+      refresh.addEventListener("click", runRefresh);
+      load().catch(() => {
+        feed.innerHTML = '<div class="empty">Falha ao carregar API.</div>';
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Preview Offline — BuzzNews Híbrido</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.5;margin:0;padding:24px;background:#f7f7f8;color:#111}
+    .container{max-width:900px;margin:0 auto}
+    h1{font-size:20px;margin:0 0 16px}
+    .item{background:#fff;border-radius:8px;padding:16px;margin:12px 0;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+    .meta{color:#666;font-size:13px;margin-bottom:8px}
+    .excerpt{margin:8px 0;color:#222}
+    .show-body{margin-top:12px}
+    .body{margin-top:12px;color:#222}
+    img.hero{width:100%;height:auto;border-radius:6px;margin-top:8px}
+    button{background:#0078d4;color:#fff;border:0;padding:8px 12px;border-radius:6px;cursor:pointer}
+    button.secondary{background:#e1e1e1;color:#111}
+    .sources{font-size:12px;color:#666;margin-top:10px}
+    .small{font-size:13px;color:#444}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Preview Offline — BuzzNews Híbrido</h1>
+    <p class="small">Arquivo local que inclui o feed embutido. Clique em "Abrir matéria" para ver o texto completo.</p>
+
+    <div id="feed"></div>
+  </div>
+
+  <script>
+    // Feed embutido (gerado a partir de data/hybrid-feed.json)
+    const FEED = {
+  "generatedAt": "2026-05-25T21:00:04.346Z",
+  "count": 6,
+  "newsCount": 18,
+  "items": [
+    {
+      "id": "TyBxdWUgc2Ugc2FiZSBz",
+      "slug": "festa-da-filha-de-virginia-fonseca-reuniao-de-familia-e-celebracao-de-luxo",
+      "category": "Entretenimento",
+      "title": "Festa da filha de Virgínia Fonseca reúne família e convidados em celebração de luxo",
+      "excerpt": "Virginia Fonseca escolheu um look discreto para a festa de 5 anos de Maria Alice; convidados dividiram registros nas redes.",
+      "body": [
+        "A comemoração pelos 5 anos de Maria Alice, filha de Virgínia Fonseca e Zé Felipe, foi registrada por diversos veículos de entretenimento e ganhou repercussão nas redes sociais. A celebração, descrita pelas coberturas como uma festa de alto padrão, reuniu familiares, amigos e convidados do universo digital e musical que acompanham a família.",
+        "Nas imagens publicadas por convidados e perfis próximos à família, Virgínia aparece em um visual discreto — o chamado 'pretinho básico' — enquanto a decoração e a ambientação seguiram um padrão de produção cuidadoso, com elementos cenográficos e arranjos pensados para a fotografia e para a circulação dos convidados.",
+        "Fontes consultadas pelos veículos que cobriram o evento apontaram a presença de serviços profissionais de buffet, equipe de decoração e recreação infantil, além de atrações pontuais voltadas ao público presente. Não houve divulgação oficial de uma nota de assessoria com valores fechados, mas a somatória de fornecedores e serviços alinhados a um evento personalizado foi repetidamente mencionada nas apurações.",
+        "Algumas publicações repercutiram estimativas que circularam em redes e conversas com fornecedores, enquanto outras limitaram-se a descrever o formato e a lista de convidados, preservando que não houve confirmação pública sobre custos exatos. As matérias priorizaram relatos visuais e posts dos participantes como base da apuração.",
+        "A repercussão nas redes sociais foi variada: houve quem elogiasse a elegância do look e a organização do evento, e também quem questionasse o contraste entre festas de ostentação e o cenário econômico mais amplo. Comentários e imagens compartilhadas por convidados foram parte central da cobertura, já que muitas cenas do evento foram postadas em contas pessoais.",
+        "Do ponto de vista editorial, a escolha de dar destaque a essa festa seguiu critérios de repetição da pauta em diferentes veículos e de apelo popular: celebridades com alta exposição e celebrações familiares costumam gerar engajamento imediato nas plataformas. O texto sintetiza as informações publicadas sem acrescentar dados não verificados, e remete o leitor às fontes originais para confirmação detalhada.",
+        "Para ler as versões completas das reportagens e ver as imagens originais, acesse as fontes listadas: O GLOBO, Globo, Notícias da TV, Jornal Correio e Rádio Itatiaia."
+      ],
+      "image": "https://festasbrasil.com.br/wp-content/uploads/2023/10/A-luxuosa-festa-da-filha-de-Virginia-e-Ze-Felipe-4-1024x569.jpg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem: busca automatica / O GLOBO",
+      "sourceLabel": "Origem: O GLOBO",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUVVEaUFQSzFxbGUzcm54S2doNEtiLXp6MXR6TjU5OWpqYjhsV0VZV19MR1IzS1ltVU5rN1ZIU3NjcDlSNXpFdE4yNnd4S3RueEQ2b3FDMUpGWVZCZnM4NEJyNEVfaE84cWplenVDdVdYWXdHNWNGN0dnMkdibFhsTDctOWdEM01DUHNlUGJDN2NwY0ZfUFBUSGhHWEJLa3prUzJNdk9mR1lMVXQ4aWk4ZTlUZkFlOERmbzVkQ2ZUblR1ZXNCeGRkVmNqT0xOZ9IB3AFBVV95cUxORzBvcG1DM1RDZkpBNjZXSmNwX29rTzU2aU5teDNVRTdNYWphS2JmNS1KMmlCaEstdmQzVGd4MU8zSjBCWDN6aElvV0pjMHptQ1AzLUJUU2hiZmtpQzNGR1BFdjJsbXNyRE5qdkpzVG15NUYtbU1oUW84TGtOQzJWYnRHV0lvZWtIM194LXpySmg5aHlkaEtIWVExaUV5dmhLSVBtUXItUFdHaUhFZ0RBTllkdU9jMVZaWlhSOGMySmhoV1hfVi1jM0RMdXhPVDJHVGNpQk1mYUZUMFgy?oc=5"
+    },
+    {
+      "id": "Q2FldGFubyBWZWxvc28g",
+      "slug": "caetano-veloso-ouve-nome-de-virginia-fonseca-e-reacao-do-cantor-viraliza-sou-um-alienado",
+      "category": "Entretenimento",
+      "title": "Caetano Veloso ouve nome de Virginia Fonseca, e reação do cantor viraliza: 'Sou um alienado'",
+      "excerpt": "Caetano Veloso diz que não sabe quem é Virginia Fonseca | #AHoraDaVenenosa #Shorts R7",
+      "body": [
+        "Caetano Veloso ouve nome de Virginia Fonseca, e reação do cantor viraliza: 'Sou um alienado' apareceu entre os assuntos de entretenimento com cobertura repetida nesta rodada. O destaque foi selecionado automaticamente depois de cruzar sinais de publicacao recente, quantidade de fontes e aderencia ao universo de celebridades, televisao, musica, cinema e cultura pop.",
+        "Caetano Veloso diz que não sabe quem é Virginia Fonseca | #AHoraDaVenenosa #Shorts R7",
+        "A selecao entrou no BuzzNews porque apareceu em 5 fontes diferentes: O GLOBO, R7, purepeople.com.br, Estado de Minas, Diário do Grande ABC. O assunto tambem cruzou com sinais do Google Trends no Brasil, por isso ganhou prioridade extra no radar.",
+        "Esse tipo de leitura evita depender de uma unica publicacao isolada. Quando varios veiculos tratam do mesmo tema, o sistema entende que ha mais chance de relevancia publica e menos risco de transformar uma pauta exclusiva ou fragil em chamada principal.",
+        "A proposta do hibrido e juntar a cara visual do BuzzNews com uma mesa automatica mais criteriosa. O feed continua rapido para leitura no celular, mas a selecao passa a registrar sinais editoriais que ajudam a separar curiosidade passageira de assunto realmente quente.",
+        "Mesmo com automacao, o texto preserva limite editorial. O sistema nao deve inventar fala, data, valor, acusacao ou bastidor que nao esteja sustentado pelo material coletado, e sempre mantem o link para a origem principal para leitura completa.",
+        "Para o leitor, o resultado e uma noticia direta, com contexto suficiente para entender por que o assunto subiu. Para quem administra o site, a vantagem esta na fila dinamica, pronta para virar post, rascunho de WordPress ou chamada de rede social.",
+        "A rotina tambem pode rodar por cron, atualizando o radar em intervalos definidos. Assim, o site ganha comportamento vivo sem abandonar a identidade editorial, visual forte e leitura em blocos que ja estavam no BuzzNews original."
+      ],
+      "image": "https://www.bandab.com.br/wp-content/uploads/2022/11/caetano-veloso-e-gal-costa.jpg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem: busca automatica / O GLOBO",
+      "sourceLabel": "Origem: O GLOBO",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcUNrbjlweXF6d3VNTHFUYkxsWlhGTk5sZ2hqajJHcGc5SDc5Z3d0U2MxUkltNUt2bHRlYTRvWUhpWFYxZ193WWlnLW01TWhFYWlnX25ENC1PQXMwM1VKX3Y1WjhVeURodGhGbkhZYWlaX25KYmNWVmpxUHBlZkN1ZTZWUFpZVldFUnBSSEVISkZ6M3dHbGdhN0R3dnYzOUVkaGRlUkdGaHJiLVhSR0gteEhSMHdLdGlSNjNuRUNzd28wejFVUHNGM3pXSG9RM0Z4MVJlVUNjSUdtRWJLMzBZ0gHuAUFVX3lxTE5rdDhjV1VYWUc2MVFaLTlSRjkwbmlZUHVMNkVLV1hXclNyT0hGeHVpU1RodzB0X2xaRGdOdnRKMUZnRjc1T2kydE8xaFBrX3JTUlVlZVVhd19Bb1pGdkgxeV96WGhKdk05LUhUVEN2UU4tSzJPcU9qQ0tjUVRFdldMeXdjdVMycFV1UllPdk9obWNlS2k2UW9qMEZjSVltYm5RRFNBNVc4UDI3T2VaQkhtRk9EdjZyaEhsRGI1elVGZTVpQnNDbjdneU00YkpaOXB1dWlqTXJRS0lhQ0pUQWlGRHpfeTZUQ0FTcmhpQ2c?oc=5"
+    },
+    {
+      "id": "U2VydGFuZWpvIElzcmFl",
+      "slug": "sertanejo-israel-da-dupla-com-rodolffo-sofre-acidente-de-carro-na-estrada",
+      "category": "Entretenimento",
+      "title": "Sertanejo Israel, da dupla com Rodolffo, sofre acidente de carro na estrada",
+      "excerpt": "Cantor Israel, da dupla com Rodolffo, sofre acidente na BR-153, em Goiânia G1",
+      "body": [
+        "Sertanejo Israel, da dupla com Rodolffo, sofre acidente de carro na estrada apareceu entre os assuntos de entretenimento com cobertura repetida nesta rodada. O destaque foi selecionado automaticamente depois de cruzar sinais de publicacao recente, quantidade de fontes e aderencia ao universo de celebridades, televisao, musica, cinema e cultura pop.",
+        "Cantor Israel, da dupla com Rodolffo, sofre acidente na BR-153, em Goiânia G1",
+        "A selecao entrou no BuzzNews porque apareceu em 5 fontes diferentes: R7 Entretenimento, G1, CNN Brasil, Estadão, VEJA.",
+        "Esse tipo de leitura evita depender de uma unica publicacao isolada. Quando varios veiculos tratam do mesmo tema, o sistema entende que ha mais chance de relevancia publica e menos risco de transformar uma pauta exclusiva ou fragil em chamada principal.",
+        "A proposta do hibrido e juntar a cara visual do BuzzNews com uma mesa automatica mais criteriosa. O feed continua rapido para leitura no celular, mas a selecao passa a registrar sinais editoriais que ajudam a separar curiosidade passageira de assunto realmente quente.",
+        "Mesmo com automacao, o texto preserva limite editorial. O sistema nao deve inventar fala, data, valor, acusacao ou bastidor que nao esteja sustentado pelo material coletado, e sempre mantem o link para a origem principal para leitura completa.",
+        "Para o leitor, o resultado e uma noticia direta, com contexto suficiente para entender por que o assunto subiu. Para quem administra o site, a vantagem esta na fila dinamica, pronta para virar post, rascunho de WordPress ou chamada de rede social.",
+        "A rotina tambem pode rodar por cron, atualizando o radar em intervalos definidos. Assim, o site ganha comportamento vivo sem abandonar a identidade editorial, visual forte e leitura em blocos que ja estavam no BuzzNews original."
+      ],
+      "image": "https://www.tupi.fm/wp-content/uploads/israel-e-rodolfo-e1639913585497.jpg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem: busca automatica / R7 Entretenimento",
+      "sourceLabel": "Origem: R7 Entretenimento",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdnJaSGRyRjZocnpwNzl6eUN5aHZQdnhwRHA2MWVJQWtzYVI4bEUxYnhWRWNieVlFVjJVMXI4d2lEZXVTN2xrUFk4Y2J0TTA4b2hZSjlKUGFZQTgwNThsRGZEVk44S3NxYW9JVThtQ0JTc0x5eXVOZlVQdWdDczNQcllRcE51VE52Z0owVzIxbGI3QWozSlRSUDl1dG5QUXF3WU9VY0N6VC0tb2pDUkl2QXBNRVBIcjhQbkFHRS0zR0NBOFF0?oc=5"
+    },
+    {
+      "id": "Q2ludGlhIENoYWdhcywg",
+      "slug": "cintia-chagas-apontada-como-affair-de-murilo-benicio-tem-43-anos-e-e-influenciadora",
+      "category": "Entretenimento",
+      "title": "Cintia Chagas, apontada como affair de Murilo Benício, tem 43 anos e é influenciadora",
+      "excerpt": "Fotografada indo ao teatro com Murilo Benício, Cintia Chagas vivia affair com ator famoso; saiba Extra online",
+      "body": [
+        "Cintia Chagas, apontada como affair de Murilo Benício, tem 43 anos e é influenciadora apareceu entre os assuntos de entretenimento com cobertura repetida nesta rodada. O destaque foi selecionado automaticamente depois de cruzar sinais de publicacao recente, quantidade de fontes e aderencia ao universo de celebridades, televisao, musica, cinema e cultura pop.",
+        "Fotografada indo ao teatro com Murilo Benício, Cintia Chagas vivia affair com ator famoso; saiba Extra online",
+        "A selecao entrou no BuzzNews porque apareceu em 5 fontes diferentes: NSC Total, Extra online, Estadão, UOL, O Liberal.",
+        "Esse tipo de leitura evita depender de uma unica publicacao isolada. Quando varios veiculos tratam do mesmo tema, o sistema entende que ha mais chance de relevancia publica e menos risco de transformar uma pauta exclusiva ou fragil em chamada principal.",
+        "A proposta do hibrido e juntar a cara visual do BuzzNews com uma mesa automatica mais criteriosa. O feed continua rapido para leitura no celular, mas a selecao passa a registrar sinais editoriais que ajudam a separar curiosidade passageira de assunto realmente quente.",
+        "Mesmo com automacao, o texto preserva limite editorial. O sistema nao deve inventar fala, data, valor, acusacao ou bastidor que nao esteja sustentado pelo material coletado, e sempre mantem o link para a origem principal para leitura completa.",
+        "Para o leitor, o resultado e uma noticia direta, com contexto suficiente para entender por que o assunto subiu. Para quem administra o site, a vantagem esta na fila dinamica, pronta para virar post, rascunho de WordPress ou chamada de rede social.",
+        "A rotina tambem pode rodar por cron, atualizando o radar em intervalos definidos. Assim, o site ganha comportamento vivo sem abandonar a identidade editorial, visual forte e leitura em blocos que ja estavam no BuzzNews original."
+      ],
+      "image": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2024/10/10104958/quem-e-cintia-chagas-influenciadora-viveu-casamento-conturbado-com-lucas-bove_widelg.jpg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem: busca automatica / NSC Total",
+      "sourceLabel": "Origem: NSC Total",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUlFoeDlkU0l5ZjhIWTdiOEdXN0JqNWZXZnNvNmxQcm1qekl1WEJ4N2hyWUw4LVIwU1diVU5zemJ5MFNoOTZyWmZBRnRhMXR4R0l0eUNBdmR1SWEtd3BxeWlVTkFlOHZINHhSWnh4czJCd1ZRdjVWYXFSZ3ZSaXBjZ0VrMzQ0QWx5eG9EUEhxalZ0Q2szeURrUk5BNmRVY3Z6ZVlCU1kwR3hwRjdaXzR2T25ZSnJaUkl5bUx5NQ?oc=5"
+    },
+    {
+      "id": "SW5zcGlyYWRhIGVtIENv",
+      "slug": "iris-stefanelli-quero-ser-veterana-no-bbb-e-diz-quem-vai-causar-sou-eu",
+      "category": "Entretenimento",
+      "title": "Íris Stefanelli diz que quer voltar ao BBB: 'Quem vai causar sou eu'",
+      "excerpt": "Íris Stefanelli se coloca como candidata a veterana no próximo BBB e promete agitar a casa.",
+      "body": [
+        "Íris Stefanelli afirmou publicamente que tem interesse em retornar ao Big Brother Brasil como participante veterana no próximo formato do reality. Em declaração reproduzida por diversas publicações, a influenciadora disse que estaria disposta a entrar no jogo para 'agitar' e promover conflitos que mantenham o público envolvido.",
+        "A notícia ganhou destaque ao ser repercutida por veículos de entretenimento que acompanharam a fala da apresentadora e influenciadora, e passou a figurar no radar editorial por aparecer em múltiplas fontes. A movimentação demonstra que o tema ressoa nas redes e tende a gerar audiência, principal critério para escolhas de pautas do gênero.",
+        "Especialistas em reality shows ouvidos por publicações destacam que participantes com perfil de 'causadores' costumam aumentar a polarização do público e a curva de engajamento nas primeiras semanas. A estratégia de escalar veteranos com personalidade marcante é frequentemente usada por produções para reacender interesse em temporadas já maduras.",
+        "Do ponto de vista da imagem pública, Íris construiu carreira em formato misto entre reality e conteúdo digital, o que a torna conhecida entre diferentes faixas etárias. Sua presença no confinamento, avaliam analistas, poderia atrair tanto o público jovem quanto espectadores que acompanham celebridades consagradas, abrindo espaço para desdobramentos nas redes sociais e nos programas de debate pós-episódio.",
+        "Fontes entrevistadas afirmam ainda que a decisão final sobre participantes passa por negociações com a produção e por avaliação de riscos legais e de imagem. Até o momento, não há confirmação oficial da emissora sobre a lista de veteranos ou sobre convites formais a Íris Stefanelli.",
+        "Em paralelo, o público nas redes reagiu com misto de entusiasmo e crítica: há quem defenda o retorno de nomes polêmicos para aumentar a audiência, enquanto outros pedem foco em participantes inéditos. A repercussão indica que a inclusão de veteranos segue sendo uma ferramenta editorial relevante para formatos que priorizam engajamento ao vivo.",
+        "Acompanhe as atualizações e as confirmações oficiais por meio das páginas das fontes originais listadas; este texto sintetiza as informações publicadas sem acrescentar fatos não verificados pela cobertura disponível."
+      ],
+      "image": "https://via.placeholder.com/1200x700?text=Imagem+indispon%C3%ADvel",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem: substituída automaticamente (placeholder)",
+      "sourceLabel": "Origem: Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZzZNNFZRbXhBODdoR1NKcWtSbVp2RkhWVHd5aUxBU1BBV3FMX2RhcHN2c0JYcmVGdUt3SWs1TVZGVnp0LTZTWkxleTZ6T3AyOHp3MWZ2MmRuNDIwX3hsMGJTODVNc09DUmRzX1BQc3pkVzVLOHlHUWpzRDMzUldET0ZCQXF0Ylhjd0RVUHRLZ3VUSzRYTnJiMHo1dnd3RnBwQldWSXBGcGVBSTJoaEFoaGJ6REY1SDVkRzVOSlNpRjAybFdyMDNGQlptQmtpTGfSAd4BQVVfeXFMUFBVNVBMcl9yaWpZTW1jeHMwaktMWmh6NnpTRWdoYjFjd1VqcVdaWlBKZXppTmtwZHZCeHI0UHhEMzlMcS1VSENJblFLRG1PTDZoR0VWUzNTZzhnTFZKMU81dEVPYkl6UTZiY0JmMWlJR1lCRzJtWFRuSFJhREh2Wk5yZ2t4b1VRVzZ1clhHcmN2bFdMQTZfRVNCd2pBUjh0ZXJzQTZlanF1QS11LU9IVWxXaFBFMUl2ajY3M25DZmdNRVE3QWNNVWREakd5akxwZkpyQnBuWDBXVjRwaXZn?oc=5",
+      "sources": [
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZzZNNFZRbXhBODdoR1NKcWtSbVp2RkhWVHd5aUxBU1BBV3FMX2RhcHN2c0JYcmVGdUt3SWs1TVZGVnp0LTZTWkxleTZ6T3AyOHp3MWZ2MmRuNDIwX3hsMGJTODVNc09DUmRzX1BQc3pkVzVLOHlHUWpzRDMzUldET0ZCQXF0Ylhjd0RVUHRLZ3VUSzRYTnJiMHo1dnd3RnBwQldWSXBGcGVBSTJoaEFoaGJ6REY1SDVkRzVOSlNpRjAybFdyMDNGQlptQmtpTGfSAd4BQVVfeXFMUFBVNVBMcl9yaWpZTW1jeHMwaktMWmh6NnpTRWdoYjFjd1VqcVdaWlBKZXppTmtwZHZCeHI0UHhEMzlMcS1VSENJblFLRG1PTDZoR0VWUzNTZzhnTFZKMU81dEVPYkl6UTZiY0JmMWlJR1lCRzJtWFRuSFJhREh2Wk5yZ2t4b1VRVzZ1clhHcmN2bFdMQTZfRVNCd2pBUjh0ZXJzQTZlanF1QS11LU9IVWxXaFBFMUl2ajY3M25DZmdNRVE3QWNNVWREakd5akxwZkpyQnBuWDBXVjRwaXZn?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "25/05/2026, 18:00",
+      "timeAgo": "Radar ao vivo",
+      "score": 122,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "SXNpcyBWYWx2ZXJkZSBk",
+      "slug": "isis-valverde-diz-que-foi-internada-tres-vezes-neste-ano-devido-a-doenca",
+      "category": "Entretenimento",
+      "title": "Isis Valverde diz que foi internada três vezes neste ano devido à doença",
+      "excerpt": "Isis Valverde internada três vezes: aos 39 anos, atriz de 'Avenida Brasil' revela complicações de saúde com doença sem cura descoberta aos 19. 'Muito agressiva'",
+      "body": [
+        "Isis Valverde diz que foi internada três vezes neste ano devido aos sintomas e complicações. O destaque foi selecionado automaticamente depois de cruzar sinais de publicacao recente e cobertura repetida.",
+        "A selecao entrou no BuzzNews porque apareceu em 5 fontes diferentes: Globo, purepeople.com.br, Metrópoles, VEJA SÃO PAULO, Estrelando.",
+        "Esse tipo de leitura evita depender de uma unica publicacao isolada. Quando varios veiculos tratam do mesmo tema, o sistema entende que ha mais chance de relevancia publica e menos risco de transformar uma pauta exclusiva ou fragil em chamada principal.",
+        "A proposta do hibrido e juntar a cara visual do BuzzNews com uma mesa automatica mais criteriosa. O feed continua rapido para leitura no celular, mas a selecao passa a registrar sinais editoriais que ajudam a separar curiosidade passageira de assunto realmente quente.",
+        "Mesmo com automacao, o texto preserva limite editorial. O sistema nao deve inventar fala, data, valor, acusacao ou bastidor que nao esteja sustentado pelo material coletado, e sempre mantem o link para a origem principal para leitura completa.",
+        "Para o leitor, o resultado e uma noticia direta, com contexto suficiente para entender por que o assunto subiu."
+      ],
+      "image": "https://caras.com.br/media/_versions/2025/07/isis-valverde_gwp9ie26_widelg.jpg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem: busca automatica / Globo",
+      "sourceLabel": "Origem: Globo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOGdwZHA2UXhXT0V6RDFKZkR4QU5zM2FmQm02OE5rcUw4WlZRaGVLVTVSQ3RWUTJFUEx3dm1hN1lZX2V1YUZfTDJQNDktTm1lRWljYldTTDZOZ1lfR1Fnd1ppenpnVmVlSVpwOTRZNWROSDEwZmg2VFEybFlkY1RNRzNFRFVocVhrdmRnZUk3VEhOajk4LWJ3VGRPNU13b3NGRFMyb2FmTU0zY1BxRXktM0RpWjVLNDNEREUzSXNndTA0VFlDdFVOSWV30gHYAUFVX3lxTFAxWHR3eEdlNW53bUFQT0Q2RzV3WWF4bGpKcVhLY0JWQ3VkSENXNUhnSEVpNFpGNlY2Ymp3aTNSajhnRC1hN1czMHhFNldkZ1R5dkZHNjNZU0hDU0h2TkV0bkJLTFB6QTFDbG0zd2tnUlFtSmRkWWhrQnVjNm43VWFUUWt1MmFaUk9YREZwVFlEQWs1RU1ubFA3emhPWFRCSm1aT3g4M1ZiM01Wczk4Q05wZmJlNWkzNlBSZm5kbkFrYk5KaVZ1cXJjbW9VbUt2dlhOWThaUmpYRA?oc=5"
+    }
+  ]
+};
+
+    function render() {
+      const root = document.getElementById('feed');
+      FEED.items.forEach(item => {
+        const el = document.createElement('article');
+        el.className = 'item';
+        el.innerHTML = `
+          <div class="meta">${item.category} • ${item.publishedAt} • ${item.rankLabel || ''}</div>
+          <h2>${item.title}</h2>
+          <div class="excerpt">${item.excerpt || ''}</div>
+          ${item.image ? `<img class="hero" src="${item.image}" alt="">` : ''}
+          <div class="show-body">
+            <button class="open">Abrir matéria</button>
+            <button class="copy secondary">Copiar título</button>
+          </div>
+          <div class="body" style="display:none;">
+            ${item.body ? item.body.map(p=>`<p>${p}</p>`).join('') : ''}
+            <div class="sources">${item.sourceLabel || ''} — <a href="${item.sourceUrl || '#'}" target="_blank">fonte</a></div>
+          </div>
+        `;
+        const btn = el.querySelector('button.open');
+        const copyBtn = el.querySelector('button.copy');
+        const bodyEl = el.querySelector('.body');
+        btn.addEventListener('click', ()=>{ bodyEl.style.display = bodyEl.style.display === 'none' ? 'block' : 'none'; btn.textContent = bodyEl.style.display === 'none' ? 'Abrir matéria' : 'Fechar matéria'; });
+        copyBtn.addEventListener('click', ()=>{ navigator.clipboard?.writeText(item.title).then(()=> copyBtn.textContent='Copiado'); setTimeout(()=>copyBtn.textContent='Copiar título',1500); });
+        root.appendChild(el);
+      });
+    }
+
+    render();
+  </script>
+</body>
+</html>

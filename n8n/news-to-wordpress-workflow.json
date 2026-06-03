@@ -1,0 +1,101 @@
+{
+  "name": "Entretenimento Popular do Dia para WordPress",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "id": "schedule",
+      "name": "A cada 6 horas",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "url": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=pt-BR&gl=BR&ceid=BR:pt-419"
+      },
+      "id": "rss",
+      "name": "Buscar RSS Entretenimento",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [240, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "const seen = new Set();\nreturn items\n  .filter((item) => {\n    const title = item.json.title || '';\n    const key = title.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '');\n    if (seen.has(key)) return false;\n    seen.add(key);\n    return true;\n  })\n  .slice(0, 5)\n  .map((item, index) => ({ json: { ...item.json, rank: index + 1 } }));"
+      },
+      "id": "rank",
+      "name": "Filtrar Top 5",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [480, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "openAiApi",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\":\"system\",\"content\":\"Voce e editor de entretenimento. Escreva em portugues do Brasil. Nao copie a noticia original.\"},\n    {\"role\":\"user\",\"content\":\"Crie um post curto em HTML para WordPress sobre esta noticia. Inclua titulo, resumo original, contexto e link da fonte. Titulo: {{$json.title}} Resumo: {{$json.contentSnippet || $json.content}} Link: {{$json.link}}\"}\n  ],\n  \"temperature\": 0.7\n}"
+      },
+      "id": "openai",
+      "name": "Gerar texto com OpenAI",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [720, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map((item) => {\n  const source = item.json;\n  const content = source.choices?.[0]?.message?.content || '';\n  return { json: { title: source.title || 'Entretenimento do dia', content, status: 'draft' } };\n});"
+      },
+      "id": "shape",
+      "name": "Preparar Post",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [960, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{$env.WP_URL}}/wp-json/wp/v2/posts",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpBasicAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\"title\":$json.title,\"content\":$json.content,\"status\":\"draft\"}"
+      },
+      "id": "wordpress",
+      "name": "Enviar para WordPress",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1200, 0]
+    }
+  ],
+  "connections": {
+    "A cada 6 horas": {
+      "main": [[{ "node": "Buscar RSS Entretenimento", "type": "main", "index": 0 }]]
+    },
+    "Buscar RSS Entretenimento": {
+      "main": [[{ "node": "Filtrar Top 5", "type": "main", "index": 0 }]]
+    },
+    "Filtrar Top 5": {
+      "main": [[{ "node": "Gerar texto com OpenAI", "type": "main", "index": 0 }]]
+    },
+    "Gerar texto com OpenAI": {
+      "main": [[{ "node": "Preparar Post", "type": "main", "index": 0 }]]
+    },
+    "Preparar Post": {
+      "main": [[{ "node": "Enviar para WordPress", "type": "main", "index": 0 }]]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BuzzNews — Versão Reescrita</title>
+    <style>
+      body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#fffaf2;color:#16120d}
+      main{max-width:760px;margin:0 auto;padding:18px}
+      header{Padding:18px 0;border-bottom:1px solid #e1d8cc}
+      h1{font-family:Impact,Haettenschweiler,Arial Narrow Bold,sans-serif;font-size:28px;margin:0}
+      .story{border-bottom:1px solid #e1d8cc;padding:20px 0}
+      .kicker{display:inline-block;background:#dc2626;color:#fff;padding:6px 9px;font-weight:900;font-size:11px;text-transform:uppercase}
+      h2{font-size:22px;margin:12px 0}
+      .excerpt{font-weight:700;color:#2d2721}
+      figure{margin:16px 0;background:#eee6da}
+      img{display:block;max-width:100%;height:auto}
+      .source{color:#756b61;font-weight:800;font-size:12px;text-transform:uppercase}
+      details{margin-top:12px}
+      summary{cursor:pointer;color:#dc2626;font-weight:900}
+      .body{margin-top:12px;color:#2d2721;line-height:1.6}
+      .meta{font-size:12px;color:#756b61;margin-top:8px}
+      .small{font-size:13px;color:#555;margin-top:6px}
+      button.refresh{border:1px solid #e1d8cc;background:#fff;padding:8px 10px;font-weight:800;color:#dc2626}
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>BuzzNews — Reescrita Inteligente</h1>
+        <div style="margin-top:10px"><button class="refresh" id="refresh">Recarregar</button></div>
+      </header>
+
+      <section id="feed">
+        <div class="small">Carregando notícias reescritas…</div>
+      </section>
+    </main>
+
+    <script>
+      const feedEl = document.querySelector('#feed');
+      const refreshBtn = document.querySelector('#refresh');
+
+      function cleanTitleSuffix(title){
+        return title.replace(/\s+-\s+[^-]{2,}$/u, '').replace(/\s*\|\s*.*$/u,'').trim();
+      }
+
+      function titleCase(text){
+        return text.split(' ').map(w=> w.length>2? (w[0].toUpperCase()+w.slice(1).toLowerCase()): w.toLowerCase()).join(' ');
+      }
+
+      function rewriteTitle(item){
+        const raw = item.originalTitle || item.title || '';
+        let t = cleanTitleSuffix(raw);
+        t = t.replace(/^"|"$/g, '');
+        const parts = t.split(/[:\-–—]/).map(p=>p.trim()).filter(Boolean);
+        if(parts.length>1 && parts[0].split(' ').length>3){
+          t = parts[0];
+        }
+        const words = t.split(/\s+/).slice(0,10).join(' ');
+        return titleCase(words.replace(/\s+\.$/,'').trim());
+      }
+
+      function rewriteBody(item){
+        const paragraphs = [];
+        const title = rewriteTitle(item);
+        paragraphs.push(`${title} apareceu com cobertura repetida e entrou no radar por aparecer em ${item.sourceCount || (item.evidenceSources||[]).length} fontes diferentes.`);
+        if(item.summary && item.summary.trim()) paragraphs.push(item.summary.trim());
+        const sources = (item.evidenceSources || item.sources || []).slice(0,5).join(', ');
+        if(sources) paragraphs.push(`Fontes consultadas incluem: ${sources}.`);
+        if(item.trendBoost) paragraphs.push(`O assunto também cruzou sinais do Google Trends, o que reforçou sua prioridade na seleção.`);
+        paragraphs.push('O texto acima foi sintetizado a partir das publicações listadas e reescrito para leitura direta. Não são adicionadas acusações, datas ou falas sem confirmação nas fontes.');
+        paragraphs.push(`<a href="${item.sourceUrl || item.link}" target="_blank" rel="noopener noreferrer">Leia a matéria original</a>`);
+        return paragraphs;
+      }
+
+      function renderItem(item){
+        const title = item.rewrittenTitle || item.title || rewriteTitle(item);
+        const bodyPlaceholder = item.body && item.body.length ? ('<div class="body">' + item.body.map(p=>`<p>${p}</p>`).join('') + '</div>') : '<div class="body"><p>Conteúdo reescrito disponível ao abrir.</p></div>';
+        const dataAttr = encodeURIComponent(JSON.stringify(item));
+        return `
+          <article class="story" id="${item.slug}" data-item="${dataAttr}">
+            <div class="kicker">${item.category || 'Entretenimento'}</div>
+            <h2>${title}</h2>
+            <p class="excerpt">${item.excerpt || ''}</p>
+            <figure>
+              <img src="${item.image || '/images/news-placeholder.svg'}" alt="${title}" loading="lazy" onerror="this.onerror=null;this.src='/images/news-placeholder.svg'">
+            </figure>
+            <details>
+              <summary>Ler notícia completa</summary>
+              ${bodyPlaceholder}
+            </details>
+            <div class="meta">${item.sourceLabel || ('Origem: ' + (item.source || 'não informada'))} — ${item.publishedAt || ''}</div>
+          </article>
+        `;
+      }
+
+      function attachRewriteHandlers(){
+        document.querySelectorAll('article.story details').forEach((detailsEl)=>{
+          detailsEl.addEventListener('toggle', async (e)=>{
+            if (!detailsEl.open) return;
+            const article = detailsEl.closest('article');
+            if (!article) return;
+            const bodyEl = detailsEl.querySelector('.body');
+            const itemData = article.dataset.item ? JSON.parse(decodeURIComponent(article.dataset.item)) : null;
+            if (!itemData) return;
+            // If body already exists in the item, render it immediately and skip API
+            if (itemData.body && itemData.body.length){
+              detailsEl.querySelector('.body').innerHTML = itemData.body.map(p=>`<p>${p}</p>`).join('');
+              detailsEl.dataset.rewritten = 'true';
+              return;
+            }
+            // If already loaded with a rewritten marker, skip
+            if (detailsEl.dataset.rewritten === 'true') return;
+            try{
+              bodyEl.innerHTML = '<p>Gerando reescrita inteligente…</p>';
+              const resp = await fetch('/api/rewrite', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ item: itemData }),
+              });
+              const data = await resp.json();
+              if (resp.ok && data.title && data.html){
+                // update title and body
+                article.querySelector('h2').textContent = data.title;
+                detailsEl.querySelector('.body').innerHTML = data.html;
+                detailsEl.dataset.rewritten = 'true';
+              } else {
+                detailsEl.querySelector('.body').innerHTML = '<p>Não foi possível gerar reescrita automática.</p>';
+              }
+            }catch(err){
+              console.error(err);
+              detailsEl.querySelector('.body').innerHTML = '<p>Erro ao gerar reescrita.</p>';
+            }
+          });
+        });
+      }
+
+      async function load(){
+        try{
+          const res = await fetch('/api/news');
+          const data = await res.json();
+          const items = (data.items || []).map(i=>({
+            ...i,
+            originalTitle: i.originalTitle || i.title,
+            excerpt: i.excerpt || (i.body && i.body[0]) || '',
+            sourceUrl: i.sourceUrl || i.sources?.[0]?.url || i.link,
+          }));
+          feedEl.innerHTML = items.length ? items.map(renderItem).join('') : '<div class="small">Nenhum item carregado.</div>';
+          attachRewriteHandlers();
+        }catch(e){
+          feedEl.innerHTML = '<div class="small">Falha ao carregar API.</div>';
+          console.error(e);
+        }
+      }
+
+      refreshBtn.addEventListener('click', ()=>{ load(); });
+      load();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "seedTerms": [
+    "celebridades Brasil",
+    "famosos hoje",
+    "entretenimento Brasil",
+    "TV reality show Brasil",
+    "música famosos Brasil",
+    "cinema famosos Brasil",
+    "influenciadores Brasil",
+    "Virginia Fonseca",
+    "Deolane Bezerra",
+    "Boninho",
+    "Gugu Liberato",
+    "Cannes cinema"
+  ],
+  "preferredHosts": [
+    "cnnbrasil.com.br",
+    "gshow.globo.com",
+    "g1.globo.com",
+    "uol.com.br",
+    "r7.com",
+    "terra.com.br",
+    "metropoles.com",
+    "caras.com.br",
+    "quem.globo.com",
+    "tmz.com",
+    "people.com"
+  ],
+  "blockedTitleTerms": [
+    "horóscopo",
+    "loteria",
+    "futebol ao vivo",
+    "apostas"
+  ],
+  "maxArticlesPerTerm": 8
+}

@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Radar Pop Verificado - Teste Visual</title>
+    <style>
+      :root {
+        --ink: oklch(17% 0.02 55);
+        --muted: oklch(45% 0.03 55);
+        --paper: oklch(96% 0.015 71);
+        --surface: oklch(99% 0.01 71);
+        --wash: oklch(91% 0.035 76);
+        --line: oklch(82% 0.025 70);
+        --accent: oklch(51% 0.18 29);
+        --accent-dark: oklch(34% 0.14 29);
+        --trend: oklch(58% 0.14 155);
+        --gold: oklch(73% 0.14 82);
+        --space-sm: 8px;
+        --space-md: 12px;
+        --space-lg: 16px;
+        --space-xl: 24px;
+        --space-2xl: 32px;
+        --space-3xl: 48px;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(90deg, color-mix(in oklch, var(--line), transparent 58%) 0 1px, transparent 1px 100%) 0 0 / 48px 48px,
+          var(--paper);
+        color: var(--ink);
+        font-family: Avenir Next, Avenir, Trebuchet MS, sans-serif;
+      }
+      h1, h2, h3, p { margin: 0; }
+      .topbar {
+        display: grid;
+        gap: var(--space-2xl);
+        padding: clamp(24px, 5vw, 64px);
+        background: linear-gradient(135deg, color-mix(in oklch, var(--ink), transparent 0%), color-mix(in oklch, var(--accent-dark), var(--ink) 42%));
+        color: var(--paper);
+      }
+      .brand-line {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-sm);
+        align-items: center;
+        justify-content: space-between;
+        color: color-mix(in oklch, var(--paper), transparent 26%);
+        font-size: .78rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(300px, .55fr);
+        gap: var(--space-2xl);
+        align-items: end;
+      }
+      h1 {
+        max-width: 960px;
+        font-family: Georgia, Times New Roman, serif;
+        font-size: clamp(3rem, 7vw, 7rem);
+        line-height: .9;
+        letter-spacing: 0;
+      }
+      h2 {
+        font-family: Georgia, Times New Roman, serif;
+        font-size: clamp(1.45rem, 2.4vw, 2.4rem);
+        line-height: 1.02;
+      }
+      h3 {
+        font-size: 1.04rem;
+        line-height: 1.25;
+      }
+      .kicker, .label {
+        color: color-mix(in oklch, currentColor, transparent 35%);
+        font-size: .76rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      .hero-card {
+        display: grid;
+        gap: var(--space-lg);
+        border: 1px solid color-mix(in oklch, var(--paper), transparent 72%);
+        border-radius: 8px;
+        background: color-mix(in oklch, var(--paper), transparent 92%);
+        padding: var(--space-xl);
+      }
+      .lead-image, .news-thumb, .article-thumb {
+        display: block;
+        overflow: hidden;
+        border: 1px solid color-mix(in oklch, currentColor, transparent 82%);
+        border-radius: 6px;
+        background: color-mix(in oklch, var(--ink), transparent 90%);
+      }
+      .lead-image { aspect-ratio: 16 / 9; }
+      .lead-image img, .news-thumb img, .article-thumb img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .hero-card p {
+        color: color-mix(in oklch, var(--paper), transparent 24%);
+        line-height: 1.45;
+      }
+      .lead-proof, .meta, .source-strip {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-sm);
+      }
+      .lead-proof span, .pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        border: 1px solid color-mix(in oklch, currentColor, transparent 74%);
+        border-radius: 999px;
+        padding: 0 var(--space-md);
+        color: var(--muted);
+        font-size: .78rem;
+        font-weight: 850;
+      }
+      .lead-proof span { color: var(--paper); }
+      .pill.strong {
+        color: var(--accent-dark);
+        background: color-mix(in oklch, var(--accent), transparent 88%);
+      }
+      .pill.trend {
+        color: oklch(30% 0.1 155);
+        background: color-mix(in oklch, var(--trend), transparent 84%);
+      }
+      main {
+        padding: var(--space-2xl) clamp(16px, 4vw, 64px) var(--space-3xl);
+      }
+      .status-band {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1px;
+        border: 1px solid var(--line);
+        background: var(--line);
+        margin-bottom: var(--space-2xl);
+      }
+      .status-band > div {
+        display: grid;
+        gap: var(--space-sm);
+        background: var(--surface);
+        padding: var(--space-xl);
+      }
+      .status-band strong {
+        font-family: Georgia, Times New Roman, serif;
+        font-size: 2.2rem;
+        line-height: 1;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr);
+        gap: var(--space-2xl);
+        align-items: start;
+      }
+      .panel {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .section-head {
+        display: grid;
+        gap: var(--space-sm);
+        padding: var(--space-xl);
+        border-bottom: 1px solid var(--line);
+        background: color-mix(in oklch, var(--wash), var(--surface) 55%);
+      }
+      .news-list, .article-list { display: grid; }
+      .news-item {
+        display: grid;
+        grid-template-columns: 52px minmax(0, 1fr);
+        gap: var(--space-lg);
+        padding: var(--space-xl);
+        border-bottom: 1px solid var(--line);
+      }
+      .news-item:last-child, .article-item:last-child { border-bottom: 0; }
+      .rank {
+        display: grid;
+        place-items: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: var(--ink);
+        color: var(--paper);
+        font-weight: 950;
+      }
+      .news-item h3, .article-item h3 { margin-bottom: var(--space-md); }
+      .news-thumb, .article-thumb {
+        aspect-ratio: 16 / 9;
+        margin-bottom: var(--space-lg);
+      }
+      .source-strip { margin-top: var(--space-md); }
+      .source-strip span {
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        background: var(--paper);
+        color: var(--accent-dark);
+        font-size: .82rem;
+        font-weight: 850;
+        line-height: 1.25;
+        padding: 6px var(--space-sm);
+      }
+      .summary {
+        color: var(--muted);
+        line-height: 1.55;
+        margin-top: var(--space-md);
+      }
+      .article-item {
+        padding: var(--space-xl);
+        border-bottom: 1px solid var(--line);
+      }
+      .article-item a, .news-item a {
+        color: var(--accent-dark);
+        font-weight: 850;
+        text-decoration: none;
+      }
+      details {
+        margin-top: var(--space-lg);
+        border-top: 1px solid var(--line);
+        padding-top: var(--space-md);
+      }
+      summary {
+        cursor: pointer;
+        color: var(--accent-dark);
+        font-size: .8rem;
+        font-weight: 900;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      .story-body {
+        display: grid;
+        gap: var(--space-md);
+        margin-top: var(--space-lg);
+        color: var(--ink);
+        line-height: 1.62;
+      }
+      .compact {
+        gap: 6px;
+      }
+      .compact span {
+        font-size: .72rem;
+      }
+      @media (max-width: 820px) {
+        .hero-grid, .grid { grid-template-columns: 1fr; }
+        .status-band { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      }
+      @media (max-width: 560px) {
+        .topbar { padding: 24px 16px 32px; }
+        main { padding: 16px; }
+        .status-band { grid-template-columns: 1fr; }
+        .news-item {
+          grid-template-columns: 1fr;
+          padding: 18px;
+        }
+        .rank {
+          width: 36px;
+          height: 36px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="brand-line" aria-label="Identidade do painel">
+        <span>Radar Pop Verificado</span>
+        <span>3+ fontes</span>
+        <span>Edicao de hoje</span>
+      </nav>
+      <div class="hero-grid">
+        <div>
+          <p class="kicker">Mesa automatica de entretenimento</p>
+          <h1>So entra assunto repetido em varios lugares.</h1>
+        </div>
+        <div class="hero-card">
+    <span class="label">Destaque aprovado</span>
+    <a class="lead-image" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQWk9Md2x0dXE3Q2FoV1F0aDBDRDNoRmhmNU9WQ0lXdVNmc05IdGxoX0huNDJxMU8wdlNwSmtfVVBZUXAzWnJack5yMmtYQ0hLQ3BmUnhyY3VmU2RDc0o3T3FnOEtxOUNuV1l6TGhzMHh4R3NCRlBKZUkwbkVHMkJRTEdrQ25zM21NNjY4N1BWakNIUHEwY2FEbXpYWW1fVHBiNWdDTkItS0JTYjFWN1BIMkZPTVItamRta0x3SzZxRy1kTThfQ0xj?oc=5" target="_blank" rel="noopener">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_14312-MLB2912300030_072012-O.webp" alt="Wim Wenders veta filme em que Nastassja Kinski aparece seminua aos 13 anos" loading="eager">
+    </a>
+    <h2>Wim Wenders veta filme em que Nastassja Kinski aparece seminua aos 13 anos</h2>
+    <div class="lead-proof">
+      <span>5 fontes</span>
+      <span>forca 135</span>
+      
+    </div>
+    <p>Folha de S.Paulo / O Globo / Público / segundabase.com.br / obusilis.com.br</p>
+  </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="status-band" aria-label="Resumo editorial">
+        <div>
+          <span class="label">Aprovadas</span>
+          <strong>6</strong>
+        </div>
+        <div>
+          <span class="label">Com Google Trends</span>
+          <strong>0</strong>
+        </div>
+        <div>
+          <span class="label">Media de fontes</span>
+          <strong>5,0</strong>
+        </div>
+        <div>
+          <span class="label">Posts prontos</span>
+          <strong>3</strong>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <div class="section-head">
+            <p class="kicker">Fila verificada</p>
+            <h2>Assuntos com cobertura repetida</h2>
+          </div>
+          <div class="news-list">
+            <article class="news-item">
+    <div class="rank">1</div>
+    <div>
+      <a class="news-thumb" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQWk9Md2x0dXE3Q2FoV1F0aDBDRDNoRmhmNU9WQ0lXdVNmc05IdGxoX0huNDJxMU8wdlNwSmtfVVBZUXAzWnJack5yMmtYQ0hLQ3BmUnhyY3VmU2RDc0o3T3FnOEtxOUNuV1l6TGhzMHh4R3NCRlBKZUkwbkVHMkJRTEdrQ25zM21NNjY4N1BWakNIUHEwY2FEbXpYWW1fVHBiNWdDTkItS0JTYjFWN1BIMkZPTVItamRta0x3SzZxRy1kTThfQ0xj?oc=5" target="_blank" rel="noopener">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_14312-MLB2912300030_072012-O.webp" alt="Wim Wenders veta filme em que Nastassja Kinski aparece seminua aos 13 anos" loading="lazy">
+      </a>
+      <h3><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQWk9Md2x0dXE3Q2FoV1F0aDBDRDNoRmhmNU9WQ0lXdVNmc05IdGxoX0huNDJxMU8wdlNwSmtfVVBZUXAzWnJack5yMmtYQ0hLQ3BmUnhyY3VmU2RDc0o3T3FnOEtxOUNuV1l6TGhzMHh4R3NCRlBKZUkwbkVHMkJRTEdrQ25zM21NNjY4N1BWakNIUHEwY2FEbXpYWW1fVHBiNWdDTkItS0JTYjFWN1BIMkZPTVItamRta0x3SzZxRy1kTThfQ0xj?oc=5" target="_blank" rel="noopener">Wim Wenders veta filme em que Nastassja Kinski aparece seminua aos 13 anos</a></h3>
+      <div class="meta">
+        <span class="pill strong">5 fontes</span>
+        
+        <span class="pill">03 de jun.</span>
+        <span class="pill">forca 135</span>
+      </div>
+      <div class="source-strip">
+        <span>Folha de S.Paulo</span><span>O Globo</span><span>Público</span><span>segundabase.com.br</span><span>obusilis.com.br</span>
+      </div>
+      <p class="summary">Após 51 anos, diretor alemão retira filme de circulação pro conter cena de nudez infantil</p>
+    </div>
+  </article><article class="news-item">
+    <div class="rank">2</div>
+    <div>
+      <a class="news-thumb" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPem1PMWpnTnd3Y21wMHJvMjNTUi12a0c0WEtZVklyZWtiQ3p5RDRBVkp3cGhBaDhXUTd4MUNFaHJ4clpKc3N0ZXZ1VDY2NGVOQjRRYloxWnEyTWZiYVNXY1kyNDVVUWFPNlVNaTBRNmpfbmV2UTJRSk1aLWVQS1JWTXhiaEsxbVdydXZTRGNTUHhlXzhPRmRVeThuNDNlR2prR0VBUnlYZkxFMWJscnhqdkVEQmZfMmpvZjc0alVtcjdxclRBZlNv0gHWAUFVX3lxTE9ZeHF5Nno4QjZRM1l3S2gySXcwcjZhcEhTRFJ0Zkd1UWd4TVVYcm9oTzVXTloxNGVxTkEydmtEWGoyV2dqU25Oa0VvY0VyRkQ0SGN1QjM0NmlTRzYzQTF6V184N3pvLVdnZGw5c0pnT3hJdEtyY3FfamxOdkNZZHE1NlFnLWQ5T1hTT3ZuX3VYVmZMSzBCRDV4YW01anVqSVBoUHBPOFVZODdCVzRVcEU3UXZVTEJkcHBKek1IanJ2N1hjOG8tSUtuUXhEa1d5MF83VW1ma1E?oc=5" target="_blank" rel="noopener">
+        <img src="https://www.noticiadamanha.com.br/wp-content/uploads/2026/01/confira-o-elenco-parcial-da-novela-quem-ama-cuida-695910bebe4df.webp.webp" alt="Quem Ama Cuida bate recorde no Ibope com mistério de quem matou Arthur" loading="lazy">
+      </a>
+      <h3><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPem1PMWpnTnd3Y21wMHJvMjNTUi12a0c0WEtZVklyZWtiQ3p5RDRBVkp3cGhBaDhXUTd4MUNFaHJ4clpKc3N0ZXZ1VDY2NGVOQjRRYloxWnEyTWZiYVNXY1kyNDVVUWFPNlVNaTBRNmpfbmV2UTJRSk1aLWVQS1JWTXhiaEsxbVdydXZTRGNTUHhlXzhPRmRVeThuNDNlR2prR0VBUnlYZkxFMWJscnhqdkVEQmZfMmpvZjc0alVtcjdxclRBZlNv0gHWAUFVX3lxTE9ZeHF5Nno4QjZRM1l3S2gySXcwcjZhcEhTRFJ0Zkd1UWd4TVVYcm9oTzVXTloxNGVxTkEydmtEWGoyV2dqU25Oa0VvY0VyRkQ0SGN1QjM0NmlTRzYzQTF6V184N3pvLVdnZGw5c0pnT3hJdEtyY3FfamxOdkNZZHE1NlFnLWQ5T1hTT3ZuX3VYVmZMSzBCRDV4YW01anVqSVBoUHBPOFVZODdCVzRVcEU3UXZVTEJkcHBKek1IanJ2N1hjOG8tSUtuUXhEa1d5MF83VW1ma1E?oc=5" target="_blank" rel="noopener">Quem Ama Cuida bate recorde no Ibope com mistério de quem matou Arthur</a></h3>
+      <div class="meta">
+        <span class="pill strong">5 fontes</span>
+        
+        <span class="pill">03 de jun.</span>
+        <span class="pill">forca 128</span>
+      </div>
+      <div class="source-strip">
+        <span>Notícias da TV</span><span>O Globo</span><span>iG Gente</span><span>O TEMPO</span><span>RD1</span>
+      </div>
+      <p class="summary">'Quem ama cuida' e 'Coração acelerado' batem recordes de audiência</p>
+    </div>
+  </article><article class="news-item">
+    <div class="rank">3</div>
+    <div>
+      <a class="news-thumb" href="https://news.google.com/rss/articles/CBMizAFBVV95cUxPa1VQVVlpMEh6SEJGZk1pN1RtTS1USnlBbGxQYXc4NUZVQnJvMlFIMDRjZk5WZUhTemZQT2trcURlYW9id0VFSXhwNXM0UVJBYnhhNWhZc3c5dFJZLWR5cV9pQXk0b2lkdjRFSG9UU254V3g1T2xWODJHOTVlb3cwNEhRODR3N0FLZm5EaHJTenBaLVN2a2dXcWcydUJWRXdfT2JmdGR0VjEyNmxQVEl5MzdpeGlURFJlOVJOWU1sWGpPYWNJU2prSWJnQmE?oc=5" target="_blank" rel="noopener">
+        <img src="https://carro.blog.br/noticias/wp-content/uploads/2026/02/baixar-gratis-Filme-Mestres-do-Universo.webp" alt="He-Man luta com a própria insegurança em novo filme que apela para a nostalgia" loading="lazy">
+      </a>
+      <h3><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxPa1VQVVlpMEh6SEJGZk1pN1RtTS1USnlBbGxQYXc4NUZVQnJvMlFIMDRjZk5WZUhTemZQT2trcURlYW9id0VFSXhwNXM0UVJBYnhhNWhZc3c5dFJZLWR5cV9pQXk0b2lkdjRFSG9UU254V3g1T2xWODJHOTVlb3cwNEhRODR3N0FLZm5EaHJTenBaLVN2a2dXcWcydUJWRXdfT2JmdGR0VjEyNmxQVEl5MzdpeGlURFJlOVJOWU1sWGpPYWNJU2prSWJnQmE?oc=5" target="_blank" rel="noopener">He-Man luta com a própria insegurança em novo filme que apela para a nostalgia</a></h3>
+      <div class="meta">
+        <span class="pill strong">5 fontes</span>
+        
+        <span class="pill">03 de jun.</span>
+        <span class="pill">forca 128</span>
+      </div>
+      <div class="source-strip">
+        <span>Folha de S.Paulo</span><span>G1</span><span>Correio do Povo</span><span>Omelete</span><span>Ingresso.com</span>
+      </div>
+      <p class="summary">'Mestres do Universo': Elenco com duas brasileiras (e um 'honorário') foi 'coincidência', dizem atores e diretor G1</p>
+    </div>
+  </article><article class="news-item">
+    <div class="rank">4</div>
+    <div>
+      <a class="news-thumb" href="https://news.google.com/rss/articles/CBMizwFBVV95cUxONWlxczFBcC1tUXdUMFBZQkg4aWlYVm9VazcwbDdfdnlHZzk2UVF4WUpGOElHdWl6QTY4QW02V0RuODVORV9FcFdqTFVIM2FhdzFhMzE5Q0xNQ29WSTJnVlRrZW5lSzRGQUU5RFZESjJBZFAyOTYyNWJ6clR0eXFrdmd2M2NiXzlSTkVJNWVJWWxCNE5KRG9FTWxrWVZsanVUalJlemktTnZiejZlTXc2LU03WlNtV2NVZ3RrS0MxUzZxNnJqeTBzX1dZWURSQUHSAd4BQVVfeXFMTlg0Y3kyWll2ck9NWHpMUWU1UGNJeW5Hejh4aTJmNXRLSW5TNDRIamdtY0pfZWVxaUpGbmdJSHB5ZUhkSUdLa2VzOW5aWmotajNGSm50blVsODNZVHhnTjJ1N3JyRDVsanhSYUpsR2d5RFduMkw4Zko4VTUyQ1pveWtuRlFmZHMzdGR3RmtkY0Foa1RONUg3QjVRX2dwY2tYMWpKZ09GeG81cGZoRlkzeUMzZWJQUTNrR1FNNmk3eTh3bW9pYUVtSzVzLU5wMWk3YV9FbW94ZUZtUFBJZlRn?oc=5" target="_blank" rel="noopener">
+        <img src="https://s2-extra.glbimg.com/z7o7GnhR9e_nxDdiafW5a6LZ7qE=/1079x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2025/q/n/PmPCIYRZmIciIH7RAeBw/domingo-especial-quem-ta-acompanhando-a-live-ta-boaaa-demais-e-a-wepink-com-o-site-todo-com-70-de-desconto-o-trem-ta-bao-mexxxxmo-toda-honra-e-gloria-a-deus-2025-e-nosso-foto-eunivan.jpg" alt="Leonardo é surpreendido com pergunta sobre reconciliação de Zé Felipe e Virginia Fonseca" loading="lazy">
+      </a>
+      <h3><a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxONWlxczFBcC1tUXdUMFBZQkg4aWlYVm9VazcwbDdfdnlHZzk2UVF4WUpGOElHdWl6QTY4QW02V0RuODVORV9FcFdqTFVIM2FhdzFhMzE5Q0xNQ29WSTJnVlRrZW5lSzRGQUU5RFZESjJBZFAyOTYyNWJ6clR0eXFrdmd2M2NiXzlSTkVJNWVJWWxCNE5KRG9FTWxrWVZsanVUalJlemktTnZiejZlTXc2LU03WlNtV2NVZ3RrS0MxUzZxNnJqeTBzX1dZWURSQUHSAd4BQVVfeXFMTlg0Y3kyWll2ck9NWHpMUWU1UGNJeW5Hejh4aTJmNXRLSW5TNDRIamdtY0pfZWVxaUpGbmdJSHB5ZUhkSUdLa2VzOW5aWmotajNGSm50blVsODNZVHhnTjJ1N3JyRDVsanhSYUpsR2d5RFduMkw4Zko4VTUyQ1pveWtuRlFmZHMzdGR3RmtkY0Foa1RONUg3QjVRX2dwY2tYMWpKZ09GeG81cGZoRlkzeUMzZWJQUTNrR1FNNmk3eTh3bW9pYUVtSzVzLU5wMWk3YV9FbW94ZUZtUFBJZlRn?oc=5" target="_blank" rel="noopener">Leonardo é surpreendido com pergunta sobre reconciliação de Zé Felipe e Virginia Fonseca</a></h3>
+      <div class="meta">
+        <span class="pill strong">5 fontes</span>
+        
+        <span class="pill">03 de jun.</span>
+        <span class="pill">forca 118</span>
+      </div>
+      <div class="source-strip">
+        <span>O Globo</span><span>Extra online</span><span>VEJA</span><span>Estrelando</span><span>Folha PE</span>
+      </div>
+      <p class="summary">Investigação da PF é obstáculo para reconciliação entre Virginia Fonseca e Zé Felipe: entenda o motivo Extra online</p>
+    </div>
+  </article><article class="news-item">
+    <div class="rank">5</div>
+    <div>
+      <a class="news-thumb" href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYzI1MENGZFh2eG1jdi11WkpPUktISTk0c0FvLVNvRjJlVnVKNmtZdjZBX042RmpVWmNMX2ZMSFVHaWZ1aHFRNUNCOGRCaksyRWlyVjgxRXMzWnlRaHZ3SDNNOFVUZFpiSnFEMHN4OGc4U0NFbnRKM0dfbi1RS3RTM1RuUUxSZkNhTlZWX2lvS0Q4OU5NVlY0NTJBdnpQZlE3XzFwblFFQzRMUm9QUXNTdy05ZG9hRnNsdmpyVXl2dkFGOE9KcFpseC1hcGVIWFJMalU4aDVEOEZoQ2tTalhnRGhoZjFNSzhuOHQ0bTB6d9IB_gFBVV95cUxOYV9tYzItYXhucjhVb3l2RnBHczFUOXF5ZU43U2lPcUdGdFJQTDJ2VkZ0d04xaDlLd3g1UW96NVVsZTRybl9nSXNCNnh4NXZiTUhYMFBnOU5BMDV6Q0xINzRQOTJSSkpqWFlTaEo1UnMwblFkQXJEekVoLWtQN0hEOVFscF9DMHNXR19oSVBKRVNIMnJ1WHZlMFZYV3NSMWZFem9HVDAzdWNiWEVzWWlqNm91UnVsb2FjWFBlUF8tRm56VDV6akZhZ09YS0ZselVzY281RTROYXpQNjdOaEY3UVNKakZvXy01QVRkeDlzenZjbzBsRk8zaV91Mk5PUQ?oc=5" target="_blank" rel="noopener">
+        <img src="https://diariodovale.com.br/wp-content/uploads/2025/09/djavan-caetanoveloso-robertogil-chicobuarque.jpeg" alt="'Block no Tigrinho': Chico Buarque, Caetano Veloso e mais artistas participam de mobilização contra bets" loading="lazy">
+      </a>
+      <h3><a href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYzI1MENGZFh2eG1jdi11WkpPUktISTk0c0FvLVNvRjJlVnVKNmtZdjZBX042RmpVWmNMX2ZMSFVHaWZ1aHFRNUNCOGRCaksyRWlyVjgxRXMzWnlRaHZ3SDNNOFVUZFpiSnFEMHN4OGc4U0NFbnRKM0dfbi1RS3RTM1RuUUxSZkNhTlZWX2lvS0Q4OU5NVlY0NTJBdnpQZlE3XzFwblFFQzRMUm9QUXNTdy05ZG9hRnNsdmpyVXl2dkFGOE9KcFpseC1hcGVIWFJMalU4aDVEOEZoQ2tTalhnRGhoZjFNSzhuOHQ0bTB6d9IB_gFBVV95cUxOYV9tYzItYXhucjhVb3l2RnBHczFUOXF5ZU43U2lPcUdGdFJQTDJ2VkZ0d04xaDlLd3g1UW96NVVsZTRybl9nSXNCNnh4NXZiTUhYMFBnOU5BMDV6Q0xINzRQOTJSSkpqWFlTaEo1UnMwblFkQXJEekVoLWtQN0hEOVFscF9DMHNXR19oSVBKRVNIMnJ1WHZlMFZYV3NSMWZFem9HVDAzdWNiWEVzWWlqNm91UnVsb2FjWFBlUF8tRm56VDV6akZhZ09YS0ZselVzY281RTROYXpQNjdOaEY3UVNKakZvXy01QVRkeDlzenZjbzBsRk8zaV91Mk5PUQ?oc=5" target="_blank" rel="noopener">'Block no Tigrinho': Chico Buarque, Caetano Veloso e mais artistas participam de mobilização contra bets</a></h3>
+      <div class="meta">
+        <span class="pill strong">5 fontes</span>
+        
+        <span class="pill">03 de jun.</span>
+        <span class="pill">forca 118</span>
+      </div>
+      <div class="source-strip">
+        <span>O Globo</span><span>VEJA RIO</span><span>UOL</span><span>Meio e Mensagem</span><span>Metro 1</span>
+      </div>
+      <p class="summary">Caetano Veloso, Djavan e mais famosos unidos contra os jogos de aposta VEJA RIO</p>
+    </div>
+  </article><article class="news-item">
+    <div class="rank">6</div>
+    <div>
+      <a class="news-thumb" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1HOFBZLWhjMFBoZGk2ajExc1A1QnN1RmdIWDgya1VWSVM3empyemxaLWh2MU1TRWMwLVJiVXNaWVBaQ0xMY0Y3RVFkZDNVamoyWFNaMDY0OVJnYXlTYklSbk5uRG1aUjA0MDJBMkhMRnTSAXZBVV95cUxPZUZ6cjBTU3N4UDUzSnhBTS0yNkt3TFRUR19zajVBbVFLR2FsM0xHczhKLVJuQzh5andkdmh3WkpYS0hPS1NnYWNhNGhEU0sxeGZaRVRHRUx1NlNwdFJSdFppYnI4c3hjd1dMbE9RWUtNa1M1ZGJR?oc=5" target="_blank" rel="noopener">
+        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA24JxVe.img?w=768&amp;h=432&amp;m=6&amp;x=370&amp;y=123&amp;s=172&amp;d=172" alt="&quot;O pior ser humano que já conheci&quot;: Todos lamentaram a morte deste astro de Hollywood em 2025, menos este diretor" loading="lazy">
+      </a>
+      <h3><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE1HOFBZLWhjMFBoZGk2ajExc1A1QnN1RmdIWDgya1VWSVM3empyemxaLWh2MU1TRWMwLVJiVXNaWVBaQ0xMY0Y3RVFkZDNVamoyWFNaMDY0OVJnYXlTYklSbk5uRG1aUjA0MDJBMkhMRnTSAXZBVV95cUxPZUZ6cjBTU3N4UDUzSnhBTS0yNkt3TFRUR19zajVBbVFLR2FsM0xHczhKLVJuQzh5andkdmh3WkpYS0hPS1NnYWNhNGhEU0sxeGZaRVRHRUx1NlNwdFJSdFppYnI4c3hjd1dMbE9RWUtNa1M1ZGJR?oc=5" target="_blank" rel="noopener">&quot;O pior ser humano que já conheci&quot;: Todos lamentaram a morte deste astro de Hollywood em 2025, menos este diretor</a></h3>
+      <div class="meta">
+        <span class="pill strong">5 fontes</span>
+        
+        <span class="pill">03 de jun.</span>
+        <span class="pill">forca 114</span>
+      </div>
+      <div class="source-strip">
+        <span>AdoroCinema</span><span>Globo</span><span>Estadão</span><span>R7 Entretenimento</span><span>Diário do Centro do Mundo</span>
+      </div>
+      <p class="summary">Diretor diz que Val Kilmer foi 'o pior ser humano que já conheceu', 18 anos depois de terem trabalhado juntos Globo</p>
+    </div>
+  </article>
+          </div>
+        </div>
+
+        <aside class="panel posts-panel">
+          <div class="section-head">
+            <p class="kicker">Rascunhos</p>
+            <h2>Materias em linguagem de portal</h2>
+          </div>
+          <div class="article-list">
+            <article class="article-item">
+    <a class="article-thumb" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxQWk9Md2x0dXE3Q2FoV1F0aDBDRDNoRmhmNU9WQ0lXdVNmc05IdGxoX0huNDJxMU8wdlNwSmtfVVBZUXAzWnJack5yMmtYQ0hLQ3BmUnhyY3VmU2RDc0o3T3FnOEtxOUNuV1l6TGhzMHh4R3NCRlBKZUkwbkVHMkJRTEdrQ25zM21NNjY4N1BWakNIUHEwY2FEbXpYWW1fVHBiNWdDTkItS0JTYjFWN1BIMkZPTVItamRta0x3SzZxRy1kTThfQ0xj?oc=5" target="_blank" rel="noopener">
+      <img src="https://http2.mlstatic.com/D_NQ_NP_14312-MLB2912300030_072012-O.webp" alt="Wim Wenders Retira Filme de 1975 do Circuito por Cena Controversial" loading="lazy">
+    </a>
+    <p class="kicker">Cinema</p>
+    <h3>Wim Wenders Retira Filme de 1975 do Circuito por Cena Controversial</h3>
+    <p class="summary lead-summary">O diretor alemão Wim Wenders decidiu retirar um filme de 1975 da circulação devido a uma cena em que Nastassja Kinski aparece seminua aos 13 anos. A decisão ocorre após mais de cinco décadas desde o lançamento da obra.</p>
+    <details>
+      <summary>Ler materia</summary>
+      <div class="story-body">
+        <p>Wim Wenders, renomado diretor alemão, tomou uma decisão impactante ao retirar de circulação seu filme de 1975, que contém uma cena polêmica envolvendo a atriz Nastassja Kinski, que na época tinha apenas 13 anos. A cena em questão mostra a jovem atriz seminua, e a decisão de Wenders reflete uma crescente preocupação com a representação e a ética na indústria cinematográfica.</p><p>A retirada do filme ocorre após 51 anos de seu lançamento original, um ato que levanta questões sobre a responsabilidade dos cineastas em relação ao conteúdo que produzem. A cena, que já foi alvo de debates, agora é vista sob uma nova luz, levando Wenders a reconsiderar sua presença no filme.</p><p>Nastassja Kinski, que se tornou uma atriz renomada, expressou seu desejo de apagar essa cena de sua filmografia. A decisão do diretor pode ser interpretada como um gesto de apoio à atriz e uma tentativa de reconhecer a vulnerabilidade de artistas jovens na indústria.</p><p>Essa ação de Wenders se alinha a uma tendência mais ampla no cinema, onde questões de consentimento e a representação de menores de idade estão sendo discutidas com mais seriedade. Nos últimos anos, muitos cineastas e estúdios têm revisitado suas obras para garantir que o conteúdo seja apropriado e respeitoso.</p><p>Críticos e fãs têm reações mistas sobre a decisão de Wenders. Alguns veem isso como um passo importante em direção a uma maior responsabilidade ética no cinema, enquanto outros argumentam que a arte deve ser preservada em seu contexto original, mesmo que contenha elementos controversos.</p><p>Independentemente das opiniões divergentes, a retirada do filme de Wenders é um sinal claro de que a indústria do entretenimento está disposta a confrontar seu passado e a evoluir em direção a práticas mais respeitosas e conscientes. O futuro do cinema pode muito bem depender de como os cineastas lidam com questões delicadas como esta.</p>
+      </div>
+    </details>
+    <div class="source-strip compact">
+      <span>Folha de S.Paulo</span><span>O Globo</span><span>Público</span><span>segundabase.com.br</span><span>obusilis.com.br</span>
+    </div>
+  </article><article class="article-item">
+    <a class="article-thumb" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPem1PMWpnTnd3Y21wMHJvMjNTUi12a0c0WEtZVklyZWtiQ3p5RDRBVkp3cGhBaDhXUTd4MUNFaHJ4clpKc3N0ZXZ1VDY2NGVOQjRRYloxWnEyTWZiYVNXY1kyNDVVUWFPNlVNaTBRNmpfbmV2UTJRSk1aLWVQS1JWTXhiaEsxbVdydXZTRGNTUHhlXzhPRmRVeThuNDNlR2prR0VBUnlYZkxFMWJscnhqdkVEQmZfMmpvZjc0alVtcjdxclRBZlNv0gHWAUFVX3lxTE9ZeHF5Nno4QjZRM1l3S2gySXcwcjZhcEhTRFJ0Zkd1UWd4TVVYcm9oTzVXTloxNGVxTkEydmtEWGoyV2dqU25Oa0VvY0VyRkQ0SGN1QjM0NmlTRzYzQTF6V184N3pvLVdnZGw5c0pnT3hJdEtyY3FfamxOdkNZZHE1NlFnLWQ5T1hTT3ZuX3VYVmZMSzBCRDV4YW01anVqSVBoUHBPOFVZODdCVzRVcEU3UXZVTEJkcHBKek1IanJ2N1hjOG8tSUtuUXhEa1d5MF83VW1ma1E?oc=5" target="_blank" rel="noopener">
+      <img src="https://www.noticiadamanha.com.br/wp-content/uploads/2026/01/confira-o-elenco-parcial-da-novela-quem-ama-cuida-695910bebe4df.webp.webp" alt="Mistério em 'Quem Ama Cuida' Alavanca Recorde de Audiência" loading="lazy">
+    </a>
+    <p class="kicker">TV</p>
+    <h3>Mistério em 'Quem Ama Cuida' Alavanca Recorde de Audiência</h3>
+    <p class="summary lead-summary">A novela 'Quem Ama Cuida' conquista o público com um enredo intrigante, batendo recordes de audiência e se destacando nas plataformas digitais.</p>
+    <details>
+      <summary>Ler materia</summary>
+      <div class="story-body">
+        <p>A novela 'Quem Ama Cuida' tem se mostrado uma verdadeira sensação na televisão brasileira, alcançando recordes de audiência e conquistando o coração dos telespectadores. O mistério em torno da morte de Arthur, um dos personagens centrais da trama, tem gerado grande expectativa e discussões acaloradas nas redes sociais.</p><p>Recentemente, a trama alcançou números impressionantes no Ibope, superando outras produções em sua faixa de horário. O enredo envolvente e as reviravoltas constantes têm mantido o público ansioso a cada capítulo, o que reflete na crescente audiência.</p><p>Além de seu sucesso nas telinhas, 'Quem Ama Cuida' também tem se destacado na plataforma Globoplay, onde se tornou uma das produções mais assistidas. Esse fenômeno digital demonstra que a novela não apenas cativa os telespectadores tradicionais, mas também atrai os jovens que preferem consumir conteúdo online.</p><p>Contudo, a competição no horário nobre é acirrada. Embora 'Quem Ama Cuida' tenha registrado altos índices de audiência, a novela ainda enfrenta desafios, como a forte presença do 'Jornal Nacional', que continua a ser um dos principais concorrentes. A Globo, por sua vez, observa atentamente esse cenário, buscando estratégias para manter sua audiência.</p><p>O mistério em torno da morte de Arthur não é apenas um elemento central da trama, mas também um fator que tem gerado discussões nas redes sociais, com os fãs especulando sobre possíveis culpados. Essa interação entre a novela e o público tem contribuído para o sucesso da produção, criando uma comunidade engajada em torno da história.</p><p>Com a trama se aproximando de momentos decisivos, a expectativa para os próximos capítulos é alta. 'Quem Ama Cuida' continua a surpreender e a manter os telespectadores grudados na tela, provando que um bom enredo e personagens cativantes são a receita para o sucesso.</p>
+      </div>
+    </details>
+    <div class="source-strip compact">
+      <span>Notícias da TV</span><span>O Globo</span><span>iG Gente</span><span>O TEMPO</span><span>RD1</span>
+    </div>
+  </article><article class="article-item">
+    <a class="article-thumb" href="https://news.google.com/rss/articles/CBMizAFBVV95cUxPa1VQVVlpMEh6SEJGZk1pN1RtTS1USnlBbGxQYXc4NUZVQnJvMlFIMDRjZk5WZUhTemZQT2trcURlYW9id0VFSXhwNXM0UVJBYnhhNWhZc3c5dFJZLWR5cV9pQXk0b2lkdjRFSG9UU254V3g1T2xWODJHOTVlb3cwNEhRODR3N0FLZm5EaHJTenBaLVN2a2dXcWcydUJWRXdfT2JmdGR0VjEyNmxQVEl5MzdpeGlURFJlOVJOWU1sWGpPYWNJU2prSWJnQmE?oc=5" target="_blank" rel="noopener">
+      <img src="https://carro.blog.br/noticias/wp-content/uploads/2026/02/baixar-gratis-Filme-Mestres-do-Universo.webp" alt="He-Man Enfrenta Seus Demônios em Novo Filme Nostálgico" loading="lazy">
+    </a>
+    <p class="kicker">Cinema</p>
+    <h3>He-Man Enfrenta Seus Demônios em Novo Filme Nostálgico</h3>
+    <p class="summary lead-summary">O novo filme 'Mestres do Universo' traz He-Man em uma jornada de autoconhecimento e aceitação, com um elenco diversificado que inclui brasileiras.</p>
+    <details>
+      <summary>Ler materia</summary>
+      <div class="story-body">
+        <p>O tão aguardado filme 'Mestres do Universo' traz He-Man de volta às telonas, mas desta vez, o herói não enfrenta apenas seus inimigos. A nova narrativa se concentra na luta interna do personagem, que busca aceitar suas inseguranças e encontrar seu verdadeiro eu.</p><p>A produção, que promete apelar para a nostalgia dos fãs da série clássica, apresenta um elenco diversificado, incluindo duas atrizes brasileiras e um ator considerado 'honorário' brasileiro. A presença dessas artistas foi destacada como uma coincidência, segundo declarações do diretor e dos próprios atores.</p><p>O ator Nicholas Galitzine, que interpreta He-Man, descreveu sua nova função como uma 'tarefa monumental'. Ele se prepara para trazer uma nova dimensão ao personagem, que sempre foi visto como um símbolo de força e coragem. No entanto, o filme promete explorar o lado vulnerável do herói, um aspecto que pode ressoar com muitos espectadores.</p><p>Além da temática de aceitação, o filme também busca dialogar com a cultura nerd, um público que frequentemente se sente à margem. Através de uma narrativa que mistura ação e introspecção, 'Mestres do Universo' tenta mostrar que todos têm suas lutas internas, independentemente de quão fortes possam parecer exteriormente.</p><p>Os fãs da franquia podem esperar algumas surpresas, incluindo cenas pós-créditos, que são uma marca registrada em produções contemporâneas. Embora detalhes sobre essas cenas ainda sejam um mistério, a expectativa é alta entre os aficionados por histórias em quadrinhos e filmes de ação.</p><p>Com uma abordagem que mistura nostalgia e questões contemporâneas, 'Mestres do Universo' pode se tornar um marco não apenas para os fãs de longa data, mas também para novas gerações que buscam uma conexão mais profunda com os personagens que admiram. A estreia está prevista para breve, e os fãs estão contando os dias para ver He-Man em sua nova jornada.</p>
+      </div>
+    </details>
+    <div class="source-strip compact">
+      <span>Folha de S.Paulo</span><span>G1</span><span>Correio do Povo</span><span>Omelete</span><span>Ingresso.com</span>
+    </div>
+  </article>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
