@@ -2,7 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
-const sourceHtml = path.join(root, "public", "site-hoje-referencia.html");
+const sourceHtml = path.join(root, "public", "site-final.html");
 const sourceImages = path.join(root, "public", "images");
 const docsDir = path.join(root, "docs");
 const docsImages = path.join(docsDir, "images");
@@ -14,7 +14,7 @@ function copyDir(from, to) {
 }
 
 if (!fs.existsSync(sourceHtml)) {
-  throw new Error("public/site-hoje-referencia.html nao encontrado. Rode npm run site:referencia antes.");
+  throw new Error("public/site-final.html nao encontrado. Rode npm run site:final antes.");
 }
 
 fs.rmSync(docsDir, { recursive: true, force: true });

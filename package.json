@@ -15,6 +15,7 @@
     "hybrid:daily": "node scripts/daily-hybrid.js",
     "site:hoje": "node scripts/generate-today-html.cjs",
     "site:referencia": "node scripts/generate-reference-html.cjs",
+    "site:final": "node scripts/generate-final-site.cjs",
     "site:gh-pages": "node scripts/prepare-gh-pages.cjs",
     "hybrid:server": "node server.js",
     "hybrid": "npm run build && node server.js",
