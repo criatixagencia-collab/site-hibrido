@@ -53,11 +53,20 @@ const PUBLIC_COPY_BLOCKLIST = [
   /\bsistema\b/i,
   /\bprojeto\b/i,
   /\bsele[cç][aã]o entrou\b/i,
+  /\bselecionad[ao] automaticamente\b/i,
   /\bescolhido porque\b/i,
   /\bmesa autom[aá]tica\b/i,
+  /\balgoritmo\b/i,
   /\bradar verificado\b/i,
   /\bradar de cultura pop\b/i,
+  /\bradar\b/i,
   /\bGoogle Trends\b/i,
+  /\bquantidade de fontes\b/i,
+  /\bader[eê]ncia ao universo\b/i,
+  /\bcobertura repetida\b/i,
+  /\bapareceu entre os assuntos\b/i,
+  /\bcruzar sinais\b/i,
+  /\bpublica[cç][aã]o recente\b/i,
   /\bfor[cç]a \d+\b/i,
   /\brefer[eê]ncias reunidas\b/i,
   /\brefer[eê]ncias consultadas\b/i,
@@ -68,6 +77,11 @@ const PUBLIC_COPY_BLOCKLIST = [
   /\bo ponto confirmado\b/i,
   /\ba prioridade desta vers[aã]o\b/i,
 ];
+
+const MIN_BODY_WORDS = 350;
+const MIN_BODY_CHARACTERS = 2200;
+const MIN_BODY_PARAGRAPHS = 6;
+const MAX_TITLE_CHARACTERS = 95;
 
 function hasInternalPublicCopy(value = "") {
   return PUBLIC_COPY_BLOCKLIST.some((pattern) => pattern.test(value));
@@ -112,16 +126,28 @@ function titleLooksCopied(originalTitle = "", generatedTitle = "") {
   return overlap / generatedWords.length > 0.82;
 }
 
+function bodyStats(body = []) {
+  const text = body.join(" ").replace(/\s+/g, " ").trim();
+  return {
+    characters: text.length,
+    paragraphs: body.length,
+    words: text.split(/\s+/).filter(Boolean).length,
+  };
+}
+
 function validateArticle(article, item) {
   const issues = [];
   const publicText = [article.title, article.excerpt, ...(article.body || [])].join(" ");
+  const stats = bodyStats(article.body || []);
   if (hasInternalPublicCopy(publicText)) issues.push("linguagem interna ou bastidor editorial");
   if (titleLooksCopied(item.title, article.title)) issues.push("titulo parecido demais com o titulo do RSS");
-  if (/movimenta debate|repercute no entretenimento|volta aos holofotes/i.test(article.title || "")) {
+  if (/movimenta debate|repercute no entretenimento|volta aos holofotes|tem nova atualizacao/i.test(article.title || "")) {
     issues.push("titulo generico ou incoerente");
   }
-  if ((article.title || "").length > 112) issues.push("titulo longo demais");
-  if ((article.body || []).length < 5) issues.push("corpo curto demais");
+  if ((article.title || "").length > MAX_TITLE_CHARACTERS) issues.push("titulo longo demais");
+  if (stats.paragraphs < MIN_BODY_PARAGRAPHS) issues.push("corpo curto demais");
+  if (stats.words < MIN_BODY_WORDS) issues.push("materia com menos de 350 palavras");
+  if (stats.characters < MIN_BODY_CHARACTERS) issues.push("materia com menos de 2200 caracteres");
   return issues;
 }
 
@@ -210,6 +236,8 @@ Regras:
 - Remova qualquer frase que explique processo editorial, fonte, referencia, consistencia, selecao, algoritmo, ranking, radar ou bastidor.
 - Escreva como noticia real para leitor final.
 - Use apenas os fatos fornecidos. Se faltarem detalhes, seja cauteloso sem dizer que faltam fontes.
+- Entregue 7 a 9 paragrafos, 350+ palavras e 2200+ caracteres.
+- O titulo deve ter no maximo 95 caracteres.
 - Retorne JSON valido.
 
 Titulo original RSS: ${item.title}
@@ -235,7 +263,7 @@ ${(article.body || []).join("\n\n")}
         content: `${repairPrompt}\nFormato: {"title":"...","excerpt":"...","category":"...","html":"<p>...</p>","tags":["..."],"imageSearchQuery":"...","imageAlt":"...","editorialDecision":"...","riskNotes":["..."]}`,
       },
     ],
-    1800,
+    3000,
   );
 
   return articleFromParsed(item, parsed, "openai-repair");
@@ -324,7 +352,9 @@ Regras obrigatorias:
 - Se a noticia for sobre saude, internacao, hospital, diagnostico ou cirurgia de uma personalidade, classifique como Famosos, nao como Cinema apenas porque a pessoa e atriz/ator.
 - Use apenas fatos presentes nos dados fornecidos. Se faltar detalhe, escreva com cautela.
 - Separe fato publicado de especulacao. Nao invente fala, data, valor, acusacao ou bastidor.
-- O corpo deve ter pelo menos 6 paragrafos, 350 palavras e 2200 caracteres quando houver informacao suficiente.
+- O corpo deve ter 7 a 9 paragrafos. Cada paragrafo deve ter 45 a 70 palavras.
+- O corpo final deve ter obrigatoriamente pelo menos 350 palavras e 2200 caracteres.
+- O titulo deve ter no maximo 95 caracteres e nao pode terminar parecendo incompleto.
 - Escreva como portal brasileiro de entretenimento: titulo direto, linha de apoio objetiva, paragrafos curtos e ritmo de noticia.
 - Decida tambem uma editoria e uma consulta de imagem segura para buscar foto relacionada.
 
@@ -351,7 +381,7 @@ Link da fonte: ${item.link}
           content: `${prompt}\nRetorne apenas JSON neste formato: {"title":"...","excerpt":"...","category":"...","html":"<p>...</p>","tags":["..."],"imageSearchQuery":"...","imageAlt":"...","editorialDecision":"...","riskNotes":["..."]}`,
         },
       ],
-      1800,
+      3000,
     );
 
     const article = articleFromParsed(item, parsed, "openai-draft");
@@ -385,11 +415,24 @@ Link da fonte: ${item.link}
 
 export async function generateArticles(news) {
   const limit = Number(process.env.POSTS_PER_RUN || 6);
-  const selected = news.slice(0, limit);
   const articles = [];
 
-  for (const item of selected) {
-    articles.push(await aiArticle(item));
+  for (const item of news) {
+    if (articles.length >= limit) break;
+
+    const article = await aiArticle(item);
+    const issues = validateArticle(article, item);
+    if (issues.length) {
+      console.warn(`Materia rejeitada antes da publicacao: ${item.title}`);
+      for (const issue of issues) console.warn(`- ${issue}`);
+      continue;
+    }
+
+    articles.push(article);
+  }
+
+  if (!articles.length) {
+    throw new Error("Nenhuma materia passou pela validacao editorial.");
   }
 
   return articles;

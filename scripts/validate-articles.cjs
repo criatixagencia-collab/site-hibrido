@@ -1,0 +1,226 @@
+const fs = require("node:fs");
+const path = require("node:path");
+
+const ARTICLES_FILE = path.resolve(__dirname, "..", "data", "articles.json");
+
+const MIN_BODY_WORDS = 350;
+const MIN_BODY_CHARACTERS = 2200;
+const MIN_BODY_PARAGRAPHS = 6;
+const MAX_TITLE_CHARACTERS = 95;
+
+const PUBLIC_COPY_BLOCKLIST = [
+  /\brodada\b/i,
+  /\bpauta\b/i,
+  /\bmonitorad[ao]s?\b/i,
+  /\branking\b/i,
+  /\bcuradoria\b/i,
+  /\bmat[eé]ria-base\b/i,
+  /\bfonte principal\b/i,
+  /\bfontes de apoio\b/i,
+  /\banota[cç][aã]o\b/i,
+  /\bpara mim\b/i,
+  /\bsistema\b/i,
+  /\bprojeto\b/i,
+  /\balgoritmo\b/i,
+  /\bmesa autom[aá]tica\b/i,
+  /\bradar\b/i,
+  /\bGoogle Trends\b/i,
+  /\bselecionad[ao] automaticamente\b/i,
+  /\bsele[cç][aã]o entrou\b/i,
+  /\bfoi escolhido porque\b/i,
+  /\bquantidade de fontes\b/i,
+  /\bader[eê]ncia ao universo\b/i,
+  /\bcobertura repetida\b/i,
+  /\bapareceu entre os assuntos\b/i,
+  /\bcruzar sinais\b/i,
+  /\bpublica[cç][aã]o recente\b/i,
+  /\bpublica[cç][aã]o isolada\b/i,
+  /\bchamada principal\b/i,
+  /\bpronta para virar post\b/i,
+  /\brascunho de WordPress\b/i,
+  /\brotina tamb[eé]m pode rodar por cron\b/i,
+  /\bsite ganha comportamento vivo\b/i,
+  /\bpara quem administra o site\b/i,
+  /\bmovimenta debate no cinema\b/i,
+  /\brepercute no entretenimento\b/i,
+  /\bvolta aos holofotes\b/i,
+  /\btem nova atualiza[cç][aã]o\b/i,
+];
+
+const SOURCE_DOMAIN_HINTS = {
+  "adorocinema": ["adorocinema.com"],
+  "area vip": ["areavip.com.br"],
+  "caras": ["caras.com.br"],
+  "cnn brasil": ["cnnbrasil.com.br"],
+  "correio do povo": ["correiodopovo.com.br"],
+  "extra online": ["extra.globo.com"],
+  "folha": ["folha.uol.com.br"],
+  "g1": ["g1.globo.com"],
+  "gshow": ["gshow.globo.com"],
+  "metropoles": ["metropoles.com"],
+  "noticias da tv": ["noticiasdatv.uol.com.br"],
+  "notícias da tv": ["noticiasdatv.uol.com.br"],
+  "o dia": ["odia.ig.com.br"],
+  "o globo": ["oglobo.globo.com", "globo.com"],
+  "omelete": ["omelete.com.br"],
+  "publico": ["publico.pt"],
+  "público": ["publico.pt"],
+  "radio itatiaia": ["itatiaia.com.br"],
+  "rádio itatiaia": ["itatiaia.com.br"],
+  "terra": ["terra.com.br"],
+  "tudo celular": ["tudocelular.com"],
+  "tudocelular": ["tudocelular.com"],
+  "uol": ["uol.com.br"],
+  "veja": ["veja.abril.com.br"],
+};
+
+function normalize(value = "") {
+  return String(value)
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function hostFromUrl(value = "") {
+  try {
+    return new URL(value).hostname.replace(/^www\./, "").toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+function textFromHtml(html = "") {
+  return String(html)
+    .replace(/<p[^>]*class=["'][^"']*article-sources[^"']*["'][\s\S]*?<\/p>/gi, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function paragraphsFromArticle(article) {
+  if (Array.isArray(article.body) && article.body.length) return article.body;
+  return [...String(article.html || "").matchAll(/<p(?![^>]*article-sources)[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map((match) => match[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+}
+
+function countText(paragraphs) {
+  const text = paragraphs.join(" ").replace(/\s+/g, " ").trim();
+  return {
+    text,
+    characters: text.length,
+    words: text.split(/\s+/).filter(Boolean).length,
+    paragraphs: paragraphs.length,
+  };
+}
+
+function sourceDomains(article) {
+  const values = [article.source, article.sourceUrl, ...(article.evidenceSources || [])].filter(Boolean);
+  const domains = new Set();
+
+  for (const value of values) {
+    const host = hostFromUrl(value);
+    if (host) domains.add(host);
+
+    const normalized = normalize(value);
+    for (const [name, hints] of Object.entries(SOURCE_DOMAIN_HINTS)) {
+      if (normalized.includes(normalize(name))) hints.forEach((hint) => domains.add(hint));
+    }
+  }
+
+  return [...domains];
+}
+
+function validateText(article, index) {
+  const id = article.slug || article.title || `materia-${index + 1}`;
+  const issues = [];
+  const paragraphs = paragraphsFromArticle(article);
+  const stats = countText(paragraphs);
+  const publicText = [article.title, article.excerpt, stats.text, textFromHtml(article.html)].join(" ");
+
+  if (stats.words < MIN_BODY_WORDS) issues.push(`${id}: ${stats.words}/${MIN_BODY_WORDS} palavras`);
+  if (stats.characters < MIN_BODY_CHARACTERS) {
+    issues.push(`${id}: ${stats.characters}/${MIN_BODY_CHARACTERS} caracteres`);
+  }
+  if (stats.paragraphs < MIN_BODY_PARAGRAPHS) {
+    issues.push(`${id}: ${stats.paragraphs}/${MIN_BODY_PARAGRAPHS} paragrafos`);
+  }
+
+  for (const pattern of PUBLIC_COPY_BLOCKLIST) {
+    if (pattern.test(publicText)) {
+      issues.push(`${id}: linguagem interna ou formula proibida (${pattern})`);
+    }
+  }
+
+  if (/\b(com|de|da|do|das|dos|e|em|para|por)$/i.test(String(article.title || "").trim())) {
+    issues.push(`${id}: titulo incompleto`);
+  }
+  if (String(article.title || "").includes("...")) issues.push(`${id}: titulo truncado`);
+  if (String(article.title || "").length > MAX_TITLE_CHARACTERS) issues.push(`${id}: titulo longo demais`);
+
+  return issues;
+}
+
+function validateImage(article, index) {
+  const id = article.slug || article.title || `materia-${index + 1}`;
+  const issues = [];
+  const image = String(article.image || "");
+  const imagePostUrl = String(article.imagePostUrl || "");
+  const imageCredit = String(article.imageCredit || "");
+
+  if (!image) issues.push(`${id}: sem imagem`);
+  if (/busca automatica/i.test(imageCredit)) issues.push(`${id}: credito de imagem generico`);
+
+  const imageHost = hostFromUrl(image);
+  const postHost = hostFromUrl(imagePostUrl);
+  const creditHostMatch = imageCredit.match(/([a-z0-9-]+\.)+[a-z]{2,}/i)?.[0]?.toLowerCase() || "";
+  const referenceHost = postHost || imageHost;
+
+  if (image && image !== "/images/news-placeholder.svg" && /^https?:\/\//i.test(image) && !imagePostUrl) {
+    issues.push(`${id}: imagem externa sem imagePostUrl`);
+  }
+
+  if (referenceHost && creditHostMatch && !referenceHost.endsWith(creditHostMatch)) {
+    issues.push(`${id}: credito da imagem nao bate com a origem real (${imageCredit} x ${referenceHost})`);
+  }
+
+  const blockedSource = sourceDomains(article).find((domain) => {
+    const normalizedDomain = domain.replace(/^www\./, "").toLowerCase();
+    return [imageHost, postHost].filter(Boolean).some((host) => host === normalizedDomain || host.endsWith(`.${normalizedDomain}`));
+  });
+
+  if (blockedSource) {
+    issues.push(`${id}: imagem vem de fonte da noticia (${blockedSource})`);
+  }
+
+  return issues;
+}
+
+function validate() {
+  if (!fs.existsSync(ARTICLES_FILE)) {
+    throw new Error("data/articles.json nao encontrado.");
+  }
+
+  const articles = JSON.parse(fs.readFileSync(ARTICLES_FILE, "utf8"));
+  if (!Array.isArray(articles) || !articles.length) {
+    throw new Error("data/articles.json nao contem materias.");
+  }
+
+  const issues = articles.flatMap((article, index) => [
+    ...validateText(article, index),
+    ...validateImage(article, index),
+  ]);
+
+  if (issues.length) {
+    console.error("data/articles.json reprovado. Corrija ou regenere antes de publicar:");
+    for (const issue of issues) console.error(`- ${issue}`);
+    process.exit(1);
+  }
+
+  console.log(`OK: ${articles.length} materias publicaveis em data/articles.json.`);
+}
+
+validate();
