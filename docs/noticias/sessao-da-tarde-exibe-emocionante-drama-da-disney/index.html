@@ -1,64 +1,11 @@
-const fs = require("node:fs");
-const path = require("node:path");
-
-const root = path.resolve(__dirname, "..");
-const articlesPath = path.join(root, "data", "articles.json");
-const outputDir = path.join(root, "public", "final-site");
-
-function escapeHtml(value) {
-  return String(value || "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
-
-function readArticles() {
-  if (!fs.existsSync(articlesPath)) {
-    throw new Error("data/articles.json nao encontrado. Rode npm run hybrid:refresh antes.");
-  }
-  return JSON.parse(fs.readFileSync(articlesPath, "utf8"));
-}
-
-function slug(value = "") {
-  return String(value)
-    .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")
-    .slice(0, 80);
-}
-
-function articleSlug(article) {
-  return slug(article.slug || article.title);
-}
-
-function articleUrl(article, prefix = "") {
-  return `${prefix}noticias/${articleSlug(article)}/`;
-}
-
-function formatDate(value) {
-  const date = value ? new Date(value) : new Date();
-  return new Intl.DateTimeFormat("pt-BR", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  }).format(Number.isNaN(date.getTime()) ? new Date() : date);
-}
-
-function imageFor(article, prefix = "") {
-  const image = article.image || "/images/news-placeholder.svg";
-  if (image.startsWith("/")) return `${prefix}${image.slice(1)}`;
-  return image;
-}
-
-function sourceLabels(article) {
-  return (article.evidenceSources || [article.source]).filter(Boolean).slice(0, 4);
-}
-
-function stylesheet(prefix = "") {
-  return `<style>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sessão da Tarde exibe emocionante drama da Disney - BuzzNews</title>
+  <meta name="description" content="Hoje, a Globo apresenta 'Safety: Uma Jogada de Coragem', um filme que combina emoção e inspiração, baseado em fatos reais.">
+  <style>
     :root {
       --ink: oklch(16% 0.018 42);
       --muted: oklch(46% 0.026 48);
@@ -370,28 +317,16 @@ function stylesheet(prefix = "") {
       .section-band p { text-align: left; }
       .site-footer { display: grid; }
     }
-  </style>`;
-}
-
-function pageShell({ title, description, body, prefix = "" }) {
-  const generatedAt = formatDate(new Date().toISOString());
-  return `<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(title)}</title>
-  <meta name="description" content="${escapeHtml(description)}">
-  ${stylesheet(prefix)}
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="masthead">
       <div class="topline">
         <span>Entretenimento agora</span>
-        <span>${escapeHtml(generatedAt)}</span>
+        <span>03 de junho de 2026</span>
       </div>
-      <a class="brand" href="${prefix}index.html">BuzzNews</a>
+      <a class="brand" href="../../index.html">BuzzNews</a>
       <nav class="nav" aria-label="Editorias">
         <span>Famosos</span>
         <span>TV</span>
@@ -401,131 +336,65 @@ function pageShell({ title, description, body, prefix = "" }) {
       </nav>
     </div>
   </header>
-  ${body}
-  <footer class="site-footer">
-    <span>BuzzNews</span>
-    <span>Atualizado em ${escapeHtml(generatedAt)}</span>
-  </footer>
-</body>
-</html>`;
-}
-
-function renderLead(article) {
-  return `<section class="lead">
-    <a class="lead-copy" href="${escapeHtml(articleUrl(article))}">
-      <span class="section-label">${escapeHtml(article.category || "Entretenimento")}</span>
-      <h1>${escapeHtml(article.title)}</h1>
-      <p>${escapeHtml(article.excerpt)}</p>
-      <span class="read-link">Ler a matéria</span>
-    </a>
-    <figure class="media-box">
-      <img src="${escapeHtml(imageFor(article))}" alt="${escapeHtml(article.imageAlt || article.title)}" loading="eager">
-      <figcaption>${escapeHtml(article.imageCredit || "Imagem ilustrativa")}</figcaption>
-    </figure>
-  </section>`;
-}
-
-function renderCard(article, index, prefix = "") {
-  return `<a class="news-card" href="${escapeHtml(articleUrl(article, prefix))}">
-    <span class="card-number">${String(index + 1).padStart(2, "0")}</span>
-    <span class="section-label">${escapeHtml(article.category || "Pop")}</span>
-    <h3>${escapeHtml(article.title)}</h3>
-    <p>${escapeHtml(article.excerpt)}</p>
-  </a>`;
-}
-
-function renderHome(articles) {
-  const items = articles.slice(0, 6);
-  const lead = items[0];
-  const cards = items.slice(1);
-  const body = `<main>
-    ${lead ? renderLead(lead) : ""}
-    <section class="section-band">
-      <h2>Mais lidas do dia</h2>
-      <p>Um giro rápido pelos assuntos que movimentam a cultura pop nesta edição.</p>
-    </section>
-    <section class="card-grid">
-      ${cards.map((article, index) => renderCard(article, index)).join("")}
-    </section>
-  </main>`;
-
-  return pageShell({
-    title: "BuzzNews - Entretenimento agora",
-    description: "Noticias de entretenimento, TV, cinema, musica, streaming e famosos em leitura rapida.",
-    body,
-  });
-}
-
-function renderSideList(title, articles, currentSlug, prefix) {
-  const items = articles.filter((article) => articleSlug(article) !== currentSlug).slice(0, 4);
-  return `<aside class="side-list">
-    <h2>${escapeHtml(title)}</h2>
-    ${items
-      .map(
-        (article) => `<a href="${escapeHtml(articleUrl(article, prefix))}">
-          <span>${escapeHtml(article.category || "Entretenimento")}</span>
-          <strong>${escapeHtml(article.title)}</strong>
-        </a>`,
-      )
-      .join("")}
-  </aside>`;
-}
-
-function renderArticlePage(article, allArticles) {
-  const currentSlug = articleSlug(article);
-  const prefix = "../../";
-  const body = article.body?.length ? article.body : [article.excerpt];
-  const sources = sourceLabels(article);
-  const pageBody = `<main>
+  <main>
     <article class="article-layout">
       <header class="article-header">
-        <span class="section-label">${escapeHtml(article.category || "Entretenimento")}</span>
-        <h1>${escapeHtml(article.title)}</h1>
-        <p>${escapeHtml(article.excerpt)}</p>
+        <span class="section-label">Entretenimento</span>
+        <h1>Sessão da Tarde exibe emocionante drama da Disney</h1>
+        <p>Hoje, a Globo apresenta 'Safety: Uma Jogada de Coragem', um filme que combina emoção e inspiração, baseado em fatos reais.</p>
       </header>
       <div>
         <div class="article-body">
-          ${body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+          <p>A Globo traz hoje para a sua 'Sessão da Tarde' o filme 'Safety: Uma Jogada de Coragem', uma produção da Disney que promete tocar o coração do público. A exibição acontece nesta terça-feira, 02 de junho, e a trama é centrada em uma história real que reflete sobre superação e determinação.</p><p>O filme narra a trajetória de Ray Ray McElrathbey, um jovem atleta que, ao enfrentar dificuldades familiares, se vê obrigado a cuidar do seu irmão mais novo. A narrativa explora os desafios enfrentados por Ray Ray enquanto ele tenta equilibrar suas obrigações familiares com a sua paixão pelo futebol americano.</p><p>Com uma abordagem emocionante, 'Safety' destaca a importância da família e da resiliência. O longa não só entretém, mas também traz uma mensagem poderosa sobre responsabilidade e amor fraternal. A produção foi bem recebida pela crítica, que elogiou a atuação do elenco e a forma como a história foi adaptada para as telonas.</p><p>Além disso, o filme se baseia em eventos reais, o que proporciona uma camada extra de profundidade à narrativa. Essa conexão com a realidade pode ressoar fortemente com os espectadores, que muitas vezes se veem refletidos nas lutas e triunfos de personagens como Ray Ray.</p><p>Se você está em busca de uma sessão de cinema que mistura drama e inspiração, 'Safety: Uma Jogada de Coragem' é uma escolha acertada. A produção não só promete entreter, mas também deixar uma mensagem positiva sobre a importância de se manter firme diante das adversidades.</p><p>Não perca a oportunidade de assistir a essa emocionante história que, sem dúvida, irá cativar tanto os jovens quanto os adultos. A 'Sessão da Tarde' da Globo é um convite para uma reflexão sobre os laços familiares e a coragem necessária para enfrentar os desafios da vida.</p>
         </div>
         <footer class="story-footer">
-          <span>Publicado em ${escapeHtml(formatDate(article.createdAt))}</span>
-          <span>${sources.map(escapeHtml).join(" / ")}</span>
+          <span>Publicado em 03 de junho de 2026</span>
+          <span>Séries em Cena / O Globo / Omelete / AdoroCinema</span>
         </footer>
       </div>
       <aside class="article-aside">
         <figure class="media-box">
-          <img src="${escapeHtml(imageFor(article, prefix))}" alt="${escapeHtml(article.imageAlt || article.title)}" loading="eager">
-          <figcaption>${escapeHtml(article.imageCredit || "Imagem ilustrativa")}</figcaption>
+          <img src="../../images/auto/sessao-da-tarde-exibe-emocionante-drama-da-disney.jpg" alt="Cena do filme Safety: Uma Jogada de Coragem" loading="eager">
+          <figcaption>Imagem ilustrativa: justwatch.com</figcaption>
         </figure>
-        ${renderSideList("Mais vistas do dia", allArticles, currentSlug, prefix)}
-        ${renderSideList("Mais lidas do dia", allArticles.slice().reverse(), currentSlug, prefix)}
+        <aside class="side-list">
+    <h2>Mais vistas do dia</h2>
+    <a href="../../noticias/wim-wenders-retira-filme-da-circulacao-por-cena-controverso-com-nastassja-kinski/">
+          <span>Cinema</span>
+          <strong>Wim Wenders Retira Filme da Circulação por Cena Controverso com Nastassja Kinski</strong>
+        </a><a href="../../noticias/rivellino-e-a-nova-serie-da-netflix-uma-homenagem-ao-futebol-brasileiro/">
+          <span>Entretenimento</span>
+          <strong>Rivellino e a Nova Série da Netflix: Uma Homenagem ao Futebol Brasileiro</strong>
+        </a><a href="../../noticias/criador-de-god-of-war-critica-novo-capitulo-da-franquia/">
+          <span>Entretenimento</span>
+          <strong>Criador de God of War Critica Novo Capítulo da Franquia</strong>
+        </a><a href="../../noticias/as-vesperas-de-viagem-carolina-dieckmmann-e-internada-e-recebe-diagnostico-ja-es/">
+          <span>Cinema</span>
+          <strong>Às vésperas de viagem, Carolina Dieckmmann é internada e recebe diagnóstico: ‘Já estava avançada’ movimenta debate no cinema</strong>
+        </a>
+  </aside>
+        <aside class="side-list">
+    <h2>Mais lidas do dia</h2>
+    <a href="../../noticias/joel-datena-se-recupera-apos-cirurgia-e-promete-voltar-com-tudo/">
+          <span>Entretenimento</span>
+          <strong>Joel Datena se recupera após cirurgia e promete voltar com tudo</strong>
+        </a><a href="../../noticias/as-vesperas-de-viagem-carolina-dieckmmann-e-internada-e-recebe-diagnostico-ja-es/">
+          <span>Cinema</span>
+          <strong>Às vésperas de viagem, Carolina Dieckmmann é internada e recebe diagnóstico: ‘Já estava avançada’ movimenta debate no cinema</strong>
+        </a><a href="../../noticias/criador-de-god-of-war-critica-novo-capitulo-da-franquia/">
+          <span>Entretenimento</span>
+          <strong>Criador de God of War Critica Novo Capítulo da Franquia</strong>
+        </a><a href="../../noticias/rivellino-e-a-nova-serie-da-netflix-uma-homenagem-ao-futebol-brasileiro/">
+          <span>Entretenimento</span>
+          <strong>Rivellino e a Nova Série da Netflix: Uma Homenagem ao Futebol Brasileiro</strong>
+        </a>
+  </aside>
       </aside>
     </article>
-  </main>`;
-
-  return pageShell({
-    title: `${article.title} - BuzzNews`,
-    description: article.excerpt,
-    body: pageBody,
-    prefix,
-  });
-}
-
-function writeFinalSite(articles) {
-  fs.rmSync(outputDir, { recursive: true, force: true });
-  fs.mkdirSync(outputDir, { recursive: true });
-  fs.writeFileSync(path.join(outputDir, "index.html"), renderHome(articles));
-
-  for (const article of articles.slice(0, 12)) {
-    const dir = path.join(outputDir, "noticias", articleSlug(article));
-    fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, "index.html"), renderArticlePage(article, articles));
-  }
-}
-
-const articles = readArticles();
-if (!articles.length) throw new Error("Nenhuma materia em data/articles.json.");
-
-writeFinalSite(articles);
-console.log(`Site final gerado em: ${outputDir}`);
-console.log(`Paginas de materia: ${articles.slice(0, 12).length}`);
+  </main>
+  <footer class="site-footer">
+    <span>BuzzNews</span>
+    <span>Atualizado em 03 de junho de 2026</span>
+  </footer>
+</body>
+</html>

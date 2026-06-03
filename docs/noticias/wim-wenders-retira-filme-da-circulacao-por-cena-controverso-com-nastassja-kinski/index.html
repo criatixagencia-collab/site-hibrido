@@ -1,64 +1,11 @@
-const fs = require("node:fs");
-const path = require("node:path");
-
-const root = path.resolve(__dirname, "..");
-const articlesPath = path.join(root, "data", "articles.json");
-const outputDir = path.join(root, "public", "final-site");
-
-function escapeHtml(value) {
-  return String(value || "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
-
-function readArticles() {
-  if (!fs.existsSync(articlesPath)) {
-    throw new Error("data/articles.json nao encontrado. Rode npm run hybrid:refresh antes.");
-  }
-  return JSON.parse(fs.readFileSync(articlesPath, "utf8"));
-}
-
-function slug(value = "") {
-  return String(value)
-    .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")
-    .slice(0, 80);
-}
-
-function articleSlug(article) {
-  return slug(article.slug || article.title);
-}
-
-function articleUrl(article, prefix = "") {
-  return `${prefix}noticias/${articleSlug(article)}/`;
-}
-
-function formatDate(value) {
-  const date = value ? new Date(value) : new Date();
-  return new Intl.DateTimeFormat("pt-BR", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  }).format(Number.isNaN(date.getTime()) ? new Date() : date);
-}
-
-function imageFor(article, prefix = "") {
-  const image = article.image || "/images/news-placeholder.svg";
-  if (image.startsWith("/")) return `${prefix}${image.slice(1)}`;
-  return image;
-}
-
-function sourceLabels(article) {
-  return (article.evidenceSources || [article.source]).filter(Boolean).slice(0, 4);
-}
-
-function stylesheet(prefix = "") {
-  return `<style>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wim Wenders Retira Filme da Circulação por Cena Controverso com Nastassja Kinski - BuzzNews</title>
+  <meta name="description" content="Após 51 anos, o diretor decide retirar da circulação um de seus filmes mais polêmicos, que apresenta uma cena de nudez infantil.">
+  <style>
     :root {
       --ink: oklch(16% 0.018 42);
       --muted: oklch(46% 0.026 48);
@@ -370,28 +317,16 @@ function stylesheet(prefix = "") {
       .section-band p { text-align: left; }
       .site-footer { display: grid; }
     }
-  </style>`;
-}
-
-function pageShell({ title, description, body, prefix = "" }) {
-  const generatedAt = formatDate(new Date().toISOString());
-  return `<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(title)}</title>
-  <meta name="description" content="${escapeHtml(description)}">
-  ${stylesheet(prefix)}
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="masthead">
       <div class="topline">
         <span>Entretenimento agora</span>
-        <span>${escapeHtml(generatedAt)}</span>
+        <span>03 de junho de 2026</span>
       </div>
-      <a class="brand" href="${prefix}index.html">BuzzNews</a>
+      <a class="brand" href="../../index.html">BuzzNews</a>
       <nav class="nav" aria-label="Editorias">
         <span>Famosos</span>
         <span>TV</span>
@@ -401,131 +336,65 @@ function pageShell({ title, description, body, prefix = "" }) {
       </nav>
     </div>
   </header>
-  ${body}
-  <footer class="site-footer">
-    <span>BuzzNews</span>
-    <span>Atualizado em ${escapeHtml(generatedAt)}</span>
-  </footer>
-</body>
-</html>`;
-}
-
-function renderLead(article) {
-  return `<section class="lead">
-    <a class="lead-copy" href="${escapeHtml(articleUrl(article))}">
-      <span class="section-label">${escapeHtml(article.category || "Entretenimento")}</span>
-      <h1>${escapeHtml(article.title)}</h1>
-      <p>${escapeHtml(article.excerpt)}</p>
-      <span class="read-link">Ler a matéria</span>
-    </a>
-    <figure class="media-box">
-      <img src="${escapeHtml(imageFor(article))}" alt="${escapeHtml(article.imageAlt || article.title)}" loading="eager">
-      <figcaption>${escapeHtml(article.imageCredit || "Imagem ilustrativa")}</figcaption>
-    </figure>
-  </section>`;
-}
-
-function renderCard(article, index, prefix = "") {
-  return `<a class="news-card" href="${escapeHtml(articleUrl(article, prefix))}">
-    <span class="card-number">${String(index + 1).padStart(2, "0")}</span>
-    <span class="section-label">${escapeHtml(article.category || "Pop")}</span>
-    <h3>${escapeHtml(article.title)}</h3>
-    <p>${escapeHtml(article.excerpt)}</p>
-  </a>`;
-}
-
-function renderHome(articles) {
-  const items = articles.slice(0, 6);
-  const lead = items[0];
-  const cards = items.slice(1);
-  const body = `<main>
-    ${lead ? renderLead(lead) : ""}
-    <section class="section-band">
-      <h2>Mais lidas do dia</h2>
-      <p>Um giro rápido pelos assuntos que movimentam a cultura pop nesta edição.</p>
-    </section>
-    <section class="card-grid">
-      ${cards.map((article, index) => renderCard(article, index)).join("")}
-    </section>
-  </main>`;
-
-  return pageShell({
-    title: "BuzzNews - Entretenimento agora",
-    description: "Noticias de entretenimento, TV, cinema, musica, streaming e famosos em leitura rapida.",
-    body,
-  });
-}
-
-function renderSideList(title, articles, currentSlug, prefix) {
-  const items = articles.filter((article) => articleSlug(article) !== currentSlug).slice(0, 4);
-  return `<aside class="side-list">
-    <h2>${escapeHtml(title)}</h2>
-    ${items
-      .map(
-        (article) => `<a href="${escapeHtml(articleUrl(article, prefix))}">
-          <span>${escapeHtml(article.category || "Entretenimento")}</span>
-          <strong>${escapeHtml(article.title)}</strong>
-        </a>`,
-      )
-      .join("")}
-  </aside>`;
-}
-
-function renderArticlePage(article, allArticles) {
-  const currentSlug = articleSlug(article);
-  const prefix = "../../";
-  const body = article.body?.length ? article.body : [article.excerpt];
-  const sources = sourceLabels(article);
-  const pageBody = `<main>
+  <main>
     <article class="article-layout">
       <header class="article-header">
-        <span class="section-label">${escapeHtml(article.category || "Entretenimento")}</span>
-        <h1>${escapeHtml(article.title)}</h1>
-        <p>${escapeHtml(article.excerpt)}</p>
+        <span class="section-label">Cinema</span>
+        <h1>Wim Wenders Retira Filme da Circulação por Cena Controverso com Nastassja Kinski</h1>
+        <p>Após 51 anos, o diretor decide retirar da circulação um de seus filmes mais polêmicos, que apresenta uma cena de nudez infantil.</p>
       </header>
       <div>
         <div class="article-body">
-          ${body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+          <p>O renomado diretor alemão Wim Wenders tomou uma decisão impactante ao retirar de circulação seu filme de 1975, que apresenta uma cena de nudez envolvendo a atriz Nastassja Kinski, que na época tinha apenas 13 anos. A medida foi anunciada após um longo período de reflexão sobre a representação da infância e a ética na indústria cinematográfica.</p><p>A cena em questão, que gerou controvérsia e debate ao longo dos anos, foi considerada por Wenders como inaceitável em um contexto contemporâneo. O diretor, conhecido por suas obras marcantes e pela sensibilidade em abordar temas complexos, decidiu que a retirada do filme era uma ação necessária para proteger a imagem da atriz e respeitar os limites da representação da infância no cinema.</p><p>Nastassja Kinski, que se tornou uma das atrizes mais icônicas do cinema, expressou seu desejo de apagar a cena, revelando o peso que essa parte de sua carreira teve em sua vida pessoal e profissional. O fato de Wenders ter apoiado essa decisão mostra uma mudança significativa na maneira como a indústria lida com questões de consentimento e representação de menores.</p><p>Esse movimento de Wenders é visto como um reflexo de uma crescente conscientização sobre a ética na produção cinematográfica. Nos últimos anos, houve um aumento no debate sobre a nudez infantil em filmes e a responsabilidade dos cineastas em criar um ambiente seguro e respeitoso para todos os envolvidos nas produções.</p><p>Embora a decisão de Wenders tenha sido elogiada por muitos, também levanta questões sobre a preservação da história do cinema e o que deve ser feito com obras que contêm elementos considerados problemáticos. A discussão sobre o que deve ser mantido ou removido da história cinematográfica é complexa e muitas vezes polarizadora.</p><p>O caso de Wenders e Kinski pode ser um ponto de partida para uma reflexão mais ampla sobre como o cinema deve evoluir e se adaptar às normas sociais contemporâneas. À medida que a indústria continua a se transformar, é essencial que cineastas, atores e o público se unam para garantir que a arte permaneça uma forma de expressão respeitosa e ética.</p>
         </div>
         <footer class="story-footer">
-          <span>Publicado em ${escapeHtml(formatDate(article.createdAt))}</span>
-          <span>${sources.map(escapeHtml).join(" / ")}</span>
+          <span>Publicado em 03 de junho de 2026</span>
+          <span>Folha de S.Paulo / O Globo / Público / cinemaecerveja.com.br</span>
         </footer>
       </div>
       <aside class="article-aside">
         <figure class="media-box">
-          <img src="${escapeHtml(imageFor(article, prefix))}" alt="${escapeHtml(article.imageAlt || article.title)}" loading="eager">
-          <figcaption>${escapeHtml(article.imageCredit || "Imagem ilustrativa")}</figcaption>
+          <img src="../../images/auto/wim-wenders-retira-filme-da-circulacao-por-cena-controverso-com-nastassja-kinski.jpg" alt="Wim Wenders e Nastassja Kinski em cena de filme" loading="eager">
+          <figcaption>Imagem ilustrativa: alamy.de</figcaption>
         </figure>
-        ${renderSideList("Mais vistas do dia", allArticles, currentSlug, prefix)}
-        ${renderSideList("Mais lidas do dia", allArticles.slice().reverse(), currentSlug, prefix)}
+        <aside class="side-list">
+    <h2>Mais vistas do dia</h2>
+    <a href="../../noticias/sessao-da-tarde-exibe-emocionante-drama-da-disney/">
+          <span>Entretenimento</span>
+          <strong>Sessão da Tarde exibe emocionante drama da Disney</strong>
+        </a><a href="../../noticias/rivellino-e-a-nova-serie-da-netflix-uma-homenagem-ao-futebol-brasileiro/">
+          <span>Entretenimento</span>
+          <strong>Rivellino e a Nova Série da Netflix: Uma Homenagem ao Futebol Brasileiro</strong>
+        </a><a href="../../noticias/criador-de-god-of-war-critica-novo-capitulo-da-franquia/">
+          <span>Entretenimento</span>
+          <strong>Criador de God of War Critica Novo Capítulo da Franquia</strong>
+        </a><a href="../../noticias/as-vesperas-de-viagem-carolina-dieckmmann-e-internada-e-recebe-diagnostico-ja-es/">
+          <span>Cinema</span>
+          <strong>Às vésperas de viagem, Carolina Dieckmmann é internada e recebe diagnóstico: ‘Já estava avançada’ movimenta debate no cinema</strong>
+        </a>
+  </aside>
+        <aside class="side-list">
+    <h2>Mais lidas do dia</h2>
+    <a href="../../noticias/joel-datena-se-recupera-apos-cirurgia-e-promete-voltar-com-tudo/">
+          <span>Entretenimento</span>
+          <strong>Joel Datena se recupera após cirurgia e promete voltar com tudo</strong>
+        </a><a href="../../noticias/as-vesperas-de-viagem-carolina-dieckmmann-e-internada-e-recebe-diagnostico-ja-es/">
+          <span>Cinema</span>
+          <strong>Às vésperas de viagem, Carolina Dieckmmann é internada e recebe diagnóstico: ‘Já estava avançada’ movimenta debate no cinema</strong>
+        </a><a href="../../noticias/criador-de-god-of-war-critica-novo-capitulo-da-franquia/">
+          <span>Entretenimento</span>
+          <strong>Criador de God of War Critica Novo Capítulo da Franquia</strong>
+        </a><a href="../../noticias/rivellino-e-a-nova-serie-da-netflix-uma-homenagem-ao-futebol-brasileiro/">
+          <span>Entretenimento</span>
+          <strong>Rivellino e a Nova Série da Netflix: Uma Homenagem ao Futebol Brasileiro</strong>
+        </a>
+  </aside>
       </aside>
     </article>
-  </main>`;
-
-  return pageShell({
-    title: `${article.title} - BuzzNews`,
-    description: article.excerpt,
-    body: pageBody,
-    prefix,
-  });
-}
-
-function writeFinalSite(articles) {
-  fs.rmSync(outputDir, { recursive: true, force: true });
-  fs.mkdirSync(outputDir, { recursive: true });
-  fs.writeFileSync(path.join(outputDir, "index.html"), renderHome(articles));
-
-  for (const article of articles.slice(0, 12)) {
-    const dir = path.join(outputDir, "noticias", articleSlug(article));
-    fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, "index.html"), renderArticlePage(article, articles));
-  }
-}
-
-const articles = readArticles();
-if (!articles.length) throw new Error("Nenhuma materia em data/articles.json.");
-
-writeFinalSite(articles);
-console.log(`Site final gerado em: ${outputDir}`);
-console.log(`Paginas de materia: ${articles.slice(0, 12).length}`);
+  </main>
+  <footer class="site-footer">
+    <span>BuzzNews</span>
+    <span>Atualizado em 03 de junho de 2026</span>
+  </footer>
+</body>
+</html>

@@ -2,7 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
-const sourceHtml = path.join(root, "public", "site-final.html");
+const sourceSite = path.join(root, "public", "final-site");
 const sourceImages = path.join(root, "public", "images");
 const docsDir = path.join(root, "docs");
 const docsImages = path.join(docsDir, "images");
@@ -13,21 +13,12 @@ function copyDir(from, to) {
   fs.cpSync(from, to, { recursive: true });
 }
 
-if (!fs.existsSync(sourceHtml)) {
-  throw new Error("public/site-final.html nao encontrado. Rode npm run site:final antes.");
+if (!fs.existsSync(path.join(sourceSite, "index.html"))) {
+  throw new Error("public/final-site/index.html nao encontrado. Rode npm run site:final antes.");
 }
 
 fs.rmSync(docsDir, { recursive: true, force: true });
-fs.mkdirSync(docsDir, { recursive: true });
-
-let html = fs.readFileSync(sourceHtml, "utf8");
-html = html
-  .replaceAll('src="/images/', 'src="./images/')
-  .replaceAll("src='/images/", "src='./images/")
-  .replaceAll('href="/images/', 'href="./images/')
-  .replaceAll("href='/images/", "href='./images/");
-
-fs.writeFileSync(path.join(docsDir, "index.html"), html);
+fs.cpSync(sourceSite, docsDir, { recursive: true });
 fs.writeFileSync(path.join(docsDir, ".nojekyll"), "");
 copyDir(sourceImages, docsImages);
 

@@ -1,64 +1,11 @@
-const fs = require("node:fs");
-const path = require("node:path");
-
-const root = path.resolve(__dirname, "..");
-const articlesPath = path.join(root, "data", "articles.json");
-const outputDir = path.join(root, "public", "final-site");
-
-function escapeHtml(value) {
-  return String(value || "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
-
-function readArticles() {
-  if (!fs.existsSync(articlesPath)) {
-    throw new Error("data/articles.json nao encontrado. Rode npm run hybrid:refresh antes.");
-  }
-  return JSON.parse(fs.readFileSync(articlesPath, "utf8"));
-}
-
-function slug(value = "") {
-  return String(value)
-    .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "")
-    .slice(0, 80);
-}
-
-function articleSlug(article) {
-  return slug(article.slug || article.title);
-}
-
-function articleUrl(article, prefix = "") {
-  return `${prefix}noticias/${articleSlug(article)}/`;
-}
-
-function formatDate(value) {
-  const date = value ? new Date(value) : new Date();
-  return new Intl.DateTimeFormat("pt-BR", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  }).format(Number.isNaN(date.getTime()) ? new Date() : date);
-}
-
-function imageFor(article, prefix = "") {
-  const image = article.image || "/images/news-placeholder.svg";
-  if (image.startsWith("/")) return `${prefix}${image.slice(1)}`;
-  return image;
-}
-
-function sourceLabels(article) {
-  return (article.evidenceSources || [article.source]).filter(Boolean).slice(0, 4);
-}
-
-function stylesheet(prefix = "") {
-  return `<style>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joel Datena se recupera após cirurgia e promete voltar com tudo - BuzzNews</title>
+  <meta name="description" content="Apresentador de 'Brasil Urgente' atualiza fãs sobre seu estado de saúde e fala sobre o retorno ao programa.">
+  <style>
     :root {
       --ink: oklch(16% 0.018 42);
       --muted: oklch(46% 0.026 48);
@@ -370,28 +317,16 @@ function stylesheet(prefix = "") {
       .section-band p { text-align: left; }
       .site-footer { display: grid; }
     }
-  </style>`;
-}
-
-function pageShell({ title, description, body, prefix = "" }) {
-  const generatedAt = formatDate(new Date().toISOString());
-  return `<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(title)}</title>
-  <meta name="description" content="${escapeHtml(description)}">
-  ${stylesheet(prefix)}
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="masthead">
       <div class="topline">
         <span>Entretenimento agora</span>
-        <span>${escapeHtml(generatedAt)}</span>
+        <span>03 de junho de 2026</span>
       </div>
-      <a class="brand" href="${prefix}index.html">BuzzNews</a>
+      <a class="brand" href="../../index.html">BuzzNews</a>
       <nav class="nav" aria-label="Editorias">
         <span>Famosos</span>
         <span>TV</span>
@@ -401,131 +336,65 @@ function pageShell({ title, description, body, prefix = "" }) {
       </nav>
     </div>
   </header>
-  ${body}
-  <footer class="site-footer">
-    <span>BuzzNews</span>
-    <span>Atualizado em ${escapeHtml(generatedAt)}</span>
-  </footer>
-</body>
-</html>`;
-}
-
-function renderLead(article) {
-  return `<section class="lead">
-    <a class="lead-copy" href="${escapeHtml(articleUrl(article))}">
-      <span class="section-label">${escapeHtml(article.category || "Entretenimento")}</span>
-      <h1>${escapeHtml(article.title)}</h1>
-      <p>${escapeHtml(article.excerpt)}</p>
-      <span class="read-link">Ler a matéria</span>
-    </a>
-    <figure class="media-box">
-      <img src="${escapeHtml(imageFor(article))}" alt="${escapeHtml(article.imageAlt || article.title)}" loading="eager">
-      <figcaption>${escapeHtml(article.imageCredit || "Imagem ilustrativa")}</figcaption>
-    </figure>
-  </section>`;
-}
-
-function renderCard(article, index, prefix = "") {
-  return `<a class="news-card" href="${escapeHtml(articleUrl(article, prefix))}">
-    <span class="card-number">${String(index + 1).padStart(2, "0")}</span>
-    <span class="section-label">${escapeHtml(article.category || "Pop")}</span>
-    <h3>${escapeHtml(article.title)}</h3>
-    <p>${escapeHtml(article.excerpt)}</p>
-  </a>`;
-}
-
-function renderHome(articles) {
-  const items = articles.slice(0, 6);
-  const lead = items[0];
-  const cards = items.slice(1);
-  const body = `<main>
-    ${lead ? renderLead(lead) : ""}
-    <section class="section-band">
-      <h2>Mais lidas do dia</h2>
-      <p>Um giro rápido pelos assuntos que movimentam a cultura pop nesta edição.</p>
-    </section>
-    <section class="card-grid">
-      ${cards.map((article, index) => renderCard(article, index)).join("")}
-    </section>
-  </main>`;
-
-  return pageShell({
-    title: "BuzzNews - Entretenimento agora",
-    description: "Noticias de entretenimento, TV, cinema, musica, streaming e famosos em leitura rapida.",
-    body,
-  });
-}
-
-function renderSideList(title, articles, currentSlug, prefix) {
-  const items = articles.filter((article) => articleSlug(article) !== currentSlug).slice(0, 4);
-  return `<aside class="side-list">
-    <h2>${escapeHtml(title)}</h2>
-    ${items
-      .map(
-        (article) => `<a href="${escapeHtml(articleUrl(article, prefix))}">
-          <span>${escapeHtml(article.category || "Entretenimento")}</span>
-          <strong>${escapeHtml(article.title)}</strong>
-        </a>`,
-      )
-      .join("")}
-  </aside>`;
-}
-
-function renderArticlePage(article, allArticles) {
-  const currentSlug = articleSlug(article);
-  const prefix = "../../";
-  const body = article.body?.length ? article.body : [article.excerpt];
-  const sources = sourceLabels(article);
-  const pageBody = `<main>
+  <main>
     <article class="article-layout">
       <header class="article-header">
-        <span class="section-label">${escapeHtml(article.category || "Entretenimento")}</span>
-        <h1>${escapeHtml(article.title)}</h1>
-        <p>${escapeHtml(article.excerpt)}</p>
+        <span class="section-label">Entretenimento</span>
+        <h1>Joel Datena se recupera após cirurgia e promete voltar com tudo</h1>
+        <p>Apresentador de 'Brasil Urgente' atualiza fãs sobre seu estado de saúde e fala sobre o retorno ao programa.</p>
       </header>
       <div>
         <div class="article-body">
-          ${body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+          <p>Joel Datena, conhecido por seu carisma e presença marcante no programa 'Brasil Urgente', atualizou seus fãs sobre seu estado de saúde após passar por uma cirurgia delicada na coluna. Em um vídeo recente, o apresentador compartilhou sua experiência e expressou otimismo em relação à recuperação.</p><p>A cirurgia, considerada necessária para tratar de problemas de coluna, levou Datena a um período de afastamento do programa que apresenta na Band. Apesar do susto, ele revelou que está se sentindo melhor e que sua recuperação tem sido positiva.</p><p>Em suas declarações, Datena destacou a importância de cuidar da saúde e mencionou que, embora tenha enfrentado momentos difíceis, está determinado a voltar com mais força ao comando de seu programa. O apresentador, que é um dos rostos mais conhecidos da televisão brasileira, sempre teve uma conexão especial com seu público, e essa fase de recuperação não é diferente.</p><p>Além de falar sobre sua saúde, Datena também comentou sobre a previsão de retorno ao 'Brasil Urgente'. Embora não tenha dado uma data exata, ele se mostrou confiante e animado para voltar ao ar. O apresentador é conhecido por seu estilo direto e envolvente, características que conquistaram uma legião de fãs ao longo dos anos.</p><p>A expectativa dos telespectadores é alta, e muitos se manifestaram nas redes sociais, desejando uma rápida recuperação ao apresentador. A interação com o público sempre foi uma marca registrada de Datena, que frequentemente compartilha detalhes de sua vida pessoal e profissional com seus seguidores.</p><p>Com a promessa de retornar em breve, Joel Datena continua sendo uma figura central na televisão brasileira, e sua recuperação é acompanhada de perto pelos fãs. Enquanto isso, ele permanece ativo nas redes sociais, mantendo seus seguidores atualizados sobre seu progresso e seus planos para o futuro.</p>
         </div>
         <footer class="story-footer">
-          <span>Publicado em ${escapeHtml(formatDate(article.createdAt))}</span>
-          <span>${sources.map(escapeHtml).join(" / ")}</span>
+          <span>Publicado em 03 de junho de 2026</span>
+          <span>Notícias da TV / Metrópoles / Terra / Rádio Itatiaia</span>
         </footer>
       </div>
       <aside class="article-aside">
         <figure class="media-box">
-          <img src="${escapeHtml(imageFor(article, prefix))}" alt="${escapeHtml(article.imageAlt || article.title)}" loading="eager">
-          <figcaption>${escapeHtml(article.imageCredit || "Imagem ilustrativa")}</figcaption>
+          <img src="../../images/auto/joel-datena-se-recupera-apos-cirurgia-e-promete-voltar-com-tudo.jpg" alt="Joel Datena em um evento de televisão" loading="eager">
+          <figcaption>Imagem ilustrativa: areavip.com.br</figcaption>
         </figure>
-        ${renderSideList("Mais vistas do dia", allArticles, currentSlug, prefix)}
-        ${renderSideList("Mais lidas do dia", allArticles.slice().reverse(), currentSlug, prefix)}
+        <aside class="side-list">
+    <h2>Mais vistas do dia</h2>
+    <a href="../../noticias/wim-wenders-retira-filme-da-circulacao-por-cena-controverso-com-nastassja-kinski/">
+          <span>Cinema</span>
+          <strong>Wim Wenders Retira Filme da Circulação por Cena Controverso com Nastassja Kinski</strong>
+        </a><a href="../../noticias/sessao-da-tarde-exibe-emocionante-drama-da-disney/">
+          <span>Entretenimento</span>
+          <strong>Sessão da Tarde exibe emocionante drama da Disney</strong>
+        </a><a href="../../noticias/rivellino-e-a-nova-serie-da-netflix-uma-homenagem-ao-futebol-brasileiro/">
+          <span>Entretenimento</span>
+          <strong>Rivellino e a Nova Série da Netflix: Uma Homenagem ao Futebol Brasileiro</strong>
+        </a><a href="../../noticias/criador-de-god-of-war-critica-novo-capitulo-da-franquia/">
+          <span>Entretenimento</span>
+          <strong>Criador de God of War Critica Novo Capítulo da Franquia</strong>
+        </a>
+  </aside>
+        <aside class="side-list">
+    <h2>Mais lidas do dia</h2>
+    <a href="../../noticias/as-vesperas-de-viagem-carolina-dieckmmann-e-internada-e-recebe-diagnostico-ja-es/">
+          <span>Cinema</span>
+          <strong>Às vésperas de viagem, Carolina Dieckmmann é internada e recebe diagnóstico: ‘Já estava avançada’ movimenta debate no cinema</strong>
+        </a><a href="../../noticias/criador-de-god-of-war-critica-novo-capitulo-da-franquia/">
+          <span>Entretenimento</span>
+          <strong>Criador de God of War Critica Novo Capítulo da Franquia</strong>
+        </a><a href="../../noticias/rivellino-e-a-nova-serie-da-netflix-uma-homenagem-ao-futebol-brasileiro/">
+          <span>Entretenimento</span>
+          <strong>Rivellino e a Nova Série da Netflix: Uma Homenagem ao Futebol Brasileiro</strong>
+        </a><a href="../../noticias/sessao-da-tarde-exibe-emocionante-drama-da-disney/">
+          <span>Entretenimento</span>
+          <strong>Sessão da Tarde exibe emocionante drama da Disney</strong>
+        </a>
+  </aside>
       </aside>
     </article>
-  </main>`;
-
-  return pageShell({
-    title: `${article.title} - BuzzNews`,
-    description: article.excerpt,
-    body: pageBody,
-    prefix,
-  });
-}
-
-function writeFinalSite(articles) {
-  fs.rmSync(outputDir, { recursive: true, force: true });
-  fs.mkdirSync(outputDir, { recursive: true });
-  fs.writeFileSync(path.join(outputDir, "index.html"), renderHome(articles));
-
-  for (const article of articles.slice(0, 12)) {
-    const dir = path.join(outputDir, "noticias", articleSlug(article));
-    fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, "index.html"), renderArticlePage(article, articles));
-  }
-}
-
-const articles = readArticles();
-if (!articles.length) throw new Error("Nenhuma materia em data/articles.json.");
-
-writeFinalSite(articles);
-console.log(`Site final gerado em: ${outputDir}`);
-console.log(`Paginas de materia: ${articles.slice(0, 12).length}`);
+  </main>
+  <footer class="site-footer">
+    <span>BuzzNews</span>
+    <span>Atualizado em 03 de junho de 2026</span>
+  </footer>
+</body>
+</html>
