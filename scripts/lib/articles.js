@@ -1,4 +1,8 @@
 import { aiApiKey, aiChatCompletionsUrl, aiModel } from "./ai-config.js";
+import { createRequire } from "node:module";
+
+const require = createRequire(import.meta.url);
+const { classifyMarket, maxInternationalFor } = require("./market-classifier.cjs");
 
 function slugify(value) {
   return value
@@ -7,7 +11,8 @@ function slugify(value) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "")
-    .slice(0, 90);
+    .slice(0, 90)
+    .replace(/-$/g, "");
 }
 
 function cleanFeedSummary(item) {
@@ -212,6 +217,7 @@ function articleFromParsed(item, parsed, generationMode) {
     slug: slugify(parsed.title || fallback.title),
     excerpt: parsed.excerpt || fallback.excerpt,
     category: parsed.category || fallback.category,
+    market: classifyMarket({ ...fallback, ...parsed }),
     html: `${parsed.html || fallback.html}${referencesNote(item)}`,
     body: body.length ? body : fallback.body,
     tags: Array.isArray(parsed.tags) ? parsed.tags : fallback.tags,
@@ -220,6 +226,7 @@ function articleFromParsed(item, parsed, generationMode) {
     editorialMeta: {
       ...fallback.editorialMeta,
       generationMode,
+      market: classifyMarket({ ...fallback, ...parsed }),
       editorialDecision: parsed.editorialDecision || "",
       riskNotes: Array.isArray(parsed.riskNotes) ? parsed.riskNotes : [],
     },
@@ -318,6 +325,7 @@ function localArticle(item) {
     imageCredit: item.imageCredit || "",
     evidenceSources: item.evidenceSources || [item.source],
     category: categoryFor(item),
+    market: classifyMarket(item),
     tags: [
       categoryFor(item).toLowerCase(),
       "entretenimento",
@@ -336,6 +344,7 @@ ${referencesNote(item)}`,
       trendBoost: item.trendBoost,
       trendMatches: item.trendMatches || [],
       generationMode: "local-fallback",
+      market: classifyMarket(item),
     },
     createdAt: new Date().toISOString(),
   };
@@ -421,11 +430,25 @@ Link da fonte: ${item.link}
 export async function generateArticles(news) {
   const limit = Number(process.env.POSTS_PER_RUN || 10);
   const articles = [];
+  const maxInternational = maxInternationalFor(limit);
+  let internationalCount = 0;
 
   for (const item of news) {
     if (articles.length >= limit) break;
 
+    const itemMarket = classifyMarket(item);
+    if (itemMarket === "internacional" && internationalCount >= maxInternational) continue;
+
     const article = await aiArticle(item);
+    const articleMarket = classifyMarket(article);
+    if (articleMarket === "internacional" && internationalCount >= maxInternational) continue;
+
+    article.market = articleMarket;
+    article.editorialMeta = {
+      ...(article.editorialMeta || {}),
+      market: articleMarket,
+    };
+
     const issues = validateArticle(article, item);
     if (issues.length) {
       console.warn(`Materia rejeitada antes da publicacao: ${item.title}`);
@@ -434,6 +457,7 @@ export async function generateArticles(news) {
     }
 
     articles.push(article);
+    if (articleMarket === "internacional") internationalCount += 1;
   }
 
   if (!articles.length) {

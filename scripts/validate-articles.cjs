@@ -1,5 +1,6 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { classifyMarket, marketCounts, maxInternationalFor } = require("./lib/market-classifier.cjs");
 
 const ARTICLES_FILE = path.resolve(__dirname, "..", "data", "articles.json");
 
@@ -161,6 +162,7 @@ function validateText(article, index) {
   }
   if (String(article.title || "").includes("...")) issues.push(`${id}: titulo truncado`);
   if (String(article.title || "").length > MAX_TITLE_CHARACTERS) issues.push(`${id}: titulo longo demais`);
+  if (String(article.slug || "").endsWith("-")) issues.push(`${id}: slug termina com hifen`);
 
   return issues;
 }
@@ -200,6 +202,28 @@ function validateImage(article, index) {
   return issues;
 }
 
+function validateMarketMix(articles) {
+  const counts = marketCounts(articles);
+  const maxInternational = maxInternationalFor(articles.length);
+  const issues = [];
+
+  if (counts.internacional > maxInternational) {
+    issues.push(
+      `mix editorial: ${counts.internacional}/${articles.length} materias internacionais; maximo permitido ${maxInternational}`,
+    );
+  }
+
+  articles.forEach((article, index) => {
+    const computedMarket = classifyMarket(article);
+    if (article.market && article.market !== computedMarket) {
+      const id = article.slug || article.title || `materia-${index + 1}`;
+      issues.push(`${id}: mercado marcado como ${article.market}, mas classificado como ${computedMarket}`);
+    }
+  });
+
+  return issues;
+}
+
 function validate() {
   if (!fs.existsSync(ARTICLES_FILE)) {
     throw new Error("data/articles.json nao encontrado.");
@@ -219,6 +243,8 @@ function validate() {
     ...validateText(article, index),
     ...validateImage(article, index),
   ]);
+
+  issues.push(...validateMarketMix(articles));
 
   if (issues.length) {
     console.error("data/articles.json reprovado. Corrija ou regenere antes de publicar:");

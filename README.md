@@ -12,6 +12,7 @@ Projeto hibrido criado a partir do visual do BuzzNews com a inteligencia do sist
 - Cruzamento com Google Trends Brasil.
 - Regra editorial de 2+ fontes antes de entrar no radar.
 - Rodada atual configurada para publicar pelo menos 10 materias aprovadas.
+- Mix editorial: no maximo 3 materias internacionais a cada 10; o restante deve ser Brasil.
 - Cron horario configuravel.
 - Publisher WordPress por REST API.
 - Workflow n8n em `n8n/news-to-wordpress-workflow.json`.
