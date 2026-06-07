@@ -7,6 +7,7 @@ const MIN_BODY_WORDS = 350;
 const MIN_BODY_CHARACTERS = 2200;
 const MIN_BODY_PARAGRAPHS = 6;
 const MAX_TITLE_CHARACTERS = 95;
+const MIN_ARTICLES = Number(process.env.MIN_ARTICLES || process.env.POSTS_PER_RUN || 10);
 
 const PUBLIC_COPY_BLOCKLIST = [
   /\brodada\b/i,
@@ -207,6 +208,11 @@ function validate() {
   const articles = JSON.parse(fs.readFileSync(ARTICLES_FILE, "utf8"));
   if (!Array.isArray(articles) || !articles.length) {
     throw new Error("data/articles.json nao contem materias.");
+  }
+
+  if (articles.length < MIN_ARTICLES) {
+    console.error(`data/articles.json reprovado: ${articles.length}/${MIN_ARTICLES} materias publicaveis.`);
+    process.exit(1);
   }
 
   const issues = articles.flatMap((article, index) => [

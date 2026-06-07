@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "SITE HIBRIDO",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "terminal.integrated.cwd": "${workspaceFolder:SITE HIBRIDO}",
+    "npm.packageManager": "npm"
+  }
+}

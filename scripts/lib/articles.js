@@ -1,3 +1,5 @@
+import { aiApiKey, aiChatCompletionsUrl, aiModel } from "./ai-config.js";
+
 function slugify(value) {
   return value
     .normalize("NFD")
@@ -180,14 +182,14 @@ function referencesNote(item) {
 }
 
 async function requestOpenAIJson(messages, maxTokens = 1800) {
-  const response = await fetch("https://api.openai.com/v1/chat/completions", {
+  const response = await fetch(aiChatCompletionsUrl(), {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+      Authorization: `Bearer ${aiApiKey()}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: process.env.OPENAI_MODEL || "gpt-4o-mini",
+      model: aiModel(),
       messages,
       temperature: 0.5,
       max_tokens: maxTokens,
@@ -236,7 +238,9 @@ Regras:
 - Remova qualquer frase que explique processo editorial, fonte, referencia, consistencia, selecao, algoritmo, ranking, radar ou bastidor.
 - Escreva como noticia real para leitor final.
 - Use apenas os fatos fornecidos. Se faltarem detalhes, seja cauteloso sem dizer que faltam fontes.
-- Entregue 7 a 9 paragrafos, 350+ palavras e 2200+ caracteres.
+- Entregue exatamente 8 paragrafos no campo html.
+- Cada paragrafo deve ter 55 a 75 palavras.
+- O corpo final deve mirar 480 a 560 palavras e passar obrigatoriamente de 3000 caracteres.
 - O titulo deve ter no maximo 95 caracteres.
 - Retorne JSON valido.
 
@@ -263,7 +267,7 @@ ${(article.body || []).join("\n\n")}
         content: `${repairPrompt}\nFormato: {"title":"...","excerpt":"...","category":"...","html":"<p>...</p>","tags":["..."],"imageSearchQuery":"...","imageAlt":"...","editorialDecision":"...","riskNotes":["..."]}`,
       },
     ],
-    3000,
+    4500,
   );
 
   return articleFromParsed(item, parsed, "openai-repair");
@@ -338,7 +342,7 @@ ${referencesNote(item)}`,
 }
 
 async function aiArticle(item) {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = aiApiKey();
   if (!apiKey || process.env.USE_OPENAI_FOR_POSTS !== "true") return localArticle(item);
 
   const prompt = `
@@ -352,8 +356,9 @@ Regras obrigatorias:
 - Se a noticia for sobre saude, internacao, hospital, diagnostico ou cirurgia de uma personalidade, classifique como Famosos, nao como Cinema apenas porque a pessoa e atriz/ator.
 - Use apenas fatos presentes nos dados fornecidos. Se faltar detalhe, escreva com cautela.
 - Separe fato publicado de especulacao. Nao invente fala, data, valor, acusacao ou bastidor.
-- O corpo deve ter 7 a 9 paragrafos. Cada paragrafo deve ter 45 a 70 palavras.
-- O corpo final deve ter obrigatoriamente pelo menos 350 palavras e 2200 caracteres.
+- O campo html deve ter exatamente 8 paragrafos <p>...</p>.
+- Cada paragrafo deve ter 55 a 75 palavras.
+- O corpo final deve mirar 480 a 560 palavras e passar obrigatoriamente de 3000 caracteres.
 - O titulo deve ter no maximo 95 caracteres e nao pode terminar parecendo incompleto.
 - Escreva como portal brasileiro de entretenimento: titulo direto, linha de apoio objetiva, paragrafos curtos e ritmo de noticia.
 - Decida tambem uma editoria e uma consulta de imagem segura para buscar foto relacionada.
@@ -381,7 +386,7 @@ Link da fonte: ${item.link}
           content: `${prompt}\nRetorne apenas JSON neste formato: {"title":"...","excerpt":"...","category":"...","html":"<p>...</p>","tags":["..."],"imageSearchQuery":"...","imageAlt":"...","editorialDecision":"...","riskNotes":["..."]}`,
         },
       ],
-      3000,
+      4500,
     );
 
     const article = articleFromParsed(item, parsed, "openai-draft");
@@ -414,7 +419,7 @@ Link da fonte: ${item.link}
 }
 
 export async function generateArticles(news) {
-  const limit = Number(process.env.POSTS_PER_RUN || 6);
+  const limit = Number(process.env.POSTS_PER_RUN || 10);
   const articles = [];
 
   for (const item of news) {
@@ -433,6 +438,10 @@ export async function generateArticles(news) {
 
   if (!articles.length) {
     throw new Error("Nenhuma materia passou pela validacao editorial.");
+  }
+
+  if (articles.length < limit) {
+    throw new Error(`A rodada gerou ${articles.length}/${limit} materias publicaveis. Aumente MAX_ITEMS, revise filtros ou rode novamente.`);
   }
 
   return articles;

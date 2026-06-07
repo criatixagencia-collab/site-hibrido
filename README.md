@@ -11,6 +11,7 @@ Projeto hibrido criado a partir do visual do BuzzNews com a inteligencia do sist
 - Coleta por Google News RSS.
 - Cruzamento com Google Trends Brasil.
 - Regra editorial de 2+ fontes antes de entrar no radar.
+- Rodada atual configurada para publicar pelo menos 10 materias aprovadas.
 - Cron horario configuravel.
 - Publisher WordPress por REST API.
 - Workflow n8n em `n8n/news-to-wordpress-workflow.json`.
@@ -21,20 +22,23 @@ Projeto hibrido criado a partir do visual do BuzzNews com a inteligencia do sist
 ```bash
 npm install
 npm run hybrid:refresh
-npm run build
-PORT=3017 npm run hybrid:server
+npm run site:final
+npm run site:gh-pages
+python3 -m http.server 4177 --directory docs
 ```
 
 Abra:
 
 ```text
-http://localhost:3017
+http://localhost:4177
 ```
 
 ## Scripts principais
 
 ```bash
 npm run hybrid:refresh
+npm run site:final
+npm run site:gh-pages
 npm run hybrid:server
 npm run hybrid
 npm run hybrid:daily
@@ -49,7 +53,7 @@ Copie `.env.example` para `.env` e preencha apenas o que for usar.
 - `PORT`: porta do servidor hibrido.
 - `CRON_SCHEDULE`: agenda do cron, padrao `0 * * * *`.
 - `MAX_ITEMS`: maximo de noticias coletadas.
-- `POSTS_PER_RUN`: quantidade de posts gerados por rodada.
+- `POSTS_PER_RUN`: quantidade minima de posts publicaveis gerados por rodada. Padrao atual: 10.
 - `USE_OPENAI_FOR_POSTS`: use `true` para ativar OpenAI nos posts dinamicos.
 - `OPENAI_API_KEY`: chave OpenAI, opcional.
 - `WP_URL`, `WP_USER`, `WP_APP_PASSWORD`, `WP_STATUS`: publicacao WordPress.
@@ -62,7 +66,7 @@ O GitHub Pages recebe apenas arquivos estaticos. A inteligencia roda localmente 
 
 ```bash
 npm run hybrid:refresh
-npm run site:referencia
+npm run site:final
 npm run site:gh-pages
 ```
 

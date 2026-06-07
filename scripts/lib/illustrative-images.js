@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
+import { aiApiKey, aiChatCompletionsUrl, aiModel, aiBaseUrl, isOpenAIBaseUrl } from "./ai-config.js";
 
 const PUBLIC_IMAGE_DIR = path.resolve("public", "images", "auto");
 const PROFILE_MAP_FILE = path.resolve("data", "instagram-profiles.json");
@@ -321,17 +322,17 @@ async function downloadImage(url, slug) {
 }
 
 async function chooseCandidateWithOpenAI(article, candidates) {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = aiApiKey();
   if (!apiKey || !candidates.length) return 0;
 
-  const response = await fetch("https://api.openai.com/v1/chat/completions", {
+  const response = await fetch(aiChatCompletionsUrl(), {
     method: "POST",
     headers: {
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: process.env.OPENAI_MODEL || "gpt-4o-mini",
+      model: aiModel(),
       messages: [
         {
           role: "system",
@@ -376,8 +377,9 @@ async function chooseCandidateWithOpenAI(article, candidates) {
 }
 
 async function chooseInstagramCandidateWithOpenAI(article, candidates) {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = aiApiKey();
   if (!apiKey || !candidates.length) return 0;
+  if (!isOpenAIBaseUrl()) return chooseCandidateWithOpenAI(article, candidates);
 
   const content = [
     {
@@ -407,14 +409,14 @@ async function chooseInstagramCandidateWithOpenAI(article, candidates) {
     content.push({ type: "input_image", image_url: candidate.imageUrl });
   }
 
-  const response = await fetch("https://api.openai.com/v1/responses", {
+  const response = await fetch(`${aiBaseUrl()}/responses`, {
     method: "POST",
     headers: {
       Authorization: `Bearer ${apiKey}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: process.env.OPENAI_VISION_MODEL || process.env.OPENAI_MODEL || "gpt-4o-mini",
+      model: process.env.OPENAI_VISION_MODEL || aiModel(),
       input: [{ role: "user", content }],
       text: {
         format: {
