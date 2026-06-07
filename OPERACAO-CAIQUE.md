@@ -127,6 +127,8 @@ Atencao:
 - Quando a IA gerar texto fraco, generico, curto, incoerente ou com metalinguagem, reprovar antes de publicar.
 - A cada 10 materias, no maximo 3 podem ser internacionais.
 - O restante deve ser Brasil. Fonte brasileira nao transforma pauta internacional em pauta brasileira.
+- A coleta deve nascer Brasil-first: priorizar pautas nacionais antes da escrita.
+- Pauta internacional so deve entrar como candidata se estiver realmente forte/popular, por score alto, tendencia ou varias fontes.
 
 ## Regras de imagem
 
@@ -174,6 +176,7 @@ O site deve operar como um portal estatico no GitHub Pages, com:
 - Home em feed vertical
 - Pelo menos 10 materias publicaveis por rodada
 - No maximo 3 internacionais a cada 10 materias
+- Internacionais filtradas ja na coleta, nao apenas no validador final
 - Paginas internas por materia
 - Materias escritas com tom jornalistico
 - Imagens ilustrativas validadas

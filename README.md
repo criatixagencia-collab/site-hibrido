@@ -13,6 +13,7 @@ Projeto hibrido criado a partir do visual do BuzzNews com a inteligencia do sist
 - Regra editorial de 2+ fontes antes de entrar no radar.
 - Rodada atual configurada para publicar pelo menos 10 materias aprovadas.
 - Mix editorial: no maximo 3 materias internacionais a cada 10; o restante deve ser Brasil.
+- A coleta ja prioriza pautas nacionais; internacional so entra como candidato se tiver sinal forte de popularidade.
 - Cron horario configuravel.
 - Publisher WordPress por REST API.
 - Workflow n8n em `n8n/news-to-wordpress-workflow.json`.
@@ -55,6 +56,8 @@ Copie `.env.example` para `.env` e preencha apenas o que for usar.
 - `CRON_SCHEDULE`: agenda do cron, padrao `0 * * * *`.
 - `MAX_ITEMS`: maximo de noticias coletadas.
 - `POSTS_PER_RUN`: quantidade minima de posts publicaveis gerados por rodada. Padrao atual: 10.
+- `MIN_INTERNATIONAL_SCORE`: pontuacao minima para uma pauta internacional entrar como candidata. Padrao atual: 120.
+- `MAX_INTERNATIONAL_CANDIDATES`: limite de pautas internacionais levadas para a etapa de escrita. Padrao atual: 3.
 - `USE_OPENAI_FOR_POSTS`: use `true` para ativar OpenAI nos posts dinamicos.
 - `OPENAI_API_KEY`: chave OpenAI, opcional.
 - `WP_URL`, `WP_USER`, `WP_APP_PASSWORD`, `WP_STATUS`: publicacao WordPress.

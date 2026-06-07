@@ -1,4 +1,8 @@
 import Parser from "rss-parser";
+import { createRequire } from "node:module";
+
+const require = createRequire(import.meta.url);
+const { classifyMarket, maxInternationalFor } = require("./market-classifier.cjs");
 
 const parser = new Parser({
   customFields: {
@@ -166,6 +170,18 @@ function scoreItem(item, index, trends) {
   return termScore + recencyScore + sourceScore + trendScore;
 }
 
+function isStrongInternationalSignal(item) {
+  const minimumScore = Number(process.env.MIN_INTERNATIONAL_SCORE || 120);
+  return item.trendBoost || item.score >= minimumScore || (item.sourceCount >= 6 && item.score >= minimumScore - 10);
+}
+
+function editorialSortScore(item) {
+  const market = item.market || classifyMarket(item);
+  const brazilBoost = market === "brasil" ? 60 : 0;
+  const internationalTrendBoost = market === "internacional" && item.trendBoost ? 30 : 0;
+  return item.score + brazilBoost + internationalTrendBoost;
+}
+
 async function addImages(items) {
   return items.map((item) => ({
     ...item,
@@ -208,7 +224,7 @@ export async function fetchEntertainmentNews() {
       if (hasBlockedSignal(title, summary)) return;
       if (!feed.name.includes("Entretenimento") && !hasEntertainmentSignal(title, summary)) return;
 
-      collected.push({
+      const candidate = {
         id: Buffer.from(`${title}:${item.link}`).toString("base64url").slice(0, 20),
         title,
         originalTitle: item.title,
@@ -222,19 +238,40 @@ export async function fetchEntertainmentNews() {
         trendBoost: trendMatches.length > 0,
         publishedAt: item.isoDate || item.pubDate || new Date().toISOString(),
         score: scoreItem({ ...item, title, summary, evidenceSources }, index, trends),
-      });
+      };
+
+      candidate.market = classifyMarket(candidate);
+      collected.push(candidate);
     });
   }
 
   const seen = new Set();
-  const ranked = collected
+  const eligible = collected
     .filter((item) => {
       const key = normalizeText(item.title);
       if (seen.has(key)) return false;
       seen.add(key);
       return item.sourceCount >= 2 && item.score > 40;
     })
+    .filter((item) => item.market === "brasil" || isStrongInternationalSignal(item));
+
+  const maxInternationalCandidates = Number(
+    process.env.MAX_INTERNATIONAL_CANDIDATES || maxInternationalFor(Number(process.env.POSTS_PER_RUN || 10)),
+  );
+  const internationalCandidates = eligible
+    .filter((item) => item.market === "internacional")
     .sort((a, b) => b.score - a.score || new Date(b.publishedAt) - new Date(a.publishedAt))
+    .slice(0, maxInternationalCandidates);
+  const allowedInternationalIds = new Set(internationalCandidates.map((item) => item.id));
+
+  const ranked = eligible
+    .filter((item) => item.market === "brasil" || allowedInternationalIds.has(item.id))
+    .sort(
+      (a, b) =>
+        editorialSortScore(b) - editorialSortScore(a) ||
+        b.score - a.score ||
+        new Date(b.publishedAt) - new Date(a.publishedAt),
+    )
     .slice(0, maxItems);
 
   return addImages(ranked);
