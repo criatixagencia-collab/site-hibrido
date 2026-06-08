@@ -9,6 +9,7 @@ const MIN_BODY_CHARACTERS = 2200;
 const MIN_BODY_PARAGRAPHS = 6;
 const MAX_TITLE_CHARACTERS = 95;
 const MIN_ARTICLES = Number(process.env.MIN_ARTICLES || process.env.POSTS_PER_RUN || 10);
+const REQUIRE_PAGE_IMAGE_CREDIT = /^true$/i.test(process.env.REQUIRE_PAGE_IMAGE_CREDIT || "");
 
 const PUBLIC_COPY_BLOCKLIST = [
   /\brodada\b/i,
@@ -173,8 +174,10 @@ function validateImage(article, index) {
   const image = String(article.image || "");
   const imagePostUrl = String(article.imagePostUrl || "");
   const imageCredit = String(article.imageCredit || "");
+  const imageCreditStatus = String(article.imageCreditStatus || "");
 
   if (!image) issues.push(`${id}: sem imagem`);
+  if (!imageCredit.trim()) issues.push(`${id}: sem credito de imagem`);
   if (/busca automatica/i.test(imageCredit)) issues.push(`${id}: credito de imagem generico`);
 
   const imageHost = hostFromUrl(image);
@@ -188,6 +191,15 @@ function validateImage(article, index) {
 
   if (referenceHost && creditHostMatch && !referenceHost.endsWith(creditHostMatch)) {
     issues.push(`${id}: credito da imagem nao bate com a origem real (${imageCredit} x ${referenceHost})`);
+  }
+
+  if (
+    REQUIRE_PAGE_IMAGE_CREDIT &&
+    image !== "/images/news-placeholder.svg" &&
+    imagePostUrl &&
+    !["page-extracted", "instagram-profile", "manual", "official"].includes(imageCreditStatus)
+  ) {
+    issues.push(`${id}: credito da imagem nao foi extraido da pagina de origem (${imageCreditStatus || "sem status"})`);
   }
 
   const blockedSource = sourceDomains(article).find((domain) => {

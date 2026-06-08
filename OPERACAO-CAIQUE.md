@@ -137,6 +137,10 @@ Atencao:
 - A imagem nao deve vir da mesma URL da noticia nem do mesmo cluster exato.
 - Para noticia centrada em uma pessoa, pode buscar candidato em Instagram/Apify quando existir fluxo disponivel.
 - A IA deve validar se a imagem representa o assunto sem induzir erro.
+- Quando a imagem vier de uma pagina externa, registrar `imagePostUrl` e tentar extrair o credito textual escrito nessa pagina.
+- O credito exibido deve priorizar o credito real da pagina/post. Usar apenas dominio como fallback temporario, nunca como credito ideal.
+- Para travar publicacao sem credito textual extraido, usar `REQUIRE_PAGE_IMAGE_CREDIT=true` antes de rodar `npm run validate:articles`.
+- Usar navegador/Browser Harness/Playwright para checar visualmente home, paginas internas, imagens renderizadas e legendas quando houver duvida.
 - No layout, usar imagem sem corte agressivo. O site deve preservar a imagem em tela cheia e mobile.
 
 ## GitHub Pages

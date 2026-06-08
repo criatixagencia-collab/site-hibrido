@@ -456,6 +456,10 @@ Se usa foto de show, buscar imagem recente do artista no palco.
 
 Toda imagem publicada precisa ter credito logo abaixo.
 
+Quando a imagem vier de uma pagina externa, o sistema deve tentar extrair o credito que esta escrito na propria pagina de origem: legenda, figcaption, metadados, JSON-LD ou texto proximo da imagem. O dominio da pagina pode aparecer apenas como fallback temporario quando o credito textual nao estiver disponivel.
+
+Se a rodada estiver em modo rigido, `REQUIRE_PAGE_IMAGE_CREDIT=true`, imagem externa sem credito extraido da pagina deve reprovar antes de publicar.
+
 Formato sugerido:
 
 ```txt
@@ -475,8 +479,10 @@ Foto: Globo/Divulgacao
 
 ```txt
 URL da imagem:
+URL da pagina/post de origem:
 Origem da imagem:
 Credito exibido:
+Status do credito: page-extracted / instagram-profile / manual / official / domain-fallback / placeholder
 Tipo de imagem: oficial / agencia / reproducao / divulgacao / banco de imagem
 Tamanho/qualidade:
 Por que essa imagem foi escolhida:

@@ -25,7 +25,8 @@ Filtros usados:
 - A imagem parece com a foto da materia de referencia?
 - A imagem e diferente da usada pela fonte original?
 - A origem da imagem esta clara?
-- O credito esta identificado?
+- O credito esta identificado na pagina/post de origem?
+- O credito exibido foi extraido da pagina/post, e nao inventado pelo dominio?
 - A imagem nao distorce o sentido da noticia?
 - A imagem nao expõe pessoa sensivel, menor de idade ou vitima sem necessidade?
 
@@ -36,6 +37,8 @@ URL da imagem:
 URL do post original:
 Origem:
 Credito que vai aparecer abaixo da foto:
+Credito encontrado onde: legenda / figcaption / metadado / JSON-LD / Instagram / manual / fallback por dominio
+Status do credito: page-extracted / instagram-profile / manual / official / domain-fallback / placeholder
 Tipo: oficial / agencia / banco / divulgacao / reproducao / outro
 Qualidade: grande / media / baixa
 Recencia:

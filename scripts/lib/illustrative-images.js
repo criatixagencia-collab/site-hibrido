@@ -59,6 +59,177 @@ function hostFromUrl(value = "") {
   }
 }
 
+function decodeHtmlEntities(value = "") {
+  return String(value)
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&apos;/gi, "'")
+    .replace(/&ccedil;/gi, "ç")
+    .replace(/&atilde;/gi, "ã")
+    .replace(/&aacute;/gi, "á")
+    .replace(/&eacute;/gi, "é")
+    .replace(/&iacute;/gi, "í")
+    .replace(/&oacute;/gi, "ó")
+    .replace(/&uacute;/gi, "ú")
+    .replace(/&ocirc;/gi, "ô")
+    .replace(/&ecirc;/gi, "ê")
+    .replace(/&ntilde;/gi, "ñ")
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCharCode(Number.parseInt(code, 16)));
+}
+
+function stripHtml(value = "") {
+  return decodeHtmlEntities(value)
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function cleanCreditText(value = "") {
+  return stripHtml(value)
+    .replace(/\b(clique para ampliar|compartilhe|leia tamb[eé]m|publicidade)\b/gi, " ")
+    .replace(/\s*[-|]\s*(Foto|Imagem|Cr[eé]dito|Credit|Photo)\s*[:/]\s*/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 180)
+    .trim();
+}
+
+function looksLikeCreditText(value = "") {
+  const text = cleanCreditText(value);
+  if (text.length < 4 || text.length > 180) return false;
+  if (/[.!?]\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]/.test(text) && text.length > 120) return false;
+  if (/\b(menu|newsletter|assine|coment[aá]rios?|cookies?|whatsapp)\b/i.test(text)) return false;
+
+  return /(\b(foto|imagem|cr[eé]dito|credit|photo|copyright|reprodu[cç][aã]o|divulga[cç][aã]o)\b|©|getty images|agnews|brazil news|instagram|youtube|tiktok|netflix|globo|warner|disney)/i.test(text);
+}
+
+function normalizeCreditLabel(value = "") {
+  const credit = cleanCreditText(value)
+    .replace(/^cr[eé]dito\s*[:/-]\s*/i, "Foto: ")
+    .replace(/^credit\s*[:/-]\s*/i, "Foto: ")
+    .replace(/^photo\s*[:/-]\s*/i, "Foto: ");
+
+  if (/^(foto|imagem|reprodu[cç][aã]o|divulga[cç][aã]o)\s*[:/-]/i.test(credit)) {
+    return credit;
+  }
+
+  return `Foto: ${credit}`;
+}
+
+function quotedAttributePattern(attribute, names) {
+  return [
+    new RegExp(`<meta[^>]+${attribute}=["'](?:${names.join("|")})["'][^>]+content=["']([^"']+)["'][^>]*>`, "i"),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+${attribute}=["'](?:${names.join("|")})["'][^>]*>`, "i"),
+  ];
+}
+
+function extractMetaCredit(html = "") {
+  const names = [
+    "credit",
+    "image:credit",
+    "article:image:credit",
+    "copyright",
+    "author",
+    "parsely-author",
+    "twitter:image:alt",
+    "og:image:alt",
+  ];
+
+  for (const attribute of ["name", "property"]) {
+    for (const pattern of quotedAttributePattern(attribute, names)) {
+      const match = html.match(pattern);
+      if (match && looksLikeCreditText(match[1])) return normalizeCreditLabel(match[1]);
+    }
+  }
+
+  return "";
+}
+
+function extractJsonLdCredit(html = "") {
+  const patterns = [
+    /"creditText"\s*:\s*"([^"]+)"/i,
+    /"copyrightNotice"\s*:\s*"([^"]+)"/i,
+    /"copyrightHolder"\s*:\s*\{[\s\S]{0,240}?"name"\s*:\s*"([^"]+)"/i,
+    /"creator"\s*:\s*\{[\s\S]{0,240}?"name"\s*:\s*"([^"]+)"/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
+    if (match && looksLikeCreditText(match[1])) return normalizeCreditLabel(match[1]);
+  }
+
+  return "";
+}
+
+function extractCaptionCredit(html = "") {
+  const candidates = [];
+  const elementPattern =
+    /<(figcaption|caption|p|span|div)[^>]*(?:caption|credit|credito|crédito|copyright|legend|wp-caption-text|image-caption|media-caption|foto)[^>]*>([\s\S]{0,700}?)<\/\1>/gi;
+
+  for (const match of html.matchAll(elementPattern)) {
+    candidates.push(match[2]);
+  }
+
+  const inlinePattern =
+    /(?:Foto|Imagem|Cr[eé]dito|Credit|Photo|Copyright)\s*[:/-]\s*([^<\n\r]{3,180})/gi;
+  for (const match of html.matchAll(inlinePattern)) {
+    candidates.push(`${match[0]}`);
+  }
+
+  for (const candidate of candidates) {
+    if (looksLikeCreditText(candidate)) return normalizeCreditLabel(candidate);
+  }
+
+  return "";
+}
+
+async function extractCreditFromPage(pageUrl = "") {
+  if (!/^https?:\/\//i.test(pageUrl)) return "";
+
+  try {
+    const response = await fetch(pageUrl, {
+      headers: {
+        "user-agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
+        accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      },
+      signal: AbortSignal.timeout(9000),
+    });
+    if (!response.ok) return "";
+
+    const contentType = response.headers.get("content-type") || "";
+    if (contentType && !/html|text/i.test(contentType)) return "";
+
+    const html = await response.text();
+    return extractJsonLdCredit(html) || extractMetaCredit(html) || extractCaptionCredit(html);
+  } catch {
+    return "";
+  }
+}
+
+async function creditForWebCandidate(candidate) {
+  const pageCredit = await extractCreditFromPage(candidate.pageUrl || "");
+  if (pageCredit) {
+    return {
+      imageCredit: pageCredit,
+      imageCreditStatus: "page-extracted",
+      imageCreditSourceUrl: candidate.pageUrl || "",
+    };
+  }
+
+  const host = hostFromUrl(candidate.pageUrl || candidate.imageUrl);
+  return {
+    imageCredit: host ? `Imagem ilustrativa: ${host}` : "Imagem ilustrativa",
+    imageCreditStatus: "domain-fallback",
+    imageCreditSourceUrl: candidate.pageUrl || "",
+  };
+}
+
 function readProfileMap() {
   if (!existsSync(PROFILE_MAP_FILE)) return {};
   return JSON.parse(readFileSync(PROFILE_MAP_FILE, "utf8"));
@@ -474,6 +645,8 @@ export async function applyIllustrativeImages(articles) {
             image: localPath || "/images/news-placeholder.svg",
             imageCredit: chosen.credit || "Foto: Reprodução/Instagram",
             imagePostUrl: chosen.pageUrl || "",
+            imageCreditStatus: "instagram-profile",
+            imageCreditSourceUrl: chosen.pageUrl || "",
             imagePolicy:
               "Imagem de Instagram publico/oficial escolhida pela OpenAI como ilustracao; nao copiada da materia original.",
           });
@@ -509,6 +682,8 @@ export async function applyIllustrativeImages(articles) {
         ...article,
         image: "/images/news-placeholder.svg",
         imageCredit: "Imagem ilustrativa: BuzzPop",
+        imageCreditStatus: "placeholder",
+        imageCreditSourceUrl: "",
         imagePolicy: "Sem candidata ilustrativa valida fora das fontes da noticia.",
       });
       continue;
@@ -517,14 +692,15 @@ export async function applyIllustrativeImages(articles) {
     const chosenIndex = await chooseCandidateWithOpenAI(article, candidates);
     const chosen = candidates[chosenIndex] || candidates[0];
     const localPath = await downloadImage(chosen.imageUrl, slugify(article.slug || article.title));
+    const credit = await creditForWebCandidate(chosen);
 
     updated.push({
       ...article,
       image: localPath || "/images/news-placeholder.svg",
-      imageCredit: hostFromUrl(chosen.pageUrl || chosen.imageUrl)
-        ? `Imagem ilustrativa: ${hostFromUrl(chosen.pageUrl || chosen.imageUrl)}`
-        : "Imagem ilustrativa",
+      imageCredit: credit.imageCredit,
       imagePostUrl: chosen.pageUrl || "",
+      imageCreditStatus: credit.imageCreditStatus,
+      imageCreditSourceUrl: credit.imageCreditSourceUrl,
       imagePolicy: "Imagem ilustrativa escolhida fora das fontes que cobrem a noticia.",
     });
   }

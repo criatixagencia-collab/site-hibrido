@@ -99,7 +99,9 @@ Imagem
   -> para pessoa especifica, preferir Instagram publico/oficial via Apify quando houver perfil mapeado
   -> senao, preferir imagem ilustrativa coerente: arquivo, perfil publico, rede oficial, banco permitido ou pagina relacionada que nao cobre a mesma noticia
   -> usar OpenAI para escolher a imagem mais adequada entre candidatas e rejeitar fonte proibida
-  -> registrar credito e motivo interno
+  -> abrir/ler a pagina de origem da imagem e extrair credito textual quando existir
+  -> registrar imagePostUrl, imageCredit, imageCreditStatus, origem e motivo interno
+  -> checar no navegador/Browser Harness se a imagem e a legenda aparecem corretamente no site
 ```
 
 ## Comandos principais
