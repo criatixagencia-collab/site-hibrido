@@ -1,6 +1,6 @@
 # Modelo de Pauta
 
-Use este modelo para transformar uma noticia encontrada em rascunho para o BuzzNews.
+Use este modelo para transformar uma noticia encontrada em rascunho para o BuzzPop.
 
 ## Fonte original
 
@@ -22,7 +22,7 @@ Autor, se houver:
 - Existe alguma citacao importante?
 - Existe numero, data, local ou nome que precisa ser conferido?
 
-## Versao BuzzNews
+## Versao BuzzPop
 
 Categoria:
 Titulo:

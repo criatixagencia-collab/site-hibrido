@@ -1,6 +1,6 @@
 # Sites Fonte
 
-Adicione aqui os sites que o BuzzNews podera acompanhar para encontrar noticias.
+Adicione aqui os sites que o BuzzPop podera acompanhar para encontrar noticias.
 
 ## Modelo
 

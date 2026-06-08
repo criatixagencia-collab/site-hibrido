@@ -5,7 +5,7 @@ const path = require("node:path");
 const { spawnSync } = require("node:child_process");
 
 const ROOT = path.resolve(__dirname, "..");
-const LABEL = "com.buzznews.daily";
+const LABEL = "com.buzzpop.daily";
 const PLIST = path.join(os.homedir(), "Library", "LaunchAgents", `${LABEL}.plist`);
 const LOG_DIR = path.join(ROOT, "logs");
 const NPM_BIN = process.env.BUZZNEWS_NPM_BIN || "/usr/local/bin/npm";

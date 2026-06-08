@@ -87,7 +87,7 @@ export function NewsFeed() {
           <div className="flex flex-wrap items-center gap-2 text-xs font-black uppercase tracking-[0.12em] text-muted-foreground md:text-neutral-600">
             <span className="inline-flex items-center gap-2 bg-primary px-3 py-1.5 text-primary-foreground">
               <Radio className="h-3.5 w-3.5" />
-              {liveStatus === "live" ? "Radar ao vivo" : "BuzzNews local"}
+              {liveStatus === "live" ? "Radar ao vivo" : "BuzzPop local"}
             </span>
             <span>{formatGeneratedAt(generatedAt)}</span>
             <span>{items.length} destaques</span>

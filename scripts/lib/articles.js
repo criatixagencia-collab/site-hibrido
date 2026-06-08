@@ -482,7 +482,7 @@ export function toBuzzItems(articles) {
     image: article.image || "/images/news-placeholder.svg",
     imagePosition: "center center",
     articleImagePosition: "center center",
-    imageCredit: article.imageCredit || "Imagem: BuzzNews",
+    imageCredit: article.imageCredit || "Imagem: BuzzPop",
     sourceLabel: `Origem: ${article.source}`,
     sourceUrl: article.sourceUrl,
     sources: (article.evidenceSources || [article.source]).slice(0, 5).map((source) => ({

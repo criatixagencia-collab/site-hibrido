@@ -34,7 +34,7 @@ O G1 Pop & Arte nao retornou uma pagina atual confiavel pela ferramenta de busca
 ## Regras aplicadas
 
 - Prioridade maior para assuntos repetidos em mais de uma fonte.
-- Textos reescritos com estrutura propria do BuzzNews.
+- Textos reescritos com estrutura propria do BuzzPop.
 - Evitada copia de titulo/corpo das fontes.
 - Matérias internas receberam contexto suficiente para fazer sentido ao clicar.
 - Imagens escolhidas como alternativas com credito registrado.

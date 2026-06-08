@@ -2,7 +2,7 @@
 
 Cole aqui trechos de textos que representam o estilo que voce quer aproximar.
 
-Importante: estes exemplos servem para estudar tom, ritmo e estrutura. O BuzzNews deve escrever textos proprios, nao copiar.
+Importante: estes exemplos servem para estudar tom, ritmo e estrutura. O BuzzPop deve escrever textos proprios, nao copiar.
 
 ## Como preencher
 

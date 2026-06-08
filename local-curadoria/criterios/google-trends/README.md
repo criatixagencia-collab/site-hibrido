@@ -1,6 +1,6 @@
 # Criterio auxiliar: Google Trends Brasil
 
-Este criterio ajuda o BuzzNews a descobrir assuntos quentes antes ou durante a rodada de fontes fixas.
+Este criterio ajuda o BuzzPop a descobrir assuntos quentes antes ou durante a rodada de fontes fixas.
 
 ## Configuracao padrao
 
@@ -48,7 +48,7 @@ Termo em alta fora de entretenimento = descartar
 Termo:
 Volume/status:
 Horario em que apareceu:
-Combina com BuzzNews? Sim / Nao
+Combina com BuzzPop? Sim / Nao
 Categoria provavel:
 Fato verificavel encontrado? Sim / Nao
 Fonte principal:

@@ -19,7 +19,7 @@ G1 Pop & Arte: 5 noticias
 
 ## Tendencias coletadas no Google Trends
 
-| Termo em alta | Volume/status | Categoria | Combina com BuzzNews? | Noticia encontrada? | Fonte confirmando | Decisao |
+| Termo em alta | Volume/status | Categoria | Combina com BuzzPop? | Noticia encontrada? | Fonte confirmando | Decisao |
 | ------------- | ------------- | --------- | --------------------- | ------------------- | ----------------- | ------- |
 |               |               |           |                       |                     |                   |         |
 |               |               |           |                       |                     |                   |         |
@@ -65,7 +65,7 @@ G1 Pop & Arte: 5 noticias
 
 ## Ranking final de postagem
 
-| Ordem | Assunto | Pontuacao | Formato | Imagem escolhida | Credito da imagem | Titulo BuzzNews | Status |
+| Ordem | Assunto | Pontuacao | Formato | Imagem escolhida | Credito da imagem | Titulo BuzzPop | Status |
 | ----- | ------- | --------- | ------- | ---------------- | ----------------- | --------------- | ------ |
 | 1     |         |           |         |                  |                   |                 |        |
 | 2     |         |           |         |                  |                   |                 |        |
@@ -80,7 +80,7 @@ Se 5 sites falaram: prioridade maxima da rodada.
 Se 4 sites falaram: quase sempre entra no topo.
 Se 3 sites falaram: entra com prioridade alta.
 Se 2 sites falaram: entra se tiver bom personagem, imagem ou repercussao.
-Se 1 site falou: so entra se for muito forte, exclusivo ou muito alinhado com BuzzNews.
+Se 1 site falou: so entra se for muito forte, exclusivo ou muito alinhado com BuzzPop.
 Se apareceu no Google Trends: ganha prioridade apenas se houver noticia confirmada.
 Se apareceu so no Google Trends: monitorar, nao publicar ainda.
 ```

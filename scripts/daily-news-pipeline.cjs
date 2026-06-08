@@ -99,7 +99,7 @@ function fetchText(url) {
       url,
       {
         headers: {
-          "user-agent": "BuzzNewsDailyBot/1.0 (+https://github.com/criatixagencia-collab/buzznews)",
+          "user-agent": "BuzzPopDailyBot/1.0 (+https://github.com/criatixagencia-collab/buzzpop)",
         },
       },
       (response) => {

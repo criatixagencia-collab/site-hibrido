@@ -1,6 +1,6 @@
 # Referencias UOL Splash
 
-Esta pasta guarda referencias de estudo do UOL Splash para ajudar a calibrar a linguagem do BuzzNews.
+Esta pasta guarda referencias de estudo do UOL Splash para ajudar a calibrar a linguagem do BuzzPop.
 
 Importante: nao armazenar materias completas aqui. O objetivo e estudar padroes editoriais, nao copiar texto protegido.
 
@@ -11,7 +11,7 @@ Importante: nao armazenar materias completas aqui. O objetivo e estudar padroes 
 - categoria;
 - padrao de estrutura;
 - observacoes de tom;
-- regras que o BuzzNews pode aprender;
+- regras que o BuzzPop pode aprender;
 - exemplos transformados em linguagem propria.
 
 ## O que nao pode ficar aqui

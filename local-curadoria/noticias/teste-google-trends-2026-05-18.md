@@ -30,7 +30,7 @@ Esse feed nao substitui o Trends, mas ajuda a testar a segunda metade do fluxo: 
 
 | Ordem | Assunto percebido            | Fonte principal no Google Noticias | Fontes relacionadas vistas                 | Decisao                                                      |
 | ----- | ---------------------------- | ---------------------------------- | ------------------------------------------ | ------------------------------------------------------------ |
-| 1     | Nova novela "Quem Ama Cuida" | UOL                                | Gshow, Noticias da TV, GZH, Veja           | Monitorar/Publicar se combinar com BuzzNews TV               |
+| 1     | Nova novela "Quem Ama Cuida" | UOL                                | Gshow, Noticias da TV, GZH, Veja           | Monitorar/Publicar se combinar com BuzzPop TV               |
 | 2     | Vini Jr. e Virginia          | CNN Brasil                         | O Globo, Metropoles, ESPN Brasil, Migalhas | Alta prioridade: ja aparece nas fontes fixas e tem repeticao |
 | 3     | Coração Acelerado            | Noticias da TV                     | Gshow, O Tempo, Veja                       | Publicar so se o site quiser cobrir novela diariamente       |
 | 4     | Virginia e Ze Felipe         | Radio Itatiaia                     | Globo, Portal UAI, Purepeople, CNN Brasil  | Prioridade media/alta, mas cuidado com especulacao           |
@@ -60,7 +60,7 @@ Virginia e Ze Felipe:
 
 Maíra Cardi / abuso:
   motivo: tema sensivel e risco alto.
-  decisao: nao priorizar para BuzzNews leve sem checagem forte e abordagem cuidadosa.
+  decisao: nao priorizar para BuzzPop leve sem checagem forte e abordagem cuidadosa.
 
 Assuntos de politica/guerra que aparecem no feed:
   motivo: fora do foco de entretenimento.

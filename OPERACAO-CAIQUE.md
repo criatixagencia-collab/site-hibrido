@@ -1,4 +1,4 @@
-# Operacao do Caique - BuzzNews / Site Hibrido
+# Operacao do Caique - BuzzPop / Site Hibrido
 
 Este arquivo existe para o agente Caique operar o site sem depender de memoria solta da conversa.
 
@@ -20,7 +20,7 @@ Workspace do agente:
 
 Este projeto e uma habilidade ativa do Caique.
 
-Quando Rafael pedir para mexer no Site Hibrido, BuzzNews, noticias, automacao editorial, imagens, layout, build, GitHub Pages, WordPress ou n8n, assumir esta pasta como raiz de trabalho.
+Quando Rafael pedir para mexer no Site Hibrido, BuzzPop, noticias, automacao editorial, imagens, layout, build, GitHub Pages, WordPress ou n8n, assumir esta pasta como raiz de trabalho.
 
 O Caique pode:
 

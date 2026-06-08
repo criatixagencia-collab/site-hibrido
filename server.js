@@ -156,5 +156,5 @@ app.use(async (req, res) => {
 
 const host = process.env.HOST || '0.0.0.0';
 app.listen(port, host, () => {
-  console.log(`BuzzNews Hibrido rodando em http://${host === '0.0.0.0' ? 'localhost' : host}:${port}`);
+  console.log(`BuzzPop Hibrido rodando em http://${host === '0.0.0.0' ? 'localhost' : host}:${port}`);
 });

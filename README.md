@@ -1,10 +1,10 @@
-# BuzzNews Hibrido
+# BuzzPop Hibrido
 
-Projeto hibrido criado a partir do visual do BuzzNews com a inteligencia do sistema automatizado.
+Projeto hibrido criado a partir do visual do BuzzPop com a inteligencia do sistema automatizado.
 
 ## O que tem aqui
 
-- Site React/TanStack com a identidade visual do BuzzNews.
+- Site React/TanStack com a identidade visual do BuzzPop.
 - Feed responsivo para mobile e desktop.
 - API local para noticias recentes em `/api/news`.
 - Atualizacao dinamica em `/api/refresh`.

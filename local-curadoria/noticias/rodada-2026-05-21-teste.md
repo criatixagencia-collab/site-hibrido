@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Atualizar o feed do BuzzNews com uma rodada curta de noticias verificadas em 21 de maio de 2026.
+Atualizar o feed do BuzzPop com uma rodada curta de noticias verificadas em 21 de maio de 2026.
 
 ## Fontes consultadas
 
@@ -46,7 +46,7 @@ Atualizar o feed do BuzzNews com uma rodada curta de noticias verificadas em 21 
 - Comentarios de terceiros entram como opiniao ou reacao publica, nao como fato comprovado.
 - Pautas de Exame que nao foram publicadas em 21/05 entraram apenas como monitoradas hoje, por estarem no topo/na janela de interesse.
 - Google Trends nao foi usado como fonte final nesta rodada.
-- Titulo e texto do BuzzNews devem ser reescritos a partir da materia-base exata, nao de anotacoes internas da curadoria.
+- Titulo e texto do BuzzPop devem ser reescritos a partir da materia-base exata, nao de anotacoes internas da curadoria.
 
 ## Arquivo atualizado
 

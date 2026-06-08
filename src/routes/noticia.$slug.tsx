@@ -37,7 +37,7 @@ function NewsArticle() {
           </h1>
           <div className="mx-auto mt-7 max-w-2xl space-y-2 text-sm uppercase tracking-[0.16em] text-muted-foreground md:text-base md:text-neutral-500">
             <p>
-              By <span className="font-bold text-primary">BuzzNews Staff</span>
+              By <span className="font-bold text-primary">BuzzPop Staff</span>
             </p>
             <p>{item.publishedAt}</p>
             {item.updatedAt ? <p>{item.updatedAt}</p> : null}

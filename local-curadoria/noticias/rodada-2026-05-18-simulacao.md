@@ -14,10 +14,10 @@ Destino: `src/lib/news-data.ts`
 ## Metodo aplicado
 
 1. Coleta das noticias recentes por fonte.
-2. Filtro de compatibilidade com BuzzNews.
+2. Filtro de compatibilidade com BuzzPop.
 3. Agrupamento por repeticao de assunto.
 4. Priorizacao por quantidade de fontes e forca editorial.
-5. Reescrita em tom BuzzNews.
+5. Reescrita em tom BuzzPop.
 6. Escolha de imagem alternativa com credito visivel.
 
 ## Ranking publicado

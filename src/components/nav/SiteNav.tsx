@@ -37,7 +37,7 @@ export function SiteNav() {
           to="/"
           className="font-[Impact,Haettenschweiler,'Arial_Narrow_Bold',sans-serif] text-4xl uppercase leading-none tracking-normal md:text-6xl md:text-neutral-950"
         >
-          Buzz<span className="text-nav-accent">News</span>
+          Buzz<span className="text-nav-accent">Pop</span>
         </Link>
 
         <nav aria-label="Categorias" className="hidden md:block">
@@ -99,7 +99,7 @@ export function SiteNav() {
         >
           <div className="flex h-16 items-center justify-between border-b border-nav-border px-4">
             <span className="font-[Impact,Haettenschweiler,'Arial_Narrow_Bold',sans-serif] text-3xl uppercase">
-              Buzz<span className="text-nav-accent">News</span>
+              Buzz<span className="text-nav-accent">Pop</span>
             </span>
             <button
               type="button"

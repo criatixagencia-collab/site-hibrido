@@ -118,7 +118,7 @@ async function googleImageSearch({ apiKey, cx, query }) {
 
   const response = await fetch(url, {
     headers: {
-      "user-agent": "BuzzNewsImageCollector/1.0",
+      "user-agent": "BuzzPopImageCollector/1.0",
     },
   });
   const body = await response.text();

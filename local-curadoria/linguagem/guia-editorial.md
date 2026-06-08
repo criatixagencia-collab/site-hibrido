@@ -1,6 +1,6 @@
-# Guia Editorial BuzzNews
+# Guia Editorial BuzzPop
 
-Este documento define a linguagem propria do BuzzNews.
+Este documento define a linguagem propria do BuzzPop.
 
 ## Objetivo da linguagem
 
@@ -8,7 +8,7 @@ Reescrever noticias de forma clara, rapida e envolvente, sem copiar o texto orig
 
 ## Referencia de estilo
 
-O BuzzNews deve se inspirar em uma escrita de portal jornalistico brasileiro de entretenimento: direta, factual, escaneavel e pensada para leitura rapida no celular.
+O BuzzPop deve se inspirar em uma escrita de portal jornalistico brasileiro de entretenimento: direta, factual, escaneavel e pensada para leitura rapida no celular.
 
 Importante: a linguagem nao deve copiar de forma identica o UOL, Splash ou qualquer outro site. A referencia serve para aprender estrutura, ritmo e criterio editorial, nao para reproduzir frases, titulos, paragrafos ou identidade de marca.
 
@@ -83,7 +83,7 @@ Quando o usuario pedir um "site de hoje", "HTML de teste", "filtrar noticias" ou
 
 ## Regra de linguagem publica
 
-Titulo, linha de apoio e corpo precisam parecer noticia publicada para leitor final. Eles devem ser sempre jornalisticos, diretos ou com voz BuzzNews.
+Titulo, linha de apoio e corpo precisam parecer noticia publicada para leitor final. Eles devem ser sempre jornalisticos, diretos ou com voz BuzzPop.
 
 ```txt
 Bom: Prisao de Deolane movimenta famosos e familia reage nas redes
@@ -112,7 +112,7 @@ Essas palavras podem aparecer em documentos internos de curadoria, mas nao no te
 
 ## Tamanho minimo
 
-Materia padrao do BuzzNews nao deve sair curta demais. O minimo editorial passa a ser:
+Materia padrao do BuzzPop nao deve sair curta demais. O minimo editorial passa a ser:
 
 ```txt
 Corpo da materia: minimo de 350 palavras
@@ -165,7 +165,7 @@ As fontes de referencia aparecem no rodape da pagina, nao no corpo da noticia. O
 ## Estrutura sugerida da noticia
 
 1. Ler tres fontes sobre o mesmo assunto exato.
-2. Criar titulo BuzzNews com o personagem ou fato central.
+2. Criar titulo BuzzPop com o personagem ou fato central.
 3. Escrever linha de apoio explicando o ponto principal.
 4. Abrir com quem fez o que, quando e por que importa.
 5. Dar contexto com os pontos confirmados por mais de uma fonte.
@@ -248,7 +248,7 @@ Essa base guarda 30 amostras estruturais observadas no UOL Splash, uma matriz de
 
 1. Separar exemplos de textos cujo ritmo voce gosta.
 2. Anotar o que funciona: tamanho do titulo, ordem das informacoes, tom, escolha de verbos.
-3. Transformar isso em regras gerais do BuzzNews.
+3. Transformar isso em regras gerais do BuzzPop.
 4. Testar com noticias reais.
 5. Comparar resultado com o guia.
 6. Ajustar regras ate a voz ficar consistente.
@@ -260,6 +260,6 @@ Fonte:
 URL:
 Tipo de materia:
 O que funciona:
-O que o BuzzNews pode aprender:
-O que o BuzzNews nao deve copiar:
+O que o BuzzPop pode aprender:
+O que o BuzzPop nao deve copiar:
 ```

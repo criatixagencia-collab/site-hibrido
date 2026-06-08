@@ -97,18 +97,18 @@ Sim, é possível trabalhar com esse site.
 O Google Trends tem uma página de “Em alta” com filtros por:
 Brasil, últimas 4h / 24h / 48h / 7 dias, categoria Entretenimento, volume de pesquisa, relevância e exportação em CSV ou RSS.
 
-O melhor jeito para o BuzzNews seria usar ele como termômetro, não como fonte final da notícia.
+O melhor jeito para o BuzzPop seria usar ele como termômetro, não como fonte final da notícia.
 
 Fluxo ideal:
 
 - Pegar tendências do Google Trends Brasil em Entretenimento.
-- Separar termos que combinam com BuzzNews.
+- Separar termos que combinam com BuzzPop.
 - Para cada termo, buscar notícia real no Google/portais confiáveis.
 - Confirmar se existe fato verificável.
 - Cruzar com nossas fontes fixas: R7, Exame, Papelpop, CNN Pop, G1 Pop & Arte.
 - Só publicar se houver matéria de origem confiável.
 - Buscar imagem recente e com crédito claro.
-- Reescrever no tom BuzzNews.
+- Reescrever no tom BuzzPop.
 
 Ou seja: dá pra adicionar como critério auxiliar da árvore, tipo:
 

@@ -508,7 +508,7 @@ export async function applyIllustrativeImages(articles) {
       updated.push({
         ...article,
         image: "/images/news-placeholder.svg",
-        imageCredit: "Imagem ilustrativa: BuzzNews",
+        imageCredit: "Imagem ilustrativa: BuzzPop",
         imagePolicy: "Sem candidata ilustrativa valida fora das fontes da noticia.",
       });
       continue;

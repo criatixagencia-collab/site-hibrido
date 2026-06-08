@@ -1,33 +1,33 @@
 # Matriz de Estilo Observada
 
-Esta matriz transforma as observacoes do UOL Splash em regras gerais para o BuzzNews.
+Esta matriz transforma as observacoes do UOL Splash em regras gerais para o BuzzPop.
 
 ## Padroes de chamada
 
 ### Pessoa + acao + consequencia
 
 Uso: celebridades, realities, bastidores, musica.  
-Regra BuzzNews: comecar pelo nome quando o personagem for mais forte que o fato.
+Regra BuzzPop: comecar pelo nome quando o personagem for mais forte que o fato.
 
 ### Obra + novidade + servico
 
 Uso: filmes, series, streaming, festivais.  
-Regra BuzzNews: quando houver data, plataforma, trailer ou line-up, entregar isso rapidamente.
+Regra BuzzPop: quando houver data, plataforma, trailer ou line-up, entregar isso rapidamente.
 
 ### Pergunta informativa
 
 Uso: explicadores, final de novela, "quem e".  
-Regra BuzzNews: so usar pergunta se o texto responder de forma objetiva.
+Regra BuzzPop: so usar pergunta se o texto responder de forma objetiva.
 
 ### Declaracao curta
 
 Uso: posts de famosos, entrevistas, relatos pessoais.  
-Regra BuzzNews: usar a fala como gancho, mas sempre explicar contexto e origem.
+Regra BuzzPop: usar a fala como gancho, mas sempre explicar contexto e origem.
 
 ### Repercussao com contraste
 
 Uso: critica x publico, polemica, redes sociais.  
-Regra BuzzNews: mostrar os dois lados quando o assunto for dividido.
+Regra BuzzPop: mostrar os dois lados quando o assunto for dividido.
 
 ## Ritmo de texto
 
@@ -54,7 +54,7 @@ Paragrafo 4: consequencia, servico ou proximo passo
 - Novela/reality: marcar quando houver spoiler.
 - Imagem: sempre credito visivel.
 
-## Voz BuzzNews derivada, nao copiada
+## Voz BuzzPop derivada, nao copiada
 
 ```txt
 Direta como portal.

@@ -1,4 +1,4 @@
-# Memoria do Projeto BuzzNews
+# Memoria do Projeto BuzzPop
 
 Este arquivo guarda o contexto operacional do projeto para agentes como Claude Code.
 
@@ -30,14 +30,14 @@ O build executa `npm run validate:news` antes de compilar.
 - `scripts/validate-news-content.cjs`: bloqueia materia curta ou com linguagem interna.
 - `scripts/instagram-image-candidates.cjs`: busca imagens candidatas no Instagram via Apify.
 - `local-curadoria/regras-curadoria.md`: arvore editorial e regras de curadoria.
-- `local-curadoria/linguagem/guia-editorial.md`: voz editorial BuzzNews.
+- `local-curadoria/linguagem/guia-editorial.md`: voz editorial BuzzPop.
 - `local-curadoria/noticias/checklist-imagem.md`: checklist de imagem.
 
 ## Regras editoriais obrigatorias
 
 ### Texto da noticia
 
-- O texto publicado deve ser jornalistico, direto ou com voz BuzzNews.
+- O texto publicado deve ser jornalistico, direto ou com voz BuzzPop.
 - O corpo deve contar a noticia diretamente ao leitor.
 - Nao escrever como relatorio de apuracao.
 - Nao explicar por que a noticia foi escolhida.
@@ -80,7 +80,7 @@ Se essa validacao falhar, a materia deve voltar para reescrita.
 - Ideal: usar tres fontes sobre o mesmo fato quando existirem.
 - Se so houver uma fonte forte para noticia simples, registrar a fonte no rodape e manter texto factual.
 - Nunca copiar titulo, frases longas ou estrutura de uma materia original.
-- Reescrever fatos com ordem propria e linguagem BuzzNews.
+- Reescrever fatos com ordem propria e linguagem BuzzPop.
 - Nao inventar fatos, relacoes, motivos ou analises.
 
 ## Imagens

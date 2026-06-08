@@ -119,7 +119,7 @@ function renderHtml(items) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BuzzNews Hoje - ${escapeHtml(generatedAt)}</title>
+  <title>BuzzPop Hoje - ${escapeHtml(generatedAt)}</title>
   <style>
     :root {
       --bg: #f4f1ea;
@@ -302,7 +302,7 @@ function renderHtml(items) {
 <body>
   <header>
     <div class="masthead">
-      <h1>BuzzNews Hoje</h1>
+      <h1>BuzzPop Hoje</h1>
       <div class="stamp">Edicao de teste gerada em ${escapeHtml(generatedAt)}</div>
     </div>
   </header>

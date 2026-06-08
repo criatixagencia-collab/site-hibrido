@@ -1,6 +1,6 @@
-# Arvore de Curadoria BuzzNews
+# Arvore de Curadoria BuzzPop
 
-Esta arvore define como decidir se uma noticia entra no BuzzNews, qual prioridade ela recebe e como deve ser reescrita.
+Esta arvore define como decidir se uma noticia entra no BuzzPop, qual prioridade ela recebe e como deve ser reescrita.
 
 ## Visao geral
 
@@ -13,7 +13,7 @@ Rodada de curadoria
   -> contar quantos sites falaram do mesmo assunto
   -> quanto mais sites falando, maior a prioridade
   -> cruzar assuntos com tendencias do Google Trends
-  -> filtrar se o tema combina com BuzzNews
+  -> filtrar se o tema combina com BuzzPop
   -> verificar se existe fato confirmavel
   -> classificar categoria
   -> medir risco
@@ -21,7 +21,7 @@ Rodada de curadoria
   -> escolher imagem e credito
   -> escolher formato
   -> gerar ranking de postagem
-  -> reescrever titulo e texto a partir das fontes no tom BuzzNews
+  -> reescrever titulo e texto a partir das fontes no tom BuzzPop
   -> revisar antes de publicar
 ```
 
@@ -48,7 +48,7 @@ Quantidade inicial: ate 20 tendencias para triagem
 - Cruzar cada termo em alta com Google Noticias e fontes jornalisticas confiaveis.
 - Dar pontos extras quando uma noticia das fontes fixas tambem aparecer no Google Trends.
 - Nao publicar assunto que apareceu so no Trends sem uma materia/fato verificavel.
-- Descartar termo em alta que seja meme solto, boato, duplo sentido, crime sem relacao com entretenimento ou assunto fora do BuzzNews.
+- Descartar termo em alta que seja meme solto, boato, duplo sentido, crime sem relacao com entretenimento ou assunto fora do BuzzPop.
 
 ### Fluxo com Trends
 
@@ -87,12 +87,12 @@ Total inicial esperado: ate 25 noticias
 - Entrar se for sobre entretenimento, famosos, musica, TV, streaming, cinema, series, internet ou cultura pop.
 - Entrar se tiver nome, data, evento, lancamento, fala publica, publicacao oficial ou repercussao relevante.
 - Entrar com cuidado se for boato, suposta treta, bastidor anonimo ou especulacao.
-- Descartar se for assunto fora do universo BuzzNews.
+- Descartar se for assunto fora do universo BuzzPop.
 - Descartar se depender de exposicao intima, acusacao grave sem confirmacao ou fofoca sem base clara.
 
 ## 1.1. Fontes obrigatorias
 
-Toda materia principal publicada no BuzzNews precisa nascer de tres fontes exatas, atuais e ja publicadas sobre o mesmo assunto.
+Toda materia principal publicada no BuzzPop precisa nascer de tres fontes exatas, atuais e ja publicadas sobre o mesmo assunto.
 
 ```txt
 Assunto escolhido
@@ -101,7 +101,7 @@ Assunto escolhido
   -> priorizar sites mais populares/confiaveis
   -> salvar URL da fonte principal e das fontes de apoio
   -> extrair fatos principais, contexto, nomes, datas, falas e pontos repetidos
-  -> reescrever titulo, linha de apoio e texto no tom BuzzNews
+  -> reescrever titulo, linha de apoio e texto no tom BuzzPop
   -> publicar com fontes visiveis
 ```
 
@@ -140,7 +140,7 @@ Quando houver varias materias sobre o mesmo assunto, usar esta ordem:
 
 ### Regra de reescrita
 
-- O titulo do BuzzNews deve nascer do fato central confirmado pelas fontes.
+- O titulo do BuzzPop deve nascer do fato central confirmado pelas fontes.
 - A linha de apoio deve explicar o que aconteceu sem virar anotacao interna.
 - O corpo da materia deve ser para leitor final, nunca para o dono do projeto.
 - A reescrita deve misturar informacoes das fontes em ordem propria, sem copiar frases inteiras.
@@ -149,7 +149,7 @@ Quando houver varias materias sobre o mesmo assunto, usar esta ordem:
 - Nao criar explicacao editorial sobre por que o assunto foi escolhido.
 - Nao usar contexto generico para bater meta de tamanho.
 - Informacoes sensiveis devem ser atribuidas: "segundo", "de acordo com", "afirmou", "publicou".
-- Se a fonte original for coluna, video ou opiniao, o BuzzNews deve deixar isso claro no texto.
+- Se a fonte original for coluna, video ou opiniao, o BuzzPop deve deixar isso claro no texto.
 - As URLs consultadas devem ficar registradas no dado da noticia.
 
 ### Prova de fonte por paragrafo
@@ -286,7 +286,7 @@ Cada grupo de noticias recebe uma nota de 0 a 100.
 - -25 se tiver risco juridico, acusacao grave ou tema sensivel.
 - -15 se a fonte for unica e o assunto nao tiver confirmacao externa.
 - -10 se a noticia for velha ou repetida demais.
-- -10 se nao combinar bem com o publico do BuzzNews.
+- -10 se nao combinar bem com o publico do BuzzPop.
 - -5 se nao render bom titulo, imagem ou chamada.
 
 ### Decisao por nota
@@ -520,7 +520,7 @@ Atualizacao
 
 ## 8. Regra de reescrita
 
-Antes de publicar, a noticia precisa virar texto proprio do BuzzNews.
+Antes de publicar, a noticia precisa virar texto proprio do BuzzPop.
 
 ### Ordem da reescrita
 
@@ -556,7 +556,7 @@ Fonte principal:
 Fontes de apoio:
 Imagem escolhida:
 Credito da imagem:
-Titulo BuzzNews:
+Titulo BuzzPop:
 Linha de apoio:
 Texto reescrito:
 Tags:
