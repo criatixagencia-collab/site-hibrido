@@ -10,7 +10,7 @@ const parser = new Parser({
   },
 });
 
-const feeds = [
+const baseFeeds = [
   {
     name: "Google News Brasil - Entretenimento",
     url: "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=pt-BR&gl=BR&ceid=BR:pt-419",
@@ -18,6 +18,29 @@ const feeds = [
   {
     name: "Google News Brasil - Topo",
     url: "https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+  },
+];
+
+const editorialSearches = [
+  {
+    name: "Google News - Famosos",
+    query: '(famosos OR celebridades OR influenciador OR influenciadora) Brasil when:1d',
+    categoryHint: "Famosos",
+  },
+  {
+    name: "Google News - Musica",
+    query: '(musica OR cantor OR cantora OR banda OR show OR festival) Brasil when:1d',
+    categoryHint: "Música",
+  },
+  {
+    name: "Google News - TV",
+    query: '(televisao OR novela OR reality OR "programa de TV" OR audiencia) Brasil when:1d',
+    categoryHint: "TV",
+  },
+  {
+    name: "Google News - Cinema",
+    query: '(cinema OR filme OR serie OR streaming OR ator OR atriz) Brasil when:1d',
+    categoryHint: "Cinema",
   },
 ];
 
@@ -51,6 +74,10 @@ const entertainmentTerms = [
   "reality",
   "cannes",
   "entretenimento",
+  "cerimonia",
+  "copa do mundo",
+  "cultura pop",
+  "arte",
 ];
 
 const blockedTerms = [
@@ -75,6 +102,75 @@ const blockedTerms = [
   "trump",
 ];
 
+const sportsTerms = [
+  "futebol",
+  "jogo",
+  "partida",
+  "transmissao ao vivo",
+  "onde assistir",
+  "escalacao",
+  "placar",
+  "gol",
+  "tecnico",
+  "treinador",
+  "atacante",
+  "ancelotti",
+  "torcer",
+  "saida de bola",
+];
+
+const culturalSportsTerms = [
+  "musica",
+  "cantor",
+  "cantora",
+  "banda",
+  "show",
+  "cerimonia",
+  "abertura",
+  "famoso",
+  "famosa",
+  "influenciador",
+  "atriz",
+  "ator",
+  "audiencia",
+  "ibope",
+];
+
+const stalePreviewTerms = [
+  "veja horario",
+  "confira horario",
+  "saiba horario",
+  "onde assistir",
+  "vai cantar",
+  "vai se apresentar",
+  "sera transmitido",
+  "acontece hoje",
+  "acontecera",
+  "esta marcada",
+  "sera realizada",
+  "sera exibida",
+  "cerimonia de abertura",
+  "abertura da copa",
+  "show de abertura",
+  "primeiro jogo",
+];
+
+const postEventTerms = [
+  "apos",
+  "depois",
+  "repercussao",
+  "audiencia",
+  "ibope",
+  "balanco",
+  "recorde",
+  "resultado",
+  "critica",
+  "reage",
+  "reagiu",
+  "foi",
+  "terminou",
+];
+
 function normalizeTitle(title = "") {
   return title.replace(/\s+-\s+[^-]+$/u, "").trim();
 }
@@ -87,6 +183,47 @@ function normalizeText(value = "") {
     .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function googleNewsSearchUrl(query) {
+  const url = new URL("https://news.google.com/rss/search");
+  url.searchParams.set("q", query);
+  url.searchParams.set("hl", "pt-BR");
+  url.searchParams.set("gl", "BR");
+  url.searchParams.set("ceid", "BR:pt-419");
+  return url.toString();
+}
+
+function editorialCategoryFor(title, summary, hint = "") {
+  const text = normalizeText(title);
+  const has = (...terms) => terms.some((term) => includesNormalizedTerm(text, term));
+
+  if (has("musica", "cantor", "cantora", "banda", "show", "festival", "album", "single", "cancao")) {
+    return "Música";
+  }
+  if (has("cinema", "filme", "streaming", "diretor", "diretora", "bilheteria", "disney", "marvel")) {
+    return "Cinema";
+  }
+  if (
+    has(
+      "casamento",
+      "termino",
+      "separacao",
+      "gravidez",
+      "namoro",
+      "famoso",
+      "famosa",
+      "influenciador",
+      "influenciadora",
+    )
+  ) {
+    return "Famosos";
+  }
+  if (has("tv", "televisao", "novela", "reality", "programa", "audiencia", "ibope", "globo", "sbt", "record")) {
+    return "TV";
+  }
+  if (has("serie")) return "Cinema";
+  return hint || "Famosos";
 }
 
 function includesNormalizedTerm(text, term) {
@@ -158,6 +295,33 @@ function hasBlockedSignal(title, summary) {
   return blockedTerms.some((term) => includesNormalizedTerm(text, term));
 }
 
+function isSportsOnly(title, summary) {
+  const text = `${title} ${summary}`;
+  const hasSports = sportsTerms.some((term) => includesNormalizedTerm(text, term));
+  const hasCulturalAngle = culturalSportsTerms.some((term) => includesNormalizedTerm(text, term));
+  return hasSports && !hasCulturalAngle;
+}
+
+function isFreshEnough(item) {
+  const published = new Date(item.isoDate || item.pubDate || item.publishedAt || "");
+  if (Number.isNaN(published.getTime())) return true;
+  const maxAgeHours = Number(process.env.MAX_NEWS_AGE_HOURS || 36);
+  return Date.now() - published.getTime() <= maxAgeHours * 60 * 60 * 1000;
+}
+
+function isStaleEventPreview(title, summary) {
+  const text = `${title} ${summary}`;
+  const normalized = normalizeText(text);
+  const hasPreview = stalePreviewTerms.some((term) => includesNormalizedTerm(normalized, term));
+  if (!hasPreview) return false;
+
+  const hasPostEventAngle = postEventTerms.some((term) => includesNormalizedTerm(normalized, term));
+  if (hasPostEventAngle) return false;
+
+  const isCopaOpening = includesNormalizedTerm(normalized, "copa") && includesNormalizedTerm(normalized, "abertura");
+  return isCopaOpening || hasPreview;
+}
+
 function scoreItem(item, index, trends) {
   const text = `${item.title || ""} ${item.contentSnippet || ""} ${item.summary || ""}`;
   const termScore = entertainmentTerms.reduce(
@@ -205,13 +369,74 @@ async function fetchBrazilTrends() {
   }
 }
 
+function buildFeeds(trends) {
+  const configured = editorialSearches.map((feed) => ({
+    ...feed,
+    url: googleNewsSearchUrl(feed.query),
+  }));
+  const trendSearches = trends
+    .filter((trend) => hasEntertainmentSignal(trend.title, trend.summary))
+    .slice(0, Number(process.env.MAX_TREND_SEARCHES || 5))
+    .map((trend, index) => ({
+      name: `Google News - Tendencia ${index + 1}`,
+      url: googleNewsSearchUrl(
+        `"${trend.title}" (famosos OR musica OR show OR TV OR cinema OR filme OR serie) when:2d`,
+      ),
+      trendQuery: trend.title,
+    }));
+
+  return [...baseFeeds, ...configured, ...trendSearches];
+}
+
+function selectBalanced(items, maxItems) {
+  const categories = ["Famosos", "Música", "TV", "Cinema"];
+  const minimumPerCategory = Number(
+    process.env.MIN_CANDIDATES_PER_CATEGORY || Math.min(5, Math.max(1, Math.floor(maxItems / 4))),
+  );
+  const selected = [];
+  const selectedIds = new Set();
+
+  for (const category of categories) {
+    items
+      .filter((item) => item.categoryHint === category)
+      .slice(0, minimumPerCategory)
+      .forEach((item) => {
+        if (selectedIds.has(item.id) || selected.length >= maxItems) return;
+        selected.push(item);
+        selectedIds.add(item.id);
+      });
+  }
+
+  for (const item of items) {
+    if (selected.length >= maxItems) break;
+    if (selectedIds.has(item.id)) continue;
+    selected.push(item);
+    selectedIds.add(item.id);
+  }
+
+  return selected.sort(
+    (a, b) =>
+      editorialSortScore(b) - editorialSortScore(a) ||
+      b.score - a.score ||
+      new Date(b.publishedAt) - new Date(a.publishedAt),
+  );
+}
+
 export async function fetchEntertainmentNews() {
   const maxItems = Number(process.env.MAX_ITEMS || 18);
   const collected = [];
   const trends = await fetchBrazilTrends();
+  const feeds = buildFeeds(trends);
+  const feedResults = await Promise.allSettled(
+    feeds.map(async (feed) => ({ feed, parsed: await parser.parseURL(feed.url) })),
+  );
 
-  for (const feed of feeds) {
-    const parsed = await parser.parseURL(feed.url);
+  for (const result of feedResults) {
+    if (result.status === "rejected") {
+      console.warn(`[news] feed indisponivel: ${result.reason?.message || result.reason}`);
+      continue;
+    }
+    const { feed, parsed } = result.value;
     parsed.items.forEach((item, index) => {
       const title = normalizeTitle(item.title);
       if (!title || !item.link) return;
@@ -220,9 +445,18 @@ export async function fetchEntertainmentNews() {
       const evidenceSources = extractEvidenceSources(item, feed.name);
       const trendMatches = trendMatchesFor({ title, summary }, trends);
 
+      if (!isFreshEnough(item)) return;
       if (evidenceSources.length < 2) return;
       if (hasBlockedSignal(title, summary)) return;
-      if (!feed.name.includes("Entretenimento") && !hasEntertainmentSignal(title, summary)) return;
+      if (isSportsOnly(title, summary)) return;
+      if (isStaleEventPreview(title, summary)) return;
+      if (
+        !feed.name.includes("Entretenimento") &&
+        !feed.categoryHint &&
+        !hasEntertainmentSignal(title, summary)
+      ) {
+        return;
+      }
 
       const candidate = {
         id: Buffer.from(`${title}:${item.link}`).toString("base64url").slice(0, 20),
@@ -236,6 +470,8 @@ export async function fetchEntertainmentNews() {
         summary,
         trendMatches: trendMatches.map((trend) => trend.title).slice(0, 5),
         trendBoost: trendMatches.length > 0,
+        trendQuery: feed.trendQuery || "",
+        categoryHint: editorialCategoryFor(title, summary, feed.categoryHint),
         publishedAt: item.isoDate || item.pubDate || new Date().toISOString(),
         score: scoreItem({ ...item, title, summary, evidenceSources }, index, trends),
       };
@@ -256,7 +492,7 @@ export async function fetchEntertainmentNews() {
     .filter((item) => item.market === "brasil" || isStrongInternationalSignal(item));
 
   const maxInternationalCandidates = Number(
-    process.env.MAX_INTERNATIONAL_CANDIDATES || maxInternationalFor(Number(process.env.POSTS_PER_RUN || 10)),
+    process.env.MAX_INTERNATIONAL_CANDIDATES || Math.min(1, maxInternationalFor(Number(process.env.POSTS_PER_RUN || 10))),
   );
   const internationalCandidates = eligible
     .filter((item) => item.market === "internacional")
@@ -271,8 +507,16 @@ export async function fetchEntertainmentNews() {
         editorialSortScore(b) - editorialSortScore(a) ||
         b.score - a.score ||
         new Date(b.publishedAt) - new Date(a.publishedAt),
-    )
-    .slice(0, maxItems);
+    );
 
-  return addImages(ranked);
+  const balanced = selectBalanced(ranked, maxItems);
+  console.log(
+    `[news] ${feeds.length} feeds, ${collected.length} candidatos, ${eligible.length} elegiveis, ${balanced.length} selecionados.`,
+  );
+  const categoryCounts = balanced.reduce((counts, item) => {
+    counts[item.categoryHint] = (counts[item.categoryHint] || 0) + 1;
+    return counts;
+  }, {});
+  console.log(`[news] distribuicao: ${JSON.stringify(categoryCounts)}`);
+  return addImages(balanced);
 }

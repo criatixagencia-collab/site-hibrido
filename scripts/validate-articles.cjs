@@ -4,9 +4,11 @@ const { classifyMarket, marketCounts, maxInternationalFor } = require("./lib/mar
 
 const ARTICLES_FILE = path.resolve(__dirname, "..", "data", "articles.json");
 
-const MIN_BODY_WORDS = 350;
-const MIN_BODY_CHARACTERS = 2200;
-const MIN_BODY_PARAGRAPHS = 6;
+const MIN_BODY_WORDS = 45;
+const MAX_BODY_WORDS = 280;
+const MIN_BODY_CHARACTERS = 280;
+const MIN_BODY_PARAGRAPHS = 2;
+const MAX_BODY_PARAGRAPHS = 5;
 const MAX_TITLE_CHARACTERS = 95;
 const MIN_ARTICLES = Number(process.env.MIN_ARTICLES || process.env.POSTS_PER_RUN || 10);
 const REQUIRE_PAGE_IMAGE_CREDIT = /^true$/i.test(process.env.REQUIRE_PAGE_IMAGE_CREDIT || "");
@@ -156,11 +158,17 @@ function validateText(article, index) {
   const publicText = [article.title, article.excerpt, stats.text, textFromHtml(article.html)].join(" ");
 
   if (stats.words < MIN_BODY_WORDS) issues.push(`${id}: ${stats.words}/${MIN_BODY_WORDS} palavras`);
+  if (article.workflowVersion >= 2 && stats.words > MAX_BODY_WORDS) {
+    issues.push(`${id}: ${stats.words}/${MAX_BODY_WORDS} palavras; possivel enchimento`);
+  }
   if (stats.characters < MIN_BODY_CHARACTERS) {
     issues.push(`${id}: ${stats.characters}/${MIN_BODY_CHARACTERS} caracteres`);
   }
   if (stats.paragraphs < MIN_BODY_PARAGRAPHS) {
     issues.push(`${id}: ${stats.paragraphs}/${MIN_BODY_PARAGRAPHS} paragrafos`);
+  }
+  if (article.workflowVersion >= 2 && stats.paragraphs > MAX_BODY_PARAGRAPHS) {
+    issues.push(`${id}: ${stats.paragraphs}/${MAX_BODY_PARAGRAPHS} paragrafos; texto longo demais para o lastro`);
   }
 
   for (const pattern of PUBLIC_COPY_BLOCKLIST) {
@@ -175,6 +183,14 @@ function validateText(article, index) {
   if (String(article.title || "").includes("...")) issues.push(`${id}: titulo truncado`);
   if (String(article.title || "").length > MAX_TITLE_CHARACTERS) issues.push(`${id}: titulo longo demais`);
   if (String(article.slug || "").endsWith("-")) issues.push(`${id}: slug termina com hifen`);
+  if (article.workflowVersion >= 2) {
+    if (article.editorialMeta?.automatedReview?.status !== "approved") {
+      issues.push(`${id}: sem aprovacao factual automatica`);
+    }
+    if (article.humanApproval?.status !== "approved") {
+      issues.push(`${id}: sem aprovacao humana`);
+    }
+  }
 
   return issues;
 }
@@ -220,6 +236,9 @@ function validateImage(article, index) {
 
   if (blockedSource) {
     issues.push(`${id}: imagem vem de fonte da noticia (${blockedSource})`);
+  }
+  if (article.workflowVersion >= 2 && article.imageReview?.status !== "approved") {
+    issues.push(`${id}: imagem sem aprovacao visual`);
   }
 
   return issues;

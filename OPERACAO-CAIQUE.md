@@ -47,6 +47,7 @@ Por enquanto, o fluxo principal nao e WordPress. O site e gerado como HTML estat
 - Paginas internas: `docs/noticias/<slug>/index.html`
 - Site final local: `public/final-site/`
 - Dados das materias: `data/articles.json`
+- Fila que aguarda avaliacao humana: `data/review-queue.json`
 - Feed bruto/processado: `data/hybrid-feed.json` e `data/news.json`
 
 ## Comandos principais
@@ -57,52 +58,82 @@ Sempre rodar a partir da pasta do projeto:
 cd "/Users/rafaeloliver/.openclaw/workspace-caique/SITE HIBRIDO"
 ```
 
-Atualizar noticias, filtrar, escrever pelo menos 20 materias e validar:
+Atualizar noticias, gerar rascunhos factuais, revisar texto e escolher imagens:
 
 ```bash
 npm run hybrid:refresh
 ```
 
-Gerar site final:
+Esse comando nunca publica. Depois, listar a fila:
 
 ```bash
-npm run site:final
+npm run editorial:list
 ```
 
-Preparar GitHub Pages:
+Se a fila vier pequena, nunca sugerir apenas "rodar de novo" ou afrouxar os
+filtros. Ler primeiro o relatorio:
 
 ```bash
-npm run site:gh-pages
+npm run editorial:report
 ```
 
-Fluxo completo recomendado:
+O relatorio informa quantos candidatos foram encontrados, quantos foram
+analisados e o motivo de cada rejeicao. A coleta usa buscas separadas para
+Famosos, Musica, TV e Cinema, alem de tendencias ligadas a entretenimento.
+
+Mostrar uma materia completa para enviar ao grupo:
 
 ```bash
-npm run hybrid:refresh && npm run site:final && npm run site:gh-pages
+node scripts/automacao-caique-buzzpop.cjs --detail ID_DA_MATERIA
 ```
 
-Previa local da versao do GitHub Pages:
+Depois da resposta humana no grupo Buzz Pop:
 
 ```bash
-python3 -m http.server 4177 --directory docs
+npm run editorial:approve -- ID1,ID2
+npm run editorial:reject -- ID3 --reason "motivo informado no grupo"
 ```
 
-Abrir:
+Se a foto estiver pendente, mostrar as candidatas retornadas no detalhe e aplicar
+a escolha humana antes de aprovar:
 
-```text
-http://localhost:4177/
+```bash
+npm run editorial:image -- ID_DA_MATERIA:0
 ```
+
+Somente depois das aprovacoes:
+
+```bash
+npm run editorial:publish
+```
+
+O comando acima valida `data/articles.json`, gera o site final e prepara `docs/`.
+Commit e push continuam sendo passos explicitos.
 
 ## IA
 
-O projeto usa uma API compativel com OpenAI configurada no `.env`.
+O projeto separa tres funcoes:
 
-Variaveis relevantes:
+- redator: provedor compativel com OpenAI configurado por `AI_BASE_URL`;
+- revisor factual independente: `OPENAI_REVIEW_MODEL`;
+- revisor visual de fotos: `OPENAI_VISION_MODEL`.
 
-- `AI_API_KEY`
-- `AI_BASE_URL`
-- `AI_MODEL`
-- `USE_OPENAI_FOR_POSTS=true`
+Quando `USE_CODEX_FOR_POSTS=true`, o redator e o revisor factual passam pela
+gambiarra controlada do Codex CLI local autenticado por OAuth (`CODEX_HOME`).
+O padrao desta automacao e `CODEX_MODEL=gpt-5.5` com
+`CODEX_REASONING_EFFORT=high`. Isso ignora a `OPENAI_API_KEY` invalida do
+projeto. E mais lento e depende do limite interativo do Codex, entao deve ser
+usado so enquanto nao houver chave de API valida.
+
+Se a chave da OpenAI estiver indisponivel, o fluxo pode usar o Codex CLI local
+como revisor visual com `USE_CODEX_VISION=true`. Deixar `false` enquanto a conta
+estiver sem limite. Sem um revisor visual disponivel, a foto fica pendente para
+humano e nunca e escolhida por metadados.
+
+DeepSeek pode escrever o primeiro rascunho, mas nao decide sozinho se o texto
+esta publicavel. A revisao compara cada afirmacao somente com as evidencias
+coletadas. A selecao de foto usa os pixels das candidatas; nunca escolher apenas
+por URL, legenda ou posicao no resultado.
 
 Atencao:
 
@@ -125,6 +156,12 @@ Atencao:
 - Titulo precisa fazer sentido sozinho. Nao misturar assuntos diferentes.
 - Texto deve ter corpo jornalistico, contexto, desenvolvimento e fechamento.
 - Quando a IA gerar texto fraco, generico, curto, incoerente ou com metalinguagem, reprovar antes de publicar.
+- Nao exigir comprimento artificial. O texto deve parar quando os fatos acabarem.
+- Uma nota factual pode ter de 45 a 260 palavras e de 2 a 5 paragrafos.
+- Quando o primeiro texto falhar, o gerador tenta uma correcao usando os erros do revisor antes de descartar a pauta.
+- Aceitar nota curta quando houver poucos fatos. Nunca alongar artificialmente para atingir SEO ou contagem de palavras.
+- Nunca completar materia com memoria geral sobre carreira, agenda, repercussao, reacao de fas ou proximos passos.
+- Toda materia nova precisa de `automatedReview.status=approved`, imagem visualmente aprovada e `humanApproval.status=approved`.
 - A cada 10 materias, no maximo 3 podem ser internacionais.
 - O restante deve ser Brasil. Fonte brasileira nao transforma pauta internacional em pauta brasileira.
 - A coleta deve nascer Brasil-first: priorizar pautas nacionais antes da escrita.
@@ -195,7 +232,10 @@ Essas regras são **prioridade máxima** e se aplicam a toda rodada de geração
 - Preferir imagem ilustrativa de outro contexto que faca sentido para o assunto.
 - A imagem nao deve vir da mesma URL da noticia nem do mesmo cluster exato.
 - Para noticia centrada em uma pessoa, pode buscar candidato em Instagram/Apify quando existir fluxo disponivel.
-- A IA deve validar se a imagem representa o assunto sem induzir erro.
+- A IA com capacidade visual deve abrir os pixels e validar se a pessoa/assunto esta correto.
+- DeepSeek em modo texto nao pode escolher foto com base apenas em metadados.
+- Rejeitar pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado e imagem que sugira outro acontecimento.
+- Se nenhuma candidata atingir confianca minima, manter placeholder e pedir escolha humana no grupo.
 - Quando a imagem vier de uma pagina externa, registrar `imagePostUrl` e tentar extrair o credito textual escrito nessa pagina.
 - O credito exibido deve priorizar o credito real da pagina/post. Usar apenas dominio como fallback temporario, nunca como credito ideal.
 - Para travar publicacao sem credito textual extraido, usar `REQUIRE_PAGE_IMAGE_CREDIT=true` antes de rodar `npm run validate:articles`.
@@ -232,12 +272,35 @@ Nao criar novos bloqueios editoriais globais sem Rafael pedir.
 
 Se politica, apostas, loteria ou outros temas ja estiverem bloqueados no codigo, manter como esta. Mas nao adicionar novas categorias bloqueadas por conta propria.
 
+## Caminho oficial unico
+
+O caminho oficial e:
+
+```text
+Google News/Trends
+  -> scripts/lib/news.js
+  -> scripts/lib/editorial-drafts.js
+  -> revisao factual independente
+  -> scripts/lib/illustrative-images.js com visao real
+  -> data/review-queue.json
+  -> avaliacao humana no WhatsApp
+  -> scripts/editorial-review.js
+  -> data/articles.json
+  -> site:final
+  -> site:gh-pages
+  -> commit/push explicito
+```
+
+Nao usar `scripts/generate-news-with-openai.cjs` nem
+`scripts/daily-news-pipeline.cjs` no fluxo do Caique. Eles ficaram disponiveis
+apenas pelos comandos `legacy:*` para consulta e migracao.
+
 ## Estado atual esperado
 
 O site deve operar como um portal estatico no GitHub Pages, com:
 
 - Home em feed vertical
-- Pelo menos 10 materias publicaveis por rodada
+- Rascunhos insuficientes ou sem lastro devem ser rejeitados, mesmo que a rodada fique abaixo da meta
 - No maximo 3 internacionais a cada 10 materias
 - Internacionais filtradas ja na coleta, nao apenas no validador final
 - Paginas internas por materia

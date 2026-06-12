@@ -22,7 +22,7 @@ Quando o usuario pedir um "site de hoje", "HTML de teste", "filtrar noticias" ou
 - Escrever como materia publicada para leitor final, sem mencionar bastidor, filtro, sistema, curadoria, ranking ou processo.
 - Se a automacao usar pontuacao, Google Trends, numero de fontes, decisao editorial ou analise da OpenAI, isso deve ficar em metadados internos, painel administrativo ou rodape tecnico. O corpo da materia nunca explica que a noticia foi escolhida, filtrada ou ranqueada.
 - Deixar fontes no rodape da materia e manter o corpo do texto limpo, com atribuicoes apenas quando forem necessarias por seguranca jornalistica.
-- Para materia principal, respeitar 350+ palavras, 2.200+ caracteres e 6+ paragrafos sempre que houver informacao factual suficiente.
+- Usar de 45 a 260 palavras e de 2 a 5 paragrafos, sempre na proporcao das evidencias; nunca alongar para preencher espaco.
 
 ## Regra de montagem do site
 
@@ -40,7 +40,7 @@ Quando o usuario pedir um "site de hoje", "HTML de teste", "filtrar noticias" ou
 - A imagem deve ser ilustrativa e relacionada ao personagem, obra, programa, evento ou contexto geral.
 - Preferir arquivo, foto de perfil publico, material de divulgacao, rede oficial ou pagina que nao esteja cobrindo exatamente a mesma noticia.
 - A OpenAI deve sugerir `imageSearchQuery` e, quando houver candidatas, ajudar a escolher uma imagem coerente que nao venha das fontes bloqueadas.
-- Quando a noticia falar de uma pessoa especifica e houver perfil publico/oficial mapeado, usar Apify para buscar imagens recentes do Instagram e deixar a OpenAI escolher a melhor foto ilustrativa.
+- Quando a noticia falar de uma pessoa especifica e houver perfil publico/oficial mapeado, usar Apify para buscar imagens recentes do Instagram e deixar um modelo com visao real escolher a melhor foto ilustrativa. Sem visao disponivel, encaminhar as candidatas para escolha humana.
 - A foto do Instagram nao precisa ser da noticia exata; ela deve representar bem a pessoa, com enquadramento limpo e sem expor criancas ou terceiros sem necessidade.
 - O credito deve deixar claro quando for imagem ilustrativa.
 - Se nao houver imagem segura, usar placeholder em vez de copiar a foto da noticia.
@@ -112,19 +112,18 @@ Essas palavras podem aparecer em documentos internos de curadoria, mas nao no te
 
 ## Tamanho minimo
 
-Materia padrao do BuzzPop nao deve sair curta demais. O minimo editorial passa a ser:
+O tamanho acompanha o lastro factual:
 
 ```txt
-Corpo da materia: minimo de 350 palavras
-Caracteres do corpo: minimo de 2.200 caracteres
-Paragrafos: minimo de 6 paragrafos
+Corpo da materia: 45 a 260 palavras
+Paragrafos: 2 a 5 paragrafos
 Linha de apoio: 140 a 220 caracteres
 Titulo: 45 a 90 caracteres, quando possivel
 ```
 
-Essa regra e obrigatoria para materia publicada. Se o corpo ficar abaixo desses limites, o texto deve ser refeito antes de entrar no site.
-
-Excecao: nota rapida, agenda, servico simples ou atualizacao urgente pode ter minimo de 220 palavras e 1.400 caracteres, mas deve ser marcada internamente como nota, nao como materia principal.
+Uma nota curta e valida quando informa o fato central sem repetir nem inventar.
+Materia longa so pode existir quando as evidencias trouxerem detalhes suficientes.
+Comprimento nunca e criterio para completar texto com contexto generico.
 
 ## Regra das tres fontes
 

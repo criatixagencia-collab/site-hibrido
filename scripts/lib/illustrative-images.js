@@ -1,12 +1,17 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
+import os from "node:os";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { aiApiKey, aiChatCompletionsUrl, aiModel, aiBaseUrl, isOpenAIBaseUrl } from "./ai-config.js";
 
+const execFileAsync = promisify(execFile);
 const PUBLIC_IMAGE_DIR = path.resolve("public", "images", "auto");
 const PROFILE_MAP_FILE = path.resolve("data", "instagram-profiles.json");
 const MIN_BYTES = 1024;
 const DEFAULT_INSTAGRAM_ACTOR = "apify/instagram-scraper";
+let openAIVisionUnavailable = false;
 const SOURCE_DOMAIN_HINTS = {
   "adorocinema": ["adorocinema.com"],
   "area vip": ["areavip.com.br"],
@@ -627,6 +632,295 @@ async function chooseInstagramCandidateWithOpenAI(article, candidates) {
   }
 }
 
+async function chooseCandidateWithOpenAIVision(article, candidates, origin) {
+  const apiKey = process.env.OPENAI_API_KEY || "";
+  if (!apiKey || !candidates.length) throw new Error("OPENAI_API_KEY ausente");
+
+  const content = [
+    {
+      type: "input_text",
+      text: JSON.stringify(
+        {
+          task:
+            "Escolha uma foto jornalisticamente segura para ilustrar a noticia. Voce esta vendo os pixels das candidatas: use a imagem, nao apenas URL ou legenda.",
+          article: {
+            title: article.title,
+            excerpt: article.excerpt,
+            category: article.category,
+            imageSubject: article.imageSubject,
+            imageSearchQuery: article.imageSearchQuery,
+            imageAlt: article.imageAlt,
+          },
+          origin,
+          requirements: [
+            "A pessoa, obra, programa ou evento central precisa estar claramente correto.",
+            "Para noticia sobre uma pessoa, prefira rosto identificavel e enquadramento individual.",
+            "Rejeite pessoa errada, grupo confuso, crianca como foco de noticia sobre adulto, meme, print, texto pesado, montagem ou baixa qualidade.",
+            "Rejeite imagem que sugira um acontecimento diferente do texto.",
+            "Rejeite logo, poster ou objeto quando existe uma pessoa central que deveria aparecer.",
+            "Se nenhuma candidata for segura, use approved=false e candidateIndex=-1.",
+          ],
+          candidates: candidates.map((candidate, index) => ({
+            index,
+            pageUrl: candidate.pageUrl,
+            source: candidate.source,
+            title: candidate.title,
+            caption: candidate.caption,
+            width: candidate.width,
+            height: candidate.height,
+          })),
+        },
+        null,
+        2,
+      ),
+    },
+  ];
+
+  for (const candidate of candidates) {
+    content.push({ type: "input_image", image_url: candidate.imageUrl });
+  }
+
+  const model =
+    process.env.OPENAI_VISION_MODEL ||
+    process.env.OPENAI_REVIEW_MODEL ||
+    process.env.OPENAI_MODEL ||
+    "gpt-4o-mini";
+  const response = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      input: [{ role: "user", content }],
+      text: {
+        format: {
+          type: "json_schema",
+          name: "buzzpop_image_review",
+          strict: true,
+          schema: {
+            type: "object",
+            additionalProperties: false,
+            required: [
+              "approved",
+              "candidateIndex",
+              "confidence",
+              "reason",
+              "visibleSubject",
+              "concerns",
+            ],
+            properties: {
+              approved: { type: "boolean" },
+              candidateIndex: { type: "integer", minimum: -1 },
+              confidence: { type: "number", minimum: 0, maximum: 1 },
+              reason: { type: "string" },
+              visibleSubject: { type: "string" },
+              concerns: { type: "array", items: { type: "string" } },
+            },
+          },
+        },
+      },
+      max_output_tokens: 700,
+    }),
+  });
+
+  const text = await response.text();
+  let data;
+  try {
+    data = JSON.parse(text);
+  } catch {
+    data = { raw: text };
+  }
+  if (!response.ok) {
+    const message = data?.error?.message || data?.message || response.statusText;
+    throw new Error(`OpenAI vision ${response.status}: ${message}`);
+  }
+
+  const output =
+    data.output_text ||
+    (data.output || [])
+      .flatMap((item) => item.content || [])
+      .filter((item) => item.type === "output_text")
+      .map((item) => item.text)
+      .join("\n");
+  const result = JSON.parse(output);
+  const index = Number(result.candidateIndex);
+  const approved =
+    result.approved === true &&
+    Number(result.confidence || 0) >= 0.72 &&
+    Number.isInteger(index) &&
+    Boolean(candidates[index]);
+
+  return {
+    ...result,
+    approved,
+    candidateIndex: approved ? index : -1,
+    confidence: Number(result.confidence || 0),
+    model,
+  };
+}
+
+async function downloadVisionCandidate(candidate, directory, index) {
+  const response = await fetch(candidate.imageUrl, {
+    headers: {
+      accept: "image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+    },
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!response.ok) return "";
+  const contentType = response.headers.get("content-type") || "";
+  if (!contentType.startsWith("image/")) return "";
+  const bytes = Buffer.from(await response.arrayBuffer());
+  if (bytes.length < MIN_BYTES) return "";
+  const ext = extensionFrom(contentType, candidate.imageUrl);
+  const file = path.join(directory, `candidate-${index}.${ext}`);
+  await writeFile(file, bytes);
+  return file;
+}
+
+async function chooseCandidateWithCodexVision(article, candidates, origin) {
+  if (process.env.USE_CODEX_VISION !== "true") {
+    throw new Error("USE_CODEX_VISION nao ativado");
+  }
+
+  const directory = await mkdtemp(path.join(os.tmpdir(), "buzzpop-vision-"));
+  try {
+    const downloaded = [];
+    for (let index = 0; index < candidates.length; index += 1) {
+      try {
+        const file = await downloadVisionCandidate(candidates[index], directory, index);
+        if (file) downloaded.push({ index, file });
+      } catch {
+        // Candidate remains unavailable to the visual reviewer.
+      }
+    }
+    if (!downloaded.length) throw new Error("nenhuma candidata pode ser baixada para o Codex");
+
+    const schemaFile = path.join(directory, "schema.json");
+    const outputFile = path.join(directory, "result.json");
+    await writeFile(
+      schemaFile,
+      JSON.stringify({
+        type: "object",
+        additionalProperties: false,
+        required: [
+          "approved",
+          "candidateIndex",
+          "confidence",
+          "reason",
+          "visibleSubject",
+          "concerns",
+        ],
+        properties: {
+          approved: { type: "boolean" },
+          candidateIndex: { type: "integer" },
+          confidence: { type: "number", minimum: 0, maximum: 1 },
+          reason: { type: "string" },
+          visibleSubject: { type: "string" },
+          concerns: { type: "array", items: { type: "string" } },
+        },
+      }),
+    );
+
+    const attachmentMap = downloaded.map((entry, position) => ({
+      attachment: position + 1,
+      candidateIndex: entry.index,
+      source: candidates[entry.index].source,
+      title: candidates[entry.index].title,
+      pageUrl: candidates[entry.index].pageUrl,
+    }));
+    const prompt = JSON.stringify({
+      role: "revisor visual de fotografia jornalistica",
+      instruction:
+        "Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.",
+      article: {
+        title: article.title,
+        excerpt: article.excerpt,
+        category: article.category,
+        imageSubject: article.imageSubject,
+        imageAlt: article.imageAlt,
+      },
+      origin,
+      attachmentMap,
+    });
+    const imageArgs = downloaded.flatMap((entry) => ["--image", entry.file]);
+    await execFileAsync(
+      "codex",
+      [
+        "exec",
+        "--ephemeral",
+        "--skip-git-repo-check",
+        "--sandbox",
+        "read-only",
+        "--ask-for-approval",
+        "never",
+        "--output-schema",
+        schemaFile,
+        "--output-last-message",
+        outputFile,
+        "-C",
+        directory,
+        ...imageArgs,
+        prompt,
+      ],
+      {
+        cwd: directory,
+        timeout: Number(process.env.CODEX_VISION_TIMEOUT_MS || 180000),
+        maxBuffer: 10 * 1024 * 1024,
+      },
+    );
+
+    const result = JSON.parse(await readFile(outputFile, "utf8"));
+    const index = Number(result.candidateIndex);
+    const approved =
+      result.approved === true &&
+      Number(result.confidence || 0) >= 0.72 &&
+      Number.isInteger(index) &&
+      Boolean(candidates[index]) &&
+      downloaded.some((entry) => entry.index === index);
+    return {
+      ...result,
+      approved,
+      candidateIndex: approved ? index : -1,
+      confidence: Number(result.confidence || 0),
+      model: "codex-cli",
+    };
+  } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
+}
+
+async function chooseCandidateVisually(article, candidates, origin) {
+  const errors = [];
+  if (!openAIVisionUnavailable) {
+    try {
+      return await chooseCandidateWithOpenAIVision(article, candidates, origin);
+    } catch (error) {
+      openAIVisionUnavailable = true;
+      errors.push(`OpenAI API: ${error.message || error}`);
+    }
+  } else {
+    errors.push("OpenAI API: indisponivel nesta rodada");
+  }
+
+  try {
+    return await chooseCandidateWithCodexVision(article, candidates, origin);
+  } catch (error) {
+    errors.push(`Codex CLI: ${error.message || error}`);
+  }
+
+  return {
+    approved: false,
+    candidateIndex: -1,
+    confidence: 0,
+    reason: errors.join(" | "),
+    concerns: ["vision-unavailable"],
+    model: "",
+  };
+}
+
 export async function applyIllustrativeImages(articles) {
   const updated = [];
 
@@ -636,21 +930,28 @@ export async function applyIllustrativeImages(articles) {
       try {
         const instagramCandidates = await instagramImageCandidates(profileUrl, 6);
         if (instagramCandidates.length) {
-          const chosenIndex = await chooseInstagramCandidateWithOpenAI(article, instagramCandidates);
-          const chosen = instagramCandidates[chosenIndex] || instagramCandidates[0];
-          const localPath = await downloadImage(chosen.imageUrl, slugify(article.slug || article.title));
+          const decision = await chooseCandidateVisually(article, instagramCandidates, "instagram-oficial");
+          if (decision.approved) {
+            const chosen = instagramCandidates[decision.candidateIndex];
+            const localPath = await downloadImage(chosen.imageUrl, slugify(article.slug || article.title));
 
-          updated.push({
-            ...article,
-            image: localPath || "/images/news-placeholder.svg",
-            imageCredit: chosen.credit || "Foto: Reprodução/Instagram",
-            imagePostUrl: chosen.pageUrl || "",
-            imageCreditStatus: "instagram-profile",
-            imageCreditSourceUrl: chosen.pageUrl || "",
-            imagePolicy:
-              "Imagem de Instagram publico/oficial escolhida pela OpenAI como ilustracao; nao copiada da materia original.",
-          });
-          continue;
+            updated.push({
+              ...article,
+              image: localPath || "/images/news-placeholder.svg",
+              imageCredit: chosen.credit || "Foto: Reprodução/Instagram",
+              imagePostUrl: chosen.pageUrl || "",
+              imageCreditStatus: "instagram-profile",
+              imageCreditSourceUrl: chosen.pageUrl || "",
+              imagePolicy:
+                "Imagem de perfil publico/oficial aprovada por revisao visual; nao copiada da materia original.",
+              imageReview: {
+                status: localPath ? "approved" : "needs-human-review",
+                ...decision,
+                origin: "instagram-oficial",
+              },
+            });
+            continue;
+          }
         }
       } catch (error) {
         article.editorialMeta = {
@@ -685,12 +986,58 @@ export async function applyIllustrativeImages(articles) {
         imageCreditStatus: "placeholder",
         imageCreditSourceUrl: "",
         imagePolicy: "Sem candidata ilustrativa valida fora das fontes da noticia.",
+        imageReview: {
+          status: "needs-human-review",
+          approved: false,
+          confidence: 0,
+          reason: "Nenhuma candidata valida encontrada.",
+          concerns: ["no-valid-candidate"],
+          origin: "web",
+        },
       });
       continue;
     }
 
-    const chosenIndex = await chooseCandidateWithOpenAI(article, candidates);
-    const chosen = candidates[chosenIndex] || candidates[0];
+    let decision;
+    try {
+      decision = await chooseCandidateVisually(article, candidates, "web");
+    } catch (error) {
+      decision = {
+        approved: false,
+        candidateIndex: -1,
+        confidence: 0,
+        reason: error.message || String(error),
+        concerns: ["vision-error"],
+        model: process.env.OPENAI_VISION_MODEL || process.env.OPENAI_MODEL || "",
+      };
+    }
+
+    if (!decision.approved) {
+      updated.push({
+        ...article,
+        image: "/images/news-placeholder.svg",
+        imageCredit: "Imagem pendente de revisão",
+        imageCreditStatus: "pending-visual-review",
+        imageCreditSourceUrl: "",
+        imagePolicy: "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+        imageCandidates: candidates.map((candidate) => ({
+          imageUrl: candidate.imageUrl,
+          pageUrl: candidate.pageUrl,
+          source: candidate.source,
+          title: candidate.title,
+          width: candidate.width,
+          height: candidate.height,
+        })),
+        imageReview: {
+          status: "needs-human-review",
+          ...decision,
+          origin: "web",
+        },
+      });
+      continue;
+    }
+
+    const chosen = candidates[decision.candidateIndex];
     const localPath = await downloadImage(chosen.imageUrl, slugify(article.slug || article.title));
     const credit = await creditForWebCandidate(chosen);
 
@@ -701,7 +1048,12 @@ export async function applyIllustrativeImages(articles) {
       imagePostUrl: chosen.pageUrl || "",
       imageCreditStatus: credit.imageCreditStatus,
       imageCreditSourceUrl: credit.imageCreditSourceUrl,
-      imagePolicy: "Imagem ilustrativa escolhida fora das fontes que cobrem a noticia.",
+      imagePolicy: "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+      imageReview: {
+        status: localPath ? "approved" : "needs-human-review",
+        ...decision,
+        origin: "web",
+      },
     });
   }
 

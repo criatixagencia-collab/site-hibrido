@@ -179,7 +179,7 @@ function classifyMarket(item = {}) {
 }
 
 function maxInternationalFor(total) {
-  return Math.floor(Number(total || 0) * 0.3);
+  return 1;
 }
 
 function marketCounts(items = []) {

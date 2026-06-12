@@ -2,74 +2,39 @@
 
 Este mapa mostra como o site hibrido monta noticias hoje e onde a inteligencia editorial deve entrar.
 
-## Fluxo atual
+## Fluxo oficial atual
 
 ```txt
 Google News RSS + Google Trends RSS
   -> scripts/lib/news.js
-    -> normaliza titulos
-    -> remove assuntos bloqueados
-    -> exige multiplas fontes no cluster
-    -> pontua por fonte, atualidade, termos de entretenimento e tendencia
-    -> tenta escolher imagem por RSS, metadados da pagina ou busca automatica
+    -> capa de entretenimento
+    -> buscas separadas para Famosos, Musica, TV e Cinema
+    -> buscas extras para tendencias ligadas a cultura pop
+    -> reserva minima de candidatos por editoria
   -> data/news.json
-    -> lista bruta aprovada para trabalho editorial
-  -> scripts/lib/articles.js
-    -> se USE_OPENAI_FOR_POSTS=true e OPENAI_API_KEY existe:
-         OpenAI analisa dados internos, escolhe titulo, editoria, tags, consulta de imagem e escreve a materia
-         -> validador confere titulo copiado, linguagem interna e corpo curto
-         -> se falhar, OpenAI recebe os problemas e reescreve a materia
-         -> se ainda falhar, o texto fica em fallback cauteloso e marcado em editorialMeta
-       senao:
-         fallback local escreve uma materia cautelosa, sem bastidor editorial no corpo
-  -> data/articles.json
-    -> posts prontos com html, body, excerpt, tags, fonte original e metadados internos
+  -> scripts/lib/editorial-drafts.js
+    -> transforma as manchetes do cluster em evidencias explicitas
+    -> o redator usa somente essas evidencias
+    -> aceita nota curta e rejeita pauta sem lastro
+    -> um segundo passe audita afirmacoes, exageros e preenchimento
+    -> quando houver erro corrigivel, reescreve uma vez usando o parecer do revisor
+  -> data/editorial-run-report.json
+    -> registra aprovadas, rejeitadas, erros e motivos
   -> scripts/lib/illustrative-images.js
-    -> usa imageSearchQuery sugerida pela OpenAI
-    -> se a materia falar de pessoa com perfil mapeado em data/instagram-profiles.json:
-         Apify busca posts recentes do Instagram publico/oficial
-         OpenAI visual escolhe a melhor foto ilustrativa
-         foto e salva com credito de Instagram
-       senao:
-         segue para busca ilustrativa aberta
-    -> busca imagens candidatas fora das fontes da noticia
-    -> bloqueia dominio/site que publicou a materia original ou o mesmo cluster
-    -> OpenAI escolhe a candidata mais coerente quando houver opcoes
-    -> se nao houver candidata segura, usa placeholder
-  -> scripts/lib/local-images.js
-    -> baixa imagem remota quando possivel e salva em public/images/auto
-  -> data/hybrid-feed.json
-    -> feed usado pelo site
-  -> frontend React ou HTML estatico
-    -> mostra as materias
-  -> scripts/post-wordpress.js
-    -> publica no WordPress como rascunho ou post, conforme WP_STATUS
-```
-
-## Fluxo editorial novo com aprovacao humana
-
-```txt
-Coleta e reescrita automatica
-  -> data/articles.json
-    -> materias candidatas ainda nao entram direto na home principal
-
-Revisao humana
+    -> coleta candidatas fora das fontes da noticia
+    -> OpenAI Vision ou Codex CLI abre os pixels
+    -> foto insegura fica pendente; nunca cai no primeiro resultado
+  -> data/review-queue.json
   -> Caique acompanha o grupo de WhatsApp do BuzzPop
   -> Rafael/Gabi/time avaliam as materias no grupo
-  -> ajustes editoriais podem voltar para reescrita
-
-Aprovado para publicar
+  -> scripts/editorial-review.js
+    -> registra aprovacao/rejeicao humana
+    -> bloqueia aprovacao sem foto revisada
+  -> data/articles.json
   -> a materia aprovada entra na home principal do GitHub Pages
-  -> as mais novas entram primeiro
-  -> as mais antigas descem no feed conforme novas materias entram
-
-Home principal
-  -> organizar por secoes editoriais:
-       Famosos
-       Musica
-       TV
-       Cinema
-  -> dentro de cada secao, manter ordem cronologica decrescente
+  -> site:final
+  -> site:gh-pages
+  -> commit/push explicito
 ```
 
 ## Regra operacional
@@ -99,19 +64,14 @@ Metadados internos
   -> consulta sugerida para imagem
 ```
 
-## Papel da OpenAI
+## Papel dos modelos
 
-Quando `USE_OPENAI_FOR_POSTS=true`, a OpenAI deve atuar como editor antes de escrever:
-
-1. Ler titulo, resumo, fonte original, fontes detectadas, data, score e sinais internos.
-2. Decidir se o assunto rende materia, nota curta ou deve ser descartado.
-3. Identificar risco: acusacao, morte, processo, boato, exposicao pessoal, dado sensivel.
-4. Escolher editoria: TV, Famosos, Musica, Cinema, Streaming ou Entretenimento.
-5. Escrever titulo, linha de apoio e corpo como noticia para leitor final.
-6. Passar pela revisao automatica: titulo nao pode copiar RSS, texto nao pode citar processo, corpo nao pode parecer explicacao de curadoria.
-7. Se falhar, receber uma segunda chamada de reparo da OpenAI.
-8. Sugerir `imageSearchQuery` e `imageAlt` para a camada de imagens.
-9. Salvar decisao e risco em `editorialMeta`, sem expor isso no corpo da materia.
+1. O provedor configurado em `AI_BASE_URL` escreve o rascunho.
+2. Um segundo passe revisa cada afirmacao somente contra `evidenceClaims`.
+3. `OPENAI_VISION_MODEL` pode revisar as fotos pela API.
+4. Se a API visual estiver indisponivel, `USE_CODEX_VISION=true` permite usar o Codex CLI local.
+5. Sem revisor visual disponivel, a imagem fica pendente para avaliacao humana.
+6. Nenhum modelo publica. A promocao para `data/articles.json` exige comando de aprovacao humana.
 
 ## Proximo nivel desejado
 

@@ -3,9 +3,8 @@ import express from "express";
 import cron from "node-cron";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { fetchEntertainmentNews } from "./scripts/lib/news.js";
-import { generateArticles, toBuzzItems } from "./scripts/lib/articles.js";
-import { ensureDataDir, readJson, writeJson } from "./scripts/lib/store.js";
+import { runHybridRefresh } from "./scripts/hybrid-refresh.js";
+import { ensureDataDir, readJson } from "./scripts/lib/store.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,18 +26,7 @@ async function getBuiltWorker() {
 }
 
 async function refreshRadar() {
-  const news = await fetchEntertainmentNews();
-  await writeJson("news.json", news);
-  const articles = await generateArticles(news);
-  await writeJson("articles.json", articles);
-  const feed = {
-    generatedAt: new Date().toISOString(),
-    count: articles.length,
-    newsCount: news.length,
-    items: toBuzzItems(articles),
-  };
-  await writeJson("hybrid-feed.json", feed);
-  return { news, articles, feed };
+  return runHybridRefresh();
 }
 
 app.get("/api/news", async (_req, res) => {
@@ -58,10 +46,12 @@ app.post("/api/refresh", async (_req, res) => {
   const result = await refreshRadar();
   res.json({
     ok: true,
-    generatedAt: result.feed.generatedAt,
-    count: result.feed.items.length,
+    generatedAt: result.queue.generatedAt,
+    status: result.queue.status,
+    count: result.queue.items.length,
     newsCount: result.news.length,
-    items: result.feed.items,
+    items: result.queue.items,
+    message: "Rascunhos enviados para avaliacao humana; nenhuma materia foi publicada.",
   });
 });
 
@@ -124,7 +114,7 @@ cron.schedule(process.env.CRON_SCHEDULE || "0 * * * *", async () => {
   try {
     const result = await refreshRadar();
     console.log(
-      `[hybrid] atualizado: ${result.news.length} noticias, ${result.articles.length} posts`,
+      `[hybrid] fila atualizada: ${result.news.length} noticias, ${result.drafts.length} rascunhos novos`,
     );
   } catch (error) {
     console.error("[hybrid] falhou:", error.message);

@@ -1,8 +1,9 @@
 import { aiApiKey, aiChatCompletionsUrl, aiModel } from "./ai-config.js";
+import { generateEditorialDrafts } from "./editorial-drafts.js";
 import { createRequire } from "node:module";
 
 const require = createRequire(import.meta.url);
-const { classifyMarket, maxInternationalFor } = require("./market-classifier.cjs");
+const { classifyMarket } = require("./market-classifier.cjs");
 
 function slugify(value) {
   return value
@@ -428,47 +429,7 @@ Link da fonte: ${item.link}
 }
 
 export async function generateArticles(news) {
-  const limit = Number(process.env.POSTS_PER_RUN || 10);
-  const articles = [];
-  const maxInternational = maxInternationalFor(limit);
-  let internationalCount = 0;
-
-  for (const item of news) {
-    if (articles.length >= limit) break;
-
-    const itemMarket = classifyMarket(item);
-    if (itemMarket === "internacional" && internationalCount >= maxInternational) continue;
-
-    const article = await aiArticle(item);
-    const articleMarket = classifyMarket(article);
-    if (articleMarket === "internacional" && internationalCount >= maxInternational) continue;
-
-    article.market = articleMarket;
-    article.editorialMeta = {
-      ...(article.editorialMeta || {}),
-      market: articleMarket,
-    };
-
-    const issues = validateArticle(article, item);
-    if (issues.length) {
-      console.warn(`Materia rejeitada antes da publicacao: ${item.title}`);
-      for (const issue of issues) console.warn(`- ${issue}`);
-      continue;
-    }
-
-    articles.push(article);
-    if (articleMarket === "internacional") internationalCount += 1;
-  }
-
-  if (!articles.length) {
-    throw new Error("Nenhuma materia passou pela validacao editorial.");
-  }
-
-  if (articles.length < limit) {
-    throw new Error(`A rodada gerou ${articles.length}/${limit} materias publicaveis. Aumente MAX_ITEMS, revise filtros ou rode novamente.`);
-  }
-
-  return articles;
+  return generateEditorialDrafts(news);
 }
 
 export function toBuzzItems(articles) {

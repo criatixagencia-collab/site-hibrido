@@ -202,20 +202,15 @@ Esses termos so podem aparecer em arquivos internos de planejamento, nunca na no
 ### Tamanho minimo do texto
 
 ```txt
-Materia principal:
-  -> minimo de 350 palavras no corpo
-  -> minimo de 2.200 caracteres no corpo
-  -> minimo de 6 paragrafos
-
-Nota curta:
-  -> minimo de 220 palavras no corpo
-  -> minimo de 1.400 caracteres no corpo
-  -> minimo de 4 paragrafos
+Nota factual:
+  -> 45 a 260 palavras no corpo
+  -> 2 a 5 paragrafos
+  -> pode ser curta quando as evidencias forem curtas
 ```
 
-Se o assunto nao render esse minimo sem enrolar ou inventar informacao, ele deve ficar como nota monitorada, nao como materia principal.
-
-No codigo do site, essa regra tambem deve ser validada antes de publicar. Se uma materia principal tiver menos de 350 palavras, 2.200 caracteres ou 6 paragrafos, ela precisa voltar para reescrita.
+O texto deve parar quando os fatos confirmados acabarem. Nunca alongar para atingir
+SEO, contagem de palavras ou aparencia de materia longa. Se nem 45 palavras puderem
+ser escritas sem repeticao ou invencao, a pauta deve ser rejeitada.
 
 O comando `npm run build` executa `npm run validate:news` antes de compilar. Isso impede que novas materias curtas, com linguagem interna ou abaixo do minimo editorial passem despercebidas.
 

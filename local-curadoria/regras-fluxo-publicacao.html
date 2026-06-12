@@ -59,17 +59,17 @@
     <tr>
       <td>3. Escrita com IA</td>
       <td>A OpenAI escreve titulo, chamada, corpo, editoria, tags e sugestao de imagem.</td>
-      <td><code>scripts/lib/articles.js</code></td>
+      <td><code>scripts/lib/editorial-drafts.js</code></td>
     </tr>
     <tr>
       <td>4. Revisao automatica</td>
       <td>O proprio gerador verifica se o texto ficou curto, generico, copiado ou com linguagem interna.</td>
-      <td><code>validateArticle()</code> em <code>scripts/lib/articles.js</code></td>
+      <td>revisao factual em <code>scripts/lib/editorial-drafts.js</code></td>
     </tr>
     <tr>
       <td>5. Rejeicao antes de publicar</td>
       <td>Se uma materia falha, ela e pulada. O sistema tenta a proxima noticia.</td>
-      <td><code>generateArticles()</code> em <code>scripts/lib/articles.js</code></td>
+      <td><code>generateEditorialDrafts()</code> em <code>scripts/lib/editorial-drafts.js</code></td>
     </tr>
     <tr>
       <td>6. Validador final</td>
@@ -117,28 +117,22 @@
 
   <h3>3.1 Tamanho minimo</h3>
   <table>
-    <tr><th>Regra</th><th>Minimo atual</th><th>Por que existe</th></tr>
+    <tr><th>Regra</th><th>Faixa atual</th><th>Por que existe</th></tr>
     <tr>
       <td>Palavras</td>
-      <td><code>350</code></td>
-      <td>Evita nota rasa com cara de resumo automatico.</td>
-    </tr>
-    <tr>
-      <td>Caracteres</td>
-      <td><code>2200</code></td>
-      <td>Garante corpo suficiente para parecer materia jornalistica.</td>
+      <td><code>45 a 260</code></td>
+      <td>Permite nota curta sem obrigar a IA a preencher espaco.</td>
     </tr>
     <tr>
       <td>Paragrafos</td>
-      <td><code>6</code></td>
-      <td>Garante ritmo de noticia, nao apenas um bloco curto.</td>
+      <td><code>2 a 5</code></td>
+      <td>Mantem leitura clara e proporcional aos fatos disponiveis.</td>
     </tr>
   </table>
 
   <p>
-    Exemplo de erro:
-    <code>rivellino: 337/350 palavras</code>.
-    Isso significa que a materia ficou com 337 palavras, mas precisava de pelo menos 350.
+    O texto deve parar quando os fatos acabarem. Se nao houver material para
+    <code>45 palavras</code> sem repeticao ou invencao, a pauta deve ser rejeitada.
   </p>
 
   <h3>3.2 Titulo</h3>
@@ -255,9 +249,9 @@
   <table>
     <tr><th>Mensagem</th><th>Traducao simples</th><th>Como resolver</th></tr>
     <tr>
-      <td><code>337/350 palavras</code></td>
-      <td>O texto ficou curto.</td>
-      <td>Pedir para a IA reescrever com mais detalhes factuais.</td>
+      <td><code>38/45 palavras</code></td>
+      <td>As evidencias nao sustentaram nem uma nota curta.</td>
+      <td>Buscar mais fontes ou rejeitar; nunca completar com texto generico.</td>
     </tr>
     <tr>
       <td><code>titulo generico ou incoerente</code></td>
@@ -287,7 +281,7 @@
     <li>Rodar <code>npm run hybrid:refresh</code>.</li>
     <li>Se reprovar, ler os erros e classificar: texto, titulo ou imagem.</li>
     <li>Se for texto curto, reforcar o prompt de escrita/reparo.</li>
-    <li>Se for titulo ruim, ajustar regras de titulo em <code>scripts/lib/articles.js</code>.</li>
+    <li>Se for titulo ruim, ajustar regras de titulo em <code>scripts/lib/editorial-drafts.js</code>.</li>
     <li>Se for imagem, ajustar <code>scripts/lib/illustrative-images.js</code> ou o mapeamento de fontes.</li>
     <li>Quando passar, rodar <code>npm run site:final</code>.</li>
     <li>Depois rodar <code>npm run site:gh-pages</code>.</li>
@@ -301,17 +295,17 @@
     <tr><th>Quero mudar...</th><th>Arquivo</th><th>Funcao/local</th></tr>
     <tr>
       <td>Tamanho minimo</td>
-      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/articles.js</code></td>
+      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/editorial-drafts.js</code></td>
       <td><code>MIN_BODY_WORDS</code>, <code>MIN_BODY_CHARACTERS</code>, <code>MIN_BODY_PARAGRAPHS</code></td>
     </tr>
     <tr>
       <td>Tamanho maximo do titulo</td>
-      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/articles.js</code></td>
+      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/editorial-drafts.js</code></td>
       <td><code>MAX_TITLE_CHARACTERS</code></td>
     </tr>
     <tr>
       <td>Palavras proibidas</td>
-      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/articles.js</code></td>
+      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/editorial-drafts.js</code></td>
       <td><code>PUBLIC_COPY_BLOCKLIST</code></td>
     </tr>
     <tr>
