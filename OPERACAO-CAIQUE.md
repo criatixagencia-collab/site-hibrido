@@ -57,7 +57,7 @@ Sempre rodar a partir da pasta do projeto:
 cd "/Users/rafaeloliver/.openclaw/workspace-caique/SITE HIBRIDO"
 ```
 
-Atualizar noticias, filtrar, escrever pelo menos 10 materias e validar:
+Atualizar noticias, filtrar, escrever pelo menos 20 materias e validar:
 
 ```bash
 npm run hybrid:refresh

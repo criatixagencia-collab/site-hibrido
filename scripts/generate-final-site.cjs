@@ -273,8 +273,12 @@ function renderSelectionPage(articles) {
     var sourceHtml = a.html ? a.html.match(/<p class="article-sources"[^>]*>([\s\S]*?)<\/p>/i) : null;
     var sourceText = sourceHtml ? sourceHtml[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : (a.source || '');
     var date = formatDate(a.createdAt);
+    var imgSrc = a.image && a.image !== '/images/news-placeholder.svg' ? ('../' + a.image) : '';
+    var imgCredit = a.imageCredit || '';
+    var imageSource = a.imagePolicy || '';
     items +=
       '<div class="card">' +
+        (imgSrc ? '<div class="card-image"><img src="' + escapeHtml(imgSrc) + '" alt="' + escapeHtml(a.title) + '" loading="lazy"><p class="img-credit">Cr\u00e9dito: ' + escapeHtml(imgCredit) + '</p></div>' : '') +
         '<div class="card-body">' +
           '<div class="card-header">' +
             '<span class="badge cat-badge">' + escapeHtml(a.category || 'Entretenimento') + '</span>' +
@@ -282,11 +286,13 @@ function renderSelectionPage(articles) {
           '</div>' +
           '<a href="../noticias/' + articleSlug(a) + '/" class="card-title">' + escapeHtml(a.title) + '</a>' +
           '<p class="card-excerpt">' + escapeHtml(a.excerpt) + '</p>' +
-          '<p class="card-meta">' + escapeHtml(date) + ' · ' + escapeHtml(a.market || 'brasil') + '</p>' +
+          '<p class="card-meta">' + escapeHtml(date) + ' \u00b7 ' + escapeHtml(a.market || 'brasil') + '</p>' +
           '<div class="card-tags">' +
             (Array.isArray(a.tags) ? a.tags.slice(0, 3).map(function (t) { return '<span class="tag">' + escapeHtml(t) + '</span>'; }).join('') : '') +
           '</div>' +
-          '<p class="card-source"><strong>Fonte:</strong> ' + sourceText + '</p>' +
+          '<p class="card-source"><strong>Fonte:</strong> ' + escapeHtml(sourceText) + '</p>' +
+          (imgCredit ? '<p class="card-source"><strong>Cr\u00e9dito da imagem:</strong> ' + escapeHtml(imgCredit) + '</p>' : '') +
+          (imageSource ? '<p class="card-source"><strong>Origem da imagem:</strong> ' + escapeHtml(imageSource) + '</p>' : '') +
         '</div>' +
       '</div>';
   }
@@ -311,7 +317,7 @@ function renderSelectionPage(articles) {
     '.card-tags{display:flex;gap:0.35rem;flex-wrap:wrap;margin-bottom:0.75rem}' +
     '.tag{font-size:0.65rem;background:#222;padding:0.2rem 0.5rem;border-radius:6px;color:#ccc}' +
     '.card-source{font-size:0.72rem;color:#777;border-top:1px solid #222;padding-top:0.75rem}' +
-    '.card-source a{color:#facc15}' +
+    '.card-source a{color:#facc15}.card-image{position:relative}.card-image img{display:block;width:100%;max-height:260px;object-fit:cover}.img-credit{font-size:0.65rem;color:#888;padding:0.3rem 0.75rem;text-align:right;border-bottom:1px solid #222;margin:0}' +
     '.footer{text-align:center;padding:2rem 0;font-size:0.75rem;color:#555}' +
     '@media(min-width:600px){.card-body{padding:1.5rem}.card-title{font-size:1.2rem}}' +
     '</style></head><body>' +
