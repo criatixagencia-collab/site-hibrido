@@ -545,6 +545,15 @@ Antes de publicar, a noticia precisa virar texto proprio do BuzzPop.
 - Inventar detalhe para deixar mais chamativo.
 - Omitir que algo e rumor quando ainda nao esta confirmado.
 - Usar imagem sem permissao, origem ou credito claro.
+- Fechar a materia com texto de enchimento, institucional ou metalinguagem.
+- Escrever frases como "Este e o resumo da noticia", "A BuzzPop Brasil acompanha", "o assunto gerou grande repercussao", "as redes sociais foram tomadas", "para quem perdeu o fio da meada", "a tendencia e que o tema continue" ou "traremos novas informacoes".
+- Dizer que houve repercussao, comentarios em massa ou desdobramento futuro sem evidencia concreta na apuracao.
+
+### Regra de fechamento
+
+- A materia deve terminar em fato confirmado, contexto util ou declaracao atribuida.
+- Se nao houver novo dado forte no fim, encerrar no ultimo fato confirmado.
+- O ultimo paragrafo nao pode soar como promocao da BuzzPop, promessa de acompanhamento ou comentario sobre o proprio noticiario.
 
 ## 9. Saida final esperada
 

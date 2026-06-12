@@ -48,6 +48,17 @@ const PUBLIC_COPY_BLOCKLIST = [
   /\brepercute no entretenimento\b/i,
   /\bvolta aos holofotes\b/i,
   /\btem nova atualiza[cç][aã]o\b/i,
+  /\beste [ée] o resumo da not[ií]cia\b/i,
+  /\ba buzzpop brasil acompanha\b/i,
+  /\bfique ligado para mais informa[cç][õo]es\b/i,
+  /\bo assunto gerou grande repercuss[aã]o\b/i,
+  /\bas redes sociais foram tomadas\b/i,
+  /\bcontinuar[aá] monitorando o desdobramento\b/i,
+  /\btrar[aá] novas informa[cç][õo]es assim que estiverem dispon[ií]veis\b/i,
+  /\bpara quem perdeu o fio da meada\b/i,
+  /\bampla cobertura ao assunto\b/i,
+  /\ba tend[eê]ncia [ée] que o tema continue\b/i,
+  /\bnovos cap[ií]tulos e desdobramentos\b/i,
 ];
 
 const SOURCE_DOMAIN_HINTS = {

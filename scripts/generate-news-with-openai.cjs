@@ -104,6 +104,17 @@ const PUBLIC_COPY_BLOCKLIST = [
   /\bcausas sociais\b/i,
   /\bcausas apoiadas\b/i,
   /\broutine\b/i,
+  /\beste [ée] o resumo da not[ií]cia\b/i,
+  /\ba buzzpop brasil acompanha\b/i,
+  /\bfique ligado para mais informa[cç][õo]es\b/i,
+  /\bo assunto gerou grande repercuss[aã]o\b/i,
+  /\bas redes sociais foram tomadas\b/i,
+  /\bcontinuar[aá] monitorando o desdobramento\b/i,
+  /\btrar[aá] novas informa[cç][õo]es assim que estiverem dispon[ií]veis\b/i,
+  /\bpara quem perdeu o fio da meada\b/i,
+  /\bampla cobertura ao assunto\b/i,
+  /\ba tend[eê]ncia [ée] que o tema continue\b/i,
+  /\bnovos cap[ií]tulos e desdobramentos\b/i,
 ];
 const GENERATED_TOPIC_BLOCKLIST = [
   /\bcrian[cç]a da foto\b/i,
@@ -282,14 +293,14 @@ function prompt(candidates, limit) {
     {
       role: "system",
       content:
-        "Voce e um editor brasileiro de entretenimento. Escreva em portugues do Brasil, com tom direto, popular e jornalistico. Nao use linguagem interna de producao. Nao cite nomes dos veiculos dentro do texto publico. Nao invente numeros, falas, acusacoes, datas especificas ou detalhes que nao aparecam nos titulos/snippets fornecidos. Quando a informacao for limitada, escreva contexto geral com cautela, sem afirmar alem do material.",
+        "Voce e um editor brasileiro de entretenimento. Escreva em portugues do Brasil, com tom direto, popular e jornalistico. Nao use linguagem interna de producao. Nao cite nomes dos veiculos dentro do texto publico. Nao invente numeros, falas, acusacoes, datas especificas ou detalhes que nao aparecam nos titulos/snippets fornecidos. Quando a informacao for limitada, escreva contexto geral com cautela, sem afirmar alem do material. O fechamento da materia deve terminar em fato confirmado, contexto util ou declaracao atribuida. Nunca encerre com frases institucionais, texto de enchimento, promessa de acompanhamento, mencao a repercussao sem prova ou comentarios sobre a propria BuzzPop.",
     },
     {
       role: "user",
       content: JSON.stringify(
         {
           task:
-            "Gerar materias para o site BuzzPop Brasil usando apenas estes candidatos do Google News. Retorne JSON valido conforme o schema. Escolha apenas entretenimento factual: celebridades, TV, reality, musica, cinema e cultura pop. Ignore politica, tecnologia, turismo, mercado imobiliario, resumo de novela, posts de rede social, clickbait de identidade e temas institucionais. Cada materia precisa ter 9 a 10 paragrafos. Cada paragrafo precisa ter duas frases e de 55 a 75 palavras. O body completo precisa ter pelo menos 500 palavras e 3000 caracteres. Quando o candidato trouxer pouca informacao especifica, complete com contexto geral seguro sobre carreira publica, repercussao, formato do evento, relacao com o publico ou historico conhecido da pessoa, sem criar fala, numero, acusacao, data, premio, convidado, chef ou valor. Titulos devem ter no maximo 82 caracteres e nao podem terminar incompletos. Preencha imageSearchTerms com o nome da pessoa ou das pessoas principais da noticia; quando nao houver pessoa clara, use o nome do evento/programa e o assunto. Nao inclua a palavra instagram nesse campo, porque o coletor de imagem adiciona isso automaticamente. Nao use as palavras: fonte, site, reportagem, materia, CNN, UOL, G1, R7, Exame, curadoria, ranking, pauta. Nao escreva 'neste artigo'.",
+            "Gerar materias para o site BuzzPop Brasil usando apenas estes candidatos do Google News. Retorne JSON valido conforme o schema. Escolha apenas entretenimento factual: celebridades, TV, reality, musica, cinema e cultura pop. Ignore politica, tecnologia, turismo, mercado imobiliario, resumo de novela, posts de rede social, clickbait de identidade e temas institucionais. Cada materia precisa ter 9 a 10 paragrafos. Cada paragrafo precisa ter duas frases e de 55 a 75 palavras. O body completo precisa ter pelo menos 500 palavras e 3000 caracteres. Quando o candidato trouxer pouca informacao especifica, complete com contexto geral seguro sobre carreira publica, formato do evento, relacao com o publico ou historico conhecido da pessoa, sem criar fala, numero, acusacao, data, premio, convidado, chef ou valor. O ultimo paragrafo deve encerrar a leitura com um fato confirmado, contexto util ou fala atribuida; se nao houver novo dado, termine no ultimo fato confirmado sem inventar gancho. Nunca use fechamento generico ou institucional. Sao proibidas formulacoes como: 'Este e o resumo da noticia', 'A BuzzPop Brasil acompanha', 'o assunto gerou grande repercussao', 'as redes sociais foram tomadas', 'para quem perdeu o fio da meada', 'a tendencia e que o tema continue', 'trara novas informacoes'. So mencione repercussao se houver evidencia concreta no material fornecido. Titulos devem ter no maximo 82 caracteres e nao podem terminar incompletos. Preencha imageSearchTerms com o nome da pessoa ou das pessoas principais da noticia; quando nao houver pessoa clara, use o nome do evento/programa e o assunto. Nao inclua a palavra instagram nesse campo, porque o coletor de imagem adiciona isso automaticamente. Nao use as palavras: fonte, site, reportagem, materia, CNN, UOL, G1, R7, Exame, curadoria, ranking, pauta. Nao escreva 'neste artigo'.",
           limit,
           candidates,
         },

@@ -10,6 +10,7 @@ const docsImages = path.join(docsDir, "images");
 function copyDir(from, to) {
   if (!fs.existsSync(from)) return;
   fs.rmSync(to, { recursive: true, force: true });
+  fs.mkdirSync(path.dirname(to), { recursive: true });
   fs.cpSync(from, to, { recursive: true });
 }
 

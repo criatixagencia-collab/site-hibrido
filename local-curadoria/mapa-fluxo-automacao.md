@@ -46,6 +46,43 @@ Google News RSS + Google Trends RSS
     -> publica no WordPress como rascunho ou post, conforme WP_STATUS
 ```
 
+## Fluxo editorial novo com aprovacao humana
+
+```txt
+Coleta e reescrita automatica
+  -> data/articles.json
+    -> materias candidatas ainda nao entram direto na home principal
+
+Revisao humana
+  -> Caique acompanha o grupo de WhatsApp do BuzzPop
+  -> Rafael/Gabi/time avaliam as materias no grupo
+  -> ajustes editoriais podem voltar para reescrita
+
+Aprovado para publicar
+  -> a materia aprovada entra na home principal do GitHub Pages
+  -> as mais novas entram primeiro
+  -> as mais antigas descem no feed conforme novas materias entram
+
+Home principal
+  -> organizar por secoes editoriais:
+       Famosos
+       Musica
+       TV
+       Cinema
+  -> dentro de cada secao, manter ordem cronologica decrescente
+```
+
+## Regra operacional
+
+- Publicacao principal do BuzzPop passa por avaliacao humana no grupo de WhatsApp onde o Caique esta presente.
+- O grupo funciona como etapa de aprovacao editorial antes da home principal.
+- So depois da aprovacao humana a materia deve subir para `docs/index.html` e para a versao publicada no GitHub Pages.
+- Categorias obrigatorias da home principal:
+  - `Famosos` para famosos e influenciadores
+  - `Musica` para cantores, bandas e assuntos musicais
+  - `TV` para programas, emissoras, realities e talentos da televisao
+  - `Cinema` para filmes, atores, festivais e streaming quando o gancho principal for audiovisual
+
 ## Separacao obrigatoria
 
 ```txt
