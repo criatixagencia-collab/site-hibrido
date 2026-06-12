@@ -681,7 +681,7 @@ export async function applyIllustrativeImages(articles) {
       updated.push({
         ...article,
         image: "/images/news-placeholder.svg",
-        imageCredit: "Imagem ilustrativa: BuzzPop",
+        imageCredit: "Imagem ilustrativa: BuzzPop Brasil",
         imageCreditStatus: "placeholder",
         imageCreditSourceUrl: "",
         imagePolicy: "Sem candidata ilustrativa valida fora das fontes da noticia.",

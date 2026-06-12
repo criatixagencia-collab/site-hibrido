@@ -187,7 +187,7 @@ const BASE: NewsItem[] = [
     image: "/images/news-placeholder.svg",
     imagePosition: "center center",
     articleImagePosition: "center center",
-    imageCredit: "Imagem: BuzzPop",
+    imageCredit: "Imagem: BuzzPop Brasil",
     sourceLabel: "Origem: Tribuna Hoje",
     sourceUrl: "https://news.google.com/rss/articles/CBMizgFBVV95cUxOanJsY0FRX2RScm9IOTNtRXBvRG5xaUlzak1mdXhMQkhCalBleDVqaFRMSkxSSEZTbVE0RkN4LUd5QWtLeEdwdC1IZEVnWnFFR2hmVXBDamlzNUJzTFJ1Tm9kMlFvamdwMWNpeFZTSkJCTEFnbHkzNmNuSFk4OVBVc0t1UWNSVHhCclBRNlA4MXVJNGNyYXMwMFR6SXdiM2IyUGI1MWtTNUJ1elhNVVRCV3QzQzdBUXYtVE5naG9vMjJLVk0xNWFGRHNMaXJvZw?oc=5",
     sources: [
@@ -226,7 +226,7 @@ const BASE: NewsItem[] = [
     image: "/images/news-placeholder.svg",
     imagePosition: "center center",
     articleImagePosition: "center center",
-    imageCredit: "Imagem: BuzzPop",
+    imageCredit: "Imagem: BuzzPop Brasil",
     sourceLabel: "Origem: Jornal DR1",
     sourceUrl: "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWWl1VHUwekFST2g0b0p3M0NSVElBQWdHQzY4QmxtWUhCSGpKazZaOHpJRU1XTjNNOE1DQXcxVnRBSy1GYjhPUndNZWl3NDBjdmFMUWp4aDZUT0J3WHVwOWVPYnlwaEdQbkpxYnVlLXRXdjlISXVoT2pSSzFSblhPR1JsY2o5Q05IQXFxanB2UWJ2RTJuMFMwbHlCTEtvSV8ydlNrU0lITFkycF9pM1FmdjF2TQ?oc=5",
     sources: [
@@ -308,7 +308,7 @@ const BASE: NewsItem[] = [
     image: "/images/news-placeholder.svg",
     imagePosition: "center center",
     articleImagePosition: "center center",
-    imageCredit: "Imagem: BuzzPop",
+    imageCredit: "Imagem: BuzzPop Brasil",
     sourceLabel: "Origem: Gazeta Brazilian News",
     sourceUrl: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTUpEdmtHRWZEY0NTXzYzMXQ1Z3c0QWtYTmJpVXJTTFdfLTEwenRKLWh4OUQyRGtHZzFVYWNBQTVFNjNlWklRdkhzRkxvdXhFZGNpV3lwVVNyUzM5aUU4RHl4YnJJNkhzUlRldTdHRHo5al90ZGpPY1BacDl4OVhWRUlhQjd3dnhmSENGZVRNR1NzZ3RMNXAyNzRBdkVUODEwNDlQVUNhcWFZdlFyRG9lR0hiN1JkUDdrRFdrbU5uWVQxdw?oc=5",
     sources: [

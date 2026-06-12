@@ -11,7 +11,7 @@ const DEFAULT_MODEL = "gpt-4o-mini";
 const DEFAULT_LIMIT = 6;
 const GENERIC_IMAGE = {
   image: "/images/news-placeholder.svg",
-  imageCredit: "Imagem: BuzzPop",
+  imageCredit: "Imagem: BuzzPop Brasil",
 };
 const BLOCKED_CANDIDATE_PATTERNS = [
   /\blula\b/i,
@@ -289,7 +289,7 @@ function prompt(candidates, limit) {
       content: JSON.stringify(
         {
           task:
-            "Gerar materias para o site BuzzPop usando apenas estes candidatos do Google News. Retorne JSON valido conforme o schema. Escolha apenas entretenimento factual: celebridades, TV, reality, musica, cinema e cultura pop. Ignore politica, tecnologia, turismo, mercado imobiliario, resumo de novela, posts de rede social, clickbait de identidade e temas institucionais. Cada materia precisa ter 9 a 10 paragrafos. Cada paragrafo precisa ter duas frases e de 55 a 75 palavras. O body completo precisa ter pelo menos 500 palavras e 3000 caracteres. Quando o candidato trouxer pouca informacao especifica, complete com contexto geral seguro sobre carreira publica, repercussao, formato do evento, relacao com o publico ou historico conhecido da pessoa, sem criar fala, numero, acusacao, data, premio, convidado, chef ou valor. Titulos devem ter no maximo 82 caracteres e nao podem terminar incompletos. Preencha imageSearchTerms com o nome da pessoa ou das pessoas principais da noticia; quando nao houver pessoa clara, use o nome do evento/programa e o assunto. Nao inclua a palavra instagram nesse campo, porque o coletor de imagem adiciona isso automaticamente. Nao use as palavras: fonte, site, reportagem, materia, CNN, UOL, G1, R7, Exame, curadoria, ranking, pauta. Nao escreva 'neste artigo'.",
+            "Gerar materias para o site BuzzPop Brasil usando apenas estes candidatos do Google News. Retorne JSON valido conforme o schema. Escolha apenas entretenimento factual: celebridades, TV, reality, musica, cinema e cultura pop. Ignore politica, tecnologia, turismo, mercado imobiliario, resumo de novela, posts de rede social, clickbait de identidade e temas institucionais. Cada materia precisa ter 9 a 10 paragrafos. Cada paragrafo precisa ter duas frases e de 55 a 75 palavras. O body completo precisa ter pelo menos 500 palavras e 3000 caracteres. Quando o candidato trouxer pouca informacao especifica, complete com contexto geral seguro sobre carreira publica, repercussao, formato do evento, relacao com o publico ou historico conhecido da pessoa, sem criar fala, numero, acusacao, data, premio, convidado, chef ou valor. Titulos devem ter no maximo 82 caracteres e nao podem terminar incompletos. Preencha imageSearchTerms com o nome da pessoa ou das pessoas principais da noticia; quando nao houver pessoa clara, use o nome do evento/programa e o assunto. Nao inclua a palavra instagram nesse campo, porque o coletor de imagem adiciona isso automaticamente. Nao use as palavras: fonte, site, reportagem, materia, CNN, UOL, G1, R7, Exame, curadoria, ranking, pauta. Nao escreva 'neste artigo'.",
           limit,
           candidates,
         },

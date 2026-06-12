@@ -11,6 +11,16 @@ const CATEGORIES = [
   { label: "Fotos", to: "/" },
 ];
 
+function BrandLogo() {
+  return (
+    <svg viewBox="0 0 320 72" className="w-auto h-10 md:h-[48px]" aria-label="BuzzPop Brasil">
+      <text x="2" y="44" fontFamily="Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif" fontSize="46" fontWeight="900" fill="#000" letterSpacing="2">BUZZ</text>
+      <text x="168" y="44" fontFamily="Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif" fontSize="46" fontWeight="900" fill="#cc0000" letterSpacing="2">POP</text>
+      <text x="85" y="66" fontFamily="Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif" fontSize="18" fontWeight="900" fill="#000" letterSpacing="3.5">BRASIL</text>
+    </svg>
+  );
+}
+
 export function SiteNav() {
   const [open, setOpen] = useState(false);
 
@@ -22,22 +32,19 @@ export function SiteNav() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-nav-border bg-nav text-nav-foreground md:border-neutral-300 md:bg-[#f7f4ee] md:text-neutral-950">
+    <header className="sticky top-0 z-50 w-full border-b border-neutral-300 bg-[#f7f4ee] text-neutral-950">
       <div className="mx-auto flex h-16 max-w-[1040px] items-center justify-between px-3 md:h-20 md:px-6">
         <button
           type="button"
           onClick={() => setOpen(true)}
           aria-label="Abrir menu"
-          className="inline-flex h-11 w-11 items-center justify-center hover:bg-nav-hover md:hidden"
+          className="inline-flex h-11 w-11 items-center justify-center hover:bg-neutral-200 md:hidden"
         >
           <Menu className="h-7 w-7" />
         </button>
 
-        <Link
-          to="/"
-          className="font-[Impact,Haettenschweiler,'Arial_Narrow_Bold',sans-serif] text-4xl uppercase leading-none tracking-normal md:text-6xl md:text-neutral-950"
-        >
-          Buzz<span className="text-nav-accent">Pop</span>
+        <Link to="/" aria-label="BuzzPop Brasil">
+          <BrandLogo />
         </Link>
 
         <nav aria-label="Categorias" className="hidden md:block">
@@ -58,13 +65,13 @@ export function SiteNav() {
         <button
           type="button"
           aria-label="Buscar"
-          className="inline-flex h-11 w-11 items-center justify-center hover:bg-nav-hover md:hover:bg-neutral-200"
+          className="inline-flex h-11 w-11 items-center justify-center hover:bg-neutral-200"
         >
           <Search className="h-5 w-5" />
         </button>
       </div>
 
-      <div className="border-t border-nav-border md:hidden">
+      <div className="border-t border-neutral-300 md:hidden">
         <ul className="flex gap-1 overflow-x-auto px-2 py-2 scrollbar-hide">
           {CATEGORIES.map((cat) => (
             <li key={cat.label} className="shrink-0">
@@ -93,19 +100,17 @@ export function SiteNav() {
         />
 
         <aside
-          className={`absolute left-0 top-0 h-full w-[84%] max-w-sm bg-nav text-nav-foreground shadow-2xl transition-transform duration-250 ${
+          className={`absolute left-0 top-0 h-full w-[84%] max-w-sm bg-[#f7f4ee] text-neutral-950 shadow-2xl transition-transform duration-250 ${
             open ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <div className="flex h-16 items-center justify-between border-b border-nav-border px-4">
-            <span className="font-[Impact,Haettenschweiler,'Arial_Narrow_Bold',sans-serif] text-3xl uppercase">
-              Buzz<span className="text-nav-accent">Pop</span>
-            </span>
+          <div className="flex h-16 items-center justify-between border-b border-neutral-300 px-4">
+            <BrandLogo />
             <button
               type="button"
               onClick={() => setOpen(false)}
               aria-label="Fechar"
-              className="inline-flex h-11 w-11 items-center justify-center hover:bg-nav-hover"
+              className="inline-flex h-11 w-11 items-center justify-center hover:bg-neutral-200"
             >
               <X className="h-7 w-7" />
             </button>
@@ -116,7 +121,7 @@ export function SiteNav() {
                 <Link
                   to={cat.to}
                   onClick={() => setOpen(false)}
-                  className="flex h-14 items-center border-b border-nav-border px-5 text-base font-black uppercase tracking-wide hover:bg-nav-hover hover:text-nav-accent"
+                  className="flex h-14 items-center border-b border-neutral-300 px-5 text-base font-black uppercase tracking-wide hover:bg-neutral-200 hover:text-nav-accent"
                 >
                   {cat.label}
                 </Link>

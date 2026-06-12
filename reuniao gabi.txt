@@ -1,0 +1,189 @@
+# Meeting Transcription
+
+  Meeting started: 03/06/2026, 10:15:23
+  Duration: 52 minutes
+  Participants: Agencia Criatix, Gabrielle Cotrim
+
+  [View original transcript](https://app.tactiq.io/api/2/u/m/r/W34P7ZfAc8nuDkPdafg4?o=txt)
+
+    
+
+  
+
+  
+    ## Highlights
+
+    > 16:48 Gabrielle Cotrim: Qual que é o rolê eu sendo bem sincera o site que eu tô agora que é meu e do Paulo quem mexe nas configurações dizendo assim é o Paulo que ele manja mais de configuração de site e tal. Eu se ele for pedir para mim. Ai Gabi mexe aí na editoria de turismo, muda. Não vai ser mais turista. O nome vai ser viagem, eu não sei fazer porque o pé.
+
+  ## Transcript
+
+  00:00 Agencia Criatix: Oi, oi, tudo bem?
+09:29 Gabrielle Cotrim: hello
+09:30 Agencia Criatix: Tudo bem.
+09:31 Gabrielle Cotrim: Nossa foi mal sério, eu tô de mudança, meu filho aqui um monte de caixa
+09:34 Agencia Criatix: Está mudando para onde?
+09:36 Gabrielle Cotrim: atrás. Eu já mudei eu saí da Bela Vista e vim para Aclimação agora.
+09:45 Agencia Criatix: A boa melhor né?
+09:48 Gabrielle Cotrim: Graças a Deus agora tem um escritório Deus seja louvado. E aí como você tá?
+09:55 Agencia Criatix: Tô bem tô bem trabalhando bastante.
+09:59 Gabrielle Cotrim: Ai sei bem a minhas olheiras profundas.
+10:06 Agencia Criatix: Vou te notificar aqui, pera aí que tô testando um negócio novo.
+10:15 Agencia Criatix: Olá a todos, esta é uma mensagem automática para avisar que minha extensão Tactiq: https://tactiq.io/r/transcribing está transcrevendo esta reunião para mim, para que eu possa dar toda a minha atenção a vocês.
+10:20 Gabrielle Cotrim: Nossa sucesso
+10:24 Agencia Criatix: Eu tô transcrevendo como eu tô trabalhando bastante com Automação Inteligência Artificial, eu vou transcrever também essa nossa reunião. Para já criar um projeto e o projeto de ter essa memória do que a gente conversou sabe? eu tô estudando bastante isso e É muito fácil hoje em dia fazer tudo, inclusive site em um dia e meio eu fiz um site aqui para Vila Mascote, não sei se você sabe que eu tenho uma página aqui na região de que eu indico os estabelecimentos.
+11:00 Gabrielle Cotrim: Que eu me mato naquela p**** daquele olho depressa.
+11:02 Agencia Criatix: Isso aí até hoje não tinha um site porque não sabia fazer site até agora com inteligência artificial, descobri que é muito fácil em um meio eu montei um site. E aí eu creio que esteja para não precisar entrar no site alimentando o site eu consigo fazer isso pelo WhatsApp com um robozinho que eu criei que tem acesso ao meu computador e ele faz isso sozinho. Então é porque é novo eu ainda.
+11:42 Agencia Criatix: é um negócio muito novo que Daqui a pouco Todo mundo vai ter muito acesso, mas por enquanto ainda tá um pouco complicado de mexer, mas se você pega os primeiros passos já era basicamente é uma tecnologia, tipo é um chat de PT que você coloca dentro do computador, inclusive do site tem um serviço dele isso chama codex e todo mundo tá bom? Então, todo mundo tá falando do caud. Code também que é a mesma coisa que a tecnologia do Cloud para isso do falando certinho, chama Cloud ela tem tecnologia do Cloud para isso que é para você abrir dentro do seu terminal do computador e falar para ele mexer dentro do seu computador diferente do chat GPT, você faz isso dentro do seu computador? E aí eu criei esse sistema para eu tomar um design, tô descobrindo que eu posso automatizar muita coisa ontem, fui dormir tardão, porque eu construí um automatizador de edição de vídeo agora, não preciso mais não, preciso mais
+12:43 Gabrielle Cotrim: Você tá vendendo isso, né?
+12:45 Agencia Criatix: pagar a gente para editar o vídeo eu jogo para ele também, ele estuda. Todo o material não tô pensando em vender vamos entra comigo. Eu só não tenho.
+12:56 Gabrielle Cotrim: Meu Bora poxa edição de vídeo tá maluco?
+13:00 Agencia Criatix: Então. E ontem eu dei para ele 45 vídeos que a gente foi filmar aqui na mascote e ele me entregou um vídeo perfeito de 30 segundos com a apresentadora
+13:11 Gabrielle Cotrim: Aí depois me manda para eu ver.
+13:12 Agencia Criatix: falando. Assim ou seja dá para fazer tudo hoje em dia inclusive site inclusive sei lá é um assistente que reúne as notícias mais importantes do dia 18 da manhã, ele já viu tudo. Ele já pesquisou no Google para ver quais que são as crentes do dia e ele pode tanto fornecer. gente opções para a gente aprovar quanto publicar direto se ele achar que for que for o caso de publicar direto, ele pode fazer isso sabe mas
+13:50 Gabrielle Cotrim: Você conhece aquele Denilson?
+13:53 Agencia Criatix: Não que que é isso?
+13:54 Gabrielle Cotrim: É tipo um jornal, mas na verdade ele é um site que ele fornece nos ler todos os dias de manhã para todo mundo a galera de concurso. Principalmente eu sei porque meu marido é concurseiro, né? É adora porque tem que ficar perto das novidades e tudo mais e aí ele a minha irmã também estuda para concurso meu a galera de concurso, principalmente adora porque vem todos os dias de manhã as notícias para eles e era um site super pequeno agora eles têm uma equipe enorme então tipo com redação sabe chama Denilson, depois eu te mando.
+14:28 Agencia Criatix: sim Eu preciso mandar tá anotado já aqui e aí, assim que terminar a reunião eu vou pedir para o sistema me mandar esse link.
+14:40 Gabrielle Cotrim: Meu você dá uma olhadinha, eu acho que daria um bom também essa questão que você falou que ele reúne as matérias de manhã e tudo mais daria para fazer
+14:46 Agencia Criatix: Então pedido para o sistema.
+14:48 Gabrielle Cotrim: um do site, entendeu? Só com sei lá editoria que a gente quer.
+14:55 Agencia Criatix: pedido para o sistema colocar isso na nossa memória e separando como Como uma das fontes de notícia que a gente vai ter todas as manhãs?
+15:07 Gabrielle Cotrim: Ah eu acho que uma porcaria sinceramente
+15:08 Agencia Criatix: Pronto está registrado. Qual que é porque que se usa o Wordpress? Para que que ele por que que ele é tão funcional? Você sabe me dizer? Ele só serve ele só serve para subir as notícias.
+15:30 Gabrielle Cotrim: Não dá para você fazer toda a configuração do site dos templates. Você faz tudo aí editoria.
+15:39 Agencia Criatix: Mas para que que para postar uma notícia você posta por ele porque só tem esse caminho é isso?
+15:48 Gabrielle Cotrim: Aí na verdade é para você ser vou até falar uma coisa meio leiga, mas para você meio que ser aprovado pelo Google começar a rodar de ciência e também colocar publicidade facilita, mas tá me dificultando. Ultimamente não tá me facilitando em nada para ser bem sincera.
+16:07 Agencia Criatix: Tá porque assim a gente tem a possibilidade de criar um site com e sem WordPress e das duas formas, a gente não vai precisar ir lá no WordPress e configurar o automação pode fazer isso sozinha, depois vou pesquisar isso também. Vou pedir para o sistema colocar também na lista de coisas para fazer mas o quanto que o WordPress pode ajudar a gente tipo pode fazer diferença na
+16:33 Gabrielle Cotrim: Só que ele é assim, Rafa.
+16:37 Agencia Criatix: hora de sei lá buscar patrocínio o que você falou do Google sim, pode falar.
+16:48 Gabrielle Cotrim: Qual que é o rolê eu sendo bem sincera o site que eu tô agora que é meu e do Paulo quem mexe nas configurações dizendo assim é o Paulo que ele manja mais de configuração de site e tal. Eu se ele for pedir para mim. Ai Gabi mexe aí na editoria de turismo, muda. Não vai ser mais turista. O nome vai ser viagem, eu não sei fazer porque o pé.
+17:11 Agencia Criatix: seu marido Paula seu marido
+17:15 Gabrielle Cotrim: Não é o meu amigo que trabalha na caras, ele é meu sócio no site é o Paulo
+17:19 Agencia Criatix: Tá E e esse outro assim de vocês é focado em que entretenimento e tudo.
+17:20 Gabrielle Cotrim: Henrique. entretenimento e turismo mercado
+17:30 Agencia Criatix: Tá beleza, é então, eu acho que essa é a maior dor de todo mundo porque que as pessoas não tem site porque é chato para cacete que você tem que entender
+17:39 Gabrielle Cotrim: muito
+17:40 Agencia Criatix: um pouco, você tem que publicar você tem que perder tempo, além de escrever a matéria, você tem que perder tempo para publicar. Então a gente tem na mão aqui uma ferramenta que vai ajudar tanto na publicação e até na escrita sabe deixar meio que pronto assim para a gente só dá um toque final se precisar, mas ela pode ir aprendendo ela é autodidata, ela pode aprender e se aprimorando com o tempo.
+18:13 Agencia Criatix: Então é como se a gente tivesse realmente uma pessoa à disposição 24 horas por dia para ajudar a gente sabe?
+18:21 Gabrielle Cotrim: sucesso
+18:25 Agencia Criatix: E ou é um negócio tão fácil como eu te falei? Não tem nem porque fazer um só pedir para ele multiplica por cinco, coloca o nome com outro site e replica as mesmas matérias porque aí a gente pode fazer uma. Assim sabe é o grupo. O grupo criatix tem esse sites para você anunciar você paga você paga x você paga por um e aparece em cinco, sabe?
+18:58 Gabrielle Cotrim: Caramba, uma boa igual você falou que dá para criar um de notícia, onde entretenimento.
+19:06 Agencia Criatix: Mas também dá para criar cinco de entretenimento, sabe?
+19:10 Gabrielle Cotrim: Deixa eu te perguntar do site assim, você já tem uma noção eu vi que você
+19:12 Agencia Criatix: Na mesma linha só muda o nome o design do site. E a gente faz uma venda casada aí para vender mais fácil.
+19:30 Gabrielle Cotrim: me mandou ontem, eu achei super legal. Eu até perguntei para você se não daria ruim a gente literalmente copiar né? Porque eu tenho medo dessas coisas.
+19:39 Agencia Criatix: É sistema coloca isso minha lista de fazer isso para a gente pesquisar questões jurídicas. Site pmz porque a gente Copiou o layout totalmente dele. Então veja se não tem riscos.
+20:01 Gabrielle Cotrim: Fechou aí, aí você quer seguir nessa linha de entretenimento mesmo? E você
+20:06 Agencia Criatix: Vamos começar assim.
+20:07 Gabrielle Cotrim: já pensou aqui? Oi
+20:10 Agencia Criatix: Vamos começar assim. Eu acho que é mais fácil sabe a gente começa com um v e vai fazendo mais.
+20:18 Gabrielle Cotrim: Entende, né? Aí você queria fazer na mesma linha que a gente já faz tanto você quanto eu cobrir alguns eventos fazer algumas coisas para as redes e de lá publicar
+20:29 Agencia Criatix: É então.
+20:29 Gabrielle Cotrim: algumas matérias e tudo mais.
+20:31 Agencia Criatix: É isso eu não quero mais também, tem que ficar pedindo para pessoas de sites para me deixar fazer cobertura sabe? Eu quero ter o meu.
+20:40 Gabrielle Cotrim: Sim, eu faço por isso eu passo por isso até porque igual no Music Box e no Travel, ele só me chamam. Tipo assim, quando eles não têm mais ninguém para chamar tipo. Eles estão em São Paulo todas as pessoas de São Paulo não podem aí eles me chamam. E aí é bem ruim, né? Porque
+21:00 Agencia Criatix: então Foi essa esse foi meu primeiro questionamentos se eu se hoje tenho o poder com inteligência artificial de que é um site de forma muito fácil, para que que eu vou depender de outros veículos para fazer as coberturas que eu quero sabe e o entretenimento foi justamente, por isso pensando nisso. Aí fica muito fácil a gente cobrir as coisas mais legais assim, sabe?
+21:27 Gabrielle Cotrim: Sim e é uma área que a gente já trabalha, né? Tanto eu quanto vocês seria fácil para a gente cobrir a gente sempre se ajudou trabalhando separado. Quanto
+21:33 Agencia Criatix: É divertido, né?
+21:36 Gabrielle Cotrim: mais tempo.
+21:38 Agencia Criatix: Sim e é um negócio divertido aí o trabalho fica fácil também. Eu tento fazer isso na minha vida hoje em dia, só procuro as coisas que eu realmente gosto de fazer mesmo.
+21:50 Gabrielle Cotrim: Ah eu também as coberturas do site agora a gente cobre umas coisinhas mais chatinhas, tipo cobrir a Beauty Fair esse fim de semana, mas é porque a gente tá tentando fazer alguma parceria comercial que até onde eu queria chegar queria entender com você assim. Que que você pensa em relação a isso, você tem pessoas ou empresas que você já tem em mente assim que a gente pode sei lá pode tentar fazer alguma.
+22:16 Gabrielle Cotrim: vender algum espaço no site inicialmente, sei lá
+22:20 Agencia Criatix: pouquíssimo tempo assim sabe mas Eu tenho contatos. Inclusive eu aqui na minha rua, tem uma produtora Deus colocou na minha rua é o meu trabalho muito lá e a gente pode até estudar, depois alguma parceria com eles para eles fazerem essa venda do espaço, porque eles eles também trabalham com muitas empresas, inclusive de beleza o ano passado a gente fez um concurso de nem o designer de unha e agora.
+22:53 Gabrielle Cotrim: Que legal.
+22:56 Agencia Criatix: Para mais uma coisa de maquiagem de uma empresa que chama Corel alguma coisa assim e eles fazem muitos eventos também, a gente fez o iBest no começo do ano em março e eu escrevi o roteiro tô nessa parte de roteiro com eles lá, então
+23:11 Gabrielle Cotrim: Fechou, vai que com o tempo né? A gente a gente consegue ampliar sei lá fazer
+23:20 Agencia Criatix: eu consigo ter acesso bastante projetos lá e sempre em contato com o pessoal. Eles podem ajudar a gente nessa questão também. então e
+23:35 Gabrielle Cotrim: um podcast fazer negócio grande assim fazer negócio girar mesmo.
+23:40 Agencia Criatix: Dá para pensar numa automação de postagem no Instagram, eu não sei até que ponto o Instagram ele vem na lista quem faz essa automação, mas eu vou dar uma estudada nisso e também a gente pode criar uma automação e-mail, a gente começa a espalhar esse site por exemplo tem um grupo no Facebook, jornalistas lá as pessoas enviou pauta troca informações, então a gente já começa jogando lá, mande para o e-mail a gente pode criar todos os dias.
+24:27 Agencia Criatix: 9 da manhã meio-dia também o robô Vai checar o e-mail e vai trazer para gente as matérias enviadas já escritas por ele já preparados caso a gente aprove só para subir no site sabe fazer tudo isso.
+24:41 Gabrielle Cotrim: Ah legal
+24:46 Agencia Criatix: Hoje eu tô automatizando também meu e-mail antes só para você entender tem
+24:47 Gabrielle Cotrim: Te conhece carai.
+24:52 Agencia Criatix: muita dificuldade de pagar conta. eu Tinha que entrar no meu e-mail procurar o anexo aí colocar a senha do meu CPF baixar né? O Anexo aí copia código de barras e lá no banco e pagar hoje em dia o robozinho me manda no WhatsApp o código para pagar então ele já entra no meu e-mail baixo, anexo colocar senha do tpf tira um print busco o código de WhatsApp.
+25:26 Agencia Criatix: Cara, mas eu aprendi perguntando para a própria ya. É isso que é mais louco, tipo, você pode conversar com ela. Como é que eu faço isso? Ela vai te explicando e você chega lá.
+25:36 Gabrielle Cotrim: Nossa sucesso dá para vender muito isso tudo isso que tá me falando dá para vender muito.
+25:45 Agencia Criatix: Só para você saber eu tava dando uma olhada esses tempos também no Instagram da Larissa. E eu até cheguei a falar com ela também, só que ela tá sempre viajando e tal, não sei se seria o caso de colocar mais gente, mas a gente pode estudar.
+26:03 Gabrielle Cotrim: Sim, sim.
+26:06 Agencia Criatix: Isso também e pensar como que isso teria mas eu gostaria de concentrar assim eu e você até para a gente. Buscar esses patrocínios sabe chegar nas pessoas. Então a gente ficaria mais.
+26:26 Gabrielle Cotrim: A gente vai ter que fazer a parte comercial, né? Então agora principalmente agora nesse começo.
+26:35 Agencia Criatix: Por enquanto daqui a pouco cria um robô para fazer a parte comercial também.
+26:39 Gabrielle Cotrim: Por favor, trabalhei por mim que eu tô um pouco hoje, eu tenho coisa de assessoria para fazer.
+26:47 Agencia Criatix: Como que funciona como que você você já em alguma parte do dia você separa um tempo para fazer matérias para o seu site, como que é essa frequência sua?
+26:56 Gabrielle Cotrim: A noite a noite assim. Deixa eu te explicar como que a gente tá fazendo no outro assim tá outro assim, a gente abriu. Desde o ano passado sendo muito sincero assim Total transparente com você e tiveram vários problemas, tipo pessoais mesmo tanto meu quanto do Paulo então a gente meio que foi deixando a vida levar assim, só que o site estava lá a gente pagando domínio hospedagem e a gente se prejudicou muito por isso.
+27:23 Gabrielle Cotrim: Porque a gente perdeu o grana, né?
+27:25 Agencia Criatix: Quanto que paga de pedágio?
+27:25 Gabrielle Cotrim: sendo bem real Ai eu acho que é 69 por mês não domínio é 69 por mês e hospedagem é 80 a cada três meses uma coisa assim é pelo host.
+27:37 Agencia Criatix: Cara, por que que o domínio é tão caro?
+27:40 Gabrielle Cotrim: pois é
+27:42 Agencia Criatix: Eu fiz o guia da Vila Mascote, paguei r$ 40 pelo ano todo alguma coisa errada em
+27:47 Gabrielle Cotrim: pois é
+27:50 Agencia Criatix: serviço que ele escolheu porque custa 40 reais por ano.
+27:53 Gabrielle Cotrim: Ele Escolheu é assim eu não manjo de site como eu falei para você essa parte de construção de estrutura formatação. Eu Sou péssima eu me viro as coisas que eu sei, qual eu sei postar mudar algumas editorias porque eu fui me virando aprendendo sozinho, mas eu não gosto eu não sei se tiver que me virar eu vou dar um jeito o que eu faço é editar. Escrever matéria revisar é isso essa minha parada apresentar entrevistar essa minha parada agora me colocar um sistema aqui meu amigo juntos.
+28:28 Agencia Criatix: Pensa assim, o nosso você pensa que você é nosso eu te imagino como um Editora Jeff que só aprova as coisas sabe? É para ser fácil.
+28:36 Gabrielle Cotrim: Então é isso que eu tô fazendo hoje no outro sim, só que eu trabalho não só no no estratégico, entendeu? Trabalho no operacional também porque a gente não tem gente sou eu e o Paulo e aí agora que a gente tá estudando colocar
+28:48 Agencia Criatix: sim
+28:51 Gabrielle Cotrim: algumas parceiras que são amigas nossas que são jornalistas para cada uma escrever uma editoria uma vez por dia para a gente começar a girar mais porque hoje a gente tá soltando dois textos por dia três às vezes, entendeu?
+29:03 Agencia Criatix: Para a gente pode até estudar também e implementar no site de vocês uma automação sabe a gente faz uma parceria a gente combina uma porcentagem
+29:10 Gabrielle Cotrim: É inclusive, depois eu vou pedir sua ajuda para tipo analisar o site ver assim
+29:15 Agencia Criatix: entrando no Patrocínio lá pingando Patrocínio lá a gente você me dá uma miserinha tá ótimo.
+29:28 Gabrielle Cotrim: o que a gente tá pecando porque assim o Paulo ele não manja ele tem uma noção eu não manjo nada então são duas pessoas que querem ter o site a gente já tá girando. A gente tá dando resultado na questão de as pessoas já estão conhecendo a gente o nosso Instagram é uma crescida e tal, só que a gente precisa de patrocínio para começar a entrar microfone. Eu tirei do meu dinheiro celular, eu vou trocar vou tirar do meu dinheiro Paulo microfone, ele tirou do dinheiro dele, então assim tá só saindo grana, tudo bem que a gente tá ativamente há seis meses só né no convidei no começo desse ano, mas tá só saindo grande não.
+30:05 Gabrielle Cotrim: Nada, a gente precisaria vender os espaços do nosso site para publicidade e tudo mais só que aí tem uma questão que eu já conversei com Paulo mil vezes. Tem um monte de matéria que não tá indexada. Eu tenho que manualmente no Google indexar as matérias, tipo assim.
+30:20 Agencia Criatix: O que significa isso só para entender?
+30:22 Gabrielle Cotrim: É tipo assim, o por isso que eu falei para você que hoje press mais complica do que ajuda porque eu publiquei uma matéria agora publiquei ontem de madrugada ontem à noite quase hoje uma matéria me mandaram eles daqui comilano que eu tenho parceria com o pessoal da ponte, né, então a maioria dos releases dos eventos tudo mais ele sempre me chamam a gente sempre tem tá ali junto tanto que eu fui na beautiful, porque eles me convidaram aí eu peguei o Elias e tal.
+30:49 Gabrielle Cotrim: Olha eu Elise aí escrevi tal tal publiquei no site. E aí Tá bonitinho, eu mandei para o pessoal da Pronto já Claro. Inclusive tá falando comigo agora e aí eu fui tive que ir lá no Google sorte, eu acho que é certo. Indexar o site. Então eu tenho que deixar essa página visível para o Google é uma coisa assim. Tem muitas matérias que elas vão automaticamente, mas como nosso site é pequeno e a gente só publicou 150 matérias. Até agora ele não vai automaticamente ele demora uns de 5 a 10 dias então eu tenho que fazer isso, manualmente é um c*.
+31:24 Gabrielle Cotrim: Porque além de escrever de não sei o que se alguém escreveu Eu Tenho que revisar o texto meu um tempo que eu perco que assim das seis das seis sete horas da noite até meia-noite, eu fico fazendo umas coisas idiotas que eu não precisaria fazer se a gente tivesse uma automação, entendeu?
+31:38 Agencia Criatix: Não não faz o menor. Não faz o menor sentido isso quer ver só para te dar uma resposta aqui. Eu só vou confirmar com ele se ele faz isso aqui, qual que é a pergunta se ele sabe indexar se ele poderia indexar, né?
+31:57 Gabrielle Cotrim: as matérias publicadas num texto pelo Wordpress Sabe é esse tipo de coisa Rafa que eu acabo perdendo tempo e com esse tempo eu poderia estar publicando duas matérias.
+32:20 Agencia Criatix: Vamos ver agora já?
+32:31 Gabrielle Cotrim: Outra coisa que eu não manjo e que o Paulo fala que o Google precisa provar a gente para o nosso site aparecer na primeira tela do Google. O nosso site não aparece você digitar outro sim, ele não aparece.
+32:43 Agencia Criatix: disse
+32:49 Gabrielle Cotrim: É alguma coisa é alguma coisa de s ou eu já falei para ele, eu falei cara, a gente precisa entender estudar eu vi os vídeos no YouTube. Inclusive essa questão de indexação, eu comecei a entender um pouquinho o mínimo porque eu vi uns vídeos de uns caras no YouTube lá. Mas assim, deixa eu pegar um negócio. É f***.
+33:07 Agencia Criatix: Tô esperando ele me dá a resposta, espera aí.
+33:09 Gabrielle Cotrim: Porque é um tempo que eu perco que eu posso estar das sete a meia-noite trabalhando no site que não tá me rendendo nada e eu falei para ele. Eu conversei com ele. A gente brigou semana passada, porque eu falei para ele cara, já tá f*** e você tá uma semana sem publica nada e me complica, né, meu amigo? Somos nós dois. E aí é isso são as coisas que eu passo. Mas é à noite que eu cuido do site assim, às vezes durante o dia quando o meu trampo de assessoria tá mais tranquilo, mas agora eu tô com quatro clientes e eles estão atrasando na minha vida e é isso não tem muito tempo durante esse dia tô falando com você e tô respondendo pessoal aqui.
+33:54 Gabrielle Cotrim: É tipo eu com meu celular. Tô doida para comprar um celular novo para
+33:55 Agencia Criatix: Meu computador ele é lento. Apesar de eu tô fazendo várias coisas essas várias coisas com computador lento. Isso é difícil um computador bom que eu vou trocar em breve. Vai ficar melhor ainda.
+34:11 Gabrielle Cotrim: Os meus conteúdos ficaram ficarem melhores que o meu talento tá velho, enfim.
+34:18 Agencia Criatix: Que celular que celular que está usando?
+34:21 Gabrielle Cotrim: O iPhone 11 eu tenho ele há cinco anos.
+34:26 Agencia Criatix: Olha só o que ele falou.
+34:30 Gabrielle Cotrim: Não e assim daqui a pouco ele não ele não ele não. Atualiza mais né? E aí já tá dando sinais igual ao meu Face é de parou várias coisas assim que ele tá dando sinais, acho que ele vai morrer. A qualquer minuto minha bateria eu tenho que carregar o celular três vezes por dia. Mas aí vamos ver.
+34:56 Agencia Criatix: Sim, dá e para WordPress é bem viável. A ideia seria criar uma rotina que puxa as matérias publicadas pelo WordPress e transforma em dados para o site seguro público normalmente dá para usar a alternativa WordPress é público.
+35:13 Gabrielle Cotrim: Não meu Deus.
+35:17 Agencia Criatix: deixa eu ver se ele fala se for privado para
+35:20 Gabrielle Cotrim: Meia hora para apagar uma vela aqui. Você deixa eu escutar um áudio aqui rapidinho, não foi as matérias. Ana então legal é só que assim a gente já tá publicando muita coisa para eles, eu acho que a gente tem que de algum jeito e dando Uma segurada no cliente, porque se tudo que eles pedirem a gente fizer a gente não vai ter vida. Nem eu nem você nem ali nem o Diego e muito menos do Marcos, né? Que é o designer então assim.
+36:13 Gabrielle Cotrim: Eu acho legal, mas eu acho que a gente deveria fazer isso. Sei lá fazer um cronograma disso fazer com calma porque você viu o negócio da Deise do Guilherme lá, eles postaram eles não foram contratados, eles postaram e o pessoal quer que eles alterem um post que eles fizeram de graça. Lembra que eu tinha te falado que isso poderia dar problema Justamente, por isso que eu não prometi nada para o cliente, porque eles não foram contratados, entendeu? Eles só não convidados.
+36:42 Gabrielle Cotrim: Mas é isso, se você quiser eu dou um jeito aqui vejo como que eu posso fazer faço no estilo que do post lá dos resultados da Guana e posso lá nos Stories e faço um destaque mas assim eu não vejo necessidade. Você é muito sério. É que essa palavra é a perna para os clientes, faz tudo que os clientes querem
+36:58 Agencia Criatix: Oi imagina.
+37:02 Gabrielle Cotrim: sai de cronograma.
+37:06 Agencia Criatix: Só para você só para você saber dá sim, se hoje o professor privado ainda dá precisa de autenticação nas opções principais application pessoal é o jeito mais simples, vai usuários e procura senhas de aplicação cria uma senha hoje pela germacinha a gente usa essa senha com usuário para acessar API. E é isso?
+37:34 Gabrielle Cotrim: Vou tentar fazer isso.
+37:38 Agencia Criatix: Então beleza eu vou entrar lá no que você falou vou tirar aquelas dúvidas lá jurídicas. E aí a gente já pode já posso por no ar e a gente já pode começando de alguma forma, eu criei um grupo no
+37:52 Gabrielle Cotrim: Tem deixa eu te falar uma coisa em relação a Larissa que você perguntou é a Larissa uma das pessoas que eu convidei para escrever no site foi a Larissa. Só que a Larissa chegou em mim. Foi muito sincera. Falou Gabi, eu não quero trabalhar com Paulo é que o pai ele é um pouco desorganizado. Ela falou assim, porque eu tava pensando em ficar com outro assim só para mim, só que eu trouxe a senha do Paulo. É basicamente isso.
+38:19 Gabrielle Cotrim: Aí eu falei a Larissa se eu ficar com outro assim você entra comigo porque aí a gente abre uma editoria de Notícias. Você Cuida dessa parte que é o que você cuida do seu Insta. Então você faz toda essa movimentação e a parte de turismo de entretenimento eu cuido. E a gente se ajuda e tal e tal, só que eu conversei com Paulo. Enfim, brigamos ele falou não, vamos continuar. Vamos ir para as cabeças e tal. Se não der certo aí beleza? Aí a gente para porque assim não tem como eu ficar com o site para mim porque o site dele entendeu?
+38:50 Agencia Criatix: Entendi.
+38:51 Gabrielle Cotrim: E aí eu falei beleza? Então eu dei um prazo é igual você dá prazo é que você não sabe disso, né? É igual da prazo para uma métrica, tipo assim, vou dar uma parada de três meses se ele se der certo sim, senão eu caio fora, entendeu? E olha que eu tenho o microfone que eu mandei fazer da minha grana, mas enfim ossos do ofício e a Larissa falou para mim. Ah Gabi. Então vamos abrir o nosso eu falei amiga. Se for abrir o nosso. Eu não manjo de site você não manja de site então assim seria o ideal O Mundo Ideal porque ela viajaria menos porque ela viaja para trampar que ela é sua melê também. Ela viajou ali gira menos começaria focar só no site porque aí ia começar a entrar uma grana.
+39:31 Gabrielle Cotrim: E daria tudo certo, só que assim eu falei para ela foi muito sincera. Eu falei amiga, eu não gosto de site eu odeio coisa de ouro de pressa você também então, ô gente arranja um site que já existe com outro sócio com uma pessoa a gente teve essa conversa semana passada, inclusive antes dela viajar ou é isso? A gente fica por isso mesmo. Então assim se você é topar ficar nós três a gente pode conversar com ela entender ou ficar só nós dois mesmo. Aí
+40:00 Agencia Criatix: Vamos. Eu só preciso realmente dessa disponibilidade, sabe porque não dá para
+40:00 Gabrielle Cotrim: eu
+40:06 Agencia Criatix: eu tentar falar com a pessoa e a pessoa passa dois dias sem me responder para
+40:09 Gabrielle Cotrim: É você volátil, né? Para mim também não rola.
+40:10 Agencia Criatix: mim já não funciona e Pô eu já
+40:13 Gabrielle Cotrim: Que eu sou do tipo que respondo na hora no WhatsApp posso demorar porque eu tô fazendo alguma coisa, mas eu tanto que os meus clientes eu respondo meia-noite,
+40:19 Agencia Criatix: então
+40:20 Gabrielle Cotrim: às vezes eles mandam mensagem eu respondo sabe?
+40:22 Agencia Criatix: E cara, eu sou ansioso, eu preciso fazer as coisas rápido, eu tô ficando velho também, então já preciso também que as coisas funcionam mais rápido, então é isso eu preciso de pessoas dispostas disponíveis também pelo menos que seja um pouquinho sabe alguns minutos do dia já resolve para mim.
+40:47 Gabrielle Cotrim: Aí eu nem me fale eu tô fazendo terapia agora certinho e a minha irmã tem uma irmã novinha que ela já que Machucou com TDH, né? Criatividade. Aí a médica falou então, eu acho que é bom todo mundo fazer porque a genético e provavelmente a sua mãe também tem eu sempre né? Eu tenho 50 respondendo cliente sempre soube, só que agora eu vou começar eu vou começar.
+41:18 Gabrielle Cotrim: Foi atrás disso, eu fiz um teste aí, mas é isso tem que se eu usar uns
+41:19 Agencia Criatix: É bom.
+41:25 Gabrielle Cotrim: olhinhos tudo na minha vida. Vai resolver que eu preciso comprar inclusive. Você tem acesso, né, menino? Eu sei que você é uma das pessoas que têm acesso.
+41:33 Agencia Criatix: Sim, sim, faz tempo já eu não tô mais usando ultimamente, mas eu te passo os contatos você precisar.
+41:38 Gabrielle Cotrim: Beleza. Fechou então. Pensa aí direitinho.
+41:40 Agencia Criatix: Vou nessa é uma reunião às 11.
+41:44 Gabrielle Cotrim: Fechou. Pensa aí direitinho. E aí a gente vai se conversando, tá bom?
+41:47 Agencia Criatix: A gente vai falando pelo WhatsApp. Vou criar um grupo eu você e um robô.
+41:51 Gabrielle Cotrim: Beleza, fechou. Beijo, valeu.
+41:54 Agencia Criatix: beijo
+51:22 Agencia Criatix: O site TMZ é dos Estados Unidos?
+52:42 Agencia Criatix: Então podemos começar copiando e mais para frente.
+  

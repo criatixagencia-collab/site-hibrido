@@ -130,6 +130,65 @@ Atencao:
 - A coleta deve nascer Brasil-first: priorizar pautas nacionais antes da escrita.
 - Pauta internacional so deve entrar como candidata se estiver realmente forte/popular, por score alto, tendencia ou varias fontes.
 
+## SEO — Prioridade máxima (09/06/2026)
+
+**Diretriz de Rafael:** todo texto, matéria e conteúdo gerado para o BuzzPop deve ser otimizado para SEO desde a criação. O objetivo é o site aparecer na primeira página do Google.
+
+### Regras obrigatórias para cada matéria:
+
+1. **Meta tags completas** — Toda página deve ter:
+   - `<title>` com palavra-chave principal no início
+   - `<meta name="description">` com resumo atraente e foco na pauta (máx. 160 caracteres)
+   - Open Graph tags (`og:title`, `og:description`, `og:image`, `og:type`, `og:url`)
+   - Twitter Card tags
+
+2. **Schema markup** — Implementar schema Article/LiveBlogPosting no HTML de cada matéria para rich snippets no Google.
+
+3. **Títulos com SEO** — Título da matéria deve:
+   - Conter a palavra-chave principal (nome do artista, evento, assunto)
+   - Ser descritivo e único
+   - Ter no máximo 60 caracteres
+   - Não copiar título de fonte nenhuma
+
+4. **URL amigável (slug)** — Slug deve conter a palavra-chave principal, sem stop words desnecessárias, hifenizada.
+
+5. **Headings (H1, H2, H3)** — Estrutura hierárquica:
+   - H1: título da matéria (único por página)
+   - H2: subtemas dentro da matéria
+   - H3: detalhamento quando necessário
+
+6. **Palavras-chave** — Identificar e distribuir naturalmente pelo texto:
+   - Principal no título, H1, primeiro parágrafo e URL
+   - Secundárias ao longo do corpo
+   - Sem keyword stuffing (excesso forçado)
+
+7. **Imagens otimizadas** — Toda imagem deve ter:
+   - `alt text` descritivo com palavra-chave relevante
+   - Nome do arquivo em português, hifenizado (ex: `show-lauryn-hill-rio.webp`)
+   - Compressão para carregamento rápido
+
+8. **Sitemap.xml** — Gerar automaticamente a cada build com todas as URLs do site.
+
+9. **Robots.txt** — Permitir indexação completa, bloquear apenas páginas internas irrelevantes.
+
+10. **Links internos** — No final de cada matéria, incluir links para matérias relacionadas do próprio site.
+
+11. **Performance** — Site estático já é rápido naturalmente, mas garantir:
+    - Imagens comprimidas
+    - CSS/JS minificados
+    - Lazy loading de imagens
+    - Cache headers configurados
+
+12. **Conteúdo original** — Google penaliza duplicação. Cada matéria deve ser reescrita com estrutura, frases e abordagem próprias. Nunca copiar e colar de fontes.
+
+### Implementação técnica:
+- `sitemap.xml` deve ser gerado no script de build (`npm run site:final`)
+- Schema Article deve ser injetado no `<head>` de cada página interna
+- Meta tags dinâmicas no HTML (title, description, og) por slug/matéria
+- Verificar no Google Search Console após cada publicação
+
+Essas regras são **prioridade máxima** e se aplicam a toda rodada de geração de conteúdo.
+
 ## Regras de imagem
 
 - Nao copiar a imagem exata da materia usada como fonte.

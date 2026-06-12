@@ -73,7 +73,7 @@ const html = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BuzzPop - Preview Mobile</title>
+  <title>BuzzPop Brasil - Preview Mobile</title>
   <style>
     :root {
       color-scheme: light;
@@ -228,7 +228,7 @@ const html = `<!doctype html>
 </head>
 <body>
   <header>
-    <h1 class="brand">BuzzPop</h1>
+    <h1 class="brand">BuzzPop Brasil</h1>
     <div class="tag">Preview mobile estatico</div>
   </header>
   <main>

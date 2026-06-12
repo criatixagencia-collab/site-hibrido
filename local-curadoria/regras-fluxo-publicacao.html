@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>BuzzPop - Regras e Fluxo de Publicacao</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      line-height: 1.45;
+      max-width: 880px;
+      margin: 40px auto;
+    }
+    h1, h2, h3 { line-height: 1.15; }
+    h1 { font-size: 30px; }
+    h2 { margin-top: 34px; border-top: 1px solid #ddd; padding-top: 18px; }
+    table { border-collapse: collapse; width: 100%; margin: 14px 0 22px; }
+    th, td { border: 1px solid #ccc; padding: 9px; vertical-align: top; }
+    th { background: #f2f2f2; text-align: left; }
+    code { background: #f4f4f4; padding: 2px 4px; }
+    .box { background: #f8f8f8; border: 1px solid #ddd; padding: 14px 16px; margin: 16px 0; }
+    .ok { color: #116b2b; font-weight: bold; }
+    .bad { color: #9b1c1c; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>BuzzPop: regras, bloqueios e fluxo de publicacao</h1>
+
+  <p>
+    Este documento explica, de forma simples, por que uma materia pode ser rejeitada antes de entrar no site.
+    A ideia e que o sistema seja rigido nos pontos que podem deixar o site com cara de rascunho,
+    curadoria automatica ou copia de fonte.
+  </p>
+
+  <div class="box">
+    <strong>Resumo em uma frase:</strong>
+    a materia so publica se parecer noticia final para leitor, tiver tamanho minimo, titulo bom,
+    imagem com origem coerente e nenhum texto de bastidor.
+  </div>
+
+  <h2>1. Mapa simples do fluxo</h2>
+
+  <table>
+    <tr>
+      <th>Etapa</th>
+      <th>O que acontece</th>
+      <th>Arquivo principal</th>
+    </tr>
+    <tr>
+      <td>1. Coleta</td>
+      <td>O sistema busca noticias recentes e monta uma lista bruta de assuntos.</td>
+      <td><code>data/news.json</code></td>
+    </tr>
+    <tr>
+      <td>2. Escolha</td>
+      <td>Seleciona candidatos de entretenimento, TV, famosos, cinema, streaming, musica e cultura pop.</td>
+      <td><code>scripts/hybrid-refresh.js</code></td>
+    </tr>
+    <tr>
+      <td>3. Escrita com IA</td>
+      <td>A OpenAI escreve titulo, chamada, corpo, editoria, tags e sugestao de imagem.</td>
+      <td><code>scripts/lib/articles.js</code></td>
+    </tr>
+    <tr>
+      <td>4. Revisao automatica</td>
+      <td>O proprio gerador verifica se o texto ficou curto, generico, copiado ou com linguagem interna.</td>
+      <td><code>validateArticle()</code> em <code>scripts/lib/articles.js</code></td>
+    </tr>
+    <tr>
+      <td>5. Rejeicao antes de publicar</td>
+      <td>Se uma materia falha, ela e pulada. O sistema tenta a proxima noticia.</td>
+      <td><code>generateArticles()</code> em <code>scripts/lib/articles.js</code></td>
+    </tr>
+    <tr>
+      <td>6. Validador final</td>
+      <td>Antes de gerar site, outro validador confere todas as materias finais.</td>
+      <td><code>scripts/validate-articles.cjs</code></td>
+    </tr>
+    <tr>
+      <td>7. Site final</td>
+      <td>So se tudo passar, gera HTML final e copia para GitHub Pages.</td>
+      <td><code>scripts/generate-final-site.cjs</code> e <code>docs/</code></td>
+    </tr>
+  </table>
+
+  <h2>2. Comandos importantes</h2>
+
+  <table>
+    <tr>
+      <th>Comando</th>
+      <th>Para que serve</th>
+      <th>O que bloqueia</th>
+    </tr>
+    <tr>
+      <td><code>npm run hybrid:refresh</code></td>
+      <td>Atualiza noticias, escreve materias e valida.</td>
+      <td>Bloqueia se nenhuma materia boa passar ou se o arquivo final reprovar.</td>
+    </tr>
+    <tr>
+      <td><code>npm run validate:articles</code></td>
+      <td>Confere <code>data/articles.json</code>, que alimenta o Pages.</td>
+      <td>Bloqueia textos ruins, curtos, titulo ruim e imagem incoerente.</td>
+    </tr>
+    <tr>
+      <td><code>npm run site:final</code></td>
+      <td>Gera o HTML em <code>public/final-site</code>.</td>
+      <td>Roda <code>validate:articles</code> antes. Se reprovar, nao gera.</td>
+    </tr>
+    <tr>
+      <td><code>npm run site:gh-pages</code></td>
+      <td>Copia o site final para <code>docs/</code>, que e o GitHub Pages.</td>
+      <td>Roda <code>validate:articles</code> antes. Se reprovar, nao publica.</td>
+    </tr>
+  </table>
+
+  <h2>3. Regras que fazem uma materia reprovar</h2>
+
+  <h3>3.1 Tamanho minimo</h3>
+  <table>
+    <tr><th>Regra</th><th>Minimo atual</th><th>Por que existe</th></tr>
+    <tr>
+      <td>Palavras</td>
+      <td><code>350</code></td>
+      <td>Evita nota rasa com cara de resumo automatico.</td>
+    </tr>
+    <tr>
+      <td>Caracteres</td>
+      <td><code>2200</code></td>
+      <td>Garante corpo suficiente para parecer materia jornalistica.</td>
+    </tr>
+    <tr>
+      <td>Paragrafos</td>
+      <td><code>6</code></td>
+      <td>Garante ritmo de noticia, nao apenas um bloco curto.</td>
+    </tr>
+  </table>
+
+  <p>
+    Exemplo de erro:
+    <code>rivellino: 337/350 palavras</code>.
+    Isso significa que a materia ficou com 337 palavras, mas precisava de pelo menos 350.
+  </p>
+
+  <h3>3.2 Titulo</h3>
+  <table>
+    <tr><th>Regra</th><th>Reprova quando</th><th>Exemplo ruim</th></tr>
+    <tr>
+      <td>Titulo longo demais</td>
+      <td>Passa de <code>95</code> caracteres.</td>
+      <td>Um titulo que tenta contar a materia inteira.</td>
+    </tr>
+    <tr>
+      <td>Titulo incompleto</td>
+      <td>Termina com "de", "da", "do", "em", "para", "por".</td>
+      <td><code>Ator fala sobre bastidor de</code></td>
+    </tr>
+    <tr>
+      <td>Titulo truncado</td>
+      <td>Contem reticencias.</td>
+      <td><code>Famosa revela...</code></td>
+    </tr>
+    <tr>
+      <td>Titulo generico</td>
+      <td>Usa formula vazia.</td>
+      <td><code>tem nova atualizacao</code>, <code>movimenta debate no cinema</code></td>
+    </tr>
+    <tr>
+      <td>Titulo parecido com RSS</td>
+      <td>Fica parecido demais com o titulo coletado da fonte.</td>
+      <td>Copiar ou parafrasear quase igual a fonte original.</td>
+    </tr>
+  </table>
+
+  <h3>3.3 Linguagem interna proibida</h3>
+  <p>
+    O corpo da materia nao pode parecer explicacao do sistema. Ele precisa parecer noticia publicada para leitor final.
+  </p>
+
+  <table>
+    <tr><th>Tipo de erro</th><th>Expressao bloqueada</th><th>Por que reprova</th></tr>
+    <tr>
+      <td>Curadoria aparecendo</td>
+      <td><code>curadoria</code>, <code>ranking</code>, <code>pauta</code>, <code>rodada</code></td>
+      <td>Mostra bastidor editorial que o leitor nao deveria ver.</td>
+    </tr>
+    <tr>
+      <td>Automacao aparecendo</td>
+      <td><code>sistema</code>, <code>algoritmo</code>, <code>mesa automatica</code>, <code>Google Trends</code></td>
+      <td>Faz a materia parecer relatorio, nao noticia.</td>
+    </tr>
+    <tr>
+      <td>Justificativa de escolha</td>
+      <td><code>selecionado automaticamente</code>, <code>quantidade de fontes</code>, <code>cruzar sinais</code></td>
+      <td>Explica por que a materia foi escolhida, em vez de contar o fato.</td>
+    </tr>
+    <tr>
+      <td>Texto de projeto</td>
+      <td><code>rascunho de WordPress</code>, <code>rotina pode rodar por cron</code>, <code>para quem administra o site</code></td>
+      <td>Isso e documentacao interna, nao materia publica.</td>
+    </tr>
+  </table>
+
+  <div class="box">
+    <span class="bad">Ruim:</span>
+    "A selecao entrou no BuzzPop porque apareceu em 5 fontes diferentes."
+    <br>
+    <span class="ok">Bom:</span>
+    "A serie voltou a chamar atencao apos novos detalhes sobre o personagem vivido pelo ator."
+  </div>
+
+  <h3>3.4 Imagem</h3>
+  <table>
+    <tr><th>Regra</th><th>Reprova quando</th><th>Motivo</th></tr>
+    <tr>
+      <td>Precisa ter imagem</td>
+      <td>Campo <code>image</code> vazio.</td>
+      <td>A home depende da imagem para o layout.</td>
+    </tr>
+    <tr>
+      <td>Credito nao pode ser generico</td>
+      <td>Credito contem <code>busca automatica</code>.</td>
+      <td>O leitor precisa ver uma origem minimamente clara.</td>
+    </tr>
+    <tr>
+      <td>Imagem externa precisa de origem</td>
+      <td>Imagem vem de URL externa e nao tem <code>imagePostUrl</code>.</td>
+      <td>Sem origem, nao da para auditar de onde veio.</td>
+    </tr>
+    <tr>
+      <td>Credito precisa bater com a origem</td>
+      <td>Credito diz um site, mas a URL da imagem vem de outro.</td>
+      <td>Evita erro como dizer "Noticia da TV" quando a imagem veio de outro dominio.</td>
+    </tr>
+    <tr>
+      <td>Nao usar a fonte da noticia</td>
+      <td>Imagem vem do mesmo site que publicou a materia usada como fonte.</td>
+      <td>Evita copiar exatamente a imagem da noticia original.</td>
+    </tr>
+  </table>
+
+  <h2>4. O que acontece quando uma materia falha</h2>
+
+  <ol>
+    <li>A OpenAI escreve a primeira versao.</li>
+    <li>O gerador verifica se ha problema.</li>
+    <li>Se houver problema, pede uma reparacao para a OpenAI.</li>
+    <li>Se ainda falhar, a materia e rejeitada antes de entrar no site.</li>
+    <li>O sistema tenta a proxima noticia da lista.</li>
+    <li>No final, <code>validate:articles</code> confere tudo novamente.</li>
+    <li>Se qualquer materia final falhar, o site nao e gerado/publicado.</li>
+  </ol>
+
+  <h2>5. Como ler uma mensagem de erro</h2>
+
+  <table>
+    <tr><th>Mensagem</th><th>Traducao simples</th><th>Como resolver</th></tr>
+    <tr>
+      <td><code>337/350 palavras</code></td>
+      <td>O texto ficou curto.</td>
+      <td>Pedir para a IA reescrever com mais detalhes factuais.</td>
+    </tr>
+    <tr>
+      <td><code>titulo generico ou incoerente</code></td>
+      <td>O titulo usou formula vazia.</td>
+      <td>Gerar titulo novo, direto e com fato real.</td>
+    </tr>
+    <tr>
+      <td><code>linguagem interna ou bastidor editorial</code></td>
+      <td>O texto falou como sistema, nao como noticia.</td>
+      <td>Remover explicacao de selecao, ranking, fontes e automacao.</td>
+    </tr>
+    <tr>
+      <td><code>credito da imagem nao bate</code></td>
+      <td>O credito nao corresponde ao dominio real.</td>
+      <td>Trocar imagem ou corrigir credito/origem.</td>
+    </tr>
+    <tr>
+      <td><code>imagem vem de fonte da noticia</code></td>
+      <td>A imagem veio do mesmo site usado como fonte.</td>
+      <td>Buscar imagem ilustrativa em outro lugar seguro.</td>
+    </tr>
+  </table>
+
+  <h2>6. Fluxo ideal para trabalharmos daqui em diante</h2>
+
+  <ol>
+    <li>Rodar <code>npm run hybrid:refresh</code>.</li>
+    <li>Se reprovar, ler os erros e classificar: texto, titulo ou imagem.</li>
+    <li>Se for texto curto, reforcar o prompt de escrita/reparo.</li>
+    <li>Se for titulo ruim, ajustar regras de titulo em <code>scripts/lib/articles.js</code>.</li>
+    <li>Se for imagem, ajustar <code>scripts/lib/illustrative-images.js</code> ou o mapeamento de fontes.</li>
+    <li>Quando passar, rodar <code>npm run site:final</code>.</li>
+    <li>Depois rodar <code>npm run site:gh-pages</code>.</li>
+    <li>Testar a home e os links das materias.</li>
+    <li>Fazer commit e push.</li>
+  </ol>
+
+  <h2>7. Onde mexer quando quisermos mudar uma regra</h2>
+
+  <table>
+    <tr><th>Quero mudar...</th><th>Arquivo</th><th>Funcao/local</th></tr>
+    <tr>
+      <td>Tamanho minimo</td>
+      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/articles.js</code></td>
+      <td><code>MIN_BODY_WORDS</code>, <code>MIN_BODY_CHARACTERS</code>, <code>MIN_BODY_PARAGRAPHS</code></td>
+    </tr>
+    <tr>
+      <td>Tamanho maximo do titulo</td>
+      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/articles.js</code></td>
+      <td><code>MAX_TITLE_CHARACTERS</code></td>
+    </tr>
+    <tr>
+      <td>Palavras proibidas</td>
+      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/articles.js</code></td>
+      <td><code>PUBLIC_COPY_BLOCKLIST</code></td>
+    </tr>
+    <tr>
+      <td>Regras de imagem</td>
+      <td><code>scripts/validate-articles.cjs</code> e <code>scripts/lib/illustrative-images.js</code></td>
+      <td><code>validateImage()</code>, escolha de candidatas e dominios bloqueados.</td>
+    </tr>
+    <tr>
+      <td>Visual do site final</td>
+      <td><code>scripts/generate-final-site.cjs</code></td>
+      <td>Home, pagina de materia, blocos de recomendacao e CSS embutido.</td>
+    </tr>
+  </table>
+
+  <h2>8. Regra principal para nao esquecer</h2>
+
+  <div class="box">
+    Tudo que for processo fica invisivel para o leitor.
+    A automacao pode usar ranking, fontes, Trends, OpenAI e validadores.
+    Mas o texto publicado precisa se comportar como materia jornalistica final.
+  </div>
+
+</body>
+</html>

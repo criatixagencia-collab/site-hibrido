@@ -72,26 +72,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "BuzzPop" },
+      { title: "BuzzPop Brasil" },
       {
         name: "description",
         content:
-          "BuzzPop reúne notícias rápidas de celebridades, esportes, música, TV e entretenimento.",
+          "BuzzPop Brasil reúne notícias rápidas de celebridades, esportes, música, TV e entretenimento.",
       },
-      { name: "author", content: "BuzzPop" },
-      { property: "og:title", content: "BuzzPop" },
+      { name: "author", content: "BuzzPop Brasil" },
+      { property: "og:title", content: "BuzzPop Brasil" },
       {
         property: "og:description",
         content:
-          "BuzzPop reúne notícias rápidas de celebridades, esportes, música, TV e entretenimento.",
+          "BuzzPop Brasil reúne notícias rápidas de celebridades, esportes, música, TV e entretenimento.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:title", content: "BuzzPop" },
+      { name: "twitter:title", content: "BuzzPop Brasil" },
       {
         name: "twitter:description",
         content:
-          "BuzzPop reúne notícias rápidas de celebridades, esportes, música, TV e entretenimento.",
+          "BuzzPop Brasil reúne notícias rápidas de celebridades, esportes, música, TV e entretenimento.",
       },
     ],
     links: [
