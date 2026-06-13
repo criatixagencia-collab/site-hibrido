@@ -1,27 +1,207 @@
 [
   {
+    "id": "RXF1aXBlIGRlIEFuYSBD",
+    "reviewId": "RXF1aXBlIGRlIEFuYSBD",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Ana Castela anuncia medidas judiciais após rumores de traição",
+    "slug": "ana-castela-anuncia-medidas-judiciais-apos-rumores-de-traicao",
+    "excerpt": "Equipe da cantora se pronunciou e ela anunciou providências judiciais contra o jornalista Leo Dias, que insinuou traição.",
+    "body": [
+      "A equipe de Ana Castela se pronunciou após rumores de traição virem à tona. A cantora anunciou 'providências judiciais' após ser acusada de trair o ex-namorado com Zé Felipe.",
+      "O jornalista Leo Dias afirmou que Ana Castela engatou um relacionamento com Zé Felipe antes de terminar com o ex. Em resposta, a cantora rebateu as informações divulgadas por Leo Dias e anunciou medidas judiciais."
+    ],
+    "html": "<p>A equipe de Ana Castela se pronunciou após rumores de traição virem à tona. A cantora anunciou 'providências judiciais' após ser acusada de trair o ex-namorado com Zé Felipe.</p>\n<p>O jornalista Leo Dias afirmou que Ana Castela engatou um relacionamento com Zé Felipe antes de terminar com o ex. Em resposta, a cantora rebateu as informações divulgadas por Leo Dias e anunciou medidas judiciais.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Ana Castela",
+      "Leo Dias",
+      "traição",
+      "medidas judiciais"
+    ],
+    "source": "Rádio Itatiaia",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLS0yZEdYYmhvWmFGRUZPVDMwSVFLeXZ3M3M2bkswdmZ1alptelcxWDVIcnJRaHppZTVZcjJDNVBaS1dLZ2Qzek5rSU9jUnpQcDlVQm1jZXVITFhORWpxdTU5U09aRlVnY0pob3FmZFcxVGRVVHNyUk03cTFZMmk1cllLTmJlUGpHajV0THpnejRfemdtSkZlNU5rUFdIYnIzNTFEU0lmQU96SEdlUmZnb3JTSmJJUQ?oc=5",
+    "evidenceSources": [
+      "Rádio Itatiaia",
+      "Notícias da TV",
+      "Midiamax",
+      "ACidade ON",
+      "O TEMPO"
+    ],
+    "evidenceClaims": [
+      "Equipe de Ana Castela se pronuncia após rumores de traição virem à tona",
+      "Ana Castela anuncia 'providências judiciais' após ser acusada de trair ex com Zé Felipe",
+      "Traiu? Leo Dias afirma que Ana Castela engatou com Zé Felipe antes de terminar com Mioto",
+      "Ana Castela vai processar Leo Dias após jornalista insinuar traição da cantora",
+      "Bomba! Ana Castela rebate informações divulgadas por Leo Dias e anuncia medidas judiciais"
+    ],
+    "sourceCount": 5,
+    "score": 98,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/ana-castela-anuncia-medidas-judiciais-apos-rumores-de-traicao.jpg",
+    "imageCredit": "Imagem ilustrativa: billboard.com.br",
+    "imageSubject": "Ana Castela",
+    "imageSearchQuery": "Ana Castela cantora",
+    "imageAlt": "Ana Castela",
+    "editorialMeta": {
+      "originalTitle": "Equipe de Ana Castela se pronuncia após rumores de traição virem à tona",
+      "sourceId": "RXF1aXBlIGRlIEFuYSBD",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Equipe de Ana Castela se pronunciou após rumores de traição.",
+        "Ana Castela anunciou 'providências judiciais' após ser acusada de trair ex com Zé Felipe.",
+        "Leo Dias afirmou que Ana Castela engatou com Zé Felipe antes de terminar com Mioto.",
+        "Ana Castela rebateu informações divulgadas por Leo Dias e anunciou medidas judiciais."
+      ],
+      "generatedAt": "2026-06-13T01:28:01.449Z"
+    },
+    "createdAt": "2026-06-13T01:28:01.449Z",
+    "imagePostUrl": "https://billboard.com.br/artistas/ana-castela-biografia/",
+    "imageCreditStatus": "domain-fallback",
+    "imageCreditSourceUrl": "https://billboard.com.br/artistas/ana-castela-biografia/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 5,
+      "confidence": 0.99,
+      "reason": "Imagem nítida e editorialmente adequada, mostrando claramente Ana Castela sozinha, sem texto pesado ou elementos que sugiram outro acontecimento.",
+      "visibleSubject": "Ana Castela usando chapéu branco e traje country, posando para a câmera.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:34:27.501Z"
+    }
+  },
+  {
+    "id": "UmVww7NydGVyICdjcnVz",
+    "reviewId": "UmVww7NydGVyICdjcnVz",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Repórter 'crush' da Copa, Nilson Klava se casou no Cristo Redentor",
+    "slug": "reporter-crush-da-copa-nilson-klava-se-casou-no-cristo-redentor",
+    "excerpt": "Nilson Klava, repórter da Globo eleito 'crush' da Copa, se casou com a filha de jornalistas no Cristo Redentor.",
+    "body": [
+      "O repórter Nilson Klava, correspondente da Globo que ganhou destaque como 'crush' da Copa nos EUA, se casou no Cristo Redentor. A cerimônia foi secreta e a noiva é filha de jornalistas, ex-colegas do canal.",
+      "Nilson Klava foi eleito o 'crush' da Copa e tem sogra famosa. O casamento ocorreu no Cristo Redentor, um dos pontos turísticos mais emblemáticos do Rio de Janeiro."
+    ],
+    "html": "<p>O repórter Nilson Klava, correspondente da Globo que ganhou destaque como 'crush' da Copa nos EUA, se casou no Cristo Redentor. A cerimônia foi secreta e a noiva é filha de jornalistas, ex-colegas do canal.</p>\n<p>Nilson Klava foi eleito o 'crush' da Copa e tem sogra famosa. O casamento ocorreu no Cristo Redentor, um dos pontos turísticos mais emblemáticos do Rio de Janeiro.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Nilson Klava",
+      "casamento",
+      "Cristo Redentor",
+      "crush da Copa",
+      "Globo"
+    ],
+    "source": "Extra online",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX25nVEM1STh0T254MEJGTkszWTc3bXBBY2VsZU9xaDFULXI4ODYybTlUODVhbENnSHlvSXBra2REWG9xN0V4WjVEWjlhTlVuUEFJZGY0NExfUFdYV3V5VU9WWE5WN1pWcDlFRW9QbjYxckNVVEg1X0dHaEhWZHNoMmM3ejlqV1RjR2FQOTgtV3phM181UUYyd05TeDBTdVVzTlBaSGh1cXBLbWxsNkJZalZyc3dzX3Q0X1RWVm5hR2dWeXVLTlZyMtIB1wFBVV95cUxOMzlzcmtfdFNaVV92UVBZMW13YU9BMnlQRXJrdjljVVdwWmw5YjFxWGtyMXpPMExhY0lzbmt0VkJib1Jza0NwVkRHZHZSY3pHSDdCanhnRmw3aFhWd1QycHE3Y2Q5dzlxQ3E1cTdfNkg5OExNU2oyTHd1UUhka3JIOVdreElzSTZUbjVpcUdKQTVtWVFFcDR5RTNkNUJueVU0eWk4d2tsSDQ4UGtrZkZJWEZHQjQzU1R2SXNRVnM5bldNcjBRZUxSWW1fRVNjcS1UMGVxS01SRQ?oc=5",
+    "evidenceSources": [
+      "Extra online",
+      "UOL",
+      "Jornal Correio",
+      "Boca do Rio Magazine",
+      "Alô Alô Bahia"
+    ],
+    "evidenceClaims": [
+      "Repórter 'crush' da Copa, Nilson Klava se casou com filha de jornalista no Cristo Redentor",
+      "'Repórter crush' da Copa na Globo é casado com filha de ex-colegas do canal",
+      "Eleito o 'crush' da Copa, repórter Nilson Klava tem casamento secreto no Cristo Redentor e sogra famosa",
+      "Conheça a história de Nilson Klava, o correspondente da Globo que faz sucesso na Copa nos EUA",
+      "Crush da Copa, repórter Nilson Klava se casou com filha de jornalista no Cristo Redentor"
+    ],
+    "sourceCount": 5,
+    "score": 98,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/reporter-crush-da-copa-nilson-klava-se-casou-no-cristo-redentor.jpg",
+    "imageCredit": "Foto: César Tralli ao lado do jornalista Nilson (Foto: Reprodução, Instagram)",
+    "imageSubject": "Nilson Klava",
+    "imageSearchQuery": "Nilson Klava repórter Globo",
+    "imageAlt": "Repórter Nilson Klava",
+    "editorialMeta": {
+      "originalTitle": "Repórter 'crush' da Copa, Nilson Klava se casou com filha de jornalista no Cristo Redentor",
+      "sourceId": "UmVww7NydGVyICdjcnVz",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Nilson Klava é repórter da Globo e foi eleito 'crush' da Copa.",
+        "Ele se casou no Cristo Redentor.",
+        "A noiva é filha de jornalistas, ex-colegas do canal.",
+        "A sogra de Nilson Klava é famosa."
+      ],
+      "generatedAt": "2026-06-13T01:27:33.518Z"
+    },
+    "createdAt": "2026-06-13T01:27:33.518Z",
+    "imagePostUrl": "https://tvfoco.uai.com.br/nilson-klava/",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://tvfoco.uai.com.br/nilson-klava/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 0,
+      "confidence": 0.99,
+      "reason": "A imagem mostra claramente Nilson Klava em contexto jornalístico, com boa qualidade e sem elementos visuais problemáticos.",
+      "visibleSubject": "Nilson Klava segurando um microfone, vestido com terno e gravata.",
+      "concerns": [
+        "A foto não retrata o casamento mencionado no título."
+      ],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:34:27.501Z"
+    }
+  },
+  {
     "id": "UXVhbCBhdmFsaWHDp8Oj",
     "reviewId": "UXVhbCBhdmFsaWHDp8Oj",
     "workflowVersion": 2,
     "reviewStatus": "approved",
-    "title": "Vivão é o novo Patrão da semana em Casa do Patrão",
-    "slug": "vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao",
-    "excerpt": "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality da Record.",
+    "title": "Vivão é o novo Patrão na Casa do Patrão",
+    "slug": "vivao-e-o-novo-patrao-na-casa-do-patrao",
+    "excerpt": "Alexandre Vivão venceu a Prova do Patrão e agora avalia o desempenho dos concorrentes no reality show.",
     "body": [
-      "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality 'Casa do Patrão', da Record.",
-      "Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da semana.",
-      "Na mesma edição, os participantes enfrentaram um desafio na esteira em disputa pelo cargo de Patrão.",
-      "O programa 'Casa do Patrão' conseguiu vitória contra o 'Ratinho' e ficou na vice-liderança de audiência."
+      "Alexandre Vivão é o novo Patrão da semana no reality 'Casa do Patrão'. Ele venceu a Prova do Patrão, que envolveu um desafio na esteira, e agora ocupa o cargo de mandachuva.",
+      "Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da 'Casa do Patrão'. O programa conseguiu vitória contra o Ratinho e ficou na vice-liderança."
     ],
-    "html": "<p>Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality 'Casa do Patrão', da Record.</p>\n<p>Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da semana.</p>\n<p>Na mesma edição, os participantes enfrentaram um desafio na esteira em disputa pelo cargo de Patrão.</p>\n<p>O programa 'Casa do Patrão' conseguiu vitória contra o 'Ratinho' e ficou na vice-liderança de audiência.</p>",
-    "category": "TV",
+    "html": "<p>Alexandre Vivão é o novo Patrão da semana no reality 'Casa do Patrão'. Ele venceu a Prova do Patrão, que envolveu um desafio na esteira, e agora ocupa o cargo de mandachuva.</p>\n<p>Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da 'Casa do Patrão'. O programa conseguiu vitória contra o Ratinho e ficou na vice-liderança.</p>",
+    "category": "Famosos",
     "market": "brasil",
     "tags": [
       "Casa do Patrão",
       "Vivão",
-      "Record",
       "Patrão",
-      "audiência"
+      "reality show"
     ],
     "source": "R7",
     "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5",
@@ -43,11 +223,11 @@
     "score": 98,
     "trendBoost": false,
     "trendMatches": [],
-    "image": "/images/auto/vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao.webp",
+    "image": "/images/auto/vivao-e-o-novo-patrao-na-casa-do-patrao.webp",
     "imageCredit": "Foto: Vivão, participante da \"Casa do Patrão\" • Divulgação/Record",
     "imageSubject": "Alexandre Vivão",
     "imageSearchQuery": "Alexandre Vivão Casa do Patrão",
-    "imageAlt": "Alexandre Vivão, novo Patrão da semana em Casa do Patrão",
+    "imageAlt": "Alexandre Vivão como Patrão na Casa do Patrão",
     "editorialMeta": {
       "originalTitle": "Qual avaliação Vivão merece como Patrão?",
       "sourceId": "UXVhbCBhdmFsaWHDp8Oj",
@@ -63,14 +243,14 @@
         "provider": "configured-provider-second-pass"
       },
       "factualClaims": [
-        "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana em 'Casa do Patrão'.",
-        "Vivão avaliou o desempenho dos concorrentes no Trampo da semana.",
-        "Participantes enfrentaram desafio na esteira em disputa pelo cargo de Patrão.",
-        "'Casa do Patrão' venceu o 'Ratinho' e ficou na vice-liderança de audiência."
+        "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana.",
+        "A prova envolveu um desafio na esteira.",
+        "Vivão avaliou o desempenho dos concorrentes no Trampo da Casa do Patrão.",
+        "Casa do Patrão conseguiu vitória contra o Ratinho e ficou na vice-liderança."
       ],
-      "generatedAt": "2026-06-13T01:17:41.446Z"
+      "generatedAt": "2026-06-13T01:27:28.278Z"
     },
-    "createdAt": "2026-06-13T01:17:41.446Z",
+    "createdAt": "2026-06-13T01:27:28.279Z",
     "imagePostUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/",
     "imageCreditStatus": "page-extracted",
     "imageCreditSourceUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/",
@@ -79,11 +259,12 @@
       "status": "approved",
       "approved": true,
       "candidateIndex": 0,
-      "confidence": 0.97,
-      "reason": "A imagem mostra claramente Alexandre Vivão e o identifica pelo nome, sendo a única candidata alinhada ao personagem central da matéria.",
-      "visibleSubject": "Alexandre Vivão em retrato individual com ficha de apresentação do reality.",
+      "confidence": 0.98,
+      "reason": "A imagem mostra claramente Alexandre Vivão, identificado pelo nome, e corresponde ao participante central da matéria.",
+      "visibleSubject": "Alexandre Vivão em sua ficha de apresentação no reality Casa do Patrão.",
       "concerns": [
-        "Há texto e elementos gráficos ocupando parte relevante da imagem."
+        "Há bastante texto sobreposto.",
+        "A imagem não retrata especificamente a vitória na Prova do Patrão."
       ],
       "model": "codex-cli",
       "origin": "web"
@@ -91,7 +272,7 @@
     "humanApproval": {
       "status": "approved",
       "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:21:30.484Z"
+      "approvedAt": "2026-06-13T01:34:27.501Z"
     }
   },
   {
@@ -101,13 +282,12 @@
     "reviewStatus": "approved",
     "title": "Filha de Graciele Lacerda e Zezé Di Camargo passa por biópsia de nódulo no rosto",
     "slug": "filha-de-graciele-lacerda-e-zeze-di-camargo-passa-por-biopsia-de-nodulo-no-rosto",
-    "excerpt": "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por cirurgia para retirada de um nódulo do rosto. Graciele chorou ao comentar o procedimento e depois revelou o resultado da biópsia.",
+    "excerpt": "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por cirurgia para retirada de um nódulo no rosto. Graciele chorou ao comentar o procedimento e depois revelou o resultado da biópsia.",
     "body": [
-      "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por uma cirurgia para retirada de um nódulo do rosto. O procedimento foi comentado por Graciele, que chorou ao falar sobre o assunto.",
-      "Após a cirurgia, Graciele Lacerda revelou o resultado da biópsia do nódulo. Zezé Di Camargo também mostrou a bebê após o procedimento no rostinho dela.",
-      "A biópsia é um exame que analisa uma amostra de tecido para identificar possíveis alterações. No caso da filha do casal, o nódulo foi retirado e analisado."
+      "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por uma cirurgia para retirada de um nódulo no rosto. Graciele chorou ao comentar o procedimento.",
+      "A influenciadora revelou o resultado da biópsia do nódulo. Zezé Di Camargo também mostrou a bebê após a cirurgia no rostinho dela."
     ],
-    "html": "<p>A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por uma cirurgia para retirada de um nódulo do rosto. O procedimento foi comentado por Graciele, que chorou ao falar sobre o assunto.</p>\n<p>Após a cirurgia, Graciele Lacerda revelou o resultado da biópsia do nódulo. Zezé Di Camargo também mostrou a bebê após o procedimento no rostinho dela.</p>\n<p>A biópsia é um exame que analisa uma amostra de tecido para identificar possíveis alterações. No caso da filha do casal, o nódulo foi retirado e analisado.</p>",
+    "html": "<p>A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por uma cirurgia para retirada de um nódulo no rosto. Graciele chorou ao comentar o procedimento.</p>\n<p>A influenciadora revelou o resultado da biópsia do nódulo. Zezé Di Camargo também mostrou a bebê após a cirurgia no rostinho dela.</p>",
     "category": "Famosos",
     "market": "brasil",
     "tags": [
@@ -115,8 +295,7 @@
       "Zezé Di Camargo",
       "biópsia",
       "nódulo",
-      "cirurgia",
-      "bebê"
+      "cirurgia"
     ],
     "source": "O Globo",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOXBLeTdWVm9NS1g3cFhLZjdQbnBzUTlfRUxrUF9RdVZDQVZQNXRrMzB1a25lUnllVGN6OFQxblhSUHROeTRLLTEwOHNhdFFwRmZRdXM1T3Z3b2dsbjNGNFBJY0twNnczRkItdk55OGdjMUQza3FKbWV0RFdoRGhSRng0eThUSzNodkk5ckFXbDlMTklCLVFZby1QZzdBMXJHa1JvTDFtTUhxZmRDWV83WVZkRUlERU9Ob0V5bHkydXZteTJwYjgydE15cXVhRUxScGNoUXdYQWlnd25hb1N2c21OMVViXzJ4TldUamtiWdIB_gFBVV95cUxPRWdHd1pMM24yYXBKWk95YzhFSHpwUHBSd3hCRGVrRUh1VUNXQlN0cWxHNFdNUVBGbHNNOVBOdWZHclVIV28zcnVJVGYtQ1BzQkRsdktveDNUT1ZoTnE4LUI4T3BJaFBNV0hlb2lfcWRnX0JXbXpjQVctTGNfbnktMkNraDN6Q3I3MTVFUGM1SUlPdVR0VnMxUzhHRjhZUHlZeEhudG1qSGh6YUs3Qm9lWEFFT3pnN2tpMFNfTm1Wcy1vd19QM0Y3R0tGVkxHNHBrYnp2YnYzYjRsNzZKVDgtc2FUaDFDbC1zMXpReWYwY3d4UDlMQkR3bFFIak0tdw?oc=5",
@@ -135,14 +314,14 @@
       "Zezé Di Camargo mostra a bebê após cirurgia no rostinho dela"
     ],
     "sourceCount": 5,
-    "score": 104,
+    "score": 100,
     "trendBoost": false,
     "trendMatches": [],
     "image": "/images/auto/filha-de-graciele-lacerda-e-zeze-di-camargo-passa-por-biopsia-de-nodulo-no-rosto.jpg",
-    "imageCredit": "foto-com-todos-os-pets/\" style=\"text-decoration: none !important;\">",
-    "imageSubject": "Filha de Graciele Lacerda e Zezé Di Camargo",
-    "imageSearchQuery": "filha Graciele Lacerda Zezé Di Camargo bebê",
-    "imageAlt": "Bebê, filha de Graciele Lacerda e Zezé Di Camargo",
+    "imageCredit": "Foto: Clara, Zezé Di Camargo e Graciele Lacerda. (Foto: Reprodução/Instagram)",
+    "imageSubject": "Graciele Lacerda e Zezé Di Camargo com a filha",
+    "imageSearchQuery": "Graciele Lacerda Zezé Di Camargo filha",
+    "imageAlt": "Graciele Lacerda e Zezé Di Camargo com a filha",
     "editorialMeta": {
       "originalTitle": "Biópsia: entenda o exame feito pela filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses",
       "sourceId": "QmnDs3BzaWE6IGVudGVu",
@@ -159,27 +338,115 @@
       },
       "factualClaims": [
         "A filha de Graciele Lacerda e Zezé Di Camargo tem um ano e cinco meses.",
-        "A filha do casal passou por cirurgia para retirada de um nódulo do rosto.",
+        "A criança passou por cirurgia para retirada de um nódulo no rosto.",
         "Graciele chorou ao comentar a cirurgia.",
         "Graciele revelou o resultado da biópsia do nódulo.",
         "Zezé Di Camargo mostrou a bebê após a cirurgia."
       ],
-      "generatedAt": "2026-06-13T01:17:14.704Z"
+      "generatedAt": "2026-06-13T01:27:07.079Z"
     },
-    "createdAt": "2026-06-13T01:17:14.704Z",
-    "imagePostUrl": "https://aloalobahia.com/noticias/2026/01/02/graciele-lacerda-lamenta-comentario-ofensivo-sobre-aparencia-da-filha-clara-que-nao-te-falte-amor-e-empatia/",
+    "createdAt": "2026-06-13T01:27:07.079Z",
+    "imagePostUrl": "https://www.areavip.com.br/famosos/graciele-lacerda-entrega-detalhes-da-rotina-de-zeze-di-camargo-com-a-filha-viver-cada-segundo/",
     "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://aloalobahia.com/noticias/2026/01/02/graciele-lacerda-lamenta-comentario-ofensivo-sobre-aparencia-da-filha-clara-que-nao-te-falte-amor-e-empatia/",
+    "imageCreditSourceUrl": "https://www.areavip.com.br/famosos/graciele-lacerda-entrega-detalhes-da-rotina-de-zeze-di-camargo-com-a-filha-viver-cada-segundo/",
     "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
     "imageReview": {
       "status": "approved",
       "approved": true,
-      "candidateIndex": 1,
-      "confidence": 0.94,
-      "reason": "A imagem mostra claramente Graciele Lacerda com a filha Clara, sujeito central da matéria, com o rosto da criança visível e boa qualidade jornalística.",
-      "visibleSubject": "Graciele Lacerda posa ao lado da filha Clara, que aparece em primeiro plano.",
+      "candidateIndex": 7,
+      "confidence": 0.98,
+      "reason": "A imagem mostra claramente Graciele Lacerda e Zezé Di Camargo com a filha, correspondendo ao sujeito central da matéria, sem pessoas adicionais ou elementos que sugiram outro evento.",
+      "visibleSubject": "Graciele Lacerda, Zezé Di Camargo e a filha do casal posando juntos.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:34:27.501Z"
+    }
+  },
+  {
+    "id": "TWFyZ2FyZXQgS2Vycnkg",
+    "reviewId": "TWFyZ2FyZXQgS2Vycnkg",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Morre Margaret Kerry, modelo para Sininho em 'Peter Pan', aos 97",
+    "slug": "morre-margaret-kerry-modelo-para-sininho-em-peter-pan-aos-97",
+    "excerpt": "A atriz e dançarina Margaret Kerry, que serviu de modelo para a fada Sininho em 'Peter Pan' (1953), morreu aos 97 anos.",
+    "body": [
+      "Morreu Margaret Kerry, atriz e dançarina que serviu de modelo para a fada Sininho na animação 'Peter Pan' (1953), da Disney. Ela tinha 97 anos.",
+      "Kerry foi a referência para os movimentos e expressões da personagem Tinker Bell, embora a voz tenha sido feita por outra atriz. A informação foi divulgada pela imprensa nesta sexta-feira (12)."
+    ],
+    "html": "<p>Morreu Margaret Kerry, atriz e dançarina que serviu de modelo para a fada Sininho na animação 'Peter Pan' (1953), da Disney. Ela tinha 97 anos.</p>\n<p>Kerry foi a referência para os movimentos e expressões da personagem Tinker Bell, embora a voz tenha sido feita por outra atriz. A informação foi divulgada pela imprensa nesta sexta-feira (12).</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Margaret Kerry",
+      "Sininho",
+      "Peter Pan",
+      "Disney",
+      "morte"
+    ],
+    "source": "Folha de S.Paulo",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemhrbWloLVpKNXkzREdNOVVEU2VVVXlrMTNnYlBzX0czbGlvVHBTakJsRVhjakF2ZjkwTFNNczZaS2MzRFdvMWp6S21GVmpBWVcxWHRqemtfcThIT1dDMnJGbFBXdFpPVFFNWXpSS0lXeTI1UEtuNFB6UnN6WGhZZU5pWW1YMm5lQ1ZTR1phNTVuSVVXbDhabFFlaDAzQmxzNUpmMWlqdFdvR0tudlhQdnR6WGZNYnN6b04yVVRSRl9RdFBKN2RzdnFR?oc=5",
+    "evidenceSources": [
+      "Folha de S.Paulo",
+      "Omelete",
+      "AdoroCinema",
+      "obusilis.com.br"
+    ],
+    "evidenceClaims": [
+      "Margaret Kerry (1929 - 2026) - Morre a atriz Margaret Kerry, que foi modelo para a fada Sininho, de 'Peter Pan'",
+      "Morre Margaret Kerry, atriz que foi modelo para Sininho em Peter Pan, aos 97",
+      "Morre Margaret Kerry, atriz e dançarina que inspirou Sininho de Peter Pan, aos 97 anos",
+      "Modelo da animação Tinker Bell da Disney tinha 97 anos"
+    ],
+    "sourceCount": 4,
+    "score": 100,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/morre-margaret-kerry-modelo-para-sininho-em-peter-pan-aos-97.jpg",
+    "imageCredit": "Foto: copyright-area{",
+    "imageSubject": "Margaret Kerry",
+    "imageSearchQuery": "Margaret Kerry atriz modelo Sininho Peter Pan",
+    "imageAlt": "Margaret Kerry, atriz que inspirou Sininho",
+    "editorialMeta": {
+      "originalTitle": "Margaret Kerry (1929 - 2026) - Morre a atriz Margaret Kerry, que foi modelo para a fada Sininho, de 'Peter Pan'",
+      "sourceId": "TWFyZ2FyZXQgS2Vycnkg",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Margaret Kerry morreu aos 97 anos.",
+        "Ela foi modelo para a fada Sininho em 'Peter Pan' (1953).",
+        "Kerry era atriz e dançarina."
+      ],
+      "generatedAt": "2026-06-13T01:27:02.296Z"
+    },
+    "createdAt": "2026-06-13T01:27:02.296Z",
+    "imagePostUrl": "https://memoriascinematograficas.com.br/2019/05/margaret-kerry-atriz-que-inspirou.html",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://memoriascinematograficas.com.br/2019/05/margaret-kerry-atriz-que-inspirou.html",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 3,
+      "confidence": 0.93,
+      "reason": "A imagem mostra claramente Margaret Kerry sozinha, em uma fotografia de boa qualidade, sem montagem, texto pesado ou elementos que desviem do tema central.",
+      "visibleSubject": "Margaret Kerry jovem, posando com vestido branco.",
       "concerns": [
-        "A foto é um retrato familiar e não registra o procedimento médico mencionado."
+        "Fotografia histórica, sem referência visual direta à personagem Sininho."
       ],
       "model": "codex-cli",
       "origin": "web"
@@ -187,7 +454,526 @@
     "humanApproval": {
       "status": "approved",
       "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:21:30.484Z"
+      "approvedAt": "2026-06-13T01:34:27.501Z"
+    }
+  },
+  {
+    "id": "TWVsbCBNdXp6aWxsbyBl",
+    "reviewId": "TWVsbCBNdXp6aWxsbyBl",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Mell Muzzillo e Marcello Melo Jr. rebatem críticas sobre diferença de idade",
+    "slug": "mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-sobre-diferenca-de-idade",
+    "excerpt": "Os atores Mell Muzzillo e Marcello Melo Jr. reagiram a críticas sobre a diferença de idade de 17 anos no relacionamento. Marcello também rebateu boato de traição.",
+    "body": [
+      "Os atores Mell Muzzillo e Marcello Melo Jr. reagiram a críticas sobre a diferença de idade de 17 anos no relacionamento. Segundo as manchetes, eles rebateram as críticas com a frase: “As pessoas falam e a gente faz amor”.",
+      "Marcello Melo Jr. também rebateu um boato de traição no início do namoro com Mell Muzzillo, afirmando: “Quero ver provar”."
+    ],
+    "html": "<p>Os atores Mell Muzzillo e Marcello Melo Jr. reagiram a críticas sobre a diferença de idade de 17 anos no relacionamento. Segundo as manchetes, eles rebateram as críticas com a frase: “As pessoas falam e a gente faz amor”.</p>\n<p>Marcello Melo Jr. também rebateu um boato de traição no início do namoro com Mell Muzzillo, afirmando: “Quero ver provar”.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Mell Muzzillo",
+      "Marcello Melo Jr.",
+      "diferença de idade",
+      "críticas",
+      "namoro"
+    ],
+    "source": "Portal UAI",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5",
+    "evidenceSources": [
+      "Portal UAI",
+      "Alô Alô Bahia",
+      "Jornal Correio",
+      "Jornal de Brasília",
+      "Notícias da TV"
+    ],
+    "evidenceClaims": [
+      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
+      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade",
+      "Atores da Globo rebatem críticas sobre diferença de idade: “As pessoas falam e a gente faz amor”",
+      "Marcello Melo Jr. rebate boato de traição no início de namoro com Mell Muzzillo: 'Quero ver provar'",
+      "“Falam e a gente faz amor”: Mell Muzzillo e Marcello Melo Jr. ignoram diferença de 17 anos",
+      "Com 17 anos de diferença, Mell Muzzillo e Marcello Melo Jr. rebatem críticas a namoro"
+    ],
+    "sourceCount": 5,
+    "score": 106,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-sobre-diferenca-de-idade.jpg",
+    "imageCredit": "Foto: (Marcello Melo Jr. e Mell Muzzillo Reprodução/Instagram)",
+    "imageSubject": "Mell Muzzillo e Marcello Melo Jr.",
+    "imageSearchQuery": "Mell Muzzillo e Marcello Melo Jr. casal",
+    "imageAlt": "Mell Muzzillo e Marcello Melo Jr. juntos",
+    "editorialMeta": {
+      "originalTitle": "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
+      "sourceId": "TWVsbCBNdXp6aWxsbyBl",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Mell Muzzillo e Marcello Melo Jr. reagiram a críticas sobre a diferença de idade de 17 anos.",
+        "Marcello Melo Jr. rebateu boato de traição no início do namoro com Mell Muzzillo."
+      ],
+      "generatedAt": "2026-06-13T01:26:37.903Z"
+    },
+    "createdAt": "2026-06-13T01:26:37.903Z",
+    "imagePostUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 1,
+      "confidence": 0.99,
+      "reason": "A imagem mostra claramente Mell Muzzillo e Marcello Melo Jr. juntos, em uma fotografia nítida e adequada ao tema do relacionamento.",
+      "visibleSubject": "Mell Muzzillo e Marcello Melo Jr. posando abraçados diante da Torre Eiffel.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:34:27.501Z"
+    }
+  },
+  {
+    "id": "TWF1IE1hdSBkZSBRdWVt",
+    "reviewId": "TWF1IE1hdSBkZSBRdWVt",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "João Victor Gonçalves reflete sobre personagem LGBTQ+ em 'Quem Ama Cuida'",
+    "slug": "joao-victor-goncalves-reflete-sobre-personagem-lgbtq-em-quem-ama-cuida",
+    "excerpt": "João Victor Gonçalves, intérprete de Mau Mau, reflete sobre personagem LGBTQ+ e desabafa sobre relação com Tony Ramos nos bastidores.",
+    "body": [
+      "João Victor Gonçalves, o Mau Mau de 'Quem Ama Cuida', refletiu sobre seu personagem LGBTQ+, afirmando que pode 'transformar a vida de muitos jovens'.",
+      "O ator também desabafou sobre a relação com Tony Ramos nos bastidores da novela, mencionando 'medos e limitações'.",
+      "Tony Ramos comentou sobre o comportamento intolerante de seu personagem, dizendo 'nada a ver comigo'."
+    ],
+    "html": "<p>João Victor Gonçalves, o Mau Mau de 'Quem Ama Cuida', refletiu sobre seu personagem LGBTQ+, afirmando que pode 'transformar a vida de muitos jovens'.</p>\n<p>O ator também desabafou sobre a relação com Tony Ramos nos bastidores da novela, mencionando 'medos e limitações'.</p>\n<p>Tony Ramos comentou sobre o comportamento intolerante de seu personagem, dizendo 'nada a ver comigo'.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "João Victor Gonçalves",
+      "Quem Ama Cuida",
+      "Tony Ramos",
+      "LGBTQ+",
+      "homofobia"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "NaTelinha",
+      "Gshow",
+      "Terra",
+      "purepeople.com.br"
+    ],
+    "evidenceClaims": [
+      "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
+      "Mau Mau em Quem Ama Cuida, ator revela caso real de homofobia que o inspira na novela",
+      "João Victor Gonçalves, o Mau Mau de Quem Ama Cuida, reflete sobre personagem LGBTQ+: 'Transformar a vida de muitos jovens'",
+      "Tony Ramos reflete sobre comportamento intolerante de personagem em Quem Ama, Cuida: 'Nada a ver comigo'",
+      "'Medos e limitações': neto que sofre homofobia de Tony Ramos em 'Quem Ama Cuida', João Victor Gonçalves desabafa sobre relação com o veterano nos bastidores da novela"
+    ],
+    "sourceCount": 5,
+    "score": 106,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/joao-victor-goncalves-reflete-sobre-personagem-lgbtq-em-quem-ama-cuida.webp",
+    "imageCredit": "Foto: Globo/Manoella Mello",
+    "imageSubject": "João Victor Gonçalves",
+    "imageSearchQuery": "João Victor Gonçalves Mau Mau Quem Ama Cuida",
+    "imageAlt": "João Victor Gonçalves, ator que interpreta Mau Mau em Quem Ama Cuida",
+    "editorialMeta": {
+      "originalTitle": "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
+      "sourceId": "TWF1IE1hdSBkZSBRdWVt",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "João Victor Gonçalves refletiu sobre personagem LGBTQ+ e disse que pode transformar a vida de muitos jovens.",
+        "João Victor Gonçalves desabafou sobre relação com Tony Ramos, mencionando medos e limitações.",
+        "Tony Ramos disse que o comportamento intolerante de seu personagem 'nada a ver comigo'."
+      ],
+      "generatedAt": "2026-06-13T01:26:33.596Z"
+    },
+    "createdAt": "2026-06-13T01:26:33.596Z",
+    "imagePostUrl": "https://istoe.com.br/joao-victor-goncalves-horario-nobre-quem-ama-cuida",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://istoe.com.br/joao-victor-goncalves-horario-nobre-quem-ama-cuida",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 3,
+      "confidence": 0.99,
+      "reason": "A imagem mostra claramente João Victor Gonçalves sozinho, em boa qualidade e em contexto compatível com a novela mencionada.",
+      "visibleSubject": "João Victor Gonçalves sorrindo, usando camiseta branca em um cenário externo.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:34:27.501Z"
+    }
+  },
+  {
+    "id": "RGlhIGRvcyBuYW1vcmFk",
+    "reviewId": "RGlhIGRvcyBuYW1vcmFk",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Dia dos Namorados: famosos que estão solteiros em 2026",
+    "slug": "dia-dos-namorados-famosos-que-estao-solteiros-em-2026",
+    "excerpt": "Lista reúne celebridades como Paolla Oliveira e Virginia que passam a data recém-solteiras.",
+    "body": [
+      "No Dia dos Namorados de 2026, diversos famosos estão solteiros. Paolla Oliveira reagiu a postagens sobre a data, comentando que 'um monte de gente querendo ficar solteira'. A atriz está entre as celebridades que vão passar o dia recém-solteiras.",
+      "Além de Paolla Oliveira, Virginia e outros nomes foram citados em listas de famosos solteiros neste Dia dos Namorados. As informações foram publicadas por veículos como iG Gente, Globo, CNN Brasil, VEJA e Rádio Itatiaia."
+    ],
+    "html": "<p>No Dia dos Namorados de 2026, diversos famosos estão solteiros. Paolla Oliveira reagiu a postagens sobre a data, comentando que 'um monte de gente querendo ficar solteira'. A atriz está entre as celebridades que vão passar o dia recém-solteiras.</p>\n<p>Além de Paolla Oliveira, Virginia e outros nomes foram citados em listas de famosos solteiros neste Dia dos Namorados. As informações foram publicadas por veículos como iG Gente, Globo, CNN Brasil, VEJA e Rádio Itatiaia.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Dia dos Namorados",
+      "Paolla Oliveira",
+      "Virginia",
+      "solteiros",
+      "famosos"
+    ],
+    "source": "iG Gente",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbC1FOUVINGJtTDJyV1NTaWFBVnhIakJCd1VzMnJQQjFlcVYxMGIzUDhuWXlwRUNSbnlLbHY0ZnpkVXMtNV9iZ0hMYkJnckJoWWJBZ3FSb1c0TEdHTURuQml4SXE5aC16cHdObzR1eXo4NVhVdS1CbzJ3SXBIZVZ2WjhkRlhQTTYzd0RSVnYweXZuRmhPb2hENXMtcTFPbkNQNTJ0SUdjbG9YQ09GWXpHT9IBtgFBVV95cUxOS0JYRm56SDdkQjI3ZnlDOW0zeTZrVEgtc3JBRnJuQXgyZ3BHODVXSmJuZjFpRjhUSl9zcUhYX181dTlkX054SVBmOWhqa0VFZkEtcWNGRnRqanpwREZWRDVPMHhRX2hxS09oWS16a0dwNWVybGh6cjlTbE82YzNfLS13LVZiakE2Ry1PZTFGNk9OT3hEa3Bldkt4OThXWnBwQWpydTg4S19Yemkyb3Q3OXpiZlJrZw?oc=5",
+    "evidenceSources": [
+      "iG Gente",
+      "Globo",
+      "CNN Brasil",
+      "VEJA",
+      "Rádio Itatiaia"
+    ],
+    "evidenceClaims": [
+      "Dia dos namorados: veja os casais que se separaram em 2026",
+      "Paolla Oliveira reage a posts de Dia dos Namorados: 'Um monte de gente querendo ficar solteira'",
+      "Dia dos Namorados: veja famosas que vão passar a data recém-solteiras",
+      "Solteira, Paolla Oliveira reage a postagens de Dia dos Namorados",
+      "Paolla Oliveira, Virginia e mais: veja famosos que estão solteiros no Dia dos Namorados"
+    ],
+    "sourceCount": 5,
+    "score": 111,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/dia-dos-namorados-famosos-que-estao-solteiros-em-2026.webp",
+    "imageCredit": "Foto: Brazilnews / Purepeople\" width=\"112\" height=\"116\">",
+    "imageSubject": "Paolla Oliveira",
+    "imageSearchQuery": "Paolla Oliveira solteira Dia dos Namorados 2026",
+    "imageAlt": "Paolla Oliveira sorrindo, em foto recente",
+    "editorialMeta": {
+      "originalTitle": "Dia dos namorados: veja os casais que se separaram em 2026",
+      "sourceId": "RGlhIGRvcyBuYW1vcmFk",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Dia dos Namorados de 2026 tem lista de famosos solteiros.",
+        "Paolla Oliveira reagiu a posts de Dia dos Namorados dizendo 'um monte de gente querendo ficar solteira'.",
+        "Paolla Oliveira e Virginia estão entre os famosos solteiros no Dia dos Namorados.",
+        "Veículos como iG Gente, Globo, CNN Brasil, VEJA e Rádio Itatiaia publicaram as listas."
+      ],
+      "generatedAt": "2026-06-13T01:26:00.211Z"
+    },
+    "createdAt": "2026-06-13T01:26:00.211Z",
+    "imagePostUrl": "https://www.terra.com.br/diversao/carnaval/solteira-em-salvador-sem-coroa-como-foi-o-carnaval-de-paolla-oliveira,f92cc9a78f5f1bb5226bfec244eebab6t0kd8o3v.html",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://www.terra.com.br/diversao/carnaval/solteira-em-salvador-sem-coroa-como-foi-o-carnaval-de-paolla-oliveira,f92cc9a78f5f1bb5226bfec244eebab6t0kd8o3v.html",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 0,
+      "confidence": 0.98,
+      "reason": "Retrato individual, nítido e recente, compatível com o tema; a pessoa aparece sorrindo e sem elementos que sugiram outro acontecimento.",
+      "visibleSubject": "Mulher sorrindo em close, usando adereços dourados.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:34:27.501Z"
+    }
+  },
+  {
+    "id": "RGVzZW1wcmVnYWRvIHBv",
+    "reviewId": "RGVzZW1wcmVnYWRvIHBv",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Gui Ferraz quase desistiu da carreira após quatro anos desempregado",
+    "slug": "gui-ferraz-quase-desistiu-da-carreira-apos-quatro-anos-desempregado",
+    "excerpt": "Ator de 'Quem Ama Cuida' e da série 'Brasil 70' revela que passou quase quatro anos sem trabalho e pensou em desistir.",
+    "body": [
+      "O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida' e também está na série 'Brasil 70', relembrou uma fase difícil na carreira. Ele ficou quase quatro anos desempregado e pensou em desistir da profissão.",
+      "Ferraz ganhou destaque recentemente com os papéis na novela das 9 e na série da Netflix sobre a Copa de 1970."
+    ],
+    "html": "<p>O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida' e também está na série 'Brasil 70', relembrou uma fase difícil na carreira. Ele ficou quase quatro anos desempregado e pensou em desistir da profissão.</p>\n<p>Ferraz ganhou destaque recentemente com os papéis na novela das 9 e na série da Netflix sobre a Copa de 1970.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Gui Ferraz",
+      "Quem Ama Cuida",
+      "Brasil 70",
+      "desemprego",
+      "carreira"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "Extra online",
+      "Correio Braziliense",
+      "NaTelinha"
+    ],
+    "evidenceClaims": [
+      "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
+      "Tiago em ‘Quem ama cuida’, Gui Ferraz relembra fase de quase quatro anos sem trabalho: ‘Pensei em desistir’",
+      "Na novela das 9 e na série 'Brasil 70', Gui Ferraz é craque e dá um show de bola",
+      "Quem é Gui Ferraz? Ator ganha destaque em Quem Ama Cuida e série da Netflix sobre a Copa"
+    ],
+    "sourceCount": 4,
+    "score": 112,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/gui-ferraz-quase-desistiu-da-carreira-apos-quatro-anos-desempregado.jpg",
+    "imageCredit": "Imagem ilustrativa: aocuboagenciamento.com.br",
+    "imageSubject": "Gui Ferraz",
+    "imageSearchQuery": "Gui Ferraz ator",
+    "imageAlt": "Ator Gui Ferraz",
+    "editorialMeta": {
+      "originalTitle": "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
+      "sourceId": "RGVzZW1wcmVnYWRvIHBv",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Gui Ferraz ficou quase quatro anos desempregado.",
+        "Gui Ferraz pensou em desistir da carreira.",
+        "Gui Ferraz interpreta Tiago em 'Quem Ama Cuida'.",
+        "Gui Ferraz está na série 'Brasil 70'."
+      ],
+      "generatedAt": "2026-06-13T01:25:47.829Z"
+    },
+    "createdAt": "2026-06-13T01:25:47.829Z",
+    "imagePostUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
+    "imageCreditStatus": "domain-fallback",
+    "imageCreditSourceUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 1,
+      "confidence": 0.98,
+      "reason": "Retrato individual de boa qualidade, claramente associado ao ator Gui Ferraz pela página oficial de agenciamento, sem texto ou elementos distrativos.",
+      "visibleSubject": "Gui Ferraz em retrato frontal, usando camisa azul-clara sobre regata branca.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:34:27.501Z"
+    }
+  },
+  {
+    "id": "RGlhIEQgfCBGaWxtZSBk",
+    "reviewId": "RGlhIEQgfCBGaWxtZSBk",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "‘Dia D’, novo filme de Steven Spielberg, arrecada US$ 12,5 milhões na estreia",
+    "slug": "dia-d-novo-filme-de-steven-spielberg-arrecada-us-12-5-milhoes-na-estreia",
+    "excerpt": "O novo filme de Steven Spielberg, 'Dia D', arrecadou US$ 12,5 milhões em sua estreia. O longa já está em cartaz nos cinemas, inclusive em Rio Branco.",
+    "body": [
+      "O novo filme de Steven Spielberg, 'Dia D', arrecadou US$ 12,5 milhões em sua estreia, segundo informações divulgadas.",
+      "O longa já está em cartaz nos cinemas, inclusive em Rio Branco, e tem sido destaque na imprensa. Críticas destacam o domínio de Spielberg no cinema de espetáculo e sua escolha pela emoção."
+    ],
+    "html": "<p>O novo filme de Steven Spielberg, 'Dia D', arrecadou US$ 12,5 milhões em sua estreia, segundo informações divulgadas.</p>\n<p>O longa já está em cartaz nos cinemas, inclusive em Rio Branco, e tem sido destaque na imprensa. Críticas destacam o domínio de Spielberg no cinema de espetáculo e sua escolha pela emoção.</p>",
+    "category": "Cinema",
+    "market": "brasil",
+    "tags": [
+      "Dia D",
+      "Steven Spielberg",
+      "bilheteria",
+      "estreia"
+    ],
+    "source": "Omelete",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWDh0QmdycklLcTBzT0hsMGFGdjlUdGhKNmt0c1dvSERmZEtLTmEzNzEzRjNRVWdHZFplQ1NBNVpIaWJaYW5RY1pjNzdxVXZkUGgyX05zM1dBYnN3UVNabFhYU3p5Q0FUSXRPZTRDVXRNRkloR01XU2FEeXFUS3JVQ1hzU0Ftc0Qxa0E?oc=5",
+    "evidenceSources": [
+      "Omelete",
+      "Folha de S.Paulo",
+      "Estadão",
+      "Rolling Stone Brasil",
+      "G1"
+    ],
+    "evidenceClaims": [
+      "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
+      "Na estreia de 'Dia D', saiba onde ver outros filmes de Steven Spielberg sobre ETs",
+      "‘Dia D’: Spielberg tem total domínio do cinema de espetáculo e escolhe a emoção para dar seu recado",
+      "Os 16 filmes de Steven Spielberg no século XXI, da menor para a maior bilheteria",
+      "'Dia D', novo filme de Steven Spielberg, estreia no cinema de Rio Branco"
+    ],
+    "sourceCount": 5,
+    "score": 132,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Steven Spielberg",
+    "imageSearchQuery": "Steven Spielberg Dia D filme",
+    "imageAlt": "Steven Spielberg em evento de divulgação do filme Dia D",
+    "editorialMeta": {
+      "originalTitle": "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
+      "sourceId": "RGlhIEQgfCBGaWxtZSBk",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "O filme 'Dia D', de Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia.",
+        "O filme estreou nos cinemas, incluindo em Rio Branco."
+      ],
+      "generatedAt": "2026-06-13T01:25:07.738Z"
+    },
+    "createdAt": "2026-06-13T01:25:07.738Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://www.gamevicio.com/wp-content/uploads/2025/12/Captura-de-tela-2025-12-16-141927-1140x600.png",
+        "pageUrl": "https://www.gamevicio.com/noticias/2025/12/dia-d-filme-de-steven-spielberg-com-emily-blunt-teaser/",
+        "source": "Bing",
+        "title": "\"DIA D\", novo filme de Steven Spielberg com Emily Blunt ganha teaser ...",
+        "width": 1140,
+        "height": 600
+      },
+      {
+        "imageUrl": "https://cdn.observatoriodocinema.com.br/2026/01/G-Fp5_lWkAA1MeK-1024x683.jpg",
+        "pageUrl": "https://observatoriodocinema.com.br/filmes/dia-d-filme-sobre-alienigenas-de-steven-spielberg-ganha-foto-emblematica/",
+        "source": "Bing",
+        "title": "Dia D: Filme sobre alienígenas de Steven Spielberg ganha foto emblemática",
+        "width": 1024,
+        "height": 683
+      },
+      {
+        "imageUrl": "https://pbs.twimg.com/media/G8TYYJZWMAInFTG?format=jpg&name=large",
+        "pageUrl": "https://cinemacomrapadura.com.br/noticias/629669/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-primeiro-teaser-com-emily-blunt-e-josh-oconnor/",
+        "source": "Bing",
+        "title": "Dia D | Novo filme de Steven Spielberg sobre alienígenas ganha primeiro ...",
+        "width": 1294,
+        "height": 2048
+      },
+      {
+        "imageUrl": "https://cadernopop.com.br/wp-content/uploads/2025/12/Disclosure-Day_Steven-1.webp",
+        "pageUrl": "https://cadernopop.com.br/novo-filme-de-spielberg-dia-d-ganha-trailer-e-data-de-estreia/",
+        "source": "Bing",
+        "title": "Novo filme de Spielberg, \"Dia D\", ganha trailer e data de estreia ...",
+        "width": 1450,
+        "height": 890
+      },
+      {
+        "imageUrl": "https://www.itaberabanoticias.com.br/wp-content/uploads/2026/02/filme-Dia-D.jpg",
+        "pageUrl": "https://www.itaberabanoticias.com.br/geral/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-trailer-data-de-estreia-e-promete-marcar-o-cinema-em-2026",
+        "source": "Bing",
+        "title": "Dia D: novo filme de Steven Spielberg sobre alienígenas ganha trailer ...",
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "imageUrl": "https://updateordie.com/wp-content/uploads/2025/12/disclosure-day-movie-poster-99ffoklkeb-1044x606.webp",
+        "pageUrl": "https://updateordie.com/2025/12/18/novo-filme-de-steven-spielberg-sobre-ovnis-dia-d-ganha-trailer-e-data-de-estreia/",
+        "source": "Bing",
+        "title": "Dia D: Encontro de Spielberg e Koepp",
+        "width": 1044,
+        "height": 606
+      },
+      {
+        "imageUrl": "https://cdn.observatoriodocinema.com.br/2026/02/dia-d-8-2-1024x576.jpg",
+        "pageUrl": "https://observatoriodocinema.com.br/filmes/dia-d-filme-de-steven-spielberg-ganha-trailer-no-super-bowl-2026-assista/",
+        "source": "Bing",
+        "title": "Dia D: Filme de Steven Spielberg ganha trailer legendado no Super Bowl 2026",
+        "width": 1024,
+        "height": 576
+      },
+      {
+        "imageUrl": "https://br.web.img3.acsta.net/c_640_360/img/b7/7c/b77c59199cbae59e70b364d5a594fc7f.jpg",
+        "pageUrl": "https://www.adorocinema.com/filmes/filme-1000001453/",
+        "source": "Bing",
+        "title": "Dia D - Filme 2026 - AdoroCinema",
+        "width": 640,
+        "height": 360
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0.99,
+      "reason": "Nenhuma imagem mostra claramente Steven Spielberg em um evento de divulgação de “Dia D”. As candidatas exibem atores, pôsteres promocionais ou uma montagem; a única que inclui Spielberg é uma colagem de contextos distintos.",
+      "visibleSubject": "Atores e materiais promocionais do filme “Dia D”; Steven Spielberg aparece apenas em uma montagem na candidata 7.",
+      "concerns": [
+        "Pessoa central incorreta",
+        "Pôster ou texto pesado",
+        "Montagem de imagens",
+        "Contexto de evento de divulgação não confirmado"
+      ],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:34:27.501Z"
     }
   },
   {
@@ -274,98 +1060,6 @@
       "confidence": 0.98,
       "reason": "A imagem mostra claramente Leandra Leal sozinha, em retrato jornalístico de alta qualidade, sem texto, montagem ou elementos que sugiram outro acontecimento.",
       "visibleSubject": "Leandra Leal em retrato individual diante de fundo cinza.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:21:30.484Z"
-    }
-  },
-  {
-    "id": "TWVsbCBNdXp6aWxsbyBl",
-    "reviewId": "TWVsbCBNdXp6aWxsbyBl",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Mell Muzzillo e Marcello Melo Jr. rebatem críticas por diferença de idade",
-    "slug": "mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-por-diferenca-de-idade",
-    "excerpt": "Atores da Globo reagem a comentários sobre os 17 anos de diferença e a um boato de traição.",
-    "body": [
-      "Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos no relacionamento. Em resposta, afirmaram: “As pessoas falam e a gente faz amor”.",
-      "Marcello Melo Jr. também rebateu um boato de traição no início do namoro com Mell Muzzillo, desafiando: “Quero ver provar”."
-    ],
-    "html": "<p>Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos no relacionamento. Em resposta, afirmaram: “As pessoas falam e a gente faz amor”.</p>\n<p>Marcello Melo Jr. também rebateu um boato de traição no início do namoro com Mell Muzzillo, desafiando: “Quero ver provar”.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Mell Muzzillo",
-      "Marcello Melo Jr.",
-      "diferença de idade",
-      "críticas",
-      "namoro"
-    ],
-    "source": "Portal UAI",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5",
-    "evidenceSources": [
-      "Portal UAI",
-      "Alô Alô Bahia",
-      "Jornal Correio",
-      "Jornal de Brasília",
-      "Notícias da TV"
-    ],
-    "evidenceClaims": [
-      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
-      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade",
-      "Atores da Globo rebatem críticas sobre diferença de idade: “As pessoas falam e a gente faz amor”",
-      "Marcello Melo Jr. rebate boato de traição no início de namoro com Mell Muzzillo: 'Quero ver provar'",
-      "“Falam e a gente faz amor”: Mell Muzzillo e Marcello Melo Jr. ignoram diferença de 17 anos",
-      "Com 17 anos de diferença, Mell Muzzillo e Marcello Melo Jr. rebatem críticas a namoro"
-    ],
-    "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-por-diferenca-de-idade.jpg",
-    "imageCredit": "Foto: (Marcello Melo Jr. e Mell Muzzillo Reprodução/Instagram)",
-    "imageSubject": "Mell Muzzillo e Marcello Melo Jr.",
-    "imageSearchQuery": "Mell Muzzillo e Marcello Melo Jr. casal",
-    "imageAlt": "Mell Muzzillo e Marcello Melo Jr. juntos",
-    "editorialMeta": {
-      "originalTitle": "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
-      "sourceId": "TWVsbCBNdXp6aWxsbyBl",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade.",
-        "Atores da Globo rebatem críticas sobre diferença de idade: “As pessoas falam e a gente faz amor”.",
-        "Marcello Melo Jr. rebate boato de traição no início de namoro com Mell Muzzillo: 'Quero ver provar'.",
-        "Com 17 anos de diferença, Mell Muzzillo e Marcello Melo Jr. rebatem críticas a namoro."
-      ],
-      "generatedAt": "2026-06-13T01:17:02.834Z"
-    },
-    "createdAt": "2026-06-13T01:17:02.834Z",
-    "imagePostUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 6,
-      "confidence": 0.98,
-      "reason": "A imagem mostra claramente Mell Muzzillo e Marcello Melo Jr. juntos, em uma fotografia nítida e sem elementos que sugiram outro acontecimento central.",
-      "visibleSubject": "Mell Muzzillo e Marcello Melo Jr. posando juntos diante da Torre Eiffel, em Paris.",
       "concerns": [],
       "model": "codex-cli",
       "origin": "web"
@@ -660,95 +1354,6 @@
     }
   },
   {
-    "id": "RGVzZW1wcmVnYWRvIHBv",
-    "reviewId": "RGVzZW1wcmVnYWRvIHBv",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Gui Ferraz, de Quem Ama Cuida, quase desistiu após 4 anos sem trabalho",
-    "slug": "gui-ferraz-de-quem-ama-cuida-quase-desistiu-apos-4-anos-sem-trabalho",
-    "excerpt": "Ator que vive Tiago na novela das 9 passou quase quatro anos desempregado e pensou em abandonar a carreira.",
-    "body": [
-      "O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida', relembrou uma fase difícil de quase quatro anos sem trabalho. Durante esse período, ele pensou em desistir da carreira.",
-      "Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra seu talento com a bola."
-    ],
-    "html": "<p>O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida', relembrou uma fase difícil de quase quatro anos sem trabalho. Durante esse período, ele pensou em desistir da carreira.</p>\n<p>Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra seu talento com a bola.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Gui Ferraz",
-      "Quem Ama Cuida",
-      "desemprego",
-      "carreira",
-      "ator"
-    ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "Extra online",
-      "Correio Braziliense",
-      "NaTelinha"
-    ],
-    "evidenceClaims": [
-      "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
-      "Tiago em ‘Quem ama cuida’, Gui Ferraz relembra fase de quase quatro anos sem trabalho: ‘Pensei em desistir’",
-      "Na novela das 9 e na série 'Brasil 70', Gui Ferraz é craque e dá um show de bola",
-      "Quem é Gui Ferraz? Ator ganha destaque em Quem Ama Cuida e série da Netflix sobre a Copa"
-    ],
-    "sourceCount": 4,
-    "score": 112,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/gui-ferraz-de-quem-ama-cuida-quase-desistiu-apos-4-anos-sem-trabalho.jpg",
-    "imageCredit": "Imagem ilustrativa: aocuboagenciamento.com.br",
-    "imageSubject": "Gui Ferraz",
-    "imageSearchQuery": "Gui Ferraz ator Quem Ama Cuida",
-    "imageAlt": "Ator Gui Ferraz",
-    "editorialMeta": {
-      "originalTitle": "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
-      "sourceId": "RGVzZW1wcmVnYWRvIHBv",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Gui Ferraz interpreta Tiago na novela 'Quem Ama Cuida'.",
-        "Ele passou quase quatro anos sem trabalho.",
-        "Nesse período, pensou em desistir da carreira.",
-        "Gui Ferraz também está na série 'Brasil 70', da Netflix."
-      ],
-      "generatedAt": "2026-06-13T01:16:26.637Z"
-    },
-    "createdAt": "2026-06-13T01:16:26.637Z",
-    "imagePostUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
-    "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 0,
-      "confidence": 0.99,
-      "reason": "Retrato individual de boa qualidade, associado diretamente à página de agenciamento de Gui Ferraz e compatível com o assunto central da matéria.",
-      "visibleSubject": "Gui Ferraz em retrato frontal, usando camisa azul-clara sobre regata branca.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:21:30.484Z"
-    }
-  },
-  {
     "id": "Q2FtaWxhIFJvZHJpZ3Vl",
     "reviewId": "Q2FtaWxhIFJvZHJpZ3Vl",
     "workflowVersion": 2,
@@ -829,99 +1434,6 @@
       "reason": "Retrato individual, nítido e de boa qualidade de Camila Rodrigues, sem montagem, texto ou elementos que sugiram outro acontecimento.",
       "visibleSubject": "Camila Rodrigues em retrato aproximado, com cabelos castanhos longos e blusa alaranjada.",
       "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:21:30.484Z"
-    }
-  },
-  {
-    "id": "RGlhIEQgfCBGaWxtZSBk",
-    "reviewId": "RGlhIEQgfCBGaWxtZSBk",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "'Dia D', novo filme de Steven Spielberg, arrecada US$ 12,5 milhões na estreia",
-    "slug": "dia-d-novo-filme-de-steven-spielberg-arrecada-us-12-5-milhoes-na-estreia",
-    "excerpt": "O filme 'Dia D', dirigido por Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia.",
-    "body": [
-      "O novo filme de Steven Spielberg, 'Dia D', arrecadou US$ 12,5 milhões em sua estreia, segundo informações do Omelete.",
-      "O longa-metragem estreou nos cinemas, incluindo em Rio Branco, conforme o G1.",
-      "A obra é descrita pelo Estadão como um exemplo do domínio de Spielberg no cinema de espetáculo, com foco na emoção."
-    ],
-    "html": "<p>O novo filme de Steven Spielberg, 'Dia D', arrecadou US$ 12,5 milhões em sua estreia, segundo informações do Omelete.</p>\n<p>O longa-metragem estreou nos cinemas, incluindo em Rio Branco, conforme o G1.</p>\n<p>A obra é descrita pelo Estadão como um exemplo do domínio de Spielberg no cinema de espetáculo, com foco na emoção.</p>",
-    "category": "Cinema",
-    "market": "brasil",
-    "tags": [
-      "Dia D",
-      "Steven Spielberg",
-      "bilheteria",
-      "estreia",
-      "cinema"
-    ],
-    "source": "Omelete",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWDh0QmdycklLcTBzT0hsMGFGdjlUdGhKNmt0c1dvSERmZEtLTmEzNzEzRjNRVWdHZFplQ1NBNVpIaWJaYW5RY1pjNzdxVXZkUGgyX05zM1dBYnN3UVNabFhYU3p5Q0FUSXRPZTRDVXRNRkloR01XU2FEeXFUS3JVQ1hzU0Ftc0Qxa0E?oc=5",
-    "evidenceSources": [
-      "Omelete",
-      "Folha de S.Paulo",
-      "Estadão",
-      "Rolling Stone Brasil",
-      "G1"
-    ],
-    "evidenceClaims": [
-      "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
-      "Na estreia de 'Dia D', saiba onde ver outros filmes de Steven Spielberg sobre ETs",
-      "‘Dia D’: Spielberg tem total domínio do cinema de espetáculo e escolhe a emoção para dar seu recado",
-      "Os 16 filmes de Steven Spielberg no século XXI, da menor para a maior bilheteria",
-      "'Dia D', novo filme de Steven Spielberg, estreia no cinema de Rio Branco"
-    ],
-    "sourceCount": 5,
-    "score": 132,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/dia-d-novo-filme-de-steven-spielberg-arrecada-us-12-5-milhoes-na-estreia.jpg",
-    "imageCredit": "Foto: © 2026 Observatório do Cinema Politica de privacidade Termos de uso Fale conosco Quem somos",
-    "imageSubject": "Steven Spielberg ou cena do filme 'Dia D'",
-    "imageSearchQuery": "Steven Spielberg Dia D filme 2026",
-    "imageAlt": "Steven Spielberg ou cena do filme Dia D",
-    "editorialMeta": {
-      "originalTitle": "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
-      "sourceId": "RGlhIEQgfCBGaWxtZSBk",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "O filme 'Dia D', dirigido por Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia.",
-        "O filme estreou nos cinemas, incluindo em Rio Branco.",
-        "O Estadão descreve o filme como um exemplo do domínio de Spielberg no cinema de espetáculo, com foco na emoção."
-      ],
-      "generatedAt": "2026-06-13T01:15:28.172Z"
-    },
-    "createdAt": "2026-06-13T01:15:28.172Z",
-    "imagePostUrl": "https://observatoriodocinema.com.br/filmes/dia-d-filme-de-steven-spielberg-ganha-trailer-no-super-bowl-2026-assista/",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://observatoriodocinema.com.br/filmes/dia-d-filme-de-steven-spielberg-ganha-trailer-no-super-bowl-2026-assista/",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 5,
-      "confidence": 0.97,
-      "reason": "Imagem limpa e de boa qualidade, claramente apresentada como cena promocional de 'Dia D' na página de origem. É mais adequada à matéria do que os cartazes com texto pesado.",
-      "visibleSubject": "Ator caracterizado em uma cena de laboratório do filme 'Dia D', usando sensores na cabeça.",
-      "concerns": [
-        "A pessoa retratada não é Steven Spielberg."
-      ],
       "model": "codex-cli",
       "origin": "web"
     },
@@ -1067,162 +1579,6 @@
         "title": "Amanda Klein é a nova apresentadora do SBT News | TikTok",
         "width": 1080,
         "height": 1920
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:11:26.415Z"
-    }
-  },
-  {
-    "id": "RXF1aXBlIGRlIEFuYSBD",
-    "reviewId": "RXF1aXBlIGRlIEFuYSBD",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Equipe de Ana Castela anuncia medidas judiciais após rumores de traição",
-    "slug": "equipe-de-ana-castela-anuncia-medidas-judiciais-apos-rumores-de-traicao",
-    "excerpt": "A equipe de Ana Castela se pronunciou após boatos de que a cantora teria traído o ex-namorado com Zé Felipe. A assessoria afirma que tomará providências judiciais.",
-    "body": [
-      "A equipe de Ana Castela se pronunciou após rumores de que a cantora teria traído o ex-namorado com Zé Felipe. A assessoria afirma que tomará providências judiciais.",
-      "Os boatos ganharam força após o jornalista Leo Dias insinuar que Ana Castela teria engatado um relacionamento com Zé Felipe antes de terminar com o ex. A cantora nega as acusações e anunciou medidas legais contra o jornalista."
-    ],
-    "html": "<p>A equipe de Ana Castela se pronunciou após rumores de que a cantora teria traído o ex-namorado com Zé Felipe. A assessoria afirma que tomará providências judiciais.</p>\n<p>Os boatos ganharam força após o jornalista Leo Dias insinuar que Ana Castela teria engatado um relacionamento com Zé Felipe antes de terminar com o ex. A cantora nega as acusações e anunciou medidas legais contra o jornalista.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Ana Castela",
-      "Leo Dias",
-      "traição",
-      "medidas judiciais"
-    ],
-    "source": "Rádio Itatiaia",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPLS0yZEdYYmhvWmFGRUZPVDMwSVFLeXZ3M3M2bkswdmZ1alptelcxWDVIcnJRaHppZTVZcjJDNVBaS1dLZ2Qzek5rSU9jUnpQcDlVQm1jZXVITFhORWpxdTU5U09aRlVnY0pob3FmZFcxVGRVVHNyUk03cTFZMmk1cllLTmJlUGpHajV0THpnejRfemdtSkZlNU5rUFdIYnIzNTFEU0lmQU96SEdlUmZnb3JTSmJJUQ?oc=5",
-    "evidenceSources": [
-      "Rádio Itatiaia",
-      "Notícias da TV",
-      "Midiamax",
-      "ACidade ON",
-      "O TEMPO"
-    ],
-    "evidenceClaims": [
-      "Equipe de Ana Castela se pronuncia após rumores de traição virem à tona",
-      "Ana Castela anuncia 'providências judiciais' após ser acusada de trair ex com Zé Felipe",
-      "Traiu? Leo Dias afirma que Ana Castela engatou com Zé Felipe antes de terminar com Mioto",
-      "Ana Castela vai processar Leo Dias após jornalista insinuar traição da cantora",
-      "Bomba! Ana Castela rebate informações divulgadas por Leo Dias e anuncia medidas judiciais"
-    ],
-    "sourceCount": 5,
-    "score": 98,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Ana Castela",
-    "imageSearchQuery": "Ana Castela cantora",
-    "imageAlt": "Ana Castela",
-    "editorialMeta": {
-      "originalTitle": "Equipe de Ana Castela se pronuncia após rumores de traição virem à tona",
-      "sourceId": "RXF1aXBlIGRlIEFuYSBD",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Equipe de Ana Castela se pronunciou após rumores de traição.",
-        "Ana Castela anuncia 'providências judiciais' após ser acusada de trair ex com Zé Felipe.",
-        "Leo Dias afirmou que Ana Castela engatou com Zé Felipe antes de terminar com Mioto.",
-        "Ana Castela vai processar Leo Dias após jornalista insinuar traição."
-      ],
-      "generatedAt": "2026-06-13T01:09:52.120Z"
-    },
-    "createdAt": "2026-06-13T01:09:52.120Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://mspost.com.br/wp-content/uploads/2023/05/a-cantora-ana-castela-assume-o-trono-da-musica-sertaneja.jpg",
-        "pageUrl": "https://mspost.com.br/a-cantora-ana-castela-assume-o-trono-da-musica-sertaneja/",
-        "source": "Bing",
-        "title": "A cantora Ana Castela assume o trono da música sertaneja",
-        "width": 1200,
-        "height": 800
-      },
-      {
-        "imageUrl": "https://shows.net.br/wp-content/uploads/2023/04/ana-castela-5.jpg",
-        "pageUrl": "https://shows.net.br/noticias/nosso-quadro-de-ana-castela-lidera-o-ranking-das-mais-tocadas-de-abril/",
-        "source": "Bing",
-        "title": "\"Nosso Quadro\", de Ana Castela, Lidera o Ranking Das Mais Tocadas de Abril",
-        "width": 1440,
-        "height": 903
-      },
-      {
-        "imageUrl": "https://billboard.com.br/wp-content/uploads/2024/04/IMG_3828-scaled.jpg",
-        "pageUrl": "https://billboard.com.br/artistas/ana-castela-biografia/",
-        "source": "Bing",
-        "title": "Ana Castela - Billboard Brasil",
-        "width": 2560,
-        "height": 1748
-      },
-      {
-        "imageUrl": "https://seubeneficiodigital.com.br/wp-content/uploads/2023/10/Snapinsta.app_355043625_946034366517939_4626976112278970659_n_1080-e1687809861902-1.jpg",
-        "pageUrl": "https://seubeneficiodigital.com.br/fenomeno-ana-castela-conheca-a-historia-da-cantora-boiadeira/",
-        "source": "Bing",
-        "title": "Fenômeno Ana Castela: conheça a história da cantora \"boiadeira\"",
-        "width": 1200,
-        "height": 721
-      },
-      {
-        "imageUrl": "https://s2.glbimg.com/eyyF4B5D8-dAqh-ftaoExudCdxQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/2/z/xTzB9wQrSUnAySARKwdA/ana-castela-celso-tavares-g1-5-de-18-b.jpg",
-        "pageUrl": "https://popeartebrasil.wordpress.com/2023/04/04/ana-castela-se-torna-artista-mais-ouvida-no-brasil-no-youtube/",
-        "source": "Bing",
-        "title": "Ana Castela se torna artista mais ouvida no Brasil no YouTube - Pop e Arte",
-        "width": 3000,
-        "height": 2000
-      },
-      {
-        "imageUrl": "https://gmconline.com.br/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-26-at-10.29.15_Easy-Resize.com_.jpg?v=03.07.1.41.35",
-        "pageUrl": "https://gmconline.com.br/entretenimento/cantora-sertaneja-ana-castela-grava-clipe-em-maringa-ao-ladro-de-pedro-sampai/",
-        "source": "Bing",
-        "title": "Cantora sertaneja Ana Castela grava videoclipe em Maringá",
-        "width": 1032,
-        "height": 1280
-      },
-      {
-        "imageUrl": "https://static1.purepeople.com.br/articles/6/35/81/86/@/4103731-ana-castela-de-18-anos-e-a-nova-aposta-580x0-2.jpg",
-        "pageUrl": "https://www.purepeople.com.br/galeria/febre-no-sertanejo-ana-castela-estreia-na-festa-do-peao-de-barretos-conheca-cantora_a358186/1",
-        "source": "Bing",
-        "title": "Quem é Ana Castela? Febre no sertanejo, cantora estreia na Festa do ...",
-        "width": 580,
-        "height": 871
-      },
-      {
-        "imageUrl": "https://www.tecplustelecom.com.br/wp-content/uploads/2023/11/Ana-Castela.jpg",
-        "pageUrl": "https://www.tecplustelecom.com.br/artigos/a-ascensao-meteorica-de-ana-castela-na-cena-musical-brasileira/",
-        "source": "Bing",
-        "title": "A Ascensão Meteórica de Ana Castela na Cena Musical Brasileira",
-        "width": 1200,
-        "height": 720
       }
     ],
     "imageReview": {
@@ -2808,167 +3164,6 @@
       "status": "approved",
       "channel": "whatsapp",
       "approvedAt": "2026-06-13T00:17:37.783Z"
-    }
-  },
-  {
-    "id": "TWF1IE1hdSBkZSBRdWVt",
-    "reviewId": "TWF1IE1hdSBkZSBRdWVt",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "João Victor Gonçalves fala sobre sexualidade e papel em Quem Ama Cuida",
-    "slug": "joao-victor-goncalves-fala-sobre-sexualidade-e-papel-em-quem-ama-cuida",
-    "excerpt": "Intérprete de Mau Mau, ator abordou a reação da família à sua sexualidade e a homofobia retratada na novela.",
-    "body": [
-      "João Victor Gonçalves, intérprete de Mau Mau em Quem Ama Cuida, revelou como sua família reagiu à sua sexualidade. O ator também refletiu sobre a experiência de viver um personagem LGBTQ+ na novela.",
-      "Mau Mau sofre homofobia na trama. João Victor afirmou que um caso real de homofobia o inspira no trabalho e relacionou o personagem à possibilidade de transformar a vida de muitos jovens."
-    ],
-    "html": "<p>João Victor Gonçalves, intérprete de Mau Mau em Quem Ama Cuida, revelou como sua família reagiu à sua sexualidade. O ator também refletiu sobre a experiência de viver um personagem LGBTQ+ na novela.</p>\n<p>Mau Mau sofre homofobia na trama. João Victor afirmou que um caso real de homofobia o inspira no trabalho e relacionou o personagem à possibilidade de transformar a vida de muitos jovens.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "João Victor Gonçalves",
-      "Mau Mau",
-      "Quem Ama Cuida",
-      "sexualidade",
-      "homofobia"
-    ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "NaTelinha",
-      "Gshow",
-      "Terra",
-      "purepeople.com.br"
-    ],
-    "evidenceClaims": [
-      "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
-      "Mau Mau em Quem Ama Cuida, ator revela caso real de homofobia que o inspira na novela",
-      "João Victor Gonçalves, o Mau Mau de Quem Ama Cuida, reflete sobre personagem LGBTQ+: 'Transformar a vida de muitos jovens'",
-      "Tony Ramos reflete sobre comportamento intolerante de personagem em Quem Ama, Cuida: 'Nada a ver comigo'",
-      "'Medos e limitações': neto que sofre homofobia de Tony Ramos em 'Quem Ama Cuida', João Victor Gonçalves desabafa sobre relação com o veterano nos bastidores da novela"
-    ],
-    "sourceCount": 5,
-    "score": 131,
-    "trendBoost": true,
-    "trendMatches": [
-      "resumo da novela quem ama cuida"
-    ],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "João Victor Gonçalves, intérprete de Mau Mau em Quem Ama Cuida",
-    "imageSearchQuery": "João Victor Gonçalves Mau Mau Quem Ama Cuida",
-    "imageAlt": "João Victor Gonçalves, intérprete de Mau Mau na novela Quem Ama Cuida",
-    "editorialMeta": {
-      "originalTitle": "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
-      "sourceId": "TWF1IE1hdSBkZSBRdWVt",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.98,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "João Victor Gonçalves interpreta Mau Mau em Quem Ama Cuida.",
-        "O ator revelou como sua família reagiu à sua sexualidade.",
-        "Mau Mau é um personagem LGBTQ+.",
-        "Mau Mau sofre homofobia na novela.",
-        "Um caso real de homofobia inspira João Victor Gonçalves na novela.",
-        "O ator relacionou o personagem à transformação da vida de muitos jovens."
-      ],
-      "generatedAt": "2026-06-13T00:12:26.033Z"
-    },
-    "createdAt": "2026-06-13T00:12:26.033Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://uploads.observatoriog.com.br/2026/01/EAVvhrcY-Joao-Victor-Goncalves.webp",
-        "pageUrl": "https://observatoriog.com.br/noticias/quem-ama-cuida-globo-define-ator-que-vivera-irmao-da-protagonista-que-se-descobrira-gay/",
-        "source": "Bing",
-        "title": "Quem Ama Cuida: Globo define ator que viverá irmão da protagonista e se ...",
-        "width": 1200,
-        "height": 900
-      },
-      {
-        "imageUrl": "https://s2-oglobo.glbimg.com/0lwqYHSnKNlmKUkyB9Zz58BX0rc=/0x0:844x793/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/r/H/pGICAeRDeJt1BwqW1LkA/joaovictorgoncalvess.jpg",
-        "pageUrl": "https://oglobo.globo.com/play/novelas/noticia/2026/01/28/quem-ama-cuida-joao-victor-goncalves-sera-irmao-de-leticia-colin-veja-o-que-acontecera-com-ele-na-novela.ghtml",
-        "source": "Bing",
-        "title": "'Quem ama cuida': João Victor Gonçalves será irmão de Leticia Colin ...",
-        "width": 888,
-        "height": 834
-      },
-      {
-        "imageUrl": "https://istoe.com.br/wp-content/uploads/2026/04/Joao-Victor-Goncalves-1200x630.jpg",
-        "pageUrl": "https://istoe.com.br/joao-victor-goncalves-horario-nobre-quem-ama-cuida",
-        "source": "Bing",
-        "title": "João Victor Gonçalves se prepara para estrear no horário nobre em 'Quem ...",
-        "width": 1200,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/01/29/joao-victor-goncalves-vive-irmao-gay-de-leticia-colin-em-quem-ama-cuida-697b44ee580f9.webp",
-        "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/joao-victor-goncalves-vive-irmao-gay-de-leticia-colin-em-quem-ama-cuida.html",
-        "source": "Bing",
-        "title": "João Victor Gonçalves vive irmão gay de Letícia Colin em \"Quem Ama, Cuida\"",
-        "width": 1200,
-        "height": 628
-      },
-      {
-        "imageUrl": "https://idactors.com.br/wp-content/uploads/2024/10/Joao-Victor-Goncalves1.jpg",
-        "pageUrl": "https://idactors.com.br/joao-victor-goncalves/",
-        "source": "Bing",
-        "title": "João Victor Gonçalves",
-        "width": 1068,
-        "height": 1600
-      },
-      {
-        "imageUrl": "https://idactors.com.br/wp-content/uploads/2024/10/COMPOSITE-Joao-Victor-Goncalves-1140x641.jpg",
-        "pageUrl": "https://idactors.com.br/joao-victor-goncalves/",
-        "source": "Bing",
-        "title": "João Victor Gonçalves",
-        "width": 1140,
-        "height": 641
-      },
-      {
-        "imageUrl": "https://i.ytimg.com/vi/KwdwHo8pu8c/maxresdefault.jpg",
-        "pageUrl": "https://www.youtube.com/watch?v=KwdwHo8pu8c",
-        "source": "Bing",
-        "title": "Conheça Quem Ama Cuida, a nova novela! - YouTube",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "imageUrl": "https://s2-quem.glbimg.com/6tm_e5Uoj9BOFVX2UbZaMqW3haM=/0x0:2362x1575/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/0/O/e2rMBWSjWtmca6jZEVJw/assets-fotos-1320-entre-perdas-luta-por-justica-e-esperanca-o-amor-de-adriana-e-pedro-6f97b99cfc1b.jpg",
-        "pageUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/04/leticia-colin-a-protagonista-de-nova-novela-das-9-estou-com-muita-sede-de-trabalhar.ghtml",
-        "source": "Bing",
-        "title": "Letícia Colin, a protagonista de nova novela das 9: 'Estou com muita ...",
-        "width": 984,
-        "height": 656
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T00:55:44.727Z"
     }
   },
   {

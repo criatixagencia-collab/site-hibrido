@@ -132,7 +132,11 @@ function sanitizeProviderError(value = "") {
 
 async function requestProviderJson(messages, maxTokens = 3200) {
   if (useCodexForPosts()) {
-    return requestCodexJson({ messages, schema: WRITER_SCHEMA });
+    try {
+      return await requestCodexJson({ messages, schema: WRITER_SCHEMA });
+    } catch (codexError) {
+      console.warn(`[codex] fallback p/ API (writer): ${sanitizeProviderError(codexError.message)}`);
+    }
   }
 
   const response = await fetch(aiChatCompletionsUrl(), {
@@ -234,40 +238,44 @@ async function callReviewEndpoint({ url, key, model, provider, payload }) {
 
 async function requestIndependentReview(payload) {
   if (useCodexForPosts()) {
-    const result = await requestCodexJson({
-      schema: REVIEW_SCHEMA,
-      messages: [
-        {
-          role: "system",
-          content:
-            "Voce e um revisor factual rigoroso. Compare cada afirmacao especifica do texto somente com as evidencias fornecidas. Nao use memoria externa. Reprove exagero, previsao, contexto biografico, numero, data, fala, agenda, causa, consequencia ou adjetivo promocional sem apoio explicito. ATENCAO: uma pessoa ser mencionada nas evidencias NAO significa que ela participou do fato noticiado. Conexoes entre duas pessoas/eventos (ex: X comentou no post de Y, X reagiu a Y) so sao validas se uma mesma evidencia explicitar essa conexao. Retorne apenas JSON valido.",
-        },
-        {
-          role: "user",
-          content: JSON.stringify({
-            task:
-              "Audite o rascunho. approved so pode ser true quando todas as afirmacoes verificaveis estiverem apoiadas pelas evidencias e o texto nao tiver enchimento generico.",
-            outputFormat: {
-              approved: "boolean",
-              confidence: "number 0 to 1",
-              issues: ["string"],
-              unsupportedClaims: ["string"],
-            },
-            ...payload,
-          }),
-        },
-      ],
-    });
-    return {
-      status: result.approved === true ? "approved" : "rejected",
-      confidence: Number(result.confidence || 0),
-      issues: Array.isArray(result.issues) ? result.issues : [],
-      unsupportedClaims: Array.isArray(result.unsupportedClaims)
-        ? result.unsupportedClaims
-        : [],
-      model: "codex-cli",
-      provider: "codex-oauth",
-    };
+    try {
+      const result = await requestCodexJson({
+        schema: REVIEW_SCHEMA,
+        messages: [
+          {
+            role: "system",
+            content:
+              "Voce e um revisor factual rigoroso. Compare cada afirmacao especifica do texto somente com as evidencias fornecidas. Nao use memoria externa. Reprove exagero, previsao, contexto biografico, numero, data, fala, agenda, causa, consequencia ou adjetivo promocional sem apoio explicito. ATENCAO: uma pessoa ser mencionada nas evidencias NAO significa que ela participou do fato noticiado. Conexoes entre duas pessoas/eventos (ex: X comentou no post de Y, X reagiu a Y) so sao validas se uma mesma evidencia explicitar essa conexao. Retorne apenas JSON valido.",
+          },
+          {
+            role: "user",
+            content: JSON.stringify({
+              task:
+                "Audite o rascunho. approved so pode ser true quando todas as afirmacoes verificaveis estiverem apoiadas pelas evidencias e o texto nao tiver enchimento generico.",
+              outputFormat: {
+                approved: "boolean",
+                confidence: "number 0 to 1",
+                issues: ["string"],
+                unsupportedClaims: ["string"],
+              },
+              ...payload,
+            }),
+          },
+        ],
+      });
+      return {
+        status: result.approved === true ? "approved" : "rejected",
+        confidence: Number(result.confidence || 0),
+        issues: Array.isArray(result.issues) ? result.issues : [],
+        unsupportedClaims: Array.isArray(result.unsupportedClaims)
+          ? result.unsupportedClaims
+          : [],
+        model: "codex-cli",
+        provider: "codex-oauth",
+      };
+    } catch (codexError) {
+      console.warn(`[codex] fallback p/ revisor: ${sanitizeProviderError(codexError.message)}`);
+    }
   }
 
   const openAIKey = process.env.OPENAI_API_KEY || "";
