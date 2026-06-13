@@ -1,5 +1,937 @@
 [
   {
+    "id": "UXVhbCBhdmFsaWHDp8Oj",
+    "reviewId": "UXVhbCBhdmFsaWHDp8Oj",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Vivão é o novo Patrão da semana em Casa do Patrão",
+    "slug": "vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao",
+    "excerpt": "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality da Record.",
+    "body": [
+      "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality 'Casa do Patrão', da Record.",
+      "Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da semana.",
+      "Na mesma edição, os participantes enfrentaram um desafio na esteira em disputa pelo cargo de Patrão.",
+      "O programa 'Casa do Patrão' conseguiu vitória contra o 'Ratinho' e ficou na vice-liderança de audiência."
+    ],
+    "html": "<p>Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality 'Casa do Patrão', da Record.</p>\n<p>Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da semana.</p>\n<p>Na mesma edição, os participantes enfrentaram um desafio na esteira em disputa pelo cargo de Patrão.</p>\n<p>O programa 'Casa do Patrão' conseguiu vitória contra o 'Ratinho' e ficou na vice-liderança de audiência.</p>",
+    "category": "TV",
+    "market": "brasil",
+    "tags": [
+      "Casa do Patrão",
+      "Vivão",
+      "Record",
+      "Patrão",
+      "audiência"
+    ],
+    "source": "R7",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5",
+    "evidenceSources": [
+      "R7",
+      "Notícias da TV",
+      "O Universo da TV",
+      "tracklist.com.br",
+      "TV RECORD EUROPA"
+    ],
+    "evidenceClaims": [
+      "Qual avaliação Vivão merece como Patrão?",
+      "Casa do Patrão consegue vitória contra o Ratinho e fica na vice-liderança",
+      "Participantes enfrentam desafio na esteira em disputa pelo cargo de Patrão em 'Casa do Patrão'",
+      "Prova do Patrão: Alexandre Vivão é o mandachuva da semana; veja mais",
+      "Vivão avalia desempenho dos concorrentes no Trampo da ‘Casa do Patrão’"
+    ],
+    "sourceCount": 5,
+    "score": 98,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao.webp",
+    "imageCredit": "Foto: Vivão, participante da \"Casa do Patrão\" • Divulgação/Record",
+    "imageSubject": "Alexandre Vivão",
+    "imageSearchQuery": "Alexandre Vivão Casa do Patrão",
+    "imageAlt": "Alexandre Vivão, novo Patrão da semana em Casa do Patrão",
+    "editorialMeta": {
+      "originalTitle": "Qual avaliação Vivão merece como Patrão?",
+      "sourceId": "UXVhbCBhdmFsaWHDp8Oj",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana em 'Casa do Patrão'.",
+        "Vivão avaliou o desempenho dos concorrentes no Trampo da semana.",
+        "Participantes enfrentaram desafio na esteira em disputa pelo cargo de Patrão.",
+        "'Casa do Patrão' venceu o 'Ratinho' e ficou na vice-liderança de audiência."
+      ],
+      "generatedAt": "2026-06-13T01:17:41.446Z"
+    },
+    "createdAt": "2026-06-13T01:17:41.446Z",
+    "imagePostUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 0,
+      "confidence": 0.97,
+      "reason": "A imagem mostra claramente Alexandre Vivão e o identifica pelo nome, sendo a única candidata alinhada ao personagem central da matéria.",
+      "visibleSubject": "Alexandre Vivão em retrato individual com ficha de apresentação do reality.",
+      "concerns": [
+        "Há texto e elementos gráficos ocupando parte relevante da imagem."
+      ],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "QmnDs3BzaWE6IGVudGVu",
+    "reviewId": "QmnDs3BzaWE6IGVudGVu",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Filha de Graciele Lacerda e Zezé Di Camargo passa por biópsia de nódulo no rosto",
+    "slug": "filha-de-graciele-lacerda-e-zeze-di-camargo-passa-por-biopsia-de-nodulo-no-rosto",
+    "excerpt": "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por cirurgia para retirada de um nódulo do rosto. Graciele chorou ao comentar o procedimento e depois revelou o resultado da biópsia.",
+    "body": [
+      "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por uma cirurgia para retirada de um nódulo do rosto. O procedimento foi comentado por Graciele, que chorou ao falar sobre o assunto.",
+      "Após a cirurgia, Graciele Lacerda revelou o resultado da biópsia do nódulo. Zezé Di Camargo também mostrou a bebê após o procedimento no rostinho dela.",
+      "A biópsia é um exame que analisa uma amostra de tecido para identificar possíveis alterações. No caso da filha do casal, o nódulo foi retirado e analisado."
+    ],
+    "html": "<p>A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por uma cirurgia para retirada de um nódulo do rosto. O procedimento foi comentado por Graciele, que chorou ao falar sobre o assunto.</p>\n<p>Após a cirurgia, Graciele Lacerda revelou o resultado da biópsia do nódulo. Zezé Di Camargo também mostrou a bebê após o procedimento no rostinho dela.</p>\n<p>A biópsia é um exame que analisa uma amostra de tecido para identificar possíveis alterações. No caso da filha do casal, o nódulo foi retirado e analisado.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Graciele Lacerda",
+      "Zezé Di Camargo",
+      "biópsia",
+      "nódulo",
+      "cirurgia",
+      "bebê"
+    ],
+    "source": "O Globo",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOXBLeTdWVm9NS1g3cFhLZjdQbnBzUTlfRUxrUF9RdVZDQVZQNXRrMzB1a25lUnllVGN6OFQxblhSUHROeTRLLTEwOHNhdFFwRmZRdXM1T3Z3b2dsbjNGNFBJY0twNnczRkItdk55OGdjMUQza3FKbWV0RFdoRGhSRng0eThUSzNodkk5ckFXbDlMTklCLVFZby1QZzdBMXJHa1JvTDFtTUhxZmRDWV83WVZkRUlERU9Ob0V5bHkydXZteTJwYjgydE15cXVhRUxScGNoUXdYQWlnd25hb1N2c21OMVViXzJ4TldUamtiWdIB_gFBVV95cUxPRWdHd1pMM24yYXBKWk95YzhFSHpwUHBSd3hCRGVrRUh1VUNXQlN0cWxHNFdNUVBGbHNNOVBOdWZHclVIV28zcnVJVGYtQ1BzQkRsdktveDNUT1ZoTnE4LUI4T3BJaFBNV0hlb2lfcWRnX0JXbXpjQVctTGNfbnktMkNraDN6Q3I3MTVFUGM1SUlPdVR0VnMxUzhHRjhZUHlZeEhudG1qSGh6YUs3Qm9lWEFFT3pnN2tpMFNfTm1Wcy1vd19QM0Y3R0tGVkxHNHBrYnp2YnYzYjRsNzZKVDgtc2FUaDFDbC1zMXpReWYwY3d4UDlMQkR3bFFIak0tdw?oc=5",
+    "evidenceSources": [
+      "O Globo",
+      "CNN Brasil",
+      "Globo",
+      "Estadão",
+      "R7 Entretenimento"
+    ],
+    "evidenceClaims": [
+      "Biópsia: entenda o exame feito pela filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses",
+      "Graciele chora ao comentar cirurgia de retirada de nódulo da filha com Zezé",
+      "Graciele Lacerda revela resultado da biópsia do nódulo retirado do rosto da filha com Zezé Di Camargo",
+      "Entenda por que a filha de Graciele Lacerda e Zezé Di Camargo teve de retirar nódulo do rosto",
+      "Zezé Di Camargo mostra a bebê após cirurgia no rostinho dela"
+    ],
+    "sourceCount": 5,
+    "score": 104,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/filha-de-graciele-lacerda-e-zeze-di-camargo-passa-por-biopsia-de-nodulo-no-rosto.jpg",
+    "imageCredit": "foto-com-todos-os-pets/\" style=\"text-decoration: none !important;\">",
+    "imageSubject": "Filha de Graciele Lacerda e Zezé Di Camargo",
+    "imageSearchQuery": "filha Graciele Lacerda Zezé Di Camargo bebê",
+    "imageAlt": "Bebê, filha de Graciele Lacerda e Zezé Di Camargo",
+    "editorialMeta": {
+      "originalTitle": "Biópsia: entenda o exame feito pela filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses",
+      "sourceId": "QmnDs3BzaWE6IGVudGVu",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "A filha de Graciele Lacerda e Zezé Di Camargo tem um ano e cinco meses.",
+        "A filha do casal passou por cirurgia para retirada de um nódulo do rosto.",
+        "Graciele chorou ao comentar a cirurgia.",
+        "Graciele revelou o resultado da biópsia do nódulo.",
+        "Zezé Di Camargo mostrou a bebê após a cirurgia."
+      ],
+      "generatedAt": "2026-06-13T01:17:14.704Z"
+    },
+    "createdAt": "2026-06-13T01:17:14.704Z",
+    "imagePostUrl": "https://aloalobahia.com/noticias/2026/01/02/graciele-lacerda-lamenta-comentario-ofensivo-sobre-aparencia-da-filha-clara-que-nao-te-falte-amor-e-empatia/",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://aloalobahia.com/noticias/2026/01/02/graciele-lacerda-lamenta-comentario-ofensivo-sobre-aparencia-da-filha-clara-que-nao-te-falte-amor-e-empatia/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 1,
+      "confidence": 0.94,
+      "reason": "A imagem mostra claramente Graciele Lacerda com a filha Clara, sujeito central da matéria, com o rosto da criança visível e boa qualidade jornalística.",
+      "visibleSubject": "Graciele Lacerda posa ao lado da filha Clara, que aparece em primeiro plano.",
+      "concerns": [
+        "A foto é um retrato familiar e não registra o procedimento médico mencionado."
+      ],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "TGVhbmRyYSBMZWFsIGZh",
+    "reviewId": "TGVhbmRyYSBMZWFsIGZh",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Leandra Leal fala de parceria com Isabelle Drummond e novo filme da Globo",
+    "slug": "leandra-leal-fala-de-parceria-com-isabelle-drummond-e-novo-filme-da-globo",
+    "excerpt": "Leandra Leal comenta parceria com Isabelle Drummond em 'Coração acelerado' e revela detalhes sobre novo filme da Globo.",
+    "body": [
+      "Leandra Leal falou sobre a parceria com Isabelle Drummond na novela 'Coração acelerado' e também sobre um novo filme da Globo.",
+      "A atriz, de 43 anos, revelou que a vilã Zilá, que interpreta na trama, 'não vai acabar rica' e que já tem uma escolha feita para aproveitar os primeiros anos do filho caçula.",
+      "Leandra afirmou: 'Não quero falar sobre o que eu estou vivendo'."
+    ],
+    "html": "<p>Leandra Leal falou sobre a parceria com Isabelle Drummond na novela 'Coração acelerado' e também sobre um novo filme da Globo.</p>\n<p>A atriz, de 43 anos, revelou que a vilã Zilá, que interpreta na trama, 'não vai acabar rica' e que já tem uma escolha feita para aproveitar os primeiros anos do filho caçula.</p>\n<p>Leandra afirmou: 'Não quero falar sobre o que eu estou vivendo'.</p>",
+    "category": "Cinema",
+    "market": "brasil",
+    "tags": [
+      "Leandra Leal",
+      "Isabelle Drummond",
+      "Coração acelerado",
+      "Globo",
+      "novela",
+      "filme"
+    ],
+    "source": "O Globo",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNzdscTVTT0hLd005NXlJeWFaMnQwWWFIVml6czlBXzYtWGFtanVPRHZma1NESmEzWTVsUUhDZEZYR3lzdHBDWHBKTGlkRENIZXRZX1Q5X2ktWUxVZERRenNheUVqZUFZa01aLVVoUUVCSk9XLTJ2di1NT1hrdkd4YnprSWxkWDB2VVNWanNUaXR0UDdxRHI2aTF2QlRKREs2NkpNSXhocDlDM3hiOExRQVZiTHVlUjJidm91eTJ3UktkSFhleEFtM2RQNVJsRVpuSjVuZ3pmM0M4MkZrZFpoSzNCR0ZDV1UwbGVPdFBBa0t2RmFDZkxB0gGGAkFVX3lxTE1FZGJfbmlKQ05hd2hmVW1jR1BKUmdMa1FxUm95UnBNYkw0OC1CeUU3QjlEZVducHA3dEQtQWxQS1hBdmFKVWRXUFVXZHVTUXFZdElmOXdlbDZRTnNhaDltMmpQdG9OdEg4VjdHdS0yVEZlYnpDdzVJYk96eVVzQUlwbjBCUTRjT2tyYTNTX2Vmc3VLSTVUM2taRlAtSUgwUGRzMVVzV0wta3QwN2hmYnJPcXFuWVl1NEd5ZFg5WlQxd1o4OEkwb3dZTFd1UjQ0ZVNMbmRvYzNvVkZNREJYV0ZvTzcxbjN4X2ZjcjR5SUV1NDc5OTFQS2pZZVgzb3hXak10ZHp3b2c?oc=5",
+    "evidenceSources": [
+      "O Globo",
+      "Notícias da TV",
+      "CARAS Brasil",
+      "NSC Total",
+      "diariodopara.com.br"
+    ],
+    "evidenceClaims": [
+      "Leandra Leal fala da parceria com Isabelle Drummond em 'Coração acelerado' e de novo filme da Globo",
+      "Leandra Leal prevê castigo para vilã de Coração Acelerado: 'Não vai acabar rica'",
+      "Leandra Leal revela escolha que fez para aproveitar os primeiros anos do filho caçula: 'Tinha o ideal...",
+      "Leandra Leal, aos 43 anos: \"Não quero falar sobre o que eu estou vivendo\"",
+      "Coração Acelerado: Leandra Leal revela fim da vilã Zilá; veja"
+    ],
+    "sourceCount": 5,
+    "score": 106,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/leandra-leal-fala-de-parceria-com-isabelle-drummond-e-novo-filme-da-globo.jpg",
+    "imageCredit": "Imagem ilustrativa: f5.folha.uol.com.br",
+    "imageSubject": "Leandra Leal",
+    "imageSearchQuery": "Leandra Leal entrevista 2026",
+    "imageAlt": "Leandra Leal em entrevista",
+    "editorialMeta": {
+      "originalTitle": "Leandra Leal fala da parceria com Isabelle Drummond em 'Coração acelerado' e de novo filme da Globo",
+      "sourceId": "TGVhbmRyYSBMZWFsIGZh",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Leandra Leal falou sobre a parceria com Isabelle Drummond em 'Coração acelerado'.",
+        "Leandra Leal falou sobre um novo filme da Globo.",
+        "Leandra Leal revelou que a vilã Zilá 'não vai acabar rica'.",
+        "Leandra Leal fez uma escolha para aproveitar os primeiros anos do filho caçula.",
+        "Leandra Leal disse: 'Não quero falar sobre o que eu estou vivendo'."
+      ],
+      "generatedAt": "2026-06-13T01:17:08.391Z"
+    },
+    "createdAt": "2026-06-13T01:17:08.391Z",
+    "imagePostUrl": "https://f5.folha.uol.com.br/cinema-e-series/2025/10/festival-do-rio-leandra-leal-brinca-que-o-agente-secreto-leva-o-oscar-se-a-premiacao-for-no-carnaval.shtml",
+    "imageCreditStatus": "domain-fallback",
+    "imageCreditSourceUrl": "https://f5.folha.uol.com.br/cinema-e-series/2025/10/festival-do-rio-leandra-leal-brinca-que-o-agente-secreto-leva-o-oscar-se-a-premiacao-for-no-carnaval.shtml",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 0,
+      "confidence": 0.98,
+      "reason": "A imagem mostra claramente Leandra Leal sozinha, em retrato jornalístico de alta qualidade, sem texto, montagem ou elementos que sugiram outro acontecimento.",
+      "visibleSubject": "Leandra Leal em retrato individual diante de fundo cinza.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "TWVsbCBNdXp6aWxsbyBl",
+    "reviewId": "TWVsbCBNdXp6aWxsbyBl",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Mell Muzzillo e Marcello Melo Jr. rebatem críticas por diferença de idade",
+    "slug": "mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-por-diferenca-de-idade",
+    "excerpt": "Atores da Globo reagem a comentários sobre os 17 anos de diferença e a um boato de traição.",
+    "body": [
+      "Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos no relacionamento. Em resposta, afirmaram: “As pessoas falam e a gente faz amor”.",
+      "Marcello Melo Jr. também rebateu um boato de traição no início do namoro com Mell Muzzillo, desafiando: “Quero ver provar”."
+    ],
+    "html": "<p>Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos no relacionamento. Em resposta, afirmaram: “As pessoas falam e a gente faz amor”.</p>\n<p>Marcello Melo Jr. também rebateu um boato de traição no início do namoro com Mell Muzzillo, desafiando: “Quero ver provar”.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Mell Muzzillo",
+      "Marcello Melo Jr.",
+      "diferença de idade",
+      "críticas",
+      "namoro"
+    ],
+    "source": "Portal UAI",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5",
+    "evidenceSources": [
+      "Portal UAI",
+      "Alô Alô Bahia",
+      "Jornal Correio",
+      "Jornal de Brasília",
+      "Notícias da TV"
+    ],
+    "evidenceClaims": [
+      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
+      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade",
+      "Atores da Globo rebatem críticas sobre diferença de idade: “As pessoas falam e a gente faz amor”",
+      "Marcello Melo Jr. rebate boato de traição no início de namoro com Mell Muzzillo: 'Quero ver provar'",
+      "“Falam e a gente faz amor”: Mell Muzzillo e Marcello Melo Jr. ignoram diferença de 17 anos",
+      "Com 17 anos de diferença, Mell Muzzillo e Marcello Melo Jr. rebatem críticas a namoro"
+    ],
+    "sourceCount": 5,
+    "score": 106,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-por-diferenca-de-idade.jpg",
+    "imageCredit": "Foto: (Marcello Melo Jr. e Mell Muzzillo Reprodução/Instagram)",
+    "imageSubject": "Mell Muzzillo e Marcello Melo Jr.",
+    "imageSearchQuery": "Mell Muzzillo e Marcello Melo Jr. casal",
+    "imageAlt": "Mell Muzzillo e Marcello Melo Jr. juntos",
+    "editorialMeta": {
+      "originalTitle": "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
+      "sourceId": "TWVsbCBNdXp6aWxsbyBl",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade.",
+        "Atores da Globo rebatem críticas sobre diferença de idade: “As pessoas falam e a gente faz amor”.",
+        "Marcello Melo Jr. rebate boato de traição no início de namoro com Mell Muzzillo: 'Quero ver provar'.",
+        "Com 17 anos de diferença, Mell Muzzillo e Marcello Melo Jr. rebatem críticas a namoro."
+      ],
+      "generatedAt": "2026-06-13T01:17:02.834Z"
+    },
+    "createdAt": "2026-06-13T01:17:02.834Z",
+    "imagePostUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 6,
+      "confidence": 0.98,
+      "reason": "A imagem mostra claramente Mell Muzzillo e Marcello Melo Jr. juntos, em uma fotografia nítida e sem elementos que sugiram outro acontecimento central.",
+      "visibleSubject": "Mell Muzzillo e Marcello Melo Jr. posando juntos diante da Torre Eiffel, em Paris.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "w4BzIHbDqXNwZXJhcyBk",
+    "reviewId": "w4BzIHbDqXNwZXJhcyBk",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Ex-cantoras do Rouge trocam farpas às vésperas de documentário",
+    "slug": "ex-cantoras-do-rouge-trocam-farpas-as-vesperas-de-documentario",
+    "excerpt": "Karin Hils e Luciana Andrade trocam farpas sobre bastidores do grupo Rouge antes de documentário.",
+    "body": [
+      "Às vésperas do lançamento de um documentário sobre o Rouge, ex-cantoras do grupo trocam farpas. Karin Hils se pronunciou após um desabafo de Lu Andrade, enquanto Luciana Andrade expôs bastidores, falou sobre mentiras e arrependimento, e esclareceu rumores sobre sua saída do grupo.",
+      "Em meio à polêmica, Karin Hils também comentou sobre o reality \"Estrela da Casa\", dizendo: 'Nem se inscreva'."
+    ],
+    "html": "<p>Às vésperas do lançamento de um documentário sobre o Rouge, ex-cantoras do grupo trocam farpas. Karin Hils se pronunciou após um desabafo de Lu Andrade, enquanto Luciana Andrade expôs bastidores, falou sobre mentiras e arrependimento, e esclareceu rumores sobre sua saída do grupo.</p>\n<p>Em meio à polêmica, Karin Hils também comentou sobre o reality \"Estrela da Casa\", dizendo: 'Nem se inscreva'.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Rouge",
+      "Karin Hils",
+      "Luciana Andrade",
+      "documentário",
+      "farpas"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "OFuxico",
+      "POPline",
+      "R7 Entretenimento",
+      "iG Gente"
+    ],
+    "evidenceClaims": [
+      "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
+      "Karin Hils se pronuncia após desabafo de Lu Andrade sobre Rouge",
+      "“Eu não brigava com ninguém”: Luciana expõe bastidores, mentira e arrependimento no Rouge",
+      "Luciana Andrade aborda saída do Rouge e esclarece rumores sobre sua trajetória",
+      "Karin Hils, ex-Rouge, fala de“Estrela da Casa”: 'Nem se inscreva'"
+    ],
+    "sourceCount": 5,
+    "score": 106,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/ex-cantoras-do-rouge-trocam-farpas-as-vesperas-de-documentario.webp",
+    "imageCredit": "Foto: Divulgação",
+    "imageSubject": "Karin Hils e Luciana Andrade",
+    "imageSearchQuery": "Karin Hils Luciana Andrade Rouge",
+    "imageAlt": "Karin Hils e Luciana Andrade, ex-integrantes do Rouge",
+    "editorialMeta": {
+      "originalTitle": "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
+      "sourceId": "w4BzIHbDqXNwZXJhcyBk",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Ex-cantoras do Rouge trocam farpas às vésperas de documentário.",
+        "Karin Hils se pronunciou após desabafo de Lu Andrade.",
+        "Luciana Andrade expôs bastidores, mentira e arrependimento no Rouge.",
+        "Luciana Andrade esclareceu rumores sobre sua saída do Rouge.",
+        "Karin Hils comentou sobre 'Estrela da Casa': 'Nem se inscreva'."
+      ],
+      "generatedAt": "2026-06-13T01:16:50.534Z"
+    },
+    "createdAt": "2026-06-13T01:16:50.534Z",
+    "imagePostUrl": "https://www.terra.com.br/diversao/musica/rouge-luciana-andrade-desmente-karin-hils-sobre-crise-no-popstars,f85b6948d3617e422ecd3b1679005184sem4ok3o.html",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://www.terra.com.br/diversao/musica/rouge-luciana-andrade-desmente-karin-hils-sobre-crise-no-popstars,f85b6948d3617e422ecd3b1679005184sem4ok3o.html",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 3,
+      "confidence": 0.86,
+      "reason": "A imagem mostra a formação original do Rouge e inclui Karin Hils e Luciana Andrade. Além disso, vem de uma matéria diretamente relacionada à troca de declarações entre as duas.",
+      "visibleSubject": "As cinco integrantes da formação original do Rouge em foto promocional antiga.",
+      "concerns": [
+        "Karin Hils e Luciana Andrade não aparecem isoladas; as demais integrantes também têm destaque.",
+        "A fotografia é antiga e não retrata diretamente o episódio recente."
+      ],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "VFYsIG1hcXVpYWdlbSwg",
+    "reviewId": "VFYsIG1hcXVpYWdlbSwg",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Rotina de Deolane Bezerra na prisão inclui maquiagem e visita íntima",
+    "slug": "rotina-de-deolane-bezerra-na-prisao-inclui-maquiagem-e-visita-intima",
+    "excerpt": "Deolane Bezerra tem rotina na prisão com itens de beleza e visita íntima, enquanto defesa denuncia falta de higiene e escorpiões.",
+    "body": [
+      "A rotina de Deolane Bezerra na prisão inclui itens como batom, creme, esmalte, sombra, chapinha e direito a visita íntima, conforme informações divulgadas pela imprensa.",
+      "Por outro lado, a defesa da influenciadora denunciou falta de higiene e presença de escorpiões na cela. A Secretaria, no entanto, nega que a cela tenha comida estragada e escorpião.",
+      "Fotos mostram o presídio onde Deolane está presa, e a irmã dela detalhou a rotina, mencionando infestação de escorpiões e pratos defecados."
+    ],
+    "html": "<p>A rotina de Deolane Bezerra na prisão inclui itens como batom, creme, esmalte, sombra, chapinha e direito a visita íntima, conforme informações divulgadas pela imprensa.</p>\n<p>Por outro lado, a defesa da influenciadora denunciou falta de higiene e presença de escorpiões na cela. A Secretaria, no entanto, nega que a cela tenha comida estragada e escorpião.</p>\n<p>Fotos mostram o presídio onde Deolane está presa, e a irmã dela detalhou a rotina, mencionando infestação de escorpiões e pratos defecados.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Deolane Bezerra",
+      "prisão",
+      "rotina",
+      "maquiagem",
+      "visita íntima",
+      "escorpião"
+    ],
+    "source": "Portal Leo Dias",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5",
+    "evidenceSources": [
+      "Portal Leo Dias",
+      "G1",
+      "UOL Notícias",
+      "Estadão",
+      "Midiamax"
+    ],
+    "evidenceClaims": [
+      "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
+      "Fotos mostram presídio onde Deolane está presa após defesa denunciar falta de higiene e escorpiões",
+      "Secretaria nega que cela de Deolane tenha comida estragada e escorpião",
+      "‘Batom, creme, esmalte, sombra, chapinha e visita íntima’: os direitos da doutora Deolane na cadeia",
+      "Infestação de escorpiões e pratos defecados: irmã detalha rotina de Deolane na cadeia"
+    ],
+    "sourceCount": 5,
+    "score": 108,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/rotina-de-deolane-bezerra-na-prisao-inclui-maquiagem-e-visita-intima.jpg",
+    "imageCredit": "foto-com-todos-os-pets/\" style=\"text-decoration: none !important;\">",
+    "imageSubject": "Deolane Bezerra",
+    "imageSearchQuery": "Deolane Bezerra prisão cela",
+    "imageAlt": "Deolane Bezerra na prisão",
+    "editorialMeta": {
+      "originalTitle": "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
+      "sourceId": "VFYsIG1hcXVpYWdlbSwg",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Deolane Bezerra tem direito a itens de beleza como batom, creme, esmalte, sombra e chapinha na prisão.",
+        "Deolane Bezerra tem direito a visita íntima na prisão.",
+        "A defesa de Deolane denunciou falta de higiene e presença de escorpiões na cela.",
+        "A Secretaria nega que a cela de Deolane tenha comida estragada e escorpião.",
+        "Fotos mostram o presídio onde Deolane está presa.",
+        "A irmã de Deolane detalhou a rotina, mencionando infestação de escorpiões e pratos defecados."
+      ],
+      "generatedAt": "2026-06-13T01:16:37.481Z"
+    },
+    "createdAt": "2026-06-13T01:16:37.481Z",
+    "imagePostUrl": "https://aloalobahia.com/noticias/2024/09/05/justica-mantem-prisao-de-deolane-bezerra-apos-audiencia-de-custodia/",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://aloalobahia.com/noticias/2024/09/05/justica-mantem-prisao-de-deolane-bezerra-apos-audiencia-de-custodia/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 5,
+      "confidence": 0.95,
+      "reason": "Deolane Bezerra aparece claramente ao lado de um veículo policial, em contexto compatível com prisão, sem montagem ou texto pesado.",
+      "visibleSubject": "Deolane Bezerra caminhando ao lado de um veículo policial.",
+      "concerns": [
+        "A imagem retrata deslocamento ou custódia, não a rotina dentro da prisão."
+      ],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "QW5kcmVzc2Egw6kgZWxp",
+    "reviewId": "QW5kcmVzc2Egw6kgZWxp",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Andressa é eliminada de Casa do Patrão com 16,37% dos votos",
+    "slug": "andressa-e-eliminada-de-casa-do-patrao-com-16-37-dos-votos",
+    "excerpt": "Andressa foi a sétima eliminada do reality Casa do Patrão, com 16,37% dos votos.",
+    "body": [
+      "Andressa foi eliminada do reality Casa do Patrão, com 16,37% dos votos. A informação foi confirmada por veículos como R7, O Globo e Estadão.",
+      "A eliminação ocorreu no sétimo programa 'Tá Na Reta'. A parcial da enquete apontava a saída entre Andressa, Bianca e Mari.",
+      "A eliminação movimentou as redes sociais e gerou debate entre os fãs do reality."
+    ],
+    "html": "<p>Andressa foi eliminada do reality Casa do Patrão, com 16,37% dos votos. A informação foi confirmada por veículos como R7, O Globo e Estadão.</p>\n<p>A eliminação ocorreu no sétimo programa 'Tá Na Reta'. A parcial da enquete apontava a saída entre Andressa, Bianca e Mari.</p><p>A eliminação movimentou as redes sociais e gerou debate entre os fãs do reality.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Casa do Patrão",
+      "Andressa",
+      "eliminação",
+      "reality show"
+    ],
+    "source": "R7",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5",
+    "evidenceSources": [
+      "R7",
+      "O Globo",
+      "Estadão",
+      "CNN Brasil",
+      "Correio Braziliense"
+    ],
+    "evidenceClaims": [
+      "Andressa é eliminada de Casa do Patrão, com 16,37% dos votos",
+      "Enquete Casa do Patrão: parcial atualizada aponta quem sai entre Andressa, Bianca e Mari",
+      "‘Casa do Patrão’: Andressa é a sétima eliminada; confira o porcentual dos votos",
+      "\"Casa do Patrão\": parcial da enquete aponta quem vai sair do reality hoje",
+      "Enquete Casa do Patrão: Andressa, Bianca ou Mariana? Parcial é atualizada e revela quem sai no 7º Tá Na Reta"
+    ],
+    "sourceCount": 5,
+    "score": 112,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/andressa-e-eliminada-de-casa-do-patrao-com-16-37-dos-votos.webp",
+    "imageCredit": "Imagem ilustrativa: folhavitoria.com.br",
+    "imageSubject": "Andressa, participante do reality Casa do Patrão",
+    "imageSearchQuery": "Andressa Casa do Patrão eliminada",
+    "imageAlt": "Andressa, participante eliminada do reality Casa do Patrão",
+    "editorialMeta": {
+      "originalTitle": "Andressa é eliminada de Casa do Patrão, com 16,37% dos votos",
+      "sourceId": "QW5kcmVzc2Egw6kgZWxp",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Andressa foi eliminada de Casa do Patrão.",
+        "Ela recebeu 16,37% dos votos.",
+        "A eliminação foi a sétima do reality.",
+        "A disputa era entre Andressa, Bianca e Mari."
+      ],
+      "generatedAt": "2026-06-13T01:16:31.497Z"
+    },
+    "createdAt": "2026-06-13T01:16:31.497Z",
+    "imagePostUrl": "https://www.folhavitoria.com.br/cultura/casa-do-patrao-conheca-os-participantes-do-novo-reality-da-record/",
+    "imageCreditStatus": "domain-fallback",
+    "imageCreditSourceUrl": "https://www.folhavitoria.com.br/cultura/casa-do-patrao-conheca-os-participantes-do-novo-reality-da-record/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 0,
+      "confidence": 0.96,
+      "reason": "Retrato individual e nítido de Andressa, compatível com a participante exibida também no elenco de Casa do Patrão.",
+      "visibleSubject": "Mulher jovem de cabelos longos e cacheados, sorrindo diante do cenário azul usado nos retratos do reality.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "RGVzZW1wcmVnYWRvIHBv",
+    "reviewId": "RGVzZW1wcmVnYWRvIHBv",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Gui Ferraz, de Quem Ama Cuida, quase desistiu após 4 anos sem trabalho",
+    "slug": "gui-ferraz-de-quem-ama-cuida-quase-desistiu-apos-4-anos-sem-trabalho",
+    "excerpt": "Ator que vive Tiago na novela das 9 passou quase quatro anos desempregado e pensou em abandonar a carreira.",
+    "body": [
+      "O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida', relembrou uma fase difícil de quase quatro anos sem trabalho. Durante esse período, ele pensou em desistir da carreira.",
+      "Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra seu talento com a bola."
+    ],
+    "html": "<p>O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida', relembrou uma fase difícil de quase quatro anos sem trabalho. Durante esse período, ele pensou em desistir da carreira.</p>\n<p>Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra seu talento com a bola.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Gui Ferraz",
+      "Quem Ama Cuida",
+      "desemprego",
+      "carreira",
+      "ator"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "Extra online",
+      "Correio Braziliense",
+      "NaTelinha"
+    ],
+    "evidenceClaims": [
+      "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
+      "Tiago em ‘Quem ama cuida’, Gui Ferraz relembra fase de quase quatro anos sem trabalho: ‘Pensei em desistir’",
+      "Na novela das 9 e na série 'Brasil 70', Gui Ferraz é craque e dá um show de bola",
+      "Quem é Gui Ferraz? Ator ganha destaque em Quem Ama Cuida e série da Netflix sobre a Copa"
+    ],
+    "sourceCount": 4,
+    "score": 112,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/gui-ferraz-de-quem-ama-cuida-quase-desistiu-apos-4-anos-sem-trabalho.jpg",
+    "imageCredit": "Imagem ilustrativa: aocuboagenciamento.com.br",
+    "imageSubject": "Gui Ferraz",
+    "imageSearchQuery": "Gui Ferraz ator Quem Ama Cuida",
+    "imageAlt": "Ator Gui Ferraz",
+    "editorialMeta": {
+      "originalTitle": "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
+      "sourceId": "RGVzZW1wcmVnYWRvIHBv",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Gui Ferraz interpreta Tiago na novela 'Quem Ama Cuida'.",
+        "Ele passou quase quatro anos sem trabalho.",
+        "Nesse período, pensou em desistir da carreira.",
+        "Gui Ferraz também está na série 'Brasil 70', da Netflix."
+      ],
+      "generatedAt": "2026-06-13T01:16:26.637Z"
+    },
+    "createdAt": "2026-06-13T01:16:26.637Z",
+    "imagePostUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
+    "imageCreditStatus": "domain-fallback",
+    "imageCreditSourceUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 0,
+      "confidence": 0.99,
+      "reason": "Retrato individual de boa qualidade, associado diretamente à página de agenciamento de Gui Ferraz e compatível com o assunto central da matéria.",
+      "visibleSubject": "Gui Ferraz em retrato frontal, usando camisa azul-clara sobre regata branca.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "Q2FtaWxhIFJvZHJpZ3Vl",
+    "reviewId": "Q2FtaWxhIFJvZHJpZ3Vl",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Camila Rodrigues abre o jogo sobre separação de Bruno Gagliasso",
+    "slug": "camila-rodrigues-abre-o-jogo-sobre-separacao-de-bruno-gagliasso",
+    "excerpt": "Camila Rodrigues falou sobre o fim do relacionamento com Bruno Gagliasso, sem citar o nome do ator, e relembrou bastidores do término.",
+    "body": [
+      "Camila Rodrigues abriu o jogo sobre a separação de Bruno Gagliasso. A atriz relembrou os bastidores do término, que classificou como traumático, sem citar diretamente o nome do ex-companheiro.",
+      "A relação entre Camila Rodrigues e Bruno Gagliasso foi marcada por um casamento relâmpago durante uma novela. Agora, anos depois, a atriz expôs detalhes do fim do relacionamento."
+    ],
+    "html": "<p>Camila Rodrigues abriu o jogo sobre a separação de Bruno Gagliasso. A atriz relembrou os bastidores do término, que classificou como traumático, sem citar diretamente o nome do ex-companheiro.</p>\n<p>A relação entre Camila Rodrigues e Bruno Gagliasso foi marcada por um casamento relâmpago durante uma novela. Agora, anos depois, a atriz expôs detalhes do fim do relacionamento.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Camila Rodrigues",
+      "Bruno Gagliasso",
+      "separação",
+      "término",
+      "bastidores"
+    ],
+    "source": "DOL",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUdhTVVoc3gxZ29pV25EVVBJeElkcERYSWhOOExwQnJXamg2Zk1GNHJRSzhpSWpSUVRpZlB3ZUEzMUVyRlJiTTBlUWJ1VzFrZjZNTXFuOGlRc0pIV1k1bGxjR3Ftb3NDdVNqNk9WX1JMT3p6U25TQ2FFR3o3ZUZQZldUNkpFa2VkSWQyekFJMVpOeFJwdm82Z2ZQNFVvSUtPTnpnSDVZU0I3Sl9MY1HSAbYBQVVfeXFMTkVyZElvZ25fcTk4bDRwWnJ1UWpETjlycU1lYXZwbjVQVUF3RVVzSHFtZkpUQ3VxV0p6RkZGSUtGcmVUbFV2emNmTkgySC1HdFdHdFVvY1NZTjFMcERNQ0puQXByOEZBSTA3N0J4MUltSG42eHMwUFlJUHZuaTJkS2FkY2NSeWNHcE8ta0c0T19rSVVRX2V5akVHT2p3SWJuVHB4aDVmMWRZRXcxR0t5anpPT01Kc1E?oc=5",
+    "evidenceSources": [
+      "DOL",
+      "UOL",
+      "Globo",
+      "R7 Entretenimento",
+      "band.com.br"
+    ],
+    "evidenceClaims": [
+      "Camila Rodrigues abre o jogo sobre separação de Bruno Gagliasso",
+      "Novela e casamento relâmpago: a relação de Camila Rodrigues e Gagliasso",
+      "Sem citar nome, Camila Rodrigues expõe bastidor de término com ator; saiba quem",
+      "Camila Rodrigues joga no ventilador término traumático com Bruno Gagliasso",
+      "Ex de Bruno Gagliasso, Camila Rodrigues relembra bastidores do término"
+    ],
+    "sourceCount": 5,
+    "score": 113,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/camila-rodrigues-abre-o-jogo-sobre-separacao-de-bruno-gagliasso.jpg",
+    "imageCredit": "Foto: copyright-reporting/[username]\",\"path\":\"copyright-reporting/:username\",\"lazy\":{\"entry\":\"www/copyright-reporting/[username]\"},\"handle\":{\"handlerId\":\"www/copyright-reporting/[usernam",
+    "imageSubject": "Camila Rodrigues",
+    "imageSearchQuery": "Camila Rodrigues atriz",
+    "imageAlt": "Camila Rodrigues",
+    "editorialMeta": {
+      "originalTitle": "Camila Rodrigues abre o jogo sobre separação de Bruno Gagliasso",
+      "sourceId": "Q2FtaWxhIFJvZHJpZ3Vl",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Camila Rodrigues abriu o jogo sobre a separação de Bruno Gagliasso.",
+        "Ela relembrou bastidores do término sem citar o nome do ator.",
+        "A relação entre Camila Rodrigues e Bruno Gagliasso foi um casamento relâmpago durante uma novela."
+      ],
+      "generatedAt": "2026-06-13T01:16:21.700Z"
+    },
+    "createdAt": "2026-06-13T01:16:21.700Z",
+    "imagePostUrl": "https://co.pinterest.com/pin/349732727332214558/",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://co.pinterest.com/pin/349732727332214558/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 2,
+      "confidence": 0.98,
+      "reason": "Retrato individual, nítido e de boa qualidade de Camila Rodrigues, sem montagem, texto ou elementos que sugiram outro acontecimento.",
+      "visibleSubject": "Camila Rodrigues em retrato aproximado, com cabelos castanhos longos e blusa alaranjada.",
+      "concerns": [],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
+    "id": "RGlhIEQgfCBGaWxtZSBk",
+    "reviewId": "RGlhIEQgfCBGaWxtZSBk",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "'Dia D', novo filme de Steven Spielberg, arrecada US$ 12,5 milhões na estreia",
+    "slug": "dia-d-novo-filme-de-steven-spielberg-arrecada-us-12-5-milhoes-na-estreia",
+    "excerpt": "O filme 'Dia D', dirigido por Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia.",
+    "body": [
+      "O novo filme de Steven Spielberg, 'Dia D', arrecadou US$ 12,5 milhões em sua estreia, segundo informações do Omelete.",
+      "O longa-metragem estreou nos cinemas, incluindo em Rio Branco, conforme o G1.",
+      "A obra é descrita pelo Estadão como um exemplo do domínio de Spielberg no cinema de espetáculo, com foco na emoção."
+    ],
+    "html": "<p>O novo filme de Steven Spielberg, 'Dia D', arrecadou US$ 12,5 milhões em sua estreia, segundo informações do Omelete.</p>\n<p>O longa-metragem estreou nos cinemas, incluindo em Rio Branco, conforme o G1.</p>\n<p>A obra é descrita pelo Estadão como um exemplo do domínio de Spielberg no cinema de espetáculo, com foco na emoção.</p>",
+    "category": "Cinema",
+    "market": "brasil",
+    "tags": [
+      "Dia D",
+      "Steven Spielberg",
+      "bilheteria",
+      "estreia",
+      "cinema"
+    ],
+    "source": "Omelete",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWDh0QmdycklLcTBzT0hsMGFGdjlUdGhKNmt0c1dvSERmZEtLTmEzNzEzRjNRVWdHZFplQ1NBNVpIaWJaYW5RY1pjNzdxVXZkUGgyX05zM1dBYnN3UVNabFhYU3p5Q0FUSXRPZTRDVXRNRkloR01XU2FEeXFUS3JVQ1hzU0Ftc0Qxa0E?oc=5",
+    "evidenceSources": [
+      "Omelete",
+      "Folha de S.Paulo",
+      "Estadão",
+      "Rolling Stone Brasil",
+      "G1"
+    ],
+    "evidenceClaims": [
+      "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
+      "Na estreia de 'Dia D', saiba onde ver outros filmes de Steven Spielberg sobre ETs",
+      "‘Dia D’: Spielberg tem total domínio do cinema de espetáculo e escolhe a emoção para dar seu recado",
+      "Os 16 filmes de Steven Spielberg no século XXI, da menor para a maior bilheteria",
+      "'Dia D', novo filme de Steven Spielberg, estreia no cinema de Rio Branco"
+    ],
+    "sourceCount": 5,
+    "score": 132,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/auto/dia-d-novo-filme-de-steven-spielberg-arrecada-us-12-5-milhoes-na-estreia.jpg",
+    "imageCredit": "Foto: © 2026 Observatório do Cinema Politica de privacidade Termos de uso Fale conosco Quem somos",
+    "imageSubject": "Steven Spielberg ou cena do filme 'Dia D'",
+    "imageSearchQuery": "Steven Spielberg Dia D filme 2026",
+    "imageAlt": "Steven Spielberg ou cena do filme Dia D",
+    "editorialMeta": {
+      "originalTitle": "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
+      "sourceId": "RGlhIEQgfCBGaWxtZSBk",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "O filme 'Dia D', dirigido por Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia.",
+        "O filme estreou nos cinemas, incluindo em Rio Branco.",
+        "O Estadão descreve o filme como um exemplo do domínio de Spielberg no cinema de espetáculo, com foco na emoção."
+      ],
+      "generatedAt": "2026-06-13T01:15:28.172Z"
+    },
+    "createdAt": "2026-06-13T01:15:28.172Z",
+    "imagePostUrl": "https://observatoriodocinema.com.br/filmes/dia-d-filme-de-steven-spielberg-ganha-trailer-no-super-bowl-2026-assista/",
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://observatoriodocinema.com.br/filmes/dia-d-filme-de-steven-spielberg-ganha-trailer-no-super-bowl-2026-assista/",
+    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+    "imageReview": {
+      "status": "approved",
+      "approved": true,
+      "candidateIndex": 5,
+      "confidence": 0.97,
+      "reason": "Imagem limpa e de boa qualidade, claramente apresentada como cena promocional de 'Dia D' na página de origem. É mais adequada à matéria do que os cartazes com texto pesado.",
+      "visibleSubject": "Ator caracterizado em uma cena de laboratório do filme 'Dia D', usando sensores na cabeça.",
+      "concerns": [
+        "A pessoa retratada não é Steven Spielberg."
+      ],
+      "model": "codex-cli",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T01:21:30.484Z"
+    }
+  },
+  {
     "id": "w4JuY29yYSBkbyBTQlQg",
     "reviewId": "w4JuY29yYSBkbyBTQlQg",
     "workflowVersion": 2,
@@ -471,793 +1403,6 @@
     }
   },
   {
-    "id": "UXVhbCBhdmFsaWHDp8Oj",
-    "reviewId": "UXVhbCBhdmFsaWHDp8Oj",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Vivão é o novo Patrão da semana em Casa do Patrão",
-    "slug": "vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao",
-    "excerpt": "Alexandre Vivão venceu a Prova do Patrão e agora avalia o desempenho dos concorrentes no Trampo.",
-    "body": [
-      "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana em 'Casa do Patrão'. Como Patrão, ele agora avalia o desempenho dos concorrentes no Trampo.",
-      "Na mesma semana, o reality show 'Casa do Patrão' conseguiu vitória contra o Ratinho e ficou na vice-liderança de audiência. Os participantes também enfrentaram um desafio na esteira em disputa pelo cargo de Patrão."
-    ],
-    "html": "<p>Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana em 'Casa do Patrão'. Como Patrão, ele agora avalia o desempenho dos concorrentes no Trampo.</p>\n<p>Na mesma semana, o reality show 'Casa do Patrão' conseguiu vitória contra o Ratinho e ficou na vice-liderança de audiência. Os participantes também enfrentaram um desafio na esteira em disputa pelo cargo de Patrão.</p>",
-    "category": "TV",
-    "market": "brasil",
-    "tags": [
-      "Casa do Patrão",
-      "Vivão",
-      "Patrão",
-      "Ratinho",
-      "audiência"
-    ],
-    "source": "R7",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5",
-    "evidenceSources": [
-      "R7",
-      "Notícias da TV",
-      "O Universo da TV",
-      "tracklist.com.br",
-      "TV RECORD EUROPA"
-    ],
-    "evidenceClaims": [
-      "Qual avaliação Vivão merece como Patrão?",
-      "Casa do Patrão consegue vitória contra o Ratinho e fica na vice-liderança",
-      "Participantes enfrentam desafio na esteira em disputa pelo cargo de Patrão em 'Casa do Patrão'",
-      "Prova do Patrão: Alexandre Vivão é o mandachuva da semana; veja mais",
-      "Vivão avalia desempenho dos concorrentes no Trampo da ‘Casa do Patrão’"
-    ],
-    "sourceCount": 5,
-    "score": 98,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Alexandre Vivão",
-    "imageSearchQuery": "Alexandre Vivão Casa do Patrão",
-    "imageAlt": "Alexandre Vivão, novo Patrão da semana em Casa do Patrão",
-    "editorialMeta": {
-      "originalTitle": "Qual avaliação Vivão merece como Patrão?",
-      "sourceId": "UXVhbCBhdmFsaWHDp8Oj",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Alexandre Vivão venceu a Prova do Patrão e é o mandachuva da semana.",
-        "Vivão avalia o desempenho dos concorrentes no Trampo.",
-        "Casa do Patrão venceu o Ratinho e ficou na vice-liderança.",
-        "Participantes enfrentaram desafio na esteira em disputa pelo cargo de Patrão."
-      ],
-      "generatedAt": "2026-06-13T01:09:40.760Z"
-    },
-    "createdAt": "2026-06-13T01:09:40.760Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Vivao-Casa-do-Patrao-e1776987492317.jpg?w=1080&h=630&crop=1",
-        "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/",
-        "source": "Bing",
-        "title": "\"Casa do Patrão\": conheça Vivão, participante do novo reality do ...",
-        "width": 1080,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://www.bnews.com.br/media/uploads/2026/04/casa-do-patrao.jpg",
-        "pageUrl": "https://www.bnews.com.br/noticias/entretenimento/novo-reality-de-boninho-a-casa-do-patrao-ganha-novos-detalhes-e-data-de-estreia-na-record-confira.html",
-        "source": "Bing",
-        "title": "Novo reality de Boninho, 'A Casa do Patrão' ganha novos detalhes e data ...",
-        "width": 1640,
-        "height": 924
-      },
-      {
-        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/casa-do-patrao--e1777052078824.png?w=1200&h=630&crop=1",
-        "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-veja-quando-estreia-e-como-ver-novo-reality-de-boninho/",
-        "source": "Bing",
-        "title": "\"Casa do Patrão\": veja quando estreia e como ver novo reality de ...",
-        "width": 1199,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://fnpcwcgwfooeklleqfol.supabase.co/storage/v1/object/public/site-assets/articles/WP/2026/04/novo-reality-casa-do-patrao-estreia-nesta-segunda-feira-27-veja-horario-e-onde-assistir.webp",
-        "pageUrl": "https://gcmais.com.br/entrete/2026/04/28/casa-do-patrao-ao-vivo-como-assistir-24-horas-online",
-        "source": "Bing",
-        "title": "Entretenimento - Famosos, TV e cultura | GCMais",
-        "width": 1484,
-        "height": 1060
-      },
-      {
-        "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/04/24/whatsapp-image-2026-04-23-at-18-56-31-vevu9yjb8bj9.jpeg",
-        "pageUrl": "https://www.terra.com.br/diversao/tv/reality-shows/casa-do-patrao-saiba-onde-assistir-e-horario,2d9fd2cf15aa88aa0f15f93f32326aabl52saigw.html",
-        "source": "Bing",
-        "title": "Casa do Patrão: saiba onde assistir e horário",
-        "width": 1200,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://pipocamoderna.com.br/wp-content/uploads/2026/04/A-Casa-do-Patrao-Leandro-Hassum.jpg",
-        "pageUrl": "https://pipocamoderna.com.br/2026/04/participantes-a-casa-do-patrao-record-boninho/",
-        "source": "Bing",
-        "title": "Conheça os 18 participantes de \"A Casa do Patrão\", novo reality de ...",
-        "width": 1200,
-        "height": 830
-      },
-      {
-        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/casa-do-patrao14.jpeg?w=1200&h=630&crop=1",
-        "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-tudo-o-que-se-sabe-sobre-o-novo-reality-de-boninho/",
-        "source": "Bing",
-        "title": "\"Casa do Patrão\": tudo o que se sabe sobre o novo reality de Boninho ...",
-        "width": 1200,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/casa-do-patrao.jpg?w=1200&h=630&crop=1",
-        "pageUrl": "https://www.cnnbrasil.com.br/lifestyle/casa-do-patrao-conheca-os-comodos-do-novo-reality-show/",
-        "source": "Bing",
-        "title": "\"Casa do Patrão\": conheça os cômodos do novo reality show | CNN Brasil",
-        "width": 1200,
-        "height": 630
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:11:26.415Z"
-    }
-  },
-  {
-    "id": "QmnDs3BzaWE6IGVudGVu",
-    "reviewId": "QmnDs3BzaWE6IGVudGVu",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Filha de Graciele Lacerda e Zezé Di Camargo passa por biópsia de nódulo no rosto",
-    "slug": "filha-de-graciele-lacerda-e-zeze-di-camargo-passa-por-biopsia-de-nodulo-no-rosto",
-    "excerpt": "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por cirurgia para retirada de um nódulo do rosto. Graciele chorou ao comentar o procedimento e depois revelou o resultado da biópsia.",
-    "body": [
-      "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por uma cirurgia para retirada de um nódulo do rosto. O procedimento foi comentado por Graciele, que chorou ao falar sobre o assunto.",
-      "Após a cirurgia, Graciele Lacerda revelou o resultado da biópsia do nódulo. Zezé Di Camargo também mostrou a bebê após o procedimento no rostinho dela.",
-      "A biópsia é um exame que analisa uma amostra de tecido para identificar possíveis alterações. O caso gerou comoção entre os seguidores do casal."
-    ],
-    "html": "<p>A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por uma cirurgia para retirada de um nódulo do rosto. O procedimento foi comentado por Graciele, que chorou ao falar sobre o assunto.</p>\n<p>Após a cirurgia, Graciele Lacerda revelou o resultado da biópsia do nódulo. Zezé Di Camargo também mostrou a bebê após o procedimento no rostinho dela.</p>\n<p>A biópsia é um exame que analisa uma amostra de tecido para identificar possíveis alterações. O caso gerou comoção entre os seguidores do casal.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Graciele Lacerda",
-      "Zezé Di Camargo",
-      "biópsia",
-      "nódulo",
-      "cirurgia",
-      "bebê"
-    ],
-    "source": "O Globo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOXBLeTdWVm9NS1g3cFhLZjdQbnBzUTlfRUxrUF9RdVZDQVZQNXRrMzB1a25lUnllVGN6OFQxblhSUHROeTRLLTEwOHNhdFFwRmZRdXM1T3Z3b2dsbjNGNFBJY0twNnczRkItdk55OGdjMUQza3FKbWV0RFdoRGhSRng0eThUSzNodkk5ckFXbDlMTklCLVFZby1QZzdBMXJHa1JvTDFtTUhxZmRDWV83WVZkRUlERU9Ob0V5bHkydXZteTJwYjgydE15cXVhRUxScGNoUXdYQWlnd25hb1N2c21OMVViXzJ4TldUamtiWdIB_gFBVV95cUxPRWdHd1pMM24yYXBKWk95YzhFSHpwUHBSd3hCRGVrRUh1VUNXQlN0cWxHNFdNUVBGbHNNOVBOdWZHclVIV28zcnVJVGYtQ1BzQkRsdktveDNUT1ZoTnE4LUI4T3BJaFBNV0hlb2lfcWRnX0JXbXpjQVctTGNfbnktMkNraDN6Q3I3MTVFUGM1SUlPdVR0VnMxUzhHRjhZUHlZeEhudG1qSGh6YUs3Qm9lWEFFT3pnN2tpMFNfTm1Wcy1vd19QM0Y3R0tGVkxHNHBrYnp2YnYzYjRsNzZKVDgtc2FUaDFDbC1zMXpReWYwY3d4UDlMQkR3bFFIak0tdw?oc=5",
-    "evidenceSources": [
-      "O Globo",
-      "CNN Brasil",
-      "Globo",
-      "Estadão",
-      "R7 Entretenimento"
-    ],
-    "evidenceClaims": [
-      "Biópsia: entenda o exame feito pela filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses",
-      "Graciele chora ao comentar cirurgia de retirada de nódulo da filha com Zezé",
-      "Graciele Lacerda revela resultado da biópsia do nódulo retirado do rosto da filha com Zezé Di Camargo",
-      "Entenda por que a filha de Graciele Lacerda e Zezé Di Camargo teve de retirar nódulo do rosto",
-      "Zezé Di Camargo mostra a bebê após cirurgia no rostinho dela"
-    ],
-    "sourceCount": 5,
-    "score": 103,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Filha de Graciele Lacerda e Zezé Di Camargo",
-    "imageSearchQuery": "filha Graciele Lacerda Zezé Di Camargo bebê",
-    "imageAlt": "Bebê, filha de Graciele Lacerda e Zezé Di Camargo",
-    "editorialMeta": {
-      "originalTitle": "Biópsia: entenda o exame feito pela filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses",
-      "sourceId": "QmnDs3BzaWE6IGVudGVu",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "A filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses, passou por cirurgia para retirada de um nódulo do rosto.",
-        "Graciele chorou ao comentar a cirurgia.",
-        "Graciele Lacerda revelou o resultado da biópsia do nódulo.",
-        "Zezé Di Camargo mostrou a bebê após a cirurgia."
-      ],
-      "generatedAt": "2026-06-13T01:09:14.337Z"
-    },
-    "createdAt": "2026-06-13T01:09:14.337Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://static1.purepeople.com.br/uploads/c5/8d/0f/2c/076c6a5da3b555bc-580x0-1.jpg",
-        "pageUrl": "https://www.purepeople.com.br/midia/zeze-di-camargo-e-graciele-lacerda_m4702176",
-        "source": "Bing",
-        "title": "Foto: A filha de Zezé Di Camargo e Graciele Lacerda encantou os ...",
-        "width": 580,
-        "height": 811
-      },
-      {
-        "imageUrl": "https://aloalobahia.com/wp-content/uploads/2026/01/SaveClip.App_609841219_18429184183118350_7754176338161570720_n-1050x1400.jpg",
-        "pageUrl": "https://aloalobahia.com/noticias/2026/01/02/graciele-lacerda-lamenta-comentario-ofensivo-sobre-aparencia-da-filha-clara-que-nao-te-falte-amor-e-empatia/",
-        "source": "Bing",
-        "title": "Filha de Graciele Lacerda e Zezé di Camargo é alvo de comentário ...",
-        "width": 1050,
-        "height": 1400
-      },
-      {
-        "imageUrl": "https://aloalobahia.com/wp-content/uploads/2025/05/Screenshot-2025-05-27-at-08.49.40-2.jpg",
-        "pageUrl": "https://aloalobahia.com/noticias/2025/05/27/graciele-lacerda-e-zeze-di-camargo-celebram-cinco-meses-da-filha-clara-veja-fotos/",
-        "source": "Bing",
-        "title": "Graciele Lacerda e Zezé di Camargo celebram cinco meses da filha Clara ...",
-        "width": 722,
-        "height": 506
-      },
-      {
-        "imageUrl": "https://aloalobahia.com/wp-content/uploads/2025/03/gracielelacerdaoficial.jpg",
-        "pageUrl": "https://aloalobahia.com/noticias/2025/04/07/graciele-lacerda-encanta-ao-flagrar-sua-filha-clara-sorrindo-veja-foto/",
-        "source": "Bing",
-        "title": "Graciele Lacerda encanta ao flagrar sua filha Clara sorrindo; veja foto ...",
-        "width": 941,
-        "height": 823
-      },
-      {
-        "imageUrl": "https://feedtv.news/wp-content/uploads/2025/10/Graciele-Lacerda-e-Zeze-Di-Camargo.jpg",
-        "pageUrl": "https://vanitybrasil.com.br/filha-de-graciele-lacerda-encanta-ao-aparecer-de-princesa-em-festa-de-10-meses/",
-        "source": "Bing",
-        "title": "Filha de Graciele Lacerda encanta ao aparecer de princesa em festa de ...",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://www.marciapiovesan.com.br/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-13-at-20.06.23.jpg",
-        "pageUrl": "https://www.marciapiovesan.com.br/famosos/graciele-lacerda-revela-detalhes-do-quarto-de-sua-filha-clara-inspiracao.phtml",
-        "source": "Bing",
-        "title": "Graciele Lacerda revela detalhes do quarto de sua filha, Clara ...",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://caras.com.br/media/uploads/2025/03/graciele-lacerda_xr639lw4.jpg",
-        "pageUrl": "https://caras.com.br/bebe/graciele-lacerda-celebra-tres-meses-de-clara-filha-com-zeze-di-camargo-com-foto-inedita.phtml",
-        "source": "Bing",
-        "title": "Graciele Lacerda celebra três meses de Clara, filha com Zezé Di Camargo ...",
-        "width": 735,
-        "height": 650
-      },
-      {
-        "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/12/27/zeze-sohdmy0r3wvr.jpg",
-        "pageUrl": "https://www.terra.com.br/diversao/gente/graciele-lacerda-e-zeze-di-camargo-mostram-rostinho-da-filha-clara-nascida-no-natal,aa72bc5a2c7ff1995639271fe82d2fbd3c7qai8j.html",
-        "source": "Bing",
-        "title": "Graciele Lacerda e Zezé Di Camargo mostram rostinho da filha Clara ...",
-        "width": 774,
-        "height": 619
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:11:26.415Z"
-    }
-  },
-  {
-    "id": "TWVsbCBNdXp6aWxsbyBl",
-    "reviewId": "TWVsbCBNdXp6aWxsbyBl",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Mell Muzzillo e Marcello Melo Jr. rebatem críticas sobre diferença de idade",
-    "slug": "mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-sobre-diferenca-de-idade",
-    "excerpt": "Atores da Globo reagem a comentários sobre os 17 anos de diferença e a um boato de traição.",
-    "body": [
-      "Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos em seu relacionamento. Segundo as manchetes, eles rebateram os comentários com a frase: “As pessoas falam e a gente faz amor”.",
-      "Além disso, Marcello Melo Jr. respondeu a um boato de traição no início do namoro, desafiando: “Quero ver provar”."
-    ],
-    "html": "<p>Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos em seu relacionamento. Segundo as manchetes, eles rebateram os comentários com a frase: “As pessoas falam e a gente faz amor”.</p>\n<p>Além disso, Marcello Melo Jr. respondeu a um boato de traição no início do namoro, desafiando: “Quero ver provar”.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Mell Muzzillo",
-      "Marcello Melo Jr.",
-      "diferença de idade",
-      "críticas",
-      "namoro"
-    ],
-    "source": "Portal UAI",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5",
-    "evidenceSources": [
-      "Portal UAI",
-      "Alô Alô Bahia",
-      "Jornal Correio",
-      "Jornal de Brasília",
-      "Notícias da TV"
-    ],
-    "evidenceClaims": [
-      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
-      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade",
-      "Atores da Globo rebatem críticas sobre diferença de idade: “As pessoas falam e a gente faz amor”",
-      "Marcello Melo Jr. rebate boato de traição no início de namoro com Mell Muzzillo: 'Quero ver provar'",
-      "“Falam e a gente faz amor”: Mell Muzzillo e Marcello Melo Jr. ignoram diferença de 17 anos",
-      "Com 17 anos de diferença, Mell Muzzillo e Marcello Melo Jr. rebatem críticas a namoro"
-    ],
-    "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Mell Muzzillo e Marcello Melo Jr.",
-    "imageSearchQuery": "Mell Muzzillo e Marcello Melo Jr. casal",
-    "imageAlt": "Mell Muzzillo e Marcello Melo Jr. juntos",
-    "editorialMeta": {
-      "originalTitle": "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
-      "sourceId": "TWVsbCBNdXp6aWxsbyBl",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Mell Muzzillo e Marcello Melo Jr. reagiram a críticas sobre a diferença de idade de 17 anos.",
-        "Eles disseram: 'As pessoas falam e a gente faz amor'.",
-        "Marcello Melo Jr. rebateu um boato de traição no início do namoro, afirmando: 'Quero ver provar'."
-      ],
-      "generatedAt": "2026-06-13T01:08:52.220Z"
-    },
-    "createdAt": "2026-06-13T01:08:52.220Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://caras.com.br/media/_versions/2025/06/mel-muzilo_widelg.jpg",
-        "pageUrl": "https://caras.com.br/datas-especiais/marcello-melo-jr-celebra-aniversario-de-mell-muzzillo-com-video-romantico-te-amo.phtml",
-        "source": "Bing",
-        "title": "Marcello Melo Jr celebra aniversário de Mell Muzzillo com vídeo ...",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://assets.portalleodias.com/2024/04/Marcello-Melo-Jr.-e-Mell-Muzzillo.jpg",
-        "pageUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
-        "source": "Bing",
-        "title": "Marcello Melo Jr. e Mell Muzzillo abrem álbum romântico em Paris. Veja ...",
-        "width": 1200,
-        "height": 900
-      },
-      {
-        "imageUrl": "https://s2-quem.glbimg.com/n9eOU7w0RRjQrC0CgegiE3y-TsU=/0x0:2519x3778/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2025/h/S/AYfEVKRK6ut2jVa3WM4g/frf-5900.jpeg",
-        "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2025/10/apos-rebater-criticas-por-namoro-marcello-melo-jr-vai-com-mell-muzzillo-a-evento.ghtml",
-        "source": "Bing",
-        "title": "Após rebater críticas por namoro, Marcello Melo Jr. vai com Mell ...",
-        "width": 984,
-        "height": 1476
-      },
-      {
-        "imageUrl": "https://s2-quem.glbimg.com/dc0GRvAGDHBj6MwmgxACJRd982A=/0x0:1366x2048/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2024/S/y/1BcEh1TqaVt3kG7mIv4w/mell-muzzilo-3.jpg",
-        "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2024/11/mel-muzillo-confirma-namoro-com-marcello-melo-jr-em-estreia-de-arcanjo-renegado-video.ghtml",
-        "source": "Bing",
-        "title": "Mell Muzzillo confirma namoro com Marcello Melo Jr. em estreia de ...",
-        "width": 984,
-        "height": 1475
-      },
-      {
-        "imageUrl": "https://assets.portalleodias.com/2024/04/Marcello-Melo-Jr.-e-Mell-Muzzillo-2.jpg",
-        "pageUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
-        "source": "Bing",
-        "title": "Marcello Melo Jr. e Mell Muzzillo abrem álbum romântico em Paris. Veja ...",
-        "width": 1200,
-        "height": 900
-      },
-      {
-        "imageUrl": "https://assets.portalleodias.com/2024/04/Marcello-Melo-Jr.-e-Mell-Muzzillo-abrem-album-romantico-em-Paris.-Veja-fotos-615x461.jpg",
-        "pageUrl": "https://portalleodias.com/famosos/marcello-melo-jr-e-mell-muzzillo-abrem-album-romantico-em-paris-veja-fotos",
-        "source": "Bing",
-        "title": "Marcello Melo Jr. e Mell Muzzillo abrem álbum romântico em Paris. Veja ...",
-        "width": 615,
-        "height": 461
-      },
-      {
-        "imageUrl": "https://caras.com.br/wp-content/uploads/2026/01/mell-muzzillo-marcello-melo-jr-.jpg",
-        "pageUrl": "https://caras.com.br/atualidades/mell-muzzillo-aproveita-folga-de-tres-gracas-em-meio-a-natureza-com-marcello-melo-jr.phtml",
-        "source": "Bing",
-        "title": "Mell Muzzillo aproveita folga de Três Graças em meio à natureza com ...",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://ofuxico.com.br/wp-content/uploads/2025/03/marcello-melo-jr-mel-muzzillo-camarote-mar-768x1154.jpg",
-        "pageUrl": "https://ofuxico.com.br/carnaval/marcello-melo-jr-e-mell-muzzillo-romance-e-compromisso/",
-        "source": "Bing",
-        "title": "Marcello Melo Jr. e Mell Muzzillo: Romance e compromisso - OFuxico",
-        "width": 768,
-        "height": 1154
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:11:26.415Z"
-    }
-  },
-  {
-    "id": "VFYsIG1hcXVpYWdlbSwg",
-    "reviewId": "VFYsIG1hcXVpYWdlbSwg",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Rotina de Deolane Bezerra na prisão inclui maquiagem e chapinha",
-    "slug": "rotina-de-deolane-bezerra-na-prisao-inclui-maquiagem-e-chapinha",
-    "excerpt": "Fotos divulgadas pela Secretaria mostram cela de Deolane Bezerra, que tem acesso a itens de beleza e visita íntima, após defesa denunciar falta de higiene.",
-    "body": [
-      "A Secretaria de Administração Penitenciária divulgou fotos do presídio onde Deolane Bezerra está presa, após a defesa denunciar falta de higiene e presença de escorpiões na cela.",
-      "As imagens mostram a rotina da influenciadora, que tem acesso a itens como batom, creme, esmalte, sombra, chapinha e visita íntima. A secretaria nega que a cela tenha comida estragada ou escorpiões."
-    ],
-    "html": "<p>A Secretaria de Administração Penitenciária divulgou fotos do presídio onde Deolane Bezerra está presa, após a defesa denunciar falta de higiene e presença de escorpiões na cela.</p>\n<p>As imagens mostram a rotina da influenciadora, que tem acesso a itens como batom, creme, esmalte, sombra, chapinha e visita íntima. A secretaria nega que a cela tenha comida estragada ou escorpiões.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Deolane Bezerra",
-      "prisão",
-      "rotina",
-      "maquiagem",
-      "chapinha",
-      "visita íntima"
-    ],
-    "source": "Portal Leo Dias",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5",
-    "evidenceSources": [
-      "Portal Leo Dias",
-      "G1",
-      "UOL Notícias",
-      "Estadão",
-      "R7"
-    ],
-    "evidenceClaims": [
-      "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
-      "Fotos mostram presídio onde Deolane está presa após defesa denunciar falta de higiene e escorpiões",
-      "Secretaria nega que cela de Deolane tenha comida estragada e escorpião",
-      "‘Batom, creme, esmalte, sombra, chapinha e visita íntima’: os direitos da doutora Deolane na cadeia",
-      "Secretaria divulga fotos de presídio após denúncias da defesa de Deolane | #AHoraDaVenenosa #Shorts"
-    ],
-    "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Deolane Bezerra",
-    "imageSearchQuery": "Deolane Bezerra prisão cela",
-    "imageAlt": "Deolane Bezerra na prisão",
-    "editorialMeta": {
-      "originalTitle": "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
-      "sourceId": "VFYsIG1hcXVpYWdlbSwg",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "A Secretaria de Administração Penitenciária divulgou fotos do presídio onde Deolane Bezerra está presa.",
-        "A defesa de Deolane denunciou falta de higiene e presença de escorpiões na cela.",
-        "Deolane tem acesso a itens como batom, creme, esmalte, sombra, chapinha e visita íntima.",
-        "A secretaria nega que a cela tenha comida estragada ou escorpiões."
-      ],
-      "generatedAt": "2026-06-13T01:08:22.589Z"
-    },
-    "createdAt": "2026-06-13T01:08:22.589Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://s2-gshow.glbimg.com/9-g9e6a_ArY9BIKhRKLPdAoLj64=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2024/j/O/wp1CXuT1u9z4uu9L0ezg/dsc-2396.jpg",
-        "pageUrl": "https://gshow.globo.com/cultura-pop/famosos/noticia/apos-audiencia-de-custodia-deolane-bezerra-segue-presa-em-colonia-penal-feminina-hc-ainda-sera-analisado.ghtml",
-        "source": "Bing",
-        "title": "Justiça mantém prisão de Deolane Bezerra após audiência de custódia; HC ...",
-        "width": 1200,
-        "height": 857
-      },
-      {
-        "imageUrl": "https://s2-extra.glbimg.com/xeEE5EAqo7xJYsDCwbeTcjRGTLY=/0x0:1280x1280/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2024/9/E/BY0LHoQsKm6n8gxtETug/deol5.jfif",
-        "pageUrl": "https://extra.globo.com/famosos/noticia/2024/09/justica-mantem-prisao-preventiva-de-deolane-bezerra-apos-audiencia-de-custodia.ghtml",
-        "source": "Bing",
-        "title": "Justiça mantém prisão preventiva de Deolane Bezerra após audiência de ...",
-        "width": 888,
-        "height": 888
-      },
-      {
-        "imageUrl": "https://midias.correio24horas.com.br/2024/09/11/deolane-bezerra-e-canibais-de-garanhuns-2420151-article.jpg",
-        "pageUrl": "https://www.correio24horas.com.br/entretenimento/deolane-bezerra-e-levada-para-presidio-onde-estao-as-canibais-de-garanhuns-0924",
-        "source": "Bing",
-        "title": "Deolane Bezerra é levada para presídio onde estão as 'Canibais de ...",
-        "width": 1200,
-        "height": 696
-      },
-      {
-        "imageUrl": "https://vlvadvogados.com/wp-content/uploads/2024/09/deolane-bezerra-presa-novamente-1.jpg",
-        "pageUrl": "https://vlvadvogados.com/deolane-bezerra-e-presa-de-novo/",
-        "source": "Bing",
-        "title": "Deolane Bezerra é presa de novo! Entenda o motivo! - VLV Advogados",
-        "width": 1080,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://s2-gshow.glbimg.com/A-stXCmrlJlHQKRMTL4_XQmoQKY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2024/d/O/wttAjNSbW8Kmxa29W57g/deolane-bezerra-forum.jpg",
-        "pageUrl": "https://gshow.globo.com/cultura-pop/famosos/noticia/entenda-por-que-prisao-domiciliar-de-deolane-bezerra-foi-revogada.ghtml",
-        "source": "Bing",
-        "title": "Entenda por que prisão domiciliar de Deolane Bezerra foi revogada ...",
-        "width": 1200,
-        "height": 802
-      },
-      {
-        "imageUrl": "https://aloalobahia.com/wp-content/uploads/2024/09/deolane-presa.jpg",
-        "pageUrl": "https://aloalobahia.com/noticias/2024/09/05/justica-mantem-prisao-de-deolane-bezerra-apos-audiencia-de-custodia/",
-        "source": "Bing",
-        "title": "Justiça mantém prisão de Deolane Bezerra após audiência de custódia ...",
-        "width": 1488,
-        "height": 980
-      },
-      {
-        "imageUrl": "https://canalconsultapublica.com.br/wp-content/uploads/2024/09/deolane.jpg",
-        "pageUrl": "https://canalconsultapublica.com.br/noticias/cobertura-da-prisao-de-deolane-bezerra-no-sbt-resultou-em-processo/",
-        "source": "Bing",
-        "title": "Cobertura da prisão de Deolane Bezerra no SBT resultou em processo",
-        "width": 1200,
-        "height": 720
-      },
-      {
-        "imageUrl": "https://uploads.metroimg.com/wp-content/uploads/2024/09/09153757/Deolane-apos-prisao.jpeg",
-        "pageUrl": "https://www.metropoles.com/colunas/fabia-oliveira/video-assista-deolane-bezerra-sendo-presa-novamente",
-        "source": "Bing",
-        "title": "Vídeo: assista Deolane Bezerra sendo presa novamente",
-        "width": 1200,
-        "height": 800
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:11:26.415Z"
-    }
-  },
-  {
-    "id": "RGVzZW1wcmVnYWRvIHBv",
-    "reviewId": "RGVzZW1wcmVnYWRvIHBv",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Gui Ferraz, de 'Quem Ama Cuida', quase desistiu após 4 anos sem trabalho",
-    "slug": "gui-ferraz-de-quem-ama-cuida-quase-desistiu-apos-4-anos-sem-trabalho",
-    "excerpt": "Ator Gui Ferraz, que interpreta Tiago em 'Quem Ama Cuida', revelou que passou quase quatro anos desempregado e pensou em desistir da carreira.",
-    "body": [
-      "O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida', relembrou uma fase difícil de quase quatro anos sem trabalho. Durante esse período, ele pensou em desistir da carreira.",
-      "Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra seu talento com a bola. O ator ganhou destaque recentemente por seus papéis em 'Quem Ama Cuida' e na série sobre a Copa."
-    ],
-    "html": "<p>O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida', relembrou uma fase difícil de quase quatro anos sem trabalho. Durante esse período, ele pensou em desistir da carreira.</p>\n<p>Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra seu talento com a bola. O ator ganhou destaque recentemente por seus papéis em 'Quem Ama Cuida' e na série sobre a Copa.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Gui Ferraz",
-      "Quem Ama Cuida",
-      "desemprego",
-      "carreira",
-      "ator"
-    ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "Extra online",
-      "Correio Braziliense",
-      "NaTelinha"
-    ],
-    "evidenceClaims": [
-      "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
-      "Tiago em ‘Quem ama cuida’, Gui Ferraz relembra fase de quase quatro anos sem trabalho: ‘Pensei em desistir’",
-      "Na novela das 9 e na série 'Brasil 70', Gui Ferraz é craque e dá um show de bola",
-      "Quem é Gui Ferraz? Ator ganha destaque em Quem Ama Cuida e série da Netflix sobre a Copa"
-    ],
-    "sourceCount": 4,
-    "score": 112,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Gui Ferraz",
-    "imageSearchQuery": "Gui Ferraz ator Quem Ama Cuida",
-    "imageAlt": "Ator Gui Ferraz",
-    "editorialMeta": {
-      "originalTitle": "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
-      "sourceId": "RGVzZW1wcmVnYWRvIHBv",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Gui Ferraz interpreta Tiago em 'Quem Ama Cuida'.",
-        "Ele passou quase quatro anos sem trabalho.",
-        "Pensou em desistir da carreira.",
-        "Também está na série 'Brasil 70' da Netflix.",
-        "Ganhou destaque em 'Quem Ama Cuida' e na série da Netflix."
-      ],
-      "generatedAt": "2026-06-13T01:07:52.935Z"
-    },
-    "createdAt": "2026-06-13T01:07:52.935Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/Gui-2025-site-II.jpg",
-        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
-        "source": "Bing",
-        "title": "Gui Ferraz - ao cubo | agenciamento artístico",
-        "width": 857,
-        "height": 1280
-      },
-      {
-        "imageUrl": "https://www.noticiadamanha.com.br/wp-content/uploads/2026/01/confira-o-elenco-parcial-da-novela-quem-ama-cuida-695910bebe4df.webp.webp",
-        "pageUrl": "https://www.noticiadamanha.com.br/2026/01/03/noticias/elenco-parcial-da-novela-quem-ama-cuida-e-revelado/",
-        "source": "Bing",
-        "title": "Elenco parcial da novela 'Quem ama, cuida' é revelado",
-        "width": 1280,
-        "height": 728
-      },
-      {
-        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/a1/2026/04/10/tiago-gui-ferraz-em-quem-ama-cuida-1775853313403_v2_750x1.jpg",
-        "pageUrl": "https://www.uol.com.br/splash/noticias/2026/04/10/apos-vale-tudo-belize-pombal-e-escalada-para-quem-ama-cuida.ghtm",
-        "source": "Bing",
-        "title": "Quem Ama Cuida: Belize Pombal vive mulher poderosa após sucesso em Vale ...",
-        "width": 750,
-        "height": 1125
-      },
-      {
-        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/Gui-Ferraz-03-scaled.jpg",
-        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/",
-        "source": "Bing",
-        "title": "Arquivo Portfolios - ao cubo",
-        "width": 1940,
-        "height": 2560
-      },
-      {
-        "imageUrl": "https://br.web.img3.acsta.net/img/a9/d6/a9d6dbaca3cfce891fb873ec4753736a.jpg",
-        "pageUrl": "https://www.adorocinema.com/personalidades/personalidade-1000078046/",
-        "source": "Bing",
-        "title": "Gui Ferraz - AdoroCinema",
-        "width": 1000,
-        "height": 1333
-      },
-      {
-        "imageUrl": "https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2026/02/27/669457435-chay-suede-leticia-colin-e-renato-goes-estao-no-elenco-de-quem-ama-cuida.jpg",
-        "pageUrl": "https://www.terra.com.br/diversao/tv/novelas/quem-ama-cuida-proxima-novela-das-21h-enfrenta-primeira-baixa-saiba-quem-esta-fora-do-elenco,c6b1c3a8fab3182cb62b51b284d65037k6gmp4g1.html",
-        "source": "Bing",
-        "title": "Quem Ama Cuida, próxima novela das 21h, enfrenta primeira baixa; saiba ...",
-        "width": 1548,
-        "height": 871
-      },
-      {
-        "imageUrl": "https://i.ytimg.com/vi/KwdwHo8pu8c/maxresdefault.jpg",
-        "pageUrl": "https://www.youtube.com/watch?v=KwdwHo8pu8c",
-        "source": "Bing",
-        "title": "Conheça Quem Ama Cuida, a nova novela! - YouTube",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "imageUrl": "https://s2-gshow.glbimg.com/U27mHdhLLhZkiHCiaPNykKIKiuY=/2362x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2026/2/K/C2uiFnQoW1N2QMFEWVjw/assets-fotos-1320-a-familia-brandao-poder-ressentimento-e-lacos-corroidos-pelo-dinheiro-9aa544f61d97.jpg",
-        "pageUrl": "https://gshow.globo.com/novelas/noticia/conheca-a-familia-brandao-de-quem-ama-cuida-nova-novela-das-9.ghtml",
-        "source": "Bing",
-        "title": "Conheça a família Brandão de Quem Ama Cuida, nova novela das 9 | Gshow",
-        "width": 2362,
-        "height": 1575
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:11:26.415Z"
-    }
-  },
-  {
     "id": "QW1pZ2FzIHVuaWRhcyBh",
     "reviewId": "QW1pZ2FzIHVuaWRhcyBh",
     "workflowVersion": 2,
@@ -1412,482 +1557,6 @@
     }
   },
   {
-    "id": "RGlhIEQgfCBGaWxtZSBk",
-    "reviewId": "RGlhIEQgfCBGaWxtZSBk",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "'Dia D' arrecada US$ 12,5 milhões na estreia",
-    "slug": "dia-d-arrecada-us-12-5-milhoes-na-estreia",
-    "excerpt": "Filme de Steven Spielberg estreia com US$ 12,5 milhões e é descrito como tendo total domínio do cinema de espetáculo.",
-    "body": [
-      "'Dia D', novo filme de Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia. O longa também estreou no cinema de Rio Branco.",
-      "Em crítica, o filme é descrito como tendo 'total domínio do cinema de espetáculo' e 'escolhe a emoção para dar seu recado'.",
-      "O longa-metragem marca o retorno de Spielberg ao cinema de ficção científica com uma história emocionante."
-    ],
-    "html": "<p>'Dia D', novo filme de Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia. O longa também estreou no cinema de Rio Branco.</p>\n<p>Em crítica, o filme é descrito como tendo 'total domínio do cinema de espetáculo' e 'escolhe a emoção para dar seu recado'.</p><p>O longa-metragem marca o retorno de Spielberg ao cinema de ficção científica com uma história emocionante.</p>",
-    "category": "Cinema",
-    "market": "brasil",
-    "tags": [
-      "Dia D",
-      "Steven Spielberg",
-      "bilheteria",
-      "estreia"
-    ],
-    "source": "Omelete",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWDh0QmdycklLcTBzT0hsMGFGdjlUdGhKNmt0c1dvSERmZEtLTmEzNzEzRjNRVWdHZFplQ1NBNVpIaWJaYW5RY1pjNzdxVXZkUGgyX05zM1dBYnN3UVNabFhYU3p5Q0FUSXRPZTRDVXRNRkloR01XU2FEeXFUS3JVQ1hzU0Ftc0Qxa0E?oc=5",
-    "evidenceSources": [
-      "Omelete",
-      "Folha de S.Paulo",
-      "Estadão",
-      "Rolling Stone Brasil",
-      "G1"
-    ],
-    "evidenceClaims": [
-      "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
-      "Na estreia de 'Dia D', saiba onde ver outros filmes de Steven Spielberg sobre ETs",
-      "‘Dia D’: Spielberg tem total domínio do cinema de espetáculo e escolhe a emoção para dar seu recado",
-      "Os 16 filmes de Steven Spielberg no século XXI, da menor para a maior bilheteria",
-      "'Dia D', novo filme de Steven Spielberg, estreia no cinema de Rio Branco"
-    ],
-    "sourceCount": 5,
-    "score": 132,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Cartaz do filme 'Dia D'",
-    "imageSearchQuery": "Dia D filme Steven Spielberg cartaz",
-    "imageAlt": "Cartaz do filme Dia D de Steven Spielberg",
-    "editorialMeta": {
-      "originalTitle": "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
-      "sourceId": "RGlhIEQgfCBGaWxtZSBk",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "'Dia D' arrecadou US$ 12,5 milhões na estreia.",
-        "O filme estreou no cinema de Rio Branco.",
-        "Crítica descreve o filme como tendo total domínio do cinema de espetáculo e escolhendo a emoção para dar seu recado."
-      ],
-      "generatedAt": "2026-06-13T01:07:13.682Z"
-    },
-    "createdAt": "2026-06-13T01:07:13.682Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi18E4kSVXxCb9V4eUmYchBWNhveE43fkCbIA48K7IBm_uBSuj0KB92UT6kLV-e99xGA152hNVmeM7oBCxhZ-h9UJe3vjAa1Nm40I-c3-HMwJDzzN7s1fV-RmJDW-vRREFy_FKRX-nYv-DMXufHKYErsWNJ5Y7FuRZ_rViHpz-b5U92Ix75dgBJg-ESxn8P/s800/Resizer_17733422078021.jpg",
-        "pageUrl": "https://www.poltronapop.com.br/2026/03/dia-d-novo-sci-fi-de-spielberg-divulga.html",
-        "source": "Bing",
-        "title": "DIA D | Novo sci-fi de Spielberg divulga novo cartaz e trailer nacional",
-        "width": 650,
-        "height": 800
-      },
-      {
-        "imageUrl": "https://br.web.img3.acsta.net/img/b9/49/b949afc8c6b14009a6c97f34e094ae3f.jpg",
-        "pageUrl": "https://www.adorocinema.com/filmes/filme-1000001453/",
-        "source": "Bing",
-        "title": "Dia D - Filme 2026 - AdoroCinema",
-        "width": 1000,
-        "height": 1250
-      },
-      {
-        "imageUrl": "https://www.itaberabanoticias.com.br/wp-content/uploads/2026/02/filme-Dia-D.jpg",
-        "pageUrl": "https://www.itaberabanoticias.com.br/geral/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-trailer-data-de-estreia-e-promete-marcar-o-cinema-em-2026",
-        "source": "Bing",
-        "title": "Dia D: novo filme de Steven Spielberg sobre alienígenas ganha trailer ...",
-        "width": 1536,
-        "height": 1024
-      },
-      {
-        "imageUrl": "https://updateordie.com/wp-content/uploads/2025/12/disclosure-day-movie-poster-99ffoklkeb-1044x606.webp",
-        "pageUrl": "https://updateordie.com/2025/12/18/novo-filme-de-steven-spielberg-sobre-ovnis-dia-d-ganha-trailer-e-data-de-estreia/",
-        "source": "Bing",
-        "title": "Dia D: Encontro de Spielberg e Koepp",
-        "width": 1044,
-        "height": 606
-      },
-      {
-        "imageUrl": "https://i.ytimg.com/vi/NX_RNtnV7q0/maxresdefault.jpg",
-        "pageUrl": "https://www.youtube.com/watch?v=NX_RNtnV7q0",
-        "source": "Bing",
-        "title": "DIA D | Trailer Oficial (Universal Pictures) - HD - YouTube",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "imageUrl": "https://ingresso-a.akamaihd.net/prd/img/movie/dia-d/0d53f472-2ec2-47ad-ae89-11e3592cc642.webp",
-        "pageUrl": "https://www.ingresso.com/filme/dia-d",
-        "source": "Bing",
-        "title": "Dia D - Ingresso.com",
-        "width": 640,
-        "height": 940
-      },
-      {
-        "imageUrl": "https://cadernopop.com.br/wp-content/uploads/2025/12/Disclosure-Day_Steven-1.webp",
-        "pageUrl": "https://cadernopop.com.br/novo-filme-de-spielberg-dia-d-ganha-trailer-e-data-de-estreia/",
-        "source": "Bing",
-        "title": "Novo filme de Spielberg, \"Dia D\", ganha trailer e data de estreia ...",
-        "width": 1450,
-        "height": 890
-      },
-      {
-        "imageUrl": "https://midias.correiobraziliense.com.br/_midias/jpg/2025/12/18/1200x801/1_dia-d-reproducao-instagram--disclosureday-62244388.jpg?20251218095707?20251218095707",
-        "pageUrl": "https://www.correiobraziliense.com.br/webstories/flipar/2025/12/7316578-steven-spielberg-celebra-79-anos-com-teaser-de-dia-d-seu-novo-filme-de-ficcao-cientifica.html",
-        "source": "Bing",
-        "title": "Steven Spielberg celebra 79 anos com teaser de \"Dia D\", seu novo filme ...",
-        "width": 1200,
-        "height": 800
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: OpenAI vision 401: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************M78A. You can find your API key at https://platform.openai.com/account/api-keys. | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T01:11:26.415Z"
-    }
-  },
-  {
-    "id": "TGVhbmRyYSBMZWFsIGZh",
-    "reviewId": "TGVhbmRyYSBMZWFsIGZh",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Leandra Leal fala de parceria com Isabelle Drummond e novo filme da Globo",
-    "slug": "leandra-leal-fala-de-parceria-com-isabelle-drummond-e-novo-filme-da-globo",
-    "excerpt": "Leandra Leal comenta parceria com Isabelle Drummond em 'Coração Acelerado' e revela detalhes de novo filme da Globo.",
-    "body": [
-      "Leandra Leal falou sobre a parceria com Isabelle Drummond na novela 'Coração Acelerado' e também sobre um novo filme da Globo. A atriz comentou o trabalho com a colega de elenco e adiantou informações sobre o longa-metragem.",
-      "Em entrevistas, Leandra Leal também previu um castigo para sua personagem, a vilã Zilá, afirmando que ela 'não vai acabar rica'. A atriz revelou o fim da vilã na trama.",
-      "Além disso, Leandra Leal, aos 43 anos, disse que não quer falar sobre o que está vivendo atualmente. Ela também revelou uma escolha que fez para aproveitar os primeiros anos do filho caçula."
-    ],
-    "html": "<p>Leandra Leal falou sobre a parceria com Isabelle Drummond na novela 'Coração Acelerado' e também sobre um novo filme da Globo. A atriz comentou o trabalho com a colega de elenco e adiantou informações sobre o longa-metragem.</p>\n<p>Em entrevistas, Leandra Leal também previu um castigo para sua personagem, a vilã Zilá, afirmando que ela 'não vai acabar rica'. A atriz revelou o fim da vilã na trama.</p>\n<p>Além disso, Leandra Leal, aos 43 anos, disse que não quer falar sobre o que está vivendo atualmente. Ela também revelou uma escolha que fez para aproveitar os primeiros anos do filho caçula.</p>",
-    "category": "Cinema",
-    "market": "brasil",
-    "tags": [
-      "Leandra Leal",
-      "Isabelle Drummond",
-      "Coração Acelerado",
-      "Globo",
-      "novela",
-      "filme"
-    ],
-    "source": "O Globo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNzdscTVTT0hLd005NXlJeWFaMnQwWWFIVml6czlBXzYtWGFtanVPRHZma1NESmEzWTVsUUhDZEZYR3lzdHBDWHBKTGlkRENIZXRZX1Q5X2ktWUxVZERRenNheUVqZUFZa01aLVVoUUVCSk9XLTJ2di1NT1hrdkd4YnprSWxkWDB2VVNWanNUaXR0UDdxRHI2aTF2QlRKREs2NkpNSXhocDlDM3hiOExRQVZiTHVlUjJidm91eTJ3UktkSFhleEFtM2RQNVJsRVpuSjVuZ3pmM0M4MkZrZFpoSzNCR0ZDV1UwbGVPdFBBa0t2RmFDZkxB0gGGAkFVX3lxTE1FZGJfbmlKQ05hd2hmVW1jR1BKUmdMa1FxUm95UnBNYkw0OC1CeUU3QjlEZVducHA3dEQtQWxQS1hBdmFKVWRXUFVXZHVTUXFZdElmOXdlbDZRTnNhaDltMmpQdG9OdEg4VjdHdS0yVEZlYnpDdzVJYk96eVVzQUlwbjBCUTRjT2tyYTNTX2Vmc3VLSTVUM2taRlAtSUgwUGRzMVVzV0wta3QwN2hmYnJPcXFuWVl1NEd5ZFg5WlQxd1o4OEkwb3dZTFd1UjQ0ZVNMbmRvYzNvVkZNREJYV0ZvTzcxbjN4X2ZjcjR5SUV1NDc5OTFQS2pZZVgzb3hXak10ZHp3b2c?oc=5",
-    "evidenceSources": [
-      "O Globo",
-      "Notícias da TV",
-      "CARAS Brasil",
-      "NSC Total",
-      "diariodopara.com.br"
-    ],
-    "evidenceClaims": [
-      "Leandra Leal fala da parceria com Isabelle Drummond em 'Coração acelerado' e de novo filme da Globo",
-      "Leandra Leal prevê castigo para vilã de Coração Acelerado: 'Não vai acabar rica'",
-      "Leandra Leal revela escolha que fez para aproveitar os primeiros anos do filho caçula: 'Tinha o ideal...",
-      "Leandra Leal, aos 43 anos: \"Não quero falar sobre o que eu estou vivendo\"",
-      "Coração Acelerado: Leandra Leal revela fim da vilã Zilá; veja"
-    ],
-    "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Leandra Leal",
-    "imageSearchQuery": "Leandra Leal entrevista 2026",
-    "imageAlt": "Leandra Leal em entrevista",
-    "editorialMeta": {
-      "originalTitle": "Leandra Leal fala da parceria com Isabelle Drummond em 'Coração acelerado' e de novo filme da Globo",
-      "sourceId": "TGVhbmRyYSBMZWFsIGZh",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Leandra Leal falou sobre a parceria com Isabelle Drummond em 'Coração Acelerado'.",
-        "Leandra Leal falou sobre um novo filme da Globo.",
-        "Leandra Leal previu castigo para a vilã Zilá, dizendo que ela não vai acabar rica.",
-        "Leandra Leal revelou o fim da vilã Zilá.",
-        "Leandra Leal, aos 43 anos, disse que não quer falar sobre o que está vivendo.",
-        "Leandra Leal revelou escolha que fez para aproveitar os primeiros anos do filho caçula."
-      ],
-      "generatedAt": "2026-06-13T00:53:18.709Z"
-    },
-    "createdAt": "2026-06-13T00:53:18.709Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://i.ytimg.com/vi/BzVNnvpVbYk/maxresdefault.jpg",
-        "pageUrl": "https://www.youtube.com/watch?v=BzVNnvpVbYk",
-        "source": "Bing",
-        "title": "Os Enforcados: Entrevista EXCLUSIVA com Leandra Leal - YouTube",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "imageUrl": "https://f.i.uol.com.br/fotografia/2025/10/02/175945064768df161765280_1759450647_3x2_rt.jpg",
-        "pageUrl": "https://f5.folha.uol.com.br/cinema-e-series/2025/10/festival-do-rio-leandra-leal-brinca-que-o-agente-secreto-leva-o-oscar-se-a-premiacao-for-no-carnaval.shtml",
-        "source": "Bing",
-        "title": "Festival do Rio: Leandra Leal fala de 'O Agente Secreto' - 02/10/2025 ...",
-        "width": 2400,
-        "height": 1600
-      },
-      {
-        "imageUrl": "https://noticiasdetv.com/wp-content/uploads/2016/08/Leandra-Leal-1350x900.jpg",
-        "pageUrl": "https://noticiasdetv.com/2020/05/05/entrevista-leandra-leal-fala-sobre-sua-personagem-na-serie-aruanas/",
-        "source": "Bing",
-        "title": "Entrevista: Leandra Leal fala sobre sua personagem na série \"Aruanas ...",
-        "width": 1350,
-        "height": 900
-      },
-      {
-        "imageUrl": "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2023/12/i754516.png",
-        "pageUrl": "https://www.folhape.com.br/cultura/entrevista-leandra-leal-homenageada-do-cine-pe-fala-de-carreira-na/418170/",
-        "source": "Bing",
-        "title": "Entrevista: Leandra Leal fala sobre homenagem no Recife e carreira na ...",
-        "width": 640,
-        "height": 360
-      },
-      {
-        "imageUrl": "https://i0.statig.com.br/bancodeimagens/imgalta/bv/wa/pd/bvwapd9c3pz9pd7pkop2v9czy.jpg",
-        "pageUrl": "https://gente.ig.com.br/parceiros/flipar/2025-09-13/eu-sou-nepobaby-admite-leandra-leal-veja-a-carreira-da-atriz.html.amp",
-        "source": "Bing",
-        "title": "\"Eu sou nepobaby\", admite Leandra Leal; veja a carreira da atriz",
-        "width": 639,
-        "height": 480
-      },
-      {
-        "imageUrl": "https://i.ytimg.com/vi/hDOTj5gNSHA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgaCgvMA8=&rs=AOn4CLAmzgNSI8f2gqRmVI1bS9wDv3w7KQ",
-        "pageUrl": "https://www.youtube.com/watch?v=hDOTj5gNSHA",
-        "source": "Bing",
-        "title": "Entrevista Leandra Leal - YouTube",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "imageUrl": "https://f.i.uol.com.br/fotografia/2025/08/08/17546561636895eda395867_1754656163_3x2_rt.jpg",
-        "pageUrl": "https://f5.folha.uol.com.br/celebridades/2026/02/leandra-leal-diz-que-rejeitou-pressao-para-emagrecer-ao-assumir-vila-em-coracao-acelerado.shtml",
-        "source": "Bing",
-        "title": "Leandra Leal se recusou a emagrecer para atuar - 02/02/2026 ...",
-        "width": 2400,
-        "height": 1600
-      },
-      {
-        "imageUrl": "https://i.ytimg.com/vi/WQ0Dg2V3_UE/maxresdefault.jpg",
-        "pageUrl": "https://www.youtube.com/watch?v=WQ0Dg2V3_UE",
-        "source": "Bing",
-        "title": "Leandra leal entrevista leandra leal 1280x720 - YouTube",
-        "width": 1280,
-        "height": 720
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T00:55:44.727Z"
-    }
-  },
-  {
-    "id": "w4BzIHbDqXNwZXJhcyBk",
-    "reviewId": "w4BzIHbDqXNwZXJhcyBk",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Ex-cantoras do Rouge trocam farpas às vésperas de documentário",
-    "slug": "ex-cantoras-do-rouge-trocam-farpas-as-vesperas-de-documentario",
-    "excerpt": "Karin Hils e Luciana Andrade trocam farpas sobre bastidores do grupo Rouge antes de documentário.",
-    "body": [
-      "Às vésperas do lançamento de um documentário sobre o Rouge, ex-cantoras do grupo trocam farpas. Karin Hils se pronunciou após um desabafo de Lu Andrade, que abordou sua saída do grupo e esclareceu rumores sobre sua trajetória.",
-      "Luciana Andrade afirmou: 'Eu não brigava com ninguém' e expôs bastidores, mencionando mentiras e arrependimento no Rouge. Karin Hils, por sua vez, declarou: 'Não sou mentirosa'.",
-      "Em outra ocasião, Karin Hils também comentou sobre o reality 'Estrela da Casa', dizendo: 'Nem se inscreva'."
-    ],
-    "html": "<p>Às vésperas do lançamento de um documentário sobre o Rouge, ex-cantoras do grupo trocam farpas. Karin Hils se pronunciou após um desabafo de Lu Andrade, que abordou sua saída do grupo e esclareceu rumores sobre sua trajetória.</p>\n<p>Luciana Andrade afirmou: 'Eu não brigava com ninguém' e expôs bastidores, mencionando mentiras e arrependimento no Rouge. Karin Hils, por sua vez, declarou: 'Não sou mentirosa'.</p>\n<p>Em outra ocasião, Karin Hils também comentou sobre o reality 'Estrela da Casa', dizendo: 'Nem se inscreva'.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Rouge",
-      "Karin Hils",
-      "Luciana Andrade",
-      "documentário",
-      "farpas"
-    ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "OFuxico",
-      "POPline",
-      "R7 Entretenimento",
-      "iG Gente"
-    ],
-    "evidenceClaims": [
-      "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
-      "Karin Hils se pronuncia após desabafo de Lu Andrade sobre Rouge",
-      "“Eu não brigava com ninguém”: Luciana expõe bastidores, mentira e arrependimento no Rouge",
-      "Luciana Andrade aborda saída do Rouge e esclarece rumores sobre sua trajetória",
-      "Karin Hils, ex-Rouge, fala de“Estrela da Casa”: 'Nem se inscreva'"
-    ],
-    "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Karin Hils e Luciana Andrade",
-    "imageSearchQuery": "Karin Hils Luciana Andrade Rouge",
-    "imageAlt": "Karin Hils e Luciana Andrade, ex-cantoras do Rouge",
-    "editorialMeta": {
-      "originalTitle": "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
-      "sourceId": "w4BzIHbDqXNwZXJhcyBk",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Ex-cantoras do Rouge trocam farpas às vésperas de documentário.",
-        "Karin Hils se pronunciou após desabafo de Lu Andrade sobre Rouge.",
-        "Luciana Andrade afirmou que não brigava com ninguém e expôs bastidores, mentira e arrependimento no Rouge.",
-        "Karin Hils disse 'Não sou mentirosa'.",
-        "Karin Hils comentou sobre 'Estrela da Casa': 'Nem se inscreva'."
-      ],
-      "generatedAt": "2026-06-13T00:53:01.509Z"
-    },
-    "createdAt": "2026-06-13T00:53:01.509Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://assets.portalleodias.com/2024/04/SnapInsta.to_67464850_137961620750477_7025423408475860537_n.jpg",
-        "pageUrl": "https://portalr1.com.br/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge/",
-        "source": "Bing",
-        "title": "Karin Hils celebra aniversário de Lu Andrade e reacende rumores sobre ...",
-        "width": 1079,
-        "height": 853
-      },
-      {
-        "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2026/04/13/345812768-retorno-rouge-novos-projetos-2024-jpg.jpg",
-        "pageUrl": "https://www.terra.com.br/diversao/musica/rouge-luciana-andrade-desmente-karin-hils-sobre-crise-no-popstars,f85b6948d3617e422ecd3b1679005184sem4ok3o.html",
-        "source": "Bing",
-        "title": "Rouge: Luciana Andrade desmente Karin Hils sobre crise no \"Popstars\"",
-        "width": 774,
-        "height": 582
-      },
-      {
-        "imageUrl": "https://caras.com.br/wp-content/uploads/2023-abril/rouge_szjgVfb.jpg",
-        "pageUrl": "https://caras.com.br/musica/voce-sabia-ex-rouge-lu-andrade-segue-nova-profissao-longe-dos-palcos.phtml",
-        "source": "Bing",
-        "title": "Você sabia? Ex-Rouge, Lu Andrade segue nova profissão longe dos palcos ...",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://static1.purepeople.com.br/articles/9/22/01/79/@/2523449-karin-hils-aline-wirley-fantine-tho-l-950x0-4.jpg",
-        "pageUrl": "https://www.purepeople.com.br/midia/karin-hils-aline-wirley-fantine-tho-l_m2523449",
-        "source": "Bing",
-        "title": "Karin Hils, Aline Wirley, Fantine Thó, Luciana Andrade e Li Martins se ...",
-        "width": 950,
-        "height": 633
-      },
-      {
-        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/d6/2023/01/12/aline-wirley-karin-hils-li-martins-luciana-andrade-e-fantine-tho-formaram-a-girlband-rouge-1673552670992_v2_900x506.jpg",
-        "pageUrl": "https://www.uol.com.br/splash/noticias/2023/01/12/o-que-dizem-ex-integrantes-do-rouge-sobre-aline-wirley-no-bbb-23.htm",
-        "source": "Bing",
-        "title": "BBB 23: Aline Wirley é apoiada pelas ex-integrantes do Rouge?",
-        "width": 900,
-        "height": 506
-      },
-      {
-        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/f1/2017/09/25/integrantes-do-rouge-luciana-andrade-aline-wirley--karin-hils-li-martins-e-fantine-tho-1506372880847_v2_750x421.jpg",
-        "pageUrl": "https://www.uol.com.br/splash/noticias/2023/04/06/rouge-aline-wirley-bbb-23.htm",
-        "source": "Bing",
-        "title": "BBB 23: Festa de Aline revive carreira no Rouge",
-        "width": 474,
-        "height": 266
-      },
-      {
-        "imageUrl": "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2017/10/rouge-fara-show-em-sp.jpg",
-        "pageUrl": "https://www.folhape.com.br/noticias/rouge-fara-show-no-recife/45129/",
-        "source": "Bing",
-        "title": "Rouge fará show no Recife - Folha PE",
-        "width": 1000,
-        "height": 853
-      },
-      {
-        "imageUrl": "https://otempo.scene7.com/is/image/sempreeditora/entretenimento-rouge-1712897951?qlt=90&ts=1769440761931&dpr=off",
-        "pageUrl": "https://www.otempo.com.br/entretenimento/2026/1/26/rouge-vai-ganhar-documentario-na-hbo",
-        "source": "Bing",
-        "title": "Rouge vai ganhar documentário na HBO",
-        "width": 744,
-        "height": 542
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T00:55:44.727Z"
-    }
-  },
-  {
     "id": "RXN0ZSBmb2kgbyBlZmVp",
     "reviewId": "RXN0ZSBmb2kgbyBlZmVp",
     "workflowVersion": 2,
@@ -2021,162 +1690,6 @@
         "title": "Comparação de afiliadas GLOBO x SBT com logotipos atuais - YouTube",
         "width": 1280,
         "height": 720
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 2: error: unexpected argument '--ask-for-approval' found\n\n  tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'\n\nUsage: codex exec [OPTIONS] [PROMPT]\n       codex exec [OPTIONS] <COMMAND> [ARGS]\n\nFor more information, try '--help'.\n",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-13T00:55:44.727Z"
-    }
-  },
-  {
-    "id": "QW5kcmVzc2Egw6kgZWxp",
-    "reviewId": "QW5kcmVzc2Egw6kgZWxp",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Andressa é eliminada de Casa do Patrão com 16,37% dos votos",
-    "slug": "andressa-e-eliminada-de-casa-do-patrao-com-16-37-dos-votos",
-    "excerpt": "Andressa foi eliminada do reality Casa do Patrão com 16,37% dos votos, tornando-se a sétima participante a deixar o programa.",
-    "body": [
-      "Andressa foi eliminada do reality show Casa do Patrão, com 16,37% dos votos. A informação foi confirmada por veículos como R7, O Globo e Estadão.",
-      "A participante é a sétima eliminada da temporada. A votação envolvia também as sisters Bianca e Mari, conforme apontavam enquetes parciais."
-    ],
-    "html": "<p>Andressa foi eliminada do reality show Casa do Patrão, com 16,37% dos votos. A informação foi confirmada por veículos como R7, O Globo e Estadão.</p>\n<p>A participante é a sétima eliminada da temporada. A votação envolvia também as sisters Bianca e Mari, conforme apontavam enquetes parciais.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Casa do Patrão",
-      "Andressa",
-      "eliminação",
-      "reality show"
-    ],
-    "source": "R7",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5",
-    "evidenceSources": [
-      "R7",
-      "O Globo",
-      "Estadão",
-      "CNN Brasil",
-      "Correio Braziliense"
-    ],
-    "evidenceClaims": [
-      "Andressa é eliminada de Casa do Patrão, com 16,37% dos votos",
-      "Enquete Casa do Patrão: parcial atualizada aponta quem sai entre Andressa, Bianca e Mari",
-      "‘Casa do Patrão’: Andressa é a sétima eliminada; confira o porcentual dos votos",
-      "\"Casa do Patrão\": parcial da enquete aponta quem vai sair do reality hoje",
-      "Enquete Casa do Patrão: Andressa, Bianca ou Mariana? Parcial é atualizada e revela quem sai no 7º Tá Na Reta"
-    ],
-    "sourceCount": 5,
-    "score": 110,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Andressa, participante do reality Casa do Patrão",
-    "imageSearchQuery": "Andressa Casa do Patrão eliminada",
-    "imageAlt": "Andressa, eliminada do reality Casa do Patrão",
-    "editorialMeta": {
-      "originalTitle": "Andressa é eliminada de Casa do Patrão, com 16,37% dos votos",
-      "sourceId": "QW5kcmVzc2Egw6kgZWxp",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Andressa foi eliminada de Casa do Patrão.",
-        "Ela recebeu 16,37% dos votos.",
-        "É a sétima eliminada do programa.",
-        "A votação incluía Andressa, Bianca e Mari."
-      ],
-      "generatedAt": "2026-06-13T00:52:26.915Z"
-    },
-    "createdAt": "2026-06-13T00:52:26.915Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://uploads.folhavitoria.com.br/imagens/2026/04/casa-do-patrao-participante-Andressa-Karol.jpg",
-        "pageUrl": "https://www.folhavitoria.com.br/cultura/casa-do-patrao-conheca-os-participantes-do-novo-reality-da-record/",
-        "source": "Bing",
-        "title": "Casa do Patrão: conheça os participantes",
-        "width": 1320,
-        "height": 768
-      },
-      {
-        "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/04/27/1200x675/1_participantes_a_casa_do_patrao_reality_record-40419857.jpg",
-        "pageUrl": "https://www.opovo.com.br/divirtase/2026/05/01/enquete-casa-do-patrao-quem-e-o-favorito-apos-a-1-eliminacao.html",
-        "source": "Bing",
-        "title": "Enquete Casa do Patrão: quem é o favorito após a 1ª eliminação",
-        "width": 1200,
-        "height": 675
-      },
-      {
-        "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/KMTU3DR345AZ5IJRA24IF77DCQ.jpg?auth=aabf81263d1650c92a50f22f52107d49049fa5567fe257234f5dbabebea7fd38&width=1600&height=900",
-        "pageUrl": "https://entretenimento.r7.com/famosos-e-tv/casa-do-patrao-tudo-que-ja-sabemos-sobre-o-reality-show-de-boninho-na-record-15122025/",
-        "source": "Bing",
-        "title": "'Casa do Patrão': tudo que já sabemos sobre o reality show de Boninho ...",
-        "width": 1600,
-        "height": 900
-      },
-      {
-        "imageUrl": "https://static.ndmais.com.br/2026/05/participantes-casa-do-patrao-1200x675.jpg",
-        "pageUrl": "https://ndmais.com.br/reality-shows/bbb/bbb-26-qual-o-premio-do-segundo-e-terceiro-colocado/",
-        "source": "Bing",
-        "title": "BBB 26: Qual o prêmio do segundo e terceiro colocado?",
-        "width": 1200,
-        "height": 675
-      },
-      {
-        "imageUrl": "https://static1.purepeople.com.br/uploads/56/f8/8d/f5/091fcebb054c9e65-1200x0-1.jpg",
-        "pageUrl": "https://www.purepeople.com.br/midia/boninho_m4699901",
-        "source": "Bing",
-        "title": "Foto: Boninho detalhou como será o novo reality show 'Casa do Patrão ...",
-        "width": 1200,
-        "height": 667
-      },
-      {
-        "imageUrl": "https://uploads.folhavitoria.com.br/imagens/2026/04/casa-do-patrao-participantes--1000x582.jpg",
-        "pageUrl": "https://www.folhavitoria.com.br/cultura/casa-do-patrao-conheca-os-participantes-do-novo-reality-da-record/",
-        "source": "Bing",
-        "title": "Casa do Patrão: conheça os participantes",
-        "width": 1000,
-        "height": 582
-      },
-      {
-        "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/HECTXFDBUVDJ7GGLROCRWAUIXE.jpg?smart=true&auth=3c04be1d11e3a371e7b213fb281f8140021c9d0f2e2aa08bc752fc4344861594&width=1920&height=1280",
-        "pageUrl": "https://entretenimento.r7.com/famosos-e-tv/casa-do-patrao-tudo-que-ja-sabemos-sobre-o-reality-show-de-boninho-na-record-15122025/",
-        "source": "Bing",
-        "title": "'Casa do Patrão': tudo que já sabemos sobre o reality show de Boninho ...",
-        "width": 1920,
-        "height": 1280
-      },
-      {
-        "imageUrl": "https://noticiasdatv.uol.com.br/media/uploads/artigos_2024/casa-do-patrao-reproducao-disney.jpg",
-        "pageUrl": "https://noticiasdatv.uol.com.br/noticia/casa-do-patrao/casa-do-patrao-vira-alvo-de-criticas-na-web-antes-mesmo-de-estrear-na-record-150476",
-        "source": "Bing",
-        "title": "Casa do Patrão vira alvo de críticas na web antes mesmo de estrear na ...",
-        "width": 1360,
-        "height": 850
       }
     ],
     "imageReview": {
