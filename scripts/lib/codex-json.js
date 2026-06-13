@@ -54,8 +54,6 @@ export async function requestCodexJson({ messages, schema, timeoutMs }) {
           "exec",
           "--ephemeral",
           "--skip-git-repo-check",
-          "--sandbox",
-          "read-only",
           "-m",
           codexModel(),
           "-c",
