@@ -62,10 +62,10 @@ function assertReadyForApproval(item) {
   if (item.editorialMeta?.automatedReview?.status !== "approved") {
     issues.push("texto nao passou pela revisao factual automatica");
   }
-  // imagem pulada para teste sem visao disponivel
-  if (false && item.imageReview?.status !== "approved") {
+  if (item.imageReview?.status !== "approved") {
     issues.push("imagem nao passou pela revisao visual");
   }
+  // imagem pulada para teste - sem visao disponivel
   if (false && (!item.image || item.image === "/images/news-placeholder.svg")) {
     issues.push("imagem ausente ou placeholder");
   }

@@ -1,5 +1,2691 @@
 [
   {
+    "id": "w4JuY29yYSBkbyBTQlQg",
+    "reviewId": "w4JuY29yYSBkbyBTQlQg",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Âncora do SBT News se irrita e dá bronca na equipe ao vivo",
+    "slug": "ancora-do-sbt-news-se-irrita-e-da-bronca-na-equipe-ao-vivo",
+    "excerpt": "Amanda Klein, âncora do SBT News, se irritou e reclamou da equipe ao vivo após problema no teleprompter.",
+    "body": [
+      "A âncora do SBT News, Amanda Klein, passou por um perrengue ao vivo e acabou se irritando com a equipe durante o programa. Segundo relatos, ela reclamou abertamente e deu uma bronca na equipe após um problema técnico com o teleprompter.",
+      "O incidente ocorreu durante a transmissão ao vivo do telejornal, quando a âncora não conseguiu ler o texto corretamente devido a uma falha no equipamento. Klein então chamou a atenção dos profissionais nos bastidores, demonstrando irritação com a situação.",
+      "O momento foi registrado e viralizou nas redes sociais, gerando repercussão entre os telespectadores. Até o momento, a emissora não se pronunciou oficialmente sobre o ocorrido."
+    ],
+    "html": "<p>A âncora do SBT News, Amanda Klein, passou por um perrengue ao vivo e acabou se irritando com a equipe durante o programa. Segundo relatos, ela reclamou abertamente e deu uma bronca na equipe após um problema técnico com o teleprompter.</p>\n<p>O incidente ocorreu durante a transmissão ao vivo do telejornal, quando a âncora não conseguiu ler o texto corretamente devido a uma falha no equipamento. Klein então chamou a atenção dos profissionais nos bastidores, demonstrando irritação com a situação.</p>\n<p>O momento foi registrado e viralizou nas redes sociais, gerando repercussão entre os telespectadores. Até o momento, a emissora não se pronunciou oficialmente sobre o ocorrido.</p>",
+    "category": "TV",
+    "market": "brasil",
+    "tags": [
+      "Amanda Klein",
+      "SBT News",
+      "bronca ao vivo",
+      "teleprompter",
+      "perrengue"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "NaTelinha",
+      "RD1",
+      "Metropolitana",
+      "Bnews"
+    ],
+    "evidenceClaims": [
+      "Âncora do SBT News passa perrengue ao vivo, se irrita e dá bronca em equipe",
+      "Amanda Klein se irrita e reclama ao vivo de equipe no SBT News; vídeo",
+      "Christiane Pelajo? Âncora do SBT News não segura a língua e detona equipe ao vivo",
+      "Jornalista do SBT chama atenção da equipe ao vivo após problema no teleprompter",
+      "Âncora de telejornal passa perrengue e dá bronca na equipe durante programa ao vivo"
+    ],
+    "sourceCount": 5,
+    "score": 98,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Amanda Klein, âncora do SBT News",
+    "imageSearchQuery": "Amanda Klein SBT News âncora",
+    "imageAlt": "Amanda Klein, âncora do SBT News, durante telejornal",
+    "editorialMeta": {
+      "originalTitle": "Âncora do SBT News passa perrengue ao vivo, se irrita e dá bronca em equipe",
+      "sourceId": "w4JuY29yYSBkbyBTQlQg",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Amanda Klein é âncora do SBT News.",
+        "Ela se irritou e reclamou da equipe ao vivo.",
+        "O motivo foi um problema no teleprompter.",
+        "O incidente ocorreu durante programa ao vivo."
+      ],
+      "generatedAt": "2026-06-13T00:17:05.396Z"
+    },
+    "createdAt": "2026-06-13T00:17:05.396Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://img.observatoriodatv.com.br/wp-content/uploads/2025/10/capa-sbt-anuncia-contratacao-amanda-klein_2565.jpeg.webp",
+        "pageUrl": "https://observatoriodatv.com.br/noticias/amanda-klein-e-a-nova-contratada-do-sbt-news-e-celebra-estou-muito-animada",
+        "source": "Bing",
+        "title": "Amanda Klein é a nova contratada do SBT News e celebra: \"Estou muito ...",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://www.tiktok.com/api/img/?itemId=7561849124253912328&location=0&aid=1988",
+        "pageUrl": "https://www.tiktok.com/@ergarotv/video/7561849124253912328",
+        "source": "Bing",
+        "title": "Amanda Klein é a nova apresentadora do SBT News | TikTok",
+        "width": 1080,
+        "height": 1920
+      },
+      {
+        "imageUrl": "https://portaln10.com.br/todocanal/wp-content/uploads/2025/10/amanda-klein-jornal-apresenta.webp",
+        "pageUrl": "https://portaln10.com.br/todocanal/televisao/amanda-klein-deixa-redetv-apos-14-anos-e-retorna-ao-sbt-para-novo-projeto/",
+        "source": "Bing",
+        "title": "Amanda Klein deixa RedeTV! após 14 anos e retorna ao SBT para novo ...",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "imageUrl": "https://www.bastidoresdatv.com.br/wp-content/uploads/2023/02/Amanda-Klein-RedeTV-News.jpg",
+        "pageUrl": "https://www.bastidoresdatv.com.br/televisao/amanda-klein-e-a-nova-ancora-do-redetv-news",
+        "source": "Bing",
+        "title": "Amanda Klein é a nova âncora do \"RedeTV! News\" - Bastidores da TV",
+        "width": 731,
+        "height": 459
+      },
+      {
+        "imageUrl": "https://portalaltadefinicao.com/wp-content/uploads/2025/10/amanda-klein.jpg",
+        "pageUrl": "https://portalaltadefinicao.com/amanda-klein-principal-ancora-da-redetv-deixa-emissora-para-assinar-com-o-sbt/",
+        "source": "Bing",
+        "title": "Amanda Klein deixa RedeTV! e assina com o SBT News",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "imageUrl": "https://www.portaldosjornalistas.com.br/wp-content/uploads/2023/02/Amanda-Klein1.webp",
+        "pageUrl": "https://www.portaldosjornalistas.com.br/amanda-klein-e-a-nova-ancora-do-redet-news/",
+        "source": "Bing",
+        "title": "Amanda Klein é a nova âncora do RedeTV News",
+        "width": 1198,
+        "height": 637
+      },
+      {
+        "imageUrl": "https://www.areavip.com.br/wp-content/uploads/2026/04/amanda-klein-e-cesar-filho.jpg",
+        "pageUrl": "https://www.areavip.com.br/televisao/amanda-klein-assume-comando-do-sbt-brasil-apos-15-anos-e-publico-nao-se-cala/",
+        "source": "Bing",
+        "title": "Amanda Klein assume comando do SBT Brasil, após 15 anos, e público não ...",
+        "width": 1200,
+        "height": 700
+      },
+      {
+        "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/02/28/amanda-klein-e-thiago-gardinali-jornalistas-do-sbt-encaram-o-jogo-das-3-pistas-69a2b218b4b53.webp",
+        "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/amanda-klein-e-thiago-gardinali-jornalistas-do-sbt-encaram-o-jogo-das-3-pistas.html",
+        "source": "Bing",
+        "title": "Amanda Klein e Thiago Gardinali, jornalistas do SBT, encaram o \"Jogo ...",
+        "width": 1200,
+        "height": 628
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "QW5hIENhc3RlbGEgYW51",
+    "reviewId": "QW5hIENhc3RlbGEgYW51",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Ana Castela anuncia medidas judiciais contra Leo Dias",
+    "slug": "ana-castela-anuncia-medidas-judiciais-contra-leo-dias",
+    "excerpt": "Cantora tomará providências após ser acusada de trair Gustavo Mioto com Zé Felipe.",
+    "body": [
+      "Ana Castela anunciou que tomará medidas judiciais contra o jornalista Leo Dias. A decisão ocorre após Dias afirmar que a cantora teria engatado um relacionamento com Zé Felipe antes de terminar com Gustavo Mioto.",
+      "A equipe de Ana Castela se pronunciou sobre os rumores de traição que vieram à tona. A cantora nega as acusações e busca reparação na Justiça."
+    ],
+    "html": "<p>Ana Castela anunciou que tomará medidas judiciais contra o jornalista Leo Dias. A decisão ocorre após Dias afirmar que a cantora teria engatado um relacionamento com Zé Felipe antes de terminar com Gustavo Mioto.</p>\n<p>A equipe de Ana Castela se pronunciou sobre os rumores de traição que vieram à tona. A cantora nega as acusações e busca reparação na Justiça.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Ana Castela",
+      "Leo Dias",
+      "medidas judiciais",
+      "traição",
+      "Gustavo Mioto",
+      "Zé Felipe"
+    ],
+    "source": "Jornal Correio",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5",
+    "evidenceSources": [
+      "Jornal Correio",
+      "Notícias da TV",
+      "Midiamax",
+      "ACidade ON",
+      "Rádio Itatiaia"
+    ],
+    "evidenceClaims": [
+      "Ana Castela anuncia medidas judiciais contra Leo Dias após ser acusada de trair Gustavo Mioto com Zé Felipe",
+      "Ana Castela anuncia 'providências judiciais' após ser acusada de trair ex com Zé Felipe",
+      "Traiu? Leo Dias afirma que Ana Castela engatou com Zé Felipe antes de terminar com Mioto",
+      "Ana Castela vai processar Leo Dias após jornalista insinuar traição da cantora",
+      "Equipe de Ana Castela se pronuncia após rumores de traição virem à tona"
+    ],
+    "sourceCount": 5,
+    "score": 98,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Ana Castela",
+    "imageSearchQuery": "Ana Castela cantora",
+    "imageAlt": "Ana Castela",
+    "editorialMeta": {
+      "originalTitle": "Ana Castela anuncia medidas judiciais contra Leo Dias após ser acusada de trair Gustavo Mioto com Zé Felipe",
+      "sourceId": "QW5hIENhc3RlbGEgYW51",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Ana Castela anuncia medidas judiciais contra Leo Dias.",
+        "Leo Dias afirmou que Ana Castela engatou com Zé Felipe antes de terminar com Gustavo Mioto.",
+        "Equipe de Ana Castela se pronunciou após rumores de traição."
+      ],
+      "generatedAt": "2026-06-13T00:16:59.660Z"
+    },
+    "createdAt": "2026-06-13T00:16:59.660Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://mspost.com.br/wp-content/uploads/2023/05/a-cantora-ana-castela-assume-o-trono-da-musica-sertaneja.jpg",
+        "pageUrl": "https://mspost.com.br/a-cantora-ana-castela-assume-o-trono-da-musica-sertaneja/",
+        "source": "Bing",
+        "title": "A cantora Ana Castela assume o trono da música sertaneja",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "imageUrl": "https://shows.net.br/wp-content/uploads/2023/04/ana-castela-5.jpg",
+        "pageUrl": "https://shows.net.br/noticias/nosso-quadro-de-ana-castela-lidera-o-ranking-das-mais-tocadas-de-abril/",
+        "source": "Bing",
+        "title": "\"Nosso Quadro\", de Ana Castela, Lidera o Ranking Das Mais Tocadas de Abril",
+        "width": 1440,
+        "height": 903
+      },
+      {
+        "imageUrl": "https://billboard.com.br/wp-content/uploads/2024/04/IMG_3828-scaled.jpg",
+        "pageUrl": "https://billboard.com.br/artistas/ana-castela-biografia/",
+        "source": "Bing",
+        "title": "Ana Castela - Billboard Brasil",
+        "width": 2560,
+        "height": 1748
+      },
+      {
+        "imageUrl": "https://seubeneficiodigital.com.br/wp-content/uploads/2023/10/Snapinsta.app_355043625_946034366517939_4626976112278970659_n_1080-e1687809861902-1.jpg",
+        "pageUrl": "https://seubeneficiodigital.com.br/fenomeno-ana-castela-conheca-a-historia-da-cantora-boiadeira/",
+        "source": "Bing",
+        "title": "Fenômeno Ana Castela: conheça a história da cantora \"boiadeira\"",
+        "width": 1200,
+        "height": 721
+      },
+      {
+        "imageUrl": "https://s2.glbimg.com/eyyF4B5D8-dAqh-ftaoExudCdxQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/2/z/xTzB9wQrSUnAySARKwdA/ana-castela-celso-tavares-g1-5-de-18-b.jpg",
+        "pageUrl": "https://popeartebrasil.wordpress.com/2023/04/04/ana-castela-se-torna-artista-mais-ouvida-no-brasil-no-youtube/",
+        "source": "Bing",
+        "title": "Ana Castela se torna artista mais ouvida no Brasil no YouTube - Pop e Arte",
+        "width": 3000,
+        "height": 2000
+      },
+      {
+        "imageUrl": "https://static1.purepeople.com.br/articles/6/35/81/86/@/4103731-ana-castela-de-18-anos-e-a-nova-aposta-580x0-2.jpg",
+        "pageUrl": "https://www.purepeople.com.br/galeria/febre-no-sertanejo-ana-castela-estreia-na-festa-do-peao-de-barretos-conheca-cantora_a358186/1",
+        "source": "Bing",
+        "title": "Quem é Ana Castela? Febre no sertanejo, cantora estreia na Festa do ...",
+        "width": 580,
+        "height": 871
+      },
+      {
+        "imageUrl": "https://www.tecplustelecom.com.br/wp-content/uploads/2023/11/Ana-Castela.jpg",
+        "pageUrl": "https://www.tecplustelecom.com.br/artigos/a-ascensao-meteorica-de-ana-castela-na-cena-musical-brasileira/",
+        "source": "Bing",
+        "title": "A Ascensão Meteórica de Ana Castela na Cena Musical Brasileira",
+        "width": 1200,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://baccinoticias.com.br/wp-content/uploads/2025/10/ana-castela.webp",
+        "pageUrl": "https://baccinoticias.com.br/descubra-aqui-se-ana-castela-estara-no-velorio-de-prima/",
+        "source": "Bing",
+        "title": "Descubra se Ana Castela estará no velório de prima",
+        "width": 812,
+        "height": 870
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "UXVhbCBhdmFsaWHDp8Oj",
+    "reviewId": "UXVhbCBhdmFsaWHDp8Oj",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Vivão é o novo Patrão da semana em Casa do Patrão",
+    "slug": "vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao",
+    "excerpt": "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality da Record.",
+    "body": [
+      "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality 'Casa do Patrão', da Record TV.",
+      "Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da semana. Os participantes também enfrentaram um desafio na esteira em disputa pelo cargo.",
+      "Na mesma semana, o programa 'Casa do Patrão' conseguiu vitória contra o 'Ratinho' e ficou na vice-liderança de audiência."
+    ],
+    "html": "<p>Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality 'Casa do Patrão', da Record TV.</p>\n<p>Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da semana. Os participantes também enfrentaram um desafio na esteira em disputa pelo cargo.</p>\n<p>Na mesma semana, o programa 'Casa do Patrão' conseguiu vitória contra o 'Ratinho' e ficou na vice-liderança de audiência.</p>",
+    "category": "TV",
+    "market": "brasil",
+    "tags": [
+      "Casa do Patrão",
+      "Vivão",
+      "Record TV",
+      "Patrão",
+      "audiência"
+    ],
+    "source": "R7",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5",
+    "evidenceSources": [
+      "R7",
+      "Notícias da TV",
+      "O Universo da TV",
+      "tracklist.com.br",
+      "TV RECORD EUROPA"
+    ],
+    "evidenceClaims": [
+      "Qual avaliação Vivão merece como Patrão?",
+      "Casa do Patrão consegue vitória contra o Ratinho e fica na vice-liderança",
+      "Participantes enfrentam desafio na esteira em disputa pelo cargo de Patrão em 'Casa do Patrão'",
+      "Prova do Patrão: Alexandre Vivão é o mandachuva da semana; veja mais",
+      "Vivão avalia desempenho dos concorrentes no Trampo da ‘Casa do Patrão’"
+    ],
+    "sourceCount": 5,
+    "score": 98,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Alexandre Vivão",
+    "imageSearchQuery": "Alexandre Vivão Casa do Patrão",
+    "imageAlt": "Alexandre Vivão, participante do reality Casa do Patrão",
+    "editorialMeta": {
+      "originalTitle": "Qual avaliação Vivão merece como Patrão?",
+      "sourceId": "UXVhbCBhdmFsaWHDp8Oj",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana em 'Casa do Patrão'.",
+        "Vivão avaliou o desempenho dos concorrentes no Trampo da semana.",
+        "Participantes enfrentaram desafio na esteira em disputa pelo cargo de Patrão.",
+        "'Casa do Patrão' venceu o 'Ratinho' e ficou na vice-liderança de audiência."
+      ],
+      "generatedAt": "2026-06-13T00:16:43.795Z"
+    },
+    "createdAt": "2026-06-13T00:16:43.795Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://portaln10.com.br/wp-content/uploads/2026/04/Record-estreia-%E2%80%98Casa-do-Patrao-nesta-segunda-veja-que-horas-comeca-o-programa.jpg",
+        "pageUrl": "https://portaln10.com.br/entrete/reality-show/que-horas-comeca-casa-do-patrao-veja-horario-de-estreia-do-reality-da-record-331049/",
+        "source": "Bing",
+        "title": "Casa do Patrão: Que horas começa o reality da Record? - Portal N10",
+        "width": 1471,
+        "height": 914
+      },
+      {
+        "imageUrl": "https://static1.purepeople.com.br/uploads/56/f8/8d/f5/091fcebb054c9e65-1200x0-1.jpg",
+        "pageUrl": "https://www.purepeople.com.br/midia/boninho_m4699901",
+        "source": "Bing",
+        "title": "Foto: Boninho detalhou como será o novo reality show 'Casa do Patrão ...",
+        "width": 1200,
+        "height": 667
+      },
+      {
+        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Vivao-Casa-do-Patrao-e1776987492317.jpg?w=1080&h=630&crop=1",
+        "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/",
+        "source": "Bing",
+        "title": "\"Casa do Patrão\": conheça Vivão, participante do novo reality do ...",
+        "width": 1080,
+        "height": 630
+      },
+      {
+        "imageUrl": "https://paranaibamais.com.br/wp-content/uploads/2026/04/casa-do-patrao-3-1.jpg",
+        "pageUrl": "https://paranaibamais.com.br/tv/casa-do-patrao-revela-dinamicas-ineditas-e-centralidade-do-poder/",
+        "source": "Bing",
+        "title": "Casa do Patrão revela dinâmicas inéditas e centralidade do poder ...",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://www.estadao.com.br/resizer/v2/F5FSCR3AXNGKJF4CQXX7IVLY4A.jpeg?quality=80&auth=4c291177cad4f80134e2cbc93fe11243446744b3479886c6403f37d3b6f7229c&width=768",
+        "pageUrl": "https://www.estadao.com.br/emais/tv/casa-do-patrao-saiba-tudo-sobre-o-novo-reality-show-da-record-nprec/",
+        "source": "Bing",
+        "title": "'Casa do Patrão': o que é, quantos participantes e quando estreia ...",
+        "width": 768,
+        "height": 1406
+      },
+      {
+        "imageUrl": "https://www.bnews.com.br/media/uploads/2026/04/casa-do-patrao_21a8klcl.jpg",
+        "pageUrl": "https://www.bnews.com.br/noticias/entretenimento/casa-do-patrao-confira-tudo-que-se-sabe-sobre-o-novo-reality-de-boninho-na-record-tv.html",
+        "source": "Bing",
+        "title": "Casa do Patrão: confira tudo que se sabe sobre o novo reality de ...",
+        "width": 1640,
+        "height": 924
+      },
+      {
+        "imageUrl": "https://www.tnh1.com.br/media/_versions/2026/04/casa-do-patrao-entenda-a-dinamica-e-como-funciona-o-premio-que-pode-chegar-a-r-2-milhoes-720x405_widexl.jpg",
+        "pageUrl": "https://www.tnh1.com.br/noticia/nid/como-vai-funcionar-a-casa-do-patrao-entenda-o-reality-que-estreia-nesta-segunda/",
+        "source": "Bing",
+        "title": "Como vai funcionar a 'Casa do Patrão': entenda o reality que estreia ...",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/KMTU3DR345AZ5IJRA24IF77DCQ.jpg?auth=aabf81263d1650c92a50f22f52107d49049fa5567fe257234f5dbabebea7fd38&width=1600&height=900",
+        "pageUrl": "https://entretenimento.r7.com/famosos-e-tv/casa-do-patrao-tudo-que-ja-sabemos-sobre-o-reality-show-de-boninho-na-record-15122025/",
+        "source": "Bing",
+        "title": "'Casa do Patrão': tudo que já sabemos sobre o reality show de Boninho ...",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "VFYsIG1hcXVpYWdlbSwg",
+    "reviewId": "VFYsIG1hcXVpYWdlbSwg",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Deolane Bezerra: rotina na prisão inclui maquiagem e visita íntima",
+    "slug": "deolane-bezerra-rotina-na-prisao-inclui-maquiagem-e-visita-intima",
+    "excerpt": "Fotos mostram presídio onde Deolane Bezerra está presa; defesa denunciou falta de higiene e escorpiões, mas Secretaria nega.",
+    "body": [
+      "A rotina de Deolane Bezerra na prisão inclui itens como batom, creme, esmalte, sombra, chapinha e direito a visita íntima, segundo informações divulgadas pela imprensa.",
+      "Fotos mostram o presídio onde a influenciadora está detida. A defesa de Deolane denunciou falta de higiene e presença de escorpiões na cela. A irmã dela detalhou a rotina, mencionando infestação de escorpiões e pratos defecados.",
+      "A Secretaria, no entanto, nega que a cela de Deolane tenha comida estragada e escorpião."
+    ],
+    "html": "<p>A rotina de Deolane Bezerra na prisão inclui itens como batom, creme, esmalte, sombra, chapinha e direito a visita íntima, segundo informações divulgadas pela imprensa.</p>\n<p>Fotos mostram o presídio onde a influenciadora está detida. A defesa de Deolane denunciou falta de higiene e presença de escorpiões na cela. A irmã dela detalhou a rotina, mencionando infestação de escorpiões e pratos defecados.</p>\n<p>A Secretaria, no entanto, nega que a cela de Deolane tenha comida estragada e escorpião.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Deolane Bezerra",
+      "prisão",
+      "rotina",
+      "maquiagem",
+      "visita íntima"
+    ],
+    "source": "Portal Leo Dias",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5",
+    "evidenceSources": [
+      "Portal Leo Dias",
+      "G1",
+      "UOL Notícias",
+      "Estadão",
+      "Midiamax"
+    ],
+    "evidenceClaims": [
+      "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
+      "Fotos mostram presídio onde Deolane está presa após defesa denunciar falta de higiene e escorpiões",
+      "Secretaria nega que cela de Deolane tenha comida estragada e escorpião",
+      "‘Batom, creme, esmalte, sombra, chapinha e visita íntima’: os direitos da doutora Deolane na cadeia",
+      "Infestação de escorpiões e pratos defecados: irmã detalha rotina de Deolane na cadeia"
+    ],
+    "sourceCount": 5,
+    "score": 104,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Deolane Bezerra",
+    "imageSearchQuery": "Deolane Bezerra prisão cela",
+    "imageAlt": "Deolane Bezerra em foto de arquivo",
+    "editorialMeta": {
+      "originalTitle": "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
+      "sourceId": "VFYsIG1hcXVpYWdlbSwg",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Deolane Bezerra está presa.",
+        "A rotina de Deolane na prisão inclui batom, creme, esmalte, sombra, chapinha e visita íntima.",
+        "Fotos mostram o presídio onde Deolane está presa.",
+        "A defesa de Deolane denunciou falta de higiene e escorpiões.",
+        "A irmã de Deolane detalhou a rotina, mencionando infestação de escorpiões e pratos defecados.",
+        "A Secretaria nega que a cela de Deolane tenha comida estragada e escorpião."
+      ],
+      "generatedAt": "2026-06-13T00:16:03.649Z"
+    },
+    "createdAt": "2026-06-13T00:16:03.649Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://img.youtube.com/vi/4L1s49NYW2Q/maxresdefault.jpg",
+        "pageUrl": "https://www.cnnbrasil.com.br/nacional/justica-manda-soltar-a-influenciadora-deolane-bezerra/",
+        "source": "Bing",
+        "title": "Justiça manda soltar a influenciadora Deolane Bezerra | CNN Brasil",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://s2-extra.glbimg.com/xeEE5EAqo7xJYsDCwbeTcjRGTLY=/0x0:1280x1280/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2024/9/E/BY0LHoQsKm6n8gxtETug/deol5.jfif",
+        "pageUrl": "https://extra.globo.com/famosos/noticia/2024/09/justica-mantem-prisao-preventiva-de-deolane-bezerra-apos-audiencia-de-custodia.ghtml",
+        "source": "Bing",
+        "title": "Justiça mantém prisão preventiva de Deolane Bezerra após audiência de ...",
+        "width": 888,
+        "height": 888
+      },
+      {
+        "imageUrl": "https://midias.correio24horas.com.br/2024/09/11/deolane-bezerra-e-canibais-de-garanhuns-2420151-article.jpg",
+        "pageUrl": "https://www.correio24horas.com.br/entretenimento/deolane-bezerra-e-levada-para-presidio-onde-estao-as-canibais-de-garanhuns-0924",
+        "source": "Bing",
+        "title": "Deolane Bezerra é levada para presídio onde estão as 'Canibais de ...",
+        "width": 1200,
+        "height": 696
+      },
+      {
+        "imageUrl": "https://uploads.metroimg.com/wp-content/uploads/2024/09/09153757/Deolane-apos-prisao.jpeg",
+        "pageUrl": "https://www.metropoles.com/colunas/fabia-oliveira/video-assista-deolane-bezerra-sendo-presa-novamente",
+        "source": "Bing",
+        "title": "Vídeo: assista Deolane Bezerra sendo presa novamente",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "imageUrl": "https://s2-gshow.glbimg.com/A-stXCmrlJlHQKRMTL4_XQmoQKY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2024/d/O/wttAjNSbW8Kmxa29W57g/deolane-bezerra-forum.jpg",
+        "pageUrl": "https://gshow.globo.com/cultura-pop/famosos/noticia/entenda-por-que-prisao-domiciliar-de-deolane-bezerra-foi-revogada.ghtml",
+        "source": "Bing",
+        "title": "Entenda por que prisão domiciliar de Deolane Bezerra foi revogada ...",
+        "width": 1200,
+        "height": 802
+      },
+      {
+        "imageUrl": "https://s2-gshow.glbimg.com/9-g9e6a_ArY9BIKhRKLPdAoLj64=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2024/j/O/wp1CXuT1u9z4uu9L0ezg/dsc-2396.jpg",
+        "pageUrl": "https://gshow.globo.com/cultura-pop/famosos/noticia/apos-audiencia-de-custodia-deolane-bezerra-segue-presa-em-colonia-penal-feminina-hc-ainda-sera-analisado.ghtml",
+        "source": "Bing",
+        "title": "Justiça mantém prisão de Deolane Bezerra após audiência de custódia; HC ...",
+        "width": 1200,
+        "height": 857
+      },
+      {
+        "imageUrl": "https://s2-gshow.glbimg.com/unfGHz3tkahA7I-aVhWb7xZbngs=/1280x0/filters:format(jpeg)/https://s03.video.glbimg.com/x720/12891346.jpg",
+        "pageUrl": "https://gshow.globo.com/cultura-pop/famosos/noticia/caso-deolane-bezerra-veja-o-que-ja-se-sabe-e-o-que-falta-saber-sobre-a-prisao-da-advogada-e-influenciadora.ghtml",
+        "source": "Bing",
+        "title": "Caso Deolane Bezerra: veja o que já se sabe e o que falta saber sobre a ...",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://s2-oglobo.glbimg.com/e8PVEWHeJmTZb-2ZeNJIMob6crM=/0x0:644x360/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/e/A/T8iJTiQJS3Atzx257sjg/captura-de-tela-2024-09-09-151830.png",
+        "pageUrl": "https://oglobo.globo.com/brasil/noticia/2024/09/09/deolane-e-liberada-da-prisao-nesta-segunda-feira-apos-receber-habeas-corpus.ghtml",
+        "source": "Bing",
+        "title": "Vídeos mostram momento em que Deolane Bezerra deixa prisão após receber ...",
+        "width": 888,
+        "height": 496
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "TWVsbCBNdXp6aWxsbyBl",
+    "reviewId": "TWVsbCBNdXp6aWxsbyBl",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Mell Muzzillo e Marcello Melo Jr. rebatem críticas por diferença de idade",
+    "slug": "mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-por-diferenca-de-idade",
+    "excerpt": "Atores da Globo reagem a comentários sobre os 17 anos de diferença e a um boato de traição.",
+    "body": [
+      "Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos em seu relacionamento. Segundo eles, as pessoas falam e eles fazem amor.",
+      "Marcello Melo Jr. também rebateu um boato de traição no início do namoro, afirmando: 'Quero ver provar'."
+    ],
+    "html": "<p>Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos em seu relacionamento. Segundo eles, as pessoas falam e eles fazem amor.</p>\n<p>Marcello Melo Jr. também rebateu um boato de traição no início do namoro, afirmando: 'Quero ver provar'.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Mell Muzzillo",
+      "Marcello Melo Jr.",
+      "diferença de idade",
+      "críticas",
+      "namoro"
+    ],
+    "source": "Portal UAI",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5",
+    "evidenceSources": [
+      "Portal UAI",
+      "Alô Alô Bahia",
+      "Jornal de Brasília",
+      "Jornal Correio",
+      "Notícias da TV"
+    ],
+    "evidenceClaims": [
+      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
+      "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade",
+      "Atores da Globo rebatem críticas sobre diferença de idade: “As pessoas falam e a gente faz amor”",
+      "“Falam e a gente faz amor”: Mell Muzzillo e Marcello Melo Jr. ignoram diferença de 17 anos",
+      "Marcello Melo Jr. rebate boato de traição no início de namoro com Mell Muzzillo: 'Quero ver provar'",
+      "Com 17 anos de diferença, Mell Muzzillo e Marcello Melo Jr. rebatem críticas a namoro"
+    ],
+    "sourceCount": 5,
+    "score": 106,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Mell Muzzillo e Marcello Melo Jr.",
+    "imageSearchQuery": "Mell Muzzillo e Marcello Melo Jr. casal",
+    "imageAlt": "Mell Muzzillo e Marcello Melo Jr. juntos",
+    "editorialMeta": {
+      "originalTitle": "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
+      "sourceId": "TWVsbCBNdXp6aWxsbyBl",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade.",
+        "Atores da Globo rebatem críticas sobre diferença de idade: 'As pessoas falam e a gente faz amor'.",
+        "Marcello Melo Jr. rebate boato de traição no início de namoro com Mell Muzzillo: 'Quero ver provar'.",
+        "Diferença de idade é de 17 anos."
+      ],
+      "generatedAt": "2026-06-13T00:15:42.781Z"
+    },
+    "createdAt": "2026-06-13T00:15:42.781Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://caras.com.br/media/_versions/2025/06/mel-muzilo_widelg.jpg",
+        "pageUrl": "https://caras.com.br/datas-especiais/marcello-melo-jr-celebra-aniversario-de-mell-muzzillo-com-video-romantico-te-amo.phtml",
+        "source": "Bing",
+        "title": "Marcello Melo Jr celebra aniversário de Mell Muzzillo com vídeo ...",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "imageUrl": "https://s2-quem.glbimg.com/dc0GRvAGDHBj6MwmgxACJRd982A=/0x0:1366x2048/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2024/S/y/1BcEh1TqaVt3kG7mIv4w/mell-muzzilo-3.jpg",
+        "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2024/11/mel-muzillo-confirma-namoro-com-marcello-melo-jr-em-estreia-de-arcanjo-renegado-video.ghtml",
+        "source": "Bing",
+        "title": "Mell Muzzillo confirma namoro com Marcello Melo Jr. em estreia de ...",
+        "width": 984,
+        "height": 1475
+      },
+      {
+        "imageUrl": "https://s2-extra.glbimg.com/ICCFAEw_Det1OCHYxnSZ8MDjkSs=/0x0:1152x1587/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2026/i/q/ACYdM0RByNSTNvujtpdg/texto-do-seu-paragrafo-2026-05-01t101205.830.png",
+        "pageUrl": "https://extra.globo.com/famosos/noticia/2026/05/marcello-melo-jr-surge-em-clima-de-romance-e-se-declara-para-mell-muzzillo-nossa-fe-vai-nos-manter-juntos.ghtml",
+        "source": "Bing",
+        "title": "Marcello Melo Jr. surge em clima de romance e se declara para Mell ...",
+        "width": 984,
+        "height": 1356
+      },
+      {
+        "imageUrl": "https://s2-quem.glbimg.com/lC_OLsoC9rtr35gIL9yOd0YWfkQ=/0x0:1400x950/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2024/W/p/1P2GrAReSLFL705ZWKVw/abre-mel-marcello.jpg",
+        "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2024/11/mel-muzillo-confirma-namoro-com-marcello-melo-jr-em-estreia-de-arcanjo-renegado-video.ghtml",
+        "source": "Bing",
+        "title": "Mell Muzzillo confirma namoro com Marcello Melo Jr. em estreia de ...",
+        "width": 888,
+        "height": 603
+      },
+      {
+        "imageUrl": "https://s2-quem.glbimg.com/Zfj3cvwlnp6oCJcAEISz5GPkFkU=/0x0:1400x950/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2025/A/a/kFBSWWTFGd0xtHG7k2hQ/mell.jpg",
+        "pageUrl": "https://revistaquem.globo.com/eventos/carnaval/noticia/2025/03/carnaval-2025-mell-muzzillo-e-marcello-melo-jr-curtem-1o-carnaval-como-casal.ghtml",
+        "source": "Bing",
+        "title": "Mell Muzzillo e Marcello Melo Jr. curtem 1º Carnaval como casal ...",
+        "width": 888,
+        "height": 603
+      },
+      {
+        "imageUrl": "https://ofuxico.com.br/wp-content/uploads/2025/03/marcello-melo-jr-mel-muzzillo-camarote-mar.jpg",
+        "pageUrl": "https://ofuxico.com.br/carnaval/marcello-melo-jr-e-mell-muzzillo-romance-e-compromisso/",
+        "source": "Bing",
+        "title": "Marcello Melo Jr. e Mell Muzzillo: Romance e compromisso - OFuxico",
+        "width": 800,
+        "height": 1202
+      },
+      {
+        "imageUrl": "https://www.maisnovela.com.br/wp-content/uploads/2024/11/Mell-Muzzillo-e-Marcello-Melo-Jr.jpg",
+        "pageUrl": "https://www.maisnovela.com.br/famosos/assumidos-mell-muzzillo-abre-o-coracao-e-se-declara-a-marcello-melo-jr-te-amo.phtml",
+        "source": "Bing",
+        "title": "Assumidos! Mell Muzzillo abre o coração e se declara a Marcello Melo Jr ...",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "imageUrl": "https://s2-quem.glbimg.com/96ltmpZTMbREvHvtPXBVDyGVsQg=/7x4:1400x950/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2025/I/E/bZUhFhRnKK7uUgVJEoSg/mell-3.png",
+        "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2025/06/marcello-melo-jr-se-declara-para-mell-muzillo-em-aniversario-de-atriz-com-video-do-casal.ghtml",
+        "source": "Bing",
+        "title": "Com vídeo do casal, Marcello Melo Jr. se declara para Mell Muzzillo em ...",
+        "width": 1000,
+        "height": 679
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "QW5kcmVzc2Egw6kgZWxp",
+    "reviewId": "QW5kcmVzc2Egw6kgZWxp",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Andressa é eliminada de Casa do Patrão com 16,37% dos votos",
+    "slug": "andressa-e-eliminada-de-casa-do-patrao-com-16-37-dos-votos",
+    "excerpt": "Andressa foi eliminada do reality Casa do Patrão com 16,37% dos votos, tornando-se a sétima participante a deixar o programa.",
+    "body": [
+      "Andressa foi eliminada do reality Casa do Patrão com 16,37% dos votos, tornando-se a sétima participante a deixar o programa.",
+      "A eliminação ocorreu durante o 7º Tá Na Reta, que colocava Andressa, Bianca e Mari na berlinda. Enquetes parciais apontavam a saída de Andressa antes do resultado oficial."
+    ],
+    "html": "<p>Andressa foi eliminada do reality Casa do Patrão com 16,37% dos votos, tornando-se a sétima participante a deixar o programa.</p>\n<p>A eliminação ocorreu durante o 7º Tá Na Reta, que colocava Andressa, Bianca e Mari na berlinda. Enquetes parciais apontavam a saída de Andressa antes do resultado oficial.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Casa do Patrão",
+      "Andressa",
+      "eliminação",
+      "reality show"
+    ],
+    "source": "R7",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5",
+    "evidenceSources": [
+      "R7",
+      "O Globo",
+      "Estadão",
+      "CNN Brasil",
+      "Correio Braziliense"
+    ],
+    "evidenceClaims": [
+      "Andressa é eliminada de Casa do Patrão, com 16,37% dos votos",
+      "Enquete Casa do Patrão: parcial atualizada aponta quem sai entre Andressa, Bianca e Mari",
+      "‘Casa do Patrão’: Andressa é a sétima eliminada; confira o porcentual dos votos",
+      "\"Casa do Patrão\": parcial da enquete aponta quem vai sair do reality hoje",
+      "Enquete Casa do Patrão: Andressa, Bianca ou Mariana? Parcial é atualizada e revela quem sai no 7º Tá Na Reta"
+    ],
+    "sourceCount": 5,
+    "score": 108,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Andressa, participante eliminada de Casa do Patrão",
+    "imageSearchQuery": "Andressa Casa do Patrão eliminada",
+    "imageAlt": "Andressa, eliminada do reality Casa do Patrão",
+    "editorialMeta": {
+      "originalTitle": "Andressa é eliminada de Casa do Patrão, com 16,37% dos votos",
+      "sourceId": "QW5kcmVzc2Egw6kgZWxp",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Andressa foi eliminada de Casa do Patrão com 16,37% dos votos.",
+        "Ela é a sétima eliminada do reality.",
+        "A berlinda era composta por Andressa, Bianca e Mari."
+      ],
+      "generatedAt": "2026-06-13T00:15:25.240Z"
+    },
+    "createdAt": "2026-06-13T00:15:25.240Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://uploads.folhavitoria.com.br/imagens/2026/04/casa-do-patrao-participante-Andressa-Karol.jpg",
+        "pageUrl": "https://www.folhavitoria.com.br/cultura/casa-do-patrao-conheca-os-participantes-do-novo-reality-da-record/",
+        "source": "Bing",
+        "title": "Casa do Patrão: conheça os participantes",
+        "width": 1320,
+        "height": 768
+      },
+      {
+        "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/KMTU3DR345AZ5IJRA24IF77DCQ.jpg?auth=aabf81263d1650c92a50f22f52107d49049fa5567fe257234f5dbabebea7fd38&width=1600&height=900",
+        "pageUrl": "https://entretenimento.r7.com/famosos-e-tv/casa-do-patrao-tudo-que-ja-sabemos-sobre-o-reality-show-de-boninho-na-record-15122025/",
+        "source": "Bing",
+        "title": "'Casa do Patrão': tudo que já sabemos sobre o reality show de Boninho ...",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/HECTXFDBUVDJ7GGLROCRWAUIXE.jpg?smart=true&auth=3c04be1d11e3a371e7b213fb281f8140021c9d0f2e2aa08bc752fc4344861594&width=1920&height=1280",
+        "pageUrl": "https://entretenimento.r7.com/famosos-e-tv/casa-do-patrao-tudo-que-ja-sabemos-sobre-o-reality-show-de-boninho-na-record-15122025/",
+        "source": "Bing",
+        "title": "'Casa do Patrão': tudo que já sabemos sobre o reality show de Boninho ...",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "imageUrl": "https://www.opovo.com.br/_midias/jpg/2026/04/27/1200x675/1_participantes_a_casa_do_patrao_reality_record-40419857.jpg",
+        "pageUrl": "https://www.opovo.com.br/divirtase/2026/05/01/enquete-casa-do-patrao-quem-e-o-favorito-apos-a-1-eliminacao.html",
+        "source": "Bing",
+        "title": "Enquete Casa do Patrão: quem é o favorito após a 1ª eliminação",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "imageUrl": "https://static.ndmais.com.br/2026/05/participantes-casa-do-patrao-1200x675.jpg",
+        "pageUrl": "https://ndmais.com.br/reality-shows/bbb/bbb-26-qual-o-premio-do-segundo-e-terceiro-colocado/",
+        "source": "Bing",
+        "title": "BBB 26: Qual o prêmio do segundo e terceiro colocado?",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "imageUrl": "https://static1.purepeople.com.br/uploads/56/f8/8d/f5/091fcebb054c9e65-1200x0-1.jpg",
+        "pageUrl": "https://www.purepeople.com.br/midia/boninho_m4699901",
+        "source": "Bing",
+        "title": "Foto: Boninho detalhou como será o novo reality show 'Casa do Patrão ...",
+        "width": 1200,
+        "height": 667
+      },
+      {
+        "imageUrl": "https://noticiasdatv.uol.com.br/media/uploads/artigos_2024/casa-do-patrao-reproducao-disney.jpg",
+        "pageUrl": "https://noticiasdatv.uol.com.br/noticia/casa-do-patrao/casa-do-patrao-vira-alvo-de-criticas-na-web-antes-mesmo-de-estrear-na-record-150476",
+        "source": "Bing",
+        "title": "Casa do Patrão vira alvo de críticas na web antes mesmo de estrear na ...",
+        "width": 1360,
+        "height": 850
+      },
+      {
+        "imageUrl": "https://uploads.folhavitoria.com.br/imagens/2026/04/casa-do-patrao-participantes--1000x582.jpg",
+        "pageUrl": "https://www.folhavitoria.com.br/cultura/casa-do-patrao-conheca-os-participantes-do-novo-reality-da-record/",
+        "source": "Bing",
+        "title": "Casa do Patrão: conheça os participantes",
+        "width": 1000,
+        "height": 582
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "QXDDs3MgYW7Dum5jaW8g",
+    "reviewId": "QXDDs3MgYW7Dum5jaW8g",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Tati Machado anuncia nova gravidez e ganha presente no Mais Você",
+    "slug": "tati-machado-anuncia-nova-gravidez-e-ganha-presente-no-mais-voce",
+    "excerpt": "A apresentadora Tati Machado anunciou que está grávida novamente e foi surpreendida com um presente da equipe do Mais Você.",
+    "body": [
+      "Tati Machado anunciou que está grávida novamente. A notícia foi divulgada após a apresentadora ter sofrido uma perda gestacional anterior, que comoveu o Brasil.",
+      "Após o anúncio, Tati foi surpreendida com um presente da equipe do programa Mais Você, onde trabalha. A cantora Lexa, que também passou por perdas gestacionais, celebrou a gravidez da amiga nas redes sociais, escrevendo: 'Já amo tanto esse baby'.",
+      "A gravidez é de Tati Machado e seu marido, Bruno Monteiro."
+    ],
+    "html": "<p>Tati Machado anunciou que está grávida novamente. A notícia foi divulgada após a apresentadora ter sofrido uma perda gestacional anterior, que comoveu o Brasil.</p>\n<p>Após o anúncio, Tati foi surpreendida com um presente da equipe do programa Mais Você, onde trabalha. A cantora Lexa, que também passou por perdas gestacionais, celebrou a gravidez da amiga nas redes sociais, escrevendo: 'Já amo tanto esse baby'.</p>\n<p>A gravidez é de Tati Machado e seu marido, Bruno Monteiro.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Tati Machado",
+      "gravidez",
+      "Mais Você",
+      "Lexa",
+      "Bruno Monteiro"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdXlNS0ctVXBtamRyRl9lU0JvZkdUdmlycFcxbU9SYy1fb0dHcWhlc1VnOGtmeE01dk01dDZpT1RuX0Z2dllDNUlnXzZMTmVXU1RhTmxuY3BvR0V5bVo1TDhlWV81NUc5MUZsMHZxSVhtMEhCMWFzSEVkdmdxU3FsV3dfVWR0ZEtTT0tBYnVScUdORExGY0E3eXpldzhiNkpmTnNjdXB3RmRSWEk3Q0NZRUdsVlpKX3JCN0hGM2FDdElXQU1UVFJZUUhYeVNyQdIB3AFBVV95cUxPenFVRUg3X0tGbDlKZ2JHTEhBelZxcFotWnNTTE53WHltZzZDNVpCUzUtdFdIbWxESzhVT2JrZzFLenJwdlY4OUh2c2FrSkZoemZJVTkwb3FvbXRhQjcyUXI0OXNGUjEyV3VYR3ZfYTFiSjVGejhvQTQyWHgxQ1VWMllmd2xuWkdnSUdmRjg5R3l6eTc2ak9vRnhMX2puOVJNcHlFVDhyU0ZzYVBFaUZhOF96a3QxYnJSQVB4dUVIREpkZUd2a2pTb2dsbmw0WXhmLV9rWHI5cmNrTEtU?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "O Globo",
+      "Midiamax",
+      "NaTelinha",
+      "Diário Gaúcho"
+    ],
+    "evidenceClaims": [
+      "Após anúncio de gravidez, Tati Machado recebe presente da equipe do Mais Você",
+      "Amigas unidas após perdas gestacionais, Lexa celebra gravidez de Tati Machado: 'Já amo tanto esse baby'",
+      "VÍDEO: Após perder bebê e comover o Brasil, Tati Machado anuncia nova gravidez",
+      "Tati Machado é surpreendida no Mais Você após anunciar gravidez",
+      "Tati Machado e Bruno Monteiro anunciam nova gravidez"
+    ],
+    "sourceCount": 5,
+    "score": 126,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Tati Machado",
+    "imageSearchQuery": "Tati Machado gravidez Mais Você",
+    "imageAlt": "Tati Machado sorrindo no Mais Você",
+    "editorialMeta": {
+      "originalTitle": "Após anúncio de gravidez, Tati Machado recebe presente da equipe do Mais Você",
+      "sourceId": "QXDDs3MgYW7Dum5jaW8g",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Tati Machado anunciou nova gravidez.",
+        "Tati Machado sofreu perda gestacional anterior.",
+        "Tati Machado recebeu presente da equipe do Mais Você após anúncio.",
+        "Lexa celebrou gravidez de Tati Machado.",
+        "Gravidez é de Tati Machado e Bruno Monteiro."
+      ],
+      "generatedAt": "2026-06-13T00:14:33.505Z"
+    },
+    "createdAt": "2026-06-13T00:14:33.505Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://www.estadao.com.br/resizer/v2/FY7TNNFKXBHDXAJLPFNOALZFN4.png?quality=80&auth=21cc4ed90b4f9f09025f0f0ed55eec9940430d1f640a6e5d4f5d399da61cf033&width=1200",
+        "pageUrl": "https://www.estadao.com.br/emais/gente/tati-machado-anuncia-gravidez-no-mais-voce-e-emociona-ana-maria-braga-e-gil-do-vigor-nprec/",
+        "source": "Bing",
+        "title": "Tati Machado anuncia gravidez no 'Mais Você' e emociona Ana Maria Braga ...",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "imageUrl": "https://portaln10.com.br/todocanal/wp-content/uploads/2024/12/tati-machado-gravida.jpg",
+        "pageUrl": "https://portaln10.com.br/todocanal/famosos/tati-machado-anuncia-gravidez/",
+        "source": "Bing",
+        "title": "Tati Machado anuncia gravidez ao vivo no Mais Você: \"Estou vivendo meu ...",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "imageUrl": "https://assets.portalleodias.com/2024/04/tati-machado.jpg",
+        "pageUrl": "https://portalleodias.com/famosos/tati-machado-compartilha-lembranca-da-gravidez-e-emociona-com-homenagem-a-rael",
+        "source": "Bing",
+        "title": "Tati Machado compartilha lembrança da gravidez e emociona com homenagem ...",
+        "width": 720,
+        "height": 1249
+      },
+      {
+        "imageUrl": "https://i.ytimg.com/vi/J4Cmt9nJXyI/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCiGi_nXKMDV6MtL5LWER-WwCUS2Q",
+        "pageUrl": "https://www.youtube.com/shorts/J4Cmt9nJXyI",
+        "source": "Bing",
+        "title": "TATI MACHADO ANUNCIA PRIMEIRA GRAVIDEZ AO VIVO NO 'MAIS VOCÊ' I #shorts ...",
+        "width": 405,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2025/07/29/no-mais-voce-tati-machado-abre-o-coracao-sobre-perda-gestacional-68889d826197e.webp",
+        "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/celebridades/no-mais-voce-tati-machado-abre-o-coracao-sobre-perda-gestacional.html",
+        "source": "Bing",
+        "title": "No Mais Você, Tati Machado abre o coração sobre perda gestacional",
+        "width": 1280,
+        "height": 728
+      },
+      {
+        "imageUrl": "https://aloalobahia.com/wp-content/uploads/2024/12/tati1machado.jpg",
+        "pageUrl": "https://aloalobahia.com/noticias/2024/12/19/tati-machado-anuncia-gravidez-ao-vivo-no-mais-voce-sempre-quis/",
+        "source": "Bing",
+        "title": "Tati Machado anuncia gravidez ao vivo no Mais Você: 'Sempre quis'",
+        "width": 900,
+        "height": 640
+      },
+      {
+        "imageUrl": "https://claudia.abril.com.br/wp-content/uploads/2025/05/tati-machado-1.jpg?quality=70&strip=info&w=1200&h=710&crop=1",
+        "pageUrl": "https://claudia.abril.com.br/famosos/tati-machado-celebra-primeiro-dia-das-maes-a-espera-de-rael/",
+        "source": "Bing",
+        "title": "Tati Machado grávida: a alegria do bebê arco-íris após anos de espera ...",
+        "width": 1200,
+        "height": 710
+      },
+      {
+        "imageUrl": "https://abcdoabc.com.br/wp-content/uploads/2024/12/Captura-de-tela-2024-12-19-123426.png",
+        "pageUrl": "https://abcdoabc.com.br/tati-machado-anuncia-gravidez-no-mais-voce/",
+        "source": "Bing",
+        "title": "Tati Machado anuncia gravidez no 'Mais Você' ABC do ABC",
+        "width": 492,
+        "height": 317
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "RGVzZW1wcmVnYWRvIHBv",
+    "reviewId": "RGVzZW1wcmVnYWRvIHBv",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Gui Ferraz, de 'Quem Ama Cuida', quase desistiu após 4 anos sem trabalho",
+    "slug": "gui-ferraz-de-quem-ama-cuida-quase-desistiu-apos-4-anos-sem-trabalho",
+    "excerpt": "Ator que interpreta Tiago na novela das 9 relembra período difícil de quase quatro anos desempregado.",
+    "body": [
+      "Gui Ferraz, intérprete de Tiago na novela 'Quem Ama Cuida', passou por um período de quase quatro anos sem trabalho na carreira. O ator revelou que pensou em desistir durante essa fase.",
+      "Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra habilidade com a bola. O ator ganhou destaque recentemente por seus papéis em ambas as produções."
+    ],
+    "html": "<p>Gui Ferraz, intérprete de Tiago na novela 'Quem Ama Cuida', passou por um período de quase quatro anos sem trabalho na carreira. O ator revelou que pensou em desistir durante essa fase.</p>\n<p>Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra habilidade com a bola. O ator ganhou destaque recentemente por seus papéis em ambas as produções.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Gui Ferraz",
+      "Quem Ama Cuida",
+      "desemprego",
+      "carreira",
+      "ator"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "Extra online",
+      "Correio Braziliense",
+      "NaTelinha"
+    ],
+    "evidenceClaims": [
+      "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
+      "Tiago em ‘Quem ama cuida’, Gui Ferraz relembra fase de quase quatro anos sem trabalho: ‘Pensei em desistir’",
+      "Na novela das 9 e na série 'Brasil 70', Gui Ferraz é craque e dá um show de bola",
+      "Quem é Gui Ferraz? Ator ganha destaque em Quem Ama Cuida e série da Netflix sobre a Copa"
+    ],
+    "sourceCount": 4,
+    "score": 137,
+    "trendBoost": true,
+    "trendMatches": [
+      "resumo da novela quem ama cuida"
+    ],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Gui Ferraz",
+    "imageSearchQuery": "Gui Ferraz ator Quem Ama Cuida",
+    "imageAlt": "Gui Ferraz, ator que interpreta Tiago em Quem Ama Cuida",
+    "editorialMeta": {
+      "originalTitle": "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
+      "sourceId": "RGVzZW1wcmVnYWRvIHBv",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "configured-provider",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.85,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "deepseek-chat",
+        "provider": "configured-provider-second-pass"
+      },
+      "factualClaims": [
+        "Gui Ferraz interpreta Tiago na novela 'Quem Ama Cuida'.",
+        "O ator passou quase quatro anos sem trabalho.",
+        "Ele pensou em desistir da carreira nesse período.",
+        "Gui Ferraz também está na série 'Brasil 70' da Netflix.",
+        "O ator ganhou destaque em 'Quem Ama Cuida' e na série da Netflix."
+      ],
+      "generatedAt": "2026-06-13T00:14:11.931Z"
+    },
+    "createdAt": "2026-06-13T00:14:11.931Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/Gui-2025-site-II.jpg",
+        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
+        "source": "Bing",
+        "title": "Gui Ferraz - ao cubo | agenciamento artístico",
+        "width": 857,
+        "height": 1280
+      },
+      {
+        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/a1/2026/04/10/tiago-gui-ferraz-em-quem-ama-cuida-1775853313403_v2_750x1.jpg",
+        "pageUrl": "https://www.uol.com.br/splash/noticias/2026/04/10/apos-vale-tudo-belize-pombal-e-escalada-para-quem-ama-cuida.ghtm",
+        "source": "Bing",
+        "title": "Quem Ama Cuida: Belize Pombal vive mulher poderosa após sucesso em Vale ...",
+        "width": 750,
+        "height": 1125
+      },
+      {
+        "imageUrl": "https://www.noticiadamanha.com.br/wp-content/uploads/2026/01/confira-o-elenco-parcial-da-novela-quem-ama-cuida-695910bebe4df.webp.webp",
+        "pageUrl": "https://www.noticiadamanha.com.br/2026/01/03/noticias/elenco-parcial-da-novela-quem-ama-cuida-e-revelado/",
+        "source": "Bing",
+        "title": "Elenco parcial da novela 'Quem ama, cuida' é revelado",
+        "width": 1280,
+        "height": 728
+      },
+      {
+        "imageUrl": "https://s2-gshow.glbimg.com/U27mHdhLLhZkiHCiaPNykKIKiuY=/2362x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2026/2/K/C2uiFnQoW1N2QMFEWVjw/assets-fotos-1320-a-familia-brandao-poder-ressentimento-e-lacos-corroidos-pelo-dinheiro-9aa544f61d97.jpg",
+        "pageUrl": "https://gshow.globo.com/novelas/noticia/conheca-a-familia-brandao-de-quem-ama-cuida-nova-novela-das-9.ghtml",
+        "source": "Bing",
+        "title": "Conheça a família Brandão de Quem Ama Cuida, nova novela das 9 | Gshow",
+        "width": 2362,
+        "height": 1575
+      },
+      {
+        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/Gui-Ferraz-03-scaled.jpg",
+        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/",
+        "source": "Bing",
+        "title": "Arquivo Portfolios - ao cubo",
+        "width": 1940,
+        "height": 2560
+      },
+      {
+        "imageUrl": "https://br.web.img3.acsta.net/img/a9/d6/a9d6dbaca3cfce891fb873ec4753736a.jpg",
+        "pageUrl": "https://www.adorocinema.com/personalidades/personalidade-1000078046/biografia/",
+        "source": "Bing",
+        "title": "Gui Ferraz : A biografia - AdoroCinema",
+        "width": 1000,
+        "height": 1333
+      },
+      {
+        "imageUrl": "https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2026/02/27/669457435-chay-suede-leticia-colin-e-renato-goes-estao-no-elenco-de-quem-ama-cuida.jpg",
+        "pageUrl": "https://www.terra.com.br/diversao/tv/novelas/quem-ama-cuida-proxima-novela-das-21h-enfrenta-primeira-baixa-saiba-quem-esta-fora-do-elenco,c6b1c3a8fab3182cb62b51b284d65037k6gmp4g1.html",
+        "source": "Bing",
+        "title": "Quem Ama Cuida, próxima novela das 21h, enfrenta primeira baixa; saiba ...",
+        "width": 1548,
+        "height": 871
+      },
+      {
+        "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2025/12/22/data-de-estreia-de-quem-ama-cuida-pode-mudar-enquanto-tres-gracas-prepara-viradas-decisivas-69493fc3d509f.webp",
+        "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/data-de-estreia-de-quem-ama-cuida-pode-mudar-enquanto-tres-gracas-prepara-viradas-decisivas.html",
+        "source": "Bing",
+        "title": "Data de estreia de 'Quem Ama Cuida' pode mudar enquanto 'Três Graças ...",
+        "width": 1280,
+        "height": 728
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: OpenAI vision 401: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************M78A. You can find your API key at https://platform.openai.com/account/api-keys. | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "w4BzIHbDqXNwZXJhcyBk",
+    "reviewId": "w4BzIHbDqXNwZXJhcyBk",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Karin Hils se pronuncia após falas de Luciana Andrade sobre o Rouge",
+    "slug": "karin-hils-se-pronuncia-apos-falas-de-luciana-andrade-sobre-o-rouge",
+    "excerpt": "Luciana Andrade abordou sua passagem e saída do Rouge, enquanto Karin Hils se pronunciou após o desabafo da ex-integrante.",
+    "body": [
+      "Luciana Andrade falou sobre sua passagem pelo Rouge, abordou a saída do grupo e esclareceu rumores relacionados à sua trajetória. A ex-integrante também mencionou bastidores, mentira e arrependimento ao tratar do período.",
+      "Após o desabafo de Luciana, Karin Hils se pronunciou. As manchetes indicam uma troca de farpas entre as ex-cantoras do Rouge e destacam a declaração: “Não sou mentirosa”."
+    ],
+    "html": "<p>Luciana Andrade falou sobre sua passagem pelo Rouge, abordou a saída do grupo e esclareceu rumores relacionados à sua trajetória. A ex-integrante também mencionou bastidores, mentira e arrependimento ao tratar do período.</p>\n<p>Após o desabafo de Luciana, Karin Hils se pronunciou. As manchetes indicam uma troca de farpas entre as ex-cantoras do Rouge e destacam a declaração: “Não sou mentirosa”.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Rouge",
+      "Karin Hils",
+      "Luciana Andrade"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "OFuxico",
+      "POPline",
+      "R7 Entretenimento",
+      "iG Gente"
+    ],
+    "evidenceClaims": [
+      "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
+      "Karin Hils se pronuncia após desabafo de Lu Andrade sobre Rouge",
+      "“Eu não brigava com ninguém”: Luciana expõe bastidores, mentira e arrependimento no Rouge",
+      "Luciana Andrade aborda saída do Rouge e esclarece rumores sobre sua trajetória",
+      "Karin Hils, ex-Rouge, fala de“Estrela da Casa”: 'Nem se inscreva'"
+    ],
+    "sourceCount": 5,
+    "score": 106,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Karin Hils e Luciana Andrade, ex-integrantes do Rouge",
+    "imageSearchQuery": "Karin Hils Luciana Andrade Rouge",
+    "imageAlt": "Karin Hils e Luciana Andrade, ex-integrantes do grupo Rouge",
+    "editorialMeta": {
+      "originalTitle": "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
+      "sourceId": "w4BzIHbDqXNwZXJhcyBk",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.99,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "Luciana Andrade abordou sua passagem pelo Rouge.",
+        "Luciana Andrade falou sobre sua saída do grupo.",
+        "Luciana Andrade esclareceu rumores sobre sua trajetória.",
+        "Luciana mencionou bastidores, mentira e arrependimento no Rouge.",
+        "Karin Hils se pronunciou após o desabafo de Luciana Andrade.",
+        "As ex-cantoras do Rouge trocaram farpas.",
+        "Uma das declarações destacadas foi “Não sou mentirosa”."
+      ],
+      "generatedAt": "2026-06-13T00:13:26.888Z"
+    },
+    "createdAt": "2026-06-13T00:13:26.888Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://static1.purepeople.com.br/articles/9/22/01/79/@/2523449-karin-hils-aline-wirley-fantine-tho-l-950x0-4.jpg",
+        "pageUrl": "https://www.purepeople.com.br/midia/karin-hils-aline-wirley-fantine-tho-l_m2523449",
+        "source": "Bing",
+        "title": "Karin Hils, Aline Wirley, Fantine Thó, Luciana Andrade e Li Martins se ...",
+        "width": 950,
+        "height": 633
+      },
+      {
+        "imageUrl": "https://assets.portalleodias.com/2024/04/SnapInsta.to_67464850_137961620750477_7025423408475860537_n.jpg",
+        "pageUrl": "https://portalr1.com.br/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge/",
+        "source": "Bing",
+        "title": "Karin Hils celebra aniversário de Lu Andrade e reacende rumores sobre ...",
+        "width": 1079,
+        "height": 853
+      },
+      {
+        "imageUrl": "https://caras.com.br/wp-content/uploads/2023-abril/rouge_szjgVfb.jpg",
+        "pageUrl": "https://caras.com.br/musica/voce-sabia-ex-rouge-lu-andrade-segue-nova-profissao-longe-dos-palcos.phtml",
+        "source": "Bing",
+        "title": "Você sabia? Ex-Rouge, Lu Andrade segue nova profissão longe dos palcos ...",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2026/04/13/345812768-retorno-rouge-novos-projetos-2024-jpg.jpg",
+        "pageUrl": "https://www.terra.com.br/diversao/musica/rouge-luciana-andrade-desmente-karin-hils-sobre-crise-no-popstars,f85b6948d3617e422ecd3b1679005184sem4ok3o.html",
+        "source": "Bing",
+        "title": "Rouge: Luciana Andrade desmente Karin Hils sobre crise no \"Popstars\"",
+        "width": 774,
+        "height": 582
+      },
+      {
+        "imageUrl": "https://static1.purepeople.com.br/articles/1/98/84/1/@/1301546-luciana-andrade-tambem-era-vocalista-do-580x0-1.jpg",
+        "pageUrl": "https://www.purepeople.com.br/midia/luciana-andrade-tambem-era-vocalista-do_m1301546",
+        "source": "Bing",
+        "title": "Foto: Grupo Rouge com sua formação original: Luciana Andrade, Aline ...",
+        "width": 580,
+        "height": 579
+      },
+      {
+        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/d6/2023/01/12/aline-wirley-karin-hils-li-martins-luciana-andrade-e-fantine-tho-formaram-a-girlband-rouge-1673552670992_v2_900x506.jpg",
+        "pageUrl": "https://www.uol.com.br/splash/noticias/2023/01/12/o-que-dizem-ex-integrantes-do-rouge-sobre-aline-wirley-no-bbb-23.htm",
+        "source": "Bing",
+        "title": "BBB 23: Aline Wirley é apoiada pelas ex-integrantes do Rouge?",
+        "width": 900,
+        "height": 506
+      },
+      {
+        "imageUrl": "https://extra.globo.com/incoming/25558128-04a-cbe/w976h550-PROP/rouge-39196056_28022003divulgacaoe-mailext-nxexclusivasandalias-do-grupo-rouge..jpg",
+        "pageUrl": "https://extra.globo.com/tv-e-lazer/fotos-nos-20-anos-do-rouge-karin-hills-tenta-ligar-para-integrantes-mas-so-uma-atende-25558125.html",
+        "source": "Bing",
+        "title": "fotos: Nos 20 anos do Rouge, Karin Hills tenta ligar para integrantes ...",
+        "width": 976,
+        "height": 550
+      },
+      {
+        "imageUrl": "https://i0.wp.com/portalaltadefinicao.com/wp-content/uploads/2022/08/Rouge.jpg?resize=750%2C422&ssl=1",
+        "pageUrl": "https://portalaltadefinicao.com/20-anos-do-rouge-karin-hills-e-li-martins-comentam-polemicas-do-grupo-olha-na-cara/",
+        "source": "Bing",
+        "title": "Rouge 20 anos: Karin Hills e Li Martins comentam polêmicas do grupo",
+        "width": 750,
+        "height": 422
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "QmF0bWFuOiBQYXJ0ZSAy",
+    "reviewId": "QmF0bWFuOiBQYXJ0ZSAy",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Batman: Parte 2 inicia filmagens e ganha primeira foto",
+    "slug": "batman-parte-2-inicia-filmagens-e-ganha-primeira-foto",
+    "excerpt": "A sequência de Batman começou a ser filmada e teve sua primeira foto divulgada.",
+    "body": [
+      "Batman: Parte 2 começou a ser filmado e ganhou sua primeira foto. As evidências também indicam que os possíveis papéis de Sebastian Stan e Brian Tyree Henry ainda não foram confirmados.",
+      "Colin Farrell elogiou o roteiro e classificou o filme como extraordinário. Outro ator de Pinguim chamou a produção de uma “obra-prima aterrorizante”. A possível presença de um grupo clássico de vilões da DC também foi mencionada, mas permanece como possibilidade."
+    ],
+    "html": "<p>Batman: Parte 2 começou a ser filmado e ganhou sua primeira foto. As evidências também indicam que os possíveis papéis de Sebastian Stan e Brian Tyree Henry ainda não foram confirmados.</p>\n<p>Colin Farrell elogiou o roteiro e classificou o filme como extraordinário. Outro ator de Pinguim chamou a produção de uma “obra-prima aterrorizante”. A possível presença de um grupo clássico de vilões da DC também foi mencionada, mas permanece como possibilidade.</p>",
+    "category": "Cinema",
+    "market": "brasil",
+    "tags": [
+      "Batman: Parte 2",
+      "Colin Farrell",
+      "Sebastian Stan",
+      "Brian Tyree Henry",
+      "DC"
+    ],
+    "source": "Omelete",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTy16LW16Y0NiZW9KQ3l2SHJvNmo0T0V5Z2xwLVB3RU5xQjByTzNiQ2tCYnNONzFjVXMtYV9lc2VhaW51WDJ3MFV5VS13bGNBYXByM3dtWGtHZk42azZQQ3h0X3RJbThiM1poUGpYOFRUR0tZUEllLTJyM3BpTllDWWFSOXdEQQ?oc=5",
+    "evidenceSources": [
+      "Omelete",
+      "Rádio Mix FM",
+      "Canaltech",
+      "cinepop.com.br",
+      "O TEMPO"
+    ],
+    "evidenceClaims": [
+      "Batman: Parte 2 começa filmagens e ganha primeira foto, confira",
+      "\"The Batman 2\": Papéis de Sebastian Stan e Brian Tyree Henry podem ter sido revelados",
+      "The Batman 2 é uma \"obra-prima aterrorizante\", diz ator do Pinguim",
+      "‘Batman: Parte II’: Colin Farrell elogia roteiro e promete filme extraordinário",
+      "Batman 2 pode mostrar grupo clássico de vilões da DC"
+    ],
+    "sourceCount": 5,
+    "score": 106,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Batman: Parte 2",
+    "imageSearchQuery": "Batman Parte 2 primeira foto filmagens",
+    "imageAlt": "Primeira imagem relacionada às filmagens de Batman: Parte 2",
+    "editorialMeta": {
+      "originalTitle": "Batman: Parte 2 começa filmagens e ganha primeira foto, confira",
+      "sourceId": "QmF0bWFuOiBQYXJ0ZSAy",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.99,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "Batman: Parte 2 começou a ser filmado.",
+        "A primeira foto do filme foi divulgada.",
+        "Os papéis de Sebastian Stan e Brian Tyree Henry podem ter sido revelados.",
+        "Colin Farrell elogiou o roteiro.",
+        "Colin Farrell classificou o filme como extraordinário.",
+        "Um ator de Pinguim chamou o filme de uma obra-prima aterrorizante.",
+        "O filme pode mostrar um grupo clássico de vilões da DC."
+      ],
+      "generatedAt": "2026-06-13T00:13:02.009Z"
+    },
+    "createdAt": "2026-06-13T00:13:02.009Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/2343/cc6fc3f3c300e3b7375093a1384846ad.jpg",
+        "pageUrl": "https://www.ingresso.com/noticias/andy-serkis-revelou-novidades-sobre-inicio-filmagens-sequencia-the-batman",
+        "source": "Bing",
+        "title": "Andy Serkis revelou novidades sobre o início das filmagens de 'Batman 2 ...",
+        "width": 1920,
+        "height": 1008
+      },
+      {
+        "imageUrl": "https://nerdarretado.com.br/wp-content/uploads/2026/01/batman-coringa-bilheteria-cnn.webp",
+        "pageUrl": "https://nerdarretado.com.br/2026/01/22/batman-parte-2-inicia-filmagens-em-marco-robert-pattinson-volta-ao-papel-em-londres/",
+        "source": "Bing",
+        "title": "\"Batman: Parte 2\" Inicia Filmagens em Março; Robert Pattinson Volta ao ...",
+        "width": 1200,
+        "height": 696
+      },
+      {
+        "imageUrl": "https://ovicio.com.br/wp-content/uploads/2026/04/20260404-imgi_679_robert-pattinson-as-batman-wearing-suit-in-front-of-bridge-in-the-batman.webp",
+        "pageUrl": "https://ovicio.com.br/batman-parte-ii-comeca-suas-filmagens-veja-as-primeiras-fotos-do-batmovel/",
+        "source": "Bing",
+        "title": "Batman: Parte II começa suas filmagens; Veja as primeiras fotos do ...",
+        "width": 2000,
+        "height": 1000
+      },
+      {
+        "imageUrl": "https://feira.tangerina.news/wp-content/uploads/2026/01/robert-pattinson-the-batman.jpg",
+        "pageUrl": "https://tangerina.uol.com.br/filmes-series/tudo-o-que-sabemos-sobre-the-batman-parte-2/",
+        "source": "Bing",
+        "title": "De elenco a estreia: Tudo o que sabemos sobre The Batman - Parte 2",
+        "width": 1360,
+        "height": 850
+      },
+      {
+        "imageUrl": "https://palomaynacho.com/wp-content/uploads/2024/12/Batman-2-estreno-Matt-Reeves.jpg",
+        "pageUrl": "https://palomaynacho.com/blog/the-batman-2-filmaciones-elenco/",
+        "source": "Bing",
+        "title": "¿Ya hay guion de Batman: Parte 2? Esto es lo que sabemos",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "imageUrl": "https://observatoriodocinema.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=904&height=508&format=.jpg&quality=91&imagick=/wp-content/uploads/2022/07/batman.jpg",
+        "pageUrl": "https://observatoriodocinema.com.br/filmes/batman-2-filmagens-sao-adiadas-em-4-meses/",
+        "source": "Bing",
+        "title": "Batman 2: Filmagens são adiadas em 4 meses - Observatório do Cinema",
+        "width": 904,
+        "height": 508
+      },
+      {
+        "imageUrl": "https://universoheroico.ig.com.br/wp-content/uploads/2022/03/Comissario-Gordon-e-o-Batman.jpg",
+        "pageUrl": "https://universoheroico.ig.com.br/batman-parte-2-revelado-inicio-das-filmagens/",
+        "source": "Bing",
+        "title": "Batman: Parte 2: Revelado quando filmagens serão iniciadas | Universo ...",
+        "width": 1296,
+        "height": 730
+      },
+      {
+        "imageUrl": "https://www.un.uniaodosherois.com.br/images/posts/2758-the-batman-parte-2-inicia-filmagens-em-novembro-tb.jpg",
+        "pageUrl": "https://www.uniaodosherois.com.br/posts/the-batman-parte-2-inicia-filmagens-em-novembro",
+        "source": "Bing",
+        "title": "The Batman Parte 2 inicia filmagens em novembro",
+        "width": 1000,
+        "height": 525
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "RXN0ZSBmb2kgbyBlZmVp",
+    "reviewId": "RXN0ZSBmb2kgbyBlZmVp",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Globo registra audiência de 46 milhões no primeiro dia da Copa",
+    "slug": "globo-registra-audiencia-de-46-milhoes-no-primeiro-dia-da-copa",
+    "excerpt": "O início da Copa de 2026 elevou a audiência do SBT e colocou a emissora em segundo lugar.",
+    "body": [
+      "A Globo registrou audiência de 46 milhões no primeiro dia da Copa do Mundo de 2026. O primeiro jogo também teve transmissões acompanhadas por Globo, SBT e CazéTV.",
+      "Na estreia do torneio, a audiência do SBT cresceu e a emissora ficou em segundo lugar. Globo e SBT disputaram o público no início da competição."
+    ],
+    "html": "<p>A Globo registrou audiência de 46 milhões no primeiro dia da Copa do Mundo de 2026. O primeiro jogo também teve transmissões acompanhadas por Globo, SBT e CazéTV.</p>\n<p>Na estreia do torneio, a audiência do SBT cresceu e a emissora ficou em segundo lugar. Globo e SBT disputaram o público no início da competição.</p>",
+    "category": "TV",
+    "market": "brasil",
+    "tags": [
+      "Copa do Mundo 2026",
+      "Globo",
+      "SBT",
+      "CazéTV",
+      "audiência"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0Z1RTdjaHFGZV9oamFWMVh2WXdCbWJoblhRWG5Bc09XYW9WUjd6ZGU5OEFjQUZQRFlzbXhvZURHTlAtRGFPOVN3Q3daZVpfcjMzZHZjQ2hLUkgtWGFOT293T2NZdHlKTl9KX08zRnlRcGhyd0hNVklFaG1VblZvZ05SQkhDZ19ZRTJ0Q0g1TnZaVjQ0Z0dKbXpZTHV2ZU5QNEhGSEtVM0d6azUwLUNXQU5MVnRWdF84Y0RrUDRSdzFzTTJLU3dSOThWMNIB2gFBVV95cUxNZzFHUFdVWTYwVTFmb2dZckxCYWdRMlBmVXE2cFluZkhQTmtwOHNjMGI2MHVEUVRjaG15MDJ0WkVId1pGS0FxM3A3bXlNMXdMVUtTZHlhV2tsV1lpZmlsRkNtVnRsZWEydFh4dE03ZXhpWHZwV3JnN2gwaWNSSDloTFhla21YV0paUjh2ZVZxR2w1enhxWGFEMFhVLVlYZlJ0LWlnbnc0MmFQZW81MEN6MklibkxraEZQV1IxbjRBR0pjXzNnSWZFZlpCVDRVRllTbFI0UFdJci1yQQ?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "ge",
+      "Lance!",
+      "VEJA"
+    ],
+    "evidenceClaims": [
+      "Este foi o efeito do 1º dia de Copa do Mundo no Ibope das novelas da Globo",
+      "Audiência da Globo na Copa 2026: 46 milhões no primeiro dia | Ge",
+      "Veja qual foi a audiência de Globo, SBT e CazéTV no 1º jogo da Copa do Mundo",
+      "Estreia da Copa do Mundo decola audiência do SBT; emissora ficou em segundo",
+      "Como ficou o embate entre SBT e Globo no início da Copa do Mundo"
+    ],
+    "sourceCount": 4,
+    "score": 107,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Logotipos de Globo, SBT e CazéTV relacionados à transmissão da Copa do Mundo de 2026",
+    "imageSearchQuery": "Globo SBT CazéTV transmissão Copa do Mundo 2026",
+    "imageAlt": "Logotipos de Globo, SBT e CazéTV, emissoras citadas na audiência da Copa de 2026",
+    "editorialMeta": {
+      "originalTitle": "Este foi o efeito do 1º dia de Copa do Mundo no Ibope das novelas da Globo",
+      "sourceId": "RXN0ZSBmb2kgbyBlZmVp",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.97,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "A Globo registrou audiência de 46 milhões no primeiro dia da Copa de 2026.",
+        "Globo, SBT e CazéTV tiveram a audiência do primeiro jogo medida.",
+        "A audiência do SBT cresceu na estreia da Copa.",
+        "O SBT ficou em segundo lugar.",
+        "Globo e SBT disputaram audiência no início da Copa."
+      ],
+      "generatedAt": "2026-06-13T00:12:12.031Z"
+    },
+    "createdAt": "2026-06-13T00:12:12.031Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://portalaltadefinicao.com/wp-content/uploads/2025/10/copa-do-mundo-na-globo-e-sbt-860x484.webp",
+        "pageUrl": "https://portalaltadefinicao.com/copa-do-mundo-2026-sbt-vai-ter-que-exibir-os-mesmos-jogos-que-a-globo-entenda/",
+        "source": "Bing",
+        "title": "SBT vai transmitir 32 jogos da Copa 2026, os mesmos da Globo",
+        "width": 860,
+        "height": 484
+      },
+      {
+        "imageUrl": "https://rapgol.com.br/wp-content/uploads/2025/09/SBT-confirma-transmissao-da-Copa-do-Mundo-2026-com-Galvao-Bueno.webp",
+        "pageUrl": "https://rapgol.com.br/sbt-galvao-copa-2026/",
+        "source": "Bing",
+        "title": "SBT confirma transmissão da Copa do Mundo 2026 com Galvão Bueno ...",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "imageUrl": "https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2025/09/10/828111551-sbt-copa.jpg",
+        "pageUrl": "https://www.terra.com.br/esportes/sbt-vai-transmitir-jogos-da-copa-do-mundo-de-2026-diz-site,836f5a661fabdb0eb6717d35a4c79e0799svhpnp.html",
+        "source": "Bing",
+        "title": "SBT vai transmitir jogos da Copa do Mundo de 2026, diz site",
+        "width": 1548,
+        "height": 1548
+      },
+      {
+        "imageUrl": "https://vivaband.com.br/wp-content/uploads/2025/09/G3JUHQCPLBGBBFHBQ7OGTT5AMY.png",
+        "pageUrl": "https://vivaband.com.br/sbt-adquire-direitos-de-transmissao-da-copa-do-mundo-de-2026/",
+        "source": "Bing",
+        "title": "SBT Adquire Direitos de Transmissão da Copa do Mundo de 2026 - Viva Band",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2025/09/20/1056732287-captura-de-tela-2025-07-13-165032.png",
+        "pageUrl": "https://www.terra.com.br/esportes/futebol/cazetv-tera-exclusividade-na-transmissao-da-copa-do-mundo-de-2026,66d0240362e8c85293143132241b9b7ce5o42dow.html",
+        "source": "Bing",
+        "title": "CazéTV terá exclusividade na transmissão da Copa do Mundo de 2026",
+        "width": 1200,
+        "height": 630
+      },
+      {
+        "imageUrl": "https://static1.purepeople.com.br/uploads/06/02/9e/ad/5cdfebea131d783a-1200x0-1.png",
+        "pageUrl": "https://www.purepeople.com.br/midia/a-cazetv-globo-e-sbt-compartilharao-direitos-da-copa-de-2026-marcando-uma-nova-era-nas-transmissoes-esportivas-brasileiras_m4686223",
+        "source": "Bing",
+        "title": "Foto: A CazéTV, Globo e SBT compartilharão direitos da Copa de 2026 ...",
+        "width": 1200,
+        "height": 675
+      },
+      {
+        "imageUrl": "https://www.areavip.com.br/wp-content/uploads/2025/03/copa-do-mundo-no-sbt.jpg",
+        "pageUrl": "https://plantaosbt.blogspot.com/2025/09/sbt-fecha-acordo-e-transmitira-jogos-da.html",
+        "source": "Bing",
+        "title": "SBT fecha acordo e transmitirá jogos da Copa do Mundo de 2026",
+        "width": 750,
+        "height": 500
+      },
+      {
+        "imageUrl": "https://cdn.massa.com.br/uploads/2025/10/sbt-copa-do-mundo-2026.jpg",
+        "pageUrl": "https://massa.com.br/esporte/sbt-copa-do-mundo-2026/",
+        "source": "Bing",
+        "title": "SBT anuncia Copa do Mundo 2026 com Galvão Bueno e Tiago Leifert",
+        "width": 1200,
+        "height": 810
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "w41jb25lIGRhIGFydGUg",
+    "reviewId": "w41jb25lIGRhIGFydGUg",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Pintor britânico David Hockney morre aos 88 anos",
+    "slug": "pintor-britanico-david-hockney-morre-aos-88-anos",
+    "excerpt": "Ícone da arte contemporânea, David Hockney foi lembrado pelo uso das cores e pelas piscinas retratadas em sua obra.",
+    "body": [
+      "O pintor britânico David Hockney morreu aos 88 anos. Descrito como ícone da arte contemporânea e mestre das cores, ele também foi lembrado pelas piscinas que pintou.",
+      "Análises sobre sua arte associaram essas piscinas a paixões movediças e destacaram a ternura como um elemento cotidiano de sua produção artística."
+    ],
+    "html": "<p>O pintor britânico David Hockney morreu aos 88 anos. Descrito como ícone da arte contemporânea e mestre das cores, ele também foi lembrado pelas piscinas que pintou.</p>\n<p>Análises sobre sua arte associaram essas piscinas a paixões movediças e destacaram a ternura como um elemento cotidiano de sua produção artística.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "David Hockney",
+      "arte contemporânea",
+      "pintura"
+    ],
+    "source": "CNN Brasil",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ1clFiN0VoQmQ5SDY4YWtBd3JkZEtFVEQ4aUJiUS16ZWd0MTNaNzE5ZktTci12VXliQk1yN0hyNEItNHFOQThKS3Jud3pIeFNTcmtnRHNKWTFVcmc5Z3RxSnpGT0VxNlJ1R2ZhN0NwcWhTR1RhbUZ0cXFYVGlPRExibG4zVi1uNnB5Wm5XZWk2b0ZLeW1YNA?oc=5",
+    "evidenceSources": [
+      "CNN Brasil",
+      "Assine Abril",
+      "Valor Econômico",
+      "Folha de S.Paulo",
+      "Estadão"
+    ],
+    "evidenceClaims": [
+      "Ícone da arte contemporânea, David Hockney morre aos 88 anos",
+      "O adeus ao mestre das cores: relembre a carreira de David Hockney, que morreu aos 88 anos",
+      "Pintor britânico David Hockney morre aos 88 anos",
+      "Análise: David Hockney pintou as suas piscinas como o lar de paixões movediças",
+      "Análise | David Hockney fez da ternura um fato cotidiano em sua arte"
+    ],
+    "sourceCount": 5,
+    "score": 114,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "David Hockney",
+    "imageSearchQuery": "David Hockney pintor britânico retrato",
+    "imageAlt": "Retrato do pintor britânico David Hockney",
+    "editorialMeta": {
+      "originalTitle": "Ícone da arte contemporânea, David Hockney morre aos 88 anos",
+      "sourceId": "w41jb25lIGRhIGFydGUg",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.99,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "David Hockney morreu aos 88 anos.",
+        "David Hockney era um pintor britânico.",
+        "David Hockney foi descrito como ícone da arte contemporânea.",
+        "David Hockney foi descrito como mestre das cores.",
+        "David Hockney pintou piscinas.",
+        "Análises associaram suas piscinas a paixões movediças.",
+        "Análises destacaram a ternura como elemento cotidiano em sua arte."
+      ],
+      "generatedAt": "2026-06-13T00:09:22.705Z"
+    },
+    "createdAt": "2026-06-13T00:09:22.705Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://cdn.sanity.io/images/dqllnil6/production/e48ef98c124f77c98e376809f0aea8323bb2562d-1000x704.jpg?w=1920&q=60&auto=format",
+        "pageUrl": "https://www.myartbroker.com/artist-david-hockney",
+        "source": "Bing",
+        "title": "David Hockney Art for Sale: Prints & Originals | MyArtBroker",
+        "width": 1920,
+        "height": 1352
+      },
+      {
+        "imageUrl": "https://cromatica.art/wp-content/uploads/2021/07/retrato-de-un-artista-david-hockney-770x568.jpg",
+        "pageUrl": "https://cromatica.art/retrato-de-un-artista-david-hockney/",
+        "source": "Bing",
+        "title": "Retrato de un Artista - David Hockney",
+        "width": 770,
+        "height": 568
+      },
+      {
+        "imageUrl": "https://www.singulart.com/blog/wp-content/uploads/2024/01/David-Hockney-Je-suis-un-space-freak.jpg",
+        "pageUrl": "https://www.singulart.com/es/blog/2024/07/17/david-hockneys-un-retrato-de-un-artista-piscina-con-dos-figuras/",
+        "source": "Bing",
+        "title": "\"Un retrato de un artista\" de David Hockney (piscina con dos figuras)",
+        "width": 2000,
+        "height": 1332
+      },
+      {
+        "imageUrl": "https://cdn.sortiraparis.com/images/80/109763/1159963-david-hockney-la-plus-grande-exposition-retrospective-de-l-artiste-a-la-fondation-louis-vuitton-img-8530-jpg.jpg",
+        "pageUrl": "https://qaqooking.wiki/all/how-to/david-hockney-exhibition",
+        "source": "Bing",
+        "title": "David Hockney Exhibition",
+        "width": 1800,
+        "height": 1131
+      },
+      {
+        "imageUrl": "https://www.arquipelagos.pt/wp-content/uploads/2020/04/54-retrato-ret-35-jim-mac-hugh-2.jpg",
+        "pageUrl": "https://www.arquipelagos.pt/imagem/retrato-do-fotografo-britanico-jim-mchugh-david-hockney-2014-los-angeles-california-estados-unidos-da-america/",
+        "source": "Bing",
+        "title": "Retrato do fotógrafo britânico Jim Mchugh, David Hockney, 2014, Los ...",
+        "width": 800,
+        "height": 1073
+      },
+      {
+        "imageUrl": "https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2025/04/cda25_mag_david_hockney_portrait-tt-width-410-height-230-fill-1-crop-0-bgcolor-ffffff.jpg",
+        "pageUrl": "https://www.connaissancedesarts.com/artistes/david-hockney/exposition-david-hockney-a-paris-decouvrez-les-periodes-cles-et-les-chefs-doeuvre-de-lartiste-11200656/",
+        "source": "Bing",
+        "title": "Exposition David Hockney à Paris : découvrez les périodes clés et les ...",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "imageUrl": "https://www.artelista.com/blog/wp-content/uploads/2019/10/hockney.png",
+        "pageUrl": "https://www.artelista.com/blog/el-pintor-ingles-david-hockney-y-la-revision-de-la-acuarela/",
+        "source": "Bing",
+        "title": "El pintor inglés David Hockney y la revisión de la acuarela - Artelista ...",
+        "width": 722,
+        "height": 479
+      },
+      {
+        "imageUrl": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2023/11/1140-david-hockney-with-paintings.jpg",
+        "pageUrl": "https://narodnatribuna.info/lists/d/david-hockney-portrait/",
+        "source": "Bing",
+        "title": "David Hockney Portrait Art History News: David Hockney At Auction",
+        "width": 1140,
+        "height": 655
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "Q2FtcGFuaGEgZGUgRGVt",
+    "reviewId": "Q2FtcGFuaGEgZGUgRGVt",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Campanha com Demi Lovato e Vini Jr. gera comentários sobre Neymar",
+    "slug": "campanha-com-demi-lovato-e-vini-jr-gera-comentarios-sobre-neymar",
+    "excerpt": "A ação reacendeu lembranças de uma antiga amizade entre Demi Lovato e Neymar.",
+    "body": [
+      "Uma campanha com Demi Lovato e Vini Jr. provocou comentários sobre Neymar. O conteúdo também reacendeu lembranças de uma antiga amizade entre a cantora e o jogador brasileiro.",
+      "Vini Jr. participa da ação ao lado de Demi, enquanto as referências a Neymar aparecem nos comentários gerados pela campanha."
+    ],
+    "html": "<p>Uma campanha com Demi Lovato e Vini Jr. provocou comentários sobre Neymar. O conteúdo também reacendeu lembranças de uma antiga amizade entre a cantora e o jogador brasileiro.</p>\n<p>Vini Jr. participa da ação ao lado de Demi, enquanto as referências a Neymar aparecem nos comentários gerados pela campanha.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Demi Lovato",
+      "Vini Jr.",
+      "Neymar"
+    ],
+    "source": "O Globo",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONUdhZ0kyQVJXeHpsckdDOWQxS0FxVEk5d3JtdThmNXdIS1EwTXFxOHpkQ212OGFYdWhjMld0VkNTMHJXZjJMUFRWQjdxUGJuQmpGWFhVaGwxanFMdXpnTlRqVHl2UlhPV2JOak56UmhMeE5sbnlhREJNWWF2dUwwMldSQTlQVmU5STJWZng2SXpVc182OUhJZnFsS2E3dkwyR0NpX1VyYlRaT05UZjZzN2xoT252SktfTGpPcy1nenBDendCNDVqczJ6Umh1TGdMQ0dN0gHiAUFVX3lxTFBzNU9DQldWZ2FSRkxvRExmbFlKVldYRmVTQV9iNmJvV1RrSWozRFBETjJsRVgwOXNxWGFDRUgwbFowVXRMVGxoSGxKNWtrMVYtRTlqbUtBbm10ZmQ3VjltMkpta2hPUEJOdGpZaTJZb3RmaTI1S0dWZ3ZRWmVnc2hGNW8yNFM3SVZUQnpkaWlDV21Wdjc4aXZMTktQUWxRZ29CRHVEcHpPQjVTTDlFc3lBdlFLdnd4U3JqN01BNmVpemRxZnRoNXFYdndYQTBka0M1MzJuQURVTV9HTGxkQ01XMVE?oc=5",
+    "evidenceSources": [
+      "O Globo",
+      "UOL",
+      "Capricho",
+      "MacMagazine",
+      "TudoCelular.com"
+    ],
+    "evidenceClaims": [
+      "Campanha de Demi Lovato com Vini Jr. movimenta a web e gera comentários sobre Neymar; entenda",
+      "Campanha de Demi Lovato com Vini Jr. reacende lembranças de antiga amizade com Neymar",
+      "KATSEYE e Demi Lovato: descubra quais músicas estão na playlist de Vini Jr",
+      "Apple promove os AirPods Pro 3 em novo comercial estrelado por Vini Jr.",
+      "No clima da Copa: Apple faz Vini Jr. dançar em propaganda dos AirPods Pro 3"
+    ],
+    "sourceCount": 5,
+    "score": 116,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Demi Lovato e Vini Jr. na campanha",
+    "imageSearchQuery": "Demi Lovato Vini Jr campanha",
+    "imageAlt": "Demi Lovato e Vini Jr. em campanha publicitária",
+    "editorialMeta": {
+      "originalTitle": "Campanha de Demi Lovato com Vini Jr. movimenta a web e gera comentários sobre Neymar; entenda",
+      "sourceId": "Q2FtcGFuaGEgZGUgRGVt",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.98,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "Demi Lovato e Vini Jr. participam de uma campanha.",
+        "A campanha provocou comentários sobre Neymar.",
+        "O conteúdo reacendeu lembranças de uma antiga amizade entre Demi Lovato e Neymar."
+      ],
+      "generatedAt": "2026-06-13T00:08:54.493Z"
+    },
+    "createdAt": "2026-06-13T00:08:54.493Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BOTk1YTg1N2YtMmY0NS00MTZmLWFlMWYtOGJhZTk4OWJlYTYxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "pageUrl": "https://www.imdb.com/es/name/nm1416215/mediaviewer/rm2557888257/",
+        "source": "Bing",
+        "title": "Demi Lovato",
+        "width": 1000,
+        "height": 1499
+      },
+      {
+        "imageUrl": "https://cdn.britannica.com/52/275852-050-0A783B59/Demi-Lovato-American-Celebrity-Singer-Songwriter-Actress.jpg",
+        "pageUrl": "https://www.britannica.com/biography/Demi-Lovato",
+        "source": "Bing",
+        "title": "Demi Lovato | Early Life, Family, Disney Career, Music Albums, Personal ...",
+        "width": 1088,
+        "height": 1600
+      },
+      {
+        "imageUrl": "https://people.com/thmb/mNILTqXNyAUXGmO-glwLLGK3mTI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(975x495:977x497)/demi-lovato-091024-ccc0f298dbe24e65aeedfabadf113ee9.jpg",
+        "pageUrl": "https://coalescence.blog/the-impact-of-demi-lovato-s-music-songs-that-inspire-change/",
+        "source": "Bing",
+        "title": "The Impact of Demi Lovato's Music: Songs That Inspire Change - Coalescence",
+        "width": 1500,
+        "height": 1000
+      },
+      {
+        "imageUrl": "https://portalpopline.com.br/wp-content/uploads/2024/07/demi-lovato-volta-pop-musica-campanha-fas-teorias.jpg",
+        "pageUrl": "https://portalpopline.com.br/demi-lovato-pop-musica-campanha-fas-teorizam/",
+        "source": "Bing",
+        "title": "Demi Lovato de volta ao pop? Cantora lança música para campanha e fãs ...",
+        "width": 1200,
+        "height": 902
+      },
+      {
+        "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2023/07/Demi-Lovato-album-announcement.jpg",
+        "pageUrl": "https://narodnatribuna.info/lists/r/encarte-demi-lovato-revamped-encartes-pop/",
+        "source": "Bing",
+        "title": "Encarte Demi Lovato Revamped Encartes Pop",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "imageUrl": "https://portalpopline.com.br/wp-content/uploads/2024/07/demi-lovato-volta-pop-musica-campanha-fas-teorias-2.jpg",
+        "pageUrl": "https://portalpopline.com.br/demi-lovato-pop-musica-campanha-fas-teorizam/",
+        "source": "Bing",
+        "title": "Demi Lovato de volta ao pop? Cantora lança música para campanha e fãs ...",
+        "width": 1200,
+        "height": 1499
+      },
+      {
+        "imageUrl": "https://static1.purepeople.com.br/articles/0/39/00/@/31665-demi-lovato-580x0-1.jpg",
+        "pageUrl": "https://www.purepeople.com.br/midia/demi-lovato_m31665",
+        "source": "Bing",
+        "title": "Foto: Demi Lovato é conhecida por fazer campanha contra o bullying ...",
+        "width": 580,
+        "height": 833
+      },
+      {
+        "imageUrl": "https://i.pinimg.com/originals/ca/22/d9/ca22d95513ba63ca220f0956dbd7bf42.jpg",
+        "pageUrl": "https://www.pinterest.com/pin/demi-lovato-exclusive--154740937193782258/",
+        "source": "Bing",
+        "title": "Demi Lovato Exclusive | Demi lovato pictures, Demi lovato, Lovato",
+        "width": 667,
+        "height": 1000
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "NyBmaWxtZXMgcGljYW50",
+    "reviewId": "NyBmaWxtZXMgcGljYW50",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Listas reúnem filmes para assistir no Dia dos Namorados",
+    "slug": "listas-reunem-filmes-para-assistir-no-dia-dos-namorados",
+    "excerpt": "Seleções incluem filmes picantes no streaming, romances e opções para quem ficará em casa ou quer fugir da data.",
+    "body": [
+      "Diferentes listas reúnem filmes para assistir no Dia dos Namorados. Entre as sugestões, há uma seleção de sete produções picantes disponíveis no streaming e outra com 12 filmes românticos.",
+      "Também aparecem cinco filmes indicados para solteiros que querem fugir da data e cinco opções para quem pretende passar a ocasião em casa. Clássicos do romance ainda ganharam um relançamento especial nos cinemas."
+    ],
+    "html": "<p>Diferentes listas reúnem filmes para assistir no Dia dos Namorados. Entre as sugestões, há uma seleção de sete produções picantes disponíveis no streaming e outra com 12 filmes românticos.</p>\n<p>Também aparecem cinco filmes indicados para solteiros que querem fugir da data e cinco opções para quem pretende passar a ocasião em casa. Clássicos do romance ainda ganharam um relançamento especial nos cinemas.</p>",
+    "category": "Cinema",
+    "market": "brasil",
+    "tags": [
+      "Dia dos Namorados",
+      "filmes",
+      "streaming",
+      "romance",
+      "cinema"
+    ],
+    "source": "UOL",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1c4UnZhSTBrRkh4aHF1bmhWV2t5djBKZnJnQkc5SkVabk92b2JsNWNacHhpeEdOZ1BRaFBUOEZlTVJkYUpkOEJIamxjbnRsQ0Y2MTl0MkpRSXEyY2VQWVBnaVprSGlNdFZZUi1sQjFJU3VMc0U4ekxDTXNBT284b0Z5TGNtVlFYWkFycnhKT2FiallNNjUzU3ZMU1RtMzk2LWVFaVdxU0tHOTRMWUdOOFc4VUE?oc=5",
+    "evidenceSources": [
+      "UOL",
+      "G1",
+      "Capricho",
+      "Estadão",
+      "Folha Vitória"
+    ],
+    "evidenceClaims": [
+      "7 filmes picantes no streaming para curtir a dois no Dia dos Namorados",
+      "Dia dos Namorados: clássicos do romance ganham relançamento especial nos cinemas; veja lista",
+      "12 filmes românticos para assistir no Dia dos Namorados",
+      "Dia dos Namorados: 5 filmes para os solteiros que querem fugir da data",
+      "Vai passar o Dia dos Namorados em casa? Estes 5 filmes são a escolha perfeita para a data"
+    ],
+    "sourceCount": 5,
+    "score": 119,
+    "trendBoost": false,
+    "trendMatches": [],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Casal assistindo a um filme em casa",
+    "imageSearchQuery": "casal assistindo filme em casa Dia dos Namorados streaming",
+    "imageAlt": "Casal assiste a um filme em casa durante o Dia dos Namorados.",
+    "editorialMeta": {
+      "originalTitle": "7 filmes picantes no streaming para curtir a dois no Dia dos Namorados",
+      "sourceId": "NyBmaWxtZXMgcGljYW50",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.99,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "Há uma lista de sete filmes picantes no streaming para o Dia dos Namorados.",
+        "Há uma seleção de 12 filmes românticos para assistir na data.",
+        "Há cinco filmes para solteiros que querem fugir da data.",
+        "Há cinco filmes indicados para quem passará o Dia dos Namorados em casa.",
+        "Clássicos do romance ganharam relançamento especial nos cinemas."
+      ],
+      "generatedAt": "2026-06-13T00:07:53.001Z"
+    },
+    "createdAt": "2026-06-13T00:07:53.001Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://img.freepik.com/fotos-premium/casal-adulto-apaixonado-assistindo-a-um-filme-no-laptop-em-casa-e-comendo-pipoca-dia-dos-namorados_674000-923.jpg?w=2000",
+        "pageUrl": "https://br.freepik.com/fotos-premium/casal-adulto-apaixonado-assistindo-a-um-filme-no-laptop-em-casa-e-comendo-pipoca-dia-dos-namorados_38093273.htm",
+        "source": "Bing",
+        "title": "Casal adulto apaixonado assistindo a um filme no laptop em casa e ...",
+        "width": 2000,
+        "height": 1333
+      },
+      {
+        "imageUrl": "https://img.freepik.com/fotos-premium/casal-de-vista-traseira-abracando-se-no-sofa-vendo-um-filme-no-cinema-noite-de-data-em-casa_508097-3978.jpg",
+        "pageUrl": "https://br.freepik.com/fotos-vetores-gratis/casal-romantico-assistindo-tv",
+        "source": "Bing",
+        "title": "Casal Romantico Assistindo Tv Imagens - Download Grátis no Freepik",
+        "width": 626,
+        "height": 417
+      },
+      {
+        "imageUrl": "https://static.vecteezy.com/ti/fotos-gratis/p2/42884814-casal-assistindo-uma-filme-juntos-em-a-sofa-com-pipoca-gratis-foto.jpg",
+        "pageUrl": "https://pt.vecteezy.com/foto/42884814-casal-assistindo-uma-filme-juntos-em-a-sofa-com-pipoca",
+        "source": "Bing",
+        "title": "casal assistindo uma filme juntos em a sofá com Pipoca 42884814 Foto de ...",
+        "width": 3497,
+        "height": 1960
+      },
+      {
+        "imageUrl": "https://img.freepik.com/fotos-premium/um-jovem-casal-esta-assistindo-a-um-filme-deitado-no-sofa_910054-60286.jpg",
+        "pageUrl": "https://br.freepik.com/fotos/cinema-casa-casal",
+        "source": "Bing",
+        "title": "Fotos Cinema Casa Casal, 97.000+ fotos de arquivo grátis de alta qualidade",
+        "width": 626,
+        "height": 626
+      },
+      {
+        "imageUrl": "https://img.freepik.com/fotos-premium/casal-adulto-multirracial-apaixonado-assistindo-a-um-filme-de-streaming-do-laptop-em-casa-e-comendo-pipoca_674000-929.jpg",
+        "pageUrl": "https://br.freepik.com/fotos-premium/casal-adulto-multirracial-apaixonado-assistindo-a-um-filme-de-streaming-do-laptop-em-casa-e-comendo-pipoca_38093284.htm",
+        "source": "Bing",
+        "title": "Casal adulto multirracial apaixonado assistindo a um filme de streaming ...",
+        "width": 626,
+        "height": 417
+      },
+      {
+        "imageUrl": "https://img.freepik.com/fotos-premium/uma-noite-aconchegante-de-romance-um-casal-abracado-enquanto-assiste-um-filme-em-casa_1247367-83896.jpg",
+        "pageUrl": "https://br.freepik.com/imagem-ia-premium/uma-noite-aconchegante-de-romance-um-casal-abracado-enquanto-assiste-um-filme-em-casa_333824374.htm",
+        "source": "Bing",
+        "title": "Uma noite aconchegante de romance Um casal abraçado enquanto assiste um ...",
+        "width": 626,
+        "height": 351
+      },
+      {
+        "imageUrl": "https://img.freepik.com/fotos-premium/feliz-dia-dos-namorados_992007-488.jpg",
+        "pageUrl": "https://br.freepik.com/fotos-vetores-gratis/casal-feliz-casa-filme",
+        "source": "Bing",
+        "title": "Casal Feliz Casa Filme Imagens - Download Grátis no Freepik",
+        "width": 626,
+        "height": 626
+      },
+      {
+        "imageUrl": "https://img.freepik.com/fotos-gratis/sorrindo-jovem-casal-assistindo-filme-no-laptop_23-2147904459.jpg?size=626&ext=jpg",
+        "pageUrl": "https://br.freepik.com/fotos-vetores-gratis/namorados-assistindo-filme",
+        "source": "Bing",
+        "title": "Namorados Assistindo Filme Imagens - Download Grátis no Freepik",
+        "width": 626,
+        "height": 418
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "Tm92YSBmYXNlOiBWZWph",
+    "reviewId": "Tm92YSBmYXNlOiBWZWph",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Adriana recupera fortuna na nova fase de “Quem Ama Cuida”",
+    "slug": "adriana-recupera-fortuna-na-nova-fase-de-quem-ama-cuida",
+    "excerpt": "A segunda fase de “Quem Ama Cuida” terá mudanças na trajetória de Adriana.",
+    "body": [
+      "Adriana recupera sua fortuna em uma nova fase de “Quem Ama Cuida”. A segunda fase da novela também terá uma grande virada provocada por Heitor e cinco personagens que mudarão a trama.",
+      "Entre as novidades, um novo galã foi escalado pela Globo para disputar o amor de Adriana. As evidências não informam o nome do personagem nem detalham como ocorrerá a recuperação da fortuna."
+    ],
+    "html": "<p>Adriana recupera sua fortuna em uma nova fase de “Quem Ama Cuida”. A segunda fase da novela também terá uma grande virada provocada por Heitor e cinco personagens que mudarão a trama.</p>\n<p>Entre as novidades, um novo galã foi escalado pela Globo para disputar o amor de Adriana. As evidências não informam o nome do personagem nem detalham como ocorrerá a recuperação da fortuna.</p>",
+    "category": "TV",
+    "market": "brasil",
+    "tags": [
+      "Quem Ama Cuida",
+      "Adriana",
+      "Heitor",
+      "novela das 9",
+      "Globo"
+    ],
+    "source": "Observatório da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlJNOGloN2lacEhmVUZuMXlVcFZSaV9WWUtyalZINlYxVkc1M192RkJVdlpOU29qOUJFRGtSUlNlOGZMZFBoX0NOSk10cVZHUHlmdjRiX25fMjFya0hHRnR1bXdnNWFVck1CNnBoSmNMcXhyeVJHOVBMV2FoWUNacHA4dG02eEtVdWtPZmRYbDhPR0xpbVJXM2hwd0ZIN01SNVVwZ3FKX212YWcxT1dZU19KaE1kZw?oc=5",
+    "evidenceSources": [
+      "Observatório da TV",
+      "Notícias da TV",
+      "CNN Brasil",
+      "O TEMPO",
+      "RD1"
+    ],
+    "evidenceClaims": [
+      "Nova fase: Veja como Adriana recupera fortuna em Quem Ama Cuida",
+      "Verdadeiro amor de Adriana? Heitor provoca a maior virada em Quem Ama Cuida",
+      "5 personagens que vão mudar a trama de \"Quem Ama Cuida\"",
+      "Novela das 9: 3 novidades da 2ª fase de Quem Ama Cuida que vão chocar o público",
+      "Quem Ama Cuida: Globo escala novo galã para disputar o amor de Adriana na 2ª fase"
+    ],
+    "sourceCount": 5,
+    "score": 123,
+    "trendBoost": true,
+    "trendMatches": [
+      "resumo da novela quem ama cuida"
+    ],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Adriana, personagem de “Quem Ama Cuida”",
+    "imageSearchQuery": "Adriana personagem Quem Ama Cuida novela Globo",
+    "imageAlt": "Adriana em cena na novela “Quem Ama Cuida”",
+    "editorialMeta": {
+      "originalTitle": "Nova fase: Veja como Adriana recupera fortuna em Quem Ama Cuida",
+      "sourceId": "Tm92YSBmYXNlOiBWZWph",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.98,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "Adriana recupera sua fortuna em uma nova fase de “Quem Ama Cuida”.",
+        "Heitor provoca uma grande virada na trama.",
+        "Cinco personagens mudarão a trama de “Quem Ama Cuida”.",
+        "A segunda fase terá três novidades.",
+        "A Globo escalou um novo galã para disputar o amor de Adriana na segunda fase."
+      ],
+      "generatedAt": "2026-06-13T00:06:00.572Z"
+    },
+    "createdAt": "2026-06-13T00:06:00.572Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://s2-quem.glbimg.com/7uC95q0u8EFu9Z6Cu5rCM3Ps0m0=/0x0:3858x5787/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/U/S/kQ9BYWQkyq4fheK5AIAQ/20260203-quem-ama-cuida-mm-073.jpg.jpeg",
+        "pageUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml",
+        "source": "Bing",
+        "title": "'Quem Ama Cuida': Qual é a história da novela?",
+        "width": 984,
+        "height": 1476
+      },
+      {
+        "imageUrl": "https://www.bandab.com.br/wp-content/uploads/2026/05/personagens-quem-ama-cuida-960x592.jpg",
+        "pageUrl": "https://www.bandab.com.br/variedades/novelas/conheca-os-personagens-de-quem-ama-cuida-a-novela-das-nove/",
+        "source": "Bing",
+        "title": "Conheça os personagens de Quem Ama Cuida, a novela das nove",
+        "width": 960,
+        "height": 592
+      },
+      {
+        "imageUrl": "https://imagem.natelinha.uol.com.br/original/globo-quem-ama-cuida-o-que-se-sabe-sobre-proxima-novela-das-nove_9307.jpeg",
+        "pageUrl": "https://natelinha.uol.com.br/novelas/2026/02/26/quem-ama-cuida-o-que-ja-se-sabe-sobre-a-proxima-novela-das-21h-da-globo-238486.php",
+        "source": "Bing",
+        "title": "Quem Ama Cuida: O que já se sabe sobre a próxima novela das 21h da Globo?",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://f.i.uol.com.br/fotografia/2026/04/07/177559778069d578d4d947f_1775597780_3x2_rt.jpg",
+        "pageUrl": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/04/leticia-colin-e-antonio-fagundes-aparecem-juntos-como-protagonistas-de-quem-ama-cuida.shtml",
+        "source": "Bing",
+        "title": "Quem Ama Cuida: Leticia Colin e Antonio Fagundes em foto - 07/04/2026 ...",
+        "width": 2400,
+        "height": 1600
+      },
+      {
+        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/ba/2026/04/14/ulisses-alexandre-borges-e-pilar-isabel-teixeira-em-quem-ama-cuida-1776206034740_v2_750x421.jpg",
+        "pageUrl": "https://www.uol.com.br/splash/noticias/2026/04/14/caixa-eletronico-humano-fagundes-vive-rico-isolado-em-familia-disfuncional.ghtm",
+        "source": "Bing",
+        "title": "Quem Ama Cuida: novela com Antonio Fagundes substitui Três Graças na Globo",
+        "width": 750,
+        "height": 421
+      },
+      {
+        "imageUrl": "https://www.tvpop.com.br/wp-content/uploads/2026/05/adriana-leticia-colin-1024x576.jpg",
+        "pageUrl": "https://www.tvpop.com.br/editoria/novelas/quem-ama-cuida/",
+        "source": "Bing",
+        "title": "Quem Ama Cuida - Tudo sobre a novela das nove da Globo",
+        "width": 1024,
+        "height": 576
+      },
+      {
+        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/e6/2026/04/29/adriana-leticia-colin-e-arthur-antonio-fagundes-em-quem-ama-cuida-1777498784876_v2_900x506.jpg",
+        "pageUrl": "https://www.uol.com.br/splash/noticias/2026/04/29/globo-resgata-sp-dos-anos-90-nos-visuais-de-quem-ama-cuida-veja-fotos.ghtm",
+        "source": "Bing",
+        "title": "Quem Ama Cuida: Globo revela cenários da nova novela das 9; veja fotos",
+        "width": 900,
+        "height": 506
+      },
+      {
+        "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2025/12/16/belize-pombal-integra-elenco-da-novela-quem-ama-cuida-6941484b00a63.webp",
+        "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/belize-pombal-integra-elenco-da-novela-quem-ama-cuida.html",
+        "source": "Bing",
+        "title": "Belize Pombal integra elenco da novela 'Quem Ama, Cuida'",
+        "width": 1280,
+        "height": 728
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "TWF1IE1hdSBkZSBRdWVt",
+    "reviewId": "TWF1IE1hdSBkZSBRdWVt",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "João Victor Gonçalves fala sobre sexualidade e papel em Quem Ama Cuida",
+    "slug": "joao-victor-goncalves-fala-sobre-sexualidade-e-papel-em-quem-ama-cuida",
+    "excerpt": "Intérprete de Mau Mau comentou a reação da família à sua sexualidade.",
+    "body": [
+      "João Victor Gonçalves, intérprete de Mau Mau em Quem Ama Cuida, falou sobre a reação da família à sua sexualidade. O ator também refletiu sobre o personagem LGBTQ+ e afirmou que espera “transformar a vida de muitos jovens”.",
+      "O artista ainda revelou que um caso real de homofobia o inspira na novela. Na trama, Mau Mau sofre homofobia do avô."
+    ],
+    "html": "<p>João Victor Gonçalves, intérprete de Mau Mau em Quem Ama Cuida, falou sobre a reação da família à sua sexualidade. O ator também refletiu sobre o personagem LGBTQ+ e afirmou que espera “transformar a vida de muitos jovens”.</p>\n<p>O artista ainda revelou que um caso real de homofobia o inspira na novela. Na trama, Mau Mau sofre homofobia do avô.</p>",
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "João Victor Gonçalves",
+      "Mau Mau",
+      "Quem Ama Cuida",
+      "sexualidade",
+      "homofobia"
+    ],
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5",
+    "evidenceSources": [
+      "Notícias da TV",
+      "NaTelinha",
+      "Gshow",
+      "Terra",
+      "purepeople.com.br"
+    ],
+    "evidenceClaims": [
+      "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
+      "Mau Mau em Quem Ama Cuida, ator revela caso real de homofobia que o inspira na novela",
+      "João Victor Gonçalves, o Mau Mau de Quem Ama Cuida, reflete sobre personagem LGBTQ+: 'Transformar a vida de muitos jovens'",
+      "Tony Ramos reflete sobre comportamento intolerante de personagem em Quem Ama, Cuida: 'Nada a ver comigo'",
+      "'Medos e limitações': neto que sofre homofobia de Tony Ramos em 'Quem Ama Cuida', João Victor Gonçalves desabafa sobre relação com o veterano nos bastidores da novela"
+    ],
+    "sourceCount": 5,
+    "score": 131,
+    "trendBoost": true,
+    "trendMatches": [
+      "resumo da novela quem ama cuida"
+    ],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "João Victor Gonçalves, intérprete de Mau Mau em Quem Ama Cuida",
+    "imageSearchQuery": "João Victor Gonçalves Mau Mau Quem Ama Cuida",
+    "imageAlt": "João Victor Gonçalves, intérprete de Mau Mau na novela Quem Ama Cuida",
+    "editorialMeta": {
+      "originalTitle": "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
+      "sourceId": "TWF1IE1hdSBkZSBRdWVt",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.99,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "João Victor Gonçalves interpreta Mau Mau em Quem Ama Cuida.",
+        "Mau Mau é um personagem LGBTQ+.",
+        "O ator falou sobre a reação da família à sua sexualidade.",
+        "João Victor Gonçalves disse esperar transformar a vida de muitos jovens.",
+        "Um caso real de homofobia inspira o ator na novela.",
+        "Mau Mau sofre homofobia do avô na trama."
+      ],
+      "generatedAt": "2026-06-13T00:04:33.381Z"
+    },
+    "createdAt": "2026-06-13T00:04:33.381Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://s2-oglobo.glbimg.com/0lwqYHSnKNlmKUkyB9Zz58BX0rc=/0x0:844x793/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2026/r/H/pGICAeRDeJt1BwqW1LkA/joaovictorgoncalvess.jpg",
+        "pageUrl": "https://oglobo.globo.com/play/novelas/noticia/2026/01/28/quem-ama-cuida-joao-victor-goncalves-sera-irmao-de-leticia-colin-veja-o-que-acontecera-com-ele-na-novela.ghtml",
+        "source": "Bing",
+        "title": "'Quem ama cuida': João Victor Gonçalves será irmão de Leticia Colin ...",
+        "width": 888,
+        "height": 834
+      },
+      {
+        "imageUrl": "https://istoe.com.br/wp-content/uploads/2026/04/Joao-Victor-Goncalves-1200x630.jpg",
+        "pageUrl": "https://istoe.com.br/joao-victor-goncalves-horario-nobre-quem-ama-cuida",
+        "source": "Bing",
+        "title": "João Victor Gonçalves se prepara para estrear no horário nobre em 'Quem ...",
+        "width": 1200,
+        "height": 630
+      },
+      {
+        "imageUrl": "https://uploads.observatoriog.com.br/2026/01/EAVvhrcY-Joao-Victor-Goncalves.webp",
+        "pageUrl": "https://observatoriog.com.br/noticias/quem-ama-cuida-globo-define-ator-que-vivera-irmao-da-protagonista-que-se-descobrira-gay/",
+        "source": "Bing",
+        "title": "Quem Ama Cuida: Globo define ator que viverá irmão da protagonista e se ...",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "imageUrl": "https://s2-quem.glbimg.com/6tm_e5Uoj9BOFVX2UbZaMqW3haM=/0x0:2362x1575/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/0/O/e2rMBWSjWtmca6jZEVJw/assets-fotos-1320-entre-perdas-luta-por-justica-e-esperanca-o-amor-de-adriana-e-pedro-6f97b99cfc1b.jpg",
+        "pageUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/04/leticia-colin-a-protagonista-de-nova-novela-das-9-estou-com-muita-sede-de-trabalhar.ghtml",
+        "source": "Bing",
+        "title": "Letícia Colin, a protagonista de nova novela das 9: 'Estou com muita ...",
+        "width": 984,
+        "height": 656
+      },
+      {
+        "imageUrl": "https://idactors.com.br/wp-content/uploads/2024/10/Joao-Victor-Goncalves1.jpg",
+        "pageUrl": "https://idactors.com.br/joao-victor-goncalves/",
+        "source": "Bing",
+        "title": "João Victor Gonçalves",
+        "width": 1068,
+        "height": 1600
+      },
+      {
+        "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/01/29/joao-victor-goncalves-vive-irmao-gay-de-leticia-colin-em-quem-ama-cuida-697b44ee580f9.webp",
+        "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/joao-victor-goncalves-vive-irmao-gay-de-leticia-colin-em-quem-ama-cuida.html",
+        "source": "Bing",
+        "title": "João Victor Gonçalves vive irmão gay de Letícia Colin em \"Quem Ama, Cuida\"",
+        "width": 1200,
+        "height": 628
+      },
+      {
+        "imageUrl": "https://idactors.com.br/wp-content/uploads/2024/10/COMPOSITE-Joao-Victor-Goncalves-1140x641.jpg",
+        "pageUrl": "https://idactors.com.br/joao-victor-goncalves/",
+        "source": "Bing",
+        "title": "João Victor Gonçalves",
+        "width": 1140,
+        "height": 641
+      },
+      {
+        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/52/2026/04/22/bastidores-de-cena-com-elisa-isabela-garcia-otoniel-tony-ramos-mau-mau-joao-victor-silva-adriana-leticia-colin-carlos-jesuita-barbosa-e-equipe-de-quem-ama-cuida-1776870422795_v2_900x506.jpg",
+        "pageUrl": "https://www.uol.com.br/splash/noticias/2026/04/24/enchente-tragica-tony-ramos-revela-bastidor-de-substituta-de-tres-gracas.ghtm",
+        "source": "Bing",
+        "title": "Quem Ama Cuida: Tony Ramos revela bastidor de enchente em substituta de ...",
+        "width": 900,
+        "height": 506
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
+    "id": "R2xvYm8gY29udHJhdGEg",
+    "reviewId": "R2xvYm8gY29udHJhdGEg",
+    "workflowVersion": 2,
+    "reviewStatus": "approved",
+    "title": "Globo contrata Lucas Guedez para quadro na Copa do Mundo",
+    "slug": "globo-contrata-lucas-guedez-para-quadro-na-copa-do-mundo",
+    "excerpt": "Lucas Guedez foi contratado pela Globo para participar de um quadro ligado à Copa do Mundo.",
+    "body": [
+      "A Globo contratou Lucas Guedez para um quadro relacionado à Copa do Mundo. Ele é identificado nas informações disponíveis como amigo de Virginia Fonseca.",
+      "A participação de Guedez será vinculada à cobertura do torneio pela emissora. Não há, nas evidências apresentadas, outros detalhes sobre o formato ou a estreia do quadro."
+    ],
+    "html": "<p>A Globo contratou Lucas Guedez para um quadro relacionado à Copa do Mundo. Ele é identificado nas informações disponíveis como amigo de Virginia Fonseca.</p>\n<p>A participação de Guedez será vinculada à cobertura do torneio pela emissora. Não há, nas evidências apresentadas, outros detalhes sobre o formato ou a estreia do quadro.</p>",
+    "category": "TV",
+    "market": "brasil",
+    "tags": [
+      "Lucas Guedez",
+      "Globo",
+      "Copa do Mundo",
+      "Virginia Fonseca"
+    ],
+    "source": "UOL",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORnZqdlA5OTRkTDd2WmlRcFVRS1RVbFpaYUZxRHhvQTNVaE5pUmpSaXpHWEZfMHA2ZEFkTlFCdGdkQzEyTVVjSmMwSDlLY3ZpQVJFZW5CcjBCZFhEZnRjSkpQR19OTm1qc09iYWpDUUpsaEJoWHN1NldJdzdyRF9Rbkp5NHJQcGpNOXRGdHNEeldmVEFYNFplczJkVE9LOEt0bUZ5ZzNtSFJEdEU0M2VqMmRaYVNMWDVMaTBUSW5VMU9UaHp6QWEyN1hreGNIXzctVjZDQ2pFb0t2YU9aZHBvS9IB5gFBVV95cUxQVDlVNTkyZlEza19KWHZ3QUZjMTJnYzdjZVJWRWdEY2tWX2dpcUtSZExLdnh5MktLQ0tZdFVGSTZXNGM4UVJ2Ty1YUzJYbXJDeVBCU2lOdmZNZUp3WDhLYUI0aTVYZW45N2dYeG81eko0b3YyNDB2Z0o3dWExZ19IeWFIRUpzSlFGa2paakt2dWhfX3lBbGo0clc2UHNSX1czRGdReTA0aXZVR3BfUHpRRGVwQzNHcU13MVhvN0dpN3ZKMElxYzZFdGNRMUNVMmxTOVFTUTlRdDBNcjhPeEZTNkk3bExsdw?oc=5",
+    "evidenceSources": [
+      "UOL",
+      "Globo",
+      "VEJA",
+      "Observatório da Imprensa",
+      "purepeople.com.br"
+    ],
+    "evidenceClaims": [
+      "Globo contrata Lucas Guedez, amigo de Virginia Fonseca, para quadro na Copa do Mundo",
+      "Jatinho, turismo e ostentação: famosos brasileiros que já desembarcaram nos EUA para a Copa do Mundo",
+      "O primeiro erro de Virginia Fonseca na Copa do Mundo",
+      "A falta de diploma de Virgínia não mancha a cobertura da Copa. Tigrinho e racismo sim",
+      "Fotos: Relógio milionário e moda 'brasilcore': 'convocada' para Copa 2026, Virginia grava 'Domingão do Huck' pela 1º vez com look comfy de luxo"
+    ],
+    "sourceCount": 5,
+    "score": 131,
+    "trendBoost": true,
+    "trendMatches": [
+      "virginia e vini jr"
+    ],
+    "image": "/images/news-placeholder.svg",
+    "imageCredit": "Imagem pendente de revisão",
+    "imageSubject": "Lucas Guedez",
+    "imageSearchQuery": "Lucas Guedez Globo Copa do Mundo",
+    "imageAlt": "Lucas Guedez, contratado pela Globo para um quadro na Copa do Mundo",
+    "editorialMeta": {
+      "originalTitle": "Globo contrata Lucas Guedez, amigo de Virginia Fonseca, para quadro na Copa do Mundo",
+      "sourceId": "R2xvYm8gY29udHJhdGEg",
+      "generationMode": "evidence-grounded-draft",
+      "writerProvider": "codex-oauth",
+      "writerModel": "deepseek-chat",
+      "automatedReview": {
+        "status": "approved",
+        "confidence": 0.98,
+        "issues": [],
+        "unsupportedClaims": [],
+        "model": "codex-cli",
+        "provider": "codex-oauth"
+      },
+      "factualClaims": [
+        "A Globo contratou Lucas Guedez.",
+        "Lucas Guedez participará de um quadro relacionado à Copa do Mundo.",
+        "Lucas Guedez é amigo de Virginia Fonseca."
+      ],
+      "generatedAt": "2026-06-13T00:03:34.199Z"
+    },
+    "createdAt": "2026-06-13T00:03:34.199Z",
+    "imageCreditStatus": "pending-visual-review",
+    "imageCreditSourceUrl": "",
+    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+    "imageCandidates": [
+      {
+        "imageUrl": "https://www.estrelando.com.br/uploads/2024/04/03/lucas-gueez-1712166149.jpg",
+        "pageUrl": "https://www.estrelando.com.br/nota/2024/04/04/lucas-guedez-revela-como-serao-seus-quadros-no-sabadou-com-virginia---ficou-bem-diferente-bem-legal-295198",
+        "source": "Bing",
+        "title": "Lucas Guedez revela como serão seus quadros no Sabadou com Virginia ...",
+        "width": 675,
+        "height": 645
+      },
+      {
+        "imageUrl": "https://nx1.com.br/wp-content/uploads/2025/06/d8b98191ab5b4936319d6a2498ab9308.jpeg",
+        "pageUrl": "https://nx1.com.br/2025/06/27/lucas-guedez-celebra-conquista-do-primeiro-imovel-e-emociona-seguidores-meu-lar/",
+        "source": "Bing",
+        "title": "Lucas Guedez celebra conquista do primeiro imóvel e emociona seguidores ...",
+        "width": 1024,
+        "height": 576
+      },
+      {
+        "imageUrl": "https://i.pinimg.com/736x/14/fb/5a/14fb5ade4473d9d91e8f451979b50aa2.jpg",
+        "pageUrl": "https://www.pinterest.com/pin/lucas-guedez--627407791846996122/",
+        "source": "Bing",
+        "title": "Lucas Guedez | Lucas",
+        "width": 640,
+        "height": 1136
+      },
+      {
+        "imageUrl": "https://caras.com.br/media/_versions/2024/06/lucas-guedez-001_58210606559_widemd.jpg",
+        "pageUrl": "https://caras.com.br/atualidades/lucas-guedez-comemora-conquista-no-sbt-tenho-liberdade-para-ser-eu-mesmo.phtml",
+        "source": "Bing",
+        "title": "Lucas Guedez comemora conquista no SBT: 'Tenho liberdade para ser eu mesmo'",
+        "width": 3328,
+        "height": 1872
+      },
+      {
+        "imageUrl": "https://cdn.resfu.com/media/img_news/grupos-da-copa-do-mundo-2026--besoccer.png",
+        "pageUrl": "https://pt.besoccer.com/noticia/ao-vivo-sorteio-da-copa-do-mundo-2026-1384453",
+        "source": "Bing",
+        "title": "Estes são os grupos da Copa do Mundo de 2026",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://midias.romanews.com.br/2025/08/15/lucas-guedez-alvo-de-ofensas-aps-ser-confundido-com-hytalo-santos-sosiebtt73.jpg",
+        "pageUrl": "https://www.romanews.com.br/entretenimento/lucas-guedez-e-alvo-de-ofensas-apos-ser-confundido-com-hytalo-santos-assista-0825",
+        "source": "Bing",
+        "title": "Lucas Guedez é alvo de ofensas após ser confundido com Hytalo Santos ...",
+        "width": 1024,
+        "height": 683
+      },
+      {
+        "imageUrl": "https://cdn.ibahia.com/img/Artigo-Destaque/330000/Lucas-Guedes-cancela-viagem-com-Ze-Felipe-e-faz-re0033983300202505231545.jpg?xid=1859061",
+        "pageUrl": "https://www.ibahia.com/diversao/nem-te-conto/lucas-guedes-cancela-viagem-com-ze-felipe-e-faz-reflexao-enigmatica-339833",
+        "source": "Bing",
+        "title": "Lucas Guedez cancela viagem com Zé Felipe e faz reflexão enigmática",
+        "width": 1200,
+        "height": 720
+      },
+      {
+        "imageUrl": "https://talismadigital.com.br/wp-content/uploads/2023/07/CAPA-490x490.png",
+        "pageUrl": "https://talismadigital.com.br/casting/lucas-guedez/",
+        "source": "Bing",
+        "title": "Lucas Guedez | Talismã Digital",
+        "width": 490,
+        "height": 490
+      }
+    ],
+    "imageReview": {
+      "status": "approved",
+      "approved": false,
+      "candidateIndex": -1,
+      "confidence": 0,
+      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+      "concerns": [
+        "vision-unavailable"
+      ],
+      "model": "",
+      "origin": "web"
+    },
+    "humanApproval": {
+      "status": "approved",
+      "channel": "whatsapp",
+      "approvedAt": "2026-06-13T00:17:37.783Z"
+    }
+  },
+  {
     "id": "QmVsbGEgTG9uZ3Vpbmhv",
     "reviewId": "QmVsbGEgTG9uZ3Vpbmhv",
     "workflowVersion": 2,
@@ -158,165 +2844,6 @@
     }
   },
   {
-    "id": "w4JuY29yYSBkbyBTQlQg",
-    "reviewId": "w4JuY29yYSBkbyBTQlQg",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Âncora do SBT News se irrita e dá bronca na equipe ao vivo",
-    "slug": "ancora-do-sbt-news-se-irrita-e-da-bronca-na-equipe-ao-vivo",
-    "excerpt": "Amanda Klein, âncora do SBT News, se irritou e reclamou da equipe ao vivo após problema no teleprompter.",
-    "body": [
-      "A âncora do SBT News, Amanda Klein, passou por um perrengue ao vivo e acabou se irritando com a equipe. Durante a transmissão, ela reclamou abertamente e deu uma bronca nos profissionais que trabalhavam no programa.",
-      "O motivo da irritação foi um problema no teleprompter, que atrapalhou a leitura das notícias. Klein não segurou a língua e chamou a atenção da equipe ao vivo, gerando repercussão.",
-      "O incidente ocorreu durante a edição do telejornal e foi registrado em vídeo. A atitude da jornalista dividiu opiniões entre os telespectadores."
-    ],
-    "html": "<p>A âncora do SBT News, Amanda Klein, passou por um perrengue ao vivo e acabou se irritando com a equipe. Durante a transmissão, ela reclamou abertamente e deu uma bronca nos profissionais que trabalhavam no programa.</p>\n<p>O motivo da irritação foi um problema no teleprompter, que atrapalhou a leitura das notícias. Klein não segurou a língua e chamou a atenção da equipe ao vivo, gerando repercussão.</p>\n<p>O incidente ocorreu durante a edição do telejornal e foi registrado em vídeo. A atitude da jornalista dividiu opiniões entre os telespectadores.</p>",
-    "category": "TV",
-    "market": "brasil",
-    "tags": [
-      "Amanda Klein",
-      "SBT News",
-      "bronca ao vivo",
-      "teleprompter",
-      "perrengue"
-    ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "NaTelinha",
-      "RD1",
-      "Metropolitana",
-      "Bnews"
-    ],
-    "evidenceClaims": [
-      "Âncora do SBT News passa perrengue ao vivo, se irrita e dá bronca em equipe",
-      "Amanda Klein se irrita e reclama ao vivo de equipe no SBT News; vídeo",
-      "Christiane Pelajo? Âncora do SBT News não segura a língua e detona equipe ao vivo",
-      "Jornalista do SBT chama atenção da equipe ao vivo após problema no teleprompter",
-      "Âncora de telejornal passa perrengue e dá bronca na equipe durante programa ao vivo"
-    ],
-    "sourceCount": 5,
-    "score": 98,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Amanda Klein, âncora do SBT News",
-    "imageSearchQuery": "Amanda Klein SBT News âncora",
-    "imageAlt": "Amanda Klein, âncora do SBT News, durante telejornal",
-    "editorialMeta": {
-      "originalTitle": "Âncora do SBT News passa perrengue ao vivo, se irrita e dá bronca em equipe",
-      "sourceId": "w4JuY29yYSBkbyBTQlQg",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Amanda Klein é âncora do SBT News.",
-        "Ela se irritou e reclamou da equipe ao vivo.",
-        "O motivo foi um problema no teleprompter.",
-        "Ela deu uma bronca na equipe durante o programa.",
-        "O incidente foi registrado em vídeo."
-      ],
-      "generatedAt": "2026-06-12T23:51:09.162Z"
-    },
-    "createdAt": "2026-06-12T23:51:09.162Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://img.observatoriodatv.com.br/wp-content/uploads/2025/10/capa-sbt-anuncia-contratacao-amanda-klein_2565.jpeg.webp",
-        "pageUrl": "https://observatoriodatv.com.br/noticias/amanda-klein-e-a-nova-contratada-do-sbt-news-e-celebra-estou-muito-animada",
-        "source": "Bing",
-        "title": "Amanda Klein é a nova contratada do SBT News e celebra: \"Estou muito ...",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "imageUrl": "https://www.tiktok.com/api/img/?itemId=7561849124253912328&location=0&aid=1988",
-        "pageUrl": "https://www.tiktok.com/@ergarotv/video/7561849124253912328",
-        "source": "Bing",
-        "title": "Amanda Klein é a nova apresentadora do SBT News | TikTok",
-        "width": 1080,
-        "height": 1920
-      },
-      {
-        "imageUrl": "https://portaln10.com.br/todocanal/wp-content/uploads/2025/10/amanda-klein-jornal-apresenta.webp",
-        "pageUrl": "https://portaln10.com.br/todocanal/televisao/amanda-klein-deixa-redetv-apos-14-anos-e-retorna-ao-sbt-para-novo-projeto/",
-        "source": "Bing",
-        "title": "Amanda Klein deixa RedeTV! após 14 anos e retorna ao SBT para novo ...",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://www.bastidoresdatv.com.br/wp-content/uploads/2023/02/Amanda-Klein-RedeTV-News.jpg",
-        "pageUrl": "https://www.bastidoresdatv.com.br/televisao/amanda-klein-e-a-nova-ancora-do-redetv-news",
-        "source": "Bing",
-        "title": "Amanda Klein é a nova âncora do \"RedeTV! News\" - Bastidores da TV",
-        "width": 731,
-        "height": 459
-      },
-      {
-        "imageUrl": "https://portalaltadefinicao.com/wp-content/uploads/2025/10/amanda-klein.jpg",
-        "pageUrl": "https://portalaltadefinicao.com/amanda-klein-principal-ancora-da-redetv-deixa-emissora-para-assinar-com-o-sbt/",
-        "source": "Bing",
-        "title": "Amanda Klein deixa RedeTV! e assina com o SBT News",
-        "width": 1200,
-        "height": 675
-      },
-      {
-        "imageUrl": "https://www.portaldosjornalistas.com.br/wp-content/uploads/2023/02/Amanda-Klein1.webp",
-        "pageUrl": "https://www.portaldosjornalistas.com.br/amanda-klein-e-a-nova-ancora-do-redet-news/",
-        "source": "Bing",
-        "title": "Amanda Klein é a nova âncora do RedeTV News",
-        "width": 1198,
-        "height": 637
-      },
-      {
-        "imageUrl": "https://www.areavip.com.br/wp-content/uploads/2026/04/amanda-klein-e-cesar-filho.jpg",
-        "pageUrl": "https://www.areavip.com.br/televisao/amanda-klein-assume-comando-do-sbt-brasil-apos-15-anos-e-publico-nao-se-cala/",
-        "source": "Bing",
-        "title": "Amanda Klein assume comando do SBT Brasil, após 15 anos, e público não ...",
-        "width": 1200,
-        "height": 700
-      },
-      {
-        "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/02/28/amanda-klein-e-thiago-gardinali-jornalistas-do-sbt-encaram-o-jogo-das-3-pistas-69a2b218b4b53.webp",
-        "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/amanda-klein-e-thiago-gardinali-jornalistas-do-sbt-encaram-o-jogo-das-3-pistas.html",
-        "source": "Bing",
-        "title": "Amanda Klein e Thiago Gardinali, jornalistas do SBT, encaram o \"Jogo ...",
-        "width": 1200,
-        "height": 628
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-12T23:52:30.982Z"
-    }
-  },
-  {
     "id": "RXF1aXBlIGRlIEFuYSBD",
     "reviewId": "RXF1aXBlIGRlIEFuYSBD",
     "workflowVersion": 2,
@@ -454,321 +2981,6 @@
         "title": "Ana Castela - Pipoco - Ouvir Música",
         "width": 1257,
         "height": 833
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-12T23:52:30.982Z"
-    }
-  },
-  {
-    "id": "UXVhbCBhdmFsaWHDp8Oj",
-    "reviewId": "UXVhbCBhdmFsaWHDp8Oj",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Vivão é o novo Patrão da semana em Casa do Patrão",
-    "slug": "vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao",
-    "excerpt": "Alexandre Vivão venceu a Prova do Patrão e agora avalia o desempenho dos concorrentes no Trampo.",
-    "body": [
-      "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana em 'Casa do Patrão'. Como Patrão, ele agora avalia o desempenho dos concorrentes no Trampo.",
-      "Na mesma semana, o programa 'Casa do Patrão' conseguiu vitória contra o Ratinho e ficou na vice-liderança de audiência. Os participantes também enfrentaram um desafio na esteira em disputa pelo cargo de Patrão."
-    ],
-    "html": "<p>Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana em 'Casa do Patrão'. Como Patrão, ele agora avalia o desempenho dos concorrentes no Trampo.</p>\n<p>Na mesma semana, o programa 'Casa do Patrão' conseguiu vitória contra o Ratinho e ficou na vice-liderança de audiência. Os participantes também enfrentaram um desafio na esteira em disputa pelo cargo de Patrão.</p>",
-    "category": "TV",
-    "market": "brasil",
-    "tags": [
-      "Casa do Patrão",
-      "Vivão",
-      "Patrão",
-      "audiência",
-      "Record"
-    ],
-    "source": "R7",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5",
-    "evidenceSources": [
-      "R7",
-      "Notícias da TV",
-      "O Universo da TV",
-      "tracklist.com.br",
-      "TV RECORD EUROPA"
-    ],
-    "evidenceClaims": [
-      "Qual avaliação Vivão merece como Patrão?",
-      "Casa do Patrão consegue vitória contra o Ratinho e fica na vice-liderança",
-      "Participantes enfrentam desafio na esteira em disputa pelo cargo de Patrão em 'Casa do Patrão'",
-      "Prova do Patrão: Alexandre Vivão é o mandachuva da semana; veja mais",
-      "Vivão avalia desempenho dos concorrentes no Trampo da ‘Casa do Patrão’"
-    ],
-    "sourceCount": 5,
-    "score": 98,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Alexandre Vivão",
-    "imageSearchQuery": "Alexandre Vivão Casa do Patrão",
-    "imageAlt": "Alexandre Vivão, novo Patrão da semana em Casa do Patrão",
-    "editorialMeta": {
-      "originalTitle": "Qual avaliação Vivão merece como Patrão?",
-      "sourceId": "UXVhbCBhdmFsaWHDp8Oj",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Alexandre Vivão venceu a Prova do Patrão e é o mandachuva da semana em 'Casa do Patrão'.",
-        "Vivão avalia o desempenho dos concorrentes no Trampo da 'Casa do Patrão'.",
-        "'Casa do Patrão' conseguiu vitória contra o Ratinho e ficou na vice-liderança de audiência.",
-        "Participantes enfrentaram desafio na esteira em disputa pelo cargo de Patrão em 'Casa do Patrão'."
-      ],
-      "generatedAt": "2026-06-12T23:50:38.649Z"
-    },
-    "createdAt": "2026-06-12T23:50:38.649Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Vivao-Casa-do-Patrao-e1776987492317.jpg?w=1080&h=630&crop=1",
-        "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/",
-        "source": "Bing",
-        "title": "\"Casa do Patrão\": conheça Vivão, participante do novo reality do ...",
-        "width": 1080,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://www.bnews.com.br/media/uploads/2026/04/casa-do-patrao.jpg",
-        "pageUrl": "https://www.bnews.com.br/noticias/entretenimento/novo-reality-de-boninho-a-casa-do-patrao-ganha-novos-detalhes-e-data-de-estreia-na-record-confira.html",
-        "source": "Bing",
-        "title": "Novo reality de Boninho, 'A Casa do Patrão' ganha novos detalhes e data ...",
-        "width": 1640,
-        "height": 924
-      },
-      {
-        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/casa-do-patrao--e1777052078824.png?w=1200&h=630&crop=1",
-        "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-veja-quando-estreia-e-como-ver-novo-reality-de-boninho/",
-        "source": "Bing",
-        "title": "\"Casa do Patrão\": veja quando estreia e como ver novo reality de ...",
-        "width": 1199,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://fnpcwcgwfooeklleqfol.supabase.co/storage/v1/object/public/site-assets/articles/WP/2026/04/novo-reality-casa-do-patrao-estreia-nesta-segunda-feira-27-veja-horario-e-onde-assistir.webp",
-        "pageUrl": "https://gcmais.com.br/entrete/2026/04/28/casa-do-patrao-ao-vivo-como-assistir-24-horas-online",
-        "source": "Bing",
-        "title": "Entretenimento - Famosos, TV e cultura | GCMais",
-        "width": 1484,
-        "height": 1060
-      },
-      {
-        "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/04/24/whatsapp-image-2026-04-23-at-18-56-31-vevu9yjb8bj9.jpeg",
-        "pageUrl": "https://www.terra.com.br/diversao/tv/reality-shows/casa-do-patrao-saiba-onde-assistir-e-horario,2d9fd2cf15aa88aa0f15f93f32326aabl52saigw.html",
-        "source": "Bing",
-        "title": "Casa do Patrão: saiba onde assistir e horário",
-        "width": 1200,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://pipocamoderna.com.br/wp-content/uploads/2026/04/A-Casa-do-Patrao-Leandro-Hassum.jpg",
-        "pageUrl": "https://pipocamoderna.com.br/2026/04/participantes-a-casa-do-patrao-record-boninho/",
-        "source": "Bing",
-        "title": "Conheça os 18 participantes de \"A Casa do Patrão\", novo reality de ...",
-        "width": 1200,
-        "height": 830
-      },
-      {
-        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/casa-do-patrao14.jpeg?w=1200&h=630&crop=1",
-        "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-tudo-o-que-se-sabe-sobre-o-novo-reality-de-boninho/",
-        "source": "Bing",
-        "title": "\"Casa do Patrão\": tudo o que se sabe sobre o novo reality de Boninho ...",
-        "width": 1200,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/casa-do-patrao.jpg?w=1200&h=630&crop=1",
-        "pageUrl": "https://www.cnnbrasil.com.br/lifestyle/casa-do-patrao-conheca-os-comodos-do-novo-reality-show/",
-        "source": "Bing",
-        "title": "\"Casa do Patrão\": conheça os cômodos do novo reality show | CNN Brasil",
-        "width": 1200,
-        "height": 630
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-12T23:52:30.982Z"
-    }
-  },
-  {
-    "id": "VFYsIG1hcXVpYWdlbSwg",
-    "reviewId": "VFYsIG1hcXVpYWdlbSwg",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Rotina de Deolane Bezerra na prisão inclui maquiagem e chapinha",
-    "slug": "rotina-de-deolane-bezerra-na-prisao-inclui-maquiagem-e-chapinha",
-    "excerpt": "Fotos mostram cela com itens de beleza e visita íntima; Secretaria nega denúncias de falta de higiene.",
-    "body": [
-      "A rotina de Deolane Bezerra na prisão inclui itens de beleza como batom, creme, esmalte, sombra e chapinha, além de direito a visita íntima, segundo informações divulgadas pela imprensa.",
-      "Fotos do presídio foram divulgadas após a defesa denunciar falta de higiene e presença de escorpiões na cela. A Secretaria, no entanto, nega que a cela tenha comida estragada e escorpião."
-    ],
-    "html": "<p>A rotina de Deolane Bezerra na prisão inclui itens de beleza como batom, creme, esmalte, sombra e chapinha, além de direito a visita íntima, segundo informações divulgadas pela imprensa.</p>\n<p>Fotos do presídio foram divulgadas após a defesa denunciar falta de higiene e presença de escorpiões na cela. A Secretaria, no entanto, nega que a cela tenha comida estragada e escorpião.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Deolane Bezerra",
-      "prisão",
-      "rotina",
-      "maquiagem",
-      "chapinha",
-      "visita íntima"
-    ],
-    "source": "Portal Leo Dias",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5",
-    "evidenceSources": [
-      "Portal Leo Dias",
-      "G1",
-      "UOL Notícias",
-      "Estadão",
-      "R7"
-    ],
-    "evidenceClaims": [
-      "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
-      "Fotos mostram presídio onde Deolane está presa após defesa denunciar falta de higiene e escorpiões",
-      "Secretaria nega que cela de Deolane tenha comida estragada e escorpião",
-      "‘Batom, creme, esmalte, sombra, chapinha e visita íntima’: os direitos da doutora Deolane na cadeia",
-      "Secretaria divulga fotos de presídio após denúncias da defesa de Deolane | #AHoraDaVenenosa #Shorts"
-    ],
-    "sourceCount": 5,
-    "score": 104,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Deolane Bezerra",
-    "imageSearchQuery": "Deolane Bezerra prisão cela",
-    "imageAlt": "Deolane Bezerra na prisão",
-    "editorialMeta": {
-      "originalTitle": "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
-      "sourceId": "VFYsIG1hcXVpYWdlbSwg",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Deolane Bezerra tem direito a itens de beleza como batom, creme, esmalte, sombra e chapinha na prisão.",
-        "Deolane Bezerra tem direito a visita íntima na prisão.",
-        "Fotos do presídio foram divulgadas após denúncias da defesa sobre falta de higiene e escorpiões.",
-        "Secretaria nega que cela de Deolane tenha comida estragada e escorpião."
-      ],
-      "generatedAt": "2026-06-12T23:50:09.379Z"
-    },
-    "createdAt": "2026-06-12T23:50:09.379Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://s2-gshow.glbimg.com/9-g9e6a_ArY9BIKhRKLPdAoLj64=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2024/j/O/wp1CXuT1u9z4uu9L0ezg/dsc-2396.jpg",
-        "pageUrl": "https://gshow.globo.com/cultura-pop/famosos/noticia/apos-audiencia-de-custodia-deolane-bezerra-segue-presa-em-colonia-penal-feminina-hc-ainda-sera-analisado.ghtml",
-        "source": "Bing",
-        "title": "Justiça mantém prisão de Deolane Bezerra após audiência de custódia; HC ...",
-        "width": 1200,
-        "height": 857
-      },
-      {
-        "imageUrl": "https://s2-extra.glbimg.com/xeEE5EAqo7xJYsDCwbeTcjRGTLY=/0x0:1280x1280/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2024/9/E/BY0LHoQsKm6n8gxtETug/deol5.jfif",
-        "pageUrl": "https://extra.globo.com/famosos/noticia/2024/09/justica-mantem-prisao-preventiva-de-deolane-bezerra-apos-audiencia-de-custodia.ghtml",
-        "source": "Bing",
-        "title": "Justiça mantém prisão preventiva de Deolane Bezerra após audiência de ...",
-        "width": 888,
-        "height": 888
-      },
-      {
-        "imageUrl": "https://midias.correio24horas.com.br/2024/09/11/deolane-bezerra-e-canibais-de-garanhuns-2420151-article.jpg",
-        "pageUrl": "https://www.correio24horas.com.br/entretenimento/deolane-bezerra-e-levada-para-presidio-onde-estao-as-canibais-de-garanhuns-0924",
-        "source": "Bing",
-        "title": "Deolane Bezerra é levada para presídio onde estão as 'Canibais de ...",
-        "width": 1200,
-        "height": 696
-      },
-      {
-        "imageUrl": "https://vlvadvogados.com/wp-content/uploads/2024/09/deolane-bezerra-presa-novamente-1.jpg",
-        "pageUrl": "https://vlvadvogados.com/deolane-bezerra-e-presa-de-novo/",
-        "source": "Bing",
-        "title": "Deolane Bezerra é presa de novo! Entenda o motivo! - VLV Advogados",
-        "width": 1080,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://s2-gshow.glbimg.com/A-stXCmrlJlHQKRMTL4_XQmoQKY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2024/d/O/wttAjNSbW8Kmxa29W57g/deolane-bezerra-forum.jpg",
-        "pageUrl": "https://gshow.globo.com/cultura-pop/famosos/noticia/entenda-por-que-prisao-domiciliar-de-deolane-bezerra-foi-revogada.ghtml",
-        "source": "Bing",
-        "title": "Entenda por que prisão domiciliar de Deolane Bezerra foi revogada ...",
-        "width": 1200,
-        "height": 802
-      },
-      {
-        "imageUrl": "https://aloalobahia.com/wp-content/uploads/2024/09/deolane-presa.jpg",
-        "pageUrl": "https://aloalobahia.com/noticias/2024/09/05/justica-mantem-prisao-de-deolane-bezerra-apos-audiencia-de-custodia/",
-        "source": "Bing",
-        "title": "Justiça mantém prisão de Deolane Bezerra após audiência de custódia ...",
-        "width": 1488,
-        "height": 980
-      },
-      {
-        "imageUrl": "https://canalconsultapublica.com.br/wp-content/uploads/2024/09/deolane.jpg",
-        "pageUrl": "https://canalconsultapublica.com.br/noticias/cobertura-da-prisao-de-deolane-bezerra-no-sbt-resultou-em-processo/",
-        "source": "Bing",
-        "title": "Cobertura da prisão de Deolane Bezerra no SBT resultou em processo",
-        "width": 1200,
-        "height": 720
-      },
-      {
-        "imageUrl": "https://uploads.metroimg.com/wp-content/uploads/2024/09/09153757/Deolane-apos-prisao.jpeg",
-        "pageUrl": "https://www.metropoles.com/colunas/fabia-oliveira/video-assista-deolane-bezerra-sendo-presa-novamente",
-        "source": "Bing",
-        "title": "Vídeo: assista Deolane Bezerra sendo presa novamente",
-        "width": 1200,
-        "height": 800
       }
     ],
     "imageReview": {
@@ -1248,163 +3460,6 @@
       "candidateIndex": -1,
       "confidence": 0,
       "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-12T23:52:30.982Z"
-    }
-  },
-  {
-    "id": "RGVzZW1wcmVnYWRvIHBv",
-    "reviewId": "RGVzZW1wcmVnYWRvIHBv",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Gui Ferraz quase desistiu da carreira após quatro anos desempregado",
-    "slug": "gui-ferraz-quase-desistiu-da-carreira-apos-quatro-anos-desempregado",
-    "excerpt": "Ator de 'Quem Ama Cuida' e da série 'Brasil 70' revela que passou quase quatro anos sem trabalho e pensou em desistir.",
-    "body": [
-      "O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida' e também está na série 'Brasil 70', relembrou uma fase difícil na carreira. Ele passou quase quatro anos desempregado e chegou a pensar em desistir.",
-      "A informação foi divulgada em reportagens do Notícias da TV e do Extra online. O ator ganhou destaque recentemente por seus papéis na novela das 9 e na série da Netflix sobre a Copa."
-    ],
-    "html": "<p>O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida' e também está na série 'Brasil 70', relembrou uma fase difícil na carreira. Ele passou quase quatro anos desempregado e chegou a pensar em desistir.</p>\n<p>A informação foi divulgada em reportagens do Notícias da TV e do Extra online. O ator ganhou destaque recentemente por seus papéis na novela das 9 e na série da Netflix sobre a Copa.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Gui Ferraz",
-      "Quem Ama Cuida",
-      "Brasil 70",
-      "desemprego",
-      "carreira"
-    ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "Extra online",
-      "Correio Braziliense",
-      "NaTelinha"
-    ],
-    "evidenceClaims": [
-      "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
-      "Tiago em ‘Quem ama cuida’, Gui Ferraz relembra fase de quase quatro anos sem trabalho: ‘Pensei em desistir’",
-      "Na novela das 9 e na série 'Brasil 70', Gui Ferraz é craque e dá um show de bola",
-      "Quem é Gui Ferraz? Ator ganha destaque em Quem Ama Cuida e série da Netflix sobre a Copa"
-    ],
-    "sourceCount": 4,
-    "score": 137,
-    "trendBoost": true,
-    "trendMatches": [
-      "resumo da novela quem ama cuida"
-    ],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Gui Ferraz",
-    "imageSearchQuery": "Gui Ferraz ator",
-    "imageAlt": "Foto do ator Gui Ferraz",
-    "editorialMeta": {
-      "originalTitle": "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
-      "sourceId": "RGVzZW1wcmVnYWRvIHBv",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Gui Ferraz é ator e interpreta Tiago em 'Quem Ama Cuida'.",
-        "Ele está na série 'Brasil 70'.",
-        "Passou quase quatro anos sem trabalho.",
-        "Pensou em desistir da carreira."
-      ],
-      "generatedAt": "2026-06-12T23:48:20.568Z"
-    },
-    "createdAt": "2026-06-12T23:48:20.568Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/Gui-2025-site-II.jpg",
-        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
-        "source": "Bing",
-        "title": "Gui Ferraz - ao cubo | agenciamento artístico",
-        "width": 857,
-        "height": 1280
-      },
-      {
-        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/Gui-Ferraz-03-scaled.jpg",
-        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/",
-        "source": "Bing",
-        "title": "Arquivo Portfolios - ao cubo",
-        "width": 1940,
-        "height": 2560
-      },
-      {
-        "imageUrl": "https://br.web.img3.acsta.net/img/a9/d6/a9d6dbaca3cfce891fb873ec4753736a.jpg",
-        "pageUrl": "https://www.adorocinema.com/personalidades/personalidade-1000078046/biografia/",
-        "source": "Bing",
-        "title": "Gui Ferraz : A biografia - AdoroCinema",
-        "width": 1000,
-        "height": 1333
-      },
-      {
-        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/Gui-Ferraz-02-scaled.jpg",
-        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/",
-        "source": "Bing",
-        "title": "Arquivo Portfolios - ao cubo",
-        "width": 1780,
-        "height": 2560
-      },
-      {
-        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/Gui-2025-site-I.jpg",
-        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
-        "source": "Bing",
-        "title": "Gui Ferraz - ao cubo | agenciamento artístico",
-        "width": 864,
-        "height": 1280
-      },
-      {
-        "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/a1/2026/04/10/tiago-gui-ferraz-em-quem-ama-cuida-1775853313403_v2_750x1.jpg",
-        "pageUrl": "https://www.uol.com.br/splash/noticias/2026/04/10/apos-vale-tudo-belize-pombal-e-escalada-para-quem-ama-cuida.ghtm",
-        "source": "Bing",
-        "title": "Quem Ama Cuida: Belize Pombal vive mulher poderosa após sucesso em Vale ...",
-        "width": 750,
-        "height": 1125
-      },
-      {
-        "imageUrl": "https://aocuboagenciamento.com.br/wp-content/uploads/2022/02/site-Gui-2.jpg",
-        "pageUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
-        "source": "Bing",
-        "title": "Gui Ferraz - ao cubo | agenciamento artístico",
-        "width": 578,
-        "height": 853
-      },
-      {
-        "imageUrl": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1176927547807011",
-        "pageUrl": "https://www.facebook.com/photo/?fbid=1176927547807011",
-        "source": "Bing",
-        "title": "Canal Like - Canal Like added a new photo.",
-        "width": 1080,
-        "height": 1350
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: OpenAI vision 401: Incorrect API key provided: sk-proj-********************************************************************************************************************************************************M78A. You can find your API key at https://platform.openai.com/account/api-keys. | Codex CLI: USE_CODEX_VISION nao ativado",
       "concerns": [
         "vision-unavailable"
       ],
@@ -2657,166 +4712,6 @@
         "title": "Esposa de Alberto Cowboy revela o que pensa da participação do marido ...",
         "width": 1200,
         "height": 900
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": false,
-      "candidateIndex": -1,
-      "confidence": 0,
-      "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
-      "concerns": [
-        "vision-unavailable"
-      ],
-      "model": "",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-12T23:52:30.982Z"
-    }
-  },
-  {
-    "id": "QW5hIENhc3RlbGEgYW51",
-    "reviewId": "QW5hIENhc3RlbGEgYW51",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Ana Castela anuncia medidas judiciais contra Leo Dias após acusação de traição",
-    "slug": "ana-castela-anuncia-medidas-judiciais-contra-leo-dias-apos-acusacao-de-traicao",
-    "excerpt": "Cantora nega ter traído Gustavo Mioto com Zé Felipe e diz que vai processar o jornalista.",
-    "body": [
-      "Ana Castela anunciou que tomará medidas judiciais contra o jornalista Leo Dias após ser acusada de trair o ex-namorado Gustavo Mioto com Zé Felipe. A informação foi divulgada por veículos como Jornal Correio e Notícias da TV.",
-      "A equipe da cantora se pronunciou após os rumores de traição virem à tona. Leo Dias afirmou que Ana Castela teria engatado um relacionamento com Zé Felipe antes de terminar com Mioto.",
-      "Ana Castela nega a traição e diz que vai processar Leo Dias. A cantora anunciou 'providências judiciais' contra o jornalista."
-    ],
-    "html": "<p>Ana Castela anunciou que tomará medidas judiciais contra o jornalista Leo Dias após ser acusada de trair o ex-namorado Gustavo Mioto com Zé Felipe. A informação foi divulgada por veículos como Jornal Correio e Notícias da TV.</p>\n<p>A equipe da cantora se pronunciou após os rumores de traição virem à tona. Leo Dias afirmou que Ana Castela teria engatado um relacionamento com Zé Felipe antes de terminar com Mioto.</p>\n<p>Ana Castela nega a traição e diz que vai processar Leo Dias. A cantora anunciou 'providências judiciais' contra o jornalista.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Ana Castela",
-      "Leo Dias",
-      "Gustavo Mioto",
-      "Zé Felipe",
-      "traição",
-      "medidas judiciais"
-    ],
-    "source": "Jornal Correio",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5",
-    "evidenceSources": [
-      "Jornal Correio",
-      "Notícias da TV",
-      "Midiamax",
-      "Rádio Itatiaia",
-      "Pipoca Moderna"
-    ],
-    "evidenceClaims": [
-      "Ana Castela anuncia medidas judiciais contra Leo Dias após ser acusada de trair Gustavo Mioto com Zé Felipe",
-      "Ana Castela anuncia 'providências judiciais' após ser acusada de trair ex com Zé Felipe",
-      "Traiu? Leo Dias afirma que Ana Castela engatou com Zé Felipe antes de terminar com Mioto",
-      "Equipe de Ana Castela se pronuncia após rumores de traição virem à tona",
-      "Ana Castela nega traição e diz que vai processar Leo Dias"
-    ],
-    "sourceCount": 5,
-    "score": 98,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/news-placeholder.svg",
-    "imageCredit": "Imagem pendente de revisão",
-    "imageSubject": "Ana Castela",
-    "imageSearchQuery": "Ana Castela cantora",
-    "imageAlt": "Ana Castela sorrindo",
-    "editorialMeta": {
-      "originalTitle": "Ana Castela anuncia medidas judiciais contra Leo Dias após ser acusada de trair Gustavo Mioto com Zé Felipe",
-      "sourceId": "QW5hIENhc3RlbGEgYW51",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "configured-provider",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Ana Castela anunciou medidas judiciais contra Leo Dias.",
-        "Ana Castela foi acusada de trair Gustavo Mioto com Zé Felipe.",
-        "Leo Dias afirmou que Ana Castela engatou com Zé Felipe antes de terminar com Mioto.",
-        "Equipe de Ana Castela se pronunciou após rumores de traição.",
-        "Ana Castela nega traição e diz que vai processar Leo Dias."
-      ],
-      "generatedAt": "2026-06-12T20:49:02.545Z"
-    },
-    "createdAt": "2026-06-12T20:49:02.545Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://mundifm.com.br/wp-content/uploads/2025/04/anacastelaok-800x500.png",
-        "pageUrl": "https://mundifm.com.br/noticias/musica/ana-castela-e-a-7a-artista-latina-mais-escutada-de-2025/",
-        "source": "Bing",
-        "title": "Mundi FM - Ana Castela é a 7ª artista latina mais escutada de 2025",
-        "width": 800,
-        "height": 500
-      },
-      {
-        "imageUrl": "https://shows.net.br/wp-content/uploads/2023/04/ana-castela-5.jpg",
-        "pageUrl": "https://shows.net.br/noticias/nosso-quadro-de-ana-castela-lidera-o-ranking-das-mais-tocadas-de-abril/",
-        "source": "Bing",
-        "title": "\"Nosso Quadro\", de Ana Castela, Lidera o Ranking Das Mais Tocadas de Abril",
-        "width": 1440,
-        "height": 903
-      },
-      {
-        "imageUrl": "https://mspost.com.br/wp-content/uploads/2023/05/a-cantora-ana-castela-assume-o-trono-da-musica-sertaneja-1140x760.jpg",
-        "pageUrl": "https://mspost.com.br/a-cantora-ana-castela-assume-o-trono-da-musica-sertaneja/",
-        "source": "Bing",
-        "title": "A cantora Ana Castela assume o trono da música sertaneja",
-        "width": 1140,
-        "height": 760
-      },
-      {
-        "imageUrl": "https://seubeneficiodigital.com.br/wp-content/uploads/2023/10/Snapinsta.app_355043625_946034366517939_4626976112278970659_n_1080-e1687809861902-1.jpg",
-        "pageUrl": "https://seubeneficiodigital.com.br/fenomeno-ana-castela-conheca-a-historia-da-cantora-boiadeira/",
-        "source": "Bing",
-        "title": "Fenômeno Ana Castela: conheça a história da cantora \"boiadeira\"",
-        "width": 1200,
-        "height": 721
-      },
-      {
-        "imageUrl": "https://billboard.com.br/wp-content/uploads/2024/04/IMG_3828-scaled.jpg",
-        "pageUrl": "https://billboard.com.br/artistas/ana-castela-biografia/",
-        "source": "Bing",
-        "title": "Ana Castela - Billboard Brasil",
-        "width": 2560,
-        "height": 1748
-      },
-      {
-        "imageUrl": "https://static1.purepeople.com.br/articles/6/35/81/86/@/4103731-ana-castela-de-18-anos-e-a-nova-aposta-580x0-2.jpg",
-        "pageUrl": "https://www.purepeople.com.br/galeria/febre-no-sertanejo-ana-castela-estreia-na-festa-do-peao-de-barretos-conheca-cantora_a358186/1",
-        "source": "Bing",
-        "title": "Quem é Ana Castela? Febre no sertanejo, cantora estreia na Festa do ...",
-        "width": 580,
-        "height": 871
-      },
-      {
-        "imageUrl": "https://web.portalsucesso.com.br/wp-content/uploads/2022/08/ana-castela-30-agosto.png",
-        "pageUrl": "https://web.portalsucesso.com.br/home/o-que-faz-de-ana-castela-um-fenomeno-da-musica-nacional",
-        "source": "Bing",
-        "title": "O que faz de Ana Castela um fenômeno da música nacional - Portal SUCESSO!",
-        "width": 535,
-        "height": 589
-      },
-      {
-        "imageUrl": "https://uploads.ric.com.br/uploads/2025/01/DggoReZ8-premios-ana-castela-1024x576.webp",
-        "pageUrl": "https://ric.com.br/entretenimento/boiadeira-no-exterior-confira-os-premios-da-cantora-ana-castela/",
-        "source": "Bing",
-        "title": "Boiadeira no exterior? Confira os prêmios da cantora Ana Castela - Ric ...",
-        "width": 1024,
-        "height": 576
       }
     ],
     "imageReview": {

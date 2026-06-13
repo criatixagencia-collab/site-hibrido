@@ -1,7 +1,793 @@
 {
-  "generatedAt": "2026-06-12T23:52:30.982Z",
-  "count": 39,
+  "generatedAt": "2026-06-13T00:17:37.783Z",
+  "count": 49,
   "items": [
+    {
+      "id": "w4JuY29yYSBkbyBTQlQg",
+      "slug": "ancora-do-sbt-news-se-irrita-e-da-bronca-na-equipe-ao-vivo",
+      "category": "TV",
+      "title": "Âncora do SBT News se irrita e dá bronca na equipe ao vivo",
+      "excerpt": "Amanda Klein, âncora do SBT News, se irritou e reclamou da equipe ao vivo após problema no teleprompter.",
+      "body": [
+        "A âncora do SBT News, Amanda Klein, passou por um perrengue ao vivo e acabou se irritando com a equipe durante o programa. Segundo relatos, ela reclamou abertamente e deu uma bronca na equipe após um problema técnico com o teleprompter.",
+        "O incidente ocorreu durante a transmissão ao vivo do telejornal, quando a âncora não conseguiu ler o texto corretamente devido a uma falha no equipamento. Klein então chamou a atenção dos profissionais nos bastidores, demonstrando irritação com a situação.",
+        "O momento foi registrado e viralizou nas redes sociais, gerando repercussão entre os telespectadores. Até o momento, a emissora não se pronunciou oficialmente sobre o ocorrido."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5",
+      "sources": [
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
+        },
+        {
+          "label": "NaTelinha",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
+        },
+        {
+          "label": "RD1",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
+        },
+        {
+          "label": "Metropolitana",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
+        },
+        {
+          "label": "Bnews",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:17",
+      "timeAgo": "Radar ao vivo",
+      "score": 98,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "QW5hIENhc3RlbGEgYW51",
+      "slug": "ana-castela-anuncia-medidas-judiciais-contra-leo-dias",
+      "category": "Famosos",
+      "title": "Ana Castela anuncia medidas judiciais contra Leo Dias",
+      "excerpt": "Cantora tomará providências após ser acusada de trair Gustavo Mioto com Zé Felipe.",
+      "body": [
+        "Ana Castela anunciou que tomará medidas judiciais contra o jornalista Leo Dias. A decisão ocorre após Dias afirmar que a cantora teria engatado um relacionamento com Zé Felipe antes de terminar com Gustavo Mioto.",
+        "A equipe de Ana Castela se pronunciou sobre os rumores de traição que vieram à tona. A cantora nega as acusações e busca reparação na Justiça."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Jornal Correio",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5",
+      "sources": [
+        {
+          "label": "Jornal Correio",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
+        },
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
+        },
+        {
+          "label": "Midiamax",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
+        },
+        {
+          "label": "ACidade ON",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
+        },
+        {
+          "label": "Rádio Itatiaia",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:16",
+      "timeAgo": "Radar ao vivo",
+      "score": 98,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "UXVhbCBhdmFsaWHDp8Oj",
+      "slug": "vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao",
+      "category": "TV",
+      "title": "Vivão é o novo Patrão da semana em Casa do Patrão",
+      "excerpt": "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality da Record.",
+      "body": [
+        "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana no reality 'Casa do Patrão', da Record TV.",
+        "Como Patrão, Vivão avaliou o desempenho dos concorrentes no Trampo da semana. Os participantes também enfrentaram um desafio na esteira em disputa pelo cargo.",
+        "Na mesma semana, o programa 'Casa do Patrão' conseguiu vitória contra o 'Ratinho' e ficou na vice-liderança de audiência."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: R7",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5",
+      "sources": [
+        {
+          "label": "R7",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
+        },
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
+        },
+        {
+          "label": "O Universo da TV",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
+        },
+        {
+          "label": "tracklist.com.br",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
+        },
+        {
+          "label": "TV RECORD EUROPA",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:16",
+      "timeAgo": "Radar ao vivo",
+      "score": 98,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "VFYsIG1hcXVpYWdlbSwg",
+      "slug": "deolane-bezerra-rotina-na-prisao-inclui-maquiagem-e-visita-intima",
+      "category": "Famosos",
+      "title": "Deolane Bezerra: rotina na prisão inclui maquiagem e visita íntima",
+      "excerpt": "Fotos mostram presídio onde Deolane Bezerra está presa; defesa denunciou falta de higiene e escorpiões, mas Secretaria nega.",
+      "body": [
+        "A rotina de Deolane Bezerra na prisão inclui itens como batom, creme, esmalte, sombra, chapinha e direito a visita íntima, segundo informações divulgadas pela imprensa.",
+        "Fotos mostram o presídio onde a influenciadora está detida. A defesa de Deolane denunciou falta de higiene e presença de escorpiões na cela. A irmã dela detalhou a rotina, mencionando infestação de escorpiões e pratos defecados.",
+        "A Secretaria, no entanto, nega que a cela de Deolane tenha comida estragada e escorpião."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Portal Leo Dias",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5",
+      "sources": [
+        {
+          "label": "Portal Leo Dias",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
+        },
+        {
+          "label": "G1",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
+        },
+        {
+          "label": "UOL Notícias",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
+        },
+        {
+          "label": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
+        },
+        {
+          "label": "Midiamax",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:16",
+      "timeAgo": "Radar ao vivo",
+      "score": 104,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "TWVsbCBNdXp6aWxsbyBl",
+      "slug": "mell-muzzillo-e-marcello-melo-jr-rebatem-criticas-por-diferenca-de-idade",
+      "category": "Famosos",
+      "title": "Mell Muzzillo e Marcello Melo Jr. rebatem críticas por diferença de idade",
+      "excerpt": "Atores da Globo reagem a comentários sobre os 17 anos de diferença e a um boato de traição.",
+      "body": [
+        "Mell Muzzillo e Marcello Melo Jr., atores da Globo, reagiram a críticas sobre a diferença de idade de 17 anos em seu relacionamento. Segundo eles, as pessoas falam e eles fazem amor.",
+        "Marcello Melo Jr. também rebateu um boato de traição no início do namoro, afirmando: 'Quero ver provar'."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Portal UAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5",
+      "sources": [
+        {
+          "label": "Portal UAI",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5"
+        },
+        {
+          "label": "Alô Alô Bahia",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5"
+        },
+        {
+          "label": "Jornal de Brasília",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5"
+        },
+        {
+          "label": "Jornal Correio",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5"
+        },
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUlktNGpyT1Z5eHpVams1MVFfYl9tQnpsZ2pOcFJWRlB2S2FDQ1k3TU9IMzgtVEhvdkQ4SjQ1RVAzQkMzVUZWQ2FKdUxXOEZmb25WYm9iaThIaFZVMVVWRUt1ZnN0Vnl4cDRvNjNWUnBtYU9oTDR4LXRCYXlIU3VxeVZmM21qT1EzZnRyaW5Ma19oNW9yOEdWSjZ6Y1hKcmtseGM5ZWpOQ2RIYzBtaFpxaVZSUTI1YlU1Y093MzEyZFBDLVc3UnlFS2ROczY3djZiZUptMWFZNTU2R2RXWi1BWWdCb1R1MGxZUUtpUmNxWlI?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:15",
+      "timeAgo": "Radar ao vivo",
+      "score": 106,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "QW5kcmVzc2Egw6kgZWxp",
+      "slug": "andressa-e-eliminada-de-casa-do-patrao-com-16-37-dos-votos",
+      "category": "Famosos",
+      "title": "Andressa é eliminada de Casa do Patrão com 16,37% dos votos",
+      "excerpt": "Andressa foi eliminada do reality Casa do Patrão com 16,37% dos votos, tornando-se a sétima participante a deixar o programa.",
+      "body": [
+        "Andressa foi eliminada do reality Casa do Patrão com 16,37% dos votos, tornando-se a sétima participante a deixar o programa.",
+        "A eliminação ocorreu durante o 7º Tá Na Reta, que colocava Andressa, Bianca e Mari na berlinda. Enquetes parciais apontavam a saída de Andressa antes do resultado oficial."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: R7",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5",
+      "sources": [
+        {
+          "label": "R7",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5"
+        },
+        {
+          "label": "O Globo",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5"
+        },
+        {
+          "label": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5"
+        },
+        {
+          "label": "CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5"
+        },
+        {
+          "label": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ2k1YXBMbktuejdSUkNxZGpkMkgyUXZZTGpoNnU2MTlsaXhfTXNqWGxMTHM5UnFOQXVGejhaSENmYlBKdTJYeXNvaHR0MXh0WjgxTl8zUlpvZlhabzNuMnZnNjNlOW9JWTRWN0FNUG5DdlVOd0FGUGswTW04VE95VWtLN3lYenB6LTRVX01lcG5iVUY0SmNtZU1pTmhZR2Z4S05yQ2Q3YW5STURGWm9DTnRtQ2ozVHhrel9PRHFqSUJjdDVkTlpSWm92d3dIYVRidnc?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:15",
+      "timeAgo": "Radar ao vivo",
+      "score": 108,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "QXDDs3MgYW7Dum5jaW8g",
+      "slug": "tati-machado-anuncia-nova-gravidez-e-ganha-presente-no-mais-voce",
+      "category": "Famosos",
+      "title": "Tati Machado anuncia nova gravidez e ganha presente no Mais Você",
+      "excerpt": "A apresentadora Tati Machado anunciou que está grávida novamente e foi surpreendida com um presente da equipe do Mais Você.",
+      "body": [
+        "Tati Machado anunciou que está grávida novamente. A notícia foi divulgada após a apresentadora ter sofrido uma perda gestacional anterior, que comoveu o Brasil.",
+        "Após o anúncio, Tati foi surpreendida com um presente da equipe do programa Mais Você, onde trabalha. A cantora Lexa, que também passou por perdas gestacionais, celebrou a gravidez da amiga nas redes sociais, escrevendo: 'Já amo tanto esse baby'.",
+        "A gravidez é de Tati Machado e seu marido, Bruno Monteiro."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdXlNS0ctVXBtamRyRl9lU0JvZkdUdmlycFcxbU9SYy1fb0dHcWhlc1VnOGtmeE01dk01dDZpT1RuX0Z2dllDNUlnXzZMTmVXU1RhTmxuY3BvR0V5bVo1TDhlWV81NUc5MUZsMHZxSVhtMEhCMWFzSEVkdmdxU3FsV3dfVWR0ZEtTT0tBYnVScUdORExGY0E3eXpldzhiNkpmTnNjdXB3RmRSWEk3Q0NZRUdsVlpKX3JCN0hGM2FDdElXQU1UVFJZUUhYeVNyQdIB3AFBVV95cUxPenFVRUg3X0tGbDlKZ2JHTEhBelZxcFotWnNTTE53WHltZzZDNVpCUzUtdFdIbWxESzhVT2JrZzFLenJwdlY4OUh2c2FrSkZoemZJVTkwb3FvbXRhQjcyUXI0OXNGUjEyV3VYR3ZfYTFiSjVGejhvQTQyWHgxQ1VWMllmd2xuWkdnSUdmRjg5R3l6eTc2ak9vRnhMX2puOVJNcHlFVDhyU0ZzYVBFaUZhOF96a3QxYnJSQVB4dUVIREpkZUd2a2pTb2dsbmw0WXhmLV9rWHI5cmNrTEtU?oc=5",
+      "sources": [
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdXlNS0ctVXBtamRyRl9lU0JvZkdUdmlycFcxbU9SYy1fb0dHcWhlc1VnOGtmeE01dk01dDZpT1RuX0Z2dllDNUlnXzZMTmVXU1RhTmxuY3BvR0V5bVo1TDhlWV81NUc5MUZsMHZxSVhtMEhCMWFzSEVkdmdxU3FsV3dfVWR0ZEtTT0tBYnVScUdORExGY0E3eXpldzhiNkpmTnNjdXB3RmRSWEk3Q0NZRUdsVlpKX3JCN0hGM2FDdElXQU1UVFJZUUhYeVNyQdIB3AFBVV95cUxPenFVRUg3X0tGbDlKZ2JHTEhBelZxcFotWnNTTE53WHltZzZDNVpCUzUtdFdIbWxESzhVT2JrZzFLenJwdlY4OUh2c2FrSkZoemZJVTkwb3FvbXRhQjcyUXI0OXNGUjEyV3VYR3ZfYTFiSjVGejhvQTQyWHgxQ1VWMllmd2xuWkdnSUdmRjg5R3l6eTc2ak9vRnhMX2puOVJNcHlFVDhyU0ZzYVBFaUZhOF96a3QxYnJSQVB4dUVIREpkZUd2a2pTb2dsbmw0WXhmLV9rWHI5cmNrTEtU?oc=5"
+        },
+        {
+          "label": "O Globo",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdXlNS0ctVXBtamRyRl9lU0JvZkdUdmlycFcxbU9SYy1fb0dHcWhlc1VnOGtmeE01dk01dDZpT1RuX0Z2dllDNUlnXzZMTmVXU1RhTmxuY3BvR0V5bVo1TDhlWV81NUc5MUZsMHZxSVhtMEhCMWFzSEVkdmdxU3FsV3dfVWR0ZEtTT0tBYnVScUdORExGY0E3eXpldzhiNkpmTnNjdXB3RmRSWEk3Q0NZRUdsVlpKX3JCN0hGM2FDdElXQU1UVFJZUUhYeVNyQdIB3AFBVV95cUxPenFVRUg3X0tGbDlKZ2JHTEhBelZxcFotWnNTTE53WHltZzZDNVpCUzUtdFdIbWxESzhVT2JrZzFLenJwdlY4OUh2c2FrSkZoemZJVTkwb3FvbXRhQjcyUXI0OXNGUjEyV3VYR3ZfYTFiSjVGejhvQTQyWHgxQ1VWMllmd2xuWkdnSUdmRjg5R3l6eTc2ak9vRnhMX2puOVJNcHlFVDhyU0ZzYVBFaUZhOF96a3QxYnJSQVB4dUVIREpkZUd2a2pTb2dsbmw0WXhmLV9rWHI5cmNrTEtU?oc=5"
+        },
+        {
+          "label": "Midiamax",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdXlNS0ctVXBtamRyRl9lU0JvZkdUdmlycFcxbU9SYy1fb0dHcWhlc1VnOGtmeE01dk01dDZpT1RuX0Z2dllDNUlnXzZMTmVXU1RhTmxuY3BvR0V5bVo1TDhlWV81NUc5MUZsMHZxSVhtMEhCMWFzSEVkdmdxU3FsV3dfVWR0ZEtTT0tBYnVScUdORExGY0E3eXpldzhiNkpmTnNjdXB3RmRSWEk3Q0NZRUdsVlpKX3JCN0hGM2FDdElXQU1UVFJZUUhYeVNyQdIB3AFBVV95cUxPenFVRUg3X0tGbDlKZ2JHTEhBelZxcFotWnNTTE53WHltZzZDNVpCUzUtdFdIbWxESzhVT2JrZzFLenJwdlY4OUh2c2FrSkZoemZJVTkwb3FvbXRhQjcyUXI0OXNGUjEyV3VYR3ZfYTFiSjVGejhvQTQyWHgxQ1VWMllmd2xuWkdnSUdmRjg5R3l6eTc2ak9vRnhMX2puOVJNcHlFVDhyU0ZzYVBFaUZhOF96a3QxYnJSQVB4dUVIREpkZUd2a2pTb2dsbmw0WXhmLV9rWHI5cmNrTEtU?oc=5"
+        },
+        {
+          "label": "NaTelinha",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdXlNS0ctVXBtamRyRl9lU0JvZkdUdmlycFcxbU9SYy1fb0dHcWhlc1VnOGtmeE01dk01dDZpT1RuX0Z2dllDNUlnXzZMTmVXU1RhTmxuY3BvR0V5bVo1TDhlWV81NUc5MUZsMHZxSVhtMEhCMWFzSEVkdmdxU3FsV3dfVWR0ZEtTT0tBYnVScUdORExGY0E3eXpldzhiNkpmTnNjdXB3RmRSWEk3Q0NZRUdsVlpKX3JCN0hGM2FDdElXQU1UVFJZUUhYeVNyQdIB3AFBVV95cUxPenFVRUg3X0tGbDlKZ2JHTEhBelZxcFotWnNTTE53WHltZzZDNVpCUzUtdFdIbWxESzhVT2JrZzFLenJwdlY4OUh2c2FrSkZoemZJVTkwb3FvbXRhQjcyUXI0OXNGUjEyV3VYR3ZfYTFiSjVGejhvQTQyWHgxQ1VWMllmd2xuWkdnSUdmRjg5R3l6eTc2ak9vRnhMX2puOVJNcHlFVDhyU0ZzYVBFaUZhOF96a3QxYnJSQVB4dUVIREpkZUd2a2pTb2dsbmw0WXhmLV9rWHI5cmNrTEtU?oc=5"
+        },
+        {
+          "label": "Diário Gaúcho",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdXlNS0ctVXBtamRyRl9lU0JvZkdUdmlycFcxbU9SYy1fb0dHcWhlc1VnOGtmeE01dk01dDZpT1RuX0Z2dllDNUlnXzZMTmVXU1RhTmxuY3BvR0V5bVo1TDhlWV81NUc5MUZsMHZxSVhtMEhCMWFzSEVkdmdxU3FsV3dfVWR0ZEtTT0tBYnVScUdORExGY0E3eXpldzhiNkpmTnNjdXB3RmRSWEk3Q0NZRUdsVlpKX3JCN0hGM2FDdElXQU1UVFJZUUhYeVNyQdIB3AFBVV95cUxPenFVRUg3X0tGbDlKZ2JHTEhBelZxcFotWnNTTE53WHltZzZDNVpCUzUtdFdIbWxESzhVT2JrZzFLenJwdlY4OUh2c2FrSkZoemZJVTkwb3FvbXRhQjcyUXI0OXNGUjEyV3VYR3ZfYTFiSjVGejhvQTQyWHgxQ1VWMllmd2xuWkdnSUdmRjg5R3l6eTc2ak9vRnhMX2puOVJNcHlFVDhyU0ZzYVBFaUZhOF96a3QxYnJSQVB4dUVIREpkZUd2a2pTb2dsbmw0WXhmLV9rWHI5cmNrTEtU?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:14",
+      "timeAgo": "Radar ao vivo",
+      "score": 126,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "RGVzZW1wcmVnYWRvIHBv",
+      "slug": "gui-ferraz-de-quem-ama-cuida-quase-desistiu-apos-4-anos-sem-trabalho",
+      "category": "Famosos",
+      "title": "Gui Ferraz, de 'Quem Ama Cuida', quase desistiu após 4 anos sem trabalho",
+      "excerpt": "Ator que interpreta Tiago na novela das 9 relembra período difícil de quase quatro anos desempregado.",
+      "body": [
+        "Gui Ferraz, intérprete de Tiago na novela 'Quem Ama Cuida', passou por um período de quase quatro anos sem trabalho na carreira. O ator revelou que pensou em desistir durante essa fase.",
+        "Além da novela das 9, Ferraz também está na série 'Brasil 70', da Netflix, onde mostra habilidade com a bola. O ator ganhou destaque recentemente por seus papéis em ambas as produções."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
+      "sources": [
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5"
+        },
+        {
+          "label": "Extra online",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5"
+        },
+        {
+          "label": "Correio Braziliense",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5"
+        },
+        {
+          "label": "NaTelinha",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5"
+        }
+      ],
+      "rankLabel": "4 fontes verificadas + Google Trends",
+      "publishedAt": "12/06/2026, 21:14",
+      "timeAgo": "Radar ao vivo",
+      "score": 137,
+      "sourceCount": 4,
+      "trendBoost": true,
+      "trendMatches": [
+        "resumo da novela quem ama cuida"
+      ]
+    },
+    {
+      "id": "w4BzIHbDqXNwZXJhcyBk",
+      "slug": "karin-hils-se-pronuncia-apos-falas-de-luciana-andrade-sobre-o-rouge",
+      "category": "Famosos",
+      "title": "Karin Hils se pronuncia após falas de Luciana Andrade sobre o Rouge",
+      "excerpt": "Luciana Andrade abordou sua passagem e saída do Rouge, enquanto Karin Hils se pronunciou após o desabafo da ex-integrante.",
+      "body": [
+        "Luciana Andrade falou sobre sua passagem pelo Rouge, abordou a saída do grupo e esclareceu rumores relacionados à sua trajetória. A ex-integrante também mencionou bastidores, mentira e arrependimento ao tratar do período.",
+        "Após o desabafo de Luciana, Karin Hils se pronunciou. As manchetes indicam uma troca de farpas entre as ex-cantoras do Rouge e destacam a declaração: “Não sou mentirosa”."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5",
+      "sources": [
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5"
+        },
+        {
+          "label": "OFuxico",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5"
+        },
+        {
+          "label": "POPline",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5"
+        },
+        {
+          "label": "R7 Entretenimento",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5"
+        },
+        {
+          "label": "iG Gente",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:13",
+      "timeAgo": "Radar ao vivo",
+      "score": 106,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "QmF0bWFuOiBQYXJ0ZSAy",
+      "slug": "batman-parte-2-inicia-filmagens-e-ganha-primeira-foto",
+      "category": "Cinema",
+      "title": "Batman: Parte 2 inicia filmagens e ganha primeira foto",
+      "excerpt": "A sequência de Batman começou a ser filmada e teve sua primeira foto divulgada.",
+      "body": [
+        "Batman: Parte 2 começou a ser filmado e ganhou sua primeira foto. As evidências também indicam que os possíveis papéis de Sebastian Stan e Brian Tyree Henry ainda não foram confirmados.",
+        "Colin Farrell elogiou o roteiro e classificou o filme como extraordinário. Outro ator de Pinguim chamou a produção de uma “obra-prima aterrorizante”. A possível presença de um grupo clássico de vilões da DC também foi mencionada, mas permanece como possibilidade."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Omelete",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTy16LW16Y0NiZW9KQ3l2SHJvNmo0T0V5Z2xwLVB3RU5xQjByTzNiQ2tCYnNONzFjVXMtYV9lc2VhaW51WDJ3MFV5VS13bGNBYXByM3dtWGtHZk42azZQQ3h0X3RJbThiM1poUGpYOFRUR0tZUEllLTJyM3BpTllDWWFSOXdEQQ?oc=5",
+      "sources": [
+        {
+          "label": "Omelete",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTy16LW16Y0NiZW9KQ3l2SHJvNmo0T0V5Z2xwLVB3RU5xQjByTzNiQ2tCYnNONzFjVXMtYV9lc2VhaW51WDJ3MFV5VS13bGNBYXByM3dtWGtHZk42azZQQ3h0X3RJbThiM1poUGpYOFRUR0tZUEllLTJyM3BpTllDWWFSOXdEQQ?oc=5"
+        },
+        {
+          "label": "Rádio Mix FM",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTy16LW16Y0NiZW9KQ3l2SHJvNmo0T0V5Z2xwLVB3RU5xQjByTzNiQ2tCYnNONzFjVXMtYV9lc2VhaW51WDJ3MFV5VS13bGNBYXByM3dtWGtHZk42azZQQ3h0X3RJbThiM1poUGpYOFRUR0tZUEllLTJyM3BpTllDWWFSOXdEQQ?oc=5"
+        },
+        {
+          "label": "Canaltech",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTy16LW16Y0NiZW9KQ3l2SHJvNmo0T0V5Z2xwLVB3RU5xQjByTzNiQ2tCYnNONzFjVXMtYV9lc2VhaW51WDJ3MFV5VS13bGNBYXByM3dtWGtHZk42azZQQ3h0X3RJbThiM1poUGpYOFRUR0tZUEllLTJyM3BpTllDWWFSOXdEQQ?oc=5"
+        },
+        {
+          "label": "cinepop.com.br",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTy16LW16Y0NiZW9KQ3l2SHJvNmo0T0V5Z2xwLVB3RU5xQjByTzNiQ2tCYnNONzFjVXMtYV9lc2VhaW51WDJ3MFV5VS13bGNBYXByM3dtWGtHZk42azZQQ3h0X3RJbThiM1poUGpYOFRUR0tZUEllLTJyM3BpTllDWWFSOXdEQQ?oc=5"
+        },
+        {
+          "label": "O TEMPO",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTy16LW16Y0NiZW9KQ3l2SHJvNmo0T0V5Z2xwLVB3RU5xQjByTzNiQ2tCYnNONzFjVXMtYV9lc2VhaW51WDJ3MFV5VS13bGNBYXByM3dtWGtHZk42azZQQ3h0X3RJbThiM1poUGpYOFRUR0tZUEllLTJyM3BpTllDWWFSOXdEQQ?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:13",
+      "timeAgo": "Radar ao vivo",
+      "score": 106,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "RXN0ZSBmb2kgbyBlZmVp",
+      "slug": "globo-registra-audiencia-de-46-milhoes-no-primeiro-dia-da-copa",
+      "category": "TV",
+      "title": "Globo registra audiência de 46 milhões no primeiro dia da Copa",
+      "excerpt": "O início da Copa de 2026 elevou a audiência do SBT e colocou a emissora em segundo lugar.",
+      "body": [
+        "A Globo registrou audiência de 46 milhões no primeiro dia da Copa do Mundo de 2026. O primeiro jogo também teve transmissões acompanhadas por Globo, SBT e CazéTV.",
+        "Na estreia do torneio, a audiência do SBT cresceu e a emissora ficou em segundo lugar. Globo e SBT disputaram o público no início da competição."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0Z1RTdjaHFGZV9oamFWMVh2WXdCbWJoblhRWG5Bc09XYW9WUjd6ZGU5OEFjQUZQRFlzbXhvZURHTlAtRGFPOVN3Q3daZVpfcjMzZHZjQ2hLUkgtWGFOT293T2NZdHlKTl9KX08zRnlRcGhyd0hNVklFaG1VblZvZ05SQkhDZ19ZRTJ0Q0g1TnZaVjQ0Z0dKbXpZTHV2ZU5QNEhGSEtVM0d6azUwLUNXQU5MVnRWdF84Y0RrUDRSdzFzTTJLU3dSOThWMNIB2gFBVV95cUxNZzFHUFdVWTYwVTFmb2dZckxCYWdRMlBmVXE2cFluZkhQTmtwOHNjMGI2MHVEUVRjaG15MDJ0WkVId1pGS0FxM3A3bXlNMXdMVUtTZHlhV2tsV1lpZmlsRkNtVnRsZWEydFh4dE03ZXhpWHZwV3JnN2gwaWNSSDloTFhla21YV0paUjh2ZVZxR2w1enhxWGFEMFhVLVlYZlJ0LWlnbnc0MmFQZW81MEN6MklibkxraEZQV1IxbjRBR0pjXzNnSWZFZlpCVDRVRllTbFI0UFdJci1yQQ?oc=5",
+      "sources": [
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0Z1RTdjaHFGZV9oamFWMVh2WXdCbWJoblhRWG5Bc09XYW9WUjd6ZGU5OEFjQUZQRFlzbXhvZURHTlAtRGFPOVN3Q3daZVpfcjMzZHZjQ2hLUkgtWGFOT293T2NZdHlKTl9KX08zRnlRcGhyd0hNVklFaG1VblZvZ05SQkhDZ19ZRTJ0Q0g1TnZaVjQ0Z0dKbXpZTHV2ZU5QNEhGSEtVM0d6azUwLUNXQU5MVnRWdF84Y0RrUDRSdzFzTTJLU3dSOThWMNIB2gFBVV95cUxNZzFHUFdVWTYwVTFmb2dZckxCYWdRMlBmVXE2cFluZkhQTmtwOHNjMGI2MHVEUVRjaG15MDJ0WkVId1pGS0FxM3A3bXlNMXdMVUtTZHlhV2tsV1lpZmlsRkNtVnRsZWEydFh4dE03ZXhpWHZwV3JnN2gwaWNSSDloTFhla21YV0paUjh2ZVZxR2w1enhxWGFEMFhVLVlYZlJ0LWlnbnc0MmFQZW81MEN6MklibkxraEZQV1IxbjRBR0pjXzNnSWZFZlpCVDRVRllTbFI0UFdJci1yQQ?oc=5"
+        },
+        {
+          "label": "ge",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0Z1RTdjaHFGZV9oamFWMVh2WXdCbWJoblhRWG5Bc09XYW9WUjd6ZGU5OEFjQUZQRFlzbXhvZURHTlAtRGFPOVN3Q3daZVpfcjMzZHZjQ2hLUkgtWGFOT293T2NZdHlKTl9KX08zRnlRcGhyd0hNVklFaG1VblZvZ05SQkhDZ19ZRTJ0Q0g1TnZaVjQ0Z0dKbXpZTHV2ZU5QNEhGSEtVM0d6azUwLUNXQU5MVnRWdF84Y0RrUDRSdzFzTTJLU3dSOThWMNIB2gFBVV95cUxNZzFHUFdVWTYwVTFmb2dZckxCYWdRMlBmVXE2cFluZkhQTmtwOHNjMGI2MHVEUVRjaG15MDJ0WkVId1pGS0FxM3A3bXlNMXdMVUtTZHlhV2tsV1lpZmlsRkNtVnRsZWEydFh4dE03ZXhpWHZwV3JnN2gwaWNSSDloTFhla21YV0paUjh2ZVZxR2w1enhxWGFEMFhVLVlYZlJ0LWlnbnc0MmFQZW81MEN6MklibkxraEZQV1IxbjRBR0pjXzNnSWZFZlpCVDRVRllTbFI0UFdJci1yQQ?oc=5"
+        },
+        {
+          "label": "Lance!",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0Z1RTdjaHFGZV9oamFWMVh2WXdCbWJoblhRWG5Bc09XYW9WUjd6ZGU5OEFjQUZQRFlzbXhvZURHTlAtRGFPOVN3Q3daZVpfcjMzZHZjQ2hLUkgtWGFOT293T2NZdHlKTl9KX08zRnlRcGhyd0hNVklFaG1VblZvZ05SQkhDZ19ZRTJ0Q0g1TnZaVjQ0Z0dKbXpZTHV2ZU5QNEhGSEtVM0d6azUwLUNXQU5MVnRWdF84Y0RrUDRSdzFzTTJLU3dSOThWMNIB2gFBVV95cUxNZzFHUFdVWTYwVTFmb2dZckxCYWdRMlBmVXE2cFluZkhQTmtwOHNjMGI2MHVEUVRjaG15MDJ0WkVId1pGS0FxM3A3bXlNMXdMVUtTZHlhV2tsV1lpZmlsRkNtVnRsZWEydFh4dE03ZXhpWHZwV3JnN2gwaWNSSDloTFhla21YV0paUjh2ZVZxR2w1enhxWGFEMFhVLVlYZlJ0LWlnbnc0MmFQZW81MEN6MklibkxraEZQV1IxbjRBR0pjXzNnSWZFZlpCVDRVRllTbFI0UFdJci1yQQ?oc=5"
+        },
+        {
+          "label": "VEJA",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS0Z1RTdjaHFGZV9oamFWMVh2WXdCbWJoblhRWG5Bc09XYW9WUjd6ZGU5OEFjQUZQRFlzbXhvZURHTlAtRGFPOVN3Q3daZVpfcjMzZHZjQ2hLUkgtWGFOT293T2NZdHlKTl9KX08zRnlRcGhyd0hNVklFaG1VblZvZ05SQkhDZ19ZRTJ0Q0g1TnZaVjQ0Z0dKbXpZTHV2ZU5QNEhGSEtVM0d6azUwLUNXQU5MVnRWdF84Y0RrUDRSdzFzTTJLU3dSOThWMNIB2gFBVV95cUxNZzFHUFdVWTYwVTFmb2dZckxCYWdRMlBmVXE2cFluZkhQTmtwOHNjMGI2MHVEUVRjaG15MDJ0WkVId1pGS0FxM3A3bXlNMXdMVUtTZHlhV2tsV1lpZmlsRkNtVnRsZWEydFh4dE03ZXhpWHZwV3JnN2gwaWNSSDloTFhla21YV0paUjh2ZVZxR2w1enhxWGFEMFhVLVlYZlJ0LWlnbnc0MmFQZW81MEN6MklibkxraEZQV1IxbjRBR0pjXzNnSWZFZlpCVDRVRllTbFI0UFdJci1yQQ?oc=5"
+        }
+      ],
+      "rankLabel": "4 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:12",
+      "timeAgo": "Radar ao vivo",
+      "score": 107,
+      "sourceCount": 4,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "w41jb25lIGRhIGFydGUg",
+      "slug": "pintor-britanico-david-hockney-morre-aos-88-anos",
+      "category": "Famosos",
+      "title": "Pintor britânico David Hockney morre aos 88 anos",
+      "excerpt": "Ícone da arte contemporânea, David Hockney foi lembrado pelo uso das cores e pelas piscinas retratadas em sua obra.",
+      "body": [
+        "O pintor britânico David Hockney morreu aos 88 anos. Descrito como ícone da arte contemporânea e mestre das cores, ele também foi lembrado pelas piscinas que pintou.",
+        "Análises sobre sua arte associaram essas piscinas a paixões movediças e destacaram a ternura como um elemento cotidiano de sua produção artística."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: CNN Brasil",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ1clFiN0VoQmQ5SDY4YWtBd3JkZEtFVEQ4aUJiUS16ZWd0MTNaNzE5ZktTci12VXliQk1yN0hyNEItNHFOQThKS3Jud3pIeFNTcmtnRHNKWTFVcmc5Z3RxSnpGT0VxNlJ1R2ZhN0NwcWhTR1RhbUZ0cXFYVGlPRExibG4zVi1uNnB5Wm5XZWk2b0ZLeW1YNA?oc=5",
+      "sources": [
+        {
+          "label": "CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ1clFiN0VoQmQ5SDY4YWtBd3JkZEtFVEQ4aUJiUS16ZWd0MTNaNzE5ZktTci12VXliQk1yN0hyNEItNHFOQThKS3Jud3pIeFNTcmtnRHNKWTFVcmc5Z3RxSnpGT0VxNlJ1R2ZhN0NwcWhTR1RhbUZ0cXFYVGlPRExibG4zVi1uNnB5Wm5XZWk2b0ZLeW1YNA?oc=5"
+        },
+        {
+          "label": "Assine Abril",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ1clFiN0VoQmQ5SDY4YWtBd3JkZEtFVEQ4aUJiUS16ZWd0MTNaNzE5ZktTci12VXliQk1yN0hyNEItNHFOQThKS3Jud3pIeFNTcmtnRHNKWTFVcmc5Z3RxSnpGT0VxNlJ1R2ZhN0NwcWhTR1RhbUZ0cXFYVGlPRExibG4zVi1uNnB5Wm5XZWk2b0ZLeW1YNA?oc=5"
+        },
+        {
+          "label": "Valor Econômico",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ1clFiN0VoQmQ5SDY4YWtBd3JkZEtFVEQ4aUJiUS16ZWd0MTNaNzE5ZktTci12VXliQk1yN0hyNEItNHFOQThKS3Jud3pIeFNTcmtnRHNKWTFVcmc5Z3RxSnpGT0VxNlJ1R2ZhN0NwcWhTR1RhbUZ0cXFYVGlPRExibG4zVi1uNnB5Wm5XZWk2b0ZLeW1YNA?oc=5"
+        },
+        {
+          "label": "Folha de S.Paulo",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ1clFiN0VoQmQ5SDY4YWtBd3JkZEtFVEQ4aUJiUS16ZWd0MTNaNzE5ZktTci12VXliQk1yN0hyNEItNHFOQThKS3Jud3pIeFNTcmtnRHNKWTFVcmc5Z3RxSnpGT0VxNlJ1R2ZhN0NwcWhTR1RhbUZ0cXFYVGlPRExibG4zVi1uNnB5Wm5XZWk2b0ZLeW1YNA?oc=5"
+        },
+        {
+          "label": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ1clFiN0VoQmQ5SDY4YWtBd3JkZEtFVEQ4aUJiUS16ZWd0MTNaNzE5ZktTci12VXliQk1yN0hyNEItNHFOQThKS3Jud3pIeFNTcmtnRHNKWTFVcmc5Z3RxSnpGT0VxNlJ1R2ZhN0NwcWhTR1RhbUZ0cXFYVGlPRExibG4zVi1uNnB5Wm5XZWk2b0ZLeW1YNA?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:09",
+      "timeAgo": "Radar ao vivo",
+      "score": 114,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "Q2FtcGFuaGEgZGUgRGVt",
+      "slug": "campanha-com-demi-lovato-e-vini-jr-gera-comentarios-sobre-neymar",
+      "category": "Famosos",
+      "title": "Campanha com Demi Lovato e Vini Jr. gera comentários sobre Neymar",
+      "excerpt": "A ação reacendeu lembranças de uma antiga amizade entre Demi Lovato e Neymar.",
+      "body": [
+        "Uma campanha com Demi Lovato e Vini Jr. provocou comentários sobre Neymar. O conteúdo também reacendeu lembranças de uma antiga amizade entre a cantora e o jogador brasileiro.",
+        "Vini Jr. participa da ação ao lado de Demi, enquanto as referências a Neymar aparecem nos comentários gerados pela campanha."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: O Globo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONUdhZ0kyQVJXeHpsckdDOWQxS0FxVEk5d3JtdThmNXdIS1EwTXFxOHpkQ212OGFYdWhjMld0VkNTMHJXZjJMUFRWQjdxUGJuQmpGWFhVaGwxanFMdXpnTlRqVHl2UlhPV2JOak56UmhMeE5sbnlhREJNWWF2dUwwMldSQTlQVmU5STJWZng2SXpVc182OUhJZnFsS2E3dkwyR0NpX1VyYlRaT05UZjZzN2xoT252SktfTGpPcy1nenBDendCNDVqczJ6Umh1TGdMQ0dN0gHiAUFVX3lxTFBzNU9DQldWZ2FSRkxvRExmbFlKVldYRmVTQV9iNmJvV1RrSWozRFBETjJsRVgwOXNxWGFDRUgwbFowVXRMVGxoSGxKNWtrMVYtRTlqbUtBbm10ZmQ3VjltMkpta2hPUEJOdGpZaTJZb3RmaTI1S0dWZ3ZRWmVnc2hGNW8yNFM3SVZUQnpkaWlDV21Wdjc4aXZMTktQUWxRZ29CRHVEcHpPQjVTTDlFc3lBdlFLdnd4U3JqN01BNmVpemRxZnRoNXFYdndYQTBka0M1MzJuQURVTV9HTGxkQ01XMVE?oc=5",
+      "sources": [
+        {
+          "label": "O Globo",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONUdhZ0kyQVJXeHpsckdDOWQxS0FxVEk5d3JtdThmNXdIS1EwTXFxOHpkQ212OGFYdWhjMld0VkNTMHJXZjJMUFRWQjdxUGJuQmpGWFhVaGwxanFMdXpnTlRqVHl2UlhPV2JOak56UmhMeE5sbnlhREJNWWF2dUwwMldSQTlQVmU5STJWZng2SXpVc182OUhJZnFsS2E3dkwyR0NpX1VyYlRaT05UZjZzN2xoT252SktfTGpPcy1nenBDendCNDVqczJ6Umh1TGdMQ0dN0gHiAUFVX3lxTFBzNU9DQldWZ2FSRkxvRExmbFlKVldYRmVTQV9iNmJvV1RrSWozRFBETjJsRVgwOXNxWGFDRUgwbFowVXRMVGxoSGxKNWtrMVYtRTlqbUtBbm10ZmQ3VjltMkpta2hPUEJOdGpZaTJZb3RmaTI1S0dWZ3ZRWmVnc2hGNW8yNFM3SVZUQnpkaWlDV21Wdjc4aXZMTktQUWxRZ29CRHVEcHpPQjVTTDlFc3lBdlFLdnd4U3JqN01BNmVpemRxZnRoNXFYdndYQTBka0M1MzJuQURVTV9HTGxkQ01XMVE?oc=5"
+        },
+        {
+          "label": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONUdhZ0kyQVJXeHpsckdDOWQxS0FxVEk5d3JtdThmNXdIS1EwTXFxOHpkQ212OGFYdWhjMld0VkNTMHJXZjJMUFRWQjdxUGJuQmpGWFhVaGwxanFMdXpnTlRqVHl2UlhPV2JOak56UmhMeE5sbnlhREJNWWF2dUwwMldSQTlQVmU5STJWZng2SXpVc182OUhJZnFsS2E3dkwyR0NpX1VyYlRaT05UZjZzN2xoT252SktfTGpPcy1nenBDendCNDVqczJ6Umh1TGdMQ0dN0gHiAUFVX3lxTFBzNU9DQldWZ2FSRkxvRExmbFlKVldYRmVTQV9iNmJvV1RrSWozRFBETjJsRVgwOXNxWGFDRUgwbFowVXRMVGxoSGxKNWtrMVYtRTlqbUtBbm10ZmQ3VjltMkpta2hPUEJOdGpZaTJZb3RmaTI1S0dWZ3ZRWmVnc2hGNW8yNFM3SVZUQnpkaWlDV21Wdjc4aXZMTktQUWxRZ29CRHVEcHpPQjVTTDlFc3lBdlFLdnd4U3JqN01BNmVpemRxZnRoNXFYdndYQTBka0M1MzJuQURVTV9HTGxkQ01XMVE?oc=5"
+        },
+        {
+          "label": "Capricho",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONUdhZ0kyQVJXeHpsckdDOWQxS0FxVEk5d3JtdThmNXdIS1EwTXFxOHpkQ212OGFYdWhjMld0VkNTMHJXZjJMUFRWQjdxUGJuQmpGWFhVaGwxanFMdXpnTlRqVHl2UlhPV2JOak56UmhMeE5sbnlhREJNWWF2dUwwMldSQTlQVmU5STJWZng2SXpVc182OUhJZnFsS2E3dkwyR0NpX1VyYlRaT05UZjZzN2xoT252SktfTGpPcy1nenBDendCNDVqczJ6Umh1TGdMQ0dN0gHiAUFVX3lxTFBzNU9DQldWZ2FSRkxvRExmbFlKVldYRmVTQV9iNmJvV1RrSWozRFBETjJsRVgwOXNxWGFDRUgwbFowVXRMVGxoSGxKNWtrMVYtRTlqbUtBbm10ZmQ3VjltMkpta2hPUEJOdGpZaTJZb3RmaTI1S0dWZ3ZRWmVnc2hGNW8yNFM3SVZUQnpkaWlDV21Wdjc4aXZMTktQUWxRZ29CRHVEcHpPQjVTTDlFc3lBdlFLdnd4U3JqN01BNmVpemRxZnRoNXFYdndYQTBka0M1MzJuQURVTV9HTGxkQ01XMVE?oc=5"
+        },
+        {
+          "label": "MacMagazine",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONUdhZ0kyQVJXeHpsckdDOWQxS0FxVEk5d3JtdThmNXdIS1EwTXFxOHpkQ212OGFYdWhjMld0VkNTMHJXZjJMUFRWQjdxUGJuQmpGWFhVaGwxanFMdXpnTlRqVHl2UlhPV2JOak56UmhMeE5sbnlhREJNWWF2dUwwMldSQTlQVmU5STJWZng2SXpVc182OUhJZnFsS2E3dkwyR0NpX1VyYlRaT05UZjZzN2xoT252SktfTGpPcy1nenBDendCNDVqczJ6Umh1TGdMQ0dN0gHiAUFVX3lxTFBzNU9DQldWZ2FSRkxvRExmbFlKVldYRmVTQV9iNmJvV1RrSWozRFBETjJsRVgwOXNxWGFDRUgwbFowVXRMVGxoSGxKNWtrMVYtRTlqbUtBbm10ZmQ3VjltMkpta2hPUEJOdGpZaTJZb3RmaTI1S0dWZ3ZRWmVnc2hGNW8yNFM3SVZUQnpkaWlDV21Wdjc4aXZMTktQUWxRZ29CRHVEcHpPQjVTTDlFc3lBdlFLdnd4U3JqN01BNmVpemRxZnRoNXFYdndYQTBka0M1MzJuQURVTV9HTGxkQ01XMVE?oc=5"
+        },
+        {
+          "label": "TudoCelular.com",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONUdhZ0kyQVJXeHpsckdDOWQxS0FxVEk5d3JtdThmNXdIS1EwTXFxOHpkQ212OGFYdWhjMld0VkNTMHJXZjJMUFRWQjdxUGJuQmpGWFhVaGwxanFMdXpnTlRqVHl2UlhPV2JOak56UmhMeE5sbnlhREJNWWF2dUwwMldSQTlQVmU5STJWZng2SXpVc182OUhJZnFsS2E3dkwyR0NpX1VyYlRaT05UZjZzN2xoT252SktfTGpPcy1nenBDendCNDVqczJ6Umh1TGdMQ0dN0gHiAUFVX3lxTFBzNU9DQldWZ2FSRkxvRExmbFlKVldYRmVTQV9iNmJvV1RrSWozRFBETjJsRVgwOXNxWGFDRUgwbFowVXRMVGxoSGxKNWtrMVYtRTlqbUtBbm10ZmQ3VjltMkpta2hPUEJOdGpZaTJZb3RmaTI1S0dWZ3ZRWmVnc2hGNW8yNFM3SVZUQnpkaWlDV21Wdjc4aXZMTktQUWxRZ29CRHVEcHpPQjVTTDlFc3lBdlFLdnd4U3JqN01BNmVpemRxZnRoNXFYdndYQTBka0M1MzJuQURVTV9HTGxkQ01XMVE?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:08",
+      "timeAgo": "Radar ao vivo",
+      "score": 116,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "NyBmaWxtZXMgcGljYW50",
+      "slug": "listas-reunem-filmes-para-assistir-no-dia-dos-namorados",
+      "category": "Cinema",
+      "title": "Listas reúnem filmes para assistir no Dia dos Namorados",
+      "excerpt": "Seleções incluem filmes picantes no streaming, romances e opções para quem ficará em casa ou quer fugir da data.",
+      "body": [
+        "Diferentes listas reúnem filmes para assistir no Dia dos Namorados. Entre as sugestões, há uma seleção de sete produções picantes disponíveis no streaming e outra com 12 filmes românticos.",
+        "Também aparecem cinco filmes indicados para solteiros que querem fugir da data e cinco opções para quem pretende passar a ocasião em casa. Clássicos do romance ainda ganharam um relançamento especial nos cinemas."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: UOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1c4UnZhSTBrRkh4aHF1bmhWV2t5djBKZnJnQkc5SkVabk92b2JsNWNacHhpeEdOZ1BRaFBUOEZlTVJkYUpkOEJIamxjbnRsQ0Y2MTl0MkpRSXEyY2VQWVBnaVprSGlNdFZZUi1sQjFJU3VMc0U4ekxDTXNBT284b0Z5TGNtVlFYWkFycnhKT2FiallNNjUzU3ZMU1RtMzk2LWVFaVdxU0tHOTRMWUdOOFc4VUE?oc=5",
+      "sources": [
+        {
+          "label": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1c4UnZhSTBrRkh4aHF1bmhWV2t5djBKZnJnQkc5SkVabk92b2JsNWNacHhpeEdOZ1BRaFBUOEZlTVJkYUpkOEJIamxjbnRsQ0Y2MTl0MkpRSXEyY2VQWVBnaVprSGlNdFZZUi1sQjFJU3VMc0U4ekxDTXNBT284b0Z5TGNtVlFYWkFycnhKT2FiallNNjUzU3ZMU1RtMzk2LWVFaVdxU0tHOTRMWUdOOFc4VUE?oc=5"
+        },
+        {
+          "label": "G1",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1c4UnZhSTBrRkh4aHF1bmhWV2t5djBKZnJnQkc5SkVabk92b2JsNWNacHhpeEdOZ1BRaFBUOEZlTVJkYUpkOEJIamxjbnRsQ0Y2MTl0MkpRSXEyY2VQWVBnaVprSGlNdFZZUi1sQjFJU3VMc0U4ekxDTXNBT284b0Z5TGNtVlFYWkFycnhKT2FiallNNjUzU3ZMU1RtMzk2LWVFaVdxU0tHOTRMWUdOOFc4VUE?oc=5"
+        },
+        {
+          "label": "Capricho",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1c4UnZhSTBrRkh4aHF1bmhWV2t5djBKZnJnQkc5SkVabk92b2JsNWNacHhpeEdOZ1BRaFBUOEZlTVJkYUpkOEJIamxjbnRsQ0Y2MTl0MkpRSXEyY2VQWVBnaVprSGlNdFZZUi1sQjFJU3VMc0U4ekxDTXNBT284b0Z5TGNtVlFYWkFycnhKT2FiallNNjUzU3ZMU1RtMzk2LWVFaVdxU0tHOTRMWUdOOFc4VUE?oc=5"
+        },
+        {
+          "label": "Estadão",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1c4UnZhSTBrRkh4aHF1bmhWV2t5djBKZnJnQkc5SkVabk92b2JsNWNacHhpeEdOZ1BRaFBUOEZlTVJkYUpkOEJIamxjbnRsQ0Y2MTl0MkpRSXEyY2VQWVBnaVprSGlNdFZZUi1sQjFJU3VMc0U4ekxDTXNBT284b0Z5TGNtVlFYWkFycnhKT2FiallNNjUzU3ZMU1RtMzk2LWVFaVdxU0tHOTRMWUdOOFc4VUE?oc=5"
+        },
+        {
+          "label": "Folha Vitória",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1c4UnZhSTBrRkh4aHF1bmhWV2t5djBKZnJnQkc5SkVabk92b2JsNWNacHhpeEdOZ1BRaFBUOEZlTVJkYUpkOEJIamxjbnRsQ0Y2MTl0MkpRSXEyY2VQWVBnaVprSGlNdFZZUi1sQjFJU3VMc0U4ekxDTXNBT284b0Z5TGNtVlFYWkFycnhKT2FiallNNjUzU3ZMU1RtMzk2LWVFaVdxU0tHOTRMWUdOOFc4VUE?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas",
+      "publishedAt": "12/06/2026, 21:07",
+      "timeAgo": "Radar ao vivo",
+      "score": 119,
+      "sourceCount": 5,
+      "trendBoost": false,
+      "trendMatches": []
+    },
+    {
+      "id": "Tm92YSBmYXNlOiBWZWph",
+      "slug": "adriana-recupera-fortuna-na-nova-fase-de-quem-ama-cuida",
+      "category": "TV",
+      "title": "Adriana recupera fortuna na nova fase de “Quem Ama Cuida”",
+      "excerpt": "A segunda fase de “Quem Ama Cuida” terá mudanças na trajetória de Adriana.",
+      "body": [
+        "Adriana recupera sua fortuna em uma nova fase de “Quem Ama Cuida”. A segunda fase da novela também terá uma grande virada provocada por Heitor e cinco personagens que mudarão a trama.",
+        "Entre as novidades, um novo galã foi escalado pela Globo para disputar o amor de Adriana. As evidências não informam o nome do personagem nem detalham como ocorrerá a recuperação da fortuna."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Observatório da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlJNOGloN2lacEhmVUZuMXlVcFZSaV9WWUtyalZINlYxVkc1M192RkJVdlpOU29qOUJFRGtSUlNlOGZMZFBoX0NOSk10cVZHUHlmdjRiX25fMjFya0hHRnR1bXdnNWFVck1CNnBoSmNMcXhyeVJHOVBMV2FoWUNacHA4dG02eEtVdWtPZmRYbDhPR0xpbVJXM2hwd0ZIN01SNVVwZ3FKX212YWcxT1dZU19KaE1kZw?oc=5",
+      "sources": [
+        {
+          "label": "Observatório da TV",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlJNOGloN2lacEhmVUZuMXlVcFZSaV9WWUtyalZINlYxVkc1M192RkJVdlpOU29qOUJFRGtSUlNlOGZMZFBoX0NOSk10cVZHUHlmdjRiX25fMjFya0hHRnR1bXdnNWFVck1CNnBoSmNMcXhyeVJHOVBMV2FoWUNacHA4dG02eEtVdWtPZmRYbDhPR0xpbVJXM2hwd0ZIN01SNVVwZ3FKX212YWcxT1dZU19KaE1kZw?oc=5"
+        },
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlJNOGloN2lacEhmVUZuMXlVcFZSaV9WWUtyalZINlYxVkc1M192RkJVdlpOU29qOUJFRGtSUlNlOGZMZFBoX0NOSk10cVZHUHlmdjRiX25fMjFya0hHRnR1bXdnNWFVck1CNnBoSmNMcXhyeVJHOVBMV2FoWUNacHA4dG02eEtVdWtPZmRYbDhPR0xpbVJXM2hwd0ZIN01SNVVwZ3FKX212YWcxT1dZU19KaE1kZw?oc=5"
+        },
+        {
+          "label": "CNN Brasil",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlJNOGloN2lacEhmVUZuMXlVcFZSaV9WWUtyalZINlYxVkc1M192RkJVdlpOU29qOUJFRGtSUlNlOGZMZFBoX0NOSk10cVZHUHlmdjRiX25fMjFya0hHRnR1bXdnNWFVck1CNnBoSmNMcXhyeVJHOVBMV2FoWUNacHA4dG02eEtVdWtPZmRYbDhPR0xpbVJXM2hwd0ZIN01SNVVwZ3FKX212YWcxT1dZU19KaE1kZw?oc=5"
+        },
+        {
+          "label": "O TEMPO",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlJNOGloN2lacEhmVUZuMXlVcFZSaV9WWUtyalZINlYxVkc1M192RkJVdlpOU29qOUJFRGtSUlNlOGZMZFBoX0NOSk10cVZHUHlmdjRiX25fMjFya0hHRnR1bXdnNWFVck1CNnBoSmNMcXhyeVJHOVBMV2FoWUNacHA4dG02eEtVdWtPZmRYbDhPR0xpbVJXM2hwd0ZIN01SNVVwZ3FKX212YWcxT1dZU19KaE1kZw?oc=5"
+        },
+        {
+          "label": "RD1",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlJNOGloN2lacEhmVUZuMXlVcFZSaV9WWUtyalZINlYxVkc1M192RkJVdlpOU29qOUJFRGtSUlNlOGZMZFBoX0NOSk10cVZHUHlmdjRiX25fMjFya0hHRnR1bXdnNWFVck1CNnBoSmNMcXhyeVJHOVBMV2FoWUNacHA4dG02eEtVdWtPZmRYbDhPR0xpbVJXM2hwd0ZIN01SNVVwZ3FKX212YWcxT1dZU19KaE1kZw?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas + Google Trends",
+      "publishedAt": "12/06/2026, 21:06",
+      "timeAgo": "Radar ao vivo",
+      "score": 123,
+      "sourceCount": 5,
+      "trendBoost": true,
+      "trendMatches": [
+        "resumo da novela quem ama cuida"
+      ]
+    },
+    {
+      "id": "TWF1IE1hdSBkZSBRdWVt",
+      "slug": "joao-victor-goncalves-fala-sobre-sexualidade-e-papel-em-quem-ama-cuida",
+      "category": "Famosos",
+      "title": "João Victor Gonçalves fala sobre sexualidade e papel em Quem Ama Cuida",
+      "excerpt": "Intérprete de Mau Mau comentou a reação da família à sua sexualidade.",
+      "body": [
+        "João Victor Gonçalves, intérprete de Mau Mau em Quem Ama Cuida, falou sobre a reação da família à sua sexualidade. O ator também refletiu sobre o personagem LGBTQ+ e afirmou que espera “transformar a vida de muitos jovens”.",
+        "O artista ainda revelou que um caso real de homofobia o inspira na novela. Na trama, Mau Mau sofre homofobia do avô."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5",
+      "sources": [
+        {
+          "label": "Notícias da TV",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5"
+        },
+        {
+          "label": "NaTelinha",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5"
+        },
+        {
+          "label": "Gshow",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5"
+        },
+        {
+          "label": "Terra",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5"
+        },
+        {
+          "label": "purepeople.com.br",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas + Google Trends",
+      "publishedAt": "12/06/2026, 21:04",
+      "timeAgo": "Radar ao vivo",
+      "score": 131,
+      "sourceCount": 5,
+      "trendBoost": true,
+      "trendMatches": [
+        "resumo da novela quem ama cuida"
+      ]
+    },
+    {
+      "id": "R2xvYm8gY29udHJhdGEg",
+      "slug": "globo-contrata-lucas-guedez-para-quadro-na-copa-do-mundo",
+      "category": "TV",
+      "title": "Globo contrata Lucas Guedez para quadro na Copa do Mundo",
+      "excerpt": "Lucas Guedez foi contratado pela Globo para participar de um quadro ligado à Copa do Mundo.",
+      "body": [
+        "A Globo contratou Lucas Guedez para um quadro relacionado à Copa do Mundo. Ele é identificado nas informações disponíveis como amigo de Virginia Fonseca.",
+        "A participação de Guedez será vinculada à cobertura do torneio pela emissora. Não há, nas evidências apresentadas, outros detalhes sobre o formato ou a estreia do quadro."
+      ],
+      "image": "/images/news-placeholder.svg",
+      "imagePosition": "center center",
+      "articleImagePosition": "center center",
+      "imageCredit": "Imagem pendente de revisão",
+      "sourceLabel": "Origem: UOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORnZqdlA5OTRkTDd2WmlRcFVRS1RVbFpaYUZxRHhvQTNVaE5pUmpSaXpHWEZfMHA2ZEFkTlFCdGdkQzEyTVVjSmMwSDlLY3ZpQVJFZW5CcjBCZFhEZnRjSkpQR19OTm1qc09iYWpDUUpsaEJoWHN1NldJdzdyRF9Rbkp5NHJQcGpNOXRGdHNEeldmVEFYNFplczJkVE9LOEt0bUZ5ZzNtSFJEdEU0M2VqMmRaYVNMWDVMaTBUSW5VMU9UaHp6QWEyN1hreGNIXzctVjZDQ2pFb0t2YU9aZHBvS9IB5gFBVV95cUxQVDlVNTkyZlEza19KWHZ3QUZjMTJnYzdjZVJWRWdEY2tWX2dpcUtSZExLdnh5MktLQ0tZdFVGSTZXNGM4UVJ2Ty1YUzJYbXJDeVBCU2lOdmZNZUp3WDhLYUI0aTVYZW45N2dYeG81eko0b3YyNDB2Z0o3dWExZ19IeWFIRUpzSlFGa2paakt2dWhfX3lBbGo0clc2UHNSX1czRGdReTA0aXZVR3BfUHpRRGVwQzNHcU13MVhvN0dpN3ZKMElxYzZFdGNRMUNVMmxTOVFTUTlRdDBNcjhPeEZTNkk3bExsdw?oc=5",
+      "sources": [
+        {
+          "label": "UOL",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORnZqdlA5OTRkTDd2WmlRcFVRS1RVbFpaYUZxRHhvQTNVaE5pUmpSaXpHWEZfMHA2ZEFkTlFCdGdkQzEyTVVjSmMwSDlLY3ZpQVJFZW5CcjBCZFhEZnRjSkpQR19OTm1qc09iYWpDUUpsaEJoWHN1NldJdzdyRF9Rbkp5NHJQcGpNOXRGdHNEeldmVEFYNFplczJkVE9LOEt0bUZ5ZzNtSFJEdEU0M2VqMmRaYVNMWDVMaTBUSW5VMU9UaHp6QWEyN1hreGNIXzctVjZDQ2pFb0t2YU9aZHBvS9IB5gFBVV95cUxQVDlVNTkyZlEza19KWHZ3QUZjMTJnYzdjZVJWRWdEY2tWX2dpcUtSZExLdnh5MktLQ0tZdFVGSTZXNGM4UVJ2Ty1YUzJYbXJDeVBCU2lOdmZNZUp3WDhLYUI0aTVYZW45N2dYeG81eko0b3YyNDB2Z0o3dWExZ19IeWFIRUpzSlFGa2paakt2dWhfX3lBbGo0clc2UHNSX1czRGdReTA0aXZVR3BfUHpRRGVwQzNHcU13MVhvN0dpN3ZKMElxYzZFdGNRMUNVMmxTOVFTUTlRdDBNcjhPeEZTNkk3bExsdw?oc=5"
+        },
+        {
+          "label": "Globo",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORnZqdlA5OTRkTDd2WmlRcFVRS1RVbFpaYUZxRHhvQTNVaE5pUmpSaXpHWEZfMHA2ZEFkTlFCdGdkQzEyTVVjSmMwSDlLY3ZpQVJFZW5CcjBCZFhEZnRjSkpQR19OTm1qc09iYWpDUUpsaEJoWHN1NldJdzdyRF9Rbkp5NHJQcGpNOXRGdHNEeldmVEFYNFplczJkVE9LOEt0bUZ5ZzNtSFJEdEU0M2VqMmRaYVNMWDVMaTBUSW5VMU9UaHp6QWEyN1hreGNIXzctVjZDQ2pFb0t2YU9aZHBvS9IB5gFBVV95cUxQVDlVNTkyZlEza19KWHZ3QUZjMTJnYzdjZVJWRWdEY2tWX2dpcUtSZExLdnh5MktLQ0tZdFVGSTZXNGM4UVJ2Ty1YUzJYbXJDeVBCU2lOdmZNZUp3WDhLYUI0aTVYZW45N2dYeG81eko0b3YyNDB2Z0o3dWExZ19IeWFIRUpzSlFGa2paakt2dWhfX3lBbGo0clc2UHNSX1czRGdReTA0aXZVR3BfUHpRRGVwQzNHcU13MVhvN0dpN3ZKMElxYzZFdGNRMUNVMmxTOVFTUTlRdDBNcjhPeEZTNkk3bExsdw?oc=5"
+        },
+        {
+          "label": "VEJA",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORnZqdlA5OTRkTDd2WmlRcFVRS1RVbFpaYUZxRHhvQTNVaE5pUmpSaXpHWEZfMHA2ZEFkTlFCdGdkQzEyTVVjSmMwSDlLY3ZpQVJFZW5CcjBCZFhEZnRjSkpQR19OTm1qc09iYWpDUUpsaEJoWHN1NldJdzdyRF9Rbkp5NHJQcGpNOXRGdHNEeldmVEFYNFplczJkVE9LOEt0bUZ5ZzNtSFJEdEU0M2VqMmRaYVNMWDVMaTBUSW5VMU9UaHp6QWEyN1hreGNIXzctVjZDQ2pFb0t2YU9aZHBvS9IB5gFBVV95cUxQVDlVNTkyZlEza19KWHZ3QUZjMTJnYzdjZVJWRWdEY2tWX2dpcUtSZExLdnh5MktLQ0tZdFVGSTZXNGM4UVJ2Ty1YUzJYbXJDeVBCU2lOdmZNZUp3WDhLYUI0aTVYZW45N2dYeG81eko0b3YyNDB2Z0o3dWExZ19IeWFIRUpzSlFGa2paakt2dWhfX3lBbGo0clc2UHNSX1czRGdReTA0aXZVR3BfUHpRRGVwQzNHcU13MVhvN0dpN3ZKMElxYzZFdGNRMUNVMmxTOVFTUTlRdDBNcjhPeEZTNkk3bExsdw?oc=5"
+        },
+        {
+          "label": "Observatório da Imprensa",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORnZqdlA5OTRkTDd2WmlRcFVRS1RVbFpaYUZxRHhvQTNVaE5pUmpSaXpHWEZfMHA2ZEFkTlFCdGdkQzEyTVVjSmMwSDlLY3ZpQVJFZW5CcjBCZFhEZnRjSkpQR19OTm1qc09iYWpDUUpsaEJoWHN1NldJdzdyRF9Rbkp5NHJQcGpNOXRGdHNEeldmVEFYNFplczJkVE9LOEt0bUZ5ZzNtSFJEdEU0M2VqMmRaYVNMWDVMaTBUSW5VMU9UaHp6QWEyN1hreGNIXzctVjZDQ2pFb0t2YU9aZHBvS9IB5gFBVV95cUxQVDlVNTkyZlEza19KWHZ3QUZjMTJnYzdjZVJWRWdEY2tWX2dpcUtSZExLdnh5MktLQ0tZdFVGSTZXNGM4UVJ2Ty1YUzJYbXJDeVBCU2lOdmZNZUp3WDhLYUI0aTVYZW45N2dYeG81eko0b3YyNDB2Z0o3dWExZ19IeWFIRUpzSlFGa2paakt2dWhfX3lBbGo0clc2UHNSX1czRGdReTA0aXZVR3BfUHpRRGVwQzNHcU13MVhvN0dpN3ZKMElxYzZFdGNRMUNVMmxTOVFTUTlRdDBNcjhPeEZTNkk3bExsdw?oc=5"
+        },
+        {
+          "label": "purepeople.com.br",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORnZqdlA5OTRkTDd2WmlRcFVRS1RVbFpaYUZxRHhvQTNVaE5pUmpSaXpHWEZfMHA2ZEFkTlFCdGdkQzEyTVVjSmMwSDlLY3ZpQVJFZW5CcjBCZFhEZnRjSkpQR19OTm1qc09iYWpDUUpsaEJoWHN1NldJdzdyRF9Rbkp5NHJQcGpNOXRGdHNEeldmVEFYNFplczJkVE9LOEt0bUZ5ZzNtSFJEdEU0M2VqMmRaYVNMWDVMaTBUSW5VMU9UaHp6QWEyN1hreGNIXzctVjZDQ2pFb0t2YU9aZHBvS9IB5gFBVV95cUxQVDlVNTkyZlEza19KWHZ3QUZjMTJnYzdjZVJWRWdEY2tWX2dpcUtSZExLdnh5MktLQ0tZdFVGSTZXNGM4UVJ2Ty1YUzJYbXJDeVBCU2lOdmZNZUp3WDhLYUI0aTVYZW45N2dYeG81eko0b3YyNDB2Z0o3dWExZ19IeWFIRUpzSlFGa2paakt2dWhfX3lBbGo0clc2UHNSX1czRGdReTA0aXZVR3BfUHpRRGVwQzNHcU13MVhvN0dpN3ZKMElxYzZFdGNRMUNVMmxTOVFTUTlRdDBNcjhPeEZTNkk3bExsdw?oc=5"
+        }
+      ],
+      "rankLabel": "5 fontes verificadas + Google Trends",
+      "publishedAt": "12/06/2026, 21:03",
+      "timeAgo": "Radar ao vivo",
+      "score": 131,
+      "sourceCount": 5,
+      "trendBoost": true,
+      "trendMatches": [
+        "virginia e vini jr"
+      ]
+    },
     {
       "id": "QmVsbGEgTG9uZ3Vpbmhv",
       "slug": "bella-longuinho-expoe-detalhes-de-agressao-sofrida-pelo-ex-namorado",
@@ -39,53 +825,6 @@
         {
           "label": "MidiaNews",
           "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZV9zN1F5azlxVl8wZmsyUkdwX3h0bGNHcjc5RHNRcC16Y0M0SGFZWnBMbWtmVUFWQ1BhVnhBdkJjQjdFUHlHMktxN3E1bGNNa2szc3RwUVF3RzMtM1cyZWJCeWx1RUhNWVROQnVJOG12WVBadTQtc2RHV0gxbF9YTnNSVEdJTllKNW9MZGNWdGcybXVqSHROd3c0SHE0S1R6b2Mwc0hZMkJXQkNpc3JTT01CR2prTFZ0S093T2E5M0FVQ0lBOG9ud3dpMDFRXzhUNk9STkk3UG40T01sLV9pZ3VKOXFWc0dr?oc=5"
-        }
-      ],
-      "rankLabel": "5 fontes verificadas",
-      "publishedAt": "12/06/2026, 20:51",
-      "timeAgo": "Radar ao vivo",
-      "score": 98,
-      "sourceCount": 5,
-      "trendBoost": false,
-      "trendMatches": []
-    },
-    {
-      "id": "w4JuY29yYSBkbyBTQlQg",
-      "slug": "ancora-do-sbt-news-se-irrita-e-da-bronca-na-equipe-ao-vivo",
-      "category": "TV",
-      "title": "Âncora do SBT News se irrita e dá bronca na equipe ao vivo",
-      "excerpt": "Amanda Klein, âncora do SBT News, se irritou e reclamou da equipe ao vivo após problema no teleprompter.",
-      "body": [
-        "A âncora do SBT News, Amanda Klein, passou por um perrengue ao vivo e acabou se irritando com a equipe. Durante a transmissão, ela reclamou abertamente e deu uma bronca nos profissionais que trabalhavam no programa.",
-        "O motivo da irritação foi um problema no teleprompter, que atrapalhou a leitura das notícias. Klein não segurou a língua e chamou a atenção da equipe ao vivo, gerando repercussão.",
-        "O incidente ocorreu durante a edição do telejornal e foi registrado em vídeo. A atitude da jornalista dividiu opiniões entre os telespectadores."
-      ],
-      "image": "/images/news-placeholder.svg",
-      "imagePosition": "center center",
-      "articleImagePosition": "center center",
-      "imageCredit": "Imagem pendente de revisão",
-      "sourceLabel": "Origem: Notícias da TV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5",
-      "sources": [
-        {
-          "label": "Notícias da TV",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
-        },
-        {
-          "label": "NaTelinha",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
-        },
-        {
-          "label": "RD1",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
-        },
-        {
-          "label": "Metropolitana",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
-        },
-        {
-          "label": "Bnews",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5"
         }
       ],
       "rankLabel": "5 fontes verificadas",
@@ -139,98 +878,6 @@
       "publishedAt": "12/06/2026, 20:51",
       "timeAgo": "Radar ao vivo",
       "score": 98,
-      "sourceCount": 5,
-      "trendBoost": false,
-      "trendMatches": []
-    },
-    {
-      "id": "UXVhbCBhdmFsaWHDp8Oj",
-      "slug": "vivao-e-o-novo-patrao-da-semana-em-casa-do-patrao",
-      "category": "TV",
-      "title": "Vivão é o novo Patrão da semana em Casa do Patrão",
-      "excerpt": "Alexandre Vivão venceu a Prova do Patrão e agora avalia o desempenho dos concorrentes no Trampo.",
-      "body": [
-        "Alexandre Vivão venceu a Prova do Patrão e se tornou o mandachuva da semana em 'Casa do Patrão'. Como Patrão, ele agora avalia o desempenho dos concorrentes no Trampo.",
-        "Na mesma semana, o programa 'Casa do Patrão' conseguiu vitória contra o Ratinho e ficou na vice-liderança de audiência. Os participantes também enfrentaram um desafio na esteira em disputa pelo cargo de Patrão."
-      ],
-      "image": "/images/news-placeholder.svg",
-      "imagePosition": "center center",
-      "articleImagePosition": "center center",
-      "imageCredit": "Imagem pendente de revisão",
-      "sourceLabel": "Origem: R7",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5",
-      "sources": [
-        {
-          "label": "R7",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
-        },
-        {
-          "label": "Notícias da TV",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
-        },
-        {
-          "label": "O Universo da TV",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
-        },
-        {
-          "label": "tracklist.com.br",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
-        },
-        {
-          "label": "TV RECORD EUROPA",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5"
-        }
-      ],
-      "rankLabel": "5 fontes verificadas",
-      "publishedAt": "12/06/2026, 20:50",
-      "timeAgo": "Radar ao vivo",
-      "score": 98,
-      "sourceCount": 5,
-      "trendBoost": false,
-      "trendMatches": []
-    },
-    {
-      "id": "VFYsIG1hcXVpYWdlbSwg",
-      "slug": "rotina-de-deolane-bezerra-na-prisao-inclui-maquiagem-e-chapinha",
-      "category": "Famosos",
-      "title": "Rotina de Deolane Bezerra na prisão inclui maquiagem e chapinha",
-      "excerpt": "Fotos mostram cela com itens de beleza e visita íntima; Secretaria nega denúncias de falta de higiene.",
-      "body": [
-        "A rotina de Deolane Bezerra na prisão inclui itens de beleza como batom, creme, esmalte, sombra e chapinha, além de direito a visita íntima, segundo informações divulgadas pela imprensa.",
-        "Fotos do presídio foram divulgadas após a defesa denunciar falta de higiene e presença de escorpiões na cela. A Secretaria, no entanto, nega que a cela tenha comida estragada e escorpião."
-      ],
-      "image": "/images/news-placeholder.svg",
-      "imagePosition": "center center",
-      "articleImagePosition": "center center",
-      "imageCredit": "Imagem pendente de revisão",
-      "sourceLabel": "Origem: Portal Leo Dias",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5",
-      "sources": [
-        {
-          "label": "Portal Leo Dias",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
-        },
-        {
-          "label": "G1",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
-        },
-        {
-          "label": "UOL Notícias",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
-        },
-        {
-          "label": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
-        },
-        {
-          "label": "R7",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5"
-        }
-      ],
-      "rankLabel": "5 fontes verificadas",
-      "publishedAt": "12/06/2026, 20:50",
-      "timeAgo": "Radar ao vivo",
-      "score": 104,
       "sourceCount": 5,
       "trendBoost": false,
       "trendMatches": []
@@ -374,50 +1021,6 @@
       "sourceCount": 5,
       "trendBoost": false,
       "trendMatches": []
-    },
-    {
-      "id": "RGVzZW1wcmVnYWRvIHBv",
-      "slug": "gui-ferraz-quase-desistiu-da-carreira-apos-quatro-anos-desempregado",
-      "category": "Famosos",
-      "title": "Gui Ferraz quase desistiu da carreira após quatro anos desempregado",
-      "excerpt": "Ator de 'Quem Ama Cuida' e da série 'Brasil 70' revela que passou quase quatro anos sem trabalho e pensou em desistir.",
-      "body": [
-        "O ator Gui Ferraz, que interpreta Tiago na novela 'Quem Ama Cuida' e também está na série 'Brasil 70', relembrou uma fase difícil na carreira. Ele passou quase quatro anos desempregado e chegou a pensar em desistir.",
-        "A informação foi divulgada em reportagens do Notícias da TV e do Extra online. O ator ganhou destaque recentemente por seus papéis na novela das 9 e na série da Netflix sobre a Copa."
-      ],
-      "image": "/images/news-placeholder.svg",
-      "imagePosition": "center center",
-      "articleImagePosition": "center center",
-      "imageCredit": "Imagem pendente de revisão",
-      "sourceLabel": "Origem: Notícias da TV",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
-      "sources": [
-        {
-          "label": "Notícias da TV",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5"
-        },
-        {
-          "label": "Extra online",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5"
-        },
-        {
-          "label": "Correio Braziliense",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5"
-        },
-        {
-          "label": "NaTelinha",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5"
-        }
-      ],
-      "rankLabel": "4 fontes verificadas + Google Trends",
-      "publishedAt": "12/06/2026, 20:48",
-      "timeAgo": "Radar ao vivo",
-      "score": 137,
-      "sourceCount": 4,
-      "trendBoost": true,
-      "trendMatches": [
-        "resumo da novela quem ama cuida"
-      ]
     },
     {
       "id": "U2VtIGNpdGFyIG5vbWVz",
@@ -607,7 +1210,7 @@
       "id": "J0NhbmRpZMOtYXNlJyBu",
       "slug": "diogo-nogueira-revela-candidiase-nas-cordas-vocais-e-atualiza-estado-de-saude",
       "category": "Música",
-      "title": "Diogo Nogueira revela candidíase nas cordas vocais e atualiza estado de saúde",
+      "title": "Diogo Nogueira revela candidíase nas cordas vocais",
       "excerpt": "Cantor Diogo Nogueira revelou estar com candidíase nas cordas vocais e explicou o tratamento. Ele também atualizou seu estado de saúde após laringite bacteriana.",
       "body": [
         "O cantor Diogo Nogueira revelou estar com candidíase nas cordas vocais e explicou o tratamento para a condição. A informação foi divulgada após seu problema de saúde chamar atenção no programa 'Encontro'.",
@@ -789,53 +1392,6 @@
       "trendMatches": []
     },
     {
-      "id": "QW5hIENhc3RlbGEgYW51",
-      "slug": "ana-castela-anuncia-medidas-judiciais-contra-leo-dias-apos-acusacao-de-traicao",
-      "category": "Famosos",
-      "title": "Ana Castela anuncia medidas judiciais contra Leo Dias após acusação de traição",
-      "excerpt": "Cantora nega ter traído Gustavo Mioto com Zé Felipe e diz que vai processar o jornalista.",
-      "body": [
-        "Ana Castela anunciou que tomará medidas judiciais contra o jornalista Leo Dias após ser acusada de trair o ex-namorado Gustavo Mioto com Zé Felipe. A informação foi divulgada por veículos como Jornal Correio e Notícias da TV.",
-        "A equipe da cantora se pronunciou após os rumores de traição virem à tona. Leo Dias afirmou que Ana Castela teria engatado um relacionamento com Zé Felipe antes de terminar com Mioto.",
-        "Ana Castela nega a traição e diz que vai processar Leo Dias. A cantora anunciou 'providências judiciais' contra o jornalista."
-      ],
-      "image": "/images/news-placeholder.svg",
-      "imagePosition": "center center",
-      "articleImagePosition": "center center",
-      "imageCredit": "Imagem pendente de revisão",
-      "sourceLabel": "Origem: Jornal Correio",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5",
-      "sources": [
-        {
-          "label": "Jornal Correio",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
-        },
-        {
-          "label": "Notícias da TV",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
-        },
-        {
-          "label": "Midiamax",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
-        },
-        {
-          "label": "Rádio Itatiaia",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
-        },
-        {
-          "label": "Pipoca Moderna",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRllvODJFbG9wNkMxajUxekRzdVJpa2ZzRGl0ZENRSXJvYlpiVEZRVWVmNkRTbDRoVEl5UFFWVkhpNzZNMDNFaVpnOTMwb01zQ0RpVDJCUkxwNk5mZ1lZN3MtbFkzUVh3ZlJ1VmRjanZaVi05VTRyNXUtb245SkFJMjc3ZXdaSFExU2pJbmZraE9ONjM4a2VhcHVSZS1wSmdRZEN0Y25nX0lsRlRvQ3UtVlhpODNwQ0VockVTZmp0dzVWQWJ0MW1oVUhZOXktSkMwM194YmwtUDNoUDFnZHY2LUM4ZHltZExwa3c?oc=5"
-        }
-      ],
-      "rankLabel": "5 fontes verificadas",
-      "publishedAt": "12/06/2026, 17:49",
-      "timeAgo": "Radar ao vivo",
-      "score": 98,
-      "sourceCount": 5,
-      "trendBoost": false,
-      "trendMatches": []
-    },
-    {
       "id": "J07Do28gc2ludG8gZmFs",
       "slug": "nuno-leal-maia-volta-aos-palcos-e-diz-que-nunca-gostou-de-novelas",
       "category": "Famosos",
@@ -1000,7 +1556,7 @@
         "Esta é a segunda vez que o Canadá sedia uma abertura de Copa do Mundo, e o evento já começa a gerar comparações com edições anteriores. Enquanto isso, o público pode acompanhar tudo ao vivo por canais de televisão e plataformas de streaming. A transmissão promete capturar cada detalhe da festa, desde as performances até os momentos de emoção.",
         "Para os fãs de Anitta, a apresentação na Copa representa mais um passo em sua carreira internacional. A cantora já se apresentou em eventos como o Grammy Latino e o Rock in Rio, mas o palco da Copa do Mundo amplia ainda mais seu alcance. A expectativa é que ela traga coreografias e hits que conquistaram o público brasileiro e global.",
         "Alanis Morissette, que já vendeu milhões de discos, retorna aos holofotes com uma performance que mistura nostalgia e patriotismo. O hino canadense, cantado por ela, deve emocionar tanto os presentes no estádio quanto os telespectadores. A cantora é conhecida por sua voz potente e por sucessos como 'Ironic' e 'You Oughta Know'.",
-        "A Copa do Mundo 2026 promete ser histórica, e a abertura no Canadá já dá o tom do que está por vir. Com Anitta e Alanis Morissette no centro das atenções, o evento une música, esporte e cultura em uma celebração global. Fique ligado para mais informações sobre horários e transmissão ao vivo."
+        "A Copa do Mundo 2026 promete ser histórica, e a abertura no Canadá já dá o tom do que está por vir. Com Anitta e Alanis Morissette no centro das atenções, o evento une música, esporte e cultura em uma celebração global.."
       ],
       "image": "/images/auto/anitta-e-alanis-morissette-comandam-abertura-da-copa-do-mundo-2026-no-canada.jpg",
       "imagePosition": "center center",
@@ -1091,58 +1647,6 @@
       "trendMatches": []
     },
     {
-      "id": "QXRvciBkZSBPIFBvZGVy",
-      "slug": "morre-anthony-guidera-ator-de-o-poderoso-chefao-3-e-armageddon-aos-65-anos",
-      "category": "Famosos",
-      "title": "Morre Anthony Guidera, ator de ‘O Poderoso Chefão 3’ e ‘Armageddon’, aos 65 anos",
-      "excerpt": "O ator Anthony Guidera, conhecido por papéis em ‘O Poderoso Chefão: Parte III’ e ‘Armageddon’, faleceu aos 65 anos. A causa da morte não foi divulgada.",
-      "body": [
-        "O ator Anthony Guidera morreu aos 65 anos, conforme confirmado por fontes ligadas à família. Ele era conhecido por sua participação em ‘O Poderoso Chefão: Parte III’ (1990), onde interpretou um dos capangas da máfia, e no blockbuster ‘Armageddon’ (1998), como um dos técnicos da missão espacial. A causa da morte não foi revelada até o momento.",
-        "Nascido em 1964, Guidera começou a carreira no cinema nos anos 1980, com pequenos papéis em filmes de ação e drama. Seu talento para personagens de perfil mais duro o levou a trabalhar com diretores renomados, como Francis Ford Coppola e Michael Bay. Apesar de não ser um nome de destaque em Hollywood, ele construiu uma trajetória sólida no cinema comercial.",
-        "Em ‘O Poderoso Chefão: Parte III’, ele contracenou com Al Pacino e Andy García, em uma das franquias mais aclamadas da história. Já em ‘Armageddon’, viveu o técnico ‘Bear’, parte da equipe que tenta salvar a Terra de um asteroide. O filme foi um sucesso de bilheteria e consolidou sua presença em produções de grande orçamento.",
-        "Além desses dois títulos, Guidera participou de séries como ‘The X-Files’ e ‘JAG’, além de filmes independentes. Sua versatilidade permitiu que transitasse entre o cinema e a televisão com frequência, mantendo uma carreira ativa por mais de três décadas. Colegas de elenco destacaram sua ética de trabalho e simpatia nos sets.",
-        "A notícia da morte foi divulgada por veículos internacionais, mas ainda não há informações sobre velório ou cerimônia. Fãs e admiradores usaram as redes sociais para prestar homenagens, lembrando cenas marcantes de seus filmes. A família pediu privacidade neste momento de luto e não se pronunciou oficialmente.",
-        "Guidera deixa um legado de personagens coadjuvantes que marcaram o cinema de ação e drama dos anos 1990 e 2000. Seu trabalho em ‘Armageddon’ é frequentemente citado por fãs do gênero como um dos papéis mais memoráveis. A indústria perde um profissional dedicado, que contribuiu para histórias que atravessaram gerações.",
-        "O ator não era conhecido por polêmicas ou vida pessoal exposta, preferindo manter um perfil discreto. Sua morte pegou muitos de surpresa, já que não havia relatos recentes de problemas de saúde. A causa do falecimento ainda não foi confirmada por fontes oficiais, e a expectativa é de que mais detalhes sejam divulgados nos próximos dias.",
-        "Com a partida de Anthony Guidera, o cinema perde um intérprete que, mesmo em papéis secundários, soube dar profundidade a seus personagens. Sua filmografia inclui mais de 20 produções, e seu nome permanecerá ligado a clássicos como ‘O Poderoso Chefão: Parte III’. Fãs podem revisitar seu trabalho em plataformas de streaming que mantêm esses títulos em catálogo."
-      ],
-      "image": "/images/auto/morre-anthony-guidera-ator-de-o-poderoso-chefao-3-e-armageddon-aos-65-anos.webp",
-      "imagePosition": "center center",
-      "articleImagePosition": "center center",
-      "imageCredit": "Imagem ilustrativa: adorocinema.com",
-      "sourceLabel": "Origem: Omelete",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2pKRnlMWlkwb1ZFV0JNblJrWEFIbUZrTUIyMExtU0RNY3M2THhpTzFpQTN2ekplUldST0lNN2g2RGtPamVfU2M1ekJjRDZpSkhaalN6UDdiY0d0b3VESUJvTGJvOWdSS1lSNzVBNk9zdmdvbzh3LUdZd2VsZnlXYl85Yw?oc=5",
-      "sources": [
-        {
-          "label": "Omelete",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2pKRnlMWlkwb1ZFV0JNblJrWEFIbUZrTUIyMExtU0RNY3M2THhpTzFpQTN2ekplUldST0lNN2g2RGtPamVfU2M1ekJjRDZpSkhaalN6UDdiY0d0b3VESUJvTGJvOWdSS1lSNzVBNk9zdmdvbzh3LUdZd2VsZnlXYl85Yw?oc=5"
-        },
-        {
-          "label": "Folha de S.Paulo",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2pKRnlMWlkwb1ZFV0JNblJrWEFIbUZrTUIyMExtU0RNY3M2THhpTzFpQTN2ekplUldST0lNN2g2RGtPamVfU2M1ekJjRDZpSkhaalN6UDdiY0d0b3VESUJvTGJvOWdSS1lSNzVBNk9zdmdvbzh3LUdZd2VsZnlXYl85Yw?oc=5"
-        },
-        {
-          "label": "Estadão",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2pKRnlMWlkwb1ZFV0JNblJrWEFIbUZrTUIyMExtU0RNY3M2THhpTzFpQTN2ekplUldST0lNN2g2RGtPamVfU2M1ekJjRDZpSkhaalN6UDdiY0d0b3VESUJvTGJvOWdSS1lSNzVBNk9zdmdvbzh3LUdZd2VsZnlXYl85Yw?oc=5"
-        },
-        {
-          "label": "CinePOP Cinema",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2pKRnlMWlkwb1ZFV0JNblJrWEFIbUZrTUIyMExtU0RNY3M2THhpTzFpQTN2ekplUldST0lNN2g2RGtPamVfU2M1ekJjRDZpSkhaalN6UDdiY0d0b3VESUJvTGJvOWdSS1lSNzVBNk9zdmdvbzh3LUdZd2VsZnlXYl85Yw?oc=5"
-        },
-        {
-          "label": "Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2pKRnlMWlkwb1ZFV0JNblJrWEFIbUZrTUIyMExtU0RNY3M2THhpTzFpQTN2ekplUldST0lNN2g2RGtPamVfU2M1ekJjRDZpSkhaalN6UDdiY0d0b3VESUJvTGJvOWdSS1lSNzVBNk9zdmdvbzh3LUdZd2VsZnlXYl85Yw?oc=5"
-        }
-      ],
-      "rankLabel": "5 fontes verificadas",
-      "publishedAt": "12/06/2026, 16:50",
-      "timeAgo": "Radar ao vivo",
-      "score": 106,
-      "sourceCount": 5,
-      "trendBoost": false,
-      "trendMatches": []
-    },
-    {
       "id": "RGlhIGRvcyBOYW1vcmFk",
       "slug": "dia-dos-namorados-67-dos-restaurantes-esperam-faturamento-maior",
       "category": "Gastronomia",
@@ -1161,7 +1665,7 @@
       "image": "/images/auto/dia-dos-namorados-67-dos-restaurantes-esperam-faturamento-maior.avif",
       "imagePosition": "center center",
       "articleImagePosition": "center center",
-      "imageCredit": "imagem-ia-premium/um-jovem-casal-esta-sentado-em-um-restaurante-italiano-rindo-e-se-divertindo_64094395.htm\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://www.magnific.com/b",
+      "imageCredit": "Freepik",
       "sourceLabel": "Origem: Campo Grande News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNVBwOG80V1dTLWZFYnV1cWtRalhZa2FLWEZveU4tTlpvaUJuZFliSEg5YlB4Y2VodzF6QVM4QlhFNnRmb3FQN0pwNWV0Y0xOeGNzTVl3elpVNnlRdmF1YkNiTC04eTI5VTJvZTJEdXVfeU1mMWx5VWZVd0JLclhfVktuUHZqTkxTdkZSbm1wTHVZRDRmdzczWTJ2V3JLNlE0dzN5ZFRvaEE4TGxXdk1GNjZnNDfSAbQBQVVfeXFMUEZyMmd3Tm5HbHFQUE9IMFZuelI4T0xyQllHNl9veWtuWmdIN1V0VTl2aWFQbFVyWkZFMzNvT0JEb3RhNmd6ZUx2RkVSMHA2OEcwMzZ6TTdCMXBRQ1dXOHVDNy1FdEZOQlBIVlF5aHA4THJFLVlEcTFkejJVU2FIWEp5YUtvZ3dVNGJGTm95dE1FVEdPNlZaekZfemJwaUJjQkJrTGxyLUNoXzJrT29MR3E5Z1N3?oc=5",
       "sources": [
@@ -1184,58 +1688,6 @@
         {
           "label": "GZH",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNVBwOG80V1dTLWZFYnV1cWtRalhZa2FLWEZveU4tTlpvaUJuZFliSEg5YlB4Y2VodzF6QVM4QlhFNnRmb3FQN0pwNWV0Y0xOeGNzTVl3elpVNnlRdmF1YkNiTC04eTI5VTJvZTJEdXVfeU1mMWx5VWZVd0JLclhfVktuUHZqTkxTdkZSbm1wTHVZRDRmdzczWTJ2V3JLNlE0dzN5ZFRvaEE4TGxXdk1GNjZnNDfSAbQBQVVfeXFMUEZyMmd3Tm5HbHFQUE9IMFZuelI4T0xyQllHNl9veWtuWmdIN1V0VTl2aWFQbFVyWkZFMzNvT0JEb3RhNmd6ZUx2RkVSMHA2OEcwMzZ6TTdCMXBRQ1dXOHVDNy1FdEZOQlBIVlF5aHA4THJFLVlEcTFkejJVU2FIWEp5YUtvZ3dVNGJGTm95dE1FVEdPNlZaekZfemJwaUJjQkJrTGxyLUNoXzJrT29MR3E5Z1N3?oc=5"
-        }
-      ],
-      "rankLabel": "5 fontes verificadas",
-      "publishedAt": "12/06/2026, 16:49",
-      "timeAgo": "Radar ao vivo",
-      "score": 106,
-      "sourceCount": 5,
-      "trendBoost": false,
-      "trendMatches": []
-    },
-    {
-      "id": "VmluZ2Fkb3JlczogRG91",
-      "slug": "marvel-revela-primeiros-detalhes-da-trama-de-vingadores-doutor-destino",
-      "category": "entretenimento",
-      "title": "Marvel revela primeiros detalhes da trama de Vingadores: Doutor Destino",
-      "excerpt": "A Marvel Studios divulgou informações iniciais sobre o novo filme dos Vingadores, que terá Victor von Doom como protagonista.",
-      "body": [
-        "A Marvel Studios divulgou a primeira sinopse oficial de 'Vingadores: Doutor Destino', um dos filmes mais aguardados do estúdio. A trama promete explorar a origem e os planos do icônico vilão Victor von Doom, que ganhará destaque como o grande antagonista da nova fase do universo cinematográfico. A história deve se passar após os eventos de 'Vingadores: Dinastia Kang', conectando diretamente com as consequências deixadas pelo conflito anterior.",
-        "De acordo com as informações iniciais, o longa-metragem apresentará um Doutor Destino diferente do que os fãs conhecem dos quadrinhos. A produção pode trazer uma origem alternativa para o personagem, o que gerou grande expectativa entre os seguidores da franquia. A abordagem inédita promete surpreender e renovar o interesse pelo vilão, que é um dos mais complexos e poderosos do universo Marvel.",
-        "Além da sinopse, vazamentos de brinquedos da linha LEGO indicam possíveis detalhes sobre o visual de Doutor Destino. As imagens sugerem que Robert Downey Jr. pode interpretar o personagem, usando uma armadura que remete ao seu passado como Homem de Ferro. Essa especulação, no entanto, ainda não foi confirmada pela Marvel, que mantém segredo sobre o elenco completo do filme.",
-        "Os fãs também especulam sobre a presença de um personagem mágico poderoso na trama. A sinopse menciona elementos sobrenaturais que podem estar ligados a Stephen Strange ou a outra figura mística do universo Marvel. A inclusão de magia no enredo reforça a ideia de que Doutor Destino não é apenas um gênio da tecnologia, mas também um mestre das artes ocultas.",
-        "A expectativa em torno de 'Vingadores: Doutor Destino' é enorme, especialmente após o sucesso de 'Vingadores: Ultimato'. O filme promete fechar arcos importantes e preparar o terreno para os próximos passos do MCU. A Marvel Studios aposta em uma narrativa densa e cheia de reviravoltas para manter o público engajado e ansioso por cada novo detalhe.",
-        "O lançamento está previsto para os próximos anos, mas a produção já está em andamento. A equipe criativa trabalha para garantir que o filme atenda às altas expectativas dos fãs. A sinopse oficial, mesmo que resumida, já dá pistas sobre o tom sombrio e épico que a história terá, combinando ação, drama e elementos fantásticos.",
-        "Enquanto aguardam mais informações, os fãs continuam a debater teorias sobre o enredo e o papel de Doutor Destino no universo Marvel. A possibilidade de uma origem alternativa e a participação de Robert Downey Jr. alimentam ainda mais as discussões nas redes sociais e fóruns especializados. A Marvel, por sua vez, mantém o mistério, liberando informações aos poucos para manter o hype.",
-        "Com a primeira sinopse em mãos, o público já pode começar a imaginar o que esperar de 'Vingadores: Doutor Destino'. O filme promete ser um marco na história do cinema de super-heróis, trazendo um vilão à altura dos maiores desafios já enfrentados pelos Vingadores. Resta aguardar os próximos capítulos dessa jornada que promete emocionar e surpreender."
-      ],
-      "image": "/images/auto/marvel-revela-primeiros-detalhes-da-trama-de-vingadores-doutor-destino.jpg",
-      "imagePosition": "center center",
-      "articleImagePosition": "center center",
-      "imageCredit": "Foto: Divulgação",
-      "sourceLabel": "Origem: Omelete",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZGNXYjN4THMxZFgwdG1NLVNja3Y5LTFPcHBhaHZya1dZZEZ6UFdTaUpySVJ6M2EtMm9KNzI3NkRPMm1ySTF2UEVtZEFZdHZyMTVoUmlnMl9tVG9Za09lTGJMQXIyLXNtdGx4YkxQS1I0TC1JMWc5Vk5lWXlZajJ0WEppVDBDUnNIT1Flcg?oc=5",
-      "sources": [
-        {
-          "label": "Omelete",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZGNXYjN4THMxZFgwdG1NLVNja3Y5LTFPcHBhaHZya1dZZEZ6UFdTaUpySVJ6M2EtMm9KNzI3NkRPMm1ySTF2UEVtZEFZdHZyMTVoUmlnMl9tVG9Za09lTGJMQXIyLXNtdGx4YkxQS1I0TC1JMWc5Vk5lWXlZajJ0WEppVDBDUnNIT1Flcg?oc=5"
-        },
-        {
-          "label": "einerd.com",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZGNXYjN4THMxZFgwdG1NLVNja3Y5LTFPcHBhaHZya1dZZEZ6UFdTaUpySVJ6M2EtMm9KNzI3NkRPMm1ySTF2UEVtZEFZdHZyMTVoUmlnMl9tVG9Za09lTGJMQXIyLXNtdGx4YkxQS1I0TC1JMWc5Vk5lWXlZajJ0WEppVDBDUnNIT1Flcg?oc=5"
-        },
-        {
-          "label": "CinePOP Cinema",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZGNXYjN4THMxZFgwdG1NLVNja3Y5LTFPcHBhaHZya1dZZEZ6UFdTaUpySVJ6M2EtMm9KNzI3NkRPMm1ySTF2UEVtZEFZdHZyMTVoUmlnMl9tVG9Za09lTGJMQXIyLXNtdGx4YkxQS1I0TC1JMWc5Vk5lWXlZajJ0WEppVDBDUnNIT1Flcg?oc=5"
-        },
-        {
-          "label": "games.gg",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZGNXYjN4THMxZFgwdG1NLVNja3Y5LTFPcHBhaHZya1dZZEZ6UFdTaUpySVJ6M2EtMm9KNzI3NkRPMm1ySTF2UEVtZEFZdHZyMTVoUmlnMl9tVG9Za09lTGJMQXIyLXNtdGx4YkxQS1I0TC1JMWc5Vk5lWXlZajJ0WEppVDBDUnNIT1Flcg?oc=5"
-        },
-        {
-          "label": "Cabana do Leitor",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZGNXYjN4THMxZFgwdG1NLVNja3Y5LTFPcHBhaHZya1dZZEZ6UFdTaUpySVJ6M2EtMm9KNzI3NkRPMm1ySTF2UEVtZEFZdHZyMTVoUmlnMl9tVG9Za09lTGJMQXIyLXNtdGx4YkxQS1I0TC1JMWc5Vk5lWXlZajJ0WEppVDBDUnNIT1Flcg?oc=5"
         }
       ],
       "rankLabel": "5 fontes verificadas",
