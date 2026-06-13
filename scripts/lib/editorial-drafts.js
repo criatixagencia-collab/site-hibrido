@@ -186,7 +186,7 @@ async function callReviewEndpoint({ url, key, model, provider, payload }) {
         {
           role: "system",
           content:
-            "Voce e um revisor factual rigoroso. Compare cada afirmacao especifica do texto somente com as evidencias fornecidas. Nao use memoria externa. Reprove exagero, previsao, contexto biografico, numero, data, fala, agenda, causa, consequencia ou adjetivo promocional sem apoio explicito. ATENCAO: uma pessoa ser mencionada nas evidencias NAO significa que ela participou do fato noticiado. Conexoes entre duas pessoas/eventos (ex: X comentou no post de Y, X reagiu a Y) so sao validas se uma mesma evidencia explicitar essa conexao. Retorne apenas JSON valido.",
+            "Voce e um revisor factual rigoroso. Compare cada afirmacao especifica do texto somente com as evidencias fornecidas. Nao use memoria externa. Reprove exagero, previsao, contexto biografico, numero, data, fala, agenda, causa, consequencia ou adjetivo promocional sem apoio explicito. ATENCAO: uma pessoa ser mencionada nas evidencias NAO significa que ela participou do fato noticiado. Conexoes entre duas pessoas/eventos (ex: X comentou no post de Y, X reagiu a Y) so sao validas se uma mesma evidencia explicitar essa conexao. Retorne apenas JSON valido. TAMBEM REPROVE textos que citam fontes no corpo ('segundo uma das manchetes', 'uma das manchetes informa', 'foi divulgada em reportagens').",
         },
         {
           role: "user",
@@ -245,7 +245,7 @@ async function requestIndependentReview(payload) {
           {
             role: "system",
             content:
-              "Voce e um revisor factual rigoroso. Compare cada afirmacao especifica do texto somente com as evidencias fornecidas. Nao use memoria externa. Reprove exagero, previsao, contexto biografico, numero, data, fala, agenda, causa, consequencia ou adjetivo promocional sem apoio explicito. ATENCAO: uma pessoa ser mencionada nas evidencias NAO significa que ela participou do fato noticiado. Conexoes entre duas pessoas/eventos (ex: X comentou no post de Y, X reagiu a Y) so sao validas se uma mesma evidencia explicitar essa conexao. Retorne apenas JSON valido.",
+              "Voce e um revisor factual rigoroso. Compare cada afirmacao especifica do texto somente com as evidencias fornecidas. Nao use memoria externa. Reprove exagero, previsao, contexto biografico, numero, data, fala, agenda, causa, consequencia ou adjetivo promocional sem apoio explicito. ATENCAO: uma pessoa ser mencionada nas evidencias NAO significa que ela participou do fato noticiado. Conexoes entre duas pessoas/eventos (ex: X comentou no post de Y, X reagiu a Y) so sao validas se uma mesma evidencia explicitar essa conexao. Retorne apenas JSON valido. TAMBEM REPROVE textos que citam fontes no corpo ('segundo uma das manchetes', 'uma das manchetes informa', 'foi divulgada em reportagens').",
           },
           {
             role: "user",
@@ -348,6 +348,7 @@ function generationMessages(item, evidenceClaims, correction = []) {
           "Use exclusivamente informacoes explicitamente contidas em evidenceClaims.",
           "Priorize fatos repetidos por mais de uma manchete e descarte linhas laterais que tratem de outro assunto.",
           "Nao invente contexto de carreira, agenda, bastidor, causa, consequencia, reacao do publico ou declaracao.",
+          "NAO cite fontes no corpo do texto. Frases como 'segundo uma das manchetes', 'uma das manchetes informa', 'a informacao foi divulgada em reportagens do/da' ou qualquer referencia ao processo de apuracao SAO PROIBIDAS. As fontes aparecem separadas ao final da pagina, nao no texto.",
           "UMA PESSOA ESTAR NAS EVIDENCIAS NAO SIGNIFICA que ela participou do fato ou interagiu com outra pessoa. So escreva \"X comentou\", \"X reagiu\" ou \"X disse\" se a evidencia explicitar essa acao.",
           "Nao transforme possibilidade em fato.",
           "Nao use fechamento institucional, previsao sobre repercussao ou promessa de atualizacao.",
