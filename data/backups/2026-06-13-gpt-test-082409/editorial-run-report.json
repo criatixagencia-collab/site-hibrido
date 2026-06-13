@@ -1,0 +1,520 @@
+{
+  "generatedAt": "2026-06-13T03:00:31.048Z",
+  "target": 20,
+  "minimum": 5,
+  "candidatesAvailable": 40,
+  "candidatesAttempted": 40,
+  "approved": 17,
+  "rejected": 23,
+  "errors": 0,
+  "status": "target-met",
+  "outcomes": [
+    {
+      "id": "R2xvYm8gY29udHJhdGEg",
+      "title": "Globo contrata Lucas Guedez, amigo de Virginia Fonseca, para quadro na Copa do Mundo",
+      "categoryHint": "TV",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "tamanho inadequado (44 palavras)"
+      ]
+    },
+    {
+      "id": "Q2Fkw6F2ZXIgw6kgZW5j",
+      "title": "Cadáver é encontrado em frente ao estádio onde a seleção iraniana treina para Copa do Mundo",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "As evidências disponíveis tratam de uma ocorrência policial ligada ao local de treino da seleção iraniana no México e não se encaixam com clareza em nenhuma das editorias permitidas: Famosos, Música, TV ou Cinema.",
+        "titulo ausente ou longo",
+        "quantidade de paragrafos fora do limite (0)",
+        "tamanho inadequado (0 palavras)"
+      ]
+    },
+    {
+      "id": "RXN0ZSBmb2kgbyBlZmVp",
+      "title": "Este foi o efeito do 1º dia de Copa do Mundo no Ibope das novelas da Globo",
+      "categoryHint": "TV",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "O texto está apoiado em boa parte pelos títulos fornecidos, mas usa formulações genéricas e pouco informativas como 'teve audiência medida', o que caracteriza enchimento.",
+        "Há leve deriva de foco: o título e o texto misturam três ganchos diferentes (Globo/SBT/CazéTV, 46 milhões da Globo e efeito nas novelas), sem amarração editorial clara.",
+        "A expressão 'nesse início de cobertura' no corpo não está ancorada de forma específica nas evidências fornecidas.",
+        "Também houve efeito no Ibope das novelas da emissora nesse início de cobertura."
+      ]
+    },
+    {
+      "id": "J0RhaSBEYWknLi4uIG1h",
+      "title": "'Dai Dai'... mas era mesmo Shakira? Aparência da cantora na abertura da Copa 2026 intriga web; entenda",
+      "generatedTitle": "Aparição de Shakira na Copa 2026 gera dúvidas entre fãs",
+      "categoryHint": "Música",
+      "category": "Música",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 1,
+      "confidence": 0.93,
+      "reasons": []
+    },
+    {
+      "id": "RGlhIEQgfCBGaWxtZSBk",
+      "title": "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
+      "categoryHint": "Cinema",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "Há enchimento genérico no texto, especialmente em: \"A chegada de “Dia D” aos cinemas concentra as informações reunidas sobre o início da exibição do longa.\" A frase não acrescenta informação factual nova.",
+        "As evidências fornecidas são apenas títulos, então o apoio factual é de nível superficial/headline; isso basta para as afirmações principais, mas não para expandi-las muito além do que está explicitado."
+      ]
+    },
+    {
+      "id": "QXDDs3MgYW7Dum5jaW8g",
+      "title": "Após anúncio de gravidez, Tati Machado recebe presente da equipe do Mais Você",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "Há enchimento genérico em 'aparecem entre os principais fatos ligados ao momento', que não acrescenta informação factual verificável.",
+        "A menção ao 'estúdio' não está apoiada explicitamente pelas evidências fornecidas.",
+        "O rascunho fica bem apoiado nos fatos centrais, mas ainda inclui formulação interpretativa além do que as evidências mostram diretamente.",
+        "O anúncio da gravidez e a surpresa no estúdio aparecem entre os principais fatos ligados ao momento.",
+        "Tati Machado foi surpreendida no estúdio."
+      ]
+    },
+    {
+      "id": "VmlyZ2luaWEgcmVjZWJl",
+      "title": "Virginia recebe buquê de flores gigante no Dia dos Namorados",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "O rascunho inclui uma afirmação meta não sustentada: diz que as evidências não detalham além da reação e do recebimento das flores, mas as evidências também mencionam que o buquê era gigante, rosas vermelhas, valor de R$ 11 mil, EUA e flores na cama.",
+        "Há perda de precisão no título e no resumo em relação ao conjunto de evidências, mas isso por si só não inviabiliza o texto; o problema central é a afirmação limitadora incorreta no corpo.",
+        "As evidências não detalham além da reação e do recebimento das flores."
+      ]
+    },
+    {
+      "id": "w41jb25lIGRhIGFydGUg",
+      "title": "Ícone da arte contemporânea, David Hockney morre aos 88 anos",
+      "generatedTitle": "David Hockney morre aos 88 anos",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.94,
+      "reasons": []
+    },
+    {
+      "id": "UGFvbGxhIE9saXZlaXJh",
+      "title": "Paolla Oliveira reage a postagem de Dia dos Namorados: ‘Querendo ficar solteira’",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "A maior parte do rascunho está alinhada aos títulos fornecidos, mas há uma inferência não totalmente ancorada nas evidências: dizer que os conteúdos sobre 'famosas recém-solteiras' e 'casais que se separaram em 2026' aparecem 'sem detalhar participação direta dela' extrapola o que os títulos, por si só, comprovam.",
+        "O texto também mistura níveis de certeza diferentes: os títulos sustentam que Paolla reagiu a posts de Dia dos Namorados e que aparece como solteira, mas não sustentam relação direta dela com as listas gerais citadas nos outros títulos.",
+        "Há leve enchimento analítico em formulações como 'As evidências repetem esse ponto' e na explicação sobre conteúdos paralelos, que pouco acrescentam além do que os próprios títulos já dizem.",
+        "Há evidências sobre famosas recém-solteiras e casais que se separaram em 2026, sem detalhamento de participação direta de Paolla Oliveira.",
+        "As evidências ainda citam listas sobre famosas recém-solteiras e casais que se separaram em 2026, mas sem detalhar participação direta dela nesses conteúdos."
+      ]
+    },
+    {
+      "id": "MTIgZmlsbWVzIHJvbcOi",
+      "title": "12 filmes românticos para assistir no Dia dos Namorados",
+      "generatedTitle": "Listas reúnem filmes para diferentes programas no Dia dos Namorados",
+      "categoryHint": "Famosos",
+      "category": "Cinema",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 1,
+      "confidence": 0.93,
+      "reasons": []
+    },
+    {
+      "id": "THVjYXMgTGltYSByZXNw",
+      "title": "Lucas Lima responde rumor sobre relação com outro homem e entrega truque para evitar boatos envolvendo Sandy",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "O rascunho é majoritariamente fiel às evidências, mas há repetição de informação entre título, excerpt e primeiro parágrafo do corpo.",
+        "Há enchimento leve no corpo: o primeiro parágrafo repete quase literalmente que Lucas Lima respondeu a dúvidas e ao boato, sem acrescentar informação nova.",
+        "Uma das evidências fornecidas ('Lucas Lima confronta sensitiva após previsão fracassar...') não sustenta diretamente o foco do rascunho e não é aproveitada de forma clara."
+      ]
+    },
+    {
+      "id": "QmF0bWFuOiBQYXJ0ZSAy",
+      "title": "Batman: Parte 2 começa filmagens e ganha primeira foto, confira",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "Há enchimento genérico no corpo: \"O longa também apareceu em novas manchetes com comentários sobre o material do filme.\" A frase é vaga e pouco informativa.",
+        "O rascunho está majoritariamente alinhado às manchetes de evidência, mas a aprovação deve ficar bloqueada porque o texto não está totalmente livre de formulação genérica/imprecisa.",
+        "A expressão \"comentários sobre o material do filme\" não é sustentada de forma clara pelas manchetes fornecidas; as evidências falam especificamente de elogios ao roteiro e da descrição do filme como \"obra-prima aterrorizante\".",
+        "O longa também apareceu em novas manchetes com comentários sobre o material do filme."
+      ]
+    },
+    {
+      "id": "RGVzZW1wcmVnYWRvIHBv",
+      "title": "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "A frase sobre 'manchetes publicadas nesta sexta-feira, 12 de junho de 2026' introduz contexto temporal e editorial que não está apoiado pelas evidências fornecidas.",
+        "'Momento de destaque vivido atualmente' é uma formulação vaga; embora haja indício de destaque nas manchetes, o texto fica genérico e pouco preciso.",
+        "O rascunho depende de inferência leve ao resumir várias manchetes como um 'momento de destaque atual', em vez de repetir o que está efetivamente sustentado.",
+        "Nas manchetes publicadas nesta sexta-feira, 12 de junho de 2026, Gui Ferraz aparece ligado ao papel de Tiago em Quem Ama Cuida e ao momento de destaque vivido atualmente.",
+        "A referência específica a 'sexta-feira, 12 de junho de 2026' não está sustentada pelas evidências fornecidas."
+      ]
+    },
+    {
+      "id": "QW5kcmVzc2Egw6kgZWxp",
+      "title": "Andressa é eliminada de Casa do Patrão, com 16,37% dos votos",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "tamanho inadequado (36 palavras)"
+      ]
+    },
+    {
+      "id": "w4BzIHbDqXNwZXJhcyBk",
+      "title": "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
+      "generatedTitle": "Ex-cantoras do Rouge trocam farpas às vésperas de documentário",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.85,
+      "reasons": []
+    },
+    {
+      "id": "NCByZXN0YXVyYW50ZXMg",
+      "title": "4 restaurantes em BH para o Dia dos Namorados sem filas",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "As evidências disponíveis tratam de restaurantes, bares, menus e consumo no Dia dos Namorados, sem relação clara com as editorias permitidas (Famosos, Música, TV ou Cinema)."
+      ]
+    },
+    {
+      "id": "VFYsIG1hcXVpYWdlbSwg",
+      "title": "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
+      "generatedTitle": "Deolane Bezerra tem rotina na prisão detalhada em manchetes",
+      "categoryHint": "TV",
+      "category": "TV",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.95,
+      "reasons": []
+    },
+    {
+      "id": "TWVsbCBNdXp6aWxsbyBl",
+      "title": "Mell Muzzillo e Marcello Melo Jr. reagem a críticas por diferença de idade - Famosos | Entretenimento",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "O rascunho generaliza o conjunto das evidências com expressões como \"as manchetes\" e \"os relatos\", mas uma das evidências trata de boato de traição no início do namoro, não de críticas por diferença de idade.",
+        "Há leve extrapolação ao afirmar um \"ponto em comum entre os relatos\" sobre a diferença de 17 anos, porque nem todas as evidências fornecidas mencionam esse ponto.",
+        "O texto é enxuto, mas ainda mistura evidências sobre temas diferentes; para aprovação, deveria se limitar ao que é comum e explicitamente apoiado pelas manchetes relevantes.",
+        "As manchetes repetem que os dois responderam a comentários sobre a diferença de idade na relação.",
+        "O ponto em comum entre os relatos é que a diferença citada é de 17 anos."
+      ]
+    },
+    {
+      "id": "TWF1IE1hdSBkZSBRdWVt",
+      "title": "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "Há enchimento genérico no corpo: \"O relato concentra o foco do material sobre o artista e a novela.\" não acrescenta informação verificável nem específica.",
+        "O rascunho está majoritariamente alinhado às evidências, mas uma aprovação total exige remover a frase genérica e manter apenas afirmações diretamente sustentadas pelos títulos fornecidos.",
+        "O relato concentra o foco do material sobre o artista e a novela."
+      ]
+    },
+    {
+      "id": "TGVhbmRyYSBMZWFsIGZh",
+      "title": "Leandra Leal fala da parceria com Isabelle Drummond em 'Coração acelerado' e de novo filme da Globo",
+      "generatedTitle": "Leandra Leal fala de Isabelle Drummond e de novo filme da Globo",
+      "categoryHint": "Cinema",
+      "category": "Cinema",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.91,
+      "reasons": []
+    },
+    {
+      "id": "Q2FtaWxhIFJvZHJpZ3Vl",
+      "title": "Camila Rodrigues abre o jogo sobre separação de Bruno Gagliasso",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "As evidências só sustentam com segurança que Camila Rodrigues falou publicamente sobre o término ou separação de Bruno Gagliasso. Isso não basta para escrever uma nota factual entre 45 e 260 palavras sem repetição, inferência ou uso de elementos laterais das manchetes.",
+        "quantidade de paragrafos fora do limite (0)",
+        "tamanho inadequado (0 palavras)",
+        "sem lista suficiente de fatos utilizados"
+      ]
+    },
+    {
+      "id": "RGlhIGRvcyBOYW1vcmFk",
+      "title": "Dia dos Namorados: como a 'confiança' se tornou um trunfo nas relações, mas também motivo de rupturas",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "As evidências trazem apenas temas gerais sobre Dia dos Namorados, solteirice, confiança nas relações e autocuidado, sem fatos concretos suficientes para sustentar uma nota factual de 45 a 260 palavras. Também não há elemento que confirme a editoria Famosos.",
+        "titulo ausente ou longo",
+        "quantidade de paragrafos fora do limite (0)",
+        "tamanho inadequado (0 palavras)",
+        "sem lista suficiente de fatos utilizados"
+      ]
+    },
+    {
+      "id": "R3JhY2llbGUgY2hvcmEg",
+      "title": "Graciele chora ao comentar cirurgia de retirada de nódulo da filha com Zezé",
+      "generatedTitle": "Graciele comenta cirurgia de nódulo no rosto da filha Clara",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.91,
+      "reasons": []
+    },
+    {
+      "id": "UmVww7NydGVyICdjcnVz",
+      "title": "Repórter 'crush' da Copa, Nilson Klava se casou com filha de jornalista no Cristo Redentor",
+      "generatedTitle": "Nilson Klava é casado e teve cerimônia no Cristo Redentor",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 1,
+      "confidence": 0.95,
+      "reasons": []
+    },
+    {
+      "id": "J0NhbmRpZMOtYXNlJyBu",
+      "title": "'Candidíase' nas cordas vocais: entenda a condição relatada pelo cantor Diogo Nogueira",
+      "generatedTitle": "Diogo Nogueira relata candidíase nas cordas vocais",
+      "categoryHint": "Música",
+      "category": "Música",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 1,
+      "confidence": 0.79,
+      "reasons": []
+    },
+    {
+      "id": "RXN0cmVsYSBwb3Agw6kg",
+      "title": "Estrela pop é vista pela primeira vez em 15 anos, depois de ser estuprada e sequestrada; cantora prepara retorno",
+      "categoryHint": "Música",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "tamanho inadequado (43 palavras)"
+      ]
+    },
+    {
+      "id": "MTAwIG1lbnNhZ2VucyBk",
+      "title": "100 mensagens de Dia dos Namorados para enviar no WhatsApp para companheiros, ficantes e clientes",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "O rascunho está majoritariamente alinhado aos títulos fornecidos, mas há uma leve generalização ao afirmar 'O Dia dos Namorados de 12 de junho aparece nas evidências' como se isso valesse para o conjunto todo; entre as evidências listadas, a menção explícita a '12 de junho' aparece em um título específico.",
+        "Há pequenas paráfrases interpretativas no corpo, como 'para compartilhar', que não aparecem literalmente nas evidências; isso enfraquece o padrão de apoio estrito pedido.",
+        "O Dia dos Namorados de 12 de junho aparece nas evidências em listas de mensagens e frases para compartilhar."
+      ]
+    },
+    {
+      "id": "QW5hIENhc3RlbGEgbmVn",
+      "title": "Ana Castela nega traições e diz que tomará medidas legais contra jornalista",
+      "generatedTitle": "Ana Castela nega traições e anuncia medidas judiciais",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 1,
+      "confidence": 0.94,
+      "reasons": []
+    },
+    {
+      "id": "Tm92YSBmYXNlOiBWZWph",
+      "title": "Nova fase: Veja como Adriana recupera fortuna em Quem Ama Cuida",
+      "generatedTitle": "Adriana recupera fortuna e ganha novo amor em Quem Ama Cuida",
+      "categoryHint": "Famosos",
+      "category": "TV",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.94,
+      "reasons": []
+    },
+    {
+      "id": "w4JuY29yYSBkbyBTQlQg",
+      "title": "Âncora do SBT News passa perrengue ao vivo, se irrita e dá bronca em equipe",
+      "generatedTitle": "Âncora do SBT News reclama da equipe após falha no teleprompter",
+      "categoryHint": "TV",
+      "category": "TV",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.91,
+      "reasons": []
+    },
+    {
+      "id": "QW1vciwgZGVzcGVkaWRh",
+      "title": "Amor, despedidas e recomeços: Universo revela recado para os 12 signos neste Dia dos Namorados (12 de junho)",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "As evidências só trazem chamadas gerais sobre signos, amor, compatibilidade e Dia dos Namorados, sem fatos concretos verificáveis suficientes para redigir uma nota factual útil entre 45 e 260 palavras sem repetição ou inferência.",
+        "quantidade de paragrafos fora do limite (0)",
+        "tamanho inadequado (0 palavras)"
+      ]
+    },
+    {
+      "id": "UmFyYXMgYXBhcmnDp8O1",
+      "title": "Raras aparições: casais discretos trocam declarações no Dia dos Namorados",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "O rascunho está majoritariamente alinhado às manchetes fornecidas, mas contém formulação genérica de síntese, como \"As evidências convergem em um ponto\", que enfraquece o critério de texto sem enchimento.",
+        "Há leve redundância entre título, trecho e primeiro parágrafo, com pouca agregação informativa além de reempacotar o que já está explícito nas manchetes.",
+        "A frase final do corpo é prudente, mas continua abstrata; ela descreve limites das manchetes sem acrescentar dado concreto novo."
+      ]
+    },
+    {
+      "id": "R2l1bGlhIENvc3RhIHJl",
+      "title": "Giulia Costa revela castigo inusitado de Flávia Alessandra após contar mentira: “Pior do que ficar sem celular”; assista",
+      "generatedTitle": "Giulia Costa relata castigo aplicado por Flávia Alessandra",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.94,
+      "reasons": []
+    },
+    {
+      "id": "UGVyZGEgZGUgcGVzbyBk",
+      "title": "Perda de peso de Max Cavalera é explicada por Gloria",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "As evidências fornecidas só sustentam, de forma convergente, um ponto factual: Gloria explicou a perda de peso de Max Cavalera. Não há fatos adicionais repetidos o bastante para compor uma nota de ao menos 45 palavras sem repetição ou extrapolação.",
+        "quantidade de paragrafos fora do limite (0)",
+        "tamanho inadequado (0 palavras)",
+        "sem lista suficiente de fatos utilizados"
+      ]
+    },
+    {
+      "id": "IlZhaSBhcnJhbmphciBv",
+      "title": "\"Vai arranjar o que fazer\": Zizi Possi defende a filha após mudança religiosa",
+      "generatedTitle": "Zizi Possi defende Luiza Possi após anúncio de carreira gospel",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 1,
+      "confidence": 0.94,
+      "reasons": []
+    },
+    {
+      "id": "TmEgUmVjb3JkLCBCb25p",
+      "title": "Na Record, Boninho vira piada no Central da Copa por causa do salário",
+      "categoryHint": "TV",
+      "status": "rejected",
+      "stage": "writer",
+      "attempts": 2,
+      "reasons": [
+        "tamanho inadequado (44 palavras)"
+      ]
+    },
+    {
+      "id": "Q29tbyBPbGl2aWEgUm9k",
+      "title": "Como Olivia Rodrigo partiu do new wave para cantar um amor fracassado em disco",
+      "generatedTitle": "Novo álbum de Olivia Rodrigo aborda amor e traz clipe de \"stupid song\"",
+      "categoryHint": "Famosos",
+      "category": "Música",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.9,
+      "reasons": []
+    },
+    {
+      "id": "UG9yIHF1ZSBBbHBob25z",
+      "title": "Por que Alphonso Davies, astro do Canadá, foi reserva na estreia da Copa",
+      "generatedTitle": "Canadá estreia com empate e soma 1º ponto em Copas; Davies começa no banco",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 2,
+      "confidence": 0.9,
+      "reasons": []
+    },
+    {
+      "id": "UXVhbCBhdmFsaWHDp8Oj",
+      "title": "Qual avaliação Vivão merece como Patrão?",
+      "generatedTitle": "Vivão é avaliado como Patrão na Casa do Patrão",
+      "categoryHint": "Famosos",
+      "category": "Famosos",
+      "status": "pending-human",
+      "stage": "approved",
+      "attempts": 1,
+      "confidence": 0.88,
+      "reasons": []
+    },
+    {
+      "id": "TWFuZ2FzIGxvbmdhcywg",
+      "title": "Mangas longas, véu catedral e renda delicada: Luana Sales usa dois vestidos de noiva em casamento de R$ 500 mil com Sidney Sampaio",
+      "categoryHint": "Famosos",
+      "status": "rejected",
+      "stage": "review",
+      "attempts": 2,
+      "reasons": [
+        "A última frase extrapola a evidência disponível: os títulos sustentam que Luana Sales usou dois vestidos e destacam 'mangas longas, véu catedral e renda delicada', mas não deixam claro que essas características se aplicam aos dois vestidos individualmente.",
+        "O rascunho está enxuto e sem enchimento genérico relevante, mas há uma generalização factual que impede aprovação total.",
+        "Os vestidos foram descritos com mangas longas, véu catedral e renda delicada."
+      ]
+    }
+  ]
+}

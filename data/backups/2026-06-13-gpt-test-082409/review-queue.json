@@ -1,0 +1,2541 @@
+{
+  "workflowVersion": 2,
+  "generatedAt": "2026-06-13T03:03:32.671Z",
+  "status": "awaiting-human-review",
+  "count": 17,
+  "newsCount": 40,
+  "lastRun": {
+    "status": "target-met",
+    "candidatesAttempted": 40,
+    "approved": 17,
+    "rejected": 23,
+    "errors": 0
+  },
+  "items": [
+    {
+      "id": "UXVhbCBhdmFsaWHDp8Oj",
+      "reviewId": "UXVhbCBhdmFsaWHDp8Oj",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Vivão é avaliado como Patrão na Casa do Patrão",
+      "slug": "vivao-e-avaliado-como-patrao-na-casa-do-patrao",
+      "excerpt": "Vivão virou tema de avaliação por sua atuação como Patrão, enquanto a dinâmica do programa também teve disputa na esteira e resultado de vice-liderança.",
+      "body": [
+        "Vivão foi colocado em avaliação por sua atuação como Patrão na Casa do Patrão. O público considera que ele sabonetou no comando da dinâmica. No programa, os participantes também enfrentaram um desafio na esteira em uma disputa pelo cargo de Patrão.",
+        "Além disso, Vivão avaliou o desempenho dos concorrentes no Trampo da Casa do Patrão. A atração ainda conseguiu vitória contra o Ratinho e ficou na vice-liderança."
+      ],
+      "html": "<p>Vivão foi colocado em avaliação por sua atuação como Patrão na Casa do Patrão. O público considera que ele sabonetou no comando da dinâmica. No programa, os participantes também enfrentaram um desafio na esteira em uma disputa pelo cargo de Patrão.</p>\n<p>Além disso, Vivão avaliou o desempenho dos concorrentes no Trampo da Casa do Patrão. A atração ainda conseguiu vitória contra o Ratinho e ficou na vice-liderança.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Vivão",
+        "Casa do Patrão",
+        "Patrão",
+        "reality show",
+        "vice-liderança"
+      ],
+      "source": "R7",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdlN1a19nRjlWczF1X2dqRktDUkszLWVMMG9qVl9ER0FJWDZEbnR2bVdBLXdzeGJZWkpTbVlWc3F6eEN1Mk01TnBabm81eXRrcV9JYzhBei1Cb0hxWGFiSERmRU9xRzFMVkJ4LUQ2MHNBMXVzZDZKTkJNamVCdFdUUDNvbFZDYzlDUEhjN0ZBYlQ4aFpfZDVqeEU0TQ?oc=5",
+      "evidenceSources": [
+        "R7",
+        "Notícias da TV",
+        "O Universo da TV",
+        "TV RECORD EUROPA"
+      ],
+      "evidenceClaims": [
+        "Qual avaliação Vivão merece como Patrão?",
+        "Público considera que Vivão ‘sabonetou’ no comando da Casa do Patrão",
+        "Casa do Patrão consegue vitória contra o Ratinho e fica na vice-liderança",
+        "Participantes enfrentam desafio na esteira em disputa pelo cargo de Patrão em 'Casa do Patrão'",
+        "Vivão avalia desempenho dos concorrentes no Trampo da ‘Casa do Patrão’"
+      ],
+      "sourceCount": 4,
+      "score": 80,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Vivão na Casa do Patrão",
+      "imageSearchQuery": "Vivão Casa do Patrão",
+      "imageAlt": "Vivão durante dinâmica da Casa do Patrão",
+      "editorialMeta": {
+        "originalTitle": "Qual avaliação Vivão merece como Patrão?",
+        "sourceId": "UXVhbCBhdmFsaWHDp8Oj",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.88,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Vivão foi avaliado por sua atuação como Patrão.",
+          "O público considera que Vivão sabonetou no comando da Casa do Patrão.",
+          "Participantes enfrentaram um desafio na esteira na disputa pelo cargo de Patrão.",
+          "Vivão avaliou o desempenho dos concorrentes no Trampo da Casa do Patrão.",
+          "Casa do Patrão conseguiu vitória contra o Ratinho e ficou na vice-liderança."
+        ],
+        "generatedAt": "2026-06-13T02:59:32.964Z"
+      },
+      "createdAt": "2026-06-13T02:59:32.964Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www.diario24horas.com.br/_next/image?url=https:%2F%2Fstatic.diario24horas.com.br%2Fimages%2Farticles%2F2026%2F4%2F28%2Fbn1fw-result_Screenshot%20from%202026-04-27%2021-33-13.png&w=3840&q=75",
+          "pageUrl": "https://www.diario24horas.com.br/noticia/68304-casa-do-patrao-primeira-dinamica-revela-afinidades-e-gera-atritos-no-elenco",
+          "source": "Bing",
+          "title": "Casa do Patrão: Primeira Dinâmica Revela Afinidades e Gera Atritos no ...",
+          "width": 1200,
+          "height": 628
+        },
+        {
+          "imageUrl": "https://vtvnews.com.br/wp-content/uploads/2026/04/Casa-do-Patrao-1.jpg",
+          "pageUrl": "https://vtvnews.com.br/?p=161886",
+          "source": "Bing",
+          "title": "'Casa do Patrão' estreia hoje (27); veja a dinâmica e conheça os ...",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/04/Vivao-Casa-do-Patrao-e1776987492317.jpg?w=1080&h=630&crop=1",
+          "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/",
+          "source": "Bing",
+          "title": "\"Casa do Patrão\": conheça Vivão, participante do novo reality do ...",
+          "width": 1080,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://paranaibamais.com.br/wp-content/uploads/2026/04/casa-do-patrao-3-1.jpg",
+          "pageUrl": "https://paranaibamais.com.br/tv/casa-do-patrao-revela-dinamicas-ineditas-e-centralidade-do-poder/",
+          "source": "Bing",
+          "title": "Casa do Patrão revela dinâmicas inéditas e centralidade do poder ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/71/2026/04/23/leandro-hassum-apresenta-o-reality-casa-do-patrao-1776951866466_v2_900x506.jpg",
+          "pageUrl": "https://www.uol.com.br/splash/noticias/2026/04/23/81-dias-e-dinamica-da-semana-o-que-ja-sabemos-sobre-casa-do-patrao.ghtm",
+          "source": "Bing",
+          "title": "Casa do Patrão: Qual será a dinâmica de funcionamento do reality?",
+          "width": 900,
+          "height": 506
+        },
+        {
+          "imageUrl": "https://portaldatv.com.br/wp-content/uploads/2026/04/casa-do-patrao-area-externa-1200x675.jpg",
+          "pageUrl": "https://portaldatv.com.br/casa-do-patrao-ao-vivo-onde-assistir-24-horas-disney/",
+          "source": "Bing",
+          "title": "Casa do Patrão ao vivo: onde assistir 24 horas no Disney+",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://www.bnews.com.br/media/uploads/2026/04/casa-do-patrao.jpg",
+          "pageUrl": "https://www.bnews.com.br/noticias/entretenimento/novo-reality-de-boninho-a-casa-do-patrao-ganha-novos-detalhes-e-data-de-estreia-na-record-confira.html",
+          "source": "Bing",
+          "title": "Novo reality de Boninho, 'A Casa do Patrão' ganha novos detalhes e data ...",
+          "width": 1640,
+          "height": 924
+        },
+        {
+          "imageUrl": "https://portaln10.com.br/wp-content/uploads/2026/04/assistir-casa-do-patrao-ao-vivo.jpg",
+          "pageUrl": "https://portaln10.com.br/entrete/reality-show/como-assistir-a-casa-do-patrao-ao-vivo-na-internet-24-horas-por-dia-331321/",
+          "source": "Bing",
+          "title": "Como assistir a Casa do Patrão ao vivo na internet 24 horas por dia ...",
+          "width": 1360,
+          "height": 768
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-gXKE5h\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeef-354d-71d1-86c8-19f05e8675cf\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Vivão é avaliado como Patrão na Casa do Patrão\",\"excerpt\":\"Vivão virou tema de avaliação por sua atuação como Patrão, enquanto a dinâmica do programa também teve disputa na esteira e resultado de vice-liderança.\",\"category\":\"Famosos\",\"imageSubject\":\"Vivão na Casa do Patrão\",\"imageAlt\":\"Vivão durante dinâmica da Casa do Patrão\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Casa do Patrão: Primeira Dinâmica Revela Afinidades e Gera Atritos no ...\",\"pageUrl\":\"https://www.diario24horas.com.br/noticia/68304-casa-do-patrao-primeira-dinamica-revela-afinidades-e-gera-atritos-no-elenco\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"'Casa do Patrão' estreia hoje (27); veja a dinâmica e conheça os ...\",\"pageUrl\":\"https://vtvnews.com.br/?p=161886\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"\\\"Casa do Patrão\\\": conheça Vivão, participante do novo reality do ...\",\"pageUrl\":\"https://www.cnnbrasil.com.br/entretenimento/casa-do-patrao-conheca-vivao-participante-do-novo-reality-do-boninho/\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Casa do Patrão revela dinâmicas inéditas e centralidade do poder ...\",\"pageUrl\":\"https://paranaibamais.com.br/tv/casa-do-patrao-revela-dinamicas-ineditas-e-centralidade-do-poder/\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Casa do Patrão: Qual será a dinâmica de funcionamento do reality?\",\"pageUrl\":\"https://www.uol.com.br/splash/noticias/2026/04/23/81-dias-e-dinamica-da-semana-o-que-ja-sabemos-sobre-casa-do-patrao.ghtm\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Casa do Patrão ao vivo: onde assistir 24 horas no Disney+\",\"pageUrl\":\"https://portaldatv.com.br/casa-do-patrao-ao-vivo-onde-assistir-24-horas-disney/\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Novo reality de Boninho, 'A Casa do Patrão' ganha novos detalhes e data ...\",\"pageUrl\":\"https://www.bnews.com.br/noticias/entretenimento/novo-reality-de-boninho-a-casa-do-patrao-ganha-novos-detalhes-e-data-de-estreia-na-record-confira.html\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Como assistir a Casa do Patrão ao vivo na internet 24 horas por dia ...\",\"pageUrl\":\"https://portaln10.com.br/entrete/reality-show/como-assistir-a-casa-do-patrao-ao-vivo-na-internet-24-horas-por-dia-331321/\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "UG9yIHF1ZSBBbHBob25z",
+      "reviewId": "UG9yIHF1ZSBBbHBob25z",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Canadá estreia com empate e soma 1º ponto em Copas; Davies começa no banco",
+      "slug": "canada-estreia-com-empate-e-soma-1-ponto-em-copas-davies-comeca-no-banco",
+      "excerpt": "Na estreia da Copa, o Canadá empatou com a Bósnia e conquistou seu primeiro ponto na história do torneio. Alphonso Davies começou a partida como reserva.",
+      "body": [
+        "O Canadá empatou com a Bósnia na estreia da Copa do Mundo e somou o primeiro ponto de sua história no torneio. As manchetes também tratam o país como anfitrião da competição.",
+        "Alphonso Davies, apontado como astro da seleção canadense, começou a partida no banco de reservas."
+      ],
+      "html": "<p>O Canadá empatou com a Bósnia na estreia da Copa do Mundo e somou o primeiro ponto de sua história no torneio. As manchetes também tratam o país como anfitrião da competição.</p>\n<p>Alphonso Davies, apontado como astro da seleção canadense, começou a partida no banco de reservas.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Alphonso Davies",
+        "Canadá",
+        "Copa do Mundo",
+        "Bósnia"
+      ],
+      "source": "CNN Brasil",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd3oyamxsX3J2RjI1QXlGZU9zRHEzaDEzcEtXamx1d19pOW0xUHRtTEpMZFJKVC1ZMThha3QxQXBxc0xxY1UyN0tOT2RRSVFfY2wtNHpHNTFWUXRpMEJDLXRtRDBYNHE2NnhCVHpEdF9EU0tiWUUwbzlPVDBick9wVW95SDRQRTcxYVBlNEZjcVZ1Qm42bWpDUHItdmxaNmVpR2JVUEl4aV9LQkFWMHA4SUFnRllOYkM5WVQtZF9JbU1aZjZyWl9GMEM4Zw?oc=5",
+      "evidenceSources": [
+        "CNN Brasil",
+        "UOL",
+        "ESPN Brasil",
+        "CBN"
+      ],
+      "evidenceClaims": [
+        "Por que Alphonso Davies, astro do Canadá, foi reserva na estreia da Copa",
+        "Copa: artilheiro 'salva', Canadá empata com Bósnia e soma 1º ponto na história",
+        "Anfitrião, Canadá busca empate com Bósnia e soma primeiro ponto em Copas",
+        "Canadá busca empate contra a Bósnia na estreia e soma primeiro ponto na história da Copa do Mundo",
+        "Torcida do Canadá a caminho do Estádio de Toronto (Vídeo: Reprodução)"
+      ],
+      "sourceCount": 4,
+      "score": 82,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Alphonso Davies e a seleção do Canadá na estreia contra a Bósnia",
+      "imageSearchQuery": "Alphonso Davies Canadá Bósnia estreia Copa do Mundo",
+      "imageAlt": "Alphonso Davies com a seleção do Canadá em jogo contra a Bósnia na Copa do Mundo",
+      "editorialMeta": {
+        "originalTitle": "Por que Alphonso Davies, astro do Canadá, foi reserva na estreia da Copa",
+        "sourceId": "UG9yIHF1ZSBBbHBob25z",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.9,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Alphonso Davies foi reserva na estreia do Canadá na Copa.",
+          "O Canadá empatou com a Bósnia na estreia da Copa do Mundo.",
+          "O Canadá somou o primeiro ponto de sua história em Copas.",
+          "O Canadá é tratado como anfitrião da competição."
+        ],
+        "generatedAt": "2026-06-13T02:58:54.969Z"
+      },
+      "createdAt": "2026-06-13T02:58:54.969Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://jogada10.com.br/wp-content/uploads/2025/03/united-states-v-panama-concacaf-1-1.jpg",
+          "pageUrl": "https://jogada10.com.br/feras-da-copa-alphonso-davies-o-velocista-multitarefas-do-canada/",
+          "source": "Bing",
+          "title": "Feras da Copa: Alphonso Davies, o velocista multitarefas do Canadá",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2026/04/52498785753_71eb23b139_o-7-aspect-ratio-512-320.jpg",
+          "pageUrl": "https://www.lance.com.br/lancepedia/quem-e-o-maior-artilheiro-do-canada-copa-do-mundo.html",
+          "source": "Bing",
+          "title": "Quem é o maior artilheiro do Canadá em Copas?",
+          "width": 950,
+          "height": 594
+        },
+        {
+          "imageUrl": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5211,h_2931,x_0,y_348/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_pt-BR_international_web/01gjwy8yjt6gwbcjwt35.jpg",
+          "pageUrl": "https://www.90min.com/pt-br/posts/para-o-canada-qual-e-o-tamanho-do-gol-anotado-por-alphonso-davies-contra-a-croacia",
+          "source": "Bing",
+          "title": "Alphonso Davies faz história e marca primeiro gol do Canadá em Copas do ...",
+          "width": 1440,
+          "height": 810
+        },
+        {
+          "imageUrl": "https://tntsports.cl/__export/1669566281903/sites/esporteinterativo/img/2022/11/27/gettyimages-1444977732.jpg_11227043.jpg",
+          "pageUrl": "https://tntsports.com.br/tntsportsnoqatar/Alphonso-Davies-marca-o-primeiro-gol-do-Canada-em-Copa-do-Mundo-20221127-0012.html",
+          "source": "Bing",
+          "title": "Alphonso Davies marca o primeiro gol do Canadá em Copa do Mundo",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://jcconcursos.com.br/media/_versions/noticia/primeiro-gol-canada-copa-1_widelg.jpg",
+          "pageUrl": "https://jcconcursos.com.br/noticia/brasil/primeiro-gol-do-canada-em-copas-do-mundo-e-de-um-refugiado-conheca-o-jogador-104304",
+          "source": "Bing",
+          "title": "Primeiro gol do Canadá em Copas do Mundo é de um refugiado. Conheça o ...",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://img.r7.com/images/a-davies-canada-copa-do-mundo-13122022124939569?dimensions=771x420&no_crop=true",
+          "pageUrl": "https://esportes.r7.com/futebol/copa-do-mundo/fotos/se-em-2022-ja-foi-assim-confira-a-lista-de-jovens-craques-dessa-copa-que-prometem-brilhar-em-2026-19122022",
+          "source": "Bing",
+          "title": "Se em 2022 já foi assim... Confira a lista de jovens craques dessa Copa ...",
+          "width": 610,
+          "height": 420
+        },
+        {
+          "imageUrl": "https://s2-oglobo.glbimg.com/6uhfKD3FxNOhWCqWxoiDmTAwPPw=/0x0:3448x2299/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/U/0/FKE6KxRwuhOn4bE7KZHw/101377411-canadas-forward-19-alphonso-davies-fights-for-the-ball-with-moroccos-defender-05-nayef.jpg",
+          "pageUrl": "https://oglobo.globo.com/esportes/catar-2022/noticia/2022/12/gol-contra-do-zagueiro-marroquino-aguerd-e-o-100o-tento-da-copa.ghtml",
+          "source": "Bing",
+          "title": "Zagueiro de Marrocos, Aguerd marca contra e anota o centésimo gol da ...",
+          "width": 888,
+          "height": 592
+        },
+        {
+          "imageUrl": "https://cdn.milenio.com/uploads/media/2022/11/27/alphonso-davies-anoto-gol-canada.jpg",
+          "pageUrl": "https://www.milenio.com/futbol-internacional/mundial/alphonso-davies-anota-gol-canada-copa-mundo",
+          "source": "Bing",
+          "title": "Alphonso Davies anota el primer gol de Canadá en una Copa del Mundo ...",
+          "width": 1200,
+          "height": 747
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-tEhvTy\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeef-1967-7d90-90d9-18cb09101cd1\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Canadá estreia com empate e soma 1º ponto em Copas; Davies começa no banco\",\"excerpt\":\"Na estreia da Copa, o Canadá empatou com a Bósnia e conquistou seu primeiro ponto na história do torneio. Alphonso Davies começou a partida como reserva.\",\"category\":\"Famosos\",\"imageSubject\":\"Alphonso Davies e a seleção do Canadá na estreia contra a Bósnia\",\"imageAlt\":\"Alphonso Davies com a seleção do Canadá em jogo contra a Bósnia na Copa do Mundo\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Feras da Copa: Alphonso Davies, o velocista multitarefas do Canadá\",\"pageUrl\":\"https://jogada10.com.br/feras-da-copa-alphonso-davies-o-velocista-multitarefas-do-canada/\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Quem é o maior artilheiro do Canadá em Copas?\",\"pageUrl\":\"https://www.lance.com.br/lancepedia/quem-e-o-maior-artilheiro-do-canada-copa-do-mundo.html\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Alphonso Davies faz história e marca primeiro gol do Canadá em Copas do ...\",\"pageUrl\":\"https://www.90min.com/pt-br/posts/para-o-canada-qual-e-o-tamanho-do-gol-anotado-por-alphonso-davies-contra-a-croacia\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Alphonso Davies marca o primeiro gol do Canadá em Copa do Mundo\",\"pageUrl\":\"https://tntsports.com.br/tntsportsnoqatar/Alphonso-Davies-marca-o-primeiro-gol-do-Canada-em-Copa-do-Mundo-20221127-0012.html\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Primeiro gol do Canadá em Copas do Mundo é de um refugiado. Conheça o ...\",\"pageUrl\":\"https://jcconcursos.com.br/noticia/brasil/primeiro-gol-do-canada-em-copas-do-mundo-e-de-um-refugiado-conheca-o-jogador-104304\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Se em 2022 já foi assim... Confira a lista de jovens craques dessa Copa ...\",\"pageUrl\":\"https://esportes.r7.com/futebol/copa-do-mundo/fotos/se-em-2022-ja-foi-assim-confira-a-lista-de-jovens-craques-dessa-copa-que-prometem-brilhar-em-2026-19122022\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Zagueiro de Marrocos, Aguerd marca contra e anota o centésimo gol da ...\",\"pageUrl\":\"https://oglobo.globo.com/esportes/catar-2022/noticia/2022/12/gol-contra-do-zagueiro-marroquino-aguerd-e-o-100o-tento-da-copa.ghtml\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Alphonso Davies anota el primer gol de Canadá en una Copa del Mundo ...\",\"pageUrl\":\"https://www.milenio.com/futbol-internacional/mundial/alphonso-davies-anota-gol-canada-copa-mundo\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "Q29tbyBPbGl2aWEgUm9k",
+      "reviewId": "Q29tbyBPbGl2aWEgUm9k",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Novo álbum de Olivia Rodrigo aborda amor e traz clipe de \"stupid song\"",
+      "slug": "novo-album-de-olivia-rodrigo-aborda-amor-e-traz-clipe-de-stupid-song",
+      "excerpt": "Olivia Rodrigo lançou um novo álbum, descrito nas manchetes como um trabalho mais maduro, ligado a amor fracassado, paixões e intoxicações de um amor.",
+      "body": [
+        "Olivia Rodrigo lançou um novo álbum e também o clipe de \"stupid song\". Nas manchetes, o disco é apresentado como um trabalho mais maduro da cantora.",
+        "O álbum aparece associado a amor fracassado, às intoxicações de um amor e à paixão como uma montanha-russa. Outra manchete destaca a passagem do new wave para cantar esse tema no disco."
+      ],
+      "html": "<p>Olivia Rodrigo lançou um novo álbum e também o clipe de \"stupid song\". Nas manchetes, o disco é apresentado como um trabalho mais maduro da cantora.</p>\n<p>O álbum aparece associado a amor fracassado, às intoxicações de um amor e à paixão como uma montanha-russa. Outra manchete destaca a passagem do new wave para cantar esse tema no disco.</p>",
+      "category": "Música",
+      "market": "brasil",
+      "tags": [
+        "Olivia Rodrigo",
+        "álbum",
+        "stupid song",
+        "música pop"
+      ],
+      "source": "Folha de S.Paulo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSjVETTJyRDV5akM2ZlFjNzVLd3ZHNERnYlgwZF9hSTFGajVOd3U5UDdjRVdSZHFXcWE5aWxpTWREc2pNWVRYX2tPZ0dEVHlQN0VVUWlkQ0ZGNl9Ub05CanFJaENFZFZvNXB4TlExY2R0dGVRaWVuTGhHRFZmNUpRc01FVHBRbzF2SHJpalN6XzJSRFRhdmJLamhsT3c2LXpJMDA5RXJGVkpwM2lhWnVrczR4aHlfQk9rWEVwdWVQdjlBRUlGQTZzaDF2aGQ?oc=5",
+      "evidenceSources": [
+        "Folha de S.Paulo",
+        "Globo",
+        "Omelete",
+        "Capricho"
+      ],
+      "evidenceClaims": [
+        "Como Olivia Rodrigo partiu do new wave para cantar um amor fracassado em disco",
+        "Como é o novo disco de Olivia Rodrigo, que explora as intoxicações de um amor",
+        "Olivia Rodrigo revela perda auditiva e surpreende ao falar sobre condição descoberta na infância",
+        "Olivia Rodrigo lança clipe de \"stupid song\" e novo álbum; veja e ouça completo",
+        "Olivia Rodrigo faz da paixão uma montanha-russa em seu álbum mais maduro"
+      ],
+      "sourceCount": 4,
+      "score": 85,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Olivia Rodrigo",
+      "imageSearchQuery": "Olivia Rodrigo 2026",
+      "imageAlt": "Olivia Rodrigo em imagem de divulgação",
+      "editorialMeta": {
+        "originalTitle": "Como Olivia Rodrigo partiu do new wave para cantar um amor fracassado em disco",
+        "sourceId": "Q29tbyBPbGl2aWEgUm9k",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.9,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Olivia Rodrigo lançou um novo álbum.",
+          "Olivia Rodrigo lançou o clipe de \"stupid song\".",
+          "O álbum é descrito como mais maduro.",
+          "O disco é ligado a amor fracassado.",
+          "O disco explora as intoxicações de um amor.",
+          "A paixão é descrita como uma montanha-russa no álbum.",
+          "Uma manchete relaciona o disco ao new wave."
+        ],
+        "generatedAt": "2026-06-13T02:57:14.681Z"
+      },
+      "createdAt": "2026-06-13T02:57:14.681Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://toursetlist.com/wp-content/uploads/2025/10/Olivia-Rodrigo-Tour-2026-Setlist-Dates-Cities-Presale-Tickets.jpg",
+          "pageUrl": "https://queverhacer.com/turismo/olivia-rodrigo-sour-tour-2026",
+          "source": "Bing",
+          "title": "Olivia Rodrigo Sour Tour 2026: Todo Lo Que Necesitas Saber Sobre El ...",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://celebmafia.com/wp-content/uploads/2026/01/olivia-rodrigo-lancome-idole-peach-n-roses-january-2026-2.jpg",
+          "pageUrl": "https://celebmafia.com/olivia-rodrigo-lancome-idole-peach-n-roses-january-2026-4627181/",
+          "source": "Bing",
+          "title": "Olivia Rodrigo Lancome Idole Peach N' Roses January 2026 • CelebMafia",
+          "width": 1280,
+          "height": 1280
+        },
+        {
+          "imageUrl": "https://media.s-bol.com/VGpmEl0jqvYW/X6kkmkV/550x778.jpg",
+          "pageUrl": "https://www.bol.com/nl/nl/p/olivia-rodrigo-a3-kalender-2026/9300000238412599/",
+          "source": "Bing",
+          "title": "ML Publishing Olivia Rodrigo A3 Kalender - Muziek, stijl en emotie 2026 ...",
+          "width": 550,
+          "height": 778
+        },
+        {
+          "imageUrl": "https://s.yimg.com/ny/api/res/1.2/JpPnZU4jJ5h.Um0PGpvxtQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD0xODYz/https://media.zenfs.com/en/aol_instyle_articles_696/e14d680182c92e8963066c03c4cd4b17",
+          "pageUrl": "https://www.aol.com/articles/olivia-rodrigo-bares-her-plunging-163614052.html",
+          "source": "Bing",
+          "title": "Olivia Rodrigo Bares Her Plunging Silk Bra in a Totally Sheer Lace ...",
+          "width": 1242,
+          "height": 1863
+        },
+        {
+          "imageUrl": "https://celebmafia.com/wp-content/uploads/2026/01/olivia-rodrigo-in-miu-miu-spring-summer-2026-campaign-4.jpg",
+          "pageUrl": "https://celebmafia.com/olivia-rodrigo-in-miu-miu-spring-summer-2026-campaign-4634665/",
+          "source": "Bing",
+          "title": "Olivia Rodrigo in Miu Miu Spring/Summer 2026 Campaign • CelebMafia",
+          "width": 1280,
+          "height": 1584
+        },
+        {
+          "imageUrl": "https://image.europafm.com/clipping/cmsimages01/2026/01/07/17380C38-0FDB-487D-B3BD-DF52963D4A91/olivia-rodrigo_69.jpg?crop=6494,3653,x0,y0&width=1280&height=720&optimize=low&format=jpg",
+          "pageUrl": "https://www.europafm.com/noticias/musica/olivia-rodrigo-confirma-nuevo-disco-2026_20260107695e339622f0db7daf07933f.html",
+          "source": "Bing",
+          "title": "Olivia Rodrigo confirma nuevo disco para 2026 | Europa FM",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://www.taquilla.com/data/images/t_icimgs/74/img_0223.jpeg",
+          "pageUrl": "https://www.taquilla.com/entradas/olivia-rodrigo",
+          "source": "Bing",
+          "title": "Olivia Rodrigo 2026 | Taquilla.com",
+          "width": 1536,
+          "height": 864
+        },
+        {
+          "imageUrl": "https://cd1.taquilla.com/data/images/t/6e/olivia-rodrigo.webp",
+          "pageUrl": "https://www.taquilla.com/entradas/olivia-rodrigo",
+          "source": "Bing",
+          "title": "Olivia Rodrigo 2026 | Taquilla.com",
+          "width": 1548,
+          "height": 1024
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-orXPJt\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeee-f018-7bf2-82f1-8a04af011c96\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Novo álbum de Olivia Rodrigo aborda amor e traz clipe de \\\"stupid song\\\"\",\"excerpt\":\"Olivia Rodrigo lançou um novo álbum, descrito nas manchetes como um trabalho mais maduro, ligado a amor fracassado, paixões e intoxicações de um amor.\",\"category\":\"Música\",\"imageSubject\":\"Olivia Rodrigo\",\"imageAlt\":\"Olivia Rodrigo em imagem de divulgação\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Olivia Rodrigo Sour Tour 2026: Todo Lo Que Necesitas Saber Sobre El ...\",\"pageUrl\":\"https://queverhacer.com/turismo/olivia-rodrigo-sour-tour-2026\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Olivia Rodrigo Lancome Idole Peach N' Roses January 2026 • CelebMafia\",\"pageUrl\":\"https://celebmafia.com/olivia-rodrigo-lancome-idole-peach-n-roses-january-2026-4627181/\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"ML Publishing Olivia Rodrigo A3 Kalender - Muziek, stijl en emotie 2026 ...\",\"pageUrl\":\"https://www.bol.com/nl/nl/p/olivia-rodrigo-a3-kalender-2026/9300000238412599/\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Olivia Rodrigo Bares Her Plunging Silk Bra in a Totally Sheer Lace ...\",\"pageUrl\":\"https://www.aol.com/articles/olivia-rodrigo-bares-her-plunging-163614052.html\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Olivia Rodrigo in Miu Miu Spring/Summer 2026 Campaign • CelebMafia\",\"pageUrl\":\"https://celebmafia.com/olivia-rodrigo-in-miu-miu-spring-summer-2026-campaign-4634665/\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Olivia Rodrigo confirma nuevo disco para 2026 | Europa FM\",\"pageUrl\":\"https://www.europafm.com/noticias/musica/olivia-rodrigo-confirma-nuevo-disco-2026_20260107695e339622f0db7daf07933f.html\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Olivia Rodrigo 2026 | Taquilla.com\",\"pageUrl\":\"https://www.taquilla.com/entradas/olivia-rodrigo\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Olivia Rodrigo 2026 | Taquilla.com\",\"pageUrl\":\"https://www.taquilla.com/entradas/olivia-rodrigo\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "IlZhaSBhcnJhbmphciBv",
+      "reviewId": "IlZhaSBhcnJhbmphciBv",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Zizi Possi defende Luiza Possi após anúncio de carreira gospel",
+      "slug": "zizi-possi-defende-luiza-possi-apos-anuncio-de-carreira-gospel",
+      "excerpt": "Zizi Possi saiu em defesa de Luiza Possi após a filha anunciar sua carreira gospel e rebateu ataques dirigidos à cantora.",
+      "body": [
+        "Zizi Possi defendeu Luiza Possi após a filha anunciar sua carreira gospel. A cantora também rebateu ataques dirigidos a Luiza nesse contexto.",
+        "Em uma das falas destacadas nas manchetes, Zizi mandou um recado aos críticos de Luiza Possi com a frase “Vai arranjar o que fazer”. As chamadas também associam a manifestação de Zizi à mudança religiosa anunciada pela filha."
+      ],
+      "html": "<p>Zizi Possi defendeu Luiza Possi após a filha anunciar sua carreira gospel. A cantora também rebateu ataques dirigidos a Luiza nesse contexto.</p>\n<p>Em uma das falas destacadas nas manchetes, Zizi mandou um recado aos críticos de Luiza Possi com a frase “Vai arranjar o que fazer”. As chamadas também associam a manifestação de Zizi à mudança religiosa anunciada pela filha.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Zizi Possi",
+        "Luiza Possi",
+        "carreira gospel"
+      ],
+      "source": "Diário do Centro do Mundo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTBWLWt1MW5MTkVJM0czeklMak9mb2xFQnZ5TXRoZmwweFczb1M4OHp3NHpzQmhNaDRrMV9Wd1NPcWp4cXBaeFN1eE0tdk9mZW91bmMyZHJUMHV3VXQtaV82M19Xa1U2VUxLdGt4OHE1LTJPVnN3dkxPT2NBSXZlUTRiNGJCNW1zX2tHQlFUUFFaaWNkUlhNdXRsYmFpNDFuaUg1LWFjaWVFN0NJZGV4ZTJETTRvcGZEcGlrQWNQMWRKd3Yz?oc=5",
+      "evidenceSources": [
+        "Diário do Centro do Mundo",
+        "NaTelinha",
+        "Estadão",
+        "Gshow",
+        "Correio Braziliense"
+      ],
+      "evidenceClaims": [
+        "\"Vai arranjar o que fazer\": Zizi Possi defende a filha após mudança religiosa",
+        "\"Várias farinhas no mesmo saco\", diz Zizi Possi sobre artistas da nova geração",
+        "Zizi Possi diz não admirar nenhum artista atual: ‘Adoraria gostar, mas não gosto’",
+        "Zizi Possi manda recado a haters de Luiza Possi, que virou cantora gospel: 'Vai arranjar o que fazer'",
+        "Zizi Possi rebate ataques após filha anunciar carreira gospel"
+      ],
+      "sourceCount": 5,
+      "score": 90,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Zizi Possi e Luiza Possi",
+      "imageSearchQuery": "Zizi Possi Luiza Possi",
+      "imageAlt": "Zizi Possi e Luiza Possi em imagem de arquivo",
+      "editorialMeta": {
+        "originalTitle": "\"Vai arranjar o que fazer\": Zizi Possi defende a filha após mudança religiosa",
+        "sourceId": "IlZhaSBhcnJhbmphciBv",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.94,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Zizi Possi defendeu Luiza Possi.",
+          "Luiza Possi anunciou carreira gospel.",
+          "Zizi Possi rebateu ataques dirigidos a Luiza Possi.",
+          "Zizi Possi mandou aos críticos de Luiza Possi o recado “Vai arranjar o que fazer”.",
+          "As manchetes associam a manifestação de Zizi Possi à mudança religiosa da filha."
+        ],
+        "generatedAt": "2026-06-13T02:53:28.845Z"
+      },
+      "createdAt": "2026-06-13T02:53:28.845Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://aloalobahia.com/wp-content/uploads/2025/05/luiza-zizi.jpg",
+          "pageUrl": "https://aloalobahia.com/noticias/2025/05/12/no-mes-das-maes-luiza-e-zizi-possi-se-apresentam-juntas-na-concha-acustica-do-tca/",
+          "source": "Bing",
+          "title": "Luiza e Zizi Possi se apresentam juntas neste domingo (18), em Salvador",
+          "width": 2013,
+          "height": 1761
+        },
+        {
+          "imageUrl": "https://www.tribunapr.com.br/wp-content/uploads/2019/12/03005909/luiza-possi-e-zizi-possi.jpg",
+          "pageUrl": "https://www.tribunapr.com.br/mais-pop/zizi-e-luiza-possi-se-apresentam-juntas-pela-primeira-vez-em-curitiba/",
+          "source": "Bing",
+          "title": "Zizi e Luiza Possi se apresentam juntas pela primeira vez em Curitiba",
+          "width": 1200,
+          "height": 740
+        },
+        {
+          "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/entretenimento/2024/3/entretenimento-zizi-luiza-possi-o-show-palacio-das-artes-belo-horizonte-ingresso-sucessos-musica-popular-brasileira-mae-filha-1713336722.jpeg",
+          "pageUrl": "https://www.otempo.com.br/entretenimento/zizi-e-luiza-possi-sobem-juntas-ao-palco-com-o-show-e-apresentam-sucessos-1.3352638",
+          "source": "Bing",
+          "title": "Zizi e Luiza Possi sobem juntas ao palco com \"O Show\" e apresentam sucessos",
+          "width": 4032,
+          "height": 2268
+        },
+        {
+          "imageUrl": "https://curitibacult.com.br/wp-content/uploads/2023/05/zizi-e-luiza-1.jpg",
+          "pageUrl": "https://curitibacult.com.br/zizi-e-luiza-possi-se-apresentam-no-guairao-junto-com-orquestra-sinfonica-do-parana/",
+          "source": "Bing",
+          "title": "Zizi e Luiza Possi se apresentam no Guairão junto com Orquestra ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://www.tribunapr.com.br/wp-content/uploads/2019/12/03005800/img_797x4482019_05_28_10_52_45_50552-970x550.jpg",
+          "pageUrl": "https://www.tribunapr.com.br/mais-pop/zizi-e-luiza-possi-se-apresentam-juntas-pela-primeira-vez-em-curitiba/",
+          "source": "Bing",
+          "title": "Zizi e Luiza Possi se apresentam juntas pela primeira vez em Curitiba",
+          "width": 970,
+          "height": 550
+        },
+        {
+          "imageUrl": "https://www.ofuxico.com.br/img/upload/noticias/2019/05/02/zizi-possi-luiza-possi-foto-talita-alencar_348431_36.jpg",
+          "pageUrl": "https://ofuxico.com.br/noticias/zizi-possi-e-luiza-possi-fazem-turne-juntas-vem-saber/",
+          "source": "Bing",
+          "title": "Zizi Possi e Luiza Possi fazem turnê juntas. Vem saber! - OFuxico",
+          "width": 662,
+          "height": 420
+        },
+        {
+          "imageUrl": "https://web.portalsucesso.com.br/wp-content/uploads/2022/04/zizi-e-luiza-possi.png",
+          "pageUrl": "https://web.portalsucesso.com.br/home/zizi-e-luiza-possi-em-show-no-dia-das-maes",
+          "source": "Bing",
+          "title": "Zizi e Luiza Possi em show no Dia das Mães - Portal SUCESSO!",
+          "width": 603,
+          "height": 383
+        },
+        {
+          "imageUrl": "https://culturadoria.com.br/wp-content/uploads/2024/03/Zizi.jpg",
+          "pageUrl": "https://culturadoria.com.br/zizi-2/",
+          "source": "Bing",
+          "title": "Luiza Possi fala sobre o show que divide com a mãe, Zizi Possi ...",
+          "width": 1200,
+          "height": 648
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-4iQd4M\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeee-b6ff-7473-9437-7cf0f8f365ea\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Zizi Possi defende Luiza Possi após anúncio de carreira gospel\",\"excerpt\":\"Zizi Possi saiu em defesa de Luiza Possi após a filha anunciar sua carreira gospel e rebateu ataques dirigidos à cantora.\",\"category\":\"Famosos\",\"imageSubject\":\"Zizi Possi e Luiza Possi\",\"imageAlt\":\"Zizi Possi e Luiza Possi em imagem de arquivo\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Luiza e Zizi Possi se apresentam juntas neste domingo (18), em Salvador\",\"pageUrl\":\"https://aloalobahia.com/noticias/2025/05/12/no-mes-das-maes-luiza-e-zizi-possi-se-apresentam-juntas-na-concha-acustica-do-tca/\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Zizi e Luiza Possi se apresentam juntas pela primeira vez em Curitiba\",\"pageUrl\":\"https://www.tribunapr.com.br/mais-pop/zizi-e-luiza-possi-se-apresentam-juntas-pela-primeira-vez-em-curitiba/\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Zizi e Luiza Possi sobem juntas ao palco com \\\"O Show\\\" e apresentam sucessos\",\"pageUrl\":\"https://www.otempo.com.br/entretenimento/zizi-e-luiza-possi-sobem-juntas-ao-palco-com-o-show-e-apresentam-sucessos-1.3352638\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Zizi e Luiza Possi se apresentam no Guairão junto com Orquestra ...\",\"pageUrl\":\"https://curitibacult.com.br/zizi-e-luiza-possi-se-apresentam-no-guairao-junto-com-orquestra-sinfonica-do-parana/\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Zizi e Luiza Possi se apresentam juntas pela primeira vez em Curitiba\",\"pageUrl\":\"https://www.tribunapr.com.br/mais-pop/zizi-e-luiza-possi-se-apresentam-juntas-pela-primeira-vez-em-curitiba/\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Zizi Possi e Luiza Possi fazem turnê juntas. Vem saber! - OFuxico\",\"pageUrl\":\"https://ofuxico.com.br/noticias/zizi-possi-e-luiza-possi-fazem-turne-juntas-vem-saber/\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Zizi e Luiza Possi em show no Dia das Mães - Portal SUCESSO!\",\"pageUrl\":\"https://web.portalsucesso.com.br/home/zizi-e-luiza-possi-em-show-no-dia-das-maes\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Luiza Possi fala sobre o show que divide com a mãe, Zizi Possi ...\",\"pageUrl\":\"https://culturadoria.com.br/zizi-2/\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "R2l1bGlhIENvc3RhIHJl",
+      "reviewId": "R2l1bGlhIENvc3RhIHJl",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Giulia Costa relata castigo aplicado por Flávia Alessandra",
+      "slug": "giulia-costa-relata-castigo-aplicado-por-flavia-alessandra",
+      "excerpt": "Giulia Costa afirmou que Flávia Alessandra aplicou um castigo após uma mentira e o descreveu como pior do que ficar sem celular.",
+      "body": [
+        "Giulia Costa revelou um castigo aplicado por Flávia Alessandra após contar uma mentira. Nas manchetes, o método é tratado como um castigo inusitado usado pela atriz com a filha.",
+        "A própria descrição destacada nas chamadas afirma que a punição foi “pior do que ficar sem celular”. Em uma das versões, Giulia Costa compara o castigo a ficar um mês sem celular."
+      ],
+      "html": "<p>Giulia Costa revelou um castigo aplicado por Flávia Alessandra após contar uma mentira. Nas manchetes, o método é tratado como um castigo inusitado usado pela atriz com a filha.</p>\n<p>A própria descrição destacada nas chamadas afirma que a punição foi “pior do que ficar sem celular”. Em uma das versões, Giulia Costa compara o castigo a ficar um mês sem celular.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Giulia Costa",
+        "Flávia Alessandra",
+        "castigo",
+        "família"
+      ],
+      "source": "Hugo Gloss",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZVdCOXViQXQ1TTA0NmZ4bTdZbnBKVVBwQXhEbTZyVGhLOEFhVVduMG9pV2RlR0l0UmxTLU5CZS1nTDQwaWpRdWRzTXZLNEtXdjYtZTNWYnBVOGxtZXcxdVAyZGVwTWpxWlZSZURBVWhIanMxUFJJWFJBMjZsV2ZxXzItaEswQWNtaEN0Tzh3ZnhpejI0Q3BiTDRHVW5LZWJEQXdHRTlBM28tWkVMVFoxaXpPWEQ2bGl5WHNZMFZQZDZpNWcxWGt5TGdfUGxZRi1qU09PaDVuREdmRDBrcjhoUtIB5gFBVV95cUxNOFFPX2NVdW5NVDREWkkzNFVqZkdjTUNkV2JtUk9QYkxxaVJWSXhrNnZkU01pQjZpYVZ1bDBDYjZjWkNuOFRvQWpfekpBYXRZNUp1X2Z1RDZ4b3huV1VEMTAzeEJzUldhQ1hxdlJpZTN0NFc2REtIRG84NFowWnNtdVgwMHA1WEFWc0R5eUdzd2lHMHBaZVN0d2JrWkpfRGhVYVBnNVgxdFJpYnhPT3NPWXdaOWNRcEw5UFlhbUVQYlpfd0VtU1BhNEtzY1dlRnNycGxvNmRtZ0hYZTZDdjhWeVY3aDhVZw?oc=5",
+      "evidenceSources": [
+        "Hugo Gloss",
+        "UOL",
+        "Globo",
+        "Portal Tela",
+        "bnews.com.br"
+      ],
+      "evidenceClaims": [
+        "Giulia Costa revela castigo inusitado de Flávia Alessandra após contar mentira: “Pior do que ficar sem celular”; assista",
+        "'Pior do que ficar sem celular': Giulia Costa revela castigo inusitado de Flávia Alessandra",
+        "Giulia Costa revela como a mãe, Flávia Alessandra, aplica 'castigo': 'Pior que um mês sem celular'",
+        "Giulia Costa expõe método usado por Flávia Alessandra: Não esqueço",
+        "Giulia Costa surpreende ao revelar método de castigo definido por Flávia Alessandra: “pior que um mês sem cel…"
+      ],
+      "sourceCount": 5,
+      "score": 90,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Giulia Costa e Flávia Alessandra",
+      "imageSearchQuery": "Giulia Costa Flávia Alessandra juntas",
+      "imageAlt": "Giulia Costa ao lado de Flávia Alessandra.",
+      "editorialMeta": {
+        "originalTitle": "Giulia Costa revela castigo inusitado de Flávia Alessandra após contar mentira: “Pior do que ficar sem celular”; assista",
+        "sourceId": "R2l1bGlhIENvc3RhIHJl",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.94,
+          "issues": [
+            "O rascunho permanece dentro do que as manchetes sustentam e evita inventar qual foi o castigo específico.",
+            "A evidência disponível é só de chamadas/manchetes; isso sustenta bem o texto atual, mas não sustenta detalhes adicionais sobre contexto ou execução do castigo."
+          ],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Giulia Costa revelou um castigo aplicado por Flávia Alessandra.",
+          "O castigo foi mencionado após uma mentira.",
+          "As manchetes descrevem o método como inusitado.",
+          "Giulia Costa afirmou que o castigo foi pior do que ficar sem celular.",
+          "Uma manchete compara o castigo a ficar um mês sem celular."
+        ],
+        "generatedAt": "2026-06-13T02:51:57.364Z"
+      },
+      "createdAt": "2026-06-13T02:51:57.364Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www.estrelando.com.br/uploads/2025/12/11/flavia-alessandra-giulia-costa-1765479613.jpg",
+          "pageUrl": "https://www.estrelando.com.br/nota/2025/12/25/flavia-alessandra-e-giulia-costa-comentam-sobre-podcast-juntas-adorando-319158",
+          "source": "Bing",
+          "title": "Flávia Alessandra e Giulia Costa comentam sobre podcast juntas ...",
+          "width": 675,
+          "height": 645
+        },
+        {
+          "imageUrl": "https://www.marciapiovesan.com.br/wp-content/uploads/2022/10/giulia-costa-flavia-alessandra.jpg",
+          "pageUrl": "https://www.marciapiovesan.com.br/famosos/flavia-alessandra-ganha-homenagem-especial-da-filha-giulia-inspiracao.phtml",
+          "source": "Bing",
+          "title": "Flávia Alessandra ganha homenagem especial da filha, Giulia: 'Inspiração'",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://images.elasnotapetevermelho.com.br/2025/02/elas-no-tapete-vermelho-2025-02-03T100454.571.png",
+          "pageUrl": "https://www.elasnotapetevermelho.com.br/2025/02/03/flavia-alessandra-e-giulia-costa-estreiam-podcast-veja-looks/",
+          "source": "Bing",
+          "title": "Flávia Alessandra e Giulia Costa estreiam podcast; veja looks - Elas no ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/04/10/911556617-giulia-costa-flavia-alessandra.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/gente/giulia-costa-solta-o-verbo-apos-ser-comparada-com-a-mae-flavia-alessandra-doentio,09f6d035c62e835f6a4f3b168df452d0c2temvnw.html",
+          "source": "Bing",
+          "title": "Giulia Costa solta o verbo após ser comparada com a mãe, Flávia ...",
+          "width": 774,
+          "height": 435
+        },
+        {
+          "imageUrl": "https://www.areavip.com.br/wp-content/uploads/2017/08/giulia-costa-e-flavia-alessandra.jpg",
+          "pageUrl": "https://www.areavip.com.br/famosos/flavia-alessandra-posa-lado-de-giulia-costa-e-semelhanca-entre-mae-e-filha-impressiona-seguidores/",
+          "source": "Bing",
+          "title": "Flávia Alessandra posa lado de Giulia Costa e semelhança entre mãe e ...",
+          "width": 750,
+          "height": 500
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/05/giulia-costa.jpg",
+          "pageUrl": "https://caras.com.br/atualidades/giulia-costa-fala-sobre-experiencia-de-apresentar-podcast-com-flavia-alessandra.phtml",
+          "source": "Bing",
+          "title": "Giulia Costa fala sobre experiência de apresentar podcast com Flávia ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/11/Giulia-Costa-relembra-reacao-de-Flavia-Alessandra-ao-contar-que-foi-agredida-pelo-ex-namorado.jpg",
+          "pageUrl": "https://caras.com.br/sem-categoria/giulia-costa-entrega-detalhe-de-reacao-de-flavia-alessandra-ao-contar-sobre-agressao-do-ex-namorado.phtml",
+          "source": "Bing",
+          "title": "Giulia Costa entrega detalhe de reação de Flávia Alessandra ao contar ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://www.ofuxico.com.br/img/galeria/2019/05/flavia-alessandra_406754.jpg",
+          "pageUrl": "https://ofuxico.com.br/noticias/flavia-alessandra-e-giulia-costa-malham-juntas-no-rio/",
+          "source": "Bing",
+          "title": "Flávia Alessandra e Giulia Costa malham juntas no Rio - OFuxico",
+          "width": 662,
+          "height": 900
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-3GSisK\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeee-973a-7ef3-b48c-4a2800f1a703\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Giulia Costa relata castigo aplicado por Flávia Alessandra\",\"excerpt\":\"Giulia Costa afirmou que Flávia Alessandra aplicou um castigo após uma mentira e o descreveu como pior do que ficar sem celular.\",\"category\":\"Famosos\",\"imageSubject\":\"Giulia Costa e Flávia Alessandra\",\"imageAlt\":\"Giulia Costa ao lado de Flávia Alessandra.\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Flávia Alessandra e Giulia Costa comentam sobre podcast juntas ...\",\"pageUrl\":\"https://www.estrelando.com.br/nota/2025/12/25/flavia-alessandra-e-giulia-costa-comentam-sobre-podcast-juntas-adorando-319158\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Flávia Alessandra ganha homenagem especial da filha, Giulia: 'Inspiração'\",\"pageUrl\":\"https://www.marciapiovesan.com.br/famosos/flavia-alessandra-ganha-homenagem-especial-da-filha-giulia-inspiracao.phtml\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Flávia Alessandra e Giulia Costa estreiam podcast; veja looks - Elas no ...\",\"pageUrl\":\"https://www.elasnotapetevermelho.com.br/2025/02/03/flavia-alessandra-e-giulia-costa-estreiam-podcast-veja-looks/\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Giulia Costa solta o verbo após ser comparada com a mãe, Flávia ...\",\"pageUrl\":\"https://www.terra.com.br/diversao/gente/giulia-costa-solta-o-verbo-apos-ser-comparada-com-a-mae-flavia-alessandra-doentio,09f6d035c62e835f6a4f3b168df452d0c2temvnw.html\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Flávia Alessandra posa lado de Giulia Costa e semelhança entre mãe e ...\",\"pageUrl\":\"https://www.areavip.com.br/famosos/flavia-alessandra-posa-lado-de-giulia-costa-e-semelhanca-entre-mae-e-filha-impressiona-seguidores/\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Giulia Costa fala sobre experiência de apresentar podcast com Flávia ...\",\"pageUrl\":\"https://caras.com.br/atualidades/giulia-costa-fala-sobre-experiencia-de-apresentar-podcast-com-flavia-alessandra.phtml\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Giulia Costa entrega detalhe de reação de Flávia Alessandra ao contar ...\",\"pageUrl\":\"https://caras.com.br/sem-categoria/giulia-costa-entrega-detalhe-de-reacao-de-flavia-alessandra-ao-contar-sobre-agressao-do-ex-namorado.phtml\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Flávia Alessandra e Giulia Costa malham juntas no Rio - OFuxico\",\"pageUrl\":\"https://ofuxico.com.br/noticias/flavia-alessandra-e-giulia-costa-malham-juntas-no-rio/\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "w4JuY29yYSBkbyBTQlQg",
+      "reviewId": "w4JuY29yYSBkbyBTQlQg",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Âncora do SBT News reclama da equipe após falha no teleprompter",
+      "slug": "ancora-do-sbt-news-reclama-da-equipe-apos-falha-no-teleprompter",
+      "excerpt": "Apresentadora do SBT News reclamou da equipe durante o jornal ao vivo após um problema técnico no teleprompter.",
+      "body": [
+        "Uma âncora do SBT News reclamou da equipe durante o jornal ao vivo após um problema técnico. As manchetes descrevem a situação como um perrengue no ar, com irritação da apresentadora.",
+        "O ponto em comum entre os relatos é que a bronca aconteceu durante a transmissão e veio depois de uma falha no teleprompter."
+      ],
+      "html": "<p>Uma âncora do SBT News reclamou da equipe durante o jornal ao vivo após um problema técnico. As manchetes descrevem a situação como um perrengue no ar, com irritação da apresentadora.</p>\n<p>O ponto em comum entre os relatos é que a bronca aconteceu durante a transmissão e veio depois de uma falha no teleprompter.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "SBT News",
+        "telejornal",
+        "teleprompter",
+        "ao vivo"
+      ],
+      "source": "Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcFg1ZFBFTThaS2VYNGo3aWY3RWhzRHNOeE5WTEwtMzNuY3hhVFdvUk9sNVBNUGZMMmc5LThucTl6eDNvMm5NckdxWU9oUXp4M09vSUpkWVRUUVJtVU05ejdyc0sxRTA1aUx0LUlNZzQzQW1BMGlpRm1BWWtxRHBtSmtEcVVlSGhoakFfNDZLSjlQVGVtTllNUmxINmE3aGlIdmZMTU5oNndKcGpld01yTXVzODNOR05OSVlkdGNJTU5MZFh4QjZqSzRWUdIB2gFBVV95cUxPTjhVUTM3bllXN0JmeEJreUtpUko2NS1XRHIyUEw5ZVkxbTBfRnVGQlR1NHdEWlN0RzhUbWlrY2RRNmxHVXVlR2FSZkYxV3RrRGpGdGxSYlAwVlNNZnFKU0tzYUp0Sm5ValVWVmdJZ0R3SXRjbUwwaU5aX1pJNTJtdHAwOVA3N2hUTkcyOThPRGlERS02dTZaZ0JQcjJGWWNhZncwWUJvc0JpU1dpaFowWDBYUFZ2S3FwSVV1SFZjaFdHajR4NFEtRnUzQkJZZk1sVmQ4LUw3dGpZdw?oc=5",
+      "evidenceSources": [
+        "Notícias da TV",
+        "NaTelinha",
+        "RD1",
+        "Metropolitana",
+        "bnews.com.br"
+      ],
+      "evidenceClaims": [
+        "Âncora do SBT News passa perrengue ao vivo, se irrita e dá bronca em equipe",
+        "Amanda Klein se irrita e reclama ao vivo de equipe no SBT News; vídeo",
+        "Christiane Pelajo? Âncora do SBT News não segura a língua e detona equipe ao vivo",
+        "Jornalista do SBT chama atenção da equipe ao vivo após problema no teleprompter",
+        "Âncora de telejornal passa perrengue e dá bronca na equipe durante programa ao vivo"
+      ],
+      "sourceCount": 5,
+      "score": 98,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Âncora do SBT News no estúdio durante transmissão ao vivo",
+      "imageSearchQuery": "âncora SBT News estúdio ao vivo",
+      "imageAlt": "Âncora do SBT News no estúdio durante o telejornal ao vivo.",
+      "editorialMeta": {
+        "originalTitle": "Âncora do SBT News passa perrengue ao vivo, se irrita e dá bronca em equipe",
+        "sourceId": "w4JuY29yYSBkbyBTQlQg",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.91,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Uma âncora do SBT News passou por um problema ao vivo.",
+          "A apresentadora reclamou da equipe durante a transmissão.",
+          "As manchetes descrevem irritação da âncora.",
+          "Houve um problema no teleprompter.",
+          "A bronca ocorreu durante um programa ao vivo."
+        ],
+        "generatedAt": "2026-06-13T02:49:17.562Z"
+      },
+      "createdAt": "2026-06-13T02:49:17.562Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www.tvpop.com.br/wp-content/uploads/elementor/thumbs/fabio-faria-daniela-beyruti-sbt-news-foto-divulgacao-tvpop-reut28mkbfhilxtyfse3wajnjkem07jhytaauaowf4.jpg",
+          "pageUrl": "https://www.tvpop.com.br/330240/sbt-define-detalhes-da-programacao-de-seu-canal-de-noticias-saiba-como-sera/",
+          "source": "Bing",
+          "title": "SBT define detalhes da programação de seu canal de notícias; saiba como ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://portalaltadefinicao.com/wp-content/uploads/2025/12/sbt-news-estreia.jpg",
+          "pageUrl": "https://portalaltadefinicao.com/sbt-news-estreia-hoje-saiba-onde-e-como-assistir-ao-vivo/",
+          "source": "Bing",
+          "title": "SBT News estreia hoje, saiba onde e como assistir ao vivo",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://noticiarelevante.com/wp-content/uploads/2023/09/64f7243734d42-1024x538.jpg",
+          "pageUrl": "https://noticiarelevante.com/2023/09/05/apos-reportagem-emocionante-ancora-do-sbt-cai-no-choro-ao-vivo-durante-telejornal-video/",
+          "source": "Bing",
+          "title": "Após reportagem emocionante, âncora do SBT cai no choro ao vivo durante ...",
+          "width": 1024,
+          "height": 538
+        },
+        {
+          "imageUrl": "https://sbtnews.sbt.com.br/_next/image?url=https:%2F%2Fsbt-news-assets-prod.s3.sa-east-1.amazonaws.com%2FMarina_Demori_9dca25b57b.png&w=1920&q=90",
+          "pageUrl": "https://sbtnews.sbt.com.br/noticia/brasil/uma-responsabilidade-ainda-maior-marina-demori-comemora-estreia-como-ancora-no-sbt-news",
+          "source": "Bing",
+          "title": "'Uma responsabilidade ainda maior': Marina Demori comemora estreia como ...",
+          "width": 640,
+          "height": 440
+        },
+        {
+          "imageUrl": "https://www.tvpop.com.br/wp-content/uploads/2021/09/felipe-malta-sbt-brasilia-1-edicao-foto-reproducao-sbt-tvpop-1024x576.jpg",
+          "pageUrl": "https://www.tvpop.com.br/23927/sbt-cresce-em-brasilia-e-lidera-audiencia-apos-reformular-telejornal-local/",
+          "source": "Bing",
+          "title": "SBT cresce em Brasília e lidera audiência após reformular telejornal local",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/zGb77ymqiKE/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=zGb77ymqiKE",
+          "source": "Bing",
+          "title": "Estreia do novo estúdio e identidade visual do SBT News e SBT News ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://www.tvpop.com.br/wp-content/uploads/2024/11/marcelo-casagrande-ultima-edicao-sbt-news-na-tv-foto-reproducao-sbt-tvpop.jpg",
+          "pageUrl": "https://www.tvpop.com.br/253961/sbt-chega-ao-fundo-do-poco-e-nao-supera-nem-mesmo-o-ibope-do-balanco-geral-manha/",
+          "source": "Bing",
+          "title": "SBT chega ao fundo do poço e não supera nem mesmo o ibope do Balanço ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/8liaPlpmOhA/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=8liaPlpmOhA",
+          "source": "Bing",
+          "title": "Jornal do SBT (23~24/11/16) Ao Vivo - YouTube",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-6PVg18\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeee-78f8-73b1-b558-c6ef0259d546\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Âncora do SBT News reclama da equipe após falha no teleprompter\",\"excerpt\":\"Apresentadora do SBT News reclamou da equipe durante o jornal ao vivo após um problema técnico no teleprompter.\",\"category\":\"TV\",\"imageSubject\":\"Âncora do SBT News no estúdio durante transmissão ao vivo\",\"imageAlt\":\"Âncora do SBT News no estúdio durante o telejornal ao vivo.\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"SBT define detalhes da programação de seu canal de notícias; saiba como ...\",\"pageUrl\":\"https://www.tvpop.com.br/330240/sbt-define-detalhes-da-programacao-de-seu-canal-de-noticias-saiba-como-sera/\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"SBT News estreia hoje, saiba onde e como assistir ao vivo\",\"pageUrl\":\"https://portalaltadefinicao.com/sbt-news-estreia-hoje-saiba-onde-e-como-assistir-ao-vivo/\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Após reportagem emocionante, âncora do SBT cai no choro ao vivo durante ...\",\"pageUrl\":\"https://noticiarelevante.com/2023/09/05/apos-reportagem-emocionante-ancora-do-sbt-cai-no-choro-ao-vivo-durante-telejornal-video/\"},{\"attachment\":4,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"SBT cresce em Brasília e lidera audiência após reformular telejornal local\",\"pageUrl\":\"https://www.tvpop.com.br/23927/sbt-cresce-em-brasilia-e-lidera-audiencia-apos-reformular-telejornal-local/\"},{\"attachment\":5,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Estreia do novo estúdio e identidade visual do SBT News e SBT News ...\",\"pageUrl\":\"https://www.youtube.com/watch?v=zGb77ymqiKE\"},{\"attachment\":6,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Jornal do SBT (23~24/11/16) Ao Vivo - YouTube\",\"pageUrl\":\"https://www.youtube.com/watch?v=8liaPlpmOhA\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "Tm92YSBmYXNlOiBWZWph",
+      "reviewId": "Tm92YSBmYXNlOiBWZWph",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Adriana recupera fortuna e ganha novo amor em Quem Ama Cuida",
+      "slug": "adriana-recupera-fortuna-e-ganha-novo-amor-em-quem-ama-cuida",
+      "excerpt": "Adriana recupera a fortuna, sai da cadeia e ganha um novo amor em \"Quem Ama Cuida\". Heitor é ligado à maior virada da personagem, enquanto a 2ª fase terá um novo galã e cinco personagens com impacto na trama.",
+      "body": [
+        "Em \"Quem Ama Cuida\", Adriana recupera a fortuna. A personagem também sai da cadeia, despacha Pedro e ganha um novo amor.",
+        "Heitor é citado como responsável pela maior virada ligada a Adriana. A 2ª fase da novela ainda terá um novo galã para disputar o amor da personagem, além de cinco personagens apontados como mudanças para a trama."
+      ],
+      "html": "<p>Em \"Quem Ama Cuida\", Adriana recupera a fortuna. A personagem também sai da cadeia, despacha Pedro e ganha um novo amor.</p>\n<p>Heitor é citado como responsável pela maior virada ligada a Adriana. A 2ª fase da novela ainda terá um novo galã para disputar o amor da personagem, além de cinco personagens apontados como mudanças para a trama.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Quem Ama Cuida",
+        "Adriana",
+        "Heitor",
+        "novela",
+        "TV Globo"
+      ],
+      "source": "Observatório da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYlJNOGloN2lacEhmVUZuMXlVcFZSaV9WWUtyalZINlYxVkc1M192RkJVdlpOU29qOUJFRGtSUlNlOGZMZFBoX0NOSk10cVZHUHlmdjRiX25fMjFya0hHRnR1bXdnNWFVck1CNnBoSmNMcXhyeVJHOVBMV2FoWUNacHA4dG02eEtVdWtPZmRYbDhPR0xpbVJXM2hwd0ZIN01SNVVwZ3FKX212YWcxT1dZU19KaE1kZw?oc=5",
+      "evidenceSources": [
+        "Observatório da TV",
+        "Notícias da TV",
+        "CNN Brasil",
+        "O TEMPO",
+        "RD1"
+      ],
+      "evidenceClaims": [
+        "Nova fase: Veja como Adriana recupera fortuna em Quem Ama Cuida",
+        "Verdadeiro amor de Adriana? Heitor provoca a maior virada em Quem Ama Cuida",
+        "5 personagens que vão mudar a trama de \"Quem Ama Cuida\"",
+        "Após comer o pão que o diabo amassou, Adriana sai da cadeia, despacha Pedro e ganha novo amor em Quem Ama Cuida",
+        "Quem Ama Cuida: Globo escala novo galã para disputar o amor de Adriana na 2ª fase"
+      ],
+      "sourceCount": 5,
+      "score": 98,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Adriana, personagem de \"Quem Ama Cuida\"",
+      "imageSearchQuery": "Adriana Quem Ama Cuida",
+      "imageAlt": "Adriana em cena de \"Quem Ama Cuida\".",
+      "editorialMeta": {
+        "originalTitle": "Nova fase: Veja como Adriana recupera fortuna em Quem Ama Cuida",
+        "sourceId": "Tm92YSBmYXNlOiBWZWph",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.94,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Adriana recupera a fortuna em \"Quem Ama Cuida\".",
+          "Adriana sai da cadeia.",
+          "Adriana despacha Pedro.",
+          "Adriana ganha um novo amor.",
+          "Heitor provoca a maior virada ligada a Adriana.",
+          "A 2ª fase terá um novo galã para disputar o amor de Adriana.",
+          "Cinco personagens vão mudar a trama de \"Quem Ama Cuida\"."
+        ],
+        "generatedAt": "2026-06-13T02:48:13.934Z"
+      },
+      "createdAt": "2026-06-13T02:48:13.934Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://seriesporelas.com.br/wp-content/uploads/2026/02/quem-ama-cuida.jpg",
+          "pageUrl": "https://seriesporelas.com.br/substituta-tres-gracas-quem-ama-cuida/",
+          "source": "Bing",
+          "title": "Qual Novela Vai Substituir Três Graças? Tudo Sobre A Estreia De Quem ...",
+          "width": 1200,
+          "height": 628
+        },
+        {
+          "imageUrl": "https://artworks.thetvdb.com/banners/v4/series/465930/posters/697fc56770db3.jpg",
+          "pageUrl": "https://thetvdb.com/series/quem-ama-cuida",
+          "source": "Bing",
+          "title": "Quem Ama Cuida - TheTVDB.com",
+          "width": 680,
+          "height": 1000
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/7uC95q0u8EFu9Z6Cu5rCM3Ps0m0=/0x0:3858x5787/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/U/S/kQ9BYWQkyq4fheK5AIAQ/20260203-quem-ama-cuida-mm-073.jpg.jpeg",
+          "pageUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml",
+          "source": "Bing",
+          "title": "'Quem Ama Cuida': Qual é a história da novela?",
+          "width": 984,
+          "height": 1476
+        },
+        {
+          "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2025/12/22/data-de-estreia-de-quem-ama-cuida-pode-mudar-enquanto-tres-gracas-prepara-viradas-decisivas-69493fc3d509f.webp",
+          "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/data-de-estreia-de-quem-ama-cuida-pode-mudar-enquanto-tres-gracas-prepara-viradas-decisivas.html",
+          "source": "Bing",
+          "title": "Data de estreia de 'Quem Ama Cuida' pode mudar enquanto 'Três Graças ...",
+          "width": 1280,
+          "height": 728
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/KwdwHo8pu8c/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=KwdwHo8pu8c",
+          "source": "Bing",
+          "title": "Conheça Quem Ama Cuida, a nova novela! - YouTube",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://s2-redeglobo.glbimg.com/8y_y36hwmoJt1ivC_nW5Ek4wjHU=/2362x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2026/A/z/DYhv57RieiVqqS9tlGSA/assets-fotos-1320-entre-perdas-luta-por-justica-e-esperanca-o-amor-de-adriana-e-pedro-2f0cba9110c8.jpg",
+          "pageUrl": "https://redeglobo.globo.com/redebahia/noticia/quem-ama-cuida-tragedia-assassinato-e-injustica-marcam-a-historia-de-amor-de-adriana-e-pedro.ghtml",
+          "source": "Bing",
+          "title": "'Quem Ama Cuida': tragédia, assassinato e injustiça marcam a história ...",
+          "width": 2362,
+          "height": 1709
+        },
+        {
+          "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2025/12/16/belize-pombal-integra-elenco-da-novela-quem-ama-cuida-6941484b00a63.webp",
+          "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/belize-pombal-integra-elenco-da-novela-quem-ama-cuida.html",
+          "source": "Bing",
+          "title": "Belize Pombal integra elenco da novela 'Quem Ama, Cuida'",
+          "width": 1280,
+          "height": 728
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/qYogwLygSNhqhaelZ1mAxe4Nnfs=/0x0:2362x1687/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/v/j/EsCpYtQwAk5OCaahJXOg/assets-fotos-1320-joalheria-arthur-brandao-onde-poder-e-conflitos-familiares-se-misturam-em-quem-ama-cuida-567a8ce07ca7.jpg",
+          "pageUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml",
+          "source": "Bing",
+          "title": "'Quem Ama Cuida': Qual é a história da novela?",
+          "width": 888,
+          "height": 634
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-F1xlOO\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeee-5c07-7261-adfb-dd302dcf0e2a\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Adriana recupera fortuna e ganha novo amor em Quem Ama Cuida\",\"excerpt\":\"Adriana recupera a fortuna, sai da cadeia e ganha um novo amor em \\\"Quem Ama Cuida\\\". Heitor é ligado à maior virada da personagem, enquanto a 2ª fase terá um novo galã e cinco personagens com impacto na trama.\",\"category\":\"TV\",\"imageSubject\":\"Adriana, personagem de \\\"Quem Ama Cuida\\\"\",\"imageAlt\":\"Adriana em cena de \\\"Quem Ama Cuida\\\".\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Qual Novela Vai Substituir Três Graças? Tudo Sobre A Estreia De Quem ...\",\"pageUrl\":\"https://seriesporelas.com.br/substituta-tres-gracas-quem-ama-cuida/\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Quem Ama Cuida - TheTVDB.com\",\"pageUrl\":\"https://thetvdb.com/series/quem-ama-cuida\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"'Quem Ama Cuida': Qual é a história da novela?\",\"pageUrl\":\"https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Data de estreia de 'Quem Ama Cuida' pode mudar enquanto 'Três Graças ...\",\"pageUrl\":\"https://oplanetatv.clickgratis.com.br/noticias/bastidores/data-de-estreia-de-quem-ama-cuida-pode-mudar-enquanto-tres-gracas-prepara-viradas-decisivas.html\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Conheça Quem Ama Cuida, a nova novela! - YouTube\",\"pageUrl\":\"https://www.youtube.com/watch?v=KwdwHo8pu8c\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"'Quem Ama Cuida': tragédia, assassinato e injustiça marcam a história ...\",\"pageUrl\":\"https://redeglobo.globo.com/redebahia/noticia/quem-ama-cuida-tragedia-assassinato-e-injustica-marcam-a-historia-de-amor-de-adriana-e-pedro.ghtml\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Belize Pombal integra elenco da novela 'Quem Ama, Cuida'\",\"pageUrl\":\"https://oplanetatv.clickgratis.com.br/noticias/bastidores/belize-pombal-integra-elenco-da-novela-quem-ama-cuida.html\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"'Quem Ama Cuida': Qual é a história da novela?\",\"pageUrl\":\"https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "QW5hIENhc3RlbGEgbmVn",
+      "reviewId": "QW5hIENhc3RlbGEgbmVn",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Ana Castela nega traições e anuncia medidas judiciais",
+      "slug": "ana-castela-nega-traicoes-e-anuncia-medidas-judiciais",
+      "excerpt": "Cantora negou acusações de traição e afirmou que adotará medidas judiciais após rumores envolvendo seu nome.",
+      "body": [
+        "Ana Castela negou acusações de traição e anunciou que tomará medidas judiciais após ter seu nome ligado a rumores sobre um suposto envolvimento com Zé Felipe antes do fim de seu relacionamento com Mioto.",
+        "A equipe de Ana Castela também se pronunciou depois que os rumores vieram à tona. Entre os pontos em comum das informações reunidas estão a negativa da cantora sobre as traições e a decisão de adotar providências judiciais contra o jornalista citado no caso."
+      ],
+      "html": "<p>Ana Castela negou acusações de traição e anunciou que tomará medidas judiciais após ter seu nome ligado a rumores sobre um suposto envolvimento com Zé Felipe antes do fim de seu relacionamento com Mioto.</p>\n<p>A equipe de Ana Castela também se pronunciou depois que os rumores vieram à tona. Entre os pontos em comum das informações reunidas estão a negativa da cantora sobre as traições e a decisão de adotar providências judiciais contra o jornalista citado no caso.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Ana Castela",
+        "Zé Felipe",
+        "Leo Dias",
+        "Mioto"
+      ],
+      "source": "UOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM2RZd1o3eTNvd2FBWjB0M3ZPWXRUZ3pORzlNam9VV3QzLVlIMnVDbXRWc1pQTVkybTZHM3gwTEFOOHd1N19jX1hLVjNPWEJRTk5OVWtmMk5ZaFduMUVWU2kzMnJ0UTBNYU5ncEpxSTNlM2RHa2p4Y2UyZDFKeWZ6ZmxmOA?oc=5",
+      "evidenceSources": [
+        "UOL",
+        "Notícias da TV",
+        "Midiamax",
+        "ACidade ON",
+        "Rádio Itatiaia"
+      ],
+      "evidenceClaims": [
+        "Ana Castela nega traições e diz que tomará medidas legais contra jornalista",
+        "Ana Castela anuncia 'providências judiciais' após ser acusada de trair ex com Zé Felipe",
+        "Traiu? Leo Dias afirma que Ana Castela engatou com Zé Felipe antes de terminar com Mioto",
+        "Ana Castela vai processar Leo Dias após jornalista insinuar traição da cantora",
+        "Equipe de Ana Castela se pronuncia após rumores de traição virem à tona"
+      ],
+      "sourceCount": 5,
+      "score": 98,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Ana Castela",
+      "imageSearchQuery": "Ana Castela",
+      "imageAlt": "Ana Castela em imagem individual",
+      "editorialMeta": {
+        "originalTitle": "Ana Castela nega traições e diz que tomará medidas legais contra jornalista",
+        "sourceId": "QW5hIENhc3RlbGEgbmVn",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.94,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Ana Castela negou acusações de traição.",
+          "Ana Castela anunciou medidas judiciais.",
+          "As acusações envolveram rumores sobre Zé Felipe.",
+          "Os rumores tratavam de um suposto envolvimento antes do fim do relacionamento com Mioto.",
+          "A equipe de Ana Castela se pronunciou após os rumores.",
+          "Leo Dias foi citado como jornalista ligado ao caso."
+        ],
+        "generatedAt": "2026-06-13T02:47:01.150Z"
+      },
+      "createdAt": "2026-06-13T02:47:01.150Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://shows.net.br/wp-content/uploads/2023/04/ana-castela-5.jpg",
+          "pageUrl": "https://shows.net.br/noticias/nosso-quadro-de-ana-castela-lidera-o-ranking-das-mais-tocadas-de-abril/",
+          "source": "Bing",
+          "title": "\"Nosso Quadro\", de Ana Castela, Lidera o Ranking Das Mais Tocadas de Abril",
+          "width": 1440,
+          "height": 903
+        },
+        {
+          "imageUrl": "https://claudia.abril.com.br/wp-content/uploads/2023/06/Snapinsta.app_355043625_946034366517939_4626976112278970659_n_1080-e1687809861902.jpg?quality=85&strip=info&w=749&h=450&crop=1",
+          "pageUrl": "https://claudia.abril.com.br/cultura/ana-castela-conheca-o-fenomeno-musical-brasileiro/",
+          "source": "Bing",
+          "title": "Ana Castela: conheça o fenômeno musical brasileiro | CLAUDIA",
+          "width": 749,
+          "height": 450
+        },
+        {
+          "imageUrl": "https://billboard.com.br/wp-content/uploads/2024/04/IMG_3828-scaled.jpg",
+          "pageUrl": "https://billboard.com.br/ana-castela-completa-30-semanas-como-a-mais-ouvida-do-brasil-veja-ranking/",
+          "source": "Bing",
+          "title": "Ana Castela completa 30 semanas como a mais ouvida do Brasil; veja ...",
+          "width": 2560,
+          "height": 1748
+        },
+        {
+          "imageUrl": "https://primeirapagina.com.br/wp-content/uploads/2024/11/ana-castela.jpg",
+          "pageUrl": "https://primeirapagina.com.br/musica/relembre-5-conquistas-de-ana-castela-em-2024/",
+          "source": "Bing",
+          "title": "Relembre 5 conquistas de Ana Castela em 2024",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/6/35/81/86/@/4103731-ana-castela-de-18-anos-e-a-nova-aposta-580x0-2.jpg",
+          "pageUrl": "https://www.purepeople.com.br/galeria/febre-no-sertanejo-ana-castela-estreia-na-festa-do-peao-de-barretos-conheca-cantora_a358186/1",
+          "source": "Bing",
+          "title": "Quem é Ana Castela? Febre no sertanejo, cantora estreia na Festa do ...",
+          "width": 580,
+          "height": 871
+        },
+        {
+          "imageUrl": "https://portalfama.com.br/wp-content/uploads/2023/01/Ana-Castela-Foto-Mauricio-Antonio-Portal-Fama.jpg",
+          "pageUrl": "https://portalfama.com.br/famosos-no-portal-fama-ana-castela/",
+          "source": "Bing",
+          "title": "ANA CASTELA: A 'Boiadeira\" mais famosa do momento Também está no Portal ...",
+          "width": 1200,
+          "height": 714
+        },
+        {
+          "imageUrl": "https://s2.glbimg.com/eyyF4B5D8-dAqh-ftaoExudCdxQ=/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/2/z/xTzB9wQrSUnAySARKwdA/ana-castela-celso-tavares-g1-5-de-18-b.jpg",
+          "pageUrl": "https://popeartebrasil.wordpress.com/2023/04/04/ana-castela-se-torna-artista-mais-ouvida-no-brasil-no-youtube/",
+          "source": "Bing",
+          "title": "Ana Castela se torna artista mais ouvida no Brasil no YouTube - Pop e Arte",
+          "width": 3000,
+          "height": 2000
+        },
+        {
+          "imageUrl": "https://s2-extra.glbimg.com/U5NjUr3YhSvLxVBYid2Btf6Qdsg=/1440x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2023/F/I/53499iRdOS7aDQ8481gQ/337350591-1386780922142233-644256277590324259-n.jpg",
+          "pageUrl": "https://extra.globo.com/entretenimento/resumo-de-novelas/noticia/2024/11/ana-castela-estreia-como-atriz-em-a-caverna-encantada-saiba-como-vai-ser-e-veja-os-resumos.ghtml",
+          "source": "Bing",
+          "title": "Ana Castela estreia como atriz em 'A caverna encantada': saiba como vai ...",
+          "width": 1440,
+          "height": 1800
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-F45brW\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeee-410c-7360-8391-06f81e234c03\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Ana Castela nega traições e anuncia medidas judiciais\",\"excerpt\":\"Cantora negou acusações de traição e afirmou que adotará medidas judiciais após rumores envolvendo seu nome.\",\"category\":\"Famosos\",\"imageSubject\":\"Ana Castela\",\"imageAlt\":\"Ana Castela em imagem individual\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Ana Castela: conheça o fenômeno musical brasileiro | CLAUDIA\",\"pageUrl\":\"https://claudia.abril.com.br/cultura/ana-castela-conheca-o-fenomeno-musical-brasileiro/\"},{\"attachment\":2,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Ana Castela completa 30 semanas como a mais ouvida do Brasil; veja ...\",\"pageUrl\":\"https://billboard.com.br/ana-castela-completa-30-semanas-como-a-mais-ouvida-do-brasil-veja-ranking/\"},{\"attachment\":3,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Relembre 5 conquistas de Ana Castela em 2024\",\"pageUrl\":\"https://primeirapagina.com.br/musica/relembre-5-conquistas-de-ana-castela-em-2024/\"},{\"attachment\":4,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Quem é Ana Castela? Febre no sertanejo, cantora estreia na Festa do ...\",\"pageUrl\":\"https://www.purepeople.com.br/galeria/febre-no-sertanejo-ana-castela-estreia-na-festa-do-peao-de-barretos-conheca-cantora_a358186/1\"},{\"attachment\":5,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"ANA CASTELA: A 'Boiadeira\\\" mais famosa do momento Também está no Portal ...\",\"pageUrl\":\"https://portalfama.com.br/famosos-no-portal-fama-ana-castela/\"},{\"attachment\":6,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Ana Castela se torna artista mais ouvida no Brasil no YouTube - Pop e Arte\",\"pageUrl\":\"https://popeartebrasil.wordpress.com/2023/04/04/ana-castela-se-torna-artista-mais-ouvida-no-brasil-no-youtube/\"},{\"attachment\":7,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Ana Castela estreia como atriz em 'A caverna encantada': saiba como vai ...\",\"pageUrl\":\"https://extra.globo.com/entretenimento/resumo-de-novelas/noticia/2024/11/ana-castela-estreia-como-atriz-em-a-caverna-encantada-saiba-como-vai-ser-e-veja-os-resumos.ghtml\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "J0NhbmRpZMOtYXNlJyBu",
+      "reviewId": "J0NhbmRpZMOtYXNlJyBu",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Diogo Nogueira relata candidíase nas cordas vocais",
+      "slug": "diogo-nogueira-relata-candidiase-nas-cordas-vocais",
+      "excerpt": "Cantor disse que está com candidíase nas cordas vocais, explicou o tratamento e detalhou o impacto do problema em sua voz.",
+      "body": [
+        "Diogo Nogueira relatou estar com candidíase nas cordas vocais e explicou o tratamento para a condição. O cantor também atualizou seu estado de saúde e revelou detalhes do problema que afetou sua voz.",
+        "O caso ganhou atenção após a voz de Diogo Nogueira chamar atenção no programa “Encontro”. Ele também falou sobre o uso de um aparelho para conseguir cantar durante esse período."
+      ],
+      "html": "<p>Diogo Nogueira relatou estar com candidíase nas cordas vocais e explicou o tratamento para a condição. O cantor também atualizou seu estado de saúde e revelou detalhes do problema que afetou sua voz.</p>\n<p>O caso ganhou atenção após a voz de Diogo Nogueira chamar atenção no programa “Encontro”. Ele também falou sobre o uso de um aparelho para conseguir cantar durante esse período.</p>",
+      "category": "Música",
+      "market": "brasil",
+      "tags": [
+        "Diogo Nogueira",
+        "Música",
+        "saúde vocal",
+        "Encontro"
+      ],
+      "source": "O Globo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRGFaTkRYeFo1RDRFOGNoSjFKOXhHajJtS3Z2MVFlTzFqbGN3QVBXZHdEWjBfUWQ2SlZtdmNvSHZwNzY3Ml9RRzROZVpBZnktX19kTm1TcEJoVHdyODhvbEgtWFItaFBfWFZHbmZ2WWdTejFDZHZ3NHFOTFBYR2VFcDRtRjN6aVNtVjZIeW52enU3OFhiQ0RlZkdWeHdwRVYtQXFRdnZLUVVCUy1QZklITGhmTWxQUEctdTViVHdUYmJSVjc1azROX25USjhaaFdHaUFQSWhERHFxaG1jSkU3cUtn0gHwAUFVX3lxTFAxVnRpanNCRUFTMTdJN3NINFFzS1lManY1NHVIcjRqZDctNEgyTVhVdVpKdGdVYmNPQ29rbUo4Q2hzWVJuMi1Kbm1OSmFPZnJZeENzWXRrMEZFdzJ0TWNFRkh2R2ZiTTFLVTVxUkpYZjc4RkhWeGgyYTRfVl9zWmFhS2N0dHk4cl9EbUZZcmlwWDhseTFlQm0teEphYmNzVGc4NThDX2pSWklHcUJzbXE2TEswaFl6QVNQa2dzUFE5aVF3cTRubmUxTE9NWFhxMTVISmNoQWQ4ZXZUa3lGa0pQRWNCTDNrRVFfaUdISXBsNA?oc=5",
+      "evidenceSources": [
+        "O Globo",
+        "VEJA",
+        "OFuxico",
+        "Revista Fórum",
+        "Observatório dos Famosos"
+      ],
+      "evidenceClaims": [
+        "'Candidíase' nas cordas vocais: entenda a condição relatada pelo cantor Diogo Nogueira",
+        "Após problema de saúde, voz de Diogo Nogueira chama atenção no ‘Encontro’",
+        "Diogo Nogueira atualiza estado de saúde após laringite bacteriana",
+        "Diogo Nogueira revela estar com candidíase nas cordas vocais e explica tratamento",
+        "Diogo Nogueira revela detalhes da doença que afetou sua voz e do uso de aparelho para conseguir cantar"
+      ],
+      "sourceCount": 5,
+      "score": 100,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Diogo Nogueira",
+      "imageSearchQuery": "Diogo Nogueira",
+      "imageAlt": "Diogo Nogueira em imagem de arquivo",
+      "editorialMeta": {
+        "originalTitle": "'Candidíase' nas cordas vocais: entenda a condição relatada pelo cantor Diogo Nogueira",
+        "sourceId": "J0NhbmRpZMOtYXNlJyBu",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.79,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Diogo Nogueira relatou estar com candidíase nas cordas vocais.",
+          "Diogo Nogueira explicou o tratamento da condição.",
+          "Diogo Nogueira atualizou seu estado de saúde.",
+          "O problema afetou a voz de Diogo Nogueira.",
+          "A voz de Diogo Nogueira chamou atenção no programa “Encontro”.",
+          "Diogo Nogueira falou sobre o uso de um aparelho para conseguir cantar."
+        ],
+        "generatedAt": "2026-06-13T02:44:23.860Z"
+      },
+      "createdAt": "2026-06-13T02:44:23.860Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://portalbelohorizonte.com.br/sites/default/files/arquivos/eventos/2025-09/unnamed.jpg",
+          "pageUrl": "https://portalbelohorizonte.com.br/2025/eventos/show/musica/show-diogo-nogueira",
+          "source": "Bing",
+          "title": "Show: Diogo Nogueira | Portal Oficial de Belo Horizonte",
+          "width": 1128,
+          "height": 634
+        },
+        {
+          "imageUrl": "https://viralizabh.com.br/wp-content/uploads/2025/11/Diogo-Nogueira-celebra-a-musica-brasileira-em-Belo-Horizonte-2048x1342.jpg",
+          "pageUrl": "https://viralizabh.com.br/diogo-nogueira-celebra-a-musica-brasileira-em-belo-horizonte/",
+          "source": "Bing",
+          "title": "Diogo Nogueira celebra a música brasileira em Belo Horizonte | Viraliza",
+          "width": 2048,
+          "height": 1342
+        },
+        {
+          "imageUrl": "https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2025/02/diogo-nogueira_2025-02-22_15-13-28_jpeg_2025-02-22_15-13-28.webp",
+          "pageUrl": "https://www.acidadeon.com/tudoep/tudo-cult/viu-essa/quantos-anos-tem-diogo-nogueira/",
+          "source": "Bing",
+          "title": "Quantos anos tem Diogo Nogueira? - Tudo EP",
+          "width": 1024,
+          "height": 780
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/07/diogo-nogueira_w7152302322.jpg",
+          "pageUrl": "https://caras.com.br/musica/diogo-nogueira-abre-o-jogo-sobre-evolucao-na-vida-pessoal-amadurecido-bastante.phtml",
+          "source": "Bing",
+          "title": "Diogo Nogueira abre o jogo sobre evolução na vida pessoal: 'Amadurecido ...",
+          "width": 2670,
+          "height": 1502
+        },
+        {
+          "imageUrl": "https://www.educarteinc.org/wp-content/uploads/2023/07/Diogo-Nogueira-2023-DC-square.png",
+          "pageUrl": "https://www.educarteinc.org/event/diogo-nogueira-at-karma-dc/",
+          "source": "Bing",
+          "title": "Diogo Nogueira at Karma DC Live Music Venue - EducArte",
+          "width": 1200,
+          "height": 1200
+        },
+        {
+          "imageUrl": "https://musicaemais.nvgo.app/assets/04d07262-29ff-472b-ba3c-167fbfb164e4.JPG",
+          "pageUrl": "https://www.musicaemais.com.br/noticia/diogo-nogueira-sera-a-grande-atracao-da-tradicional-feijoada-carnavalesca-da-rede-windsor-hoteis-no-rio-de-janeiro",
+          "source": "Bing",
+          "title": "Diogo Nogueira será a grande atração da tradicional Feijoada ...",
+          "width": 4365,
+          "height": 2663
+        },
+        {
+          "imageUrl": "https://rollingstone.com.br/wp-content/uploads/2025/02/diogo-nogueira-comanda-festa-que-celebra-conquista-historica-do-clube-do-samba_r4163619560.jpg",
+          "pageUrl": "https://rollingstone.com.br/musica/diogo-nogueira-comanda-festa-que-celebra-conquista-historica-do-clube-do-samba/",
+          "source": "Bing",
+          "title": "Diogo Nogueira comanda festa que celebra conquista histórica do Clube ...",
+          "width": 4000,
+          "height": 2250
+        },
+        {
+          "imageUrl": "https://images.sympla.com.br/64ae9d446c9af.jpg",
+          "pageUrl": "https://www.eventoon.com.br/evento/musica-no-campus-apresenta-diogo-nogueira-em-goiania-22-08-2023",
+          "source": "Bing",
+          "title": "Música no Câmpus apresenta Diogo Nogueira em Goiânia - Evento ON",
+          "width": 1600,
+          "height": 838
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-cqNoA6\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeee-1a31-7aa0-9c35-8a1cf4b9331d\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Diogo Nogueira relata candidíase nas cordas vocais\",\"excerpt\":\"Cantor disse que está com candidíase nas cordas vocais, explicou o tratamento e detalhou o impacto do problema em sua voz.\",\"category\":\"Música\",\"imageSubject\":\"Diogo Nogueira\",\"imageAlt\":\"Diogo Nogueira em imagem de arquivo\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Show: Diogo Nogueira | Portal Oficial de Belo Horizonte\",\"pageUrl\":\"https://portalbelohorizonte.com.br/2025/eventos/show/musica/show-diogo-nogueira\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Diogo Nogueira celebra a música brasileira em Belo Horizonte | Viraliza\",\"pageUrl\":\"https://viralizabh.com.br/diogo-nogueira-celebra-a-musica-brasileira-em-belo-horizonte/\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Quantos anos tem Diogo Nogueira? - Tudo EP\",\"pageUrl\":\"https://www.acidadeon.com/tudoep/tudo-cult/viu-essa/quantos-anos-tem-diogo-nogueira/\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Diogo Nogueira abre o jogo sobre evolução na vida pessoal: 'Amadurecido ...\",\"pageUrl\":\"https://caras.com.br/musica/diogo-nogueira-abre-o-jogo-sobre-evolucao-na-vida-pessoal-amadurecido-bastante.phtml\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Diogo Nogueira at Karma DC Live Music Venue - EducArte\",\"pageUrl\":\"https://www.educarteinc.org/event/diogo-nogueira-at-karma-dc/\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Diogo Nogueira será a grande atração da tradicional Feijoada ...\",\"pageUrl\":\"https://www.musicaemais.com.br/noticia/diogo-nogueira-sera-a-grande-atracao-da-tradicional-feijoada-carnavalesca-da-rede-windsor-hoteis-no-rio-de-janeiro\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Diogo Nogueira comanda festa que celebra conquista histórica do Clube ...\",\"pageUrl\":\"https://rollingstone.com.br/musica/diogo-nogueira-comanda-festa-que-celebra-conquista-historica-do-clube-do-samba/\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Música no Câmpus apresenta Diogo Nogueira em Goiânia - Evento ON\",\"pageUrl\":\"https://www.eventoon.com.br/evento/musica-no-campus-apresenta-diogo-nogueira-em-goiania-22-08-2023\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "UmVww7NydGVyICdjcnVz",
+      "reviewId": "UmVww7NydGVyICdjcnVz",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Nilson Klava é casado e teve cerimônia no Cristo Redentor",
+      "slug": "nilson-klava-e-casado-e-teve-cerimonia-no-cristo-redentor",
+      "excerpt": "Nilson Klava, apontado em manchetes como o \"crush\" da Copa, é casado com a filha de jornalistas ligados à Globo. A cerimônia de casamento é associada ao Cristo Redentor em mais de uma chamada.",
+      "body": [
+        "Nilson Klava aparece nas manchetes sobre a Copa e é descrito como o \"crush\" do torneio. As chamadas também apontam que ele é casado.",
+        "Outro ponto recorrente é que Nilson Klava é casado com a filha de jornalistas ligados à Globo. Mais de uma manchete também associa o casamento ao Cristo Redentor."
+      ],
+      "html": "<p>Nilson Klava aparece nas manchetes sobre a Copa e é descrito como o \"crush\" do torneio. As chamadas também apontam que ele é casado.</p>\n<p>Outro ponto recorrente é que Nilson Klava é casado com a filha de jornalistas ligados à Globo. Mais de uma manchete também associa o casamento ao Cristo Redentor.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Nilson Klava",
+        "Copa",
+        "Cristo Redentor",
+        "Globo"
+      ],
+      "source": "Extra online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX25nVEM1STh0T254MEJGTkszWTc3bXBBY2VsZU9xaDFULXI4ODYybTlUODVhbENnSHlvSXBra2REWG9xN0V4WjVEWjlhTlVuUEFJZGY0NExfUFdYV3V5VU9WWE5WN1pWcDlFRW9QbjYxckNVVEg1X0dHaEhWZHNoMmM3ejlqV1RjR2FQOTgtV3phM181UUYyd05TeDBTdVVzTlBaSGh1cXBLbWxsNkJZalZyc3dzX3Q0X1RWVm5hR2dWeXVLTlZyMtIB1wFBVV95cUxOMzlzcmtfdFNaVV92UVBZMW13YU9BMnlQRXJrdjljVVdwWmw5YjFxWGtyMXpPMExhY0lzbmt0VkJib1Jza0NwVkRHZHZSY3pHSDdCanhnRmw3aFhWd1QycHE3Y2Q5dzlxQ3E1cTdfNkg5OExNU2oyTHd1UUhka3JIOVdreElzSTZUbjVpcUdKQTVtWVFFcDR5RTNkNUJueVU0eWk4d2tsSDQ4UGtrZkZJWEZHQjQzU1R2SXNRVnM5bldNcjBRZUxSWW1fRVNjcS1UMGVxS01SRQ?oc=5",
+      "evidenceSources": [
+        "Extra online",
+        "UOL",
+        "Jornal Correio",
+        "Boca do Rio Magazine",
+        "Terra"
+      ],
+      "evidenceClaims": [
+        "Repórter 'crush' da Copa, Nilson Klava se casou com filha de jornalista no Cristo Redentor",
+        "'Repórter crush' da Copa na Globo é casado com filha de ex-colegas do canal",
+        "Eleito o 'crush' da Copa, repórter Nilson Klava tem casamento secreto no Cristo Redentor e sogra famosa",
+        "Conheça a história de Nilson Klava, o correspondente da Globo que faz sucesso na Copa nos EUA",
+        "Nilson Klava, repórter 'crush' da Copa, é casado com filha de ex-jornalistas da Globo"
+      ],
+      "sourceCount": 5,
+      "score": 101,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Nilson Klava",
+      "imageSearchQuery": "Nilson Klava",
+      "imageAlt": "Nilson Klava em registro individual.",
+      "editorialMeta": {
+        "originalTitle": "Repórter 'crush' da Copa, Nilson Klava se casou com filha de jornalista no Cristo Redentor",
+        "sourceId": "UmVww7NydGVyICdjcnVz",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.95,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Nilson Klava é citado em manchetes sobre a Copa.",
+          "Nilson Klava é descrito como \"crush\" da Copa em mais de uma manchete.",
+          "Nilson Klava é casado.",
+          "As manchetes associam Nilson Klava à filha de jornalistas ligados à Globo.",
+          "Mais de uma manchete associa o casamento de Nilson Klava ao Cristo Redentor."
+        ],
+        "generatedAt": "2026-06-13T02:43:07.602Z"
+      },
+      "createdAt": "2026-06-13T02:43:07.602Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://portalaltadefinicao.com/wp-content/uploads/2024/06/Deborah-Secco-e-nilson-klava.jpg",
+          "pageUrl": "https://portalaltadefinicao.com/xand-aviao-e-mari-fernandez-participam-do-domingao-02-06-2024/",
+          "source": "Bing",
+          "title": "Saiba o que vai acontecer no Domingão de hoje, 02/06/2024",
+          "width": 1200,
+          "height": 801
+        },
+        {
+          "imageUrl": "https://statics.otvfoco.com.br/2023/06/nilson-klava.jpg",
+          "pageUrl": "https://tvfoco.uai.com.br/nilson-klava/",
+          "source": "Bing",
+          "title": "Nilson Klava: conheça detalhes sobre a vida e carreira do jornalista",
+          "width": 959,
+          "height": 958
+        },
+        {
+          "imageUrl": "https://www.tvpop.com.br/wp-content/uploads/2023/05/nilson-klava-jornal-das-10-foto-reproducao-globonews-tvpop-1024x576.jpg",
+          "pageUrl": "https://www.tvpop.com.br/143593/nilson-klava-e-promovido-pela-globo-e-vira-principal-rosto-de-canal-de-noticias/",
+          "source": "Bing",
+          "title": "Nilson Klava é promovido pela Globo e vira principal rosto de canal de ...",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "imageUrl": "https://statics.otvfoco.com.br/2023/09/nilson-klava.jpg",
+          "pageUrl": "https://tvfoco.uai.com.br/nilson-klava",
+          "source": "Bing",
+          "title": "Nilson Klava: conheça detalhes sobre a vida e carreira do jornalista",
+          "width": 1200,
+          "height": 600
+        },
+        {
+          "imageUrl": "https://midias.correio24horas.com.br/2024/02/22/nilson-klava--2021593-article.jpg",
+          "pageUrl": "https://www.correio24horas.com.br/entretenimento/nilson-klava-assume-programa-da-globonews-em-sao-paulo-relembre-a-trajetoria-do-jornalista-0224",
+          "source": "Bing",
+          "title": "Nilson Klava assume programa da GloboNews em São Paulo; relembre a ...",
+          "width": 600,
+          "height": 375
+        },
+        {
+          "imageUrl": "https://portalaltadefinicao.com/wp-content/uploads/2023/07/Cesar-Tralli-e-Nilson-Klava-Jornal-Hoje.jpg",
+          "pageUrl": "https://portalaltadefinicao.com/nilson-klava-estreia-como-substituto-de-cesar-tralli-na-tv-globo/",
+          "source": "Bing",
+          "title": "Nilson Klava estreia como substituto de Cesar Tralli na TV Globo",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://www.areavip.com.br/wp-content/uploads/2025/05/nilson-klava-1.jpg",
+          "pageUrl": "https://www.areavip.com.br/televisao/nilson-klava-e-promovido-no-jornalismo-da-globo-revela-nova-funcao-e-celebra-meu-coracao-e-so-gratidao/",
+          "source": "Bing",
+          "title": "Nilson Klava é promovido no jornalismo da Globo, revela nova função e ...",
+          "width": 750,
+          "height": 500
+        },
+        {
+          "imageUrl": "https://istoe.com.br/wp-content/uploads/2024/02/nilson-klava.jpg",
+          "pageUrl": "https://istoe.com.br/nilson-klava-assume-programa-da-globonews-em-sao-paulo",
+          "source": "Bing",
+          "title": "Nilson Klava assume programa da GloboNews em São Paulo - ISTOÉ Independente",
+          "width": 1068,
+          "height": 601
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-J5jGQE\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeed-ee66-7553-b1ff-9bae9fe435d7\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Nilson Klava é casado e teve cerimônia no Cristo Redentor\",\"excerpt\":\"Nilson Klava, apontado em manchetes como o \\\"crush\\\" da Copa, é casado com a filha de jornalistas ligados à Globo. A cerimônia de casamento é associada ao Cristo Redentor em mais de uma chamada.\",\"category\":\"Famosos\",\"imageSubject\":\"Nilson Klava\",\"imageAlt\":\"Nilson Klava em registro individual.\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Saiba o que vai acontecer no Domingão de hoje, 02/06/2024\",\"pageUrl\":\"https://portalaltadefinicao.com/xand-aviao-e-mari-fernandez-participam-do-domingao-02-06-2024/\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Nilson Klava: conheça detalhes sobre a vida e carreira do jornalista\",\"pageUrl\":\"https://tvfoco.uai.com.br/nilson-klava/\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Nilson Klava é promovido pela Globo e vira principal rosto de canal de ...\",\"pageUrl\":\"https://www.tvpop.com.br/143593/nilson-klava-e-promovido-pela-globo-e-vira-principal-rosto-de-canal-de-noticias/\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Nilson Klava: conheça detalhes sobre a vida e carreira do jornalista\",\"pageUrl\":\"https://tvfoco.uai.com.br/nilson-klava\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Nilson Klava assume programa da GloboNews em São Paulo; relembre a ...\",\"pageUrl\":\"https://www.correio24horas.com.br/entretenimento/nilson-klava-assume-programa-da-globonews-em-sao-paulo-relembre-a-trajetoria-do-jornalista-0224\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Nilson Klava estreia como substituto de Cesar Tralli na TV Globo\",\"pageUrl\":\"https://portalaltadefinicao.com/nilson-klava-estreia-como-substituto-de-cesar-tralli-na-tv-globo/\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Nilson Klava é promovido no jornalismo da Globo, revela nova função e ...\",\"pageUrl\":\"https://www.areavip.com.br/televisao/nilson-klava-e-promovido-no-jornalismo-da-globo-revela-nova-funcao-e-celebra-meu-coracao-e-so-gratidao/\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Nilson Klava assume programa da GloboNews em São Paulo - ISTOÉ Independente\",\"pageUrl\":\"https://istoe.com.br/nilson-klava-assume-programa-da-globonews-em-sao-paulo\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "R3JhY2llbGUgY2hvcmEg",
+      "reviewId": "R3JhY2llbGUgY2hvcmEg",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Graciele comenta cirurgia de nódulo no rosto da filha Clara",
+      "slug": "graciele-comenta-cirurgia-de-nodulo-no-rosto-da-filha-clara",
+      "excerpt": "Graciele Lacerda comentou a cirurgia feita pela filha Clara, de um ano, para retirar um nódulo do rosto. Ela também revelou o resultado da biópsia do material retirado.",
+      "body": [
+        "Graciele Lacerda comentou a cirurgia feita pela filha Clara, de um ano, para retirar um nódulo do rosto. Ao falar sobre o procedimento, ela chorou.",
+        "Depois, Graciele revelou o resultado da biópsia do nódulo retirado. Zezé Di Camargo também mostrou a bebê após a cirurgia no rosto."
+      ],
+      "html": "<p>Graciele Lacerda comentou a cirurgia feita pela filha Clara, de um ano, para retirar um nódulo do rosto. Ao falar sobre o procedimento, ela chorou.</p>\n<p>Depois, Graciele revelou o resultado da biópsia do nódulo retirado. Zezé Di Camargo também mostrou a bebê após a cirurgia no rosto.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Graciele Lacerda",
+        "Zezé Di Camargo",
+        "Clara",
+        "cirurgia",
+        "famosos"
+      ],
+      "source": "CNN Brasil",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYnNRZm83b1QzSUVBMXpJSTE0YTNOLTBneC1ZS3VrdGNGWUtJNFRiempPU2gwNS16UDVmY24zWk1keTZkUm9hYjNRZUNVMU8wVzZiMGNDT3locXlnY25tYmp0YXNtRUV3OWhjYTNlMGVTUTFMel8xS292RUtfaHdJV3VuYlhIQ2xFY0NzcC16enp2emZtNjBFQ0ZiWE5NWDNrNW5pNXoxaDA3NmNUb0RTYjRHeldJbGpLOXBhTDlSYw?oc=5",
+      "evidenceSources": [
+        "CNN Brasil",
+        "Globo.com",
+        "Estadão",
+        "R7 Entretenimento",
+        "OFuxico"
+      ],
+      "evidenceClaims": [
+        "Graciele chora ao comentar cirurgia de retirada de nódulo da filha com Zezé",
+        "Graciele Lacerda revela resultado da biópsia do nódulo retirado do rosto da filha com Zezé Di Camargo",
+        "Entenda por que a filha de Graciele Lacerda e Zezé Di Camargo teve de retirar nódulo do rosto",
+        "Zezé Di Camargo mostra a bebê após cirurgia no rostinho dela",
+        "Graciele Lacerda revela que a filha Clara, de um ano, passou por procedimento médico"
+      ],
+      "sourceCount": 5,
+      "score": 103,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Graciele Lacerda e a filha Clara após a cirurgia",
+      "imageSearchQuery": "Graciele Lacerda Clara bebê cirurgia rosto",
+      "imageAlt": "Graciele Lacerda com a filha Clara após procedimento no rosto",
+      "editorialMeta": {
+        "originalTitle": "Graciele chora ao comentar cirurgia de retirada de nódulo da filha com Zezé",
+        "sourceId": "R3JhY2llbGUgY2hvcmEg",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.91,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Graciele Lacerda comentou a cirurgia da filha Clara.",
+          "Clara, de um ano, passou por um procedimento médico.",
+          "O procedimento foi para retirar um nódulo do rosto de Clara.",
+          "Graciele chorou ao comentar o procedimento.",
+          "Graciele revelou o resultado da biópsia do nódulo retirado.",
+          "Zezé Di Camargo mostrou a bebê após a cirurgia."
+        ],
+        "generatedAt": "2026-06-13T02:42:31.582Z"
+      },
+      "createdAt": "2026-06-13T02:42:31.582Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/11/graciele-lacerda-explica-mancha-rosto-filha-1-1536x864.jpg",
+          "pageUrl": "https://caras.com.br/bebe/graciele-lacerda-explica-mancha-no-rosto-da-filha-reacao.phtml",
+          "source": "Bing",
+          "title": "Graciele Lacerda explica mancha no rosto da filha: 'Reação' - CARAS Brasil",
+          "width": 1536,
+          "height": 864
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2026/01/graciele-lacerda-mostra-a-filha-com-camisa-de-futebol.jpg",
+          "pageUrl": "https://caras.com.br/bebe/filha-de-graciele-lacerda-encanta-ao-surgir-com-camisa-de-time-de-futebol.phtml",
+          "source": "Bing",
+          "title": "Filha de Graciele Lacerda encanta ao surgir com camisa de time de ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/09/clara-e-graciele-lacerda.jpg",
+          "pageUrl": "https://caras.com.br/bebe/graciele-lacerda-comemora-festa-de-nove-meses-da-filha-clara.phtml",
+          "source": "Bing",
+          "title": "Graciele Lacerda comemora festa de nove meses da filha, Clara - CARAS ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://180graus.com/180graus/media/image_bank/2026/2/graciele-lacerda-toma-decisao-apos-descobrir-mancha-na-filha_4385405176119440267.png.1200x0_q85_crop.jpg",
+          "pageUrl": "https://180graus.com/famosos/graciele-lacerda-revela-reacao-na-pele-da-filha-apos-uso-prolongado-de-corticoide/",
+          "source": "Bing",
+          "title": "Graciele Lacerda revela reação na pele da filha após uso prolongado de ...",
+          "width": 906,
+          "height": 509
+        },
+        {
+          "imageUrl": "https://aloalobahia.com/wp-content/uploads/2025/11/Screenshot-2025-11-08-at-19.22.54-2.jpg",
+          "pageUrl": "https://aloalobahia.com/noticias/2025/11/08/graciele-lacerda-se-encanta-ao-mostrar-desenvolvimento-da-filha-clara-acho-que-esta-vindo-um-mamae/",
+          "source": "Bing",
+          "title": "Graciele Lacerda se encanta ao mostrar desenvolvimento da filha Clara ...",
+          "width": 1200,
+          "height": 844
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/12/27/zeze-sohdmy0r3wvr.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/gente/graciele-lacerda-e-zeze-di-camargo-mostram-rostinho-da-filha-clara-nascida-no-natal,aa72bc5a2c7ff1995639271fe82d2fbd3c7qai8j.html",
+          "source": "Bing",
+          "title": "Graciele Lacerda e Zezé Di Camargo mostram rostinho da filha Clara ...",
+          "width": 774,
+          "height": 619
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/08/graciele-lacerda-impressiona-mostrar-filha.jpg",
+          "pageUrl": "https://caras.com.br/bebe/graciele-lacerda-impressiona-com-fotos-da-filha-no-show-de-zeze-cara-do-avo.phtml",
+          "source": "Bing",
+          "title": "Graciele Lacerda impressiona com fotos da filha no show de Zezé: 'Cara ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2025/01/10/1057030820-graciele-lacerda.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/gente/graciele-lacerda-compartilha-fotos-com-a-filha-e-declara-chegou-para-transformar,cafc4a8643667782aa02f0474995d2dcw0iyufhf.html",
+          "source": "Bing",
+          "title": "Graciele Lacerda compartilha fotos com a filha e declara: 'Chegou para ...",
+          "width": 1548,
+          "height": 871
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-PAi0n2\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeed-cf39-7b43-9ba4-7af2595106b3\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Graciele comenta cirurgia de nódulo no rosto da filha Clara\",\"excerpt\":\"Graciele Lacerda comentou a cirurgia feita pela filha Clara, de um ano, para retirar um nódulo do rosto. Ela também revelou o resultado da biópsia do material retirado.\",\"category\":\"Famosos\",\"imageSubject\":\"Graciele Lacerda e a filha Clara após a cirurgia\",\"imageAlt\":\"Graciele Lacerda com a filha Clara após procedimento no rosto\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Graciele Lacerda explica mancha no rosto da filha: 'Reação' - CARAS Brasil\",\"pageUrl\":\"https://caras.com.br/bebe/graciele-lacerda-explica-mancha-no-rosto-da-filha-reacao.phtml\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Filha de Graciele Lacerda encanta ao surgir com camisa de time de ...\",\"pageUrl\":\"https://caras.com.br/bebe/filha-de-graciele-lacerda-encanta-ao-surgir-com-camisa-de-time-de-futebol.phtml\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Graciele Lacerda comemora festa de nove meses da filha, Clara - CARAS ...\",\"pageUrl\":\"https://caras.com.br/bebe/graciele-lacerda-comemora-festa-de-nove-meses-da-filha-clara.phtml\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Graciele Lacerda revela reação na pele da filha após uso prolongado de ...\",\"pageUrl\":\"https://180graus.com/famosos/graciele-lacerda-revela-reacao-na-pele-da-filha-apos-uso-prolongado-de-corticoide/\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Graciele Lacerda se encanta ao mostrar desenvolvimento da filha Clara ...\",\"pageUrl\":\"https://aloalobahia.com/noticias/2025/11/08/graciele-lacerda-se-encanta-ao-mostrar-desenvolvimento-da-filha-clara-acho-que-esta-vindo-um-mamae/\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Graciele Lacerda e Zezé Di Camargo mostram rostinho da filha Clara ...\",\"pageUrl\":\"https://www.terra.com.br/diversao/gente/graciele-lacerda-e-zeze-di-camargo-mostram-rostinho-da-filha-clara-nascida-no-natal,aa72bc5a2c7ff1995639271fe82d2fbd3c7qai8j.html\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Graciele Lacerda impressiona com fotos da filha no show de Zezé: 'Cara ...\",\"pageUrl\":\"https://caras.com.br/bebe/graciele-lacerda-impressiona-com-fotos-da-filha-no-show-de-zeze-cara-do-avo.phtml\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Graciele Lacerda compartilha fotos com a filha e declara: 'Chegou para ...\",\"pageUrl\":\"https://www.terra.com.br/diversao/gente/graciele-lacerda-compartilha-fotos-com-a-filha-e-declara-chegou-para-transformar,cafc4a8643667782aa02f0474995d2dcw0iyufhf.html\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "TGVhbmRyYSBMZWFsIGZh",
+      "reviewId": "TGVhbmRyYSBMZWFsIGZh",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Leandra Leal fala de Isabelle Drummond e de novo filme da Globo",
+      "slug": "leandra-leal-fala-de-isabelle-drummond-e-de-novo-filme-da-globo",
+      "excerpt": "Atriz comentou a parceria com Isabelle Drummond em 'Coração Acelerado' e falou sobre o destino da vilã da trama.",
+      "body": [
+        "Leandra Leal falou sobre a parceria com Isabelle Drummond em 'Coração Acelerado' e também tratou de um novo filme da Globo.",
+        "Sobre a vilã de 'Coração Acelerado', Leandra Leal afirmou que a personagem deve receber castigo e ter um final triste na trama. Ela também disse que a vilã não vai acabar rica."
+      ],
+      "html": "<p>Leandra Leal falou sobre a parceria com Isabelle Drummond em 'Coração Acelerado' e também tratou de um novo filme da Globo.</p>\n<p>Sobre a vilã de 'Coração Acelerado', Leandra Leal afirmou que a personagem deve receber castigo e ter um final triste na trama. Ela também disse que a vilã não vai acabar rica.</p>",
+      "category": "Cinema",
+      "market": "brasil",
+      "tags": [
+        "Leandra Leal",
+        "Isabelle Drummond",
+        "Coração Acelerado",
+        "Globo"
+      ],
+      "source": "O Globo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNzdscTVTT0hLd005NXlJeWFaMnQwWWFIVml6czlBXzYtWGFtanVPRHZma1NESmEzWTVsUUhDZEZYR3lzdHBDWHBKTGlkRENIZXRZX1Q5X2ktWUxVZERRenNheUVqZUFZa01aLVVoUUVCSk9XLTJ2di1NT1hrdkd4YnprSWxkWDB2VVNWanNUaXR0UDdxRHI2aTF2QlRKREs2NkpNSXhocDlDM3hiOExRQVZiTHVlUjJidm91eTJ3UktkSFhleEFtM2RQNVJsRVpuSjVuZ3pmM0M4MkZrZFpoSzNCR0ZDV1UwbGVPdFBBa0t2RmFDZkxB0gGGAkFVX3lxTE1FZGJfbmlKQ05hd2hmVW1jR1BKUmdMa1FxUm95UnBNYkw0OC1CeUU3QjlEZVducHA3dEQtQWxQS1hBdmFKVWRXUFVXZHVTUXFZdElmOXdlbDZRTnNhaDltMmpQdG9OdEg4VjdHdS0yVEZlYnpDdzVJYk96eVVzQUlwbjBCUTRjT2tyYTNTX2Vmc3VLSTVUM2taRlAtSUgwUGRzMVVzV0wta3QwN2hmYnJPcXFuWVl1NEd5ZFg5WlQxd1o4OEkwb3dZTFd1UjQ0ZVNMbmRvYzNvVkZNREJYV0ZvTzcxbjN4X2ZjcjR5SUV1NDc5OTFQS2pZZVgzb3hXak10ZHp3b2c?oc=5",
+      "evidenceSources": [
+        "O Globo",
+        "Notícias da TV",
+        "CARAS Brasil",
+        "O TEMPO",
+        "NSC Total"
+      ],
+      "evidenceClaims": [
+        "Leandra Leal fala da parceria com Isabelle Drummond em 'Coração acelerado' e de novo filme da Globo",
+        "Leandra Leal prevê castigo para vilã de Coração Acelerado: 'Não vai acabar rica'",
+        "Leandra Leal revela escolha que fez para aproveitar os primeiros anos do filho caçula: 'Tinha o ideal...",
+        "Leandra Leal prevê final triste para vilã de Coração Acelerado: “Amoral”",
+        "Leandra Leal, aos 43 anos: \"Não quero falar sobre o que eu estou vivendo\""
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Leandra Leal",
+      "imageSearchQuery": "Leandra Leal",
+      "imageAlt": "Leandra Leal em retrato",
+      "editorialMeta": {
+        "originalTitle": "Leandra Leal fala da parceria com Isabelle Drummond em 'Coração acelerado' e de novo filme da Globo",
+        "sourceId": "TGVhbmRyYSBMZWFsIGZh",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.91,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Leandra Leal falou sobre a parceria com Isabelle Drummond em 'Coração Acelerado'.",
+          "Leandra Leal tratou de um novo filme da Globo.",
+          "Leandra Leal previu castigo para a vilã de 'Coração Acelerado'.",
+          "Leandra Leal previu final triste para a vilã de 'Coração Acelerado'.",
+          "Leandra Leal disse que a vilã não vai acabar rica."
+        ],
+        "generatedAt": "2026-06-13T02:40:36.549Z"
+      },
+      "createdAt": "2026-06-13T02:40:36.549Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://s.ebiografia.com/img/le/an/leandra_leal.jpg?auto_optimize=low",
+          "pageUrl": "https://www.ebiografia.com/maiores_atrizes_brasileiras_comeco_carreira/",
+          "source": "Bing",
+          "title": "19 atrizes famosas brasileiras que conquistaram o coração do público ...",
+          "width": 652,
+          "height": 787
+        },
+        {
+          "imageUrl": "https://www.gethucinema.com/wp-content/uploads/2025/05/Leandra-Leal-39-zMeHBh4371.jpg",
+          "pageUrl": "https://www.gethucinema.com/2025/05/actress-leandra-leal-hd-photos-and-wallpapers-may-2025.html/leandra-leal-39-zmehbh4371",
+          "source": "Bing",
+          "title": "Leandra Leal | Gethu Cinema",
+          "width": 1080,
+          "height": 1342
+        },
+        {
+          "imageUrl": "https://rollingstone.com.br/wp-content/uploads/legacy/2017/img-1043259-leandra-leal.jpg",
+          "pageUrl": "https://rollingstone.com.br/artigo/leandra-leal/",
+          "source": "Bing",
+          "title": "Leandra Leal - Rolling Stone Brasil",
+          "width": 3154,
+          "height": 4724
+        },
+        {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCfqSRzHZvPGN79B-qZqZ-q5WWD53G3xekxqid9ApfQfROeVWZiRkhsrChIsUJragT0EteFQvnG5XuVRkUvOxD2hoZKyqg57sBTGc4RyyIJGLzEecIAOKNRItQou0f7mbpDACOkfpw8Zk4yq6GXZYj1v4mqO-b6CN9mOvrS8HH-FgYrG0cK2qgYDz7AOUl/s1350/Leandra.jpg",
+          "pageUrl": "https://www.taisparanhos.com.br/2025/05/leandra-leal-e-homenageada-no-cine-pe.html",
+          "source": "Bing",
+          "title": "Taís Paranhos: Leandra Leal é homenageada no Cine PE 2025 por sua ...",
+          "width": 1080,
+          "height": 1350
+        },
+        {
+          "imageUrl": "https://br.web.img3.acsta.net/pictures/210/156/21015698_20130626165759653.jpg",
+          "pageUrl": "https://www.adorocinema.com/personalidades/personalidade-197161/",
+          "source": "Bing",
+          "title": "Leandra Leal - AdoroCinema",
+          "width": 300,
+          "height": 400
+        },
+        {
+          "imageUrl": "https://f.i.uol.com.br/fotografia/2025/10/02/175945064768df161765280_1759450647_3x2_rt.jpg",
+          "pageUrl": "https://f5.folha.uol.com.br/cinema-e-series/2025/10/festival-do-rio-leandra-leal-brinca-que-o-agente-secreto-leva-o-oscar-se-a-premiacao-for-no-carnaval.shtml",
+          "source": "Bing",
+          "title": "Festival do Rio: Leandra Leal fala de 'O Agente Secreto' - 02/10/2025 ...",
+          "width": 2400,
+          "height": 1600
+        },
+        {
+          "imageUrl": "https://br.web.img2.acsta.net/newsv7/16/12/15/19/45/340946.jpg",
+          "pageUrl": "https://www.adorocinema.com/noticias/filmes/noticia-126442/",
+          "source": "Bing",
+          "title": "20ª edição da Mostra Tiradentes vai homenagear Leandra Leal - Notícias ...",
+          "width": 770,
+          "height": 308
+        },
+        {
+          "imageUrl": "https://www.gethucinema.com/wp-content/uploads/2025/05/Leandra-Leal-47-fy4EA26111.jpg",
+          "pageUrl": "https://www.gethucinema.com/2025/05/actress-leandra-leal-hd-photos-and-wallpapers-may-2025.html/leandra-leal-47-fy4ea26111",
+          "source": "Bing",
+          "title": "Leandra Leal | Gethu Cinema",
+          "width": 1008,
+          "height": 1256
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-kQBhgB\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeed-ab65-76f2-865c-ea23f5837335\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Leandra Leal fala de Isabelle Drummond e de novo filme da Globo\",\"excerpt\":\"Atriz comentou a parceria com Isabelle Drummond em 'Coração Acelerado' e falou sobre o destino da vilã da trama.\",\"category\":\"Cinema\",\"imageSubject\":\"Leandra Leal\",\"imageAlt\":\"Leandra Leal em retrato\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"19 atrizes famosas brasileiras que conquistaram o coração do público ...\",\"pageUrl\":\"https://www.ebiografia.com/maiores_atrizes_brasileiras_comeco_carreira/\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Leandra Leal | Gethu Cinema\",\"pageUrl\":\"https://www.gethucinema.com/2025/05/actress-leandra-leal-hd-photos-and-wallpapers-may-2025.html/leandra-leal-39-zmehbh4371\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Leandra Leal - Rolling Stone Brasil\",\"pageUrl\":\"https://rollingstone.com.br/artigo/leandra-leal/\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Taís Paranhos: Leandra Leal é homenageada no Cine PE 2025 por sua ...\",\"pageUrl\":\"https://www.taisparanhos.com.br/2025/05/leandra-leal-e-homenageada-no-cine-pe.html\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Leandra Leal - AdoroCinema\",\"pageUrl\":\"https://www.adorocinema.com/personalidades/personalidade-197161/\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Festival do Rio: Leandra Leal fala de 'O Agente Secreto' - 02/10/2025 ...\",\"pageUrl\":\"https://f5.folha.uol.com.br/cinema-e-series/2025/10/festival-do-rio-leandra-leal-brinca-que-o-agente-secreto-leva-o-oscar-se-a-premiacao-for-no-carnaval.shtml\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"20ª edição da Mostra Tiradentes vai homenagear Leandra Leal - Notícias ...\",\"pageUrl\":\"https://www.adorocinema.com/noticias/filmes/noticia-126442/\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Leandra Leal | Gethu Cinema\",\"pageUrl\":\"https://www.gethucinema.com/2025/05/actress-leandra-leal-hd-photos-and-wallpapers-may-2025.html/leandra-leal-47-fy4ea26111\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "VFYsIG1hcXVpYWdlbSwg",
+      "reviewId": "VFYsIG1hcXVpYWdlbSwg",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Deolane Bezerra tem rotina na prisão detalhada em manchetes",
+      "slug": "deolane-bezerra-tem-rotina-na-prisao-detalhada-em-manchetes",
+      "excerpt": "Manchetes sobre Deolane Bezerra destacam a prisão e citam itens e direitos ligados à rotina dela no presídio.",
+      "body": [
+        "Deolane Bezerra aparece nas manchetes em contexto de prisão. Os títulos tratam da rotina dela na cadeia e citam TV, maquiagem, chapinha e visita íntima.",
+        "As manchetes também mencionam o presídio onde ela está presa. Entre os pontos citados nos títulos estão falta de higiene, comida estragada e escorpiões."
+      ],
+      "html": "<p>Deolane Bezerra aparece nas manchetes em contexto de prisão. Os títulos tratam da rotina dela na cadeia e citam TV, maquiagem, chapinha e visita íntima.</p>\n<p>As manchetes também mencionam o presídio onde ela está presa. Entre os pontos citados nos títulos estão falta de higiene, comida estragada e escorpiões.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Deolane Bezerra",
+        "prisão",
+        "presídio"
+      ],
+      "source": "Portal Leo Dias",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcVhVTk1qcGt2UGdzcnE0NWlyYkNXZmxtTENhSjN3cklSYUc3Qm1jdGZNeloxWmRVdkhVbktvbFdtQ1ppdTkxWGtJcVN4NHJVLU1MZEYzQXUzbEs0RUd3akhOaHJVRG1pTWVNYUE0STVpamJWYUZHN1dMZGUtdWE4aTl2TnF5MnE5ZWNBc1lRSnlCbXBiakFrYS11QjhSa0c1ZjNqNW9ndlQzUVR6TmtSS0M3QzFPd9IB6AFBVV95cUxNa2E4Wmt3LXc0dmRfcW1BeDdQLUNUR3BqWVZDSGRhTUhKYS1ZdERZZXg2aUJpZFFWNVhCVU94Z01XVEJoQnUxZXZIZE52Zm1sSS1PUVFmM1VHaWhQSGVMaWR6bUxvRG5HTXNtWVRyMk5OSTB1cjJVcmdIdnJjV2djTWhfVGdSYVYwQmcxQllubC15WElQQ0puRGppYkZvcU9haExzRXpYS0ozTUdzUGJJZnFaRnFvdXhUQWJTMFctOTIzdzhVRkVHeW1nRDZ6NHowV1FLVWtsUWE4Vjh1WFBEVWpnb19HZTJs?oc=5",
+      "evidenceSources": [
+        "Portal Leo Dias",
+        "G1",
+        "UOL Notícias",
+        "Estadão",
+        "Midiamax"
+      ],
+      "evidenceClaims": [
+        "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
+        "Fotos mostram presídio onde Deolane está presa após defesa denunciar falta de higiene e escorpiões",
+        "Secretaria nega que cela de Deolane tenha comida estragada e escorpião",
+        "‘Batom, creme, esmalte, sombra, chapinha e visita íntima’: os direitos da doutora Deolane na cadeia",
+        "Infestação de escorpiões e pratos defecados: irmã detalha rotina de Deolane na cadeia"
+      ],
+      "sourceCount": 5,
+      "score": 107,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Deolane Bezerra",
+      "imageSearchQuery": "Deolane Bezerra",
+      "imageAlt": "Deolane Bezerra",
+      "editorialMeta": {
+        "originalTitle": "TV, maquiagem, chapinha e visita íntima: veja a rotina de Deolane Bezerra na prisão",
+        "sourceId": "VFYsIG1hcXVpYWdlbSwg",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.95,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Deolane Bezerra está presa.",
+          "As manchetes tratam da rotina de Deolane Bezerra na prisão.",
+          "Os títulos citam TV, maquiagem, chapinha e visita íntima.",
+          "As manchetes mencionam o presídio onde ela está presa.",
+          "Os títulos citam falta de higiene, comida estragada e escorpiões."
+        ],
+        "generatedAt": "2026-06-13T02:35:53.945Z"
+      },
+      "createdAt": "2026-06-13T02:35:53.945Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/EYRE5Vb5eiuKK12htE83Ma6IIas=/0x0:1400x950/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2024/O/l/CT9S6bRQuydXBPM61kTw/deolane.jpg",
+          "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2024/09/viuva-de-mc-influencer-e-ate-cantora-entenda-ascensao-de-deolane-bezerra-na-web.ghtml",
+          "source": "Bing",
+          "title": "Viúva de MC, influencer e até cantora: Entenda ascensão de Deolane ...",
+          "width": 888,
+          "height": 603
+        },
+        {
+          "imageUrl": "https://static.tvgazeta.com.br/uploads/2024/09/Deolane-Bezerra-e-presa-novamente.webp",
+          "pageUrl": "https://www.tvgazeta.com.br/videos/deolane-bezerra-e-presa-novamente/",
+          "source": "Bing",
+          "title": "Deolane Bezerra é presa novamente - TV Gazeta - Você por perto. Tudo certo!",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/7/39/68/07/@/4525944-caso-deolane-bezerra-mae-da-influencer-1200x0-1.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/caso-deolane-bezerra-mae-da-influencer_m4525944",
+          "source": "Bing",
+          "title": "Foto: Caso Deolane Bezerra: mãe da influencer, Solange Bezerra chegou a ...",
+          "width": 1200,
+          "height": 1658
+        },
+        {
+          "imageUrl": "https://www.maisnovela.com.br/wp-content/uploads/2024/09/deolane-bezerra-1-3.jpg",
+          "pageUrl": "https://www.maisnovela.com.br/famosos/deolane-bezerra-abre-o-jogo-sobre-diagnostico-de-depressao-respeitando-o-meu-momento.phtml",
+          "source": "Bing",
+          "title": "Deolane Bezerra abre o jogo sobre diagnóstico de depressão ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://otempo.scene7.com/is/image/sempreeditora/entretenimento-deolane-bezerra-1725464932?qlt=90&ts=1725470037040&dpr=off",
+          "pageUrl": "https://www.otempo.com.br/entretenimento/2024/10/3/deolane-bezerra-posta-reflexao-apos-voltar-as-redes",
+          "source": "Bing",
+          "title": "Deolane Bezerra posta reflexão após voltar às redes",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=745923848403461",
+          "pageUrl": "https://www.facebook.com/profile.php/?id=100089575585096",
+          "source": "Bing",
+          "title": "Dr Deolane Bezerra fc",
+          "width": 1320,
+          "height": 1393
+        },
+        {
+          "imageUrl": "https://www.bnews.com.br/media/uploads/abril_2025/deolane_bezerra.jpg",
+          "pageUrl": "https://www.bnews.com.br/noticias/entretenimento/em-meio-a-processo-judicial-deolane-bezerra-surpreende-os-seguidores-ao-exibir-novo-visual-mais-jovem.html",
+          "source": "Bing",
+          "title": "Em meio a processo judicial, Deolane Bezerra surpreende os seguidores ...",
+          "width": 1640,
+          "height": 924
+        },
+        {
+          "imageUrl": "https://ofuxico.com.br/wp-content/uploads/2022/12/deolane-bezerra-seria-a-fazenda-14.jpg",
+          "pageUrl": "https://www.ofuxico.com.br/reality-show/a-fazenda/deolane-bezerra-revela-torcida-bia-miramda-roca/",
+          "source": "Bing",
+          "title": "A Fazenda 14: Deolane Bezerra revela torcida em Roça e fãs detonam",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-vc00wp\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeed-7b76-70d2-8503-c42597ef8cd0\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Deolane Bezerra tem rotina na prisão detalhada em manchetes\",\"excerpt\":\"Manchetes sobre Deolane Bezerra destacam a prisão e citam itens e direitos ligados à rotina dela no presídio.\",\"category\":\"TV\",\"imageSubject\":\"Deolane Bezerra\",\"imageAlt\":\"Deolane Bezerra\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Viúva de MC, influencer e até cantora: Entenda ascensão de Deolane ...\",\"pageUrl\":\"https://revistaquem.globo.com/noticias/noticia/2024/09/viuva-de-mc-influencer-e-ate-cantora-entenda-ascensao-de-deolane-bezerra-na-web.ghtml\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Deolane Bezerra é presa novamente - TV Gazeta - Você por perto. Tudo certo!\",\"pageUrl\":\"https://www.tvgazeta.com.br/videos/deolane-bezerra-e-presa-novamente/\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Foto: Caso Deolane Bezerra: mãe da influencer, Solange Bezerra chegou a ...\",\"pageUrl\":\"https://www.purepeople.com.br/midia/caso-deolane-bezerra-mae-da-influencer_m4525944\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Deolane Bezerra abre o jogo sobre diagnóstico de depressão ...\",\"pageUrl\":\"https://www.maisnovela.com.br/famosos/deolane-bezerra-abre-o-jogo-sobre-diagnostico-de-depressao-respeitando-o-meu-momento.phtml\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Deolane Bezerra posta reflexão após voltar às redes\",\"pageUrl\":\"https://www.otempo.com.br/entretenimento/2024/10/3/deolane-bezerra-posta-reflexao-apos-voltar-as-redes\"},{\"attachment\":6,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Em meio a processo judicial, Deolane Bezerra surpreende os seguidores ...\",\"pageUrl\":\"https://www.bnews.com.br/noticias/entretenimento/em-meio-a-processo-judicial-deolane-bezerra-surpreende-os-seguidores-ao-exibir-novo-visual-mais-jovem.html\"},{\"attachment\":7,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"A Fazenda 14: Deolane Bezerra revela torcida em Roça e fãs detonam\",\"pageUrl\":\"https://www.ofuxico.com.br/reality-show/a-fazenda/deolane-bezerra-revela-torcida-bia-miramda-roca/\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "w4BzIHbDqXNwZXJhcyBk",
+      "reviewId": "w4BzIHbDqXNwZXJhcyBk",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Ex-cantoras do Rouge trocam farpas às vésperas de documentário",
+      "slug": "ex-cantoras-do-rouge-trocam-farpas-as-vesperas-de-documentario",
+      "excerpt": "Luciana Andrade falou sobre bastidores, saída do Rouge e rumores sobre sua trajetória. Karin Hils se pronunciou depois.",
+      "body": [
+        "Ex-cantoras do Rouge trocaram farpas às vésperas de um documentário sobre o grupo. No contexto da discussão, aparece a frase \"Não sou mentirosa\".",
+        "Luciana Andrade falou sobre bastidores do Rouge, sua saída do grupo e rumores sobre sua trajetória. Depois, Karin Hils se pronunciou sobre o desabafo."
+      ],
+      "html": "<p>Ex-cantoras do Rouge trocaram farpas às vésperas de um documentário sobre o grupo. No contexto da discussão, aparece a frase \"Não sou mentirosa\".</p>\n<p>Luciana Andrade falou sobre bastidores do Rouge, sua saída do grupo e rumores sobre sua trajetória. Depois, Karin Hils se pronunciou sobre o desabafo.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Rouge",
+        "Luciana Andrade",
+        "Karin Hils"
+      ],
+      "source": "Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5",
+      "evidenceSources": [
+        "Notícias da TV",
+        "OFuxico",
+        "POPline",
+        "R7 Entretenimento",
+        "gente.ig.com.br"
+      ],
+      "evidenceClaims": [
+        "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
+        "Karin Hils se pronuncia após desabafo de Lu Andrade sobre Rouge",
+        "“Eu não brigava com ninguém”: Luciana expõe bastidores, mentira e arrependimento no Rouge",
+        "Luciana Andrade aborda saída do Rouge e esclarece rumores sobre sua trajetória",
+        "Karin Hils, ex-Rouge, fala de“Estrela da Casa”: 'Nem se inscreva'"
+      ],
+      "sourceCount": 5,
+      "score": 110,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Karin Hils e Luciana Andrade, ex-integrantes do Rouge",
+      "imageSearchQuery": "Karin Hils Luciana Andrade Rouge",
+      "imageAlt": "Karin Hils e Luciana Andrade, ex-cantoras do Rouge",
+      "editorialMeta": {
+        "originalTitle": "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
+        "sourceId": "w4BzIHbDqXNwZXJhcyBk",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Ex-cantoras do Rouge trocaram farpas às vésperas de um documentário.",
+          "A frase \"Não sou mentirosa\" aparece ligada à discussão.",
+          "Luciana Andrade falou sobre bastidores do Rouge.",
+          "Luciana Andrade abordou sua saída do Rouge.",
+          "Luciana Andrade esclareceu rumores sobre sua trajetória.",
+          "Karin Hils se pronunciou após o desabafo de Luciana Andrade."
+        ],
+        "generatedAt": "2026-06-13T02:34:11.556Z"
+      },
+      "createdAt": "2026-06-13T02:34:11.556Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/9/22/01/79/@/2523449-karin-hils-aline-wirley-fantine-tho-l-950x0-4.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/karin-hils-aline-wirley-fantine-tho-l_m2523449",
+          "source": "Bing",
+          "title": "Karin Hils, Aline Wirley, Fantine Thó, Luciana Andrade e Li Martins se ...",
+          "width": 950,
+          "height": 633
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2023-abril/rouge_szjgVfb.jpg",
+          "pageUrl": "https://caras.com.br/musica/voce-sabia-ex-rouge-lu-andrade-segue-nova-profissao-longe-dos-palcos.phtml",
+          "source": "Bing",
+          "title": "Você sabia? Ex-Rouge, Lu Andrade segue nova profissão longe dos palcos ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/SnapInsta.to_67464850_137961620750477_7025423408475860537_n.jpg",
+          "pageUrl": "https://portalleodias.com/cultura/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge",
+          "source": "Bing",
+          "title": "Karin Hils celebra aniversário de Lu Andrade e reacende rumores sobre ...",
+          "width": 1079,
+          "height": 853
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/1/98/84/1/@/1301546-luciana-andrade-tambem-era-vocalista-do-580x0-1.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/luciana-andrade-tambem-era-vocalista-do_m1301546",
+          "source": "Bing",
+          "title": "Foto: Grupo Rouge com sua formação original: Luciana Andrade, Aline ...",
+          "width": 580,
+          "height": 579
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/TDxtCCjZ-Backup-capa-1-foto.png",
+          "pageUrl": "https://portalleodias.com/cultura/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge",
+          "source": "Bing",
+          "title": "Karin Hils celebra aniversário de Lu Andrade e reacende rumores sobre ...",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/SnapInsta.to_69237587_107331010488820_4786362951879927958_n.jpg",
+          "pageUrl": "https://portalr1.com.br/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge/",
+          "source": "Bing",
+          "title": "Karin Hils celebra aniversário de Lu Andrade e reacende rumores sobre ...",
+          "width": 757,
+          "height": 757
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2026/04/13/345812768-retorno-rouge-novos-projetos-2024-jpg.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/musica/rouge-luciana-andrade-desmente-karin-hils-sobre-crise-no-popstars,f85b6948d3617e422ecd3b1679005184sem4ok3o.html",
+          "source": "Bing",
+          "title": "Rouge: Luciana Andrade desmente Karin Hils sobre crise no \"Popstars\"",
+          "width": 774,
+          "height": 582
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/vgLrh3G1kA3JD2CjKXsLjNFC7Gc=/0x0:1280x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2023/7/E/nn7QADSveBKLasVsbk9Q/rouge.jpeg",
+          "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2025/09/ex-rouge-li-martins-e-luciana-andrade-se-encontram-em-sp-paz-pro-coracao.ghtml",
+          "source": "Bing",
+          "title": "Ex-Rouge Li Martins e Luciana Andrade se encontram em SP: 'Paz pro coração'",
+          "width": 984,
+          "height": 554
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-f8Djlm\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeed-5d31-7240-8bc8-52c6379bcffd\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Ex-cantoras do Rouge trocam farpas às vésperas de documentário\",\"excerpt\":\"Luciana Andrade falou sobre bastidores, saída do Rouge e rumores sobre sua trajetória. Karin Hils se pronunciou depois.\",\"category\":\"Famosos\",\"imageSubject\":\"Karin Hils e Luciana Andrade, ex-integrantes do Rouge\",\"imageAlt\":\"Karin Hils e Luciana Andrade, ex-cantoras do Rouge\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Karin Hils, Aline Wirley, Fantine Thó, Luciana Andrade e Li Martins se ...\",\"pageUrl\":\"https://www.purepeople.com.br/midia/karin-hils-aline-wirley-fantine-tho-l_m2523449\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Você sabia? Ex-Rouge, Lu Andrade segue nova profissão longe dos palcos ...\",\"pageUrl\":\"https://caras.com.br/musica/voce-sabia-ex-rouge-lu-andrade-segue-nova-profissao-longe-dos-palcos.phtml\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"Karin Hils celebra aniversário de Lu Andrade e reacende rumores sobre ...\",\"pageUrl\":\"https://portalleodias.com/cultura/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"Foto: Grupo Rouge com sua formação original: Luciana Andrade, Aline ...\",\"pageUrl\":\"https://www.purepeople.com.br/midia/luciana-andrade-tambem-era-vocalista-do_m1301546\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"Karin Hils celebra aniversário de Lu Andrade e reacende rumores sobre ...\",\"pageUrl\":\"https://portalleodias.com/cultura/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Karin Hils celebra aniversário de Lu Andrade e reacende rumores sobre ...\",\"pageUrl\":\"https://portalr1.com.br/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge/\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"Rouge: Luciana Andrade desmente Karin Hils sobre crise no \\\"Popstars\\\"\",\"pageUrl\":\"https://www.terra.com.br/diversao/musica/rouge-luciana-andrade-desmente-karin-hils-sobre-crise-no-popstars,f85b6948d3617e422ecd3b1679005184sem4ok3o.html\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Ex-Rouge Li Martins e Luciana Andrade se encontram em SP: 'Paz pro coração'\",\"pageUrl\":\"https://revistaquem.globo.com/noticias/noticia/2025/09/ex-rouge-li-martins-e-luciana-andrade-se-encontram-em-sp-paz-pro-coracao.ghtml\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "MTIgZmlsbWVzIHJvbcOi",
+      "reviewId": "MTIgZmlsbWVzIHJvbcOi",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Listas reúnem filmes para diferentes programas no Dia dos Namorados",
+      "slug": "listas-reunem-filmes-para-diferentes-programas-no-dia-dos-namorados",
+      "excerpt": "Sugestões de filmes para o Dia dos Namorados incluem romances, títulos em cartaz, relançamentos e opções para ver em casa ou fugir da data.",
+      "body": [
+        "O Dia dos Namorados aparece como tema de diferentes listas de filmes. Entre elas, há uma seleção com 12 filmes românticos para assistir na data e outra com produções românticas em cartaz nos cinemas de São Paulo.",
+        "As sugestões também incluem clássicos do romance com relançamento especial nos cinemas. Em paralelo, há uma lista com cinco filmes voltados a solteiros que querem fugir da data e outra com cinco opções para quem vai passar o Dia dos Namorados em casa."
+      ],
+      "html": "<p>O Dia dos Namorados aparece como tema de diferentes listas de filmes. Entre elas, há uma seleção com 12 filmes românticos para assistir na data e outra com produções românticas em cartaz nos cinemas de São Paulo.</p>\n<p>As sugestões também incluem clássicos do romance com relançamento especial nos cinemas. Em paralelo, há uma lista com cinco filmes voltados a solteiros que querem fugir da data e outra com cinco opções para quem vai passar o Dia dos Namorados em casa.</p>",
+      "category": "Cinema",
+      "market": "brasil",
+      "tags": [
+        "Dia dos Namorados",
+        "Cinema",
+        "Filmes românticos"
+      ],
+      "source": "Capricho",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNGlsWG9YZjdDRE1wS3FDbDNOaW9pdUZ5ZXdqeU5JUHZIUFFMNlZyaHh6SGhGMFBhdlhTMDdCQXFxTHdnQ2lWM0Q5UjV2OHNmd2k0RWFXd19LVjBUQTlOSl83ZjB2MTB1WVJVeGwtQ18xdk1MSWNkeUJaaW41ODZtUDV0bzhhZW9CS2tCeENDUkN0eGRtOW0xaHN2dHZBX3duYTRJ?oc=5",
+      "evidenceSources": [
+        "Capricho",
+        "Guia Folha",
+        "G1",
+        "Estadão",
+        "Folha Vitória"
+      ],
+      "evidenceClaims": [
+        "12 filmes românticos para assistir no Dia dos Namorados",
+        "Conhe\\u00e7a filmes rom\\u00e2nticos em cartaz nos cinemas de S\\u00e3o Paulo",
+        "Dia dos Namorados: clássicos do romance ganham relançamento especial nos cinemas; veja lista",
+        "Dia dos Namorados: 5 filmes para os solteiros que querem fugir da data",
+        "Vai passar o Dia dos Namorados em casa? Estes 5 filmes são a escolha perfeita para a data"
+      ],
+      "sourceCount": 5,
+      "score": 115,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Filmes românticos para o Dia dos Namorados",
+      "imageSearchQuery": "filmes romanticos Dia dos Namorados cinema",
+      "imageAlt": "Imagem relacionada a filmes românticos para o Dia dos Namorados",
+      "editorialMeta": {
+        "originalTitle": "12 filmes românticos para assistir no Dia dos Namorados",
+        "sourceId": "MTIgZmlsbWVzIHJvbcOi",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.93,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Há uma lista com 12 filmes românticos para o Dia dos Namorados.",
+          "Há filmes românticos em cartaz nos cinemas de São Paulo.",
+          "Clássicos do romance ganharam relançamento especial nos cinemas.",
+          "Há uma lista com cinco filmes para solteiros que querem fugir da data.",
+          "Há uma lista com cinco filmes para passar o Dia dos Namorados em casa."
+        ],
+        "generatedAt": "2026-06-13T02:27:53.970Z"
+      },
+      "createdAt": "2026-06-13T02:27:53.970Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://contilnetnoticias.com.br/wp-content/uploads/2025/06/Black-and-White-World-No-Tobacco-Day-Instagram-Post.png-3.jpeg",
+          "pageUrl": "https://contilnetnoticias.com.br/2025/06/dia-dos-namorados-filmoteca-acreana-exibe-filmes-classicos-romanticos-nesta-semana/",
+          "source": "Bing",
+          "title": "Dia dos Namorados: filmoteca acreana exibe filmes clássicos românticos ...",
+          "width": 1080,
+          "height": 889
+        },
+        {
+          "imageUrl": "https://ilovealiancas.com.br/wp-content/uploads/2023/05/filme-romantico-para-sempre.jpg",
+          "pageUrl": "https://ilovealiancas.com.br/dicas-e-curiosidades/filmes-romanticos/",
+          "source": "Bing",
+          "title": "Filmes Românticos: ️ Uma Lista Apaixonante para Você Conhecer",
+          "width": 1000,
+          "height": 1200
+        },
+        {
+          "imageUrl": "https://1.bp.blogspot.com/-gngHHaBDgIk/XuMX-fH1P2I/AAAAAAAAGn4/FzoB2L8HPbQ6kKNGaAyPe0ERArouBSmvACK4BGAsYHg/w640-h512/Rosa%2Bcom%2BCinza%2BCasal%2Be%2BCora%25C3%25A7%25C3%25B5es%2BFormato%2Bde%2BCora%25C3%25A7%25C3%25A3o%2BFotos%2BMontagem.png",
+          "pageUrl": "https://boxdecinema.blogspot.com/2020/06/5-filmes-para-voce-curtir-no-dia-dos.html",
+          "source": "Bing",
+          "title": "5 Filmes para você curtir no Dia dos Namorados - Geek Combo",
+          "width": 640,
+          "height": 512
+        },
+        {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNr1cYkga_SLrameDgJ_Xr8vX7TwYuKAidtShCIzTijKfIcu58RCoWtNcLA6JuSwQJlTgzp_OH-13Vz4We7tpEpxabvyc8kRnxBjqhO5B5UU7Of0nxMaVgXPGSWtt-obfU8l5BhMHieqUgJzbdzLH7uC8LfjsqA2i0gpg0IKDhMEQQ1rROf8hZU51AdZU/w1200-h630-p-k-no-nu/filmes.jpg",
+          "pageUrl": "https://mulherplus.blogspot.com/2024/05/10-filmes-romanticos-para-assistir-no.html",
+          "source": "Bing",
+          "title": "10 filmes românticos para Assistir no Dia dos Namorados",
+          "width": 940,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://meuvalordigital.com.br/wp-content/uploads/2024/04/Filmes-romanticos.jpg",
+          "pageUrl": "https://meuvalordigital.com.br/10-melhores-filmes-romanticos-para-voce-se-apaixonar/",
+          "source": "Bing",
+          "title": "10 melhores filmes românticos para você se apaixonar - Meu Valor ...",
+          "width": 1242,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://serrasgerais.com.br/wp-content/uploads/2025/06/55274-dia-dos-namorados-15-filmes-romanticos-para-assistir-no-streaming-770x470.jpg",
+          "pageUrl": "https://serrasgerais.com.br/dia-dos-namorados-15-filmes-romanticos-para-assistir-no-streaming/",
+          "source": "Bing",
+          "title": "Dia dos Namorados: 15 filmes românticos para assistir no streaming ...",
+          "width": 770,
+          "height": 470
+        },
+        {
+          "imageUrl": "https://4.bp.blogspot.com/-dfvZIhCqo_o/Wxq0a-lfHaI/AAAAAAABKLY/NhDihqOuCJswD2fSj965DLkoTiOIFpM4QCLcBGAs/s1600/00.jpg",
+          "pageUrl": "https://www.pipoca3d.com.br/2018/06/12dicasprodiadosnamorados.html",
+          "source": "Bing",
+          "title": "12 FILMES LANÇADOS PELA CLASSICLINE PARA CURTIR NO DIA DOS NAMORADOS ...",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://cdn.ulmechat.com/conteudo/file-1749728793443.png",
+          "pageUrl": "https://www.ulme.chat/portal/conteudo/entretenimento/dia-dos-namorados-10-filmes-romanticos-imperdiveis-para-ver-com-quem-voce-ama",
+          "source": "Bing",
+          "title": "Dia dos namorados: 10 filmes românticos imperdíveis para ver com quem ...",
+          "width": 1024,
+          "height": 480
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-uFmmjK\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeed-4380-7e91-b6db-91a8fde6c199\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"Listas reúnem filmes para diferentes programas no Dia dos Namorados\",\"excerpt\":\"Sugestões de filmes para o Dia dos Namorados incluem romances, títulos em cartaz, relançamentos e opções para ver em casa ou fugir da data.\",\"category\":\"Cinema\",\"imageSubject\":\"Filmes românticos para o Dia dos Namorados\",\"imageAlt\":\"Imagem relacionada a filmes românticos para o Dia dos Namorados\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Dia dos Namorados: filmoteca acreana exibe filmes clássicos românticos ...\",\"pageUrl\":\"https://contilnetnoticias.com.br/2025/06/dia-dos-namorados-filmoteca-acreana-exibe-filmes-classicos-romanticos-nesta-semana/\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"Filmes Românticos: ️ Uma Lista Apaixonante para Você Conhecer\",\"pageUrl\":\"https://ilovealiancas.com.br/dicas-e-curiosidades/filmes-romanticos/\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"5 Filmes para você curtir no Dia dos Namorados - Geek Combo\",\"pageUrl\":\"https://boxdecinema.blogspot.com/2020/06/5-filmes-para-voce-curtir-no-dia-dos.html\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"10 filmes românticos para Assistir no Dia dos Namorados\",\"pageUrl\":\"https://mulherplus.blogspot.com/2024/05/10-filmes-romanticos-para-assistir-no.html\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"10 melhores filmes românticos para você se apaixonar - Meu Valor ...\",\"pageUrl\":\"https://meuvalordigital.com.br/10-melhores-filmes-romanticos-para-voce-se-apaixonar/\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"Dia dos Namorados: 15 filmes românticos para assistir no streaming ...\",\"pageUrl\":\"https://serrasgerais.com.br/dia-dos-namorados-15-filmes-romanticos-para-assistir-no-streaming/\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"12 FILMES LANÇADOS PELA CLASSICLINE PARA CURTIR NO DIA DOS NAMORADOS ...\",\"pageUrl\":\"https://www.pipoca3d.com.br/2018/06/12dicasprodiadosnamorados.html\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"Dia dos namorados: 10 filmes românticos imperdíveis para ver com quem ...\",\"pageUrl\":\"https://www.ulme.chat/portal/conteudo/entretenimento/dia-dos-namorados-10-filmes-romanticos-imperdiveis-para-ver-com-quem-voce-ama\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "w41jb25lIGRhIGFydGUg",
+      "reviewId": "w41jb25lIGRhIGFydGUg",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "David Hockney morre aos 88 anos",
+      "slug": "david-hockney-morre-aos-88-anos",
+      "excerpt": "A morte de David Hockney, aos 88 anos, foi destaque em diferentes manchetes, acompanhada de análises sobre sua obra e de uma retrospectiva de sua carreira.",
+      "body": [
+        "David Hockney morreu aos 88 anos. O pintor também foi identificado como britânico em uma das manchetes reunidas sobre o caso.",
+        "As publicações ainda destacam análises sobre sua obra, incluindo as piscinas que pintou e a ternura em sua arte, além de uma retrospectiva sobre sua carreira."
+      ],
+      "html": "<p>David Hockney morreu aos 88 anos. O pintor também foi identificado como britânico em uma das manchetes reunidas sobre o caso.</p>\n<p>As publicações ainda destacam análises sobre sua obra, incluindo as piscinas que pintou e a ternura em sua arte, além de uma retrospectiva sobre sua carreira.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "David Hockney",
+        "arte",
+        "pintura"
+      ],
+      "source": "CNN Brasil",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOVJ1clFiN0VoQmQ5SDY4YWtBd3JkZEtFVEQ4aUJiUS16ZWd0MTNaNzE5ZktTci12VXliQk1yN0hyNEItNHFOQThKS3Jud3pIeFNTcmtnRHNKWTFVcmc5Z3RxSnpGT0VxNlJ1R2ZhN0NwcWhTR1RhbUZ0cXFYVGlPRExibG4zVi1uNnB5Wm5XZWk2b0ZLeW1YNA?oc=5",
+      "evidenceSources": [
+        "CNN Brasil",
+        "Folha de S.Paulo",
+        "Assine Abril",
+        "Valor Econômico",
+        "Estadão"
+      ],
+      "evidenceClaims": [
+        "Ícone da arte contemporânea, David Hockney morre aos 88 anos",
+        "Análise: David Hockney pintou as suas piscinas como o lar de paixões movediças",
+        "O adeus ao mestre das cores: relembre a carreira de David Hockney, que morreu aos 88 anos",
+        "Pintor britânico David Hockney morre aos 88 anos",
+        "Análise | David Hockney fez da ternura um fato cotidiano em sua arte"
+      ],
+      "sourceCount": 5,
+      "score": 118,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/news-placeholder.svg",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "David Hockney",
+      "imageSearchQuery": "David Hockney retrato",
+      "imageAlt": "David Hockney em retrato",
+      "editorialMeta": {
+        "originalTitle": "Ícone da arte contemporânea, David Hockney morre aos 88 anos",
+        "sourceId": "w41jb25lIGRhIGFydGUg",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.94,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "David Hockney morreu aos 88 anos.",
+          "David Hockney foi identificado como pintor britânico.",
+          "Houve análises sobre as piscinas pintadas por David Hockney.",
+          "Houve uma análise sobre a ternura em sua arte.",
+          "Houve uma retrospectiva sobre a carreira de David Hockney."
+        ],
+        "generatedAt": "2026-06-13T02:26:21.739Z"
+      },
+      "createdAt": "2026-06-13T02:26:21.739Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://cromatica.art/wp-content/uploads/2021/07/retrato-de-un-artista-david-hockney-770x568.jpg",
+          "pageUrl": "https://cromatica.art/retrato-de-un-artista-david-hockney/",
+          "source": "Bing",
+          "title": "Retrato de un Artista - David Hockney",
+          "width": 770,
+          "height": 568
+        },
+        {
+          "imageUrl": "https://lasnuevemusas.com/wp-content/uploads/davidhockney-rufushale-4.jpg",
+          "pageUrl": "https://www.lasnuevemusas.com/david-hockney-la-belleza-del-retrato/",
+          "source": "Bing",
+          "title": "David Hockney. La belleza del retrato » Las nueve musas",
+          "width": 520,
+          "height": 693
+        },
+        {
+          "imageUrl": "https://www.singulart.com/blog/wp-content/uploads/2024/01/David-Hockney-Je-suis-un-space-freak.jpg",
+          "pageUrl": "https://www.singulart.com/es/blog/2024/07/17/david-hockneys-un-retrato-de-un-artista-piscina-con-dos-figuras/",
+          "source": "Bing",
+          "title": "\"Un retrato de un artista\" de David Hockney (piscina con dos figuras)",
+          "width": 2000,
+          "height": 1332
+        },
+        {
+          "imageUrl": "https://lasnuevemusas.com/wp-content/uploads/davidhockney-barryhumphries.-1.jpg",
+          "pageUrl": "https://www.lasnuevemusas.com/david-hockney-la-belleza-del-retrato/",
+          "source": "Bing",
+          "title": "David Hockney. La belleza del retrato » Las nueve musas",
+          "width": 520,
+          "height": 692
+        },
+        {
+          "imageUrl": "https://reportarte.es/wp-content/uploads/2017/11/David-Hockney-1200.jpg",
+          "pageUrl": "https://reportarte.es/2017/11/david-hockney-82-retratos-1-bodegon/",
+          "source": "Bing",
+          "title": "David Hockney: 82 retratos y 1 bodegón",
+          "width": 1200,
+          "height": 1675
+        },
+        {
+          "imageUrl": "https://cdn.sanity.io/images/dqllnil6/production/e48ef98c124f77c98e376809f0aea8323bb2562d-1000x704.jpg?w=1920&q=60&auto=format",
+          "pageUrl": "https://www.myartbroker.com/artist-david-hockney/articles/david-hockney-paintings",
+          "source": "Bing",
+          "title": "David Hockney's 5 Most Famous Paintings | Article | MyArtBroker",
+          "width": 1920,
+          "height": 1352
+        },
+        {
+          "imageUrl": "https://i.pinimg.com/736x/1e/4d/08/1e4d08f499ffb7a79d8412f57ab4e500.jpg",
+          "pageUrl": "https://kr.pinterest.com/pin/860539441334777427/",
+          "source": "Bing",
+          "title": "David Hockney (Collage-Retrato) | David hockney collage, David hockney ...",
+          "width": 600,
+          "height": 686
+        },
+        {
+          "imageUrl": "https://cdn.aarp.net/content/dam/aarp/entertainment/celebrities/2023/11/1140-david-hockney-with-paintings.jpg",
+          "pageUrl": "https://narodnatribuna.info/lists/d/david-hockney-portrait/",
+          "source": "Bing",
+          "title": "David Hockney Portrait Art History News: David Hockney At Auction",
+          "width": 1140,
+          "height": 655
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: Codex CLI saiu com codigo 1: Reading prompt from stdin...\nOpenAI Codex v0.137.0\n--------\nworkdir: /Users/rafaeloliver/.openclaw/tmp/buzzpop-vision-3DLpmT\nmodel: gpt-5.5\nprovider: openai\napproval: never\nsandbox: read-only\nreasoning effort: xhigh\nreasoning summaries: none\nsession id: 019ebeed-1a9a-7f23-8694-5a77af6f83dc\n--------\nuser\n{\"role\":\"revisor visual de fotografia jornalistica\",\"instruction\":\"Analise as imagens anexadas e retorne somente o JSON do schema. Escolha uma candidata apenas se a pessoa, obra, programa ou evento central estiver claramente correto. Rejeite pessoa errada, grupo confuso, crianca como foco indevido, meme, print, montagem, texto pesado, baixa qualidade, poster/logo quando deveria haver pessoa, ou imagem que sugira outro acontecimento. Se nenhuma for segura, approved=false e candidateIndex=-1.\",\"article\":{\"title\":\"David Hockney morre aos 88 anos\",\"excerpt\":\"A morte de David Hockney, aos 88 anos, foi destaque em diferentes manchetes, acompanhada de análises sobre sua obra e de uma retrospectiva de sua carreira.\",\"category\":\"Famosos\",\"imageSubject\":\"David Hockney\",\"imageAlt\":\"David Hockney em retrato\"},\"origin\":\"web\",\"attachmentMap\":[{\"attachment\":1,\"candidateIndex\":0,\"source\":\"Bing\",\"title\":\"Retrato de un Artista - David Hockney\",\"pageUrl\":\"https://cromatica.art/retrato-de-un-artista-david-hockney/\"},{\"attachment\":2,\"candidateIndex\":1,\"source\":\"Bing\",\"title\":\"David Hockney. La belleza del retrato » Las nueve musas\",\"pageUrl\":\"https://www.lasnuevemusas.com/david-hockney-la-belleza-del-retrato/\"},{\"attachment\":3,\"candidateIndex\":2,\"source\":\"Bing\",\"title\":\"\\\"Un retrato de un artista\\\" de David Hockney (piscina con dos figuras)\",\"pageUrl\":\"https://www.singulart.com/es/blog/2024/07/17/david-hockneys-un-retrato-de-un-artista-piscina-con-dos-figuras/\"},{\"attachment\":4,\"candidateIndex\":3,\"source\":\"Bing\",\"title\":\"David Hockney. La belleza del retrato » Las nueve musas\",\"pageUrl\":\"https://www.lasnuevemusas.com/david-hockney-la-belleza-del-retrato/\"},{\"attachment\":5,\"candidateIndex\":4,\"source\":\"Bing\",\"title\":\"David Hockney: 82 retratos y 1 bodegón\",\"pageUrl\":\"https://reportarte.es/2017/11/david-hockney-82-retratos-1-bodegon/\"},{\"attachment\":6,\"candidateIndex\":5,\"source\":\"Bing\",\"title\":\"David Hockney's 5 Most Famous Paintings | Article | MyArtBroker\",\"pageUrl\":\"https://www.myartbroker.com/artist-david-hockney/articles/david-hockney-paintings\"},{\"attachment\":7,\"candidateIndex\":6,\"source\":\"Bing\",\"title\":\"David Hockney (Collage-Retrato) | David hockney collage, David hockney ...\",\"pageUrl\":\"https://kr.pinterest.com/pin/860539441334777427/\"},{\"attachment\":8,\"candidateIndex\":7,\"source\":\"Bing\",\"title\":\"David Hockney Portrait Art History News: David Hockney At Auction\",\"pageUrl\":\"https://narodnatribuna.info/lists/d/david-hockney-portrait/\"}]}\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\nERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 1:47 AM.\n",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "J0RhaSBEYWknLi4uIG1h",
+      "reviewId": "J0RhaSBEYWknLi4uIG1h",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Aparição de Shakira na Copa 2026 gera dúvidas entre fãs",
+      "slug": "aparicao-de-shakira-na-copa-2026-gera-duvidas-entre-fas",
+      "excerpt": "A presença de Shakira na abertura da Copa 2026 virou assunto após fãs levantarem dúvidas sobre a aparência da cantora durante o show.",
+      "body": [
+        "A aparição de Shakira na abertura da Copa 2026 virou assunto entre fãs. A presença da cantora, associada a “Dai Dai”, chamou atenção e gerou dúvidas sobre se era mesmo Shakira no palco durante o show ligado à Copa do Mundo.",
+        "As manchetes convergem ao apontar que a aparência da artista levantou suspeitas e intrigou o público na internet. Entre as dúvidas citadas, está a possibilidade de uso de dublê na apresentação."
+      ],
+      "html": "<p>A aparição de Shakira na abertura da Copa 2026 virou assunto entre fãs. A presença da cantora, associada a “Dai Dai”, chamou atenção e gerou dúvidas sobre se era mesmo Shakira no palco durante o show ligado à Copa do Mundo.</p>\n<p>As manchetes convergem ao apontar que a aparência da artista levantou suspeitas e intrigou o público na internet. Entre as dúvidas citadas, está a possibilidade de uso de dublê na apresentação.</p>",
+      "category": "Música",
+      "market": "brasil",
+      "tags": [
+        "Shakira",
+        "Dai Dai",
+        "Copa 2026",
+        "Copa do Mundo"
+      ],
+      "source": "O Globo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ2pXMXRjRnAxTzdrMUxSMW1yX1Y2SkxfVVByRS1tTzZnUzN3X254VHFzWGJraWVZLURPeWJweEIyMHBqNG1NYzVObTd4MWFraXNjclRZT2lqdEpoZ1ZQdVNWaHhNLThTTTVGZGFVUE1OV3ZZc09fR093U1d6Mm1QLUhaUDNRSzhDSTJKb1ZlOV9WRE5pMlpzSTY5bi04S3FGME8xZ3haTjN0cDlDVzc1bWRuYW5OTHNkbUZUNGZjejlyNmFMUFZUNWQ1Z1ZkNDctSGV3NGtYN3o2RWs2Q1l0dllrWktTS2FVTV9jYjNROEFuQ1k3X0oydNIBhwJBVV95cUxPbmlDOTBuNE9ERkZMTERfYmR3dFFmUk1nX2ZJYUtzS1BBNURpXzJjZW4tSlZEOEZXc3FBdmM2ejk2MHVoWmt4X2hzR1lfazd3cEl6bE4zbFdIdUtkNXZkbFczSUtfRjZJeERZYlh0Z3Vjd3djUVUtWmpFRmRBVUpQdTYwVDd2OFZodXhlLUhlVHg3ODdYaS1aSl8xUmVaSUdDYkRSdF8yeG4tVFRITVR1SHpkcFVqZEIyUTBnUnVrM0F2UnM4MHFPRVlPWGthWUhtNktUazdfb2tqZ1BJMHQ0OTlYVm5ILWpfc01SOFNiTUlSMFh6X25SVkFXb0UtX254bkRkdTliSQ?oc=5",
+      "evidenceSources": [
+        "O Globo",
+        "R7",
+        "CNN Brasil",
+        "Estadão",
+        "VEJA"
+      ],
+      "evidenceClaims": [
+        "'Dai Dai'... mas era mesmo Shakira? Aparência da cantora na abertura da Copa 2026 intriga web; entenda",
+        "Fãs levantam suspeita de que Shakira usou dublê em show da Copa do Mundo | #AHoraDaVenenosa #Shorts",
+        "\"Dai Dai\" foi eleita a melhor música das Copas do Mundo, diz Billboard",
+        "Shakira domina votação de revista e ‘Dai Dai’ é eleita melhor canção das Copas do Mundo",
+        "O que significa ‘Dai Dai’, música de Shakira para a Copa do Mundo"
+      ],
+      "sourceCount": 5,
+      "score": 130,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/aparicao-de-shakira-na-copa-2026-gera-duvidas-entre-fas.webp",
+      "imageCredit": "Foto: css' href='https://altonivel.com.mx/wp-content/plugins/media public/css/media-credit.min.css?ver=4.3.0' media='all' />",
+      "imageSubject": "Shakira em apresentação ligada à abertura da Copa 2026",
+      "imageSearchQuery": "Shakira abertura Copa 2026 Dai Dai",
+      "imageAlt": "Shakira em apresentação ligada à abertura da Copa 2026",
+      "editorialMeta": {
+        "originalTitle": "'Dai Dai'... mas era mesmo Shakira? Aparência da cantora na abertura da Copa 2026 intriga web; entenda",
+        "sourceId": "J0RhaSBEYWknLi4uIG1h",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "codex-oauth",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.93,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "codex-cli",
+          "provider": "codex-oauth"
+        },
+        "factualClaims": [
+          "Shakira esteve no centro de manchetes sobre a abertura da Copa 2026.",
+          "A aparição de Shakira foi associada a “Dai Dai”.",
+          "Fãs levantaram dúvidas sobre se era mesmo Shakira no show.",
+          "A possibilidade de uso de dublê foi citada nas manchetes.",
+          "“Dai Dai” é apresentada nas evidências como música de Shakira para a Copa do Mundo."
+        ],
+        "generatedAt": "2026-06-13T02:22:36.550Z"
+      },
+      "createdAt": "2026-06-13T02:22:36.550Z",
+      "imagePostUrl": "https://www.altonivel.com.mx/shakira-presenta-dai-dai-la-cancion-oficial-del-mundial-2026/",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://www.altonivel.com.mx/shakira-presenta-dai-dai-la-cancion-oficial-del-mundial-2026/",
+      "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+      "imageReview": {
+        "status": "approved",
+        "approved": true,
+        "candidateIndex": 5,
+        "confidence": 0.91,
+        "reason": "Shakira aparece claramente como figura central em uma apresentação coletiva dentro de um estádio, com figurino temático e contexto visual diretamente ligado à Copa de 2026. A imagem não contém texto pesado, montagem aparente ou foco indevido.",
+        "visibleSubject": "Shakira dançando no centro do gramado de um estádio, acompanhada por vários bailarinos.",
+        "concerns": [
+          "A cena pode ser de um videoclipe promocional, e não necessariamente da cerimônia de abertura ao vivo."
+        ],
+        "model": "codex-cli",
+        "origin": "web"
+      }
+    }
+  ]
+}
