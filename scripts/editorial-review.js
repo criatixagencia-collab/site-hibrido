@@ -65,8 +65,7 @@ function assertReadyForApproval(item) {
   if (item.imageReview?.status !== "approved") {
     issues.push("imagem nao passou pela revisao visual");
   }
-  // imagem pulada para teste - sem visao disponivel
-  if (false && (!item.image || item.image === "/images/news-placeholder.svg")) {
+  if (!item.image || item.image === "/images/news-placeholder.svg") {
     issues.push("imagem ausente ou placeholder");
   }
   if (issues.length) throw new Error(`${item.reviewId || item.id}: ${issues.join("; ")}`);

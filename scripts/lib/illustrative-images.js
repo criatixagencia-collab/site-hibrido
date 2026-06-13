@@ -2,7 +2,7 @@ import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import os from "node:os";
-import { execFile } from "node:child_process";
+import { execFile, spawn } from "node:child_process";
 import { promisify } from "node:util";
 import { aiApiKey, aiChatCompletionsUrl, aiModel, aiBaseUrl, isOpenAIBaseUrl } from "./ai-config.js";
 
@@ -845,46 +845,72 @@ async function chooseCandidateWithCodexVision(article, candidates, origin) {
       origin,
       attachmentMap,
     });
+    const codexBin = process.env.CODEX_BIN || "codex";
     const imageArgs = downloaded.flatMap((entry) => ["--image", entry.file]);
-    await execFileAsync(
-      "codex",
-      [
-        "exec",
-        "--ephemeral",
-        "--skip-git-repo-check",
-        "--sandbox",
-        "read-only",
-        "--ask-for-approval",
-        "never",
-        "--output-schema",
-        schemaFile,
-        "--output-last-message",
-        outputFile,
-        "-C",
-        directory,
-        ...imageArgs,
-        prompt,
-      ],
-      {
-        cwd: directory,
-        timeout: Number(process.env.CODEX_VISION_TIMEOUT_MS || 180000),
-        maxBuffer: 10 * 1024 * 1024,
-      },
-    );
 
-    const result = JSON.parse(await readFile(outputFile, "utf8"));
-    const index = Number(result.candidateIndex);
+    const result = await new Promise((resolve, reject) => {
+      const child = spawn(
+        codexBin,
+        [
+          "exec",
+          "--ephemeral",
+          "--skip-git-repo-check",
+          "--sandbox",
+          "read-only",
+          "--ask-for-approval",
+          "never",
+          "--output-schema",
+          schemaFile,
+          "--output-last-message",
+          outputFile,
+          "-C",
+          directory,
+          ...imageArgs,
+        ],
+        {
+          cwd: directory,
+          env: {
+            ...process.env,
+            CODEX_HOME: process.env.CODEX_HOME || "/Users/rafaeloliver/.codex",
+          },
+          timeout: Number(process.env.CODEX_VISION_TIMEOUT_MS || 120000),
+          stdio: ["pipe", "pipe", "pipe"],
+        },
+      );
+
+      let stdout = "";
+      let stderr = "";
+
+      child.stdout.on("data", (data) => { stdout += data.toString(); });
+      child.stderr.on("data", (data) => { stderr += data.toString(); });
+
+      child.on("close", (exitCode) => {
+        resolve({ exitCode, stdout, stderr });
+      });
+
+      child.on("error", (error) => { reject(error); });
+
+      child.stdin.write(prompt);
+      child.stdin.end();
+    });
+
+    if (result.exitCode !== 0) {
+      throw new Error(`Codex CLI saiu com codigo ${result.exitCode}: ${result.stderr}`);
+    }
+
+    const output = JSON.parse(await readFile(outputFile, "utf8"));
+    const index = Number(output.candidateIndex);
     const approved =
-      result.approved === true &&
-      Number(result.confidence || 0) >= 0.72 &&
+      output.approved === true &&
+      Number(output.confidence || 0) >= 0.72 &&
       Number.isInteger(index) &&
       Boolean(candidates[index]) &&
       downloaded.some((entry) => entry.index === index);
     return {
-      ...result,
+      ...output,
       approved,
       candidateIndex: approved ? index : -1,
-      confidence: Number(result.confidence || 0),
+      confidence: Number(output.confidence || 0),
       model: "codex-cli",
     };
   } finally {
