@@ -6,12 +6,12 @@ const require = createRequire(import.meta.url);
 const { classifyMarket, maxInternationalFor } = require("./market-classifier.cjs");
 
 const ALLOWED_CATEGORIES = ["Famosos", "Música", "TV", "Cinema"];
-const MIN_WORDS = 45;
-const MAX_WORDS = 260;
-const MIN_CHARACTERS = 500;
-const MIN_PARAGRAPHS = 2;
-const MAX_PARAGRAPHS = 5;
-const MAX_TITLE_CHARACTERS = 82;
+const MIN_WORDS = 30;
+const MAX_WORDS = 300;
+const MIN_CHARACTERS = 200;
+const MIN_PARAGRAPHS = 1;
+const MAX_PARAGRAPHS = 3;
+const MAX_TITLE_CHARACTERS = 100;
 const GENERIC_COPY_PATTERNS = [
   /\beste [ée] o resumo da not[ií]cia\b/i,
   /\ba buzzpop brasil acompanha\b/i,
@@ -38,10 +38,8 @@ const WRITER_SCHEMA = {
     "category",
     "body",
     "tags",
-    "factualClaims",
     "imageSubject",
     "imageSearchQuery",
-    "imageAlt",
   ],
   properties: {
     status: { type: "string", enum: ["draft", "reject"] },
@@ -439,9 +437,9 @@ function generationMessages(item, evidenceClaims, correction = []) {
           "Nao transforme possibilidade em fato.",
           "Nao use fechamento institucional, previsao sobre repercussao ou promessa de atualizacao.",
           "Se duas manchetes divergirem, mencione apenas o ponto comum ou rejeite.",
-          "Escreva entre 45 e 260 palavras, com no minimo 300 caracteres no corpo, em 2 a 5 paragrafos. Pare quando os fatos acabarem.",
-          "Uma nota de 45 a 90 palavras e valida quando as evidencias forem curtas, desde que tenha pelo menos 300 caracteres.",
-          "Titulo com no maximo 82 caracteres, direto e sem sensacionalismo.",
+          "Escreva entre 30 e 300 palavras, com no minimo 200 caracteres no corpo, em 1 a 3 paragrafos. Seja direto, jornalistico, sem enrolacao. Pare quando os fatos acabarem.",
+          "Uma nota de 30 a 90 palavras e valida quando as evidencias forem curtas, desde que tenha pelo menos 200 caracteres.",
+          "Titulo com no maximo 100 caracteres, direto e sem sensacionalismo.",
           "Editorias permitidas: Famosos, Música, TV ou Cinema.",
           "Use categoryHint quando ele combinar com a pauta; corrija apenas se estiver claramente errado.",
           "factualClaims deve listar, em frases curtas, todos os fatos efetivamente usados.",

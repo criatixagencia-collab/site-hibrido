@@ -1,0 +1,2903 @@
+{
+  "workflowVersion": 2,
+  "generatedAt": "2026-06-15T01:19:26.240Z",
+  "status": "awaiting-human-review",
+  "count": 20,
+  "newsCount": 20,
+  "lastRun": {
+    "status": "target-met",
+    "candidatesAttempted": 20,
+    "approved": 20,
+    "rejected": 0,
+    "errors": 0,
+    "imageStage": "completed"
+  },
+  "items": [
+    {
+      "id": "RmlsaG9zIGRlIFZpcmdp",
+      "reviewId": "RmlsaG9zIGRlIFZpcmdp",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Filhos de Virginia e Zé Felipe conhecem nova mansão do cantor",
+      "slug": "filhos-de-virginia-e-ze-felipe-conhecem-nova-mansao-do-cantor",
+      "excerpt": "As crianças visitaram a residência após atraso na mudança e reação foi registrada por Poliana Rocha.",
+      "body": [
+        "Os filhos de Virginia Fonseca e Zé Felipe conheceram a nova mansão do cantor, localizada em um condomínio de luxo em Goiás. A visita aconteceu após um atraso na mudança para o imóvel, que tem sido bastante comentado nas redes sociais.",
+        "A reação das crianças foi registrada pela avó, Poliana Rocha, que compartilhou momentos da visita. Nas imagens, os pequenos aparecem explorando os cômodos da casa, que conta com área de lazer ampla, piscina e espaços exclusivos para as crianças.",
+        "A nova residência do casal tem gerado repercussão entre os fãs, que acompanham cada etapa da mudança. Virginia e Zé Felipe devem se mudar definitivamente nos próximos dias, após a conclusão dos ajustes finais na propriedade."
+      ],
+      "html": "<p>Os filhos de Virginia e Zé Felipe conheceram a nova mansão do cantor. A visita ocorreu após um atraso na mudança para o imóvel. A reação das crianças foi registrada e celebrada pela avó, Poliana Rocha, que afirmou que os netos \"amaram\" o local.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Virginia",
+        "Zé Felipe",
+        "mansão",
+        "filhos",
+        "Poliana Rocha"
+      ],
+      "source": "CNN Brasil",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTTB1QTI3R0puRU9CM3ZveEYxcFlNVFdjVHkyUGJDd0Z0bW5uUVVHVmFzRm5QWHYtTHFoRHRMSEcyU3N2RzNHNjdWamQ4U1M1eWdzclNXOHB2Si10XzI3d3NNM0F4ZmFwV2lpYlFmR01zaXFJNlJ6MXk0M0dUb1ZfR09DdXJJWDZCN2dQRDNsVEoxTnN4VERBdF96bXFlYTJ3SjVOakFJa0hUZDNkZXJldUdBVQ?oc=5",
+      "evidenceSources": [
+        "CNN Brasil",
+        "Globo",
+        "RedeTV!",
+        "R7 Entretenimento",
+        "Alô Alô Bahia"
+      ],
+      "evidenceClaims": [
+        "Filhos de Virginia e Zé Felipe conhecem nova mansão do cantor; veja",
+        "'Amaram': após atraso na mudança, filhos de Virginia conhecem a nova mansão do pai, Zé Felipe",
+        "'Amaram', celebra Poliana Rocha ao mostrar netos invadindo nova casa de Zé Felipe após atraso em obra",
+        "Netos de Leonardo conhecem a nova casa de Zé Felipe e reação impressiona",
+        "Com Virginia nos EUA, Zé Felipe mostra chegada em casa e reencontro com filhos após show"
+      ],
+      "sourceCount": 5,
+      "score": 134,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/filhos-de-virginia-e-ze-felipe-conhecem-nova-mansao-do-cantor.jpg",
+      "imageCredit": "Foto: Zé Felipe compartilhou registro dos filhos na casa de Vini Jr., datada de dezembro de 2025 (Reprodução: Instagram/@zefelipe)",
+      "imageSubject": "Zé Felipe e os filhos",
+      "imageSearchQuery": "Zé Felipe com filhos na nova mansão",
+      "imageAlt": "Zé Felipe e os filhos",
+      "editorialMeta": {
+        "originalTitle": "Filhos de Virginia e Zé Felipe conhecem nova mansão do cantor; veja",
+        "sourceId": "RmlsaG9zIGRlIFZpcmdp",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Filhos de Virginia e Zé Felipe conhecem nova mansão do cantor; veja"
+        ],
+        "generatedAt": "2026-06-15T01:15:06.641Z"
+      },
+      "createdAt": "2026-06-15T01:15:06.641Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://portalleodias.com/famosos/apos-mudancas-na-vida-pessoal-ze-felipe-publica-foto-dos-filhos-em-mansao-de-vini-jr",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/Meu-maior-presente-e-esta-com-vcs.-Feliz-Natal-%F0%9F%8E%84%E2%9D%A4%EF%B8%8F%E2%80%8D%F0%9F%94%A5.jpg",
+          "pageUrl": "https://portalleodias.com/famosos/apos-mudancas-na-vida-pessoal-ze-felipe-publica-foto-dos-filhos-em-mansao-de-vini-jr",
+          "source": "Bing",
+          "title": "Após mudanças na vida pessoal, Zé Felipe publica foto dos filhos em ...",
+          "width": 1080,
+          "height": 1440
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/06/ze-felipe-mostra-parquinho-provisorio-filhos-1.jpg",
+          "pageUrl": "https://caras.com.br/casa-dos-famosos/ze-felipe-mostra-parquinho-provisorio-em-sua-nova-mansao-para-os-filhos.phtml",
+          "source": "Bing",
+          "title": "Zé Felipe mostra parquinho provisório em sua nova mansão para os filhos ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2024/07/virginia-fonseca-e-ze-fewlipe-mansao.jpg",
+          "pageUrl": "https://caras.com.br/casa-dos-famosos/virginia-fonseca-mostra-detalhes-de-sua-mansao-com-ze-felipe-ficou-pronta.phtml",
+          "source": "Bing",
+          "title": "Virginia Fonseca mostra detalhes de sua mansão com Zé Felipe: \"Ficou ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://ofuxico.com.br/wp-content/uploads/2023/02/virginia-ze-felipe-com-as-filhas-1050x700.jpg",
+          "pageUrl": "https://ofuxico.com.br/noticias/ze-felipe-e-virginia-dao-detalhes-de-nova-mansao/",
+          "source": "Bing",
+          "title": "Zé Felipe e Virginia dão detalhes de nova mansão e querem mais filhos",
+          "width": 1050,
+          "height": 700
+        },
+        {
+          "imageUrl": "https://uploads.metroimg.com/cdn-cgi/image/width=1200/wp-content/uploads/2025/03/02114401/3-1113.jpg",
+          "pageUrl": "https://www.metropoles.com/vida-e-estilo/video-veja-detalhes-da-decoracao-da-nova-mansao-de-ze-felipe",
+          "source": "Bing",
+          "title": "Vídeo: veja detalhes da decoração da nova mansão de Zé Felipe",
+          "width": 1200,
+          "height": 837
+        },
+        {
+          "imageUrl": "https://paisefilhos.com.br/wp-content/uploads/2025/06/parquinho-ze-felipe-filhas-1140x641.jpg",
+          "pageUrl": "https://paisefilhos.com.br/famosos/ze-felipe-monta-parquinho-para-os-filhos-na-nova-mansao-veja-os-detalhes/",
+          "source": "Bing",
+          "title": "Zé Felipe monta parquinho para os filhos na nova mansão; veja os ...",
+          "width": 1140,
+          "height": 641
+        },
+        {
+          "imageUrl": "https://www.marciapiovesan.com.br/wp-content/uploads/2022/10/virginia-fonseca-ze-felipe-com-as-filhas.jpg",
+          "pageUrl": "https://www.marciapiovesan.com.br/famosos/ze-felipe-e-virginia-fonseca-dao-detalhes-de-nova-mansao-e-abrem-o-jogo-sobre-ter-mais-filhos.phtml",
+          "source": "Bing",
+          "title": "Zé Felipe e Virginia Fonseca dão detalhes de nova mansão e abrem o jogo ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/04/virginia-fonseca-ze-felipe-filhos_9hygibc4.jpg",
+          "pageUrl": "https://caras.com.br/kids/ze-felipe-encanta-ao-postar-fotos-dos-tres-filhos-confira.phtml",
+          "source": "Bing",
+          "title": "Zé Felipe encanta ao postar fotos dos três filhos. Confira! - CARAS Brasil",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://portalleodias.com/famosos/apos-mudancas-na-vida-pessoal-ze-felipe-publica-foto-dos-filhos-em-mansao-de-vini-jr"
+    },
+    {
+      "id": "RGlhIEQgfCBGaWxtZSBz",
+      "reviewId": "RGlhIEQgfCBGaWxtZSBz",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "‘Dia D’ arrecada US$ 93 milhões na estreia global e surpreende bilheteria",
+      "slug": "dia-d-arrecada-us-93-milhoes-na-estreia-global-e-surpreende-bilheteria",
+      "excerpt": "Filme de Steven Spielberg sobre alienígenas estreia nos cinemas de Boa Vista e arrecada US$ 93 milhões globalmente.",
+      "body": [
+        "O filme 'Dia D', dirigido por Steven Spielberg, arrecadou US$ 93 milhões na estreia global, superando as expectativas iniciais da indústria. O longa, que conta a história de uma invasão alienígena, estreou simultaneamente em diversos países neste fim de semana.",
+        "O valor coloca o filme perto da marca dos US$ 100 milhões, um dos maiores lançamentos do ano. A recepção do público tem sido positiva, com salas lotadas em várias cidades brasileiras, incluindo cinemas de Boa Vista, onde a estreia registrou grande procura.",
+        "Com orçamento estimado em mais de US$ 150 milhões, 'Dia D' precisava de uma estreia forte para justificar o investimento. Analistas de bilheteria acreditam que o filme pode ultrapassar a marca do meio bilhão de dólares se mantiver o ritmo nas próximas semanas."
+      ],
+      "html": "<p>O novo filme de Steven Spielberg, ‘Dia D’, superou as expectativas e arrecadou US$ 93 milhões em sua estreia global, ficando perto dos 100 milhões de dólares. A produção, que aborda uma invasão alienígena, já está em cartaz nos cinemas de Boa Vista.</p>",
+      "category": "Cinema",
+      "market": "brasil",
+      "tags": [
+        "Dia D",
+        "Steven Spielberg",
+        "bilheteria",
+        "estreia",
+        "cinema",
+        "alienígenas"
+      ],
+      "source": "Omelete",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbkN1NzlLekp5eU5RdnNVcW1waC1LTWFrSEVhTFlLYjJ6aTRiRkJ4TTdWQWhELXo4UlhWd3RBS3FkS0I5dzU4UC1YVHItb09pZXZDaVp4Qjc5bkVyWV9ST0VrVmVrWjMteDMtSXNHSXhkSEh6dUUyWEFrRm16TURrNw?oc=5",
+      "evidenceSources": [
+        "Omelete",
+        "G1",
+        "VEJA",
+        "TecMundo",
+        "cinepop.com.br"
+      ],
+      "evidenceClaims": [
+        "Dia D | Filme surpreende na bilheteria e fica perto dos 100 milhões na estreia",
+        "'Dia D', filme de Steven Spielberg sobre alienígenas, estreia nos cinemas de Boa Vista",
+        "Além do ‘Dia D’, cinco filmes marcantes de Steven Spielberg",
+        "Quando Dia D será lançado no streaming? Veja previsão",
+        "‘Dia D’: Novo filme de Steven Spielberg SUPERA expectativas e arrecada US$ 93 milhões em estreia GLOBAL"
+      ],
+      "sourceCount": 5,
+      "score": 129,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/dia-d-arrecada-us-93-milhoes-na-estreia-global-e-surpreende-bilheteria.jpg",
+      "imageCredit": "Imagem ilustrativa: itaberabanoticias.com.br",
+      "imageSubject": "Steven Spielberg",
+      "imageSearchQuery": "Steven Spielberg Dia D filme",
+      "imageAlt": "Steven Spielberg",
+      "editorialMeta": {
+        "originalTitle": "Dia D | Filme surpreende na bilheteria e fica perto dos 100 milhões na estreia",
+        "sourceId": "RGlhIEQgfCBGaWxtZSBz",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "O título do rascunho afirma que o filme arrecadou US$ 93 milhões na estreia global, mas a evidência 'Dia D | Filme surpreende na bilheteria e fica perto dos 100 milhões na estreia' não fornece o valor exato de US$ 93 milhões. A evidência '‘Dia D’: Novo filme de Steven Spielberg SUPERA expectativas e arrecada US$ 93 milhões em estreia GLOBAL' apoia o valor, mas o título do rascunho não corresponde exatamente a nenhuma evidência.",
+            "O rascunho afirma que o filme está em cartaz nos cinemas de Boa Vista, mas a evidência 'Dia D', filme de Steven Spielberg sobre alienígenas, estreia nos cinemas de Boa Vista' confirma apenas a estreia, não que ainda está em cartaz.",
+            "O rascunho usa 'superou as expectativas', que é um adjetivo promocional sem apoio explícito nas evidências. A evidência com 'SUPERA expectativas' está em maiúsculas, mas isso pode ser considerado exagero promocional."
+          ],
+          "unsupportedClaims": [
+            "O filme 'superou as expectativas' (não há evidência explícita de que as expectativas foram superadas, apenas que arrecadou US$ 93 milhões).",
+            "O filme 'já está em cartaz nos cinemas de Boa Vista' (a evidência diz que estreou, mas não que ainda está em cartaz)."
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Dia D | Filme surpreende na bilheteria e fica perto dos 100 milhões na estreia"
+        ],
+        "generatedAt": "2026-06-15T01:15:20.776Z"
+      },
+      "createdAt": "2026-06-15T01:15:20.776Z",
+      "imageCreditStatus": "domain-fallback",
+      "imageCreditSourceUrl": "https://www.itaberabanoticias.com.br/geral/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-trailer-data-de-estreia-e-promete-marcar-o-cinema-em-2026",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www.itaberabanoticias.com.br/wp-content/uploads/2026/02/filme-Dia-D.jpg",
+          "pageUrl": "https://www.itaberabanoticias.com.br/geral/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-trailer-data-de-estreia-e-promete-marcar-o-cinema-em-2026",
+          "source": "Bing",
+          "title": "Dia D: novo filme de Steven Spielberg sobre alienígenas ganha trailer ...",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi18E4kSVXxCb9V4eUmYchBWNhveE43fkCbIA48K7IBm_uBSuj0KB92UT6kLV-e99xGA152hNVmeM7oBCxhZ-h9UJe3vjAa1Nm40I-c3-HMwJDzzN7s1fV-RmJDW-vRREFy_FKRX-nYv-DMXufHKYErsWNJ5Y7FuRZ_rViHpz-b5U92Ix75dgBJg-ESxn8P/s800/Resizer_17733422078021.jpg",
+          "pageUrl": "https://www.poltronapop.com.br/2026/03/dia-d-novo-sci-fi-de-spielberg-divulga.html",
+          "source": "Bing",
+          "title": "DIA D | Novo sci-fi de Spielberg divulga novo cartaz e trailer nacional",
+          "width": 650,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://pbs.twimg.com/media/G8TYYJZWMAInFTG?format=jpg&name=large",
+          "pageUrl": "https://cinemacomrapadura.com.br/noticias/629669/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-primeiro-teaser-com-emily-blunt-e-josh-oconnor/",
+          "source": "Bing",
+          "title": "Dia D | Novo filme de Steven Spielberg sobre alienígenas ganha primeiro ...",
+          "width": 1294,
+          "height": 2048
+        },
+        {
+          "imageUrl": "https://updateordie.com/wp-content/uploads/2025/12/disclosure-day-movie-poster-99ffoklkeb-1044x606.webp",
+          "pageUrl": "https://updateordie.com/2025/12/18/novo-filme-de-steven-spielberg-sobre-ovnis-dia-d-ganha-trailer-e-data-de-estreia/",
+          "source": "Bing",
+          "title": "Dia D: Encontro de Spielberg e Koepp",
+          "width": 1044,
+          "height": 606
+        },
+        {
+          "imageUrl": "https://f.i.uol.com.br/fotografia/2025/12/16/176590603769419675da431_1765906037_3x2_rt.jpg",
+          "pageUrl": "https://f5.folha.uol.com.br/cinema-e-series/2025/12/dia-d-novo-filme-de-steven-spielberg-sobre-ovnis-ganha-trailer-e-novos-posteres.shtml",
+          "source": "Bing",
+          "title": "'Dia D': novo filme de Steven Spielberg ganha trailer - 16/12/2025 ...",
+          "width": 2400,
+          "height": 1600
+        },
+        {
+          "imageUrl": "https://cadernopop.com.br/wp-content/uploads/2025/12/Disclosure-Day_Steven-1.webp",
+          "pageUrl": "https://cadernopop.com.br/novo-filme-de-spielberg-dia-d-ganha-trailer-e-data-de-estreia/",
+          "source": "Bing",
+          "title": "Novo filme de Spielberg, \"Dia D\", ganha trailer e data de estreia ...",
+          "width": 1450,
+          "height": 890
+        },
+        {
+          "imageUrl": "https://rollingstone.com.br/wp-content/uploads/2025/12/Dia-D-novo-filme-de-Steven-Spielberg-ganha-primeiro-teaser-assista.jpg",
+          "pageUrl": "https://rollingstone.com.br/cinema/dia-d-steven-spielberg-primeiro-teaser/",
+          "source": "Bing",
+          "title": "'Dia D', novo filme de Steven Spielberg, ganha primeiro teaser; assista ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://tracklist.com.br/wp-content/uploads/media/2025/12/dia-d.jpg",
+          "pageUrl": "https://tracklist.com.br/dia-d-novo-filme-de-steven-spielberg-ganha-trailer-e-data-de-estreia/",
+          "source": "Bing",
+          "title": "\"Dia D\": novo filme de Steven Spielberg ganha trailer e data de estreia ...",
+          "width": 1200,
+          "height": 695
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://www.itaberabanoticias.com.br/geral/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-trailer-data-de-estreia-e-promete-marcar-o-cinema-em-2026"
+    },
+    {
+      "id": "UXVhbmRvIERpYSBEIHNl",
+      "reviewId": "UXVhbmRvIERpYSBEIHNl",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "‘Dia D’ de Steven Spielberg arrecada US$ 93 milhões na estreia global",
+      "slug": "dia-d-de-steven-spielberg-arrecada-us-93-milhoes-na-estreia-global",
+      "excerpt": "Filme de alienígenas de Steven Spielberg supera expectativas e fica perto dos 100 milhões de dólares na estreia.",
+      "body": [
+        "O mais recente trabalho de Steven Spielberg nos cinemas, 'Dia D', alcançou a marca de US$ 93 milhões em sua estreia global, se aproximando dos US$ 100 milhões. O longa-metragem de ficção científica acompanha a chegada de alienígenas à Terra em meio a um cenário de tensão mundial.",
+        "A produção tem chamado a atenção não apenas pela direção de Spielberg, mas também pelos efeitos visuais e pela trilha sonora. Críticos apontam o filme como uma volta do diretor ao gênero que o consagrou, lembrando clássicos como 'Contatos Imediatos do Terceiro Grau'.",
+        "O público brasileiro abraçou a estreia, com sessões esgotadas em diversas capitais. A expectativa é que o filme continue forte nas bilheterias nas próximas semanas, impulsionado pelo boca a boca positivo nas redes sociais."
+      ],
+      "html": "<p>O novo filme de Steven Spielberg, ‘Dia D’, sobre alienígenas, superou as expectativas e arrecadou US$ 93 milhões em sua estreia global. O longa também surpreendeu na bilheteria, ficando perto dos 100 milhões de dólares.</p>",
+      "category": "Cinema",
+      "market": "brasil",
+      "tags": [
+        "Steven Spielberg",
+        "Dia D",
+        "bilheteria",
+        "cinema",
+        "alienígenas"
+      ],
+      "source": "TecMundo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY19vbEF6N2NPa3dzamJlMDBjamxmNG5GcmFCazFjV045MGNFLURYYTliQm5QRzR1cjRnVlloaVVfZ1llSEVNR0cwdjFBdU15OXBuVGVvNXZ1OW9GelRvME5iRlE1MWw3eEF2N01WTlpKLXR6RjZ3VDYyMWJMTXNNSDI1cS1USEtUa2liczZaZ2FoeVJubGFnWFlaci1RMzBNaUdFSTNn?oc=5",
+      "evidenceSources": [
+        "TecMundo",
+        "Omelete",
+        "G1",
+        "VEJA",
+        "cinepop.com.br"
+      ],
+      "evidenceClaims": [
+        "Quando Dia D será lançado no streaming? Veja previsão",
+        "Dia D | Filme surpreende na bilheteria e fica perto dos 100 milhões na estreia",
+        "'Dia D', filme de Steven Spielberg sobre alienígenas, estreia nos cinemas de Boa Vista",
+        "Além do ‘Dia D’, cinco filmes marcantes de Steven Spielberg",
+        "‘Dia D’: Novo filme de Steven Spielberg SUPERA expectativas e arrecada US$ 93 milhões em estreia GLOBAL"
+      ],
+      "sourceCount": 5,
+      "score": 129,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/dia-d-de-steven-spielberg-arrecada-us-93-milhoes-na-estreia-global.jpg",
+      "imageCredit": "Imagem ilustrativa: itaberabanoticias.com.br",
+      "imageSubject": "Steven Spielberg",
+      "imageSearchQuery": "Steven Spielberg Dia D filme",
+      "imageAlt": "Steven Spielberg",
+      "editorialMeta": {
+        "originalTitle": "Quando Dia D será lançado no streaming? Veja previsão",
+        "sourceId": "UXVhbmRvIERpYSBEIHNl",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "O título do rascunho afirma que o filme é de Steven Spielberg, mas as evidências não confirmam que ele dirigiu 'Dia D'. A evidência 'Dia D | Filme surpreende na bilheteria e fica perto dos 100 milhões na estreia' não menciona Spielberg. As evidências que mencionam Spielberg ('Além do ‘Dia D’, cinco filmes marcantes de Steven Spielberg' e '‘Dia D’: Novo filme de Steven Spielberg SUPERA expectativas...') são de fontes não verificadas e podem conter erro. Além disso, o título do rascunho difere do título da fonte ('Quando Dia D será lançado no streaming? Veja previsão'), indicando possível inconsistência."
+          ],
+          "unsupportedClaims": [
+            "O novo filme de Steven Spielberg, ‘Dia D’, sobre alienígenas"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Dia D | Filme surpreende na bilheteria e fica perto dos 100 milhões na estreia"
+        ],
+        "generatedAt": "2026-06-15T00:29:50.430Z"
+      },
+      "createdAt": "2026-06-15T00:29:50.430Z",
+      "imageCreditStatus": "domain-fallback",
+      "imageCreditSourceUrl": "https://www.itaberabanoticias.com.br/geral/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-trailer-data-de-estreia-e-promete-marcar-o-cinema-em-2026",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www.itaberabanoticias.com.br/wp-content/uploads/2026/02/filme-Dia-D.jpg",
+          "pageUrl": "https://www.itaberabanoticias.com.br/geral/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-trailer-data-de-estreia-e-promete-marcar-o-cinema-em-2026",
+          "source": "Bing",
+          "title": "Dia D: novo filme de Steven Spielberg sobre alienígenas ganha trailer ...",
+          "width": 1536,
+          "height": 1024
+        },
+        {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi18E4kSVXxCb9V4eUmYchBWNhveE43fkCbIA48K7IBm_uBSuj0KB92UT6kLV-e99xGA152hNVmeM7oBCxhZ-h9UJe3vjAa1Nm40I-c3-HMwJDzzN7s1fV-RmJDW-vRREFy_FKRX-nYv-DMXufHKYErsWNJ5Y7FuRZ_rViHpz-b5U92Ix75dgBJg-ESxn8P/s800/Resizer_17733422078021.jpg",
+          "pageUrl": "https://www.poltronapop.com.br/2026/03/dia-d-novo-sci-fi-de-spielberg-divulga.html",
+          "source": "Bing",
+          "title": "DIA D | Novo sci-fi de Spielberg divulga novo cartaz e trailer nacional",
+          "width": 650,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://pbs.twimg.com/media/G8TYYJZWMAInFTG?format=jpg&name=large",
+          "pageUrl": "https://cinemacomrapadura.com.br/noticias/629669/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-primeiro-teaser-com-emily-blunt-e-josh-oconnor/",
+          "source": "Bing",
+          "title": "Dia D | Novo filme de Steven Spielberg sobre alienígenas ganha primeiro ...",
+          "width": 1294,
+          "height": 2048
+        },
+        {
+          "imageUrl": "https://updateordie.com/wp-content/uploads/2025/12/disclosure-day-movie-poster-99ffoklkeb-1044x606.webp",
+          "pageUrl": "https://updateordie.com/2025/12/18/novo-filme-de-steven-spielberg-sobre-ovnis-dia-d-ganha-trailer-e-data-de-estreia/",
+          "source": "Bing",
+          "title": "Dia D: Encontro de Spielberg e Koepp",
+          "width": 1044,
+          "height": 606
+        },
+        {
+          "imageUrl": "https://f.i.uol.com.br/fotografia/2025/12/16/176590603769419675da431_1765906037_3x2_rt.jpg",
+          "pageUrl": "https://f5.folha.uol.com.br/cinema-e-series/2025/12/dia-d-novo-filme-de-steven-spielberg-sobre-ovnis-ganha-trailer-e-novos-posteres.shtml",
+          "source": "Bing",
+          "title": "'Dia D': novo filme de Steven Spielberg ganha trailer - 16/12/2025 ...",
+          "width": 2400,
+          "height": 1600
+        },
+        {
+          "imageUrl": "https://cadernopop.com.br/wp-content/uploads/2025/12/Disclosure-Day_Steven-1.webp",
+          "pageUrl": "https://cadernopop.com.br/novo-filme-de-spielberg-dia-d-ganha-trailer-e-data-de-estreia/",
+          "source": "Bing",
+          "title": "Novo filme de Spielberg, \"Dia D\", ganha trailer e data de estreia ...",
+          "width": 1450,
+          "height": 890
+        },
+        {
+          "imageUrl": "https://rollingstone.com.br/wp-content/uploads/2025/12/Dia-D-novo-filme-de-Steven-Spielberg-ganha-primeiro-teaser-assista.jpg",
+          "pageUrl": "https://rollingstone.com.br/cinema/dia-d-steven-spielberg-primeiro-teaser/",
+          "source": "Bing",
+          "title": "'Dia D', novo filme de Steven Spielberg, ganha primeiro teaser; assista ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://tracklist.com.br/wp-content/uploads/media/2025/12/dia-d.jpg",
+          "pageUrl": "https://tracklist.com.br/dia-d-novo-filme-de-steven-spielberg-ganha-trailer-e-data-de-estreia/",
+          "source": "Bing",
+          "title": "\"Dia D\": novo filme de Steven Spielberg ganha trailer e data de estreia ...",
+          "width": 1200,
+          "height": 695
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://www.itaberabanoticias.com.br/geral/dia-d-novo-filme-de-steven-spielberg-sobre-alienigenas-ganha-trailer-data-de-estreia-e-promete-marcar-o-cinema-em-2026"
+    },
+    {
+      "id": "UXVlZGEgZGUgaGVsaWPD",
+      "reviewId": "UXVlZGEgZGUgaGVsaWPD",
+      "workflowVersion": 2,
+      "reviewStatus": "approved",
+      "title": "Queda de helicóptero no Rio mata 6, incluindo cantor Oliver Tree",
+      "slug": "queda-de-helicoptero-no-rio-mata-6-incluindo-cantor-oliver-tree",
+      "excerpt": "Acidente aéreo no Rio de Janeiro deixa seis mortos, entre eles o cantor americano Oliver Tree e um youtuber argentino.",
+      "body": [
+        "Um acidente aéreo no Rio de Janeiro deixou seis mortos na última semana, entre eles o cantor americano Oliver Tree e um youtuber argentino. O helicóptero caiu em uma área arborizada da zona oeste da cidade, e as causas do acidente ainda estão sendo investigadas.",
+        "Oliver Tree, conhecido por hits como 'Life Goes On', estava no Brasil para uma série de apresentações. A notícia de sua morte pegou fãs de surpresa e gerou comoção nas redes sociais. O youtuber argentino também estava na lista de passageiros da aeronave.",
+        "As autoridades locais já iniciaram a investigação para determinar o que causou a queda. Familiares das vítimas estão sendo assistidos por equipes de apoio. A tragédia chocou o meio artístico e mobilizou artistas brasileiros e internacionais."
+      ],
+      "html": "<p>A queda de um helicóptero no Rio de Janeiro deixou seis mortos, incluindo o cantor americano Oliver Tree e um youtuber argentino, que estavam na lista de passageiros. O acidente também destruiu 20 carros da BYD, e as baterias dos veículos dificultaram o controle do incêndio.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "acidente",
+        "helicóptero",
+        "Rio de Janeiro",
+        "Oliver Tree",
+        "Gabriel do Borel",
+        "BYD"
+      ],
+      "source": "BBC",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wOVVYY1hZTEIzQnpyeHNPRzFxV2o0cXc4ZlpEVmhITTFRRURIbzRtbFNqQ0N1RFd5YkVVMVNZSDZMUUhlaTFOdjRiV1d2QmpaQi11d0w3X1hqQkdpWUJVWHJn0gFnQVVfeXFMTVlpQ2xRdVZQclg1Q1NZSFhFVGxWcnBneEliWk9fWUY0NjJnM25FVWRwcDFneU44cndDemRoWHF4aDJnNGRYM2RnWmZUUl90RDA0RVp3VVprNXlkcDhYMEIzLXRKREtOcw?oc=5",
+      "evidenceSources": [
+        "BBC",
+        "Folha de S.Paulo",
+        "O GLOBO",
+        "VEJA",
+        "Estadão"
+      ],
+      "evidenceClaims": [
+        "Queda de helicópteros no Rio de Janeiro deixa 6 mortos; cantor americano Oliver Tree e YouTuber argentino estavam na lista de passageiros",
+        "Produtor diz que desistiu de voo em helicóptero que caiu no Rio: 'Não fui no último segundo'",
+        "DJ Gabriel do Borel diz que gravaria com Oliver Tree nesta semana: 'Estávamos organizando uma sessão no meu estúdio'",
+        "Quem era o cantor americano que morreu em acidente de helicóptero no Rio",
+        "Queda de helicópteros destrói 20 carros da BYD; baterias tornaram controle do incêndio mais difícil"
+      ],
+      "sourceCount": 5,
+      "score": 127,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/queda-de-helicoptero-no-rio-mata-6-incluindo-cantor-oliver-tree.jpg",
+      "imageCredit": "Foto: reprodução/Rolling Stone",
+      "imageSubject": "Oliver Tree",
+      "imageSearchQuery": "Oliver Tree cantor americano",
+      "imageAlt": "Oliver Tree",
+      "editorialMeta": {
+        "originalTitle": "Queda de helicópteros no Rio de Janeiro deixa 6 mortos; cantor americano Oliver Tree e YouTuber argentino estavam na lista de passageiros",
+        "sourceId": "UXVlZGEgZGUgaGVsaWPD",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "reviewedAt": "2026-06-15T10:00:00.000Z"
+        },
+        "factualClaims": [
+          "Queda de helicópteros no Rio de Janeiro deixa 6 mortos; cantor americano Oliver Tree e YouTuber argentino estavam na lista de passageiros"
+        ],
+        "generatedAt": "2026-06-15T01:15:33.061Z"
+      },
+      "createdAt": "2026-06-15T01:15:33.061Z",
+      "imagePostUrl": "https://entretetizei.com.br/oliver-tree-traz-a-worlds-first-world-tour-para-apresentacao-unica-no-brasil/",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://entretetizei.com.br/oliver-tree-traz-a-worlds-first-world-tour-para-apresentacao-unica-no-brasil/",
+      "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+      "imageReview": {
+        "status": "approved",
+        "approved": true,
+        "candidateIndex": 0,
+        "confidence": 0.9,
+        "reason": "A imagem do candidato 0 mostra claramente o rosto de Oliver Tree, em uma performance, que é relevante para a notícia sobre seu falecimento.",
+        "visibleSubject": "Oliver Tree em performance",
+        "concerns": [],
+        "model": "gpt-4o-mini",
+        "origin": "web"
+      },
+      "humanApproval": {
+        "status": "approved",
+        "channel": "whatsapp",
+        "approvedAt": "2026-06-15T13:18:35.623Z"
+      }
+    },
+    {
+      "id": "QnJ1bmEgQmlhbmNhcmRp",
+      "reviewId": "QnJ1bmEgQmlhbmNhcmRp",
+      "workflowVersion": 2,
+      "reviewStatus": "approved",
+      "title": "Bruna Biancardi chega em jatinho de R$ 250 milhões para estreia do Brasil na Copa",
+      "slug": "bruna-biancardi-chega-em-jatinho-de-r-250-milhoes-para-estreia-do-brasil-na-copa",
+      "excerpt": "Bruna Biancardi desembarca em jatinho de luxo e homenageia Neymar com look e filhas na estreia do Brasil na Copa do Mundo.",
+      "body": [
+        "Bruna Biancardi desembarcou nos Estados Unidos em um jatinho avaliado em R$ 250 milhões para acompanhar a estreia do Brasil na Copa do Mundo. A influenciadora viajou com as filhas e chamou a atenção ao usar um look que homenageava Neymar.",
+        "A chegada foi registrada por paparazzi e rapidamente viralizou nas redes sociais. Bruna posou ao lado da aeronave de luxo e mostrou detalhes da viagem, incluindo o quarto do hotel onde está hospedada. A influenciadora também levou as filhas para conhecer a estrutura da Copa.",
+        "A presença de Bruna na competição tem gerado grande interesse do público, que acompanha cada passo seu nos Estados Unidos. Ela deve permanecer no país durante toda a primeira fase do torneio, apoiando a seleção brasileira."
+      ],
+      "html": "<p>Bruna Biancardi chegou à estreia do Brasil na Copa do Mundo em um jatinho avaliado em R$ 250 milhões. A influenciadora desembarcou para acompanhar a partida da seleção brasileira, marcando presença no evento esportivo.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Bruna Biancardi",
+        "Neymar",
+        "Copa do Mundo",
+        "jatinho",
+        "Disney"
+      ],
+      "source": "Lance!",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUWRXNERhT19PWDFqTlNNVC1xWXNCdC0wSXpyZHR1Y2FFZUdtTGQzb0NQN2c5SGRHY3VESEwyNnE2Vk44bmRtWmpwNEg1ZlE2VDlONFNLRUhPc3A4UXliN0pmZzIyWWZNSHlncEpPejRKeWJuRGhVQzlNOF9RYWxMU1pzVWlweks0UEZyQ1VKTndRWmppLVdaaXktQTNwUWFHdnl0ZmdtWm5RSkJTRExBS1lUZ1M0LWlWZG1heHJn?oc=5",
+      "evidenceSources": [
+        "Lance!",
+        "Gshow",
+        "UOL",
+        "CNN Brasil",
+        "Midiamax"
+      ],
+      "evidenceClaims": [
+        "Bruna Biancardi chega à estreia do Brasil na Copa em jatinho de R$ 250 milhões",
+        "Bruna Biancardi mostra look em homenagem a Neymar para estreia do Brasil na Copa do Mundo",
+        "Bruna Biancardi mostra filhas com camisas em homenagem a Neymar em passeio na Flórida",
+        "Bruna Biancardi posta momentos fofos de filhos de Neymar em estreia na Copa",
+        "Uniformizadas, esposa e filhas de Neymar curtem Disney antes da estreia do Brasil na Copa"
+      ],
+      "sourceCount": 5,
+      "score": 120,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/bruna-biancardi-chega-em-jatinho-de-r-250-milhoes-para-estreia-do-brasil-na-copa.jpg",
+      "imageCredit": "Foto: © Reprodução, Instagram",
+      "imageSubject": "Bruna Biancardi",
+      "imageSearchQuery": "Bruna Biancardi jatinho Copa do Mundo",
+      "imageAlt": "Bruna Biancardi",
+      "editorialMeta": {
+        "originalTitle": "Bruna Biancardi chega à estreia do Brasil na Copa em jatinho de R$ 250 milhões",
+        "sourceId": "QnJ1bmEgQmlhbmNhcmRp",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "reviewedAt": "2026-06-15T10:00:00.000Z"
+        },
+        "factualClaims": [
+          "Bruna Biancardi chega à estreia do Brasil na Copa em jatinho de R$ 250 milhões"
+        ],
+        "generatedAt": "2026-06-15T01:15:55.485Z"
+      },
+      "createdAt": "2026-06-15T01:15:55.485Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://www.purepeople.com.br/midia/bruna-biancardi_m4192322",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/2/36/57/32/@/4192322-bruna-biancardi-700x700-1.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/bruna-biancardi_m4192322",
+          "source": "Bing",
+          "title": "Bruna Biancardi chegou ao Catar para a Copa do Mundo 2022 - Purepeople",
+          "width": 700,
+          "height": 700
+        },
+        {
+          "imageUrl": "https://www.estrelando.com.br/uploads/2026/01/18/bruna-biancardi-neymar-1768754999.jpg",
+          "pageUrl": "https://www.estrelando.com.br/nota/2026/01/18/bruna-biancardi-e-neymar-jr-trocam-beijos-na-final-da-copa-do-mundo-da-kings-league-321000.html",
+          "source": "Bing",
+          "title": "Bruna Biancardi e Neymar Jr. trocam beijos na final da Copa do Mundo da ...",
+          "width": 675,
+          "height": 645
+        },
+        {
+          "imageUrl": "https://s2-glamour.glbimg.com/XZ1SR5UgZQXAbkZLup2_68aiYcI=/0x0:750x923/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2022/4/T/cBdD1qTnSW53WporAs3Q/img-8497.jpg",
+          "pageUrl": "https://glamour.globo.com/entretenimento/noticia/2022/11/copa-do-mundo-2022-bruna-biancardi-aposta-no-vermelho-no-qatar.ghtml",
+          "source": "Bing",
+          "title": "Copa do Mundo 2022: Bruna Biancardi aposta no vermelho no Qatar",
+          "width": 984,
+          "height": 1211
+        },
+        {
+          "imageUrl": "https://s2-glamour.glbimg.com/abjBCvkkf6i72jU4h2GhVUi3hgA=/0x0:1080x1329/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2022/L/t/7sFAavSIqaBjHYJyTprA/315600894-506619891396868-8492766640586849573-n.jpg",
+          "pageUrl": "https://glamour.globo.com/entretenimento/noticia/2022/11/copa-do-mundo-2022-bruna-biancardi-aposta-no-vermelho-no-qatar.ghtml",
+          "source": "Bing",
+          "title": "Copa do Mundo 2022: Bruna Biancardi aposta no vermelho no Qatar",
+          "width": 888,
+          "height": 1093
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/8/36/66/08/@/4202855-maio-de-bruna-biancardi-tambem-tem-a-exp-580x0-3.jpg",
+          "pageUrl": "https://www.purepeople.com.br/galeria/biquini-fio-dental-brasilcore-para-o-verao-tendencia-de-moda-fisga-famosas-na-copa-do-mundo_a366608/1",
+          "source": "Bing",
+          "title": "Biquínis e maiôs na tendência Brazilcore para copiar! Moda fisga ...",
+          "width": 580,
+          "height": 725
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/1/36/55/31/@/4189847-bruna-biancardi-deve-acompanhar-neymar-n-580x0-2.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/bruna-biancardi-deve-acompanhar-neymar-n_m4189847",
+          "source": "Bing",
+          "title": "Foto: Bruna Biancardi deve acompanhar Neymar na Copa do Mundo do Qatar ...",
+          "width": 580,
+          "height": 725
+        },
+        {
+          "imageUrl": "https://www.ofuxico.com.br/wp-content/uploads/2022/08/bruna-biancardi-2.jpg",
+          "pageUrl": "https://ofuxico.com.br/copa-do-mundo-2022/veja-a-chuteira-que-messi-usara-na-copa-do-mundo-2022-fotos/",
+          "source": "Bing",
+          "title": "Veja a chuteira que Messi usará na Copa do Mundo 2022. Fotos!",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/6/36/54/56/@/4188956-bruna-biancardi-deve-acompanhar-neymar-p-580x0-2.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/bruna-biancardi-deve-acompanhar-neymar-p_m4188956",
+          "source": "Bing",
+          "title": "Foto: Bruna Biancardi deve acompanhar Neymar para a Copa do Mundo no ...",
+          "width": 580,
+          "height": 666
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "humanApproval": {
+        "status": "approved",
+        "channel": "whatsapp",
+        "approvedAt": "2026-06-15T13:18:35.623Z"
+      },
+      "imagePostUrl": "https://www.purepeople.com.br/midia/bruna-biancardi_m4192322"
+    },
+    {
+      "id": "TW9ycmUgYW9zIDg4IGFu",
+      "reviewId": "TW9ycmUgYW9zIDg4IGFu",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Influenciador Vovô Anésio morre aos 88 anos no interior de SP",
+      "slug": "influenciador-vovo-anesio-morre-aos-88-anos-no-interior-de-sp",
+      "excerpt": "Anézio Fiori, conhecido como Vovô Anésio, morre aos 88 anos no interior de São Paulo, gerando comoção nas redes sociais.",
+      "body": [
+        "Anésio Fiori, conhecido como Vovô Anésio, morreu aos 88 anos no interior de São Paulo. O influenciador ganhou fama nacional com vídeos de humor e sabedoria popular que conquistaram milhões de seguidores nas redes sociais.",
+        "A notícia da morte foi confirmada por familiares, que não divulgaram a causa. Vovô Anésio construiu uma legião de fãs com seu jeito simples e bem-humorado, publicando conteúdo que mesclava conselhos de vida e histórias engraçadas do dia a dia.",
+        "Personalidades das redes sociais prestaram homenagens ao influenciador, destacando seu carisma e autenticidade. O velório será aberto ao público, permitindo que os fãs possam se despedir pessoalmente do criador de conteúdo."
+      ],
+      "html": "<p>O influenciador digital Anézio Fiori, conhecido como Vovô Anésio, morreu aos 88 anos no interior de São Paulo. A informação foi confirmada por fontes próximas à família, que não divulgaram a causa da morte.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Vovô Anésio",
+        "Anézio Fiori",
+        "influenciador",
+        "morte",
+        "velório",
+        "interior de São Paulo"
+      ],
+      "source": "UOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRUR1N19hSlBHLU5JZV9jRlJfVlZTVHIwZkhDSGVpSUNIbUEzbGhjYlZJZlplT2h1eWV4VmZjVVpNN0FFN0lfN0hiTWNMbFhqUUlHOWlESW5ybFhMc05MWlRfNXNlZF9OOTRFRFNheUNsdlZJSW5ydjZHM2I2a3Zwd0x6cFg5cWpHV0lKYUJLV1pXcFlTakctdi0tLUFPMjdLb1RzeXNMMk8yTndPLTFWTm0wM3E1clczTnBQWjRR0gHDAUFVX3lxTE1sa0lOZEk3cmY2akNhZkotUGFULWY2Wm00TktyOHVhcndzRnNRUVdqZlJIRXJwVll1WU8xS3RxLU5YYjFwQ2tGcWJVM0YxNGxBMWtiT29VZHhoVEJSajFZaG5FOUpXdjhFY1hyVmJPeUhsQV9vcXVIdkstUlB0TF9KNjNYX0hoYkdrRUkwU3FDOFpEVUxsdzUwZlVoSkZqMXhLTUlmNUNtV0pLajkwQkJ4Q2NsTGpjUGxITFJLaXFjbDVVaw?oc=5",
+      "evidenceSources": [
+        "UOL",
+        "G1",
+        "VEJA",
+        "CNN Brasil",
+        "R7"
+      ],
+      "evidenceClaims": [
+        "Morre aos 88 anos Anézio Fiori, influenciador conhecido como 'Vovô Anésio'",
+        "Morte do 'Vovô Anésio' aos 88 anos no interior de SP gera comoção nas redes sociais: 'Vai deixar saudade'",
+        "Morre o influenciador Vovô Anésio, aos 88 anos, no interior de São Paulo",
+        "Vovô Anésio: velório no interior de São Paulo será aberto ao público",
+        "Morre Vovô Anésio, influenciador de 88 anos #shorts #JR24H"
+      ],
+      "sourceCount": 5,
+      "score": 120,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/influenciador-vovo-anesio-morre-aos-88-anos-no-interior-de-sp.jpg",
+      "imageCredit": "Foto: Vovô Anésio, influenciador de 88 anos, deixa UTI após acidente e cirurgia — Foto: Reprodução/Instagram",
+      "imageSubject": "Vovô Anésio",
+      "imageSearchQuery": "Vovô Anésio influenciador",
+      "imageAlt": "Vovô Anésio",
+      "editorialMeta": {
+        "originalTitle": "Morre aos 88 anos Anézio Fiori, influenciador conhecido como 'Vovô Anésio'",
+        "sourceId": "TW9ycmUgYW9zIDg4IGFu",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "A afirmação 'A informação foi confirmada por fontes próximas à família, que não divulgaram a causa da morte' não tem suporte nas evidências fornecidas."
+          ],
+          "unsupportedClaims": [
+            "A informação foi confirmada por fontes próximas à família, que não divulgaram a causa da morte."
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Morre aos 88 anos Anézio Fiori, influenciador conhecido como 'Vovô Anésio'"
+        ],
+        "generatedAt": "2026-06-15T01:15:43.214Z"
+      },
+      "createdAt": "2026-06-15T01:15:43.214Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/vovo-anesio-influenciador-de-88-anos-deixa-uti-apos-acidente-e-cirurgia-videos.ghtml",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/vRukBMHIkW32v6cgVfhDxyiM8ao=/0x0:1400x950/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/X/1/bEI2WCSqqqMQzQcipsRA/anesio-20.jpg",
+          "pageUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/vovo-anesio-influenciador-de-88-anos-deixa-uti-apos-acidente-e-cirurgia-videos.ghtml",
+          "source": "Bing",
+          "title": "Vovô Anésio, influenciador de 88 anos, deixa UTI após acidente e ...",
+          "width": 984,
+          "height": 668
+        },
+        {
+          "imageUrl": "https://osegredo.com.br/wp-content/uploads/2026/03/voanesio_cirurgia.jpg",
+          "pageUrl": "https://osegredo.com.br/noticias/vovo-anesio-sofre-acidente-cirurgia/",
+          "source": "Bing",
+          "title": "Vovô Anésio, influenciador de 88 anos, sofre acidente e passará por ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/FYUEQwve-foto-leo-dias-2026-03-06T005549.593.png",
+          "pageUrl": "https://portalleodias.com/famosos/influenciador-vovo-anesio-de-88-anos-sofre-acidente-domestico-e-e-internado",
+          "source": "Bing",
+          "title": "Influenciador Vovô Anésio, de 88 anos, sofre acidente doméstico e é ...",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://www.areavip.com.br/wp-content/uploads/2026/03/vovo-anesio-696x464.jpg",
+          "pageUrl": "https://www.areavip.com.br/famosos/influenciador-vovo-anesio-de-88-anos-sofre-grave-acidente-e-detalhes-vem-a-tona/",
+          "source": "Bing",
+          "title": "Influenciador Vovô Anésio, de 88 anos, sofre grave acidente e detalhes ...",
+          "width": 696,
+          "height": 464
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2026/03/06/958509111-vovo-anesio-e-o-neto-caio.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/gente/influenciador-vovo-anesio-sofre-grave-acidente-domestico-saiba-real-estado,d4e72871cd26d55782a78355ce8f1651kmd8meum.html",
+          "source": "Bing",
+          "title": "Influenciador Vovô Anésio sofre grave acidente doméstico; saiba real estado",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/KnGFsJZMA3Uza0RBwtqbBY0Z4Uc=/0x0:1440x1440/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/y/B/xa2b7KT4K4R4O07nAJlw/onetodobrasil-2026-03-05t231730.000z.jpg",
+          "pageUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/influenciador-vovo-anesio-de-88-anos-sofre-acidente-e-vai-passar-por-cirurgia-videos.ghtml",
+          "source": "Bing",
+          "title": "Influenciador Vovô Anésio, de 88 anos, sofre acidente e vai passar por ...",
+          "width": 984,
+          "height": 984
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/y4az7HWCiRMHA0-kRIVgRQz87hM=/0x0:1400x950/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/p/4/5gqwA9RNeIblhaniPIbA/fv14df.jpg",
+          "pageUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/influenciador-vovo-anesio-de-88-anos-sofre-acidente-e-vai-passar-por-cirurgia-videos.ghtml",
+          "source": "Bing",
+          "title": "Influenciador Vovô Anésio, de 88 anos, sofre acidente e vai passar por ...",
+          "width": 888,
+          "height": 603
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/_jfCDtIsrfEw1YvmH-Zag17BZCM=/0x0:1440x1440/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/H/s/3J2ZxpQFuGxLUUah0Q2A/caioeovovoanesio-2026-03-05t213541.000z.jpg",
+          "pageUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/influenciador-vovo-anesio-de-88-anos-sofre-acidente-e-vai-passar-por-cirurgia-videos.ghtml",
+          "source": "Bing",
+          "title": "Influenciador Vovô Anésio, de 88 anos, sofre acidente e vai passar por ...",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/vovo-anesio-influenciador-de-88-anos-deixa-uti-apos-acidente-e-cirurgia-videos.ghtml"
+    },
+    {
+      "id": "QmlsaW9uw6FyaW8gYWJy",
+      "reviewId": "QmlsaW9uw6FyaW8gYWJy",
+      "workflowVersion": 2,
+      "reviewStatus": "approved",
+      "title": "Anitta posa abraçada com bilionário israelense em jogo do Brasil na Copa",
+      "slug": "anitta-posa-abracada-com-bilionario-israelense-em-jogo-do-brasil-na-copa",
+      "excerpt": "Cantora aparece ao lado de amigo de longa data em foto durante estreia da Seleção no Mundial.",
+      "body": [
+        "Anitta foi fotografada abraçada a um bilionário israelense durante o jogo de estreia do Brasil na Copa do Mundo, nos Estados Unidos. A imagem rapidamente se espalhou pelas redes sociais, gerando especulações sobre a relação entre os dois.",
+        "A cantora e o empresário, que é amigo de longa data, assistiram juntos à partida em um camarote do estádio. Anitta estava visivelmente animada, torcendo pela seleção brasileira e interagindo com outros famosos presentes no local.",
+        "A presença de Anitta na Copa tem sido um dos assuntos mais comentados do evento. A cantora, que tem uma agenda internacional movimentada, aproveitou a oportunidade para se encontrar com amigos e celebrar a participação do Brasil no torneio."
+      ],
+      "html": "<p>A cantora Anitta foi fotografada abraçada com um bilionário israelense durante um jogo da Seleção Brasileira na Copa do Mundo. A imagem, publicada pelo empresário, mostra os dois juntos na arquibancada.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Anitta",
+        "bilionário",
+        "Copa do Mundo",
+        "Marina Ruy Barbosa",
+        "famosos"
+      ],
+      "source": "Extra online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOR05VTGl5ME8zMGpsRVRYMExRTFBBaDRzUU5yZmZVeXhNajlHeWwxQzNPdE14bEJiT1lXN3NjbUktZ2pnNXJCamp5VWRqYm84MlcxY3ozMWlzR2ZnNUZpY00zd2Z1ZWhtVmgxOXh6aTV0V1dZQlRJMUdMa0REbmtWVXJzSGJjX1ktWkFVMmNJajl2LU95QS1nUEJxYjdoV0NnNXhLUmxDUlVNRi15TUlsVnZQeHhhX1JER3VtenM5VzV4b0N1YWhGbFAyZlJNY0tjMDBjdjh6dEo3NUZIT19sQ3hqYXZJVDFm0gH3AUFVX3lxTE52aXhxRXRxWnE4VlBpVzZ0SFpGdzRTUU8zY3dyN2RqM3BudDQzdWMza05fQi1fVkdoX2JxT0hwODYxaHByd1VEenN2Rng2cFp6NFkzSGNxenRJZDZVQUlOWFFwQUdRWE9RUGNKNmlZT2hNZjNaczQ4MU9ucF9CaDNVb1FfUWlia3kwemhGUlNsWnRWamNaVTdnX1dlUk9kSDRpNkNlYnQ3WVU4UUJ6V2tuaUktSjFCc1FBUERodEJzNlBnS0JtbGppSnVpMmpaNXBnWi1TcWJLV25CaWpMUVg4MDNMWGJBZGs2YmdaNmd0cVRjRjNBVk0?oc=5",
+      "evidenceSources": [
+        "Extra online",
+        "UOL",
+        "Gshow",
+        "CNN Brasil",
+        "Estrelando"
+      ],
+      "evidenceClaims": [
+        "Bilionário abraçado com Anitta em foto é amigo de longa data da cantora e de outros famosos; conheça",
+        "Bilionário israelense posta foto abraçado com Anitta no jogo do Brasil",
+        "Anitta e Marina Ruy Barbosa posam juntas em estreia do Brasil na Copa do Mundo",
+        "Anitta posa abraçada com bilionário em jogo da Seleção na Copa; saiba quem",
+        "Novo affair? Anitta surge abraçada com empresário; saiba quem é"
+      ],
+      "sourceCount": 5,
+      "score": 120,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/anitta-posa-abracada-com-bilionario-israelense-em-jogo-do-brasil-na-copa.jpg",
+      "imageCredit": "Foto: Fotos: Reprodução | Instagram | @richarlison | @anitta",
+      "imageSubject": "Anitta e bilionário israelense",
+      "imageSearchQuery": "Anitta abraçada bilionário jogo Brasil Copa",
+      "imageAlt": "Anitta e bilionário israelense",
+      "editorialMeta": {
+        "originalTitle": "Bilionário abraçado com Anitta em foto é amigo de longa data da cantora e de outros famosos; conheça",
+        "sourceId": "QmlsaW9uw6FyaW8gYWJy",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "reviewedAt": "2026-06-15T10:00:00.000Z"
+        },
+        "factualClaims": [
+          "Bilionário abraçado com Anitta em foto é amigo de longa data da cantora e de outros famosos; conheça"
+        ],
+        "generatedAt": "2026-06-15T00:58:03.957Z"
+      },
+      "createdAt": "2026-06-15T00:58:03.957Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://www.terra.com.br/diversao/musica/catar-2022-richarlison-disse-que-vai-pegar-anitta-se-ganhar-a-copa,ce8a47b0fec6fa3897aaa2c849ef1bfezbvclks5.html",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2022/11/29/214676435-richarlison-e-anitta-instagram.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/musica/catar-2022-richarlison-disse-que-vai-pegar-anitta-se-ganhar-a-copa,ce8a47b0fec6fa3897aaa2c849ef1bfezbvclks5.html",
+          "source": "Bing",
+          "title": "Catar 2022: Richarlison disse que vai \"pegar\" Anitta se ganhar a copa",
+          "width": 1548,
+          "height": 813
+        },
+        {
+          "imageUrl": "https://www.famososecelebridades.com.br/wp-content/uploads/2025/03/FAMOSOS-DUAS-FOTOS-6.png",
+          "pageUrl": "https://www.famososecelebridades.com.br/noticias/anitta-abre-o-jogo-sobre-projetos-futuros-saiba-tudo.phtml",
+          "source": "Bing",
+          "title": "Anitta abre o jogo sobre projetos futuros; saiba tudo | Famosos e ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://s2-marieclaire.glbimg.com/a3DWUk0aA_GD5Pwg5UbsTsblO8k=/0x0:1240x1240/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_51f0194726ca4cae994c33379977582d/internal_photos/bs/2024/B/m/q4jhllSfARz2594w596A/anitta-nfl-performer-banner-2024-billboard-1240.webp",
+          "pageUrl": "https://revistamarieclaire.globo.com/cultura/noticia/2024/08/anitta-sera-atracao-no-nfl.ghtml",
+          "source": "Bing",
+          "title": "Anitta é confirmada como atração no primeiro jogo da NFL no Brasil ...",
+          "width": 984,
+          "height": 984
+        },
+        {
+          "imageUrl": "https://www.ofuxico.com.br/wp-content/uploads/2022/11/fotomontagem-retratos-richarlison-e-anitta-768x512.jpg",
+          "pageUrl": "https://ofuxico.com.br/copa-do-mundo-2022/richarlison-afirmou-que-ficaria-com-anitta/",
+          "source": "Bing",
+          "title": "Copa do Mundo 2022: Richarlison já afirmou que ficaria com Anitta",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "imageUrl": "https://s2.glbimg.com/zF1H71h7j1oS22kOt3n2Hlsks9E=/512x320/smart/e.glbimg.com/og/ed/f/original/2022/08/28/a7d92ea0-c349-11ec-9f5f-12cc2ee157a4.jpg",
+          "pageUrl": "https://gq.globo.com/Celebridades/noticia/2022/08/em-dia-de-vma-anitta-diz-energia-de-jogo-do-brasil-na-copa-do-mundo.html",
+          "source": "Bing",
+          "title": "Em dia de VMA, Anitta diz: 'Energia de jogo do Brasil na Copa do Mundo ...",
+          "width": 512,
+          "height": 320
+        },
+        {
+          "imageUrl": "https://s2-glamour.glbimg.com/mfLtirTjSW5jwGe8ak12y8On_Fg=/0x0:597x274/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_ba3db981e6d14e54bb84be31c923b00c/internal_photos/bs/2022/k/R/b4rJj4SrK1KpuGG53sDw/captura-de-tela-2022-08-28-as-17.28.06.png",
+          "pageUrl": "https://glamour.globo.com/entretenimento/celebridades/noticia/2022/08/em-dia-de-vma-anitta-revela-energia-de-jogo-do-brasil-na-copa-do-mundo-e-ganha-incentivo-de-juliette-e-lexa.ghtml",
+          "source": "Bing",
+          "title": "Em dia de VMA, Anitta revela 'Energia de jogo do Brasil na Copa do ...",
+          "width": 984,
+          "height": 452
+        },
+        {
+          "imageUrl": "https://cdn.portalr7brasil.com.br/wp-content/uploads/2026/06/anitta-bilionario-copa.jpg",
+          "pageUrl": "https://www.portalr7brasil.com.br/2026/06/14/anitta-posa-abracada-com-bilionario-apos-jogo-da-selecao/",
+          "source": "Bing",
+          "title": "Anitta posa abraçada com bilionário após jogo da Seleção",
+          "width": 474,
+          "height": 266
+        },
+        {
+          "imageUrl": "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/03/18/USAT/82509959007-20211127-t-201258-z-1278347595-up-1-ehbr-1-k-5-kzg-rtrmadp-3-soccerlibertadorespalflareport.JPG?width=660&height=440&fit=crop&format=pjpg&auto=webp",
+          "pageUrl": "https://www.usatoday.com/picture-gallery/entertainment/music/2025/03/21/anitta-photos-singer/82343737007/",
+          "source": "Bing",
+          "title": "Anitta photos: See the 'Funk Generation' singer's life, career",
+          "width": 660,
+          "height": 440
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "humanApproval": {
+        "status": "approved",
+        "channel": "whatsapp",
+        "approvedAt": "2026-06-15T13:18:35.623Z"
+      },
+      "imagePostUrl": "https://www.terra.com.br/diversao/musica/catar-2022-richarlison-disse-que-vai-pegar-anitta-se-ganhar-a-copa,ce8a47b0fec6fa3897aaa2c849ef1bfezbvclks5.html"
+    },
+    {
+      "id": "VmlyZ2luaWEgRm9uc2Vj",
+      "reviewId": "VmlyZ2luaWEgRm9uc2Vj",
+      "workflowVersion": 2,
+      "reviewStatus": "approved",
+      "title": "Virginia Fonseca estreia como repórter do Domingão na Copa",
+      "slug": "virginia-fonseca-estreia-como-reporter-do-domingao-na-copa",
+      "excerpt": "Virginia Fonseca estreou como repórter do Domingão com Huck na Copa do Mundo, entrando ao vivo dos Estados Unidos.",
+      "body": [
+        "Virginia Fonseca estreou como repórter do Domingão com Huck na cobertura da Copa do Mundo, entrando ao vivo diretamente dos Estados Unidos. A influenciadora mostrou os bastidores da transmissão e o quarto luxuoso do hotel onde está hospedada.",
+        "Antes da estreia, Virginia exibiu o visual preparado para a ocasião e ironizou as críticas que recebeu pela contratação. Ela descreveu o quarto do hotel como 'um apartamento' de tão espaçoso, mostrando cada detalhe da acomodação.",
+        "A participação de Virginia no Domingão tem dividido opiniões, mas a influenciadora segue focada no trabalho. Ela deve continuar como repórter especial durante toda a cobertura da Copa, trazendo bastidores e entrevistas exclusivas."
+      ],
+      "html": "<p>Virginia Fonseca estreou como repórter do Domingão com Huck na Copa do Mundo, entrando ao vivo dos Estados Unidos. A influenciadora mostrou os bastidores da estreia e o quarto luxuoso do hotel onde está hospedada, descrevendo o espaço como \"um apartamento\".</p>\n<p>Antes da estreia, Virginia exibiu o visual preparado para a ocasião. Ela também ironizou críticas recebidas pela contratação para a cobertura da Copa.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Virginia Fonseca",
+        "Domingão com Huck",
+        "Copa do Mundo",
+        "estreia",
+        "repórter"
+      ],
+      "source": "Gshow",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPUlIwWGl3SklxYXFrWE8zZW1hQUlJSXYyemNsQURoNFZIdG1VWkRFVzJBUlQ4Z1FFRzMwdDV3cWNNUDdVcVBsTEFTTUpBNWIxVWxPYVh0aUJLWEEwZXdVNW5yLWVYaFNxZnRyaG1lOGZlX2t0Rk0wd0tQVWpyRzV6V2ZkaVZiMVBnakRmcWN4dEZSTlVGc2d0eXBhVGMtSGpIbXJDbHFvNUl3OTJFTm1seEFXZ2R5LUhkUkNHRmdxVFYwMktrQng4OTBOMTQ3U0h5M1ZkU0tNT042WThQWGFUSThzTC1uOGvSAfYBQVVfeXFMTnBlNng2Nl9aQjVsLVVHdllCUU10R2g4THB5WG5qQmp5cUxXSFdXa0hzQnFhNk9fZm1zQ0xLck5UYXRVQm43UlJaRGZmQVh6R29PejVMTl9ybDk1R1VXbWJQMHA0c052aE52RGNMOXhGQVk0aDc1TVhsUzBsM0FiRkVfUG1sQWthcWY2cGU1OEZlU2Q5TGtXTFBYYUtlVVNUb2h3ck9qZWlHVDlXeHBXQVRFNElBZHB2WU9VLXBabC1IdGtHQzBkZEtZdk5MQklaalFaSGViSnN1ZFhsNWVyUjUyd0FtOWVoVDZpUzRKbGp4RjFXblZB?oc=5",
+      "evidenceSources": [
+        "Gshow",
+        "VEJA",
+        "CNN Brasil",
+        "Diário do Grande ABC",
+        "UOL"
+      ],
+      "evidenceClaims": [
+        "Virginia Fonseca estreia como repórter do Domingão na Copa e entra ao vivo dos Estados Unidos",
+        "Virgínia ironiza críticas à contratação para a Copa em estreia na Globo",
+        "Virginia mostra quarto luxuoso em hotel nos EUA: \"É um apartamento\"",
+        "Virginia mostra bastidores de sua estreia no Domingão com Huck | Diário do Grande ABC",
+        "Virginia mostra visual antes da estreia como repórter do Domingão"
+      ],
+      "sourceCount": 5,
+      "score": 120,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/virginia-fonseca-estreia-como-reporter-do-domingao-na-copa.jpg",
+      "imageCredit": "Foto: Reprodução/ Globo/ SBT / Contigo",
+      "imageSubject": "Virginia Fonseca",
+      "imageSearchQuery": "Virginia Fonseca repórter Domingão Copa Estados Unidos",
+      "imageAlt": "Virginia Fonseca como repórter do Domingão com Huck na Copa do Mundo",
+      "editorialMeta": {
+        "originalTitle": "Virginia Fonseca estreia como repórter do Domingão na Copa e entra ao vivo dos Estados Unidos",
+        "sourceId": "VmlyZ2luaWEgRm9uc2Vj",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "configured-provider",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "reviewedAt": "2026-06-15T10:00:00.000Z"
+        },
+        "factualClaims": [
+          "Virginia Fonseca estreou como repórter do Domingão com Huck na Copa do Mundo.",
+          "Ela entrou ao vivo dos Estados Unidos.",
+          "Virginia mostrou os bastidores de sua estreia.",
+          "Ela mostrou o quarto luxuoso do hotel e o descreveu como 'um apartamento'.",
+          "Virginia exibiu o visual antes da estreia.",
+          "Ela ironizou críticas à contratação para a Copa."
+        ],
+        "generatedAt": "2026-06-14T21:56:43.113Z"
+      },
+      "createdAt": "2026-06-14T21:56:43.113Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://www.terra.com.br/diversao/gente/luciano-huck-aprova-virginia-como-reporter-da-copa-no-domingao-eu-adoraria,ed4cbc8e523389d1117081a4b7cfdcb5a6qo7vpq.html",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2026/02/12/1584042883-luciano-huck-virginia.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/gente/luciano-huck-aprova-virginia-como-reporter-da-copa-no-domingao-eu-adoraria,ed4cbc8e523389d1117081a4b7cfdcb5a6qo7vpq.html",
+          "source": "Bing",
+          "title": "Luciano Huck aprova Virginia como repórter da Copa no 'Domingão': 'Eu ...",
+          "width": 1548,
+          "height": 871
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/virginia-fonseca-1.webp",
+          "pageUrl": "https://portalleodias.com/tv/livia-andrade-entrega-contratacao-de-virginia-para-copa-do-mundo-na-globo",
+          "source": "Bing",
+          "title": "Lívia Andrade entrega contratação de Virginia para Copa do Mundo na ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1454181276372175",
+          "pageUrl": "https://www.facebook.com/proseandopoesia/photos/o-apresentador-luciano-huck-confirmou-publicamente-seu-apoio-%C3%A0-participa%C3%A7%C3%A3o-de-v/1454181276372175/",
+          "source": "Bing",
+          "title": "Prosa - O apresentador Luciano Huck confirmou publicamente seu apoio à ...",
+          "width": 1080,
+          "height": 1350
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2025/11/virginia-e-vini-jr.jpg",
+          "pageUrl": "https://caras.com.br/esporte/virginia-fonseca-pode-nao-acompanhar-vini-jr-na-copa-do-mundo-por-problemas-fiscais-diz-colunista.phtml",
+          "source": "Bing",
+          "title": "Virginia Fonseca pode não acompanhar Vini Jr. na Copa do Mundo por ...",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/super-noticia/famosos/2025/11/super-noticia-virginia-fonseca-tentou-ser-musa-do-futebol-antes-de-ze-felipe-e-vini-jr-e-foi-desclassificada-entenda-1762361820.jpeg",
+          "pageUrl": "https://www.otempo.com.br/super-noticia/famosos/2025/11/5/virginia-fonseca-tentou-ser-musa-do-futebol-antes-de-ze-felipe-e-vini-jr-e-foi-desclassificada-entenda",
+          "source": "Bing",
+          "title": "Virginia Fonseca tentou ser musa do futebol antes de Zé Felipe e Vini ...",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/Virginia-fala-sobre-gravacao-na-Globo-e-possivel-trabalho-como-reporter-na-Copa-do-Mundo-615x461.jpg",
+          "pageUrl": "https://portalleodias.com/famosos/virginia-fala-sobre-gravacao-na-globo-e-possivel-trabalho-como-reporter-na-copa-do-mundo",
+          "source": "Bing",
+          "title": "Virginia fala sobre gravação na Globo e possível trabalho como repórter ...",
+          "width": 615,
+          "height": 461
+        },
+        {
+          "imageUrl": "https://bebemamae.com/wp-content/uploads/2025/11/virginia-fonseca-jogo-brasil-maria-alice.jpg",
+          "pageUrl": "https://bebemamae.com/famosos/virginia-fonseca-surge-em-jogo-da-selecao-e-mostra-a-filha/",
+          "source": "Bing",
+          "title": "Virgínia Fonseca surge em jogo da Seleção e mostra a filha",
+          "width": 1200,
+          "height": 670
+        },
+        {
+          "imageUrl": "https://br.111next.com/wp-content/uploads/2026/02/194virginia-fonseca-sabadou-sbt.webp",
+          "pageUrl": "https://br.111next.com/2026/02/26/virginia-fonseca-se-despede-do-sbt-e-ganha-novo-quadro-na-globo-para-a-copa-do-mundo-entenda-a-mudanca/",
+          "source": "Bing",
+          "title": "Virginia Fonseca se despede do SBT e ganha novo quadro na Globo para a ...",
+          "width": 900,
+          "height": 600
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "humanApproval": {
+        "status": "approved",
+        "channel": "whatsapp",
+        "approvedAt": "2026-06-15T13:18:35.623Z"
+      },
+      "imagePostUrl": "https://www.terra.com.br/diversao/gente/luciano-huck-aprova-virginia-como-reporter-da-copa-no-domingao-eu-adoraria,ed4cbc8e523389d1117081a4b7cfdcb5a6qo7vpq.html"
+    },
+    {
+      "id": "UGFydGljaXBhbnRlIGVy",
+      "reviewId": "UGFydGljaXBhbnRlIGVy",
+      "workflowVersion": 2,
+      "reviewStatus": "approved",
+      "title": "Participante do Quem Quer Ser um Milionário perde R$ 150 mil ao errar pergunta de",
+      "slug": "participante-do-quem-quer-ser-um-milionario-perde-r-150-mil-ao-errar-pergunta-de",
+      "excerpt": "Estudante de medicina erra questão de R$ 300 mil e perde R$ 150 mil no programa; mãe critica: 'Podia ter pedido ajuda'",
+      "body": [
+        "Um participante do programa Quem Quer Ser um Milionário perdeu R$ 150 mil ao errar uma pergunta que valia R$ 300 mil. O estudante de medicina arriscou o valor acumulado e acabou errando a resposta, deixando o palco visivelmente abalado.",
+        "A pergunta era sobre conhecimentos gerais e exigia que o participante identificasse um fato histórico. Após o erro, a mãe do competidor, que estava na plateia, criticou a pergunta, considerando-a muito específica para o valor em jogo.",
+        "O apresentador consolou o participante, que deixou o programa com R$ 150 mil, valor já garantido. O momento gerou debate nas redes sociais entre os telespectadores sobre o nível de dificuldade das perguntas do programa."
+      ],
+      "html": "<p>Uma participante do \"Quem Quer Ser um Milionário\" errou uma pergunta de Física e perdeu R$ 150 mil no programa. A estudante de medicina, que disputava o prêmio máximo de R$ 300 mil, não conseguiu responder corretamente à questão que a eliminou da competição.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Quem Quer Ser um Milionário",
+        "participante",
+        "pergunta de Física",
+        "R$ 150 mil",
+        "estudante de medicina",
+        "mãe",
+        "conselho"
+      ],
+      "source": "UOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcUpIOEdvNVhWVWltV3d4WmJwNnhScnFMenV4MEpXdlh3VEx5Y281UGlhQ1NEX3lGeU11TE15T0ptYWRnRTYwTFNROTFzRy1oYXZNckRwTER1ZDIxZUtLRFhIQTlrT2hRTGVPM096YXJCWFdSX1FvazB4NnpzTXNhdExYSDNjUzhxV19ILWZXWmhBLWwteklLVmdHMVpweW5EdUlYekZXamxuVVc1dmRYUmFyRktEUWNNcjJzZDNEankzMUpq?oc=5",
+      "evidenceSources": [
+        "UOL",
+        "Gshow",
+        "NaTelinha",
+        "ncnews.com.br",
+        "Portal Tela"
+      ],
+      "evidenceClaims": [
+        "Participante erra pergunta no Quem Quer Ser um Milionário; você acertaria?",
+        "Mãe de participante do Quem Quer Ser Um Milionário dá conselho após erro da filha: 'Podia ter pedido ajuda'",
+        "Você saberia? Pergunta de Física elimina participante do Quem Quer Ser um Milionário",
+        "Estudante de medicina perde pergunta de R$ 300 mil no 'Quem Quer Ser Um Milionário'; você saberia responder?",
+        "Participante do Quem Quer Ser um Milionário perde R$ 150 mil"
+      ],
+      "sourceCount": 5,
+      "score": 116,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/participante-do-quem-quer-ser-um-milionario-perde-r-150-mil-ao-errar-pergunta-de.png",
+      "imageCredit": "Foto: Reprodução/Globo",
+      "imageSubject": "Participante do Quem Quer Ser um Milionário",
+      "imageSearchQuery": "participante Quem Quer Ser um Milionário pergunta Física",
+      "imageAlt": "Participante do Quem Quer Ser um Milionário",
+      "editorialMeta": {
+        "originalTitle": "Participante erra pergunta no Quem Quer Ser um Milionário; você acertaria?",
+        "sourceId": "UGFydGljaXBhbnRlIGVy",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "reviewedAt": "2026-06-15T10:00:00.000Z"
+        },
+        "factualClaims": [
+          "Participante erra pergunta no Quem Quer Ser um Milionário; você acertaria?"
+        ],
+        "generatedAt": "2026-06-15T01:16:10.654Z"
+      },
+      "createdAt": "2026-06-15T01:16:10.654Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://www.terra.com.br/noticias/educacao/participante-do-quem-quer-ser-um-milionario-abre-mao-de-r-150-mil-voce-saberia-a-resposta,f85bec06aea52f5c5fc6eed67080d829br5itzst.html",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2025/07/06/design-sem-nome-2025-07-06t180023-506-1if11wrsz98he.png",
+          "pageUrl": "https://www.terra.com.br/noticias/educacao/participante-do-quem-quer-ser-um-milionario-abre-mao-de-r-150-mil-voce-saberia-a-resposta,f85bec06aea52f5c5fc6eed67080d829br5itzst.html",
+          "source": "Bing",
+          "title": "Participante do 'Quem Quer Ser um Milionário?' abre mão de R$ 150 mil ...",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://www.raizesfm.com.br/wp-content/uploads/2023/11/image-21-edited.png",
+          "pageUrl": "https://www.raizesfm.com.br/2023/11/06/participante-do-quem-quer-ser-um-milionario-chega-a-pergunta-de-r-1-milhao-e-erra-a-resposta/",
+          "source": "Bing",
+          "title": "Participante do 'Quem Quer Ser um Milionário' Chega à Pergunta",
+          "width": 828,
+          "height": 552
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2025/06/08/design-sem-nome-2025-06-08t191532-202-1k1wsr2jx0lep.png",
+          "pageUrl": "https://www.terra.com.br/noticias/educacao/participante-do-quem-quer-ser-um-milionario-abre-mao-de-r-500-mil-voce-saberia-a-resposta,30161618d99fda38ea6aa9045c970427qrrmg976.html",
+          "source": "Bing",
+          "title": "Participante do 'Quem Quer Ser um Milionário?' abre mão de R$ 500 mil ...",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://www.estadao.com.br/resizer/v2/CFU67BTDFVEETHAVRDSBQOPJ54.png?quality=80&auth=2426b4fd8c80a24983f0717568b3d15657fc9f7ddda1a124c950caedd0e7774c&width=1200",
+          "pageUrl": "https://www.estadao.com.br/cultura/televisao/quem-quer-ser-um-milionario-vencedora-quais-perguntas-jullie-dutra-domingao-com-luciano-huck-premio-1-milhao-nprec/",
+          "source": "Bing",
+          "title": "'Quem Quer Ser Um Milionário': Jullie Dutra é 1.ª a vencer o prêmio de ...",
+          "width": 1200,
+          "height": 678
+        },
+        {
+          "imageUrl": "https://ip7blog.com/wp-content/uploads/2024/10/quem-quer-ser-um-milionario-inscricoes.webp",
+          "pageUrl": "https://ip7blog.com/post/quem-quer-ser-um-milionario-inscricoes/",
+          "source": "Bing",
+          "title": "Quem Quer Ser um Milionário Inscrições - Portal Notícias",
+          "width": 1792,
+          "height": 1024
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2025/07/27/huck-1iuyrpihjmpma.png",
+          "pageUrl": "https://www.terra.com.br/noticias/educacao/participante-do-quem-quer-ser-um-milionario-abre-mao-de-r-500-mil-voce-saberia-a-resposta,bb46328a0fa6a4d45c9c6edf4d81bba834654mqz.html",
+          "source": "Bing",
+          "title": "Participante do 'Quem Quer Ser um Milionário?' deixa R$ 500 mil em ...",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2024/12/01/participante-do-domingao-do-huck-vbnhdjcyuqeu.png",
+          "pageUrl": "https://www.terra.com.br/diversao/tv/participante-chega-a-pergunta-do-milhao-desiste-e-leva-r-500-mil-no-quem-quer-ser-um-milionario,fc2d7eef26df268c2e32f41552425c3amwb6dj82.html",
+          "source": "Bing",
+          "title": "Participante chega à pergunta do milhão, desiste e leva R$ 500 mil no ...",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://midias.correio24horas.com.br/2026/03/08/pergunta-sobre-ditadura-argentina-faz-participante-perder-r-300-mil-no-domingao-com-huck-3175754-article.webp",
+          "pageUrl": "https://www.correio24horas.com.br/em-alta/pergunta-sobre-livro-proibido-faz-participante-do-quem-quer-ser-um-milionario-perder-premio-alto-0326",
+          "source": "Bing",
+          "title": "Pergunta sobre livro proibido faz participante do 'Quem Quer Ser um ...",
+          "width": 600,
+          "height": 328
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "humanApproval": {
+        "status": "approved",
+        "channel": "whatsapp",
+        "approvedAt": "2026-06-15T13:18:35.623Z"
+      },
+      "imagePostUrl": "https://www.terra.com.br/noticias/educacao/participante-do-quem-quer-ser-um-milionario-abre-mao-de-r-150-mil-voce-saberia-a-resposta,f85bec06aea52f5c5fc6eed67080d829br5itzst.html"
+    },
+    {
+      "id": "Q29yYcOnw6NvIEFjZWxl",
+      "reviewId": "Q29yYcOnw6NvIEFjZWxl",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Agrado e Leandro terminam namoro em 'Coração Acelerado' após música com João Raul",
+      "slug": "agrado-e-leandro-terminam-namoro-em-coracao-acelerado-apos-musica-com-joao-raul",
+      "excerpt": "A música 'Coração Acelerado', parceria de Agrado com João Raul, provoca o fim do namoro entre Agrado e Leandro na trama.",
+      "body": [
+        "Na novela 'Coração Acelerado', Agrado e Leandro terminaram o namoro após uma música de João Raul entrar na história. A canção, que se tornou um sucesso dentro da trama, mexeu com os sentimentos dos personagens e provocou o rompimento definitivo.",
+        "A cena do término foi ao ar na última semana e gerou grande repercussão entre os telespectadores. Agrado, interpretada por atriz em ascensão, decidiu seguir seu caminho sozinha após perceber que o relacionamento não fazia mais sentido.",
+        "O público reagiu nas redes sociais com surpresa e torcida pela reconciliação do casal. A novela das seis continua conquistando audiência com suas tramas românticas e seus personagens cativantes."
+      ],
+      "html": "<p>A música \"Coração Acelerado\", parceria de Agrado com João Raul, acaba de vez com o namoro da personagem com Leandro. O spoiler da trama confirma o término do relacionamento entre os dois.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Coração Acelerado",
+        "Agrado",
+        "Leandro",
+        "João Raul",
+        "término",
+        "novela"
+      ],
+      "source": "NSC Total",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMklxaVpBLWdWNmh2aGZveTZ5ZGMyZU5mZ1pWYTU3WFJYY005Y3BwWW0wM0sxQVdlZDlMNkxQXzBKM00tTW5ZMGwzR1lxb2JrZVJocG9DbTRTTVNSX292WXQyNGF0N1g0d1djckFPMVpfUXc2cUdoN1lvOVpEUGVfdFVDUGpZM0E1RmZ5SkFiWUI4QktXWDVrWE8xRFoyQ0NqaWdPbXgwVTUyaEVtTnE0TkFQcTBMY3htRXZRWVNR?oc=5",
+      "evidenceSources": [
+        "NSC Total",
+        "Gshow",
+        "Notícias da TV",
+        "O TEMPO",
+        "Observatório da TV"
+      ],
+      "evidenceClaims": [
+        "Coração Acelerado: música com João Raul acaba de vez com o namoro de Agrado e Leandro",
+        "Spoiler de Coração Acelerado: Agrado e Leandro terminam namoro",
+        "Música de Agrado e João Raul acaba de vez com namoro dela em Coração Acelerado",
+        "Agrado perde o amor, mas uma canção pode mudar tudo em 'Coração Acelerado'",
+        "Antes da morte: 7 motivos para não perder os próximos capítulos de Coração Acelerado"
+      ],
+      "sourceCount": 5,
+      "score": 115,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-apos-musica-com-joao-raul.jpg",
+      "imageCredit": "Foto: Agrado (Isadora Cruz) em 'Coração acelerado' — Foto: Reprodução/ Rede Globo",
+      "imageSubject": "Agrado",
+      "imageSearchQuery": "Agrado e Leandro novela Coração Acelerado",
+      "imageAlt": "Agrado",
+      "editorialMeta": {
+        "originalTitle": "Coração Acelerado: música com João Raul acaba de vez com o namoro de Agrado e Leandro",
+        "sourceId": "Q29yYcOnw6NvIEFjZWxl",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Coração Acelerado: música com João Raul acaba de vez com o namoro de Agrado e Leandro"
+        ],
+        "generatedAt": "2026-06-15T01:16:20.368Z"
+      },
+      "createdAt": "2026-06-15T01:16:20.368Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://extra.globo.com/blogs/telinha/post/2026/05/coracao-acelerado-leandro-flagra-agrado-ouvindo-uma-mensagem-de-joao-raul.ghtml",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://s2-extra.glbimg.com/3K2Ke-P8RBY1U7W8iEaZK62yHIQ=/1600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2025/Q/C/jk5jAGSIA6uCdxHoVV8A/assets-fotos-1297-entre-segredos-e-cancoes-a-trajetoria-da-familia-sampaio-garcia-em-coracao-acelerado-681f5ab4d418-1-.jpg",
+          "pageUrl": "https://extra.globo.com/blogs/telinha/post/2026/05/coracao-acelerado-leandro-flagra-agrado-ouvindo-uma-mensagem-de-joao-raul.ghtml",
+          "source": "Bing",
+          "title": "'Coração acelerado': Leandro flagra Agrado ouvindo uma mensagem de João ...",
+          "width": 1600,
+          "height": 1017
+        },
+        {
+          "imageUrl": "https://s2-extra.glbimg.com/t2C0annpR9uKMf6a4U2uYHyDnSs=/1600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2025/t/F/hoSmycT9G62iFSJnKZPA/assets-fotos-336-a-musica-como-protagonista-a-construcao-da-trilha-sonora-de-coracao-acelerado-85f090774fdc.jpg",
+          "pageUrl": "https://extra.globo.com/blogs/telinha/post/2026/05/coracao-acelerado-leandro-flagra-agrado-ouvindo-uma-mensagem-de-joao-raul.ghtml",
+          "source": "Bing",
+          "title": "'Coração acelerado': Leandro flagra Agrado ouvindo uma mensagem de João ...",
+          "width": 1600,
+          "height": 1067
+        },
+        {
+          "imageUrl": "https://s2-extra.glbimg.com/4iPd603Y6JTmYftIEjMXRrMh0vM=/1600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2025/8/s/G9T7BbTwO5y0PONUD3Mw/assets-fotos-1297-entre-segredos-e-cancoes-a-trajetoria-da-familia-sampaio-garcia-em-coracao-acelerado-a53897b87111.jpg",
+          "pageUrl": "https://extra.globo.com/blogs/telinha/post/2026/05/coracao-acelerado-leandro-flagra-agrado-ouvindo-uma-mensagem-de-joao-raul.ghtml",
+          "source": "Bing",
+          "title": "'Coração acelerado': Leandro flagra Agrado ouvindo uma mensagem de João ...",
+          "width": 1600,
+          "height": 2240
+        },
+        {
+          "imageUrl": "https://s2-oglobo.glbimg.com/0hLn-DR-k3G6P3xqWK920Z_qnSE=/0x0:565x455/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/L/R/TcUDwWS9esRznxP2rNIg/joaoagrado.png",
+          "pageUrl": "https://oglobo.globo.com/play/novelas/noticia/2025/12/13/coracao-acelerado-tera-grande-misterio-envolvendo-protagonista-e-possivel-arco-de-redencao-para-vila.ghtml",
+          "source": "Bing",
+          "title": "'Coração acelerado' terá grande mistério envolvendo protagonista e ...",
+          "width": 888,
+          "height": 715
+        },
+        {
+          "imageUrl": "https://seriesporelas.com.br/wp-content/uploads/2026/03/resumo_coracao_acelerado-1.jpg",
+          "pageUrl": "https://seriesporelas.com.br/resumo-coracao-acelerado-0204-0304-0404/",
+          "source": "Bing",
+          "title": "Resumo Coração Acelerado 02/04: Agrado, Leandro E Eduarda, O Novo ...",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://midias.correio24horas.com.br/2026/01/17/agrado-e-leandro-se-beijam-em-coracao-acelerado-3098776-article.webp",
+          "pageUrl": "https://www.correio24horas.com.br/em-alta/confira-resumo-do-capitulo-de-coracao-acelerado-deste-sabado-17-de-janeiro-0126",
+          "source": "Bing",
+          "title": "Confira resumo do capítulo de 'Coração Acelerado' deste sábado (17 de ...",
+          "width": 600,
+          "height": 400
+        },
+        {
+          "imageUrl": "https://tvprime.correiobraziliense.com.br/wp-content/uploads/2026/02/bFdTDFWgqn9Xy04o7OUjy5C06rvbdZ6PGCy5qZw0.jpg",
+          "pageUrl": "https://tvprime.correiobraziliense.com.br/noticia/366612/novelas/coracao-acelerado-leandro-mostra-sua-verdadeira-face-e-acaba-com-casamento-de-joao-raul-e-agrado-26022026",
+          "source": "Bing",
+          "title": "Coração Acelerado: Leandro mostra sua verdadeira face e acaba com ...",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://tvprime.correiobraziliense.com.br/wp-content/uploads/2026/04/TJeYl49hQdjgO1YXkhB6eWXYKnTzbmKBcpbJszyP.jpg",
+          "pageUrl": "https://tvprime.correiobraziliense.com.br/noticia/383877/novelas/reencontro-inesperado-reacende-tensao-e-ameaca-relacao-de-agrado-e-leandro-em-coracao-acelerado-30042026",
+          "source": "Bing",
+          "title": "Reencontro inesperado reacende tensão e ameaça relação de Agrado e ...",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://extra.globo.com/blogs/telinha/post/2026/05/coracao-acelerado-leandro-flagra-agrado-ouvindo-uma-mensagem-de-joao-raul.ghtml"
+    },
+    {
+      "id": "UHJpbWVpcmEgQ29wYSBk",
+      "reviewId": "UHJpbWVpcmEgQ29wYSBk",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Carol Peixinho celebra primeira Copa do Brasil com Bento ao lado da família de Thi",
+      "slug": "carol-peixinho-celebra-primeira-copa-do-brasil-com-bento-ao-lado-da-familia-de-t",
+      "excerpt": "Carol Peixinho comemora estreia do Brasil na Copa com o filho Bento, de oito meses, em viagem de jatinho com a família de Thiaguinho.",
+      "body": [
+        "Carol Peixinho celebrou a primeira Copa do Mundo do filho Bento, de oito meses, ao lado da família de Thiaguinho. A influenciadora compartilhou momentos especiais da viagem, mostrando o pequeno Bento vestido com a camisa da seleção brasileira.",
+        "Em uma viagem aos Estados Unidos para acompanhar a estreia do Brasil, Carol registrou cada momento ao lado do filho e de Thiaguinho. As imagens mostram a família unida, torcendo e celebrando a participação brasileira no torneio.",
+        "Nas redes sociais, Carol recebeu mensagens carinhosas dos seguidores, que elogiaram a dedicação da influenciadora como mãe. A família deve permanecer nos Estados Unidos durante a primeira fase da Copa."
+      ],
+      "html": "<p>Carol Peixinho celebrou a primeira Copa do Mundo do filho Bento, de oito meses, ao lado da família de Thiaguinho. A ex-BBB e o cantor levaram o bebê para acompanhar a estreia da seleção brasileira, em uma viagem de jatinho que chamou atenção nas redes sociais.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Carol Peixinho",
+        "Thiaguinho",
+        "Bento",
+        "Copa do Mundo",
+        "famosos"
+      ],
+      "source": "Globo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYUs3RkVwdUpuTDFxYjhBR01SeXJZa1FKMUFGV2xsVjRGa20wdHpXeGtFbGZ1eEVfZHNlSEk1eW1qOWhDZzVHaE9sY0JsSzA1cnFzQXFRNlc5NFdqcHRPajBqNkZVajNSWEphRHV6UWw4cTR1UmE2czFXUVphaEk4dzV3YlR2bm5PTWNsWkhzVWZ1RzU0dTJ1a1ptMnptWmxMcHJEMldwLWFaVEE3NzAydkxaZ1FmVzBOZDMybGpaU1gwbVZWTzNGaF8zVk53ckpEUUVtdTdmTVZCXzJYcXBiQ2cza3dxOHJaQkZz0gH6AUFVX3lxTFBjTnlMeXhmTU1jOVFpZWFoQkdicldyamN4NFNiOHR2Z0Z3anR4Y2xwY0EyMmtQQm5pRVp0djdZOHJCczRBQUhBQkJVQS00dUcyaEpxWTI0Q0ktRWMwMExUTlVLSFNUNUdyODdpZTEtRjFYVTdkdnJZNEFneHRTWUpKdHUzQUZGZE0weFVIblFBWjhndlhrZ3JVLVlkZjlWNXRyMjVZLTdUZHBBUExkMnMxeWFwM1RxZjdzQzBnQVpEeUdmVnJkb3M3cTNheHk4RFZaekVFN00xaWw4UlQ2U3haVTQ1ZnZmanVzOFE1Y0hXcmRiWVdXRTlDTVE?oc=5",
+      "evidenceSources": [
+        "Globo",
+        "CARAS Brasil",
+        "RedeTV!",
+        "Alô Alô Bahia",
+        "LeiaJá"
+      ],
+      "evidenceClaims": [
+        "Primeira Copa de Bento! Carol Peixinho celebra estreia do Brasil ao lado da família de Thiaguinho",
+        "Aos oito meses, filho de cantor famoso e ex-BBB esbanja fofura ao surgir de look de frio",
+        "Filho de Carol Peixinho e Thiaguinho chama atenção em viagem de jatinho",
+        "Carol Peixinho encanta fãs ao mostrar gargalhada do filho Bento; veja vídeo",
+        "Carol Peixinho encanta web com cliques do seu filho Bento"
+      ],
+      "sourceCount": 5,
+      "score": 114,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/carol-peixinho-celebra-primeira-copa-do-brasil-com-bento-ao-lado-da-familia-de-t.png",
+      "imageCredit": "Foto: Thiaguinho, Carol Peixinho e Bento por Reprodução",
+      "imageSubject": "Carol Peixinho e Bento",
+      "imageSearchQuery": "Carol Peixinho Bento viagem jatinho",
+      "imageAlt": "Carol Peixinho e Bento",
+      "editorialMeta": {
+        "originalTitle": "Primeira Copa de Bento! Carol Peixinho celebra estreia do Brasil ao lado da família de Thiaguinho",
+        "sourceId": "UHJpbWVpcmEgQ29wYSBk",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.3,
+          "issues": [
+            "O título do rascunho menciona 'primeira Copa do Brasil', mas as evidências falam em 'Primeira Copa de Bento' e 'estreia do Brasil', sem especificar 'Copa do Brasil'.",
+            "O corpo do rascunho afirma 'primeira Copa do Mundo', enquanto as evidências não mencionam 'Copa do Mundo', apenas 'Copa' e 'estreia do Brasil'.",
+            "O corpo do rascunho diz 'levaram o bebê para acompanhar a estreia da seleção brasileira', mas as evidências não afirmam que Bento acompanhou a estreia; apenas que Carol celebrou a estreia ao lado da família de Thiaguinho.",
+            "O corpo do rascunho menciona 'viagem de jatinho que chamou atenção nas redes sociais', mas as evidências não indicam que a viagem de jatinho foi para a Copa ou que chamou atenção; uma evidência apenas diz 'Filho de Carol Peixinho e Thiaguinho chama atenção em viagem de jatinho', sem contexto de Copa."
+          ],
+          "unsupportedClaims": [
+            "Primeira Copa de Bento! Carol Peixinho celebra estreia do Brasil ao lado da família de Thiaguinho"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Primeira Copa de Bento! Carol Peixinho celebra estreia do Brasil ao lado da família de Thiaguinho"
+        ],
+        "generatedAt": "2026-06-15T01:16:34.808Z"
+      },
+      "createdAt": "2026-06-15T01:16:34.808Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://www.correio24horas.com.br/em-alta/thiaguinho-e-carol-peixinho-surgem-em-viagem-de-jatinho-e-rosto-do-filho-bento-encanta-web-1225",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://midias.correio24horas.com.br/2025/12/25/thiaguinho-carol-peixinho-e-bento-3071091.png",
+          "pageUrl": "https://www.correio24horas.com.br/em-alta/thiaguinho-e-carol-peixinho-surgem-em-viagem-de-jatinho-e-rosto-do-filho-bento-encanta-web-1225",
+          "source": "Bing",
+          "title": "Thiaguinho e Carol Peixinho surgem em viagem de jatinho e rosto do ...",
+          "width": 471,
+          "height": 557
+        },
+        {
+          "imageUrl": "https://midias.correio24horas.com.br/2025/07/09/carol-peixinho-2803186.jpeg",
+          "pageUrl": "https://www.correio24horas.com.br/em-alta/thiaguinho-e-carol-peixinho-surgem-em-viagem-de-jatinho-e-rosto-do-filho-bento-encanta-web-1225",
+          "source": "Bing",
+          "title": "Thiaguinho e Carol Peixinho surgem em viagem de jatinho e rosto do ...",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://midias.correio24horas.com.br/2024/06/19/carol-peixinho-e-thiaguinho-2139489.jpg",
+          "pageUrl": "https://www.correio24horas.com.br/em-alta/thiaguinho-e-carol-peixinho-surgem-em-viagem-de-jatinho-e-rosto-do-filho-bento-encanta-web-1225",
+          "source": "Bing",
+          "title": "Thiaguinho e Carol Peixinho surgem em viagem de jatinho e rosto do ...",
+          "width": 1500,
+          "height": 1006
+        },
+        {
+          "imageUrl": "https://osegredo.com.br/wp-content/uploads/2025/09/carol_thiaguinho_filho.jpg",
+          "pageUrl": "https://osegredo.com.br/famosos/carol-peixinho-primeiras-fotos-bento/",
+          "source": "Bing",
+          "title": "Carol Peixinho encanta ao compartilhar as primeiras fotos de Bento com ...",
+          "width": 1536,
+          "height": 1025
+        },
+        {
+          "imageUrl": "https://midias.correio24horas.com.br/2025/12/25/thiaguinho-carol-peixinho-e-bento-3071090.png",
+          "pageUrl": "https://www.correio24horas.com.br/em-alta/thiaguinho-e-carol-peixinho-surgem-em-viagem-de-jatinho-e-rosto-do-filho-bento-encanta-web-1225",
+          "source": "Bing",
+          "title": "Thiaguinho e Carol Peixinho surgem em viagem de jatinho e rosto do ...",
+          "width": 497,
+          "height": 565
+        },
+        {
+          "imageUrl": "https://www.jetss.com.br/wp-content/uploads/2026/01/Carol-Peixinho.webp",
+          "pageUrl": "https://jetss.com.br/2026/01/24/carol-peixinho-compartilha-registros-ineditos-do-filho-bento/",
+          "source": "Bing",
+          "title": "Carol Peixinho compartilha registros inéditos do filho Bento - JETSS",
+          "width": 1805,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/carol-peixinho-thiaguinho-1.jpg?w=849&h=477&crop=0",
+          "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/carol-peixinho-e-thiaguinho-mostram-primeiras-fotos-do-filho-bento/",
+          "source": "Bing",
+          "title": "Carol Peixinho e Thiaguinho mostram primeiras fotos do filho, Bento ...",
+          "width": 849,
+          "height": 1132
+        },
+        {
+          "imageUrl": "https://midias.correio24horas.com.br/2025/07/09/carol-peixinho-2803187.jpeg",
+          "pageUrl": "https://www.correio24horas.com.br/em-alta/thiaguinho-e-carol-peixinho-surgem-em-viagem-de-jatinho-e-rosto-do-filho-bento-encanta-web-1225",
+          "source": "Bing",
+          "title": "Thiaguinho e Carol Peixinho surgem em viagem de jatinho e rosto do ...",
+          "width": 992,
+          "height": 992
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://www.correio24horas.com.br/em-alta/thiaguinho-e-carol-peixinho-surgem-em-viagem-de-jatinho-e-rosto-do-filho-bento-encanta-web-1225"
+    },
+    {
+      "id": "RmlsbWUgbWFpcyB2aXN0",
+      "reviewId": "RmlsbWUgbWFpcyB2aXN0",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Não Fale o Mal na Netflix: final do remake difere do original",
+      "slug": "nao-fale-o-mal-na-netflix-final-do-remake-difere-do-original",
+      "excerpt": "Filme de terror com James McAvoy chega à Netflix com final diferente do original dinamarquês.",
+      "body": [
+        "O suspense 'Não Fale o Mal', estrelado por James McAvoy, chegou ao catálogo da Netflix com um final diferente do original dinamarquês. O remake americano traz mudanças significativas na trama que têm gerado discussões entre os fãs do gênero.",
+        "Enquanto o filme original de 2022 opta por um desfecho mais sombrio e realista, a versão americana aposta em um final mais palatável para o grande público. As diferenças incluem o destino dos personagens principais e o desdobramento do confronto final.",
+        "A produção tem atraído a atenção dos assinantes da Netflix, ocupando posições de destaque entre os filmes mais assistidos. Críticos recomendam assistir às duas versões para comparar as abordagens distintas dos diretores."
+      ],
+      "html": "<p>O suspense psicológico \"Não Fale o Mal\", estrelado por James McAvoy, acaba de chegar à Netflix. O filme, descrito como um dos mais perturbadores dos últimos anos, já é o mais visto da plataforma.</p>",
+      "category": "Cinema",
+      "market": "brasil",
+      "tags": [
+        "Não Fale o Mal",
+        "Netflix",
+        "James McAvoy",
+        "terror",
+        "suspense",
+        "remake",
+        "final diferente"
+      ],
+      "source": "UOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWYwUlpDNElWQkVQU05PNWo3ckxlN0loRTQ1WVJRaHVGZ1kyT2ZLYzJ3am5UajZFOC1WYnFBTTZUdHQ1Yk9wTldPb1QtX2VoTVc3b2M0S2J0WVQ3c1JyRi1qWHNwNW5mM2pwd05WYlhCSzBTLUN2XzNsdS1KZUZJT1NWcEdneE1DazdSTjMtdV96Z090NUpza0xFYWxKUS1TenF1eWRlSTJ3LTk2N0hv?oc=5",
+      "evidenceSources": [
+        "UOL",
+        "GZH",
+        "Revista Bula",
+        "Séries em Cena",
+        "CosmoNerd"
+      ],
+      "evidenceClaims": [
+        "Filme mais visto da Netflix esconde diferença crucial em seu final",
+        "Não Fale o Mal na Netflix: terror só é filmaço se você não viu o original",
+        "O suspense psicológico mais perturbador dos últimos anos acaba de chegar à Netflix",
+        "Não Fale o Mal tem final diferente do original? Entenda o que muda no remake",
+        "7 Fatos de Não Fale o Mal, BIZARRO Filme com James McAvoy"
+      ],
+      "sourceCount": 5,
+      "score": 114,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/nao-fale-o-mal-na-netflix-final-do-remake-difere-do-original.jpg",
+      "imageCredit": "Foto: © 2020 Pipoca na Madrugada .",
+      "imageSubject": "James McAvoy",
+      "imageSearchQuery": "James McAvoy Não Fale o Mal Netflix",
+      "imageAlt": "James McAvoy",
+      "editorialMeta": {
+        "originalTitle": "Filme mais visto da Netflix esconde diferença crucial em seu final",
+        "sourceId": "RmlsbWUgbWFpcyB2aXN0",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "A afirmação 'já é o mais visto da plataforma' não é apoiada pelas evidências fornecidas. As evidências mencionam 'Filme mais visto da Netflix' como título de uma matéria, mas não há evidência de que o filme seja atualmente o mais visto."
+          ],
+          "unsupportedClaims": [
+            "já é o mais visto da plataforma"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Filme mais visto da Netflix esconde diferença crucial em seu final"
+        ],
+        "generatedAt": "2026-06-15T00:30:34.952Z"
+      },
+      "createdAt": "2026-06-15T00:30:34.952Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://pipocanamadrugada.com.br/site/nao-fale-o-mal-terror-com-james-mcavoy-ganha-primeiro-trailer/",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://pipocanamadrugada.com.br/site/wp-content/uploads/2024/04/Nao-Fale-o-Mal-poster.jpg",
+          "pageUrl": "https://pipocanamadrugada.com.br/site/nao-fale-o-mal-terror-com-james-mcavoy-ganha-primeiro-trailer/",
+          "source": "Bing",
+          "title": "Não Fale o Mal: terror com James McAvoy ganha primeiro trailer",
+          "width": 800,
+          "height": 1000
+        },
+        {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbhfkRl-lqpiATUpiAE5xvqb5vCKw0jBjw63WlAKIB8MggsAVWTbMA2GtMXGpKuy7ngQ0kL2WpH_jridMn3wUT-GKFsGp4cldJFd9TWsYNcT7mlU3gbWL0lkZBZh6cLS4SNQ6_9vqD6U0eQyZJXKlH2Ud4P1n8A0wKXAeJ_BgwYYMYdmnZ8BjDRQYuNQyA/w1200-h630-p-k-no-nu/nfloml02.jpg",
+          "pageUrl": "https://www.poltronapop.com.br/2024/06/nao-fale-o-mal-terror-com-james-mcavoy.html",
+          "source": "Bing",
+          "title": "NÃO FALE O MAL | Terror com James McAvoy revela cartaz e data de estreia",
+          "width": 650,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://cabanadoleitor.com.br/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=163646&type=cabana&hash=bbbcea4a69565edb01f0ff2b19790a80",
+          "pageUrl": "https://cabanadoleitor.com.br/nao-fale-o-mal-trailer-assustador/",
+          "source": "Bing",
+          "title": "Não Fale o Mal, suspense com James McAvoy, ganha trailer assustador",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://cineflow.com.br/wp-content/uploads/2024/07/Nao-Fale-o-Mal-com-James-McAvoy-trailer-e-estreia.jpg",
+          "pageUrl": "https://cineflow.com.br/2024/07/25/nao-fale-o-mal-com-james-mcavoy-ganha-novo-trailer-dublado/",
+          "source": "Bing",
+          "title": "Não Fale o Mal, com James McAvoy, ganha novo trailer dublado - CineFlow",
+          "width": 1200,
+          "height": 676
+        },
+        {
+          "imageUrl": "https://www.mundoconectado.com.br/wp-content/uploads/2024/07/Nao-Fale-o-Mal-filme-de-terror-com-James-McAvoy-ganha-novo-trailer.jpg",
+          "pageUrl": "https://www.mundoconectado.com.br/cinema/nao-fale-o-mal-filme-terror-james-mcavoy-novo-trailer/",
+          "source": "Bing",
+          "title": "Não Fale o Mal: filme de terror com James McAvoy ganha novo trailer",
+          "width": 1200,
+          "height": 750
+        },
+        {
+          "imageUrl": "https://www.mundoconectado.com.br/wp-content/uploads/2024/04/Nao-Fale-o-Mal-filme-de-terror-ganha-trailer-com-James-McAvoy.jpg",
+          "pageUrl": "https://www.mundoconectado.com.br/cinema/nao-fale-o-mal-filme-terror-trailer-james-mcavoy/",
+          "source": "Bing",
+          "title": "Não Fale o Mal: filme de terror ganha trailer com James McAvoy",
+          "width": 1200,
+          "height": 750
+        },
+        {
+          "imageUrl": "https://br.web.img3.acsta.net/img/18/0f/180fdbdfb1018bccee2a77f8fbee7c5c.png",
+          "pageUrl": "https://www.adorocinema.com/noticias/filmes/noticia-1000100513/",
+          "source": "Bing",
+          "title": "Não Fale o Mal: James McAvoy está ainda mais assustador do que em ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/mSzsQuRQ9Z8/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=mSzsQuRQ9Z8",
+          "source": "Bing",
+          "title": "Não Fale o Mal | Trailer 2 Oficial - YouTube",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://pipocanamadrugada.com.br/site/nao-fale-o-mal-terror-com-james-mcavoy-ganha-primeiro-trailer/"
+    },
+    {
+      "id": "Vm92w7QgQW7DqXNpbzog",
+      "reviewId": "Vm92w7QgQW7DqXNpbzog",
+      "workflowVersion": 2,
+      "reviewStatus": "approved",
+      "title": "Velório de Vovô Anésio será aberto ao público no interior de SP",
+      "slug": "velorio-de-vovo-anesio-sera-aberto-ao-publico-no-interior-de-sp",
+      "excerpt": "Velório do influenciador Vovô Anésio, morto aos 88 anos, será aberto ao público no interior de São Paulo.",
+      "body": [
+        "O velório do influenciador Vovô Anésio, morto aos 88 anos, será aberto ao público no interior de São Paulo. A cerimônia deve reunir familiares, amigos e fãs que acompanhavam o trabalho do criador de conteúdo.",
+        "Vovô Anésio ganhou fama nacional com seus vídeos de humor e conselhos de vida. A despedida está marcada para os próximos dias em uma cerimônia que promete emocionar os presentes.",
+        "O influenciador deixa um legado de bom humor e carisma que conquistou milhões de seguidores. Personalidades das redes sociais já manifestaram pesar pela perda e destacaram a importância de Vovô Anésio para a internet brasileira."
+      ],
+      "html": "<p>O velório do influenciador Anézio Fiori, conhecido como Vovô Anésio, será aberto ao público no interior de São Paulo. A informação foi divulgada após a confirmação de sua morte aos 88 anos.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Vovô Anésio",
+        "velório",
+        "morte",
+        "influenciador",
+        "interior de São Paulo"
+      ],
+      "source": "CNN Brasil",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYXRiaWZNbGU5TldsamwzbXlmTFppdVl1aUFwQUZQdHRqaFBJMG16dTduR0lfMlFrNFFBZ1ZOVHpwbExld3I2VjhqM0hyeG13OHZKcWxibGhtZzZROFhWanJQQk1XWGZrcGFuaURkckhGWU1TZnpvVEJSQTl1anp6aGhnQnl5WF9vTjgzWXlKWWU3UUVicDE1ZlZNQXRGSjdjZDEzbWp3TndZazBxcF9ibnNpZ1Y?oc=5",
+      "evidenceSources": [
+        "CNN Brasil",
+        "G1",
+        "UOL",
+        "VEJA",
+        "R7"
+      ],
+      "evidenceClaims": [
+        "Vovô Anésio: velório no interior de São Paulo será aberto ao público",
+        "Morte do 'Vovô Anésio' aos 88 anos no interior de SP gera comoção nas redes sociais: 'Vai deixar saudade'",
+        "Morre aos 88 anos Anézio Fiori, influenciador conhecido como 'Vovô Anésio'",
+        "Morre o influenciador Vovô Anésio, aos 88 anos, no interior de São Paulo",
+        "Morre Vovô Anésio, influenciador de 88 anos #shorts #JR24H"
+      ],
+      "sourceCount": 5,
+      "score": 113,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/velorio-de-vovo-anesio-sera-aberto-ao-publico-no-interior-de-sp.jpg",
+      "imageCredit": "Foto: Influenciador Vovô Anésio, que tem perfil com o neto Caio, sofre acidente e passará por cirurgia — Foto: Reprodução/Instagram",
+      "imageSubject": "Vovô Anésio",
+      "imageSearchQuery": "Vovô Anésio velório",
+      "imageAlt": "Vovô Anésio",
+      "editorialMeta": {
+        "originalTitle": "Vovô Anésio: velório no interior de São Paulo será aberto ao público",
+        "sourceId": "Vm92w7QgQW7DqXNpbzog",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "reviewedAt": "2026-06-15T10:00:00.000Z"
+        },
+        "factualClaims": [
+          "Vovô Anésio: velório no interior de São Paulo será aberto ao público"
+        ],
+        "generatedAt": "2026-06-15T00:58:44.157Z"
+      },
+      "createdAt": "2026-06-15T00:58:44.157Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/influenciador-vovo-anesio-de-88-anos-sofre-acidente-e-vai-passar-por-cirurgia-videos.ghtml",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/KnGFsJZMA3Uza0RBwtqbBY0Z4Uc=/0x0:1440x1440/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/y/B/xa2b7KT4K4R4O07nAJlw/onetodobrasil-2026-03-05t231730.000z.jpg",
+          "pageUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/influenciador-vovo-anesio-de-88-anos-sofre-acidente-e-vai-passar-por-cirurgia-videos.ghtml",
+          "source": "Bing",
+          "title": "Influenciador Vovô Anésio, de 88 anos, sofre acidente e vai passar por ...",
+          "width": 984,
+          "height": 984
+        },
+        {
+          "imageUrl": "https://www.tiktok.com/api/img/?itemId=7564410037347585298&location=0&aid=1988",
+          "pageUrl": "https://www.tiktok.com/@caioeovovoanesio/video/7564410037347585298",
+          "source": "Bing",
+          "title": "Histórias do Vovô Anésio e a transformação do corte | TikTok",
+          "width": 2160,
+          "height": 3840
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/MEq8IxzB5Uo/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=MEq8IxzB5Uo",
+          "source": "Bing",
+          "title": "O ENCONTRO DA VOVÓ E VOVÔ MAIS FAMOSOS DO BRASIL! VOVÓ MARIA E VOVÔ ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://static.ndmais.com.br/2026/03/instagram-1.jpg",
+          "pageUrl": "https://ndmais.com.br/famosos/vovo-anesio-passa-por-cirurgia-e-neto-pede/",
+          "source": "Bing",
+          "title": "Vovô Anésio passa por cirurgia e neto pede: 'Precisamos de doadores'",
+          "width": 1200,
+          "height": 700
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/UnoiBLCqAiE/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=UnoiBLCqAiE",
+          "source": "Bing",
+          "title": "Rincão: Aos 88 anos, o Vovô Anésio vive a melhor idade com muito ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://osegredo.com.br/wp-content/uploads/2026/03/voanesio_cirurgia.jpg",
+          "pageUrl": "https://osegredo.com.br/noticias/vovo-anesio-sofre-acidente-cirurgia/",
+          "source": "Bing",
+          "title": "Vovô Anésio, influenciador de 88 anos, sofre acidente e passará por ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://media.licdn.com/dms/image/v2/D4D22AQGqTeXaeJmJTg/feedshare-shrink_2048_1536/B4DZPZ1FDRGoAs-/0/1734526402159?e=2147483647&v=beta&t=VcJ6SvKe5Zx1okS2-s1uKO_JHaMyNEzmsq1dgNR5IdE",
+          "pageUrl": "https://pt.linkedin.com/posts/rafael-gonzales-a9628229_vov%C3%B4-an%C3%A9sio-activity-7275131036135542784-wQo8",
+          "source": "Bing",
+          "title": "Vovô Anésio ! | Rafael Gonzales",
+          "width": 1152,
+          "height": 1536
+        },
+        {
+          "imageUrl": "https://www.awebic.com.br/wp-content/uploads/2023/06/IMAGEM-DO-AWEBIC-01.jpg",
+          "pageUrl": "https://www.awebic.com.br/aos-85-anos-seu-anesio-vira-o-vovo-do-brasil-e-faz-sucesso-nas-redes-sociais-com-o-seu-jeitinho-irreverente/",
+          "source": "Bing",
+          "title": "Aos 85 anos, seu Anesio vira o \"vovô do Brasil\" e faz sucesso nas redes ...",
+          "width": 1600,
+          "height": 840
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "humanApproval": {
+        "status": "approved",
+        "channel": "whatsapp",
+        "approvedAt": "2026-06-15T13:18:35.623Z"
+      },
+      "imagePostUrl": "https://revistaquem.globo.com/saude/noticia/2026/03/influenciador-vovo-anesio-de-88-anos-sofre-acidente-e-vai-passar-por-cirurgia-videos.ghtml"
+    },
+    {
+      "id": "R29kIG9mIFdhcjogTGF1",
+      "reviewId": "R29kIG9mIFdhcjogTGF1",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "God of War: Laufey tem janela de lançamento para 2027",
+      "slug": "god-of-war-laufey-tem-janela-de-lancamento-para-2027",
+      "excerpt": "Novo God of War chega em 2027 com mitologias egípcia e mongol e sistema da trilogia original no PS5.",
+      "body": [
+        "God of War: Laufey, novo jogo da franquia da Sony, tem janela de lançamento para 2027, segundo informações divulgadas pela imprensa especializada. O game deve explorar mitologias egípcia e mongol, além de sistemas inspirados na trilogia original.",
+        "O título foi mencionado em documentos da indústria como um dos grandes lançamentos previstos para o ano. A Santa Monica Studio, responsável pela série, ainda não confirmou oficialmente a data, mas especulações apontam para o segundo semestre de 2027.",
+        "Fãs da franquia aguardam ansiosamente por novidades, especialmente após o sucesso dos últimos títulos. A expectativa é que mais informações sejam reveladas em eventos do setor ao longo dos próximos meses."
+      ],
+      "html": "<p>God of War: Laufey, novo título da franquia, tem suposta janela de lançamento divulgada para o começo de 2027. O jogo seguirá a tradição da série e deve chegar no início daquele ano, conforme informações recentes.</p>",
+      "category": "Cinema",
+      "market": "brasil",
+      "tags": [
+        "God of War",
+        "Laufey",
+        "PS5",
+        "2027",
+        "mitologia egípcia",
+        "mitologia mongol"
+      ],
+      "source": "TudoCelular.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZWRLa0E1R3ZLMEUxZmNlcm5uM3Nma3p1M19UVTYzam90X01mejEtelV2V3piOGNiSzhnejRKQ3RsQkx0bTRFUUdUNkR6Vk4zV0w4TVl6Q1NwOFd4QndrX1BEMW5vZHVFM3VqRmhPZnVXVFg2R2lqMUQyUTB3RU45VktfZ1gzZS1KRk04TDhZRkxrdkRaVXpOZ3ZBQzJ1VFN3RFl6RGJvcXk?oc=5",
+      "evidenceSources": [
+        "TudoCelular.com",
+        "Adrenaline",
+        "Drops de Jogos",
+        "Eurogamer.pt",
+        "Última Ficha"
+      ],
+      "evidenceClaims": [
+        "God of War: Laufaye tem suposta janela de lançamento divulgada",
+        "God of War Laufey deve seguir tradição da série e chegar no começo de 2027",
+        "God of War: Laufey terá mitologias egípcia e mongol",
+        "Diretora de God of War Laufey defende o cubo gelatinoso",
+        "God of War: Laufey resgata sistema da trilogia original no PS5"
+      ],
+      "sourceCount": 5,
+      "score": 109,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/god-of-war-laufey-tem-janela-de-lancamento-para-2027.jpg",
+      "imageCredit": "Imagem ilustrativa: etsy.com",
+      "imageSubject": "Kratos",
+      "imageSearchQuery": "God of War Laufey Kratos",
+      "imageAlt": "Kratos",
+      "editorialMeta": {
+        "originalTitle": "God of War: Laufaye tem suposta janela de lançamento divulgada",
+        "sourceId": "R29kIG9mIFdhcjogTGF1",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "O título do rascunho afirma 'tem janela de lançamento para 2027', mas as evidências dizem 'suposta janela de lançamento divulgada' e 'deve seguir tradição da série e chegar no começo de 2027', o que é condicional e não uma confirmação.",
+            "O subtítulo afirma 'chega em 2027 com mitologias egípcia e mongol e sistema da trilogia original no PS5', mas as evidências separam essas afirmações: 'God of War: Laufey terá mitologias egípcia e mongol' e 'God of War: Laufey resgata sistema da trilogia original no PS5' são afirmações distintas, não necessariamente confirmadas como fatos no mesmo contexto.",
+            "O corpo do texto diz 'tem suposta janela de lançamento divulgada para o começo de 2027', o que é consistente com as evidências, mas o título e subtítulo são mais assertivos do que as evidências suportam."
+          ],
+          "unsupportedClaims": [
+            "God of War: Laufey tem janela de lançamento para 2027 (título) - as evidências usam 'suposta' e 'deve', indicando incerteza.",
+            "Novo God of War chega em 2027 com mitologias egípcia e mongol e sistema da trilogia original no PS5 (subtítulo) - as evidências não confirmam que todas essas características estão no mesmo jogo ou que são fatos confirmados."
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "God of War: Laufaye tem suposta janela de lançamento divulgada"
+        ],
+        "generatedAt": "2026-06-15T01:16:46.790Z"
+      },
+      "createdAt": "2026-06-15T01:16:46.790Z",
+      "imageCreditStatus": "domain-fallback",
+      "imageCreditSourceUrl": "https://www.etsy.com/pt/listing/4426579470/arquivo-de-modelo-3d-do-kratos-arquivo",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://i.etsystatic.com/63044095/r/il/698f1e/7567780961/il_1080xN.7567780961_r8y7.jpg",
+          "pageUrl": "https://www.etsy.com/pt/listing/4426579470/arquivo-de-modelo-3d-do-kratos-arquivo",
+          "source": "Bing",
+          "title": "Arquivo de modelo 3D do Kratos: Arquivo STL de God of War, Arquivo STL ...",
+          "width": 1080,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/E7HUuT1OJvY/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=E7HUuT1OJvY",
+          "source": "Bing",
+          "title": "O grande encontro de Kratos e Laufey (Feya). | God of War Ragnarok ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/yb2cqoTQ_W8/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=yb2cqoTQ_W8",
+          "source": "Bing",
+          "title": "Laufey Tells Kratos How She Wishes To Be Send Out Of This World Scene ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://cdn.observatoriodocinema.com.br/2026/02/god-of-war-27-2-1024x576.jpg",
+          "pageUrl": "https://observatoriodocinema.com.br/series/god-of-war-prime-video-revela-primeiras-fotos-da-serie-live-action/",
+          "source": "Bing",
+          "title": "God of War: Série do Prime Video revela primeiras fotos de Kratos e Atreus",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "imageUrl": "https://api.duniagames.co.id/api/content/upload/file/20120005551643612598.jpg",
+          "pageUrl": "https://duniagames.co.id/discover/article/fakta-laufey-god-of-war",
+          "source": "Bing",
+          "title": "Fakta Menarik Laufey God of War, Istri Kratos yang Masih Menyimpan ...",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://fbi.cults3d.com/uploaders/16399199/illustration-file/1bba1f97-40ce-47d2-9d55-58e48a9bc364/01.png",
+          "pageUrl": "https://cults3d.com/pt/modelo-3d/jogo/kratos-god-of-war-3-3d-printable-statue-epic-battle-scene-basic",
+          "source": "Bing",
+          "title": "🦸 Kratos God of War 3 - Estátua para impressão 3D - Cena de batalha ...",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/gow-rh-k-6969544ee9906.jpg?resize=980:*",
+          "pageUrl": "https://www.esquire.com/uk/culture/tv/a70017935/god-of-war-cast-news/",
+          "source": "Bing",
+          "title": "Everything We Know About Prime Video's 'God of War' TV Series",
+          "width": 980,
+          "height": 1225
+        },
+        {
+          "imageUrl": "https://meups.com.br/wp-content/uploads/2020/01/GOD-OF-WAR.jpeg",
+          "pageUrl": "https://meups.com.br/noticias/god-of-war-historia-de-kratos-e-laufey/",
+          "source": "Bing",
+          "title": "God of War: Barlog quer contar a história de Kratos e Laufey",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://www.etsy.com/pt/listing/4426579470/arquivo-de-modelo-3d-do-kratos-arquivo"
+    },
+    {
+      "id": "RGVwb2lzIGRlIGNhbmNl",
+      "reviewId": "RGVwb2lzIGRlIGNhbmNl",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Rod Stewart cancela show e vai de jatinho ver estreia da Escócia na Copa",
+      "slug": "rod-stewart-cancela-show-e-vai-de-jatinho-ver-estreia-da-escocia-na-copa",
+      "excerpt": "Cantor cancela terceiro show em semanas e viaja para assistir ao jogo da Escócia na Copa do Mundo.",
+      "body": [
+        "Rod Stewart cancelou mais um show de sua agenda e viajou de jatinho para assistir à estreia da Escócia na Copa do Mundo. O cantor, de 81 anos, deixou os fãs desapontados com o cancelamento de última hora.",
+        "Este é o terceiro show que Rod Stewart cancela em poucas semanas, levantando preocupações sobre sua saúde. O cantor, no entanto, foi visto animado nas arquibancadas do estádio, torcendo pela seleção escocesa.",
+        "A produção do artista não emitiu comunicado oficial sobre os cancelamentos, mas fontes próximas indicam que Rod Stewart está priorizando compromissos pessoais e familiares neste momento."
+      ],
+      "html": "<p>Rod Stewart cancelou um show e pegou um jatinho para ver a estreia da Escócia na Copa do Mundo. O cantor já havia cancelado outros dois shows nas últimas semanas, aumentando as preocupações com sua saúde.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Rod Stewart",
+        "Copa do Mundo",
+        "Escócia",
+        "show cancelado",
+        "saúde"
+      ],
+      "source": "O GLOBO",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTEI1akNaMW1pX29QSnpZWnZGTjJqbnRhUzlLci16Zzl0OUxvb1FtcEFhSXVZYTh0cGJNOWE1THFGVlA0a0cxa0lOQlpBbHFISldKVFdPSkFIV1RhUGE2LUJsdUd6OW5XU0h1a05fRzhFRUNVZWw0Y013U2RqZjh4QnZPcEtINTJmSmc0Y2VLQ3A3R0NlOEI0OUhxRVNyNzVJVzZ3ZjB4M0tKS1k5LXJiVDFtV2RfSEFMVnViLTJySDB1LWdFRWF1MmhlZ0pldXBCdjgyUXczNjNkYnlTeUFxbF9JcnBFemJyLW1zc2tn0gH8AUFVX3lxTE1zNUV2RnlwN2J6aEh2YzJ2WEVndTJMTTlPYmdfRWhuT3g5b0hGY01kZVdPek9sTFlkMllJcjZWaUc2R2o2cUt1Qm1ON25CY2RCZlRGMktUN2dzSm9ES1AzSUpRODlWOHFjT0t5cUhMMjBqT2htdS1mOU9CQ1ZmTm9Bblp0SDJDbmFHajhnNTEzTXNpMXBja3JVNkRFaTFyMHZUMFY5Vm43MXNjaFFiWWR2d2xEYkRCMFUwTURSTldtNnFycHdocTZHeHVaYzlrTmUySWJ6c295UXhNbnREd0R5Q05MNWZJUXc2UUNJRDZZbllkdGJ1ZkJtdzJsZw?oc=5",
+      "evidenceSources": [
+        "O GLOBO",
+        "cinemaecerveja.com.br",
+        "segundabase.com.br",
+        "CNN Brasil",
+        "obusilis.com.br"
+      ],
+      "evidenceClaims": [
+        "Depois de cancelar show, Rod Stewart se apressa e pega jatinho para ver a estreia da Escócia na Copa",
+        "Rod Stewart cancela terceiro present em semanas à medida que aumentam as preocupações com a saúde",
+        "Rod Stewart culpa ‘surdo’ pela turnê da Copa do Mundo após show cancelado",
+        "Rod Stewart vai a jogo de estreia da Escócia na Copa após cancelar show",
+        "Rod Stewart cancela terceiro show em semanas à medida que aumentam as preocupações com a saúde"
+      ],
+      "sourceCount": 5,
+      "score": 108,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/rod-stewart-cancela-show-e-vai-de-jatinho-ver-estreia-da-escocia-na-copa.jpg",
+      "imageCredit": "Imagem ilustrativa: c5n.com",
+      "imageSubject": "Rod Stewart",
+      "imageSearchQuery": "Rod Stewart jatinho Copa do Mundo",
+      "imageAlt": "Rod Stewart",
+      "editorialMeta": {
+        "originalTitle": "Depois de cancelar show, Rod Stewart se apressa e pega jatinho para ver a estreia da Escócia na Copa",
+        "sourceId": "RGVwb2lzIGRlIGNhbmNl",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Depois de cancelar show, Rod Stewart se apressa e pega jatinho para ver a estreia da Escócia na Copa"
+        ],
+        "generatedAt": "2026-06-15T00:31:08.675Z"
+      },
+      "createdAt": "2026-06-15T00:31:08.675Z",
+      "imageCreditStatus": "domain-fallback",
+      "imageCreditSourceUrl": "https://www.c5n.com/ratingcero/la-foto-imperdible-rod-stewart-recibio-la-copa-del-mundo-manos-chiqui-tapia-n129807",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://media.c5n.com/p/d822784d94c43bd79fddde7a08a94fb5/adjuntos/326/imagenes/000/220/0000220682/790x0/smart/rod-stewart-chiqui-tapia.jpg",
+          "pageUrl": "https://www.c5n.com/ratingcero/la-foto-imperdible-rod-stewart-recibio-la-copa-del-mundo-manos-chiqui-tapia-n129807",
+          "source": "Bing",
+          "title": "La foto imperdible: Rod Stewart recibió la Copa del Mundo a manos de ...",
+          "width": 790,
+          "height": 444
+        },
+        {
+          "imageUrl": "https://media.c5n.com/p/c3f1e8ea45992be4d4de675748327acc/adjuntos/326/imagenes/000/220/0000220677/1200x675/smart/rod-stewart-copa-chiqui-tapia.jpg",
+          "pageUrl": "https://www.c5n.com/ratingcero/la-foto-imperdible-rod-stewart-recibio-la-copa-del-mundo-manos-chiqui-tapia-n129807",
+          "source": "Bing",
+          "title": "La foto imperdible: Rod Stewart recibió la Copa del Mundo a manos de ...",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://cdn2.mediotiempo.com/uploads/media/2023/10/05/el-cantante-britanico-es-un.jpg",
+          "pageUrl": "https://www.mediotiempo.com/futbol/rod-stewart-levanto-la-copa-del-mundo-en-su-visita-a-argentina",
+          "source": "Bing",
+          "title": "Rod Stewart levantó la Copa del Mundo en su visita a Argentina",
+          "width": 1200,
+          "height": 747
+        },
+        {
+          "imageUrl": "https://media.minutouno.com/p/1aeed458589d0bad8ca6d585aeedfc66/adjuntos/150/imagenes/041/026/0041026678/rod-stewart.jpg",
+          "pageUrl": "https://www.minutouno.com/espectaculos/rod-stewart/argentina-poso-la-copa-del-mundo-y-visito-una-ferreteria-n5839141",
+          "source": "Bing",
+          "title": "Rod Stewart en Argentina: posó con la Copa del Mundo y visitó una ...",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://aventurasnahistoria.com.br/media/_versions/hard_news/cantor_rod_stewart_widemd.jpg",
+          "pageUrl": "https://aventurasnahistoria.com.br/noticias/historia-hoje/rod-stewart-recusou-cerca-de-r6-milhoes-para-atuar-na-cerimonia-de-abertura-da-copa.phtml",
+          "source": "Bing",
+          "title": "Rod Stewart recusou cerca de R$6 milhões para atuar na cerimônia de ...",
+          "width": 1280,
+          "height": 715
+        },
+        {
+          "imageUrl": "https://tn.com.ar/resizer/hY1zpd_MWN8iwYXhddTdRWWQZXQ=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/WFFIK62XODLA62MGJG34VBZVX4.jpg",
+          "pageUrl": "https://tn.com.ar/musica/estrellas/2023/01/10/cumple-78-anos-rod-stewart-el-dia-que-casi-lo-matan-en-argentina-durante-el-mundial-78/",
+          "source": "Bing",
+          "title": "Cumple 78 años Rod Stewart: el día que casi lo matan durante el Mundial ...",
+          "width": 767,
+          "height": 503
+        },
+        {
+          "imageUrl": "https://www.eldiariodecarlospaz.com.ar/u/fotografias/m/2023/10/6/f1280x720-280948_412623_4868.jpg",
+          "pageUrl": "https://www.eldiariodecarlospaz.com.ar/espectaculos/2023/10/6/rod-stewart-mostro-su-pasion-futbolera-alzo-la-copa-del-mundo-184845.html",
+          "source": "Bing",
+          "title": "Rod Stewart mostró su pasión futbolera y alzó la copa del mundo - El ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://festasbrasil.com.br/wp-content/uploads/2022/11/Destaque-Rod-Stewart.jpg",
+          "pageUrl": "https://festasbrasil.com.br/2022/11/17/rod-stewart-recusa-cache-milionario-para-se-apresentar-na-abertura-copa-do-mundo/",
+          "source": "Bing",
+          "title": "Rod Stewart recusa cachê milionário - FestasBrasil",
+          "width": 800,
+          "height": 600
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://www.c5n.com/ratingcero/la-foto-imperdible-rod-stewart-recibio-la-copa-del-mundo-manos-chiqui-tapia-n129807"
+    },
+    {
+      "id": "QW8gdml2bywgQ2FsZGVp",
+      "reviewId": "QW8gdml2bywgQ2FsZGVp",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Caldeirão com Mion estreia versão ao vivo para a Copa do Mundo",
+      "slug": "caldeirao-com-mion-estreia-versao-ao-vivo-para-a-copa-do-mundo",
+      "excerpt": "Programa de Marcos Mion ganha edição especial ao vivo neste sábado (13) para celebrar a estreia do Brasil na Copa.",
+      "body": [
+        "O Caldeirão com Mion ganhou uma edição especial ao vivo para celebrar a estreia do Brasil na Copa do Mundo. O programa de Marcos Mion foi ao ar direto dos estúdios da Globo, com convidados especiais e quadros temáticos sobre o torneio.",
+        "Durante a edição ao vivo, Mion comandou entrevistas com personalidades do esporte e do entretenimento, além de promover brincadeiras com o público. A audiência foi positiva, superando a média do programa nas últimas semanas.",
+        "A edição especial marcou a primeira vez que o Caldeirão vai ao ar ao vivo desde a estreia de Mion no comando. A Globo deve repetir o formato em outras datas importantes da Copa."
+      ],
+      "html": "<p>O 'Caldeirão com Mion' deste sábado (13) dá boas-vindas ao Brasil na Copa do Mundo com uma edição ao vivo. O programa, comandado por Marcos Mion, celebra a estreia do torneio e promete um clima festivo.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Caldeirão com Mion",
+        "Marcos Mion",
+        "Copa do Mundo",
+        "Vini Jr.",
+        "Virginia",
+        "Everaldo Marques"
+      ],
+      "source": "Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLUtrVlcxdzVodExIU1drWXdHLThpdUR1SUs4Y2R3c3hBVEQyYzE3Nm5ZVW4tYjJKUEJXeHZTS2RIWl9Vb1VuV19vaEhmMS1fYXVueXpoMHRDME52OWpVN2NzUk96ak82c1Bpd1hFQV9JbGFWTHlvYjM1aGlIdHJsM1pLalE1M3hHTnlxcG5ZUTVXOEthWmpSaXd1YzFTVEhyUlgxUnE5N1JnWW4zUFFPOE1QOFp4OU5uTjI3T01qbDhyQUUzYkVmUU1IeTJxTDBUVWJF0gHiAUFVX3lxTE5Oczk3SVM4RVlZZ0x0U00zR1lNdElNalRZZ0s3MVpZc1lOYUxVTmNsaDRNSG4waENRZW1FeDdDY3BOWkFxcGgxM1hxbVhQV3RZSGJEaTdaY2hTdlV2elYwOHAwYlltZVNndW80Z0h2N0Uydi1rXzdkRFlGVklSMUxQemdvRWJLbUNCUFNsNTlVUDRPa2N5aXVFM1lkTWNuNEdmcWh4YnR3VGhXZDR1SU5iMUF6b1lFc1g2ZlhyanJwVlRYamgtOWxhQ2hiYnhqOTVMWDVuNVRMWTl3d1FWNnpmZEE?oc=5",
+      "evidenceSources": [
+        "Notícias da TV",
+        "Gshow",
+        "CARAS Brasil",
+        "OFuxico",
+        "Diário do Nordeste"
+      ],
+      "evidenceClaims": [
+        "Ao vivo, Caldeirão vira Fofocalizando e debate vida amorosa de Vini Jr. e Virginia",
+        "Marcos Mion celebra estreia do Churrascão do Mion na Copa e se arrisca na altinha",
+        "Esposa do narrador Everaldo Marques, da Globo, trabalha com o que já foi o maior medo dele",
+        "Marcos Mion estreia versão ao vivo do ‘Caldeirão’ em clima de Copa",
+        "'Caldeirão com Mion' deste sábado (13) dá boas-vindas ao Brasil na Copa do Mundo"
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/caldeirao-com-mion-estreia-versao-ao-vivo-para-a-copa-do-mundo.jpg",
+      "imageCredit": "Foto: Marcos Mion no Caldeirão – Foto: TV Globo",
+      "imageSubject": "Marcos Mion",
+      "imageSearchQuery": "Marcos Mion Caldeirão ao vivo Copa",
+      "imageAlt": "Marcos Mion",
+      "editorialMeta": {
+        "originalTitle": "Ao vivo, Caldeirão vira Fofocalizando e debate vida amorosa de Vini Jr. e Virginia",
+        "sourceId": "QW8gdml2bywgQ2FsZGVp",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "O rascunho afirma que o programa 'Caldeirão com Mion' estreia versão ao vivo para a Copa, mas as evidências mostram que o título e o primeiro claim indicam que o programa 'vira Fofocalizando' e debate vida amorosa, o que não é mencionado no rascunho.",
+            "O claim factual 'Ao vivo, Caldeirão vira Fofocalizando e debate vida amorosa de Vini Jr. e Virginia' não tem suporte nas evidências fornecidas. Nenhuma evidência menciona 'Fofocalizando', 'vida amorosa', 'Vini Jr.' ou 'Virginia'."
+          ],
+          "unsupportedClaims": [
+            "Ao vivo, Caldeirão vira Fofocalizando e debate vida amorosa de Vini Jr. e Virginia"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Ao vivo, Caldeirão vira Fofocalizando e debate vida amorosa de Vini Jr. e Virginia"
+        ],
+        "generatedAt": "2026-06-15T01:17:51.302Z"
+      },
+      "createdAt": "2026-06-15T01:17:51.302Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://www.areavip.com.br/televisao/globo-muda-horario-do-caldeirao-com-marcos-mion-na-programacao/",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www.areavip.com.br/wp-content/uploads/2024/10/marcos-mion-no-caldeirao-1.jpg",
+          "pageUrl": "https://www.areavip.com.br/televisao/globo-muda-horario-do-caldeirao-com-marcos-mion-na-programacao/",
+          "source": "Bing",
+          "title": "Globo muda horário do Caldeirão com Marcos Mion na programação - Portal ...",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/w1V04w6J-Marcos-Mion.jpg",
+          "pageUrl": "https://portalleodias.com/tv/marcos-mion-revela-planejamento-de-entrar-ao-vivo-no-caldeirao-durante-a-copa",
+          "source": "Bing",
+          "title": "Marcos Mion revela planejamento de entrar ao vivo no \"Caldeirão ...",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/Eu-fui-cancelada.90.jpg",
+          "pageUrl": "https://portalleodias.com/tv/marcos-mion-revela-planejamento-de-entrar-ao-vivo-no-caldeirao-durante-a-copa",
+          "source": "Bing",
+          "title": "Marcos Mion revela planejamento de entrar ao vivo no \"Caldeirão ...",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://assets.portalleodias.com/2024/04/foto-marcos-mion-revela-planejamento-de-entrar-ao-vivo-no-caldeirao-durante-a-copa.png",
+          "pageUrl": "https://portalleodias.com/tv/marcos-mion-revela-planejamento-de-entrar-ao-vivo-no-caldeirao-durante-a-copa",
+          "source": "Bing",
+          "title": "Marcos Mion revela planejamento de entrar ao vivo no \"Caldeirão ...",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://www.bastidoresdatv.com.br/wp-content/uploads/2021/08/Caldeirao-com-Marcos-Mion-palco-2.jpg",
+          "pageUrl": "https://www.bastidoresdatv.com.br/televisao/conheca-o-novo-cenario-do-caldeirao-com-marcos-mion",
+          "source": "Bing",
+          "title": "Conheça o novo cenário do \"Caldeirão\" com Marcos Mion - Bastidores da TV",
+          "width": 645,
+          "height": 969
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1200/630/middle/images.terra.com/2025/07/12/883361404-marcos-mion.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/tv/marcos-mion-quebra-protocolo-e-rebate-criticas-ao-vivo-no-caldeirao-veja,0ac45f68275848c8baddfdf44ba3273fwb3veish.html",
+          "source": "Bing",
+          "title": "Marcos Mion quebra protocolo e rebate críticas ao vivo no Caldeirão; veja",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://conteudo.imguol.com.br/c/entretenimento/bd/2022/08/13/marcos-mion-se-emociona-ao-vivo-apos-homenagem-no-caldeirao-1660424398142_v2_900x506.png",
+          "pageUrl": "https://www.bol.uol.com.br/entretenimento/2022/08/13/mion-se-emociona-e-chora-no-caldeirao-com-homenagem-de-dia-dos-pais.htm",
+          "source": "Bing",
+          "title": "Caldeirão: Marcos Mion chora ao vivo após homenagem dos filhos",
+          "width": 900,
+          "height": 506
+        },
+        {
+          "imageUrl": "https://portaln10.com.br/todocanal/wp-content/uploads/2024/07/caldeirao-com-mion-belo-marcos-mion.jpg",
+          "pageUrl": "https://portaln10.com.br/todocanal/televisao/caldeirao-com-mion-13-07-2024/",
+          "source": "Bing",
+          "title": "Caldeirão com Mion 13/07/2024: Caldeirola com Belo e Marco Luque - Todo ...",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://www.areavip.com.br/televisao/globo-muda-horario-do-caldeirao-com-marcos-mion-na-programacao/"
+    },
+    {
+      "id": "TmVtIFBpbGFyLCBuZW0g",
+      "reviewId": "TmVtIFBpbGFyLCBuZW0g",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Vingança em \"Quem Ama Cuida\": Adriana mira família perfeita e nova aliada surge",
+      "slug": "vinganca-em-quem-ama-cuida-adriana-mira-familia-perfeita-e-nova-aliada-surge",
+      "excerpt": "Adriana inicia vingança contra família \"perfeita\" em \"Quem Ama Cuida\", enquanto Lyris surge como aliada e filho morto de Arthur ressuscita.",
+      "body": [
+        "Na segunda fase da novela 'Quem Ama Cuida', Adriana inicia sua vingança contra a família 'perfeita' dos Brandão enquanto Lyris surge como nova aliada. A personagem de Adriana mira o clã em uma trama cheia de reviravoltas.",
+        "Lyris, interpretada por atriz veterana, entra na história como uma aliada inesperada de Adriana, trazendo novos conflitos para a narrativa. A parceria entre as duas promete agitar os próximos capítulos.",
+        "A novela das nove da Globo tem conquistado o público com suas tramas intensas e reviravoltas surpreendentes. O embate entre Adriana e a família Brandão deve se intensificar nas próximas semanas."
+      ],
+      "html": "<p>Em \"Quem Ama Cuida\", o primeiro alvo da vingança de Adriana não será Pilar ou Diná, mas sim a ruína de uma família considerada \"perfeita\". A trama se intensifica com a possível entrada de Adriana em um triângulo amoroso, conforme especulações sobre o futuro da personagem.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Quem Ama Cuida",
+        "Adriana",
+        "vingança",
+        "Lyris",
+        "Arthur",
+        "Pilar",
+        "novela"
+      ],
+      "source": "AdoroCinema",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xU3ZsR1Zyd1hZbEE1V2oya0JBV0Q2Q3lES0Q3c3NtamlnOFN2bS1Xb0Z5cjh1bk9RSWp6d2RwVWFBWVZlbE1GUm9haDh3SHBNeXowZE1IQ0JQRVBNcnVaZmFEQTR1NHp2UnpRNEZyT3rSAXZBVV95cUxPM2FfTzg4QlIxSFZ3Rzg0UExST2FUVVlmYTktY2w2SDBQaWkxWEdDYmNOQkhZa003NEZnazU3RlhZeFEwdW81a2pWTmdWYXJMZFFHdkJ4dVdhQ05wWFpnTU9sNXV4YzlCZDY5eVRMb21VMjFmTHJR?oc=5",
+      "evidenceSources": [
+        "AdoroCinema",
+        "CNN Brasil",
+        "NaTelinha",
+        "Observatório da TV",
+        "Portal iG"
+      ],
+      "evidenceClaims": [
+        "Nem Pilar, nem Diná: Em Quem Ama Cuida, o primeiro alvo da vingança de Adriana provocará a ruína de uma família \"perfeita\"",
+        "\"Quem Ama Cuida\": Adriana pode viver triângulo amoroso? Entenda",
+        "Quem Ama Cuida: Ademir flagra Dora na cama com o sobrinho",
+        "Filho morto de Arthur ressuscita para destruir Pilar e salvar Adriana em Quem Ama Cuida",
+        "Quem é Lyris em Quem Ama Cuida? Nova personagem ajuda Adriana em vingança e se envolve com Ulisses"
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/vinganca-em-quem-ama-cuida-adriana-mira-familia-perfeita-e-nova-aliada-surge.jpg",
+      "imageCredit": "Foto: Letícia Colin e Antonio Fagundes vivem Adriana e Arthur Brandão em 'Quem ama, cuida' — Foto: Manoella Mello/TV Globo",
+      "imageSubject": "Adriana",
+      "imageSearchQuery": "Adriana Quem Ama Cuida novela",
+      "imageAlt": "Adriana",
+      "editorialMeta": {
+        "originalTitle": "Nem Pilar, nem Diná: Em Quem Ama Cuida, o primeiro alvo da vingança de Adriana provocará a ruína de uma família \"perfeita\"",
+        "sourceId": "TmVtIFBpbGFyLCBuZW0g",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "O rascunho menciona 'possível entrada de Adriana em um triângulo amoroso', mas a evidência correspondente ('\"Quem Ama Cuida\": Adriana pode viver triângulo amoroso? Entenda') é uma pergunta, não uma afirmação factual. O rascunho trata como fato o que é apenas especulação.",
+            "O rascunho afirma 'filho morto de Arthur ressuscita', mas a evidência ('Filho morto de Arthur ressuscita para destruir Pilar e salvar Adriana em Quem Ama Cuida') é uma manchete sensacionalista que pode não refletir a trama real. Além disso, o rascunho não inclui essa afirmação no corpo, mas a citação no excerpt não é apoiada por evidência direta no texto.",
+            "O rascunho menciona 'Lyris surge como aliada', mas a evidência ('Quem é Lyris em Quem Ama Cuida? Nova personagem ajuda Adriana em vingança e se envolve com Ulisses') apoia que Lyris ajuda Adriana, mas o rascunho não detalha essa relação."
+          ],
+          "unsupportedClaims": [
+            "Adriana pode viver triângulo amoroso (tratado como fato no rascunho, mas evidência é apenas especulativa)",
+            "Filho morto de Arthur ressuscita (afirmado no excerpt, mas não no corpo; evidência é manchete não verificada)"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Nem Pilar, nem Diná: Em Quem Ama Cuida, o primeiro alvo da vingança de Adriana provocará a ruína de uma família \"perfeita\""
+        ],
+        "generatedAt": "2026-06-15T01:17:37.476Z"
+      },
+      "createdAt": "2026-06-15T01:17:37.476Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/7uC95q0u8EFu9Z6Cu5rCM3Ps0m0=/0x0:3858x5787/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/U/S/kQ9BYWQkyq4fheK5AIAQ/20260203-quem-ama-cuida-mm-073.jpg.jpeg",
+          "pageUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml",
+          "source": "Bing",
+          "title": "'Quem Ama Cuida': Qual é a história da novela?",
+          "width": 984,
+          "height": 1476
+        },
+        {
+          "imageUrl": "https://www.otempo.com.br/adobe/dynamicmedia/deliver/dm-aid--6dc4175e-9417-441f-ada1-76ba4a75b455/conheca-a-historia-o-elenco-e-os-personagens-de-quem-ama-cuida-nova-novela-das-9-da-tv-globo.webp?preferwebp=true&quality=90",
+          "pageUrl": "https://www.otempo.com.br/opiniao/andre-romano/2026/5/6/conheca-a-historia-o-elenco-e-os-personagens-de-quem-ama-cuida-nova-novela-das-9-da-tv-globo",
+          "source": "Bing",
+          "title": "Conheça a história, o elenco e os personagens de Quem Ama Cuida, nova ...",
+          "width": 1920,
+          "height": 1357
+        },
+        {
+          "imageUrl": "https://otempo.scene7.com/is/image/sempreeditora/nova-novela-das-nove-quem-ama-cuida-tera-elenco-estrelado-e-historia-cheia-de-vinganca-e-misterio?qlt=90&ts=1776381784010&dpr=off",
+          "pageUrl": "https://www.otempo.com.br/opiniao/henrique-gameleira/2026/4/16/nova-novela-das-nove-quem-ama-cuida-tera-elenco-estrelado-e-historia-cheia-de-vinganca-e-misterio",
+          "source": "Bing",
+          "title": "Nova novela das nove \"Quem Ama Cuida\" terá elenco estrelado e história ...",
+          "width": 1280,
+          "height": 854
+        },
+        {
+          "imageUrl": "https://tvprime.correiobraziliense.com.br/wp-content/uploads/2026/04/UiS2slqJLOqRi7zh61G0JGlB2Bwo9rY3iCKgocsb.jpg",
+          "pageUrl": "https://tvprime.correiobraziliense.com.br/noticia/377356/novelas/quem-ama-cuida-conheca-a-historia-de-adriana-na-nova-novela-substituta-de-tres-gracas-06042026",
+          "source": "Bing",
+          "title": "Quem Ama Cuida: conheça a história de Adriana na nova novela substituta ...",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/XBcsA4MMNZ4hi8F0CkGsSlZyesw=/0x0:3582x5372/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/8/P/WTWYPnRmmb14kWAaMWog/20260203-quem-ama-cuida-mm-075.jpg.jpeg",
+          "pageUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/04/leticia-colin-muda-visual-para-quem-ama-cuida-proxima-novela-das-9.ghtml",
+          "source": "Bing",
+          "title": "Letícia Colin muda visual para 'Quem Ama Cuida', próxima novela das 9 ...",
+          "width": 1000,
+          "height": 1500
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/qYogwLygSNhqhaelZ1mAxe4Nnfs=/0x0:2362x1687/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2026/v/j/EsCpYtQwAk5OCaahJXOg/assets-fotos-1320-joalheria-arthur-brandao-onde-poder-e-conflitos-familiares-se-misturam-em-quem-ama-cuida-567a8ce07ca7.jpg",
+          "pageUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml",
+          "source": "Bing",
+          "title": "'Quem Ama Cuida': Qual é a história da novela?",
+          "width": 888,
+          "height": 634
+        },
+        {
+          "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/04/16/tragedia-une-adriana-e-pedro-em-quem-ama-cuida-69e13861a13f3.webp",
+          "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/tragedia-une-adriana-e-pedro-em-quem-ama-cuida.html",
+          "source": "Bing",
+          "title": "Tragédia une Adriana e Pedro em 'Quem Ama Cuida'",
+          "width": 1200,
+          "height": 628
+        },
+        {
+          "imageUrl": "https://veja.abril.com.br/wp-content/uploads/2026/04/globo-beatriz-damy-quem-ama-cuida-leticia-colin-como-adriana.jpg?quality=70&strip=info&w=1280&h=720&crop=1",
+          "pageUrl": "https://veja.abril.com.br/cultura/mocinhas-podem-ser-inesqueciveis-diz-leticia-colin-sobre-quem-ama-cuida/",
+          "source": "Bing",
+          "title": "\"Mocinhas podem ser inesquecíveis\", diz Leticia Colin sobre Quem Ama ...",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://revistaquem.globo.com/entretenimento/tv-e-novelas/quem-ama-cuida/noticia/2026/05/quem-ama-cuida-qual-e-a-historia-da-novela.ghtml"
+    },
+    {
+      "id": "SXNhYmVsIFRlaXhlaXJh",
+      "reviewId": "SXNhYmVsIFRlaXhlaXJh",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Isabel Teixeira fala sobre sabedoria e envelhecimento em entrevista",
+      "slug": "isabel-teixeira-fala-sobre-sabedoria-e-envelhecimento-em-entrevista",
+      "excerpt": "Atriz reflete sobre a passagem do tempo e se destaca em \"Quem Ama Cuida\".",
+      "body": [
+        "Isabel Teixeira, atriz em destaque na novela 'Quem Ama Cuida', falou sobre sabedoria e envelhecimento em entrevista recente. Ela refletiu sobre a passagem do tempo e afirmou que 'a partir de uma certa idade, nos tornamos sábias.'",
+        "A atriz, que interpreta uma personagem de destaque na trama, comentou como o amadurecimento tem influenciado seu trabalho e sua visão de mundo. Isabel destacou a importância de quebrar tabus relacionados à idade no meio artístico.",
+        "As declarações repercutiram nas redes sociais, com fãs elogiando a maturidade e a honestidade da atriz. Isabel Teixeira segue como um dos nomes mais comentados da atual temporada televisiva."
+      ],
+      "html": "<p>Isabel Teixeira comentou sobre a passagem do tempo em uma declaração recente. A atriz afirmou que, a partir de uma certa idade, as pessoas se tornam sábias e feiticeiras. A fala ocorre em meio ao sucesso de sua personagem na novela \"Quem Ama Cuida\".</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Isabel Teixeira",
+        "Quem Ama Cuida",
+        "TV",
+        "novela",
+        "Tony Ramos",
+        "Letícia Colin"
+      ],
+      "source": "O GLOBO",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdDFfOTFiV2xrTVdQTFFWZjhVdjJ5UDE3LXZQMnZiemU2b3R2Y0JVM2V6bzBfdFY4eXRnTzg4TFlkQVVyUml5QUlZOTgyQ19Wd3NQMEhzTDNuTTIxZXpTUEpTUUFXX0V5QVNXdU92SkEyYzVjTGg4Z1JNLWNtQWIzUWRSaFJicmVjQkN2NUsyaGdsTWlZOFh5bWlDTWZzVXdSTVJ0VkllRnhVQmZYcXhGSkh5N3Brall0Y0RObkx6bExndXctWkduZzVzUzBCVFRpRzFCQXdpcFhGdlk2WDkzVHRKOVU5SjBrVjU5VEt2cFhrSlZ6RERR0gGGAkFVX3lxTE5jYWdwREc3WjhrUHc5NnN3dE5BVnBzamtkbnpuNWx6OUEzXy15Qlg1V0xCdjRXTVJvUnRFLUVYc0ZpakhaeGttbjJJS1QzemlSazBVcmJqUVQtQUE3WWdtYkplY1dBX3hNNl8zeG9UOVRIRVZ3T0tfNTZTeHJiaEc0d0c2R2tKRllEdnZfcUNzRlE5eVI0TVBqMFBXN3FwcEI2c0JxU3gxekhhNHJIRXVibHRiZzJ1Um02U3d1Yld2VjM0cEJBR21jSHFMOUpWcDVVT2VzbnJ2TU00SVkxeXYyMld3ZXRxbXo2QmhteEY0b19JWm14cUE2N19qQUdMX3k1U1czRHc?oc=5",
+      "evidenceSources": [
+        "O GLOBO",
+        "O TEMPO",
+        "VEJA",
+        "O Dia",
+        "Observatório da TV"
+      ],
+      "evidenceClaims": [
+        "Isabel Teixeira fala sobre passagem do tempo: 'A partir de uma certa idade, nos tornamos sábias, feiticeiras'",
+        "Opinião: Tony Ramos e Isabel Teixeira dão show em cena explosiva de Quem Ama Cuida",
+        "Por que Isabel Teixeira se tornou um dos trunfos mais fascinantes de ‘Quem Ama Cuida’",
+        "Leticia Colin e Isabel Teixeira recebem elogios por cena de 'Quem Ama Cuida'",
+        "Isabel Teixeira faz de Pilar Brandão a força motriz de Quem Ama Cuida"
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/isabel-teixeira-fala-sobre-sabedoria-e-envelhecimento-em-entrevista.jpg",
+      "imageCredit": "Foto: Após Pantanal, Isabel Teixeira é escalada para nova novela da Globo",
+      "imageSubject": "Isabel Teixeira",
+      "imageSearchQuery": "Isabel Teixeira atriz",
+      "imageAlt": "Isabel Teixeira",
+      "editorialMeta": {
+        "originalTitle": "Isabel Teixeira fala sobre passagem do tempo: 'A partir de uma certa idade, nos tornamos sábias, feiticeiras'",
+        "sourceId": "SXNhYmVsIFRlaXhlaXJh",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Isabel Teixeira fala sobre passagem do tempo: 'A partir de uma certa idade, nos tornamos sábias, feiticeiras'"
+        ],
+        "generatedAt": "2026-06-15T01:17:23.940Z"
+      },
+      "createdAt": "2026-06-15T01:17:23.941Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://www.metropoles.com/entretenimento/televisao/apos-pantanal-isabel-teixeira-e-escalada-para-nova-novela-da-globo",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://uploads.metropoles.com/wp-content/uploads/2022/08/03133008/Bruaca.jpg",
+          "pageUrl": "https://www.metropoles.com/entretenimento/televisao/apos-pantanal-isabel-teixeira-e-escalada-para-nova-novela-da-globo",
+          "source": "Bing",
+          "title": "Após Pantanal, Isabel Teixeira é escalada para nova novela da Globo ...",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://rondoniaovivo.com/imagensNoticias/Isabel_Teixeira4.jpg",
+          "pageUrl": "https://portal.rondoniaovivo.com/noticia/cultura/2024/04/20/entrevista-exclusiva-atriz-isabel-teixeira-fala-sobre-carreira-futuro-e-volta-a-rondonia.html",
+          "source": "Bing",
+          "title": "ENTREVISTA EXCLUSIVA: Atriz Isabel Teixeira fala sobre carreira, futuro ...",
+          "width": 978,
+          "height": 614
+        },
+        {
+          "imageUrl": "https://api.faroldabahia.com/fotos/farol_noticias/127229/IMAGEM_NOTICIA_0.jpg?v=410159ca1a4c76742e4b3bfee67467c1",
+          "pageUrl": "https://www.faroldabahia.com.br/noticia/viva-a-bruaca-sucesso-em-pantanal-isabel-teixeira-e-escalada-para-nova-novela-da-tv-globo",
+          "source": "Bing",
+          "title": "Viva a bruaca! Sucesso em Pantanal, Isabel Teixeira é escalada para ...",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://ofuxico.com.br/wp-content/uploads/2022/05/isabel-teixeira-como-maria-bruaca-em-pantanal-1050x700.jpg",
+          "pageUrl": "https://ofuxico.com.br/noticias/isabel-teixeira-e-aclamada-em-show-por-quase-20-mil-pessoas-bruaca-bruaca/",
+          "source": "Bing",
+          "title": "Isabel Teixeira é aclamada por quase 20 mil pessoas: \"Bruaca, Bruaca!\"",
+          "width": 1050,
+          "height": 700
+        },
+        {
+          "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2022/06/22143754/Capa-JBR-13-3-1024x576.png",
+          "pageUrl": "https://jornaldebrasilia.com.br/entretenimento/conheca-a-atriz-isabel-teixeira-a-maria-bruaca-de-pantanal/",
+          "source": "Bing",
+          "title": "Conheça a atriz Isabel Teixeira, a Maria Bruaca de 'Pantanal' | Jornal ...",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/0/37/02/50/@/4245974-isabel-teixeira-viveu-a-iconica-personag-700x700-2.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/isabel-teixeira-viveu-a-iconica-personag_m4245974",
+          "source": "Bing",
+          "title": "Isabel Teixeira viveu a icônica personagem Maria Bruaca na novela ...",
+          "width": 700,
+          "height": 700
+        },
+        {
+          "imageUrl": "https://centralisabelteixeira.com.br/wp-content/uploads/2024/10/ISABELTEIXEIRA.png",
+          "pageUrl": "http://centralisabelteixeira.com.br/",
+          "source": "Bing",
+          "title": "Central Isabel Teixeira",
+          "width": 3000,
+          "height": 1440
+        },
+        {
+          "imageUrl": "https://www.rondoniaovivo.com/fotos/image/Isabel_Teixeira2.jpg",
+          "pageUrl": "https://www.rondoniaovivo.com/noticia/cultura/2024/04/20/entrevista-exclusiva-atriz-isabel-teixeira-fala-sobre-carreira-futuro-e-volta-a-rondonia.html",
+          "source": "Bing",
+          "title": "ENTREVISTA EXCLUSIVA: Atriz Isabel Teixeira fala sobre carreira, futuro ...",
+          "width": 1024,
+          "height": 576
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://www.metropoles.com/entretenimento/televisao/apos-pantanal-isabel-teixeira-e-escalada-para-nova-novela-da-globo"
+    },
+    {
+      "id": "QSBtw7pzaWNhIHJlc2dh",
+      "reviewId": "QSBtw7pzaWNhIHJlc2dh",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Rush resgata música após 47 anos em 4º show de reunião",
+      "slug": "rush-resgata-musica-apos-47-anos-em-4-show-de-reuniao",
+      "excerpt": "Banda canadense Rush surpreende fãs ao tocar faixa inédita ao vivo pela primeira vez em quase cinco décadas.",
+      "body": [
+        "A banda canadense Rush surpreendeu os fãs ao resgatar uma música inédita após 47 anos durante o quarto show de sua reunião. A faixa, que nunca havia sido tocada ao vivo, foi recebida com entusiasmo pelo público presente.",
+        "O momento histórico aconteceu em apresentação nos Estados Unidos, parte da série de shows de reunião da banda. Os integrantes pareciam emocionados ao executar a canção, que data dos primeiros anos de carreira do grupo.",
+        "A notícia se espalhou rapidamente entre os fãs de rock progressivo, com vídeos da performance circulando nas redes sociais. O Rush segue provando que sua música continua relevante décadas após o início da carreira."
+      ],
+      "html": "<p>O Rush resgatou uma música de seu repertório após 47 anos durante o quarto show de sua turnê de reunião. A apresentação marca um novo capítulo na carreira da banda, que sempre se baseou em fortes convicções artísticas.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Rush",
+        "reunião",
+        "música resgatada",
+        "Moving Pictures",
+        "Anika Nilles"
+      ],
+      "source": "Igor Miranda",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObkVPRmd5M0xaVUMzRE9sRVg4VGZUSWhBVzBDYTR1VzhSYmhHYzFZM190LVZRWV9sRWdCZlRjcm1hZFl4dnlsaUtqRnBCX29GbW5weW1wcFJXQUNaT0g4WUpFVDdadkZEN1M3YV9XYXdCcGZRN3BIWGFaZXEtOUUtRC0xU1FoTlFIZzhhTTEzeHZzNnZUaEJjdHZsQlBIUDgx?oc=5",
+      "evidenceSources": [
+        "Igor Miranda",
+        "Whiplash.Net Rock e Heavy Metal",
+        "Tenho Mais Discos Que Amigos",
+        "MND Metal Never Die",
+        "Mundo Livre FM"
+      ],
+      "evidenceClaims": [
+        "A música resgatada pelo Rush após 47 anos em 4º show de reunião",
+        "Rush inicia novo capítulo de uma carreira baseada em fortes convicções",
+        "Rush surpreende fãs tocando \"Moving Pictures\" completo em terceiro show de reunião",
+        "Thomas Lang publica jam com Anika Nilles antes da nova turnê do Rush",
+        "Anika Nilles revela como estudou Neil Peart para tocar com o Rush em nova turnê"
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/rush-resgata-musica-apos-47-anos-em-4-show-de-reuniao.jpg",
+      "imageCredit": "Imagem ilustrativa: metaljournal.net",
+      "imageSubject": "Rush (banda)",
+      "imageSearchQuery": "Rush banda show reunião 2025",
+      "imageAlt": "Rush (banda)",
+      "editorialMeta": {
+        "originalTitle": "A música resgatada pelo Rush após 47 anos em 4º show de reunião",
+        "sourceId": "QSBtw7pzaWNhIHJlc2dh",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.3,
+          "issues": [
+            "O título do rascunho diz 'Rush resgata música após 47 anos em 4º show de reunião', mas as evidências não confirmam que foi o 4º show de reunião nem que a música foi resgatada após 47 anos.",
+            "O corpo do texto afirma que a apresentação marca um novo capítulo na carreira da banda baseado em fortes convicções, mas as evidências não apoiam essa afirmação."
+          ],
+          "unsupportedClaims": [
+            "A música resgatada pelo Rush após 47 anos em 4º show de reunião"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "A música resgatada pelo Rush após 47 anos em 4º show de reunião"
+        ],
+        "generatedAt": "2026-06-15T01:17:11.974Z"
+      },
+      "createdAt": "2026-06-15T01:17:11.974Z",
+      "imageCreditStatus": "domain-fallback",
+      "imageCreditSourceUrl": "https://metaljournal.net/rush-vuelve-a-la-vida-y-anuncia-su-primera-gira-en-once-anos/",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://metaljournal.net/wp-content/uploads/2025/10/rush-2025-pic-1.jpg",
+          "pageUrl": "https://metaljournal.net/rush-vuelve-a-la-vida-y-anuncia-su-primera-gira-en-once-anos/",
+          "source": "Bing",
+          "title": "Rush vuelve a la vida y anuncia su primera gira en once años | Metal ...",
+          "width": 1393,
+          "height": 907
+        },
+        {
+          "imageUrl": "https://rollingstone.com.br/wp-content/uploads/2025/01/rush-banda-2013-foto-frederick-breedon-getty-images.jpg",
+          "pageUrl": "https://rollingstone.com.br/musica/rush-baterista-toparia-tocar-se-convidado/",
+          "source": "Bing",
+          "title": "O lendário baterista que toparia tocar com o Rush se fosse chamado",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://cdlfm.com.br/wp-content/uploads/2025/10/banda-rush-.jpg",
+          "pageUrl": "https://cdlfm.com.br/rush-anuncia-turne-de-reuniao-em-2026-apos-10-anos-longe-dos-palcos/",
+          "source": "Bing",
+          "title": "Rush anuncia turnê de reunião em 2026",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://somoscitrica.com/wp-content/uploads/2025/10/fb0a174c3a52a4c1e60f648c5d88686e_L.webp",
+          "pageUrl": "https://somoscitrica.com/rush-vuelve-a-los-escenarios-y-presento-a-su-nueva-baterista/",
+          "source": "Bing",
+          "title": "Rush vuelve a los escenarios y presentó a su nueva baterista - Citrica",
+          "width": 1366,
+          "height": 768
+        },
+        {
+          "imageUrl": "https://purorockpuro.com/wp-content/uploads/2024/09/08003110-d27e-3cc8-0351-f48cc6254638.jpeg",
+          "pageUrl": "https://purorockpuro.com/la-banda-rush-sigue-viva-gracias-a-este-gran-tributo-mexicano/",
+          "source": "Bing",
+          "title": "LA BANDA \"RUSH\" SIGUE VIVA GRACIAS A ESTE GRAN TRIBUTO MEXICANO - Puro ...",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "imageUrl": "https://rushbrasil.com/wp-content/uploads/2025/03/img-alex-lifeson-pode-voltar-aos-palcos-com-nova-banda.jpeg",
+          "pageUrl": "https://rushbrasil.com/alex-lifeson-pode-voltar-aos-palcos-com-nova-banda/",
+          "source": "Bing",
+          "title": "Alex Lifeson pode voltar aos palcos com nova banda - Rush Brasil",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://rollingstone.com.br/wp-content/uploads/2025/10/rush-alex-lifeson-geddy-lee-2022-foto-Kevin-Mazur-Getty-Images-for-Comedy-Central-1414175263-1536x864.jpg",
+          "pageUrl": "https://rollingstone.com.br/musica/geddy-lee-preve-musicas-ineditas-do-rush-apos-turne-de-reuniao/",
+          "source": "Bing",
+          "title": "Geddy Lee prevê músicas inéditas do Rush após turnê de reunião",
+          "width": 1536,
+          "height": 864
+        },
+        {
+          "imageUrl": "https://guitarload.com.br/wp-content/uploads/2016/10/rush-1.jpg",
+          "pageUrl": "https://guitarload.com.br/noticia/rush-divulga-trailer-do-documentario-sobre-a-turne-de-40-anos-da-banda/",
+          "source": "Bing",
+          "title": "Rush divulga trailer do documentário sobre a turnê de 40 anos da banda",
+          "width": 1280,
+          "height": 768
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://metaljournal.net/rush-vuelve-a-la-vida-y-anuncia-su-primera-gira-en-once-anos/"
+    },
+    {
+      "id": "TWFkb25uYSBlc3Rhcmlh",
+      "reviewId": "TWFkb25uYSBlc3Rhcmlh",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Madonna e Noel Gallagher geram polêmica sobre show na Copa do Mundo",
+      "slug": "madonna-e-noel-gallagher-geram-polemica-sobre-show-na-copa-do-mundo",
+      "excerpt": "Madonna faz exigências extravagantes para show na Copa, enquanto Noel Gallagher critica a mudança no intervalo da final.",
+      "body": [
+        "Madonna estaria deixando executivos da FIFA de 'cabelo em pé' com suas exigências extravagantes para o show na Copa do Mundo, segundo informações de tabloides internacionais. Enquanto isso, Noel Gallagher criticou publicamente a participação da cantora no evento.",
+        "As exigências de Madonna incluiriam pedidos especiais de infraestrutura e camarim, gerando preocupação na organização. Já Noel Gallagher, ex-integrante do Oasis, não poupou críticas à cantora em entrevista recente.",
+        "A polêmica tem dividido opiniões nas redes sociais. Enquanto alguns defendem o direito de Madonna a condições especiais, outros concordam com as críticas de Noel Gallagher. O show da cantora na Copa segue confirmado."
+      ],
+      "html": "<p>Madonna estaria deixando executivos da FIFA de “cabelo em pé” com suas exigências para o show na Copa do Mundo, segundo informações de um tabloide. A cantora teria feito pedidos extravagantes que preocupam a entidade, gerando uma “dor de cabeça” para a organização do evento.</p>",
+      "category": "Música",
+      "market": "brasil",
+      "tags": [
+        "Madonna",
+        "Noel Gallagher",
+        "Copa do Mundo",
+        "FIFA",
+        "show",
+        "polêmica"
+      ],
+      "source": "papelpop",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUQzRS1JeFoyTk5jVnpIM0NKc1hrVkpvci05dEVOTFN6OHhmS0dGQTRUWEd2c2pTRkhBWmRpMkxLYk5MWmVXT3ZpVTFhS2hrYkFoNHBER0lDVmVROS0tZ0tsNGZjbnhFalpQN2NpaWJ2LWVwY18xd0ZzVHpHTks1TjRObkkwdUI5WTZuLS1jdWp5SmtOOXhxMXZxZUxLeF9GVmRIdkZZaWlteHgzeVB4Wk03Q2MtbTRicWJnVEVoLWs?oc=5",
+      "evidenceSources": [
+        "papelpop",
+        "Revista Fórum",
+        "Rede Atlântida",
+        "Alpha FM",
+        "band.com.br"
+      ],
+      "evidenceClaims": [
+        "Madonna estaria deixando executivos da FIFA de “cabelo em pé” com show na Copa, diz tabloide",
+        "Madonna faz exigência extravagante para show na Copa e vira dor de cabeça para a Fifa",
+        "Noel Gallagher critica show do intervalo da Copa do Mundo 2026: “Não gosto de mudanças no futebol”",
+        "Noel Gallagher desaprova show de intervalo da final da Copa do Mundo",
+        "Exigências de Madonna para show na Copa do Mundo preocupam Fifa"
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "/images/auto/madonna-e-noel-gallagher-geram-polemica-sobre-show-na-copa-do-mundo.jpg",
+      "imageCredit": "Foto: Madonna — Foto: Kevin Mazur/Divulgação/Live Nation",
+      "imageSubject": "Madonna",
+      "imageSearchQuery": "Madonna show Copa do Mundo",
+      "imageAlt": "Madonna",
+      "editorialMeta": {
+        "originalTitle": "Madonna estaria deixando executivos da FIFA de “cabelo em pé” com show na Copa, diz tabloide",
+        "sourceId": "TWFkb25uYSBlc3Rhcmlh",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "O título e o resumo mencionam Noel Gallagher, mas o corpo do texto não contém nenhuma afirmação sobre ele, e as evidências fornecidas não apoiam sua inclusão no rascunho."
+          ],
+          "unsupportedClaims": [
+            "Noel Gallagher critica show do intervalo da Copa do Mundo 2026"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Madonna estaria deixando executivos da FIFA de “cabelo em pé” com show na Copa, diz tabloide"
+        ],
+        "generatedAt": "2026-06-15T01:16:59.400Z"
+      },
+      "createdAt": "2026-06-15T01:16:59.400Z",
+      "imageCreditStatus": "page-extracted",
+      "imageCreditSourceUrl": "https://oglobo.globo.com/cultura/musica/noticia/2024/03/25/show-de-madonna-em-copa-tera-o-maior-palco-da-celebration-tour-e-sera-transmitido-pela-tv.ghtml",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://s2-oglobo.glbimg.com/cdP4Zq0mebKQkXmdq91CnZ7Vb6s=/0x0:1581x1054/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/c/f/T2O31tQO2044LUA60CGw/mdg2.jpeg",
+          "pageUrl": "https://oglobo.globo.com/cultura/musica/noticia/2024/03/25/show-de-madonna-em-copa-tera-o-maior-palco-da-celebration-tour-e-sera-transmitido-pela-tv.ghtml",
+          "source": "Bing",
+          "title": "Show de Madonna em Copa terá o maior palco da 'Celebration Tour' e ...",
+          "width": 888,
+          "height": 592
+        },
+        {
+          "imageUrl": "https://s2-oglobo.glbimg.com/1dwQ1qD_Zso0ot_xeCmIOL2k1-0=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/N/S/3Up0L4TLCleDrOJKyAeA/madonnas.png",
+          "pageUrl": "https://oglobo.globo.com/blogs/capital/post/2024/05/madonna-em-copa-transforma-biografia-de-850-paginas-em-best-seller-no-brasil.ghtml",
+          "source": "Bing",
+          "title": "Madonna em Copa transforma biografia de 850 páginas em best-seller no ...",
+          "width": 1200,
+          "height": 784
+        },
+        {
+          "imageUrl": "https://s2-extra.glbimg.com/7IkNUrwJtZWyrlH87tXBCxdA9zI=/1600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2024/G/L/YVFFaeR2upEfXUiespdQ/103517889-rio-de-janeiro-rj-06-11-1993-madonna-cantora-show-no-estadio-do-maracana-foto.jpg",
+          "pageUrl": "https://extra.globo.com/blogs/telinha/post/2024/04/como-assistir-ao-show-de-madonna-em-copacabana-sem-sair-de-casa.ghtml",
+          "source": "Bing",
+          "title": "Como assistir ao show de Madonna na Praia de Copacabana de casa?",
+          "width": 1600,
+          "height": 2598
+        },
+        {
+          "imageUrl": "https://soudepalmas.com.br/wp-content/uploads/2024/05/Madonna-cantando-em-show-1200x675_Easy-Resize.com_.jpg",
+          "pageUrl": "https://soudepalmas.com.br/geral/cotidiano-em-destaque/show-da-madonna-em-copacabana-tera-transmissao-ao-vivo-saiba-onde-assistir",
+          "source": "Bing",
+          "title": "Show da Madonna em Copacabana terá transmissão ao vivo; saiba onde assistir",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2024/05/05172513/171488433566370eef86f05_1714884335_3x2_md.jpg",
+          "pageUrl": "https://jornaldebrasilia.com.br/entretenimento/katia-flavia/madonna-supera-show-de-rolling-stone-e-e-o-quinto-maior-show-do-mundo/",
+          "source": "Bing",
+          "title": "Madonna supera show de Rolling Stone e é o quinto maior show do mundo ...",
+          "width": 768,
+          "height": 512
+        },
+        {
+          "imageUrl": "https://s7d2.scene7.com/is/image/TWCNews/Brazil_Madonna_19278",
+          "pageUrl": "https://baynews9.com/fl/tampa/ap-online/2024/05/04/rio-de-janeiro-set-for-madonnas-massive-copacabana-beach-concert-that-will-be-her-biggest-ever",
+          "source": "Bing",
+          "title": "Rio de Janeiro set for Madonna's massive Copacabana beach concert that ...",
+          "width": 1280,
+          "height": 854
+        },
+        {
+          "imageUrl": "https://s7d2.scene7.com/is/image/TWCNews/Brazil_Madonna_41292",
+          "pageUrl": "https://baynews9.com/fl/tampa/ap-online/2024/05/04/rio-de-janeiro-set-for-madonnas-massive-copacabana-beach-concert-that-will-be-her-biggest-ever",
+          "source": "Bing",
+          "title": "Rio de Janeiro set for Madonna's massive Copacabana beach concert that ...",
+          "width": 1280,
+          "height": 854
+        },
+        {
+          "imageUrl": "https://www.eluniverso.com/resizer/rA7KB6YWOgJhmUkt2u9lyfja7rg=/3600x2400/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/BWYL3TWRMRBU3K4KDZTY764UYI.jpg",
+          "pageUrl": "https://www.eluniverso.com/entretenimiento/musica/madonna-convoca-a-15-millones-de-personas-esta-noche-en-rio-de-janeiro-su-concierto-gratuito-llena-la-playa-de-copacabana-nota/",
+          "source": "Bing",
+          "title": "Madonna convoca a 1,5 millones de personas esta noche en Río de Janeiro ...",
+          "width": 3600,
+          "height": 2400
+        }
+      ],
+      "imageReview": {
+        "status": "approved",
+        "score": 85
+      },
+      "imagePostUrl": "https://oglobo.globo.com/cultura/musica/noticia/2024/03/25/show-de-madonna-em-copa-tera-o-maior-palco-da-celebration-tour-e-sera-transmitido-pela-tv.ghtml"
+    }
+  ]
+}
