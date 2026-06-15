@@ -1,336 +1,198 @@
 [
   {
-    "id": "Qm9ubmllIFR5bGVyIGFj",
-    "reviewId": "Qm9ubmllIFR5bGVyIGFj",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Bonnie Tyler acorda de coma, mas segue em estado grave em Portugal",
-    "slug": "bonnie-tyler-acorda-de-coma-mas-segue-em-estado-grave-em-portugal",
-    "excerpt": "Cantora Bonnie Tyler acordou do coma induzido após um mês, mas permanece em estado grave na UTI em Faro, Portugal.",
+    "slug": "esposas-de-endrick-e-rayan-usam-mesma-roupa-na-estreia-do-brasil",
+    "title": "Esposas de Endrick e Rayan usam mesma roupa na estreia do Brasil",
+    "excerpt": "Esposas de jogadores da Seleção Brasileira usaram looks iguais na estreia da Copa do Mundo.",
     "body": [
-      "A cantora Bonnie Tyler acordou do coma induzido após um mês internada, mas segue em estado grave na UTI em Faro, Portugal. Ela havia sofrido uma parada cardíaca que a levou ao coma. A artista já não está mais em coma, mas continua nos cuidados intensivos."
-    ],
-    "html": "<p>A cantora Bonnie Tyler acordou do coma induzido após um mês internada, mas segue em estado grave na UTI em Faro, Portugal. Ela havia sofrido uma parada cardíaca que a levou ao coma. A artista já não está mais em coma, mas continua nos cuidados intensivos.</p>",
-    "category": "Música",
-    "market": "brasil",
-    "tags": [
-      "Bonnie Tyler",
-      "coma",
-      "estado grave",
-      "Portugal",
-      "UTI"
-    ],
-    "source": "Folha de S.Paulo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeTZ3Smk5QnBUUVBJc1NpNXktdTNjSERNbjVDb2YwdFJHRkRNS3dZbktYTDhTLXczaF9IMVFNUUNIUnRwOFhaYmhSQ2lrTUFfMWlYWkFRYklBR0FURnQ3ek5ERkhabl9sUEl4bFZ2dEdWYmFiYV9jN0xKMzY4aVMtYzBGdjVzTFRueGlhTjl4LXdhM1Y2VG15bUpRVncwVVZvemhVMGhoMDhHWnV0NXBtaXZJUHVJMDFJbFNxX3pyZWczS1ZRS0pB?oc=5",
-    "evidenceSources": [
-      "Folha de S.Paulo",
-      "G1",
-      "Estadão",
-      "VEJA",
-      "Público"
-    ],
-    "evidenceClaims": [
-      "Bonnie Tyler acorda de coma induzido, mas segue em estado grave em Portugal",
-      "Bonnie Tyler acorda do coma após um mês e segue internada em UTI",
-      "Bonnie Tyler sai do coma, mas permanece em estado grave na UTI",
-      "Bonnie Tyler acorda de coma após um mês internada por causa de parada cardíaca",
-      "Bonnie Tyler já não está em coma, mas continua nos cuidados intensivos em Faro"
-    ],
-    "sourceCount": 5,
-    "score": 201,
-    "trendBoost": true,
-    "trendMatches": [
-      "bonnie tyler"
-    ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bonnie_Tyler_ESC_-_United_Kingdom_01_crop.JPG/1200px-Bonnie_Tyler_ESC_-_United_Kingdom_01_crop.JPG",
-    "imageCredit": "Imagem ilustrativa: en.wikipedia.org",
-    "imageSubject": "Bonnie Tyler",
-    "imageSearchQuery": "Bonnie Tyler cantora",
-    "imageAlt": "Bonnie Tyler",
-    "editorialMeta": {
-      "originalTitle": "Bonnie Tyler acorda de coma induzido, mas segue em estado grave em Portugal",
-      "sourceId": "Qm9ubmllIFR5bGVyIGFj",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "deepseek",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "rejected",
-        "confidence": 0.85,
-        "issues": [
-          "O rascunho afirma que Bonnie Tyler sofreu uma parada cardíaca que a levou ao coma, mas nenhuma evidência menciona parada cardíaca."
-        ],
-        "unsupportedClaims": [
-          "Ela havia sofrido uma parada cardíaca que a levou ao coma."
-        ],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "factualClaims": [
-        "Bonnie Tyler acorda de coma induzido, mas segue em estado grave em Portugal"
-      ],
-      "generatedAt": "2026-06-15T21:09:17.075Z",
-      "humanApproval": {
-        "status": "approved",
-        "approvedAt": "2026-06-15T18:30:00.000Z"
-      }
-    },
-    "createdAt": "2026-06-15T21:09:17.075Z",
-    "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://en.wikipedia.org/wiki/Bonnie_Tyler_videography",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Bonnie_Tyler_ESC_-_United_Kingdom_01_crop.JPG/1200px-Bonnie_Tyler_ESC_-_United_Kingdom_01_crop.JPG",
-        "pageUrl": "https://en.wikipedia.org/wiki/Bonnie_Tyler_videography",
-        "source": "Bing",
-        "title": "Bonnie Tyler videography - Wikipedia",
-        "width": 1200,
-        "height": 1671
-      },
-      {
-        "imageUrl": "https://s2-vogue.glbimg.com/YpxD5EJDrEYokeK37xLptH-Zo2I=/0x0:807x1024/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_5dfbcf92c1a84b20a5da5024d398ff2f/internal_photos/bs/2026/5/b/IoKMRFQMKPo5U6EWACcA/gettyimages-2213246704.jpg",
-        "pageUrl": "https://vogue.globo.com/celebridades/noticia/2026/05/bonnie-tyler-saiba-por-que-cantora-foi-colocada-em-coma-induzido.ghtml",
-        "source": "Bing",
-        "title": "Bonnie Tyler: saiba por que cantora foi colocada em coma induzido",
-        "width": 984,
-        "height": 1249
-      },
-      {
-        "imageUrl": "https://musicanueva.es/wp-content/uploads/2025/05/BONNIE-TYLER.jpeg",
-        "pageUrl": "https://musicanueva.es/bonnie-tyler-voz-rasgada/",
-        "source": "Bing",
-        "title": "Bonnie Tyler: La inconfundible voz que sigue resonando en el rock ...",
-        "width": 1200,
-        "height": 800
-      },
-      {
-        "imageUrl": "https://curtamais.com.br/uploads/conteudos/0d6d3774b36d7971938ec0dc05d64b8c.jpeg",
-        "pageUrl": "https://www.curtamais.com.br/goiania/bonnie-tyler-em-goiania-conheca-alguns-dos-maiores-sucessos-da-cantora-internacional",
-        "source": "Bing",
-        "title": "Bonnie Tyler em Goiânia: conheça alguns dos maiores sucessos da cantora ...",
-        "width": 900,
-        "height": 595
-      },
-      {
-        "imageUrl": "https://www.tiktok.com/api/img/?itemId=7291096881835379974&location=0&aid=1988",
-        "pageUrl": "https://www.tiktok.com/@bananeteditevilanova10/video/7291096881835379974",
-        "source": "Bing",
-        "title": "Bonnie Tyler é uma cantora galesa que ficou famosa com as canções \"Tot ...",
-        "width": 720,
-        "height": 1280
-      },
-      {
-        "imageUrl": "https://f.fcdn.app/imgs/29e47c/www.palaciodelamusica.com.uy/pmusuy/dcff/original/catalogo/194399927410-194399927410_1/2000-2000/tyler-bonnie-her-ultimate-collection-vinilo-tyler-bonnie-her-ultimate-collection-vinilo.jpg",
-        "pageUrl": "https://www.palaciodelamusica.com.uy/catalogo/tyler-bonnie-her-ultimate-collection-vinilo_194399927410_194399927410",
-        "source": "Bing",
-        "title": "Tyler,bonnie / Her Ultimate Collection - Vinilo — Palacio de la Música",
-        "width": 2000,
-        "height": 2000
-      },
-      {
-        "imageUrl": "https://s1.ppllstatics.com/diariosur/www/multimedia/202108/15/media/cortadas/tyler1-kgII-U150245294016Is-1248x770@Diario%20Sur.jpg",
-        "pageUrl": "https://www.diariosur.es/culturas/musica/concierto-bonnie-tyler-starlite-20210815001309-nt.html",
-        "source": "Bing",
-        "title": "Bonnie Tyler, la música por encima de todo | Diario Sur",
-        "width": 1248,
-        "height": 770
-      },
-      {
-        "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-26th-annual-grammy-awards-presented-at-shrine-news-photo-1654678582.jpg?crop=1xw:1xh;center,top&resize=480:*",
-        "pageUrl": "https://www.radiocontinentefm.cl/bonnie-tyler-el-icono-de-la-musica-cuyo-armario-de-los-80-hoy-es-tendencia/",
-        "source": "Bing",
-        "title": "Bonnie Tyler: el icono de la música cuyo armario de los 80 hoy es ...",
-        "width": 480,
-        "height": 702
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 0,
-      "confidence": 1
-    },
-    "imagePostUrl": "https://en.wikipedia.org/wiki/Bonnie_Tyler_videography",
-    "humanApproval": {
-      "status": "approved",
-      "channel": "whatsapp",
-      "approvedAt": "2026-06-15T21:21:54.864Z"
-    }
-  },
-  {
-    "slug": "fernando-nakagawa-deixa-cnn-brasil-e-fecha-com-a-globonews",
-    "title": "Fernando Nakagawa deixa CNN Brasil e fecha com a GloboNews",
-    "excerpt": "Jornalista Fernando Nakagawa pede demissão da CNN Brasil e assina com a GloboNews para reforçar equipe econômica.",
-    "body": [
-      "O jornalista Fernando Nakagawa pediu demissão da CNN Brasil após seis anos e assinou contrato com a Globo. Ele vai integrar a equipe econômica da GloboNews, que busca reformular sua programação matinal."
-    ],
-    "category": "TV",
-    "market": "brasil",
-    "tags": [
-      "Fernando Nakagawa",
-      "CNN Brasil",
-      "GloboNews",
-      "TV",
-      "jornalismo econômico"
-    ],
-    "source": "UOL",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbXBiVUROOVRRVU9zUXlrN2NOUlViZXczZzhaVmEtSVRWRkFwdS03RTBBcnJFclhIY0g2M2JNZVJmNkdtUEh6X0JOSFdjQUdPc3B1M0NxeS1UQnFJSjlxb1RjX1JzVFB2NUdhTDNsVS1zQzI5MWI3dUpBUWI4bUMyTlp3emx1QlYtMHBwYmxNVkZqdFZRMXdpeGlJRXNneWxTZFpFY0JDcU5GM254OWRDSTRtaFQtOUpsMnlaV05zTFdKZWVHc1FRMVJmSzloS0NLRUdTbU8xejZTZUU3Sjlr0gHkAUFVX3lxTE1iRC1KeGxUZXo1YjVsV3hyb0tQdGYyeGo4VTYyMXZrNHVXVzA5Rk53TzhFZDkxTHhsQ2JmS1lYMTlBOVl0X1FFMkFJamtBb19xNnpoc2Q2RnN3V1hIb2tOQUF3SWc4VHJ0WGtDakdjTHNPYk5udFlKV1FRZnJROHZ6VEJmZUloLVl6VnA5aTNXdEtJcENOSDhJNkZpYVNueDI3ZDdUQ2NXYm5FdkVCcWQ2clFVWWhxOFhQNExaY0pFSmtOZ2lvdGpvX1pNQndwOXV3TEJwaGZ6b3ZJY0FueFhCLU5aZQ?oc=5",
-    "image": "https://www.portaldosjornalistas.com.br/wp-content/uploads/2025/11/Fernando-Nakagawa-Admirados-2025-scaled.webp",
-    "imageCredit": "Foto: Copyright - Portal dos Jornalistas - Todos os direitos reservados",
-    "imageAlt": "Fernando Nakagawa",
-    "imagePostUrl": "https://www.portaldosjornalistas.com.br/fernando-nakagawa-e-o-admirado-jornalista-de-economia-negocios-e-financas-de-2025/",
-    "createdAt": "2026-06-15T21:09:08.821Z",
-    "editorialMeta": {
-      "reviewId": "RmVybmFuZG8gTmFrYWdh",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
-      "humanApproval": {
-        "status": "approved",
-        "approvedAt": "2026-06-15T18:30:00.000Z"
-      }
-    }
-  },
-  {
-    "slug": "gilberto-gil-defende-uniao-contra-ascensao-da-direita-mario-frias-responde",
-    "title": "Gilberto Gil defende união contra ascensão da direita; Mario Frias responde",
-    "excerpt": "Gilberto Gil pede união contra avanço da direita; Mario Frias responde.",
-    "body": [
-      "Gilberto Gil defendeu a união contra a ascensão da direita no Brasil. Mario Frias respondeu à declaração do músico."
+      "As esposas de Endrick e Rayan usaram a mesma roupa na estreia do Brasil na Copa do Mundo. Corsets, jeans customizados e muito verde e amarelo marcaram os seis melhores looks das mulheres dos jogadores da Seleção. Famosas apostaram em looks customizados e criativos para a partida."
     ],
     "category": "Famosos",
     "market": "brasil",
     "tags": [
-      "Gilberto Gil",
-      "Mario Frias",
-      "política"
+      "Endrick",
+      "Rayan",
+      "looks",
+      "Copa do Mundo",
+      "Seleção Brasileira"
     ],
-    "source": "Poder360",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTFZ4ZUFjUEdfanIwOGFGU1ZCZ042RzR3RTFUQmJnT1gtdWI0a0FqZ2hUVDB1em5sMFh3dGVGWXg5SWpxT2Jia3gxNVFkM0hHU2xTOU4tNU4zellaMy1KUFN3ZV9EM0dkdnhEX0ZpVHpoa203NWE0Q1ViX3RLNHZqYzNtdFZ6Ukx5NThBX2p2OE12cS1HSkZlcmgyVm5hVzRTZ3VpUGlnOU9mdw?oc=5",
-    "image": "https://www.noize.com.br/_next/image?url=https:%2F%2Fapi.noize.com.br%2Fwp-content%2Fuploads%2F2025%2F06%2Fgilberto-gil-scaled.webp&w=1920&q=100&dpl=dpl_NHTcjPBYWGBzq1cA3DVpJ369uSPy",
-    "imageCredit": "Imagem ilustrativa: noize.com.br",
-    "imageAlt": "Gilberto Gil",
-    "imagePostUrl": "https://www.noize.com.br/gilberto-gil-comemora-83-anos-leia-entrevista-com-um-dos-maiores-nomes-da-mpb",
-    "createdAt": "2026-06-15T21:09:02.560Z",
+    "source": "iG Gente",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTVFhRnhsbzZhTWxvX2o2WWs0V0lPcXBub3lMQnhQRGJEUF8zYldsTFQyM1BlQkRfTGozcy14MDlrN1lPdFFOTUJnVm9jRWhoeWxQYUowalZCOHRRbXlMb0FIcGp3Ql9rV0M4ZDZvM2tEamZRRW8zd3hucFRUZGpWSUxWRzZ0eDR2MzFYdTcyNTk3Q2dCOVd6LXpnQmdJZ1NGX1dIcUxnaHo5cWVKVEM3NVVPa1BRVXMy0gG-AUFVX3lxTE43R0U1RVk4MVQ0NWdGTXl6YjQ2OHNkNjdFOEd6eUtGcmFjTElrRkdCWk02RHBrbzJNcnUyRS1OQWM4bktUQ0JYaXpvTEcwOS1yUDQ4Q1NOb2lFWUp4Rm9RRTlYWHZhek1ZUjlaaXFxOW1LSDlkc1JzLUhrSEU5LXBWUEFUZHdaOUh1N2wzRjJxSXpiYUlpMXNLSEllQVFDUEVzSGVVN1E0Nkx6ZnFrcU92UkFadGpRcHpiOW5fNWc?oc=5",
+    "image": "https://caras.com.br/wp-content/uploads/2024/09/endrick-gabriely-miranda.jpg",
+    "imageCredit": "Imagem ilustrativa: caras.com.br",
+    "imageAlt": "Esposas de Endrick e Rayan",
+    "imagePostUrl": "https://caras.com.br/atualidades/quem-e-gabriely-miranda-conheca-esposa-de-endrick.phtml",
+    "createdAt": "2026-06-15T22:56:55.468Z",
     "editorialMeta": {
-      "reviewId": "R2lsYmVydG8gR2lsIGRl",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.85,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "deepseek-chat",
-        "provider": "configured-provider-second-pass"
-      },
+      "reviewId": "RXNwb3NhcyBkZSBFbmRy",
       "humanApproval": {
         "status": "approved",
-        "approvedAt": "2026-06-15T18:30:00.000Z"
+        "approvedAt": "2026-06-15T20:05:00.000Z"
       }
     },
     "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://www.noize.com.br/gilberto-gil-comemora-83-anos-leia-entrevista-com-um-dos-maiores-nomes-da-mpb"
+    "imageCreditSourceUrl": "https://caras.com.br/atualidades/quem-e-gabriely-miranda-conheca-esposa-de-endrick.phtml"
   },
   {
-    "slug": "madonna-e-noel-gallagher-movimentam-bastidores-da-copa-do-mundo",
-    "title": "Madonna e Noel Gallagher movimentam bastidores da Copa do Mundo",
-    "excerpt": "Tabloide aponta exigências de Madonna para show na Copa; Noel Gallagher torce pelo Brasil e critica intervalo da final.",
+    "slug": "klebber-toledo-celebra-40-anos-com-festa-discreta-ao-lado-de-camila-queiroz-e-fi",
+    "title": "Klebber Toledo celebra 40 anos com festa discreta ao lado de Camila Queiroz e filh",
+    "excerpt": "Ator comemora aniversário em evento reservado com a esposa e a filha.",
     "body": [
-      "Madonna estaria deixando executivos da FIFA de “cabelo em pé” com suas exigências extravagantes para um possível show na Copa do Mundo, segundo tabloide. Enquanto isso, Noel Gallagher, cantor do Oasis, revelou torcida para ver o Brasil na final do Mundial e desaprovou o show de intervalo da final, ironizando as atrações anunciadas."
+      "Klebber Toledo completou 40 anos e celebrou a data com uma festa discreta ao lado da esposa, Camila Queiroz, e da filha do casal. Em declaração, o ator afirmou: \"A vida já me deu os melhores presentes\"."
     ],
-    "category": "Música",
+    "category": "Famosos",
     "market": "brasil",
     "tags": [
-      "Madonna",
-      "Noel Gallagher",
-      "Copa do Mundo",
-      "FIFA",
-      "show de intervalo"
+      "Klebber Toledo",
+      "Camila Queiroz",
+      "aniversário",
+      "40 anos",
+      "famosos"
     ],
-    "source": "papelpop",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUQzRS1JeFoyTk5jVnpIM0NKc1hrVkpvci05dEVOTFN6OHhmS0dGQTRUWEd2c2pTRkhBWmRpMkxLYk5MWmVXT3ZpVTFhS2hrYkFoNHBER0lDVmVROS0tZ0tsNGZjbnhFalpQN2NpaWJ2LWVwY18xd0ZzVHpHTks1TjRObkkwdUI5WTZuLS1jdWp5SmtOOXhxMXZxZUxLeF9GVmRIdkZZaWlteHgzeVB4Wk03Q2MtbTRicWJnVEVoLWs?oc=5",
-    "image": "https://cdn.images.express.co.uk/img/dynamic/35/590x/secondary/Madonna-262968.jpg?r=1686998680160",
-    "imageCredit": "Imagem ilustrativa: express.co.uk",
-    "imageAlt": "Madonna e Noel Gallagher",
-    "imagePostUrl": "https://www.express.co.uk/entertainment/music/563023/Madonna-rebel-heart-album-charts-noel-gallagher",
-    "createdAt": "2026-06-15T21:10:12.217Z",
+    "source": "O Globo",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRk1zVURBLXVvYkJ5dW5TZnJrWmowaExlaVQ5Z2tXTmcycEVoNV96MGF2blE3MjNGcUFHUHpjcWxOVFVQeldKYm9BVlpILUx2TXV6OVdGMVN1V0pOUkJjMU53dXN3cG1vREt5WmVTMnA2VWh6bmpUaVNpb1dsT09KaVBlLWR2YURxWDd0UFpnMmM1VnZ0bWhrVXhKRDFhTFVrY1FRVmhNSDQ5WVN1V3duZWM1akxscEVrYm5pUmktdWNhYm9qNWdqaThnOEFCaGhuOVBGSDVLVHnSAecBQVVfeXFMTmc0b1JINENqR2s1c1VZdkpIUVFkazRJVnFpZEx1VFVXcE9qd2ZfUVFzMW51aF8zd3dzRGV3bzN4aVQwUWd0NUwyTUNtcjRNY0drSld2ZzdRbjFQUkZaY0Q2QUpFekUtYjg2OU4zMk9XMDlJSTM4dF83alJGa3FVakJMc2JhYTNlNEFfQjJVSVJHOGN5WkpTLVhzWHdoQWpMQjJGU1diTUY2T2RjRmtfUEtZWGR1SEhfZkI0ZHRZLTVBaHRGUEwzbjBDZmJPbmRRbzVBVU1VLWhpdWtvQUViakkwMGNfZ1M4?oc=5",
+    "image": "https://static1.purepeople.com.br/articles/4/24/72/04/@/2821812-camila-queiroz-e-klebber-toledo-estarao-950x0-2.jpg",
+    "imageCredit": "Foto: © Divulgação, TV Globo",
+    "imageAlt": "Klebber Toledo e Camila Queiroz",
+    "imagePostUrl": "https://www.purepeople.com.br/midia/camila-queiroz-e-klebber-toledo-estarao_m2821812",
+    "createdAt": "2026-06-15T22:56:48.144Z",
     "editorialMeta": {
-      "reviewId": "TWFkb25uYSBlc3Rhcmlh",
+      "reviewId": "S2xlYmJlciBUb2xlZG8g",
       "humanApproval": {
         "status": "approved",
-        "approvedAt": "2026-06-15T18:30:00.000Z"
+        "approvedAt": "2026-06-15T20:05:00.000Z"
       }
     },
-    "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://www.express.co.uk/entertainment/music/563023/Madonna-rebel-heart-album-charts-noel-gallagher"
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://www.purepeople.com.br/midia/camila-queiroz-e-klebber-toledo-estarao_m2821812"
   },
   {
-    "slug": "netflix-10-filmes-e-lancamentos-da-semana-15-a-21-de-junho-de-2026",
-    "title": "Netflix: 10 filmes e lançamentos da semana (15 a 21 de junho de 2026)",
-    "excerpt": "Netflix divulga lista de 10 filmes e os lançamentos da semana de 15 a 21 de junho de 2026.",
+    "slug": "paul-schrader-detona-dia-d-de-steven-spielberg",
+    "title": "Paul Schrader detona \"Dia D\", de Steven Spielberg",
+    "excerpt": "Cineasta critica novo filme de Spielberg, que lidera bilheterias na estreia.",
     "body": [
-      "A Netflix divulgou uma lista com 10 filmes disponíveis no catálogo para assistir hoje. Entre os destaques da semana de 15 a 21 de junho de 2026, estão as estreias de cinco filmes e séries, incluindo uma nova minissérie de suspense baseada na obra de Harlan Coben, com apenas oito episódios."
+      "O cineasta Paul Schrader detonou o novo filme de Steven Spielberg, \"Dia D\". A obra, no entanto, lidera as bilheterias no fim de semana da estreia do Brasil na Copa e se aproxima dos 100 milhões de reais arrecadados."
     ],
     "category": "Cinema",
     "market": "brasil",
     "tags": [
-      "Netflix",
-      "filmes",
-      "séries",
-      "lançamentos",
-      "Harlan Coben"
+      "Paul Schrader",
+      "Steven Spielberg",
+      "Dia D",
+      "bilheteria"
     ],
-    "source": "cinepop.com.br",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTTFmN3lZR25Ub1A4TXczcU4yX21kWlFnWDdMOGJZa0tyek5XUV9BWDdyNnFmcldCTWt0dGZoMXBkTWNod3Z6RFZxQ1JmVnhPQTN4SUZScktDNXU0OUl3d0xWQXRUZlB0SnU4d0VkVXRvaGRtY2ZQUTEtZ29DZUMzOHlNOWJOSmswekFyUGZDVUdDZUxJQ3c?oc=5",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNY6a3_fjvofoh78_gYW8axfASbYKD-A3NGk8eDzCcCDUtC8NPQuIxgbaBXLxEoLaw_BH2-L44m2W7cEE_QAes7sExSpukOko9lv2A2Mwf7mgGj48pFTTGn4XG3K3bjYfT-_rDybRke_-g8v6LP_OCHywnDFkbHLpRxDvj9JiBgLLvNQIUlROdhXuUGZG5/s16000/custe-o-que-custar-poster.png",
-    "imageCredit": "Imagem ilustrativa: tropadercy.com.br",
-    "imageAlt": "Harlan Coben",
-    "imagePostUrl": "https://www.tropadercy.com.br/2025/12/minisserie-custe-o-que-custar-adaptacao.html",
-    "createdAt": "2026-06-15T21:09:47.422Z",
+    "source": "O Vício",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5odm5jdGduc3VsSlhqQkxRd1Q1S3VNUU42aW1iQktIaU1uRDMzeTB2emtNYk12V3JLMWVtaElLVFlMMXJWUnRONkROYzZ5elZrdmNKd0N3R2Z0SW1WaF9jS2JCc1BRb0lsOUZGU1FsRkFrRzJ4NW5fdNIBfkFVX3lxTFAxNWZ0cF9jdGdxWWZob3pGaFROS3BxNmtYY0VvTXA1d292RnZJeF8xUGFVdEgxa0t4Z2xndnp5c3BmMkVKamF5eVFpNGtwbHl6MFRyM0NIX0pwQ280ZWE5V2plZU1mZDZKeFBITlNtdWQ2dzNJT19OY29NSU5kdw?oc=5",
+    "image": "https://imagens.publico.pt/imagens.aspx/1797814?tp=UH&db=IMAGENS&type=PNG&share=1&o=BarraFacebook_Ipsilon.png",
+    "imageCredit": "Imagem ilustrativa: publico.pt",
+    "imageAlt": "Paul Schrader",
+    "imagePostUrl": "https://www.publico.pt/2023/04/29/culturaipsilon/critica/estilo-transcendental-cinema-paul-schrader-busca-sagrado-cinema-2046125",
+    "createdAt": "2026-06-15T22:56:29.594Z",
     "editorialMeta": {
-      "reviewId": "VGVtIGZpbG1lIGJvbSBu",
+      "reviewId": "UGF1bCBTY2hyYWRlciBk",
       "humanApproval": {
         "status": "approved",
-        "approvedAt": "2026-06-15T18:30:00.000Z"
+        "approvedAt": "2026-06-15T20:05:00.000Z"
       }
     },
     "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://www.tropadercy.com.br/2025/12/minisserie-custe-o-que-custar-adaptacao.html"
+    "imageCreditSourceUrl": "https://www.publico.pt/2023/04/29/culturaipsilon/critica/estilo-transcendental-cinema-paul-schrader-busca-sagrado-cinema-2046125"
   },
   {
-    "slug": "a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia",
-    "title": "‘A Casa do Dragão’ ganha teaser da 3ª temporada com guerra e tragédia",
-    "excerpt": "Série retorna em oito dias com episódio que promete ser o maior da TV.",
+    "slug": "luiza-brunet-resgata-foto-com-ayrton-senna-e-xuxa-reage-tudo-e-mais-um-pouco",
+    "title": "Luiza Brunet resgata foto com Ayrton Senna e Xuxa reage: \"Tudo e mais um pouco\"",
+    "excerpt": "Luiza Brunet compartilhou uma foto antiga ao lado de Ayrton Senna e recebeu comentário de Xuxa Meneghel.",
     "body": [
-      "A terceira temporada de ‘A Casa do Dragão’ ganhou um novo teaser focado em guerra. A série retorna em oito dias com o que está sendo chamado de “maior episódio de TV já feito”. A nova temporada promete ser mais sombria e devastadora, sem finais felizes."
+      "Luiza Brunet resgatou uma foto antiga ao lado de Ayrton Senna. Xuxa Meneghel reagiu à publicação, comentando: \"Tudo e mais um pouco\"."
+    ],
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Luiza Brunet",
+      "Ayrton Senna",
+      "Xuxa Meneghel",
+      "foto antiga",
+      "reação"
+    ],
+    "source": "CNN Brasil",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRG9fQXB1WXNaOGZpeU13QlVCWnZDNjdUSV9SWHdRSVJHTkRoaDZlUEJ1TlFuUGRoSElmV2xTbDBGTW9aVXBQbXctdWZFOWNud3ktV2pBOVIzeGROdDFOUmNQMDlYbTVsTkRVVWF2UnFBUFRrMWcta1FRUG9pMGtsNU9PLXk2Yjl5QVV2SWNfdEJRMWhSVDdsYV8zcU5YX1UxR1FXUy1YNVBsb3g2S3k3SVJlYklKVWs?oc=5",
+    "image": "https://cdn.gazetasp.com.br/img/social/1200/1200/dn_arquivo/2024/02/luiza-brunet-e-yasmin-brunet-1.jpg",
+    "imageCredit": "Foto: © 2026 Gazeta de São Paulo. Todos os direitos reservados.",
+    "imageAlt": "Luiza Brunet e Ayrton Senna",
+    "imagePostUrl": "https://www.gazetasp.com.br/gazeta-mais/curiosidades/luiza-brunet-conheca-a-historia-da-mae-de-yasmin-brunet-do-bbb-24/1134753/",
+    "createdAt": "2026-06-15T22:56:18.826Z",
+    "editorialMeta": {
+      "reviewId": "THVpemEgQnJ1bmV0IHJl",
+      "humanApproval": {
+        "status": "approved",
+        "approvedAt": "2026-06-15T20:05:00.000Z"
+      }
+    },
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://www.gazetasp.com.br/gazeta-mais/curiosidades/luiza-brunet-conheca-a-historia-da-mae-de-yasmin-brunet-do-bbb-24/1134753/"
+  },
+  {
+    "slug": "ana-castela-reacende-rumores-de-romance-com-influenciador-cesar-rincon",
+    "title": "Ana Castela reacende rumores de romance com influenciador Cesar Rincon",
+    "excerpt": "Cantora publica foto com Cesar Rincon e alimenta especulações sobre novo affair.",
+    "body": [
+      "Ana Castela reacendeu rumores de um novo romance ao posar ao lado do influenciador Cesar Rincon. A cantora publicou uma foto com o influenciador, que é conhecido da PRF e tem milhões de seguidores, alimentando especulações sobre um possível namoro."
+    ],
+    "category": "Famosos",
+    "market": "brasil",
+    "tags": [
+      "Ana Castela",
+      "Cesar Rincon",
+      "romance",
+      "influenciador",
+      "famosos"
+    ],
+    "source": "Campo Grande News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb1VVMWxUZzNYdzl1RzIxZ2dIMl80a1YtaUF5bUg3WnhJX3ZoX3VfN1JqcHNJVmVFb2N4eHJpTFlVWklxWks3SXB2Zk5JcklmMi1rZTdncDloTGpaTGZGdEloQzBtbm82QUJ6QVcyaXlGblI1WE5qQ3Q5bzVHTzlJUzZPWGRQOHplVWgxZ2lYeFg3aXRhYTYwSC15YWt0SExhcFE5Ujgxd1JId9IBqgFBVV95cUxNM2ZBVnhoVmZXcXh6YldFTWdCSXJuYThCSUtKWXNhd0Z2aWIzSmQzQTJJdHV6cnVYbVYtOUZEWGFNUmJKNGRXWDdKVXpvOVdLeXJzQkx0WThmckxNMGZLY3hOSEpJR0tpckd1bXN0Uk9HbF8tSTlzaDRJUloyZkZDdWEzcU9zT2lmWTBsOEt0VFA3ZlhWUjM4UmJWQWh1R3VtRS1QSWVWR3ZyQQ?oc=5",
+    "image": "https://billboard.com.br/wp-content/uploads/2024/04/IMG_3828-scaled.jpg",
+    "imageCredit": "Foto: (Clayton Felizardo/Brazil News)",
+    "imageAlt": "Ana Castela",
+    "imagePostUrl": "https://billboard.com.br/ana-castela-completa-30-semanas-como-a-mais-ouvida-do-brasil-veja-ranking/",
+    "createdAt": "2026-06-15T22:56:11.497Z",
+    "editorialMeta": {
+      "reviewId": "QW5hIENhc3RlbGEgZSBD",
+      "humanApproval": {
+        "status": "approved",
+        "approvedAt": "2026-06-15T20:05:00.000Z"
+      }
+    },
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://billboard.com.br/ana-castela-completa-30-semanas-como-a-mais-ouvida-do-brasil-veja-ranking/"
+  },
+  {
+    "slug": "estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado",
+    "title": "Estreia de Virginia Fonseca no Domingão com Huck tem ibope revelado",
+    "excerpt": "Saiba qual foi o ibope da estreia de Virginia Fonseca no Domingão com Huck.",
+    "body": [
+      "A estreia de Virginia Fonseca no quadro do Domingão com Huck teve seu ibope revelado. A informação está disponível, mas os dados numéricos não foram fornecidos nos fatos disponíveis."
     ],
     "category": "TV",
     "market": "brasil",
     "tags": [
-      "A Casa do Dragão",
-      "3ª temporada",
-      "teaser",
-      "HBO"
+      "Virginia Fonseca",
+      "Domingão com Huck",
+      "ibope",
+      "estreia"
     ],
-    "source": "cinepop.com.br",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTm81MEVTOEJtZTZNVFZDQ0ZaTWl3Slkyc1ZPZVl3RXFqdWNoNFRVN3VPcHVHU2I0eURlS1d4UEItd21laVdWY29CM3lhLTl5MHhOeVdEczF4YkJjem53aFZTa19uOUtEMS1zTnZ2cDFwUE81eW1uZHNVMmYwSVk3cS1uWG5KcUQ3Rmx6QUNYakt5cXB0ZjVTOVdOWGp3Y1MyNTRrWXVER3hiZw?oc=5",
-    "image": "https://alphafloripa.com/wp-content/uploads/2026/02/Sem-titulo-2026-02-19T142238.681.jpeg",
-    "imageCredit": "Imagem ilustrativa: alphafloripa.com",
-    "imageAlt": "Elenco de A Casa do Dragão",
-    "imagePostUrl": "https://alphafloripa.com/noticia/terceira-temporada-de-a-casa-do-dragao-divulga-primeiro-teaser-oficial/",
-    "createdAt": "2026-06-15T21:10:46.986Z",
+    "source": "Notícias da TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMnlaVGFVcjM2OE1EWnVPUmYxeEFiV3pxRy1WTnhKMmxZUFVVRFVMT0RfTURpVldHd0Z3bURKTGFuRzdHb1RtTGxhc1k2RTBwWE1PTVRjbEdpTUphZzRQVWQzQ2ZmZFRQQkR3Vy1TUTZ6RWRTSjFTOHBiRFlob0pySWthanhPcnFweFdsWEdVVXlXak0wNjlmVElnRzNDNXZqRDFLYW4wQktaS1VDUEwzbUdXcFlkVUp2aW1uamxrazlwTnY4OHlDcWctYzbSAdsBQVVfeXFMUElCY1B3UGJ5NVpGX2pENE42cVJ0YXFpZHVhcGUtbjRCSVhNMlo1OUkzRU55cFF4TmJja2QyTEd5cW53NkExRTRvYlNpZ2xzaWNqZ1FGZUN5OTZFQUE0YjBQeXpzOUt5aDVXSVJFN2hiZVdSWG8yV1p6TXRDenRKMThTQmJGTzJwUFRBQ2t6b01sclFCMmNZb2ktZkt2ME5hWUxXXzlkMFBXdDVqSWNUYTF3WHZSSDBwX3ZUU29NUGxiZE9Ea2Y5VUJtRHVNMVlfTUZ0S2NQWEVhQlJ3?oc=5",
+    "image": "https://assets.portalleodias.com/2024/04/WhatsApp-Image-2026-02-11-at-16.49.33-615x461.jpeg",
+    "imageCredit": "Foto: Virginia Fonseca chega à Globo",
+    "imageAlt": "Virginia Fonseca",
+    "imagePostUrl": "https://portalleodias.com/redes-sociais/virginia-fonseca-chega-a-globo-para-participacao-especial-no-domingao-com-huck",
+    "createdAt": "2026-06-15T22:55:23.693Z",
     "editorialMeta": {
-      "reviewId": "4oCYQSBDYXNhIGRvIERy",
+      "reviewId": "U2FpYmEgcXVhbCBmb2kg",
       "humanApproval": {
         "status": "approved",
-        "approvedAt": "2026-06-15T18:30:00.000Z"
+        "approvedAt": "2026-06-15T20:05:00.000Z"
       }
     },
-    "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://alphafloripa.com/noticia/terceira-temporada-de-a-casa-do-dragao-divulga-primeiro-teaser-oficial/"
+    "imageCreditStatus": "page-extracted",
+    "imageCreditSourceUrl": "https://portalleodias.com/redes-sociais/virginia-fonseca-chega-a-globo-para-participacao-especial-no-domingao-com-huck"
   }
 ]
