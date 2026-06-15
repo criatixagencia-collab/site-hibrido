@@ -2,11 +2,11 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const QUEUE_FILE = path.resolve(__dirname, "..", "data", "review-queue.json");
-const MIN_WORDS = 45;
-const MAX_WORDS = 260;
-const MIN_CHARACTERS = 300;
-const MIN_PARAGRAPHS = 2;
-const MAX_PARAGRAPHS = 5;
+const MIN_WORDS = 30;
+const MAX_WORDS = 300;
+const MIN_CHARACTERS = 200;
+const MIN_PARAGRAPHS = 1;
+const MAX_PARAGRAPHS = 3;
 
 function wordCount(body) {
   return body.join(" ").trim().split(/\s+/).filter(Boolean).length;

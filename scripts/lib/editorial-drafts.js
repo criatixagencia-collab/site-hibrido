@@ -444,7 +444,7 @@ function generationMessages(item, evidenceClaims, correction = []) {
           "Use categoryHint quando ele combinar com a pauta; corrija apenas se estiver claramente errado.",
           "factualClaims deve listar, em frases curtas, todos os fatos efetivamente usados.",
           "imageSubject deve identificar exatamente quem ou o que precisa aparecer na foto.",
-          "Se nao houver fatos suficientes para pelo menos 45 palavras e 300 caracteres sem repeticao, use status reject.",
+          "Se nao houver fatos suficientes para pelo menos 30 palavras e 200 caracteres sem repeticao, use status reject.",
         ],
         outputFormat: {
           status: "draft or reject",

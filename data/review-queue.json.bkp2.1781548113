@@ -1,0 +1,1988 @@
+{
+  "workflowVersion": 2,
+  "generatedAt": "2026-06-15T15:55:48.506Z",
+  "status": "awaiting-human-review",
+  "count": 13,
+  "newsCount": 31,
+  "lastRun": {
+    "status": "target-met",
+    "candidatesAttempted": 13,
+    "approved": 12,
+    "rejected": 1,
+    "errors": 0,
+    "imageStage": "completed"
+  },
+  "items": [
+    {
+      "id": "R2F0byBpbnZhZGUgcGFs",
+      "reviewId": "R2F0byBpbnZhZGUgcGFs",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Gato invade palco, morde ator e rouba a cena em 'Romeu e Julieta' na Turquia",
+      "slug": "gato-invade-palco-morde-ator-e-rouba-a-cena-em-romeu-e-julieta-na-turquia",
+      "excerpt": "Felino interrompe espetáculo de balé na Turquia, morde ator brasileiro e vira estrela da noite.",
+      "body": [
+        "Um gato invadiu o palco durante uma apresentação de 'Romeu e Julieta' na Turquia e roubou a cena. O felino interferiu diretamente na cena, mordeu um ator brasileiro e acabou se tornando a estrela do espetáculo."
+      ],
+      "html": "<p>Um gato invadiu o palco durante uma apresentação de 'Romeu e Julieta' na Turquia e roubou a cena. O felino interferiu diretamente na cena, mordeu um ator brasileiro e acabou se tornando a estrela do espetáculo.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "gato",
+        "romeu e julieta",
+        "turquia",
+        "ator brasileiro",
+        "balé"
+      ],
+      "source": "UOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOanItZnhVZDQ3enBCRmtrRlFwdV92ZWFTUklVdlBtLWpyTFgwRXBvOUlvTFI5NXdLT0s3WFVIUHpnSmxxWFAxSlViMk5DS3JudFBxX1NuYUZEQTlweEw2anVtLWZ1OTljVDJrNmZ2aWkzbEVfS1M2eVJ4bXhRR1d3d0RmSlE2Z0N6Y2JtUV84bmZWTGZlQmRpNVJIUUtFdVduVUY5TFRwSnlFOFV4c2FXRUlQUktlVUdwUDdPcGRrelfSAcYBQVVfeXFMUHRmVXZ4Snpsd3h4eGVkRjJDMVRKbWlPMl9QUFJWNkVQSlFrc2tnY0w0eXVmTnE1NjYwTTZRZ3JXUXp4dlFkWVYwMW5GM3hiOThlOXIwSTZzemdmTC1ReEVETTA4WnFnSzE1UkdPaGk3WXRSSzJPUkxpU19Fem5iSHowN00tdk8zNEtoWnRLZlV1RG1weDVnTGhEMHBvQ3VjY0pVLVExTDI5T2F2MFBnbktZclV4bHh1ZVZva0xIZDJFZ00wcjRR?oc=5",
+      "evidenceSources": [
+        "UOL",
+        "oliberal.com",
+        "Notícias ao Minuto",
+        "ContilNet Notícias",
+        "TNOnline"
+      ],
+      "evidenceClaims": [
+        "Gato invade palco, interfere em cena de 'Romeu e Julieta' e vira estrela; veja",
+        "Gato invade palco de 'Romeu e Julieta', morde ator brasileiro e rouba a cena na Turquia | Cultura | O Liberal",
+        "\"Romeu e Julieta\"... e o gato? Felino invade peça na Turquia. Veja",
+        "Gato invade palco durante apresentação de balé e rouba a cena",
+        "Gato rouba a cena em Romeu e Julieta ao morder ator e estraga final do espetáculo; veja vídeo"
+      ],
+      "sourceCount": 5,
+      "score": 103,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "ator brasileiro mordido pelo gato",
+      "imageSearchQuery": "gato invade palco romeu e julieta turquia",
+      "imageAlt": "ator brasileiro mordido pelo gato",
+      "editorialMeta": {
+        "originalTitle": "Gato invade palco, interfere em cena de 'Romeu e Julieta' e vira estrela; veja",
+        "sourceId": "R2F0byBpbnZhZGUgcGFs",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Gato invade palco, interfere em cena de 'Romeu e Julieta' e vira estrela; veja"
+        ],
+        "generatedAt": "2026-06-15T15:55:28.132Z"
+      },
+      "createdAt": "2026-06-15T15:55:28.132Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://images.rfm.pt/gato-invade-orquestra-destaque8604133d_socialshare.jpg",
+          "pageUrl": "https://rfm.pt/atualidade/18014/gato-invade-palco-durante-concerto-de-musica-classica-e-musicos-continuaram-a-tocar",
+          "source": "Bing",
+          "title": "Gato invade palco durante concerto de música clássica e músicos ...",
+          "width": 1200,
+          "height": 630
+        },
+        {
+          "imageUrl": "https://www.tiktok.com/api/img/?itemId=7379998395093503238&location=0&aid=1988",
+          "pageUrl": "https://www.tiktok.com/@recordnews/video/7379998395093503238",
+          "source": "Bing",
+          "title": "Um gato virou protagonista durante um concerto na Turquia. O bichano e ...",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/1KF1QWgqU3I/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=1KF1QWgqU3I",
+          "source": "Bing",
+          "title": "Gato invade palco durante apresentação de orquestra - YouTube",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://cdn.folhape.com.br/img/c/800/600/dn_arquivo/2026/06/whatsapp-image-2026-06-15-at-123032.jpeg",
+          "pageUrl": "https://www.folhape.com.br/noticias/gato-invade-palco-de-romeu-e-julieta-morde-ator-brasileiro-e-rouba/494048/",
+          "source": "Bing",
+          "title": "Gato invade palco de 'Romeu e Julieta', morde ator brasileiro e rouba a ...",
+          "width": 474,
+          "height": 355
+        },
+        {
+          "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/2LDZCMNPRFETJJBF372SW44VXM.jpg?auth=5685c2194477dcd18b1212b51fc478642b5efe5b38bfd231f6548254d82723ac&width=1280&height=720",
+          "pageUrl": "https://entretenimento.r7.com/rpet/gato-invade-palco-de-romeu-e-julieta-morde-ator-brasileiro-e-estraga-final-tragico-14062026/",
+          "source": "Bing",
+          "title": "Gato invade palco de Romeu e Julieta, morde ator brasileiro e estraga ...",
+          "width": 474,
+          "height": 266
+        },
+        {
+          "imageUrl": "https://portaldozacarias.com.br/site/arquivos/imagens/noticias/2026/06/extra/20260614112512whatsapp_image_2026-06-14_at_11.22.35.jpeg",
+          "pageUrl": "https://portaldozacarias.com.br/site/noticia/gato-invade-palco--morde-ator-durante--romeu-e-julieta--e-rouba-a-cena-na-turquia--veja-video/",
+          "source": "Bing",
+          "title": "Notícias | Gato invade palco, morde ator durante 'Romeu e Julieta' e ...",
+          "width": 474,
+          "height": 266
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/qKy41WBnFsY/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=qKy41WBnFsY",
+          "source": "Bing",
+          "title": "Gato Invade Missa e Rosna Para Estatua de Maria, Todos Ficaram Pálidos ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1UBsEv.img?w=1280&h=720&m=4&q=79",
+          "pageUrl": "https://www.msn.com/pt-br/musica/noticias/gato-invade-palco-e-rouba-a-cena-durante-exame-de-m%C3%BAsica-universit%C3%A1rio-na-china/vi-AA1UBlCt",
+          "source": "Bing",
+          "title": "Gato invade palco e rouba a cena durante exame de música universitário ...",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "QSBtw7pzaWNhIHJlc2dh",
+      "reviewId": "QSBtw7pzaWNhIHJlc2dh",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Rush resgata “A Farewell to Kings” após 47 anos em show de reunião",
+      "slug": "rush-resgata-a-farewell-to-kings-apos-47-anos-em-show-de-reuniao",
+      "excerpt": "Banda tocou música pela primeira vez desde 1979 durante 4º show da turnê de retorno, com nova baterista Anika Nilles.",
+      "body": [
+        "O Rush tocou “A Farewell to Kings” pela primeira vez desde 1979 durante o quarto show da turnê de retorno da banda. A apresentação marcou a estreia da nova baterista Anika Nilles, que substitui o falecido Neil Peart."
+      ],
+      "html": "<p>O Rush tocou “A Farewell to Kings” pela primeira vez desde 1979 durante o quarto show da turnê de retorno da banda. A apresentação marcou a estreia da nova baterista Anika Nilles, que substitui o falecido Neil Peart.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Rush",
+        "Anika Nilles",
+        "A Farewell to Kings",
+        "turnê de retorno",
+        "bateria"
+      ],
+      "source": "Igor Miranda",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObkVPRmd5M0xaVUMzRE9sRVg4VGZUSWhBVzBDYTR1VzhSYmhHYzFZM190LVZRWV9sRWdCZlRjcm1hZFl4dnlsaUtqRnBCX29GbW5weW1wcFJXQUNaT0g4WUpFVDdadkZEN1M3YV9XYXdCcGZRN3BIWGFaZXEtOUUtRC0xU1FoTlFIZzhhTTEzeHZzNnZUaEJjdHZsQlBIUDgx?oc=5",
+      "evidenceSources": [
+        "Igor Miranda",
+        "Whiplash.Net Rock e Heavy Metal",
+        "Alpha FM",
+        "loudmagazine.net",
+        "Mundo Livre FM"
+      ],
+      "evidenceClaims": [
+        "A música resgatada pelo Rush após 47 anos em 4º show de reunião",
+        "A banda americana dos anos 1970 que é a maior influência da nova baterista do Rush",
+        "“Ainda estou tentando entender tudo o que aconteceu ontem à noite”, diz baterista Anika Nilles após primeiro show com Rush",
+        "RUSH: A 'drum-cam' do primeiro concerto com ANIKA NILLES no lugar de NEIL PEART para ver na íntegra [vídeo]",
+        "Rush toca “A Farewell to Kings” pela primeira vez desde 1979 em show da turnê de retorno"
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Anika Nilles",
+      "imageSearchQuery": "Anika Nilles Rush bateria show",
+      "imageAlt": "Anika Nilles",
+      "editorialMeta": {
+        "originalTitle": "A música resgatada pelo Rush após 47 anos em 4º show de reunião",
+        "sourceId": "QSBtw7pzaWNhIHJlc2dh",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.7,
+          "issues": [
+            "O título e o excerto afirmam que a música foi tocada pela primeira vez desde 1979, mas as evidências mostram que a manchete diz 'Rush toca “A Farewell to Kings” pela primeira vez desde 1979 em show da turnê de retorno', o que é consistente. No entanto, o corpo do texto afirma que a apresentação marcou a estreia da nova baterista Anika Nilles, mas as evidências não confirmam que ela tocou nessa música específica ou que foi sua estreia. As evidências mencionam 'primeiro concerto com Anika Nilles' e 'drum-cam do primeiro concerto', mas não vinculam explicitamente a estreia dela à execução de 'A Farewell to Kings'."
+          ],
+          "unsupportedClaims": [
+            "A apresentação marcou a estreia da nova baterista Anika Nilles"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "A música resgatada pelo Rush após 47 anos em 4º show de reunião"
+        ],
+        "generatedAt": "2026-06-15T15:55:05.188Z"
+      },
+      "createdAt": "2026-06-15T15:55:05.188Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://uploads.tenhomaisdiscosqueamigos.com/2025/10/Anika-Nilles-1151x768.jpg",
+          "pageUrl": "https://www.tenhomaisdiscosqueamigos.com/2025/10/06/quem-e-anika-nilles-rush/",
+          "source": "Bing",
+          "title": "Quem é Anika Nilles, nova baterista do Rush? | TMDQA!",
+          "width": 1151,
+          "height": 768
+        },
+        {
+          "imageUrl": "https://www.rollingstone.de/wp-content/uploads/2026/03/GettyImages-2268985742.jpeg",
+          "pageUrl": "https://www.rollingstone.de/rush-juno-awards-2026-anika-nilles-live-debuet-3126021/",
+          "source": "Bing",
+          "title": "Rush debütieren mit neuer Schlagzeugerin Anika Nilles bei den Juno ...",
+          "width": 5000,
+          "height": 3333
+        },
+        {
+          "imageUrl": "https://www.naijanews.com/buzz/wp-content/uploads/2025/10/Who-Is-Anika-Nilles-All-About-Rushs-New-Touring-Drummer-Five-Years-After-the-death-of-Drummer-Neil-Peart.jpeg",
+          "pageUrl": "https://www.naijanews.com/buzz/people/anika-nilles-rush-drummer/",
+          "source": "Bing",
+          "title": "Who Is Anika Nilles? All About Rush's New Touring Drummer Five Years ...",
+          "width": 1440,
+          "height": 960
+        },
+        {
+          "imageUrl": "https://www.syracuse.com/resizer/v2/LSDSENH2T5HRVBC7QZL5DX2XPA.jpg?auth=89417cc18b7fcdf58aac82de006e75009e3352836bcc5679e82d0866fc1d90ef&width=1280&smart=true&quality=90",
+          "pageUrl": "https://www.syracuse.com/entertainment/2026/03/legendary-rock-band-performs-with-new-drummer-for-first-time-video.html",
+          "source": "Bing",
+          "title": "Rush performs with new drummer Anika Nilles for first time (video ...",
+          "width": 1280,
+          "height": 773
+        },
+        {
+          "imageUrl": "https://www.rock-progresivo.com/wp-content/uploads/2025/10/Anika-Nilles-2.jpg",
+          "pageUrl": "https://www.rock-progresivo.com/quien-es-anika-nilles-la-baterista-rush/2025/10/",
+          "source": "Bing",
+          "title": "Quién es Anika Nilles, la baterista que sustituye a Neil Peart en Rush ...",
+          "width": 1600,
+          "height": 1068
+        },
+        {
+          "imageUrl": "https://drummerszone.media/news/2025/anika-nilles-joins-rush-in-their-new-live-chapter-13915-0-20251013160957.jpg",
+          "pageUrl": "https://drummerszone.com/news/article/artist-news-1-13915/anika-nilles-joins-rush-in-their-new-live-chapter/?language=2",
+          "source": "Bing",
+          "title": "Drummerszone news - Anika Nilles joins Rush in their new live chapter",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://roadiecrew.com/wp-content/uploads/ANIKA-NILLES.jpg",
+          "pageUrl": "https://roadiecrew.com/quem-e-anika-nilles-a-nova-baterista-de-turne-do-rush/",
+          "source": "Bing",
+          "title": "Quem é ANIKA NILLES, a nova baterista de turnê do RUSH - Roadie Crew",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "imageUrl": "https://rollingstone.com.br/wp-content/uploads/2025/10/anika-nilles-rush-2015-1-foto-Richard-Ecclestone-Redferns-1249152008.jpg",
+          "pageUrl": "https://rollingstone.com.br/musica/conheca-anika-nilles-baterista-que-tocara-com-o-rush-na-turne-de-2026/",
+          "source": "Bing",
+          "title": "Conheça Anika Nilles, baterista que tocará com o Rush na turnê de 2026",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "Q29yYcOnw6NvIEFjZWxl",
+      "reviewId": "Q29yYcOnw6NvIEFjZWxl",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Agrado e Leandro terminam namoro em 'Coração Acelerado'; João Raul se reaproxima",
+      "slug": "agrado-e-leandro-terminam-namoro-em-coracao-acelerado-joao-raul-se-reaproxima",
+      "excerpt": "A música \"Coração Acelerado\" revela o fim do namoro de Agrado e Leandro, com João Raul reconquistando a amada.",
+      "body": [
+        "A música \"Coração Acelerado\" acaba de vez com o namoro de Agrado e Leandro. O spoiler da trama confirma o término do relacionamento entre os dois personagens."
+      ],
+      "html": "<p>A música \"Coração Acelerado\" acaba de vez com o namoro de Agrado e Leandro. O spoiler da trama confirma o término do relacionamento entre os dois personagens.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Coração Acelerado",
+        "Agrado",
+        "Leandro",
+        "João Raul",
+        "término",
+        "reaproximação"
+      ],
+      "source": "NSC Total",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMklxaVpBLWdWNmh2aGZveTZ5ZGMyZU5mZ1pWYTU3WFJYY005Y3BwWW0wM0sxQVdlZDlMNkxQXzBKM00tTW5ZMGwzR1lxb2JrZVJocG9DbTRTTVNSX292WXQyNGF0N1g0d1djckFPMVpfUXc2cUdoN1lvOVpEUGVfdFVDUGpZM0E1RmZ5SkFiWUI4QktXWDVrWE8xRFoyQ0NqaWdPbXgwVTUyaEVtTnE0TkFQcTBMY3htRXZRWVNR?oc=5",
+      "evidenceSources": [
+        "NSC Total",
+        "Gshow",
+        "Notícias da TV",
+        "O TEMPO",
+        "ac24horas"
+      ],
+      "evidenceClaims": [
+        "Coração Acelerado: música com João Raul acaba de vez com o namoro de Agrado e Leandro",
+        "Spoiler de Coração Acelerado: Agrado e Leandro terminam namoro",
+        "Como João Raul reconquista Agrado com dancinha da sedução em Coração Acelerado",
+        "Agrado perde o amor, mas uma canção pode mudar tudo em 'Coração Acelerado'",
+        "Vão voltar? João e Agrado se reaproximam em Coração Acelerado, e Leandro desiste"
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Agrado e João Raul",
+      "imageSearchQuery": "Agrado e João Raul Coração Acelerado",
+      "imageAlt": "Agrado e João Raul",
+      "editorialMeta": {
+        "originalTitle": "Coração Acelerado: música com João Raul acaba de vez com o namoro de Agrado e Leandro",
+        "sourceId": "Q29yYcOnw6NvIEFjZWxl",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "O título do rascunho afirma que João Raul se reaproxima, mas as evidências não apoiam explicitamente que ele se reaproxima após o término; as evidências mencionam reaproximação, mas não especificam o contexto temporal.",
+            "O corpo do rascunho afirma que a música 'Coração Acelerado' acaba de vez com o namoro, mas as evidências não mostram que a música é a causa direta do término; apenas que há spoiler sobre o término e que a música está associada a João Raul."
+          ],
+          "unsupportedClaims": [
+            "A música 'Coração Acelerado' acaba de vez com o namoro de Agrado e Leandro (causalidade não apoiada pelas evidências)"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Coração Acelerado: música com João Raul acaba de vez com o namoro de Agrado e Leandro"
+        ],
+        "generatedAt": "2026-06-15T15:54:43.625Z"
+      },
+      "createdAt": "2026-06-15T15:54:43.625Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www.centraldoentretenimento.com/wp-content/uploads/2025/12/coracaoaceleradotv_1766074012664-scaled.jpeg",
+          "pageUrl": "https://www.centraldoentretenimento.com/coracao-acelerado-agrado-garcia-e-joao-raul-duas-vozes-ligadas-pelo-batimento-acelerado-do-coracao/",
+          "source": "Bing",
+          "title": "Coração Acelerado | Agrado Garcia e João Raul, duas vozes ligadas pelo ...",
+          "width": 2560,
+          "height": 1737
+        },
+        {
+          "imageUrl": "https://s2-redeglobo.glbimg.com/hlG9VO7qBTFNdLoN4iBBM0ZuNRY=/2362x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2026/U/M/lz4QSTShuls01gbOQwQg/assets-fotos-1297-estreia-de-coracao-acelerado-agrado-se-inscreve-em-concurso-mirim-em-bom-retorno-e-conhece-joao-raul-e90ff6a2bbf8.jpg",
+          "pageUrl": "https://redeglobo.globo.com/redebahia/noticia/agrado-e-joao-raul-se-conhecem-na-estreia-de-coracao-acelerado.ghtml",
+          "source": "Bing",
+          "title": "Agrado e João Raul se conhecem na estreia de 'Coração Acelerado' | Rede ...",
+          "width": 2362,
+          "height": 1575
+        },
+        {
+          "imageUrl": "https://s2-redeglobo.glbimg.com/aGooV8GCj4lu7Jd4JZGz2Zt60Yk=/2362x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2025/4/g/1ELzm1Q6mtGaLbsX0UBQ/assets-fotos-1297-agrado-joao-raul-e-naiane-o-trio-que-faz-o-coracao-da-nova-trama-das-sete-pulsar-a4126696a064.jpg",
+          "pageUrl": "https://redeglobo.globo.com/redebahia/noticia/coracao-acelerado-conheca-agrado-joao-raul-e-naiane-protagonistas-da-proxima-novela-das-sete-da-tv-globo.ghtml",
+          "source": "Bing",
+          "title": "'Coração Acelerado': conheça Agrado, João Raul e Naiane, protagonistas ...",
+          "width": 2362,
+          "height": 3543
+        },
+        {
+          "imageUrl": "https://s2-oglobo.glbimg.com/0hLn-DR-k3G6P3xqWK920Z_qnSE=/0x0:565x455/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/L/R/TcUDwWS9esRznxP2rNIg/joaoagrado.png",
+          "pageUrl": "https://oglobo.globo.com/play/novelas/noticia/2025/11/21/coracao-acelerado-tera-clipes-musicais-com-casal-protagonista.ghtml",
+          "source": "Bing",
+          "title": "'Coração acelerado' terá clipes musicais com casal protagonista",
+          "width": 888,
+          "height": 715
+        },
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2026/01/agrado-e-joao-raul-coracao-acelerado.jpg",
+          "pageUrl": "https://caras.com.br/novelas/coracao-acelerado-como-sera-o-reencontro-entre-agrado-e-joao-raul.phtml",
+          "source": "Bing",
+          "title": "Coração Acelerado: como será o reencontro entre Agrado e João Raul ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://s2-g1.glbimg.com/pba2ZGH-Papw9vRKkmTXzCzBw-M=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/A/A/6gbNBRRAqsYgph33TBng/agradojoao-manoellamello.jpg",
+          "pageUrl": "https://g1.globo.com/pop-arte/musica/blog/mauro-ferreira/post/2025/10/25/conheca-agrado-garcia-e-joao-raul-cantores-da-ficcao-que-guiam-a-trama-sertaneja-da-novela-coracao-acelerado.ghtml",
+          "source": "Bing",
+          "title": "Conheça Agrado Garcia e João Raul, cantores da ficção que guiam a trama ...",
+          "width": 1400,
+          "height": 2950
+        },
+        {
+          "imageUrl": "https://ocanal.com/wp-content/uploads/2026/01/coracao-acelerado-joao-raul-e-agrado.jpg",
+          "pageUrl": "https://ocanal.com/coracao-acelerado-joao-raul-e-agrado-ficam-juntos/",
+          "source": "Bing",
+          "title": "Coração Acelerado: João Raul e Agrado ficam juntos",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://s2-extra.glbimg.com/t2C0annpR9uKMf6a4U2uYHyDnSs=/1600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2025/t/F/hoSmycT9G62iFSJnKZPA/assets-fotos-336-a-musica-como-protagonista-a-construcao-da-trilha-sonora-de-coracao-acelerado-85f090774fdc.jpg",
+          "pageUrl": "https://extra.globo.com/entretenimento/tv/noticia/2026/01/em-coracao-acelerado-joao-raul-se-declara-para-agrado-apos-reencontro-epico-romantico-diz-filipe-braganca.ghtml",
+          "source": "Bing",
+          "title": "Em 'Coração acelerado', João Raul se declara para Agrado após ...",
+          "width": 1600,
+          "height": 1067
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "TWFkb25uYSBlc3Rhcmlh",
+      "reviewId": "TWFkb25uYSBlc3Rhcmlh",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Madonna e Noel Gallagher agitam bastidores da Copa do Mundo",
+      "slug": "madonna-e-noel-gallagher-agitam-bastidores-da-copa-do-mundo",
+      "excerpt": "Madonna causa polêmica com exigências para show na Copa, enquanto Noel Gallagher critica intervalo e torce pelo Brasil na final.",
+      "body": [
+        "Madonna estaria deixando executivos da FIFA de “cabelo em pé” com suas exigências extravagantes para um possível show na Copa do Mundo, de acordo com informações de um tabloide. A cantora, conhecida por seus pedidos detalhados, teria gerado preocupação nos bastidores do evento esportivo."
+      ],
+      "html": "<p>Madonna estaria deixando executivos da FIFA de “cabelo em pé” com suas exigências extravagantes para um possível show na Copa do Mundo, de acordo com informações de um tabloide. A cantora, conhecida por seus pedidos detalhados, teria gerado preocupação nos bastidores do evento esportivo.</p>",
+      "category": "Música",
+      "market": "brasil",
+      "tags": [
+        "Madonna",
+        "Noel Gallagher",
+        "Copa do Mundo",
+        "FIFA",
+        "show intervalo"
+      ],
+      "source": "papelpop",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdUQzRS1JeFoyTk5jVnpIM0NKc1hrVkpvci05dEVOTFN6OHhmS0dGQTRUWEd2c2pTRkhBWmRpMkxLYk5MWmVXT3ZpVTFhS2hrYkFoNHBER0lDVmVROS0tZ0tsNGZjbnhFalpQN2NpaWJ2LWVwY18xd0ZzVHpHTks1TjRObkkwdUI5WTZuLS1jdWp5SmtOOXhxMXZxZUxLeF9GVmRIdkZZaWlteHgzeVB4Wk03Q2MtbTRicWJnVEVoLWs?oc=5",
+      "evidenceSources": [
+        "papelpop",
+        "Tenho Mais Discos Que Amigos",
+        "Rede Atlântida",
+        "Alpha FM",
+        "Revista Fórum"
+      ],
+      "evidenceClaims": [
+        "Madonna estaria deixando executivos da FIFA de “cabelo em pé” com show na Copa, diz tabloide",
+        "Noel Gallagher revela torcida para ver o Brasil na final da Copa do Mundo",
+        "Noel Gallagher critica show do intervalo da Copa do Mundo 2026: “Não gosto de mudanças no futebol”",
+        "Noel Gallagher desaprova show de intervalo da final da Copa do Mundo",
+        "Madonna e suas exigências extravagantes para a Copa"
+      ],
+      "sourceCount": 5,
+      "score": 106,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Madonna e Noel Gallagher",
+      "imageSearchQuery": "Madonna Noel Gallagher Copa do Mundo",
+      "imageAlt": "Madonna e Noel Gallagher",
+      "editorialMeta": {
+        "originalTitle": "Madonna estaria deixando executivos da FIFA de “cabelo em pé” com show na Copa, diz tabloide",
+        "sourceId": "TWFkb25uYSBlc3Rhcmlh",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Madonna estaria deixando executivos da FIFA de “cabelo em pé” com show na Copa, diz tabloide"
+        ],
+        "generatedAt": "2026-06-15T15:54:23.599Z"
+      },
+      "createdAt": "2026-06-15T15:54:23.599Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www.famosas.es/wp-content/uploads/2017/12/madonna-y-Noel-Gallagher-.png",
+          "pageUrl": "https://www.famosas.es/artista-madonna-hizo-presencia/",
+          "source": "Bing",
+          "title": "Artista Madonna hizo presencia en la fiesta del rockero Noel Gallagher",
+          "width": 776,
+          "height": 569
+        },
+        {
+          "imageUrl": "https://cdn1.faroutmagazine.co.uk/uploads/1/2026/01/Noel-Gallagher-Madonna-Split-Far-Out-Magazine.jpg",
+          "pageUrl": "https://faroutmagazine.co.uk/the-singer-noel-gallagher-believes-took-music-to-the-edge/",
+          "source": "Bing",
+          "title": "Noel Gallagher on how Madonna took music to \"the edge\"",
+          "width": 1200,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/nffCzct3sFo/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLD9N78JBsnYKE4q_sA4dJmLoqB4mQ",
+          "pageUrl": "https://www.youtube.com/shorts/nffCzct3sFo",
+          "source": "Bing",
+          "title": "Noel Gallagher And Madonna In London Last Night. #oasis - YouTube",
+          "width": 405,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://cdn.images.express.co.uk/img/dynamic/35/590x/secondary/Madonna-262968.jpg?r=1686998680160",
+          "pageUrl": "https://www.express.co.uk/entertainment/music/563023/Madonna-rebel-heart-album-charts-noel-gallagher",
+          "source": "Bing",
+          "title": "Madonna vs Noel Gallagher in album chart race with rebel Heart | Music ...",
+          "width": 590,
+          "height": 350
+        },
+        {
+          "imageUrl": "https://www.lifeboxset.com/wp-content/uploads/2018/05/www.lifeboxset.com-quien-ganara-la-proxima-copa-mundial-de-futbol-noel-gallagher-nos-da-su-opinion-ppp.jpg",
+          "pageUrl": "https://www.lifeboxset.com/x-adx-si/quien-ganara-la-proxima-copa-mundial-de-futbol-noel-gallagher-nos-da-su-opinion/",
+          "source": "Bing",
+          "title": "Noel Gallagher revela su favorito para ganar la Copa Mundial de Fútbol",
+          "width": 4088,
+          "height": 2044
+        },
+        {
+          "imageUrl": "https://portalpopline.com.br/wp-content/uploads/2026/06/noel-gallagher-madonna-bts-copa-do-mundo.jpg",
+          "pageUrl": "https://portalpopline.com.br/noel-gallagher-copa-do-mundo-madonna-bts/",
+          "source": "Bing",
+          "title": "O motivo pelo qual Noel Gallagher prefere \"sorteio de cordeiro\" a ver ...",
+          "width": 474,
+          "height": 356
+        },
+        {
+          "imageUrl": "https://portalpopline.com.br/wp-content/uploads/2026/06/noel-gallagher-bts-copa-do-mundo-2026.jpg",
+          "pageUrl": "https://portalpopline.com.br/noel-gallagher-copa-do-mundo-madonna-bts/",
+          "source": "Bing",
+          "title": "O motivo pelo qual Noel Gallagher prefere \"sorteio de cordeiro\" a ver ...",
+          "width": 474,
+          "height": 356
+        },
+        {
+          "imageUrl": "https://conteudo.imguol.com.br/c/esporte/cd/2022/05/23/noel-gallagher-apos-manchester-city-conquistar-o-titulo-do-campeonato-ingles-da-temporada-2021-22-1653318295500_v2_450x450.jpg",
+          "pageUrl": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2023/06/11/champions-torcedor-do-city-noel-gallagher-celebra-titulo-ao-som-de-oasis.htm",
+          "source": "Bing",
+          "title": "Champions: Fã do City, Noel Gallagher celebra título cantando Oasis",
+          "width": 450,
+          "height": 450
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "SXNhYmVsIFRlaXhlaXJh",
+      "reviewId": "SXNhYmVsIFRlaXhlaXJh",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Isabel Teixeira fala sobre sabedoria e dispara em buscas após Pilar",
+      "slug": "isabel-teixeira-fala-sobre-sabedoria-e-dispara-em-buscas-apos-pilar",
+      "excerpt": "Atriz comenta envelhecimento e vê alta nas pesquisas com reviravolta de sua vilã em “Quem Ama Cuida”.",
+      "body": [
+        "Isabel Teixeira comentou sobre a passagem do tempo em meio ao sucesso de sua personagem em “Quem Ama Cuida”. A atriz afirmou que, a partir de uma certa idade, as mulheres se tornam sábias e feiticeiras. A declaração ocorre no primeiro mês da trama, que registrou aumento nas buscas por seu nome."
+      ],
+      "html": "<p>Isabel Teixeira comentou sobre a passagem do tempo em meio ao sucesso de sua personagem em “Quem Ama Cuida”. A atriz afirmou que, a partir de uma certa idade, as mulheres se tornam sábias e feiticeiras. A declaração ocorre no primeiro mês da trama, que registrou aumento nas buscas por seu nome.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "Isabel Teixeira",
+        "Quem Ama Cuida",
+        "Pilar",
+        "novela",
+        "famosos"
+      ],
+      "source": "O Globo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdDFfOTFiV2xrTVdQTFFWZjhVdjJ5UDE3LXZQMnZiemU2b3R2Y0JVM2V6bzBfdFY4eXRnTzg4TFlkQVVyUml5QUlZOTgyQ19Wd3NQMEhzTDNuTTIxZXpTUEpTUUFXX0V5QVNXdU92SkEyYzVjTGg4Z1JNLWNtQWIzUWRSaFJicmVjQkN2NUsyaGdsTWlZOFh5bWlDTWZzVXdSTVJ0VkllRnhVQmZYcXhGSkh5N3Brall0Y0RObkx6bExndXctWkduZzVzUzBCVFRpRzFCQXdpcFhGdlk2WDkzVHRKOVU5SjBrVjU5VEt2cFhrSlZ6RERR0gGGAkFVX3lxTE5jYWdwREc3WjhrUHc5NnN3dE5BVnBzamtkbnpuNWx6OUEzXy15Qlg1V0xCdjRXTVJvUnRFLUVYc0ZpakhaeGttbjJJS1QzemlSazBVcmJqUVQtQUE3WWdtYkplY1dBX3hNNl8zeG9UOVRIRVZ3T0tfNTZTeHJiaEc0d0c2R2tKRllEdnZfcUNzRlE5eVI0TVBqMFBXN3FwcEI2c0JxU3gxekhhNHJIRXVibHRiZzJ1Um02U3d1Yld2VjM0cEJBR21jSHFMOUpWcDVVT2VzbnJ2TU00SVkxeXYyMld3ZXRxbXo2QmhteEY0b19JWm14cUE2N19qQUdMX3k1U1czRHc?oc=5",
+      "evidenceSources": [
+        "O Globo",
+        "Notícias da TV",
+        "CNN Brasil",
+        "ofuxico.com.br",
+        "O TEMPO"
+      ],
+      "evidenceClaims": [
+        "Isabel Teixeira fala sobre passagem do tempo: 'A partir de uma certa idade, nos tornamos sábias, feiticeiras'",
+        "Vilã para amar? Nem pensar! Por que Pilar só dá ranço em Quem Ama Cuida",
+        "1º mês de \"Quem Ama Cuida\" tem aumento nas buscas por Isabel Teixeira",
+        "Isabel Teixeira dispara nas buscas após reviravolta de Pilar em ‘Quem Ama Cuida’",
+        "Opinião: Tony Ramos e Isabel Teixeira dão show em cena explosiva de Quem Ama Cuida"
+      ],
+      "sourceCount": 5,
+      "score": 108,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Isabel Teixeira",
+      "imageSearchQuery": "Isabel Teixeira Quem Ama Cuida",
+      "imageAlt": "Isabel Teixeira",
+      "editorialMeta": {
+        "originalTitle": "Isabel Teixeira fala sobre passagem do tempo: 'A partir de uma certa idade, nos tornamos sábias, feiticeiras'",
+        "sourceId": "SXNhYmVsIFRlaXhlaXJh",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Isabel Teixeira fala sobre passagem do tempo: 'A partir de uma certa idade, nos tornamos sábias, feiticeiras'"
+        ],
+        "generatedAt": "2026-06-15T15:54:00.066Z"
+      },
+      "createdAt": "2026-06-15T15:54:00.066Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://f.i.uol.com.br/fotografia/2026/04/06/177551247869d42b9e123a0_1775512478_3x2_rt.jpg",
+          "pageUrl": "https://f5.folha.uol.com.br/colunistas/outro-canal/2026/04/isabel-teixeira-diz-que-tinha-meta-de-viver-vila-em-novela-das-nove-nao-queria-ficar-so-no-teatro.shtml",
+          "source": "Bing",
+          "title": "'Quem Ama Cuida': Isabel Teixeira revela meta com vilã - 27/04/2026 ...",
+          "width": 2400,
+          "height": 1600
+        },
+        {
+          "imageUrl": "https://atitudeevisao.com.br/wp-content/uploads/2025/10/Vila-de-quem-ama-cuida.jpg",
+          "pageUrl": "https://atitudeevisao.com.br/isabel-teixeira-surpreende-como-vila-em-nova-novela-de-walcyr-carrasco-quem-ama-cuida-promete-reviravoltas-explosivas/",
+          "source": "Bing",
+          "title": "Isabel Teixeira surpreende como vilã em nova novela de Walcyr Carrasco ...",
+          "width": 1200,
+          "height": 799
+        },
+        {
+          "imageUrl": "https://zappeando.com.br/wp-content/uploads/2025/11/isabel-teixeira-1125-1400x800-1.jpg",
+          "pageUrl": "https://zappeando.com.br/novelas/tudo-sobre-quem-ama-cuida-substituta-de-tres-gracas",
+          "source": "Bing",
+          "title": "Tudo sobre \"Quem Ama, Cuida\", substituta de \"Três Graças\"",
+          "width": 1400,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://img.observatoriodatv.com.br/wp-content/uploads/2026/04/Isabel-Teixeira.jpg.webp",
+          "pageUrl": "https://observatoriodatv.com.br/colunas/lais-seguin/isabel-teixeira-retorna-as-novelas-apos-volta-por-cima-e-vive-pilar-em-quem-ama-cuida",
+          "source": "Bing",
+          "title": "Isabel Teixeira retorna às novelas após Volta por Cima e vive Pilar em ...",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2025/12/22/data-de-estreia-de-quem-ama-cuida-pode-mudar-enquanto-tres-gracas-prepara-viradas-decisivas-69493fc3d509f.webp",
+          "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/data-de-estreia-de-quem-ama-cuida-pode-mudar-enquanto-tres-gracas-prepara-viradas-decisivas.html",
+          "source": "Bing",
+          "title": "Data de estreia de 'Quem Ama Cuida' pode mudar enquanto 'Três Graças ...",
+          "width": 1280,
+          "height": 728
+        },
+        {
+          "imageUrl": "https://www.band.com.br/_next/image?url=https:%2F%2Fimg.band.com.br%2Fimage%2F2026%2F04%2F09%2Fnucleo-da-vila-pilar-interpretada-por-isabel-teixeira-104118.jpg&w=1920&q=75",
+          "pageUrl": "https://www.band.com.br/entretenimento/novela/noticias/quem-ama-cuida-e-primeira-novela-de-tata-werneck-desde-2023-202604091106",
+          "source": "Bing",
+          "title": "'Quem Ama Cuida' é primeira novela de Tatá Werneck desde 2023; entenda",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2026/04/23/1707244126-pilar-isabel-teixeira-em-quem-ama-cuida-1.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/tv/novelas/vila-de-quem-ama-cuida-promete-desprezo-aos-pobres-ao-estilo-odete-roitman,17ce5b667979e74a95e11c74d46f4ea4etyz1qju.html",
+          "source": "Bing",
+          "title": "Vilã de 'Quem Ama Cuida' promete desprezo aos pobres ao estilo Odete ...",
+          "width": 774,
+          "height": 435
+        },
+        {
+          "imageUrl": "https://imagem.natelinha.uol.com.br/original/globo-quem-ama-cuida-o-que-se-sabe-sobre-proxima-novela-das-nove_9307.jpeg",
+          "pageUrl": "https://natelinha.uol.com.br/novelas/2026/02/26/quem-ama-cuida-o-que-ja-se-sabe-sobre-a-proxima-novela-das-21h-da-globo-238486.php",
+          "source": "Bing",
+          "title": "Quem Ama Cuida: O que já se sabe sobre a próxima novela das 21h da Globo?",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "RW5jb250cm8gZGUgRm9s",
+      "reviewId": "RW5jb250cm8gZGUgRm9s",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Teresina recebe Encontro de Folguedos e Festival de Quadrilhas neste domingo",
+      "slug": "teresina-recebe-encontro-de-folguedos-e-festival-de-quadrilhas-neste-domingo",
+      "excerpt": "Encontro Nacional de Folguedos começa neste domingo (14) em Teresina, com Festival de Quadrilhas e 13 grupos participantes.",
+      "body": [
+        "O Encontro Nacional de Folguedos, evento que destaca a cultura popular, começa neste domingo (14) em Teresina. A programação inclui o Festival de Quadrilhas, que reúne 13 grupos na competição."
+      ],
+      "html": "<p>O Encontro Nacional de Folguedos, evento que destaca a cultura popular, começa neste domingo (14) em Teresina. A programação inclui o Festival de Quadrilhas, que reúne 13 grupos na competição.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Encontro de Folguedos",
+        "Festival de Quadrilhas",
+        "Teresina"
+      ],
+      "source": "CidadeVerde.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS21wV3psZk15eFZMN21BNTM2NmxfWnRPeWN0NW1YOXZCTmlmTl9qV3JiRzJTbHY0cWRyaXBEaWNkTGF4bV8ySG9YZi1PVUlUVm04R0k4d0JRQzBJb1NFVWt5OVJIdlJsWS12U1lvQ0hVRlVWNDRuUTZWSHYyMUptZDNrWGNlLWhld3Rha2p2MWYzVkJ4ZTVUUWc1Tm9WRV9VMkVkbmt0Wlk5aDVTZnVRdw?oc=5",
+      "evidenceSources": [
+        "CidadeVerde.com",
+        "GP1",
+        "clubenoticias.com",
+        "Viagora",
+        "Portal R10"
+      ],
+      "evidenceClaims": [
+        "Encontro de Folguedos destaca cultura popular e começa neste domingo (14)",
+        "Festival de Quadrilhas reúne 13 grupos no Encontro Nacional de Folguedos; veja participantes",
+        "Cidade Junina 2026 contará com cobertura médica durante os três dias de evento",
+        "Teresina recebe o 48º Festival de Bois do Piauí com apresentações gratuitas",
+        "Folguedos São João reúne milhares de pessoas em Teresina e governador destaca geração de renda"
+      ],
+      "sourceCount": 5,
+      "score": 108,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "participantes do Festival de Quadrilhas",
+      "imageSearchQuery": "Festival de Quadrilhas Teresina",
+      "imageAlt": "participantes do Festival de Quadrilhas",
+      "editorialMeta": {
+        "originalTitle": "Encontro de Folguedos destaca cultura popular e começa neste domingo (14)",
+        "sourceId": "RW5jb250cm8gZGUgRm9s",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Encontro de Folguedos destaca cultura popular e começa neste domingo (14)"
+        ],
+        "generatedAt": "2026-06-15T15:53:34.953Z"
+      },
+      "createdAt": "2026-06-15T15:53:34.953Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://www2.picos.pi.gov.br/wp-content/uploads/2025/06/IMG_9874-Enhanced-NR.jpg",
+          "pageUrl": "https://www2.picos.pi.gov.br/sem-categoria/explosao-estrelar-de-teresina-conquista-o-festival-de-quadrilhas-do-picos-cidade-junina/",
+          "source": "Bing",
+          "title": "PREFEITURA DE PICOS Explosão Estrelar de Teresina conquista o Festival ...",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "imageUrl": "https://tvnpiaui.com.br/wp-content/uploads/2024/06/drpessoaquadrilhasjuninas-scaled.jpeg",
+          "pageUrl": "https://tvnpiaui.com.br/2024/06/25/fundacao-monsenhor-chaves-adia-festival-de-quadrilhas-de-teresina-para-o-mes-de-julho/",
+          "source": "Bing",
+          "title": "Fundação Monsenhor Chaves adia festival de quadrilhas de Teresina para ...",
+          "width": 2560,
+          "height": 1720
+        },
+        {
+          "imageUrl": "https://edcicero.com.br/wp-content/uploads/2024/06/sao-joao-quadrilha-e1719052360863-750x534.jpg",
+          "pageUrl": "https://edcicero.com.br/prefeitura-de-teresina-divulga-ordem-de-apresentacao-das-quadrilhas-no-festival-municipal/",
+          "source": "Bing",
+          "title": "Confira ordem de apresentação das quadrilhas no Festival Viva São João ...",
+          "width": 750,
+          "height": 534
+        },
+        {
+          "imageUrl": "https://piauihoje.com/uploads/imagens/captura-de-tela-2024-06-27-141433-1719508545.png",
+          "pageUrl": "https://piauihoje.com/noticias/cultura/teresina-sedia-xx-festival-nordestao-de-quadrilhas-juninas-com-grupos-de-todo-o-pais-425058.html",
+          "source": "Bing",
+          "title": "Teresina sedia XX Festival Nordestão de Quadrilhas Juninas com grupos ...",
+          "width": 460,
+          "height": 477
+        },
+        {
+          "imageUrl": "https://180graus.com/180graus/media/image_bank/2024/6/foto_-536210281917596894.jpeg.1200x0_q85_crop.jpg",
+          "pageUrl": "https://180graus.com/noticias/xx-festival-nordestao-de-quadrilhas-juninas-reune-em-teresina-os-melhores-grupos-culturais-do-pais/",
+          "source": "Bing",
+          "title": "XX Festival Nordestão de Quadrilhas Juninas reúne em Teresina os ...",
+          "width": 1000,
+          "height": 622
+        },
+        {
+          "imageUrl": "https://edcicero.com.br/wp-content/uploads/2024/06/luar-do-sao-joao-750x535.jpg",
+          "pageUrl": "https://edcicero.com.br/festival-vai-reunir-mais-de-40-quadrilhas-juninas-em-teresina/",
+          "source": "Bing",
+          "title": "Festival vai reunir mais de 40 quadrilhas juninas em Teresina - Edcícero",
+          "width": 750,
+          "height": 535
+        },
+        {
+          "imageUrl": "https://www.blogdovelame.com/wp-content/uploads/2025/06/IMG_2567.jpeg",
+          "pageUrl": "https://www.blogdovelame.com/festival-de-quadrilhas-promete-movimentar-feira-com-dois-dias-de-cultura-e-tradicao/",
+          "source": "Bing",
+          "title": "Festival de Quadrilhas promete movimentar Feira, com dois dias de ...",
+          "width": 1299,
+          "height": 866
+        },
+        {
+          "imageUrl": "https://180graus.com/180graus/media/image_bank/2024/5/freepik_9087190176245042667.jpeg.1200x0_q85_crop.jpg",
+          "pageUrl": "https://180graus.com/blog-geral/teresina-tera-grande-festival-junino-com-competicoes-de-quadrilhas-e-shows-gratuitos/",
+          "source": "Bing",
+          "title": "Teresina terá grande Festival junino com competições de quadrilhas e ...",
+          "width": 740,
+          "height": 492
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "RGUgbG9vayB0cmFuc3Bh",
+      "reviewId": "RGUgbG9vayB0cmFuc3Bh",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Filha de Sheila Mello a esnoba em show: \"Ninguém te conhece\"",
+      "slug": "filha-de-sheila-mello-a-esnoba-em-show-ninguem-te-conhece",
+      "excerpt": "Sheila Mello é alvo de comentário polêmico da filha durante apresentação.",
+      "body": [
+        "Sheila Mello, eterna loira do grupo É o Tchan, foi surpreendida por um comentário direto e constrangedor de sua filha durante um show. A dançarina, que se apresentava com um look transparente e recortes ousados, ouviu da herdeira que não é mais reconhecida pelo público jovem presente no evento."
+      ],
+      "html": "<p>Sheila Mello, eterna loira do grupo É o Tchan, foi surpreendida por um comentário direto e constrangedor de sua filha durante um show. A dançarina, que se apresentava com um look transparente e recortes ousados, ouviu da herdeira que não é mais reconhecida pelo público jovem presente no evento.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Sheila Mello",
+        "filha",
+        "É o Tchan",
+        "fama",
+        "show"
+      ],
+      "source": "purepeople.com.br",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQdXlHNWdmSzJSYUcxQ19EelJwLTkwVU16bHBiSlV2SXEyNkhxNGhzWlo4TXZ1b3h1RlRjSUNzbTBET28xNHZqQXNVQmwwSGxKS0ZEbkRIdnVOdElTTE9aaU9LUThOSlhEd0FSOUc1UVhBRWxYV2Jlc21sR2tfU1ZwTEhxZ0RrSzIyTklGcy1OdXRDcjNZVW4tb3d0VDZ0alpTa2RvNmQ0VnRoM3FoODJfWWZCYVRWdkhVV3RNR1M2ZC10TXRFaWlibFJKNFE3STl2SlFxaldkYjlSSGE2bEVTa2RXRnMySTZwYmhoZ2xpY0FQcXR2dmfSAfsBQVVfeXFMTXpEeTZGc3JTOVJKVHY5OGJoaG9iUDFPcDFscVNMUWJsWmM2TzFmdGxULVJMRXZJVWdKTFdaalllaHZGQjZ1MWdwN1lrNXRJV24wWkZQUndDUkdtUG40UkJkYllXaDdCNzVGMnBRaHV4SkZKNzU1TWJhNHpacUFCdUJUdko1a1JZLWdMOWVEM2VtU2o0YjkyQnkxMWhCSE1hTm9NOWdBdVBDdEdBSjFDY1EzMEp5ZjdJSHVjTFNuM0dOMTBPN2xNYldNbVBxSkpnS3QyRm1XVVctaS0xMUJDMERjTjBQNVMxUXJWeENaZW9OM21Uc0VIbjYzUUE?oc=5",
+      "evidenceSources": [
+        "purepeople.com.br",
+        "VEJA",
+        "BOL",
+        "Globo",
+        "Rádio Itatiaia"
+      ],
+      "evidenceClaims": [
+        "De look transparente e com recortes ousados, Sheila Mello, eterna loira do É o Tchan, é alvo de comentário polêmico da filha em show: 'Ninguém te conhece'",
+        "Filha de Sheila Mello esnoba fama da mãe: ‘Ninguém te conhece’",
+        "'Ninguém te conhece não, mãe. Só tem jovem!', dispara filha de Sheila Mello sobre fama",
+        "Sheila Mello é trollada pela filha sósia: 'Ninguém te conhece, mãe. Só tem jovem'; vídeos",
+        "Sheila Mello é surpreendida por resposta direta da filha: 'Ninguém te conhece'"
+      ],
+      "sourceCount": 5,
+      "score": 109,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Sheila Mello",
+      "imageSearchQuery": "Sheila Mello show look transparente",
+      "imageAlt": "Sheila Mello",
+      "editorialMeta": {
+        "originalTitle": "De look transparente e com recortes ousados, Sheila Mello, eterna loira do É o Tchan, é alvo de comentário polêmico da filha em show: 'Ninguém te conhece'",
+        "sourceId": "RGUgbG9vayB0cmFuc3Bh",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "De look transparente e com recortes ousados, Sheila Mello, eterna loira do É o Tchan, é alvo de comentário polêmico da filha em show: 'Ninguém te conhece'"
+        ],
+        "generatedAt": "2026-06-15T15:53:16.422Z"
+      },
+      "createdAt": "2026-06-15T15:53:16.422Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://caras.com.br/wp-content/uploads/2022-dezembro/sheila-mello-dancando-palco-com-e-o-tchan.jpg",
+          "pageUrl": "https://caras.com.br/beleza/de-body-transparente-e-shortinhos-sheila-mello-surge-arrasadora-com-e-o-tchan-reencontro.phtml",
+          "source": "Bing",
+          "title": "De body transparente e shortinhos, Sheila Mello surge arrasadora com o ...",
+          "width": 1920,
+          "height": 1081
+        },
+        {
+          "imageUrl": "https://www.ofuxico.com.br/img/upload/noticias/2010/02/01/84683_36.jpg",
+          "pageUrl": "https://ofuxico.com.br/noticias/sheila-mello-mostra-a-abundancia-em-modelo-transparente/",
+          "source": "Bing",
+          "title": "Sheila Mello mostra a 'abundância' em modelo transparente - OFuxico",
+          "width": 600,
+          "height": 400
+        },
+        {
+          "imageUrl": "https://cdn.ibahia.com/img/Artigo-Destaque/320000/FOTOS-Sheila-Mello-danca-em-show-do-E-O-Tchan-e-ga0032260800202407220640.jpg?xid=1633693",
+          "pageUrl": "https://www.ibahia.com/diversao/nem-te-conto/fotos-sheila-mello-danca-em-show-do-e-o-tchan-e-ganha-surpresa-322608",
+          "source": "Bing",
+          "title": "FOTOS: Sheila Mello dança em show do É O Tchan e ganha surpresa",
+          "width": 2048,
+          "height": 1767
+        },
+        {
+          "imageUrl": "https://www.tudopop.com/wp-content/uploads/2021/01/9470-aos-41-anos-sheila-mello-esbanja-sensualidade-so-de-lingerie-transparente-600x337.jpg",
+          "pageUrl": "https://www.tudopop.com/noticias/hot/aos-41-anos-sheila-mello-esbanja-sensualidade-so-de-lingerie-transparente.phtml",
+          "source": "Bing",
+          "title": "Aos 41 anos Sheila Mello esbanja sensualidade só de lingerie ...",
+          "width": 600,
+          "height": 337
+        },
+        {
+          "imageUrl": "https://www.maisnovela.com.br/wp-content/uploads/2023/06/Snapinsta.app_351705316_775317934308005_2536384800299941083_n_1080-1.jpg",
+          "pageUrl": "https://www.maisnovela.com.br/famosos/sheila-mello-agita-a-web-ao-surgir-com-look-todo-transparente.phtml",
+          "source": "Bing",
+          "title": "Sheila Mello agita a web ao surgir com look todo transparente",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://cdn.jornalmassa.com.br/img/Artigo-Destaque/1320000/Sheila-Mello-posa-de-biquini-de-fita-e-mostra-curv0132538100202510311355.png?xid=6295523",
+          "pageUrl": "https://jornalmassa.com.br/famosos/sheila-mello-posa-de-biquini-de-fita-e-mostra-curvas-em-bronzeamento-1325381",
+          "source": "Bing",
+          "title": "Sheila Mello posa de biquíni de fita e mostra curvas em bronzeamento ...",
+          "width": 1280,
+          "height": 768
+        },
+        {
+          "imageUrl": "https://www.tudopop.com/wp-content/uploads/2022/11/sheila-mello-surge-de-biquini-768x432.jpg",
+          "pageUrl": "https://www.tudopop.com/noticias/hot/sheila-mello-surge-belissima-em-ensaio-de-biquini-e-arrasa.phtml",
+          "source": "Bing",
+          "title": "Sheila Mello surge belíssima em ensaio de biquíni e arrasa",
+          "width": 768,
+          "height": 432
+        },
+        {
+          "imageUrl": "https://www.maisnovela.com.br/wp-content/uploads/2022/09/sheila-mello.jpg",
+          "pageUrl": "https://www.maisnovela.com.br/famosos/aos-45-anos-sheila-mello-choca-com-boa-forma-de-lingerie-rainha.phtml",
+          "source": "Bing",
+          "title": "Aos 45 anos, Sheila Mello choca com boa forma de lingerie: 'Rainha!'",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "4oCYQSBDYXNhIGRvIERy",
+      "reviewId": "4oCYQSBDYXNhIGRvIERy",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "‘A Casa do Dragão’ 3ª temporada ganha teaser e promete maior episódio da TV",
+      "slug": "a-casa-do-dragao-3-temporada-ganha-teaser-e-promete-maior-episodio-da-tv",
+      "excerpt": "Série da HBO retorna em oito dias com foco em guerra e tragédia, sem enrolação no terceiro ano.",
+      "body": [
+        "A três temporadas de “A Casa do Dragão” estreia em oito dias, com um novo teaser que prepara o público para a guerra. A série retorna focada em batalhas e tragédias, sem enrolação, e promete o “maior episódio de TV já feito”, conforme visto de perto pela produção."
+      ],
+      "html": "<p>A três temporadas de “A Casa do Dragão” estreia em oito dias, com um novo teaser que prepara o público para a guerra. A série retorna focada em batalhas e tragédias, sem enrolação, e promete o “maior episódio de TV já feito”, conforme visto de perto pela produção.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "A Casa do Dragão",
+        "HBO",
+        "3ª temporada",
+        "teaser",
+        "guerra"
+      ],
+      "source": "cinepop.com.br",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTm81MEVTOEJtZTZNVFZDQ0ZaTWl3Slkyc1ZPZVl3RXFqdWNoNFRVN3VPcHVHU2I0eURlS1d4UEItd21laVdWY29CM3lhLTl5MHhOeVdEczF4YkJjem53aFZTa19uOUtEMS1zTnZ2cDFwUE81eW1uZHNVMmYwSVk3cS1uWG5KcUQ3Rmx6QUNYakt5cXB0ZjVTOVdOWGp3Y1MyNTRrWXVER3hiZw?oc=5",
+      "evidenceSources": [
+        "cinepop.com.br",
+        "Estadão",
+        "Omelete",
+        "AdoroCinema",
+        "cinemaecerveja.com.br"
+      ],
+      "evidenceClaims": [
+        "‘A Casa do Dragão’: Prepare-se para a GUERRA com o novo teaser da 3ª temporada!",
+        "‘A Casa do Dragão’ retorna com batalha - e o ‘maior episódio de TV já feito’. Nós vimos de perto",
+        "Entre guerra e tragédia, A Casa do Dragão volta focada e sem enrolação no 3º ano",
+        "Que horas estreia A Casa do Dragão? Faltam só 8 dias para a 3ª temporada",
+        "Os fãs de Home of the Dragon que boicotaram a 3ª temporada vão se arrepender"
+      ],
+      "sourceCount": 5,
+      "score": 119,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Elenco de A Casa do Dragão",
+      "imageSearchQuery": "A Casa do Dragão 3 temporada teaser",
+      "imageAlt": "Elenco de A Casa do Dragão",
+      "editorialMeta": {
+        "originalTitle": "‘A Casa do Dragão’: Prepare-se para a GUERRA com o novo teaser da 3ª temporada!",
+        "sourceId": "4oCYQSBDYXNhIGRvIERy",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.7,
+          "issues": [
+            "O título do rascunho difere do título da evidência: 'ganha teaser' vs 'novo teaser'.",
+            "O rascunho afirma 'A três temporadas de “A Casa do Dragão” estreia em oito dias', mas a evidência diz 'Faltam só 8 dias para a 3ª temporada', o que é consistente, porém a redação 'A três temporadas' é ambígua.",
+            "O rascunho menciona 'novo teaser' e 'prepara o público para a guerra', mas a evidência 'Prepare-se para a GUERRA com o novo teaser' apoia isso.",
+            "O rascunho afirma 'promete o “maior episódio de TV já feito”, conforme visto de perto pela produção', mas a evidência diz 'Nós vimos de perto' e 'maior episódio de TV já feito', o que é consistente.",
+            "O rascunho inclui 'sem enrolação' que é apoiado pela evidência 'sem enrolação'.",
+            "O rascunho não menciona o boicote mencionado na evidência 'Os fãs de Home of the Dragon que boicotaram a 3ª temporada vão se arrepender', mas isso não é obrigatório."
+          ],
+          "unsupportedClaims": [
+            "O rascunho afirma 'A três temporadas de “A Casa do Dragão” estreia em oito dias' - a evidência diz 'Faltam só 8 dias para a 3ª temporada', mas a frase 'A três temporadas' é estranha e pode ser um erro."
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "‘A Casa do Dragão’: Prepare-se para a GUERRA com o novo teaser da 3ª temporada!"
+        ],
+        "generatedAt": "2026-06-15T15:52:52.183Z"
+      },
+      "createdAt": "2026-06-15T15:52:52.183Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://cdn.observatoriodocinema.com.br/2025/11/casa-do-dragao-2.jpg",
+          "pageUrl": "https://observatoriodocinema.com.br/streaming/hbo-max/a-casa-do-dragao-teaser-mostra-as-primeiras-cenas-da-3a-temporada/",
+          "source": "Bing",
+          "title": "A Casa do Dragão: Teaser mostra as primeiras cenas da 3ª temporada",
+          "width": 1500,
+          "height": 844
+        },
+        {
+          "imageUrl": "https://alphafloripa.com/wp-content/uploads/2026/02/Sem-titulo-2026-02-19T142238.681.jpeg",
+          "pageUrl": "https://alphafloripa.com/noticia/terceira-temporada-de-a-casa-do-dragao-divulga-primeiro-teaser-oficial/",
+          "source": "Bing",
+          "title": "Terceira temporada de \"A Casa do Dragão\" divulga primeiro teaser ...",
+          "width": 870,
+          "height": 550
+        },
+        {
+          "imageUrl": "https://img.youtube.com/vi/YG0SyD8X0AM/maxresdefault.jpg",
+          "pageUrl": "https://www.claro.com.br/blog/tv/a-casa-do-dragao-3-temporada",
+          "source": "Bing",
+          "title": "A Casa do Dragão 3ª temporada: quando estreia e onde assistir",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://ovicio.com.br/wp-content/uploads/2025/09/20250923-a-casa-do-dragao-temporada-3-730x365.webp",
+          "pageUrl": "https://ovicio.com.br/a-casa-do-dragao-3a-temporada-pode-ter-reviravolta-que-nao-esta-nos-livros/",
+          "source": "Bing",
+          "title": "A Casa do Dragão: 3ª temporada pode ter reviravolta que não está nos ...",
+          "width": 730,
+          "height": 365
+        },
+        {
+          "imageUrl": "https://seriepolis.com/wp-content/uploads/2024/01/House-of-the-Dragons-2.jpeg",
+          "pageUrl": "https://seriepolis.com/2025/04/la-tercera-temporada-de-la-casa-del-dragon-ya-esta-en-produccion/",
+          "source": "Bing",
+          "title": "La Tercera Temporada de \"La Casa del Dragón\" Ya Está en Producción",
+          "width": 1600,
+          "height": 1066
+        },
+        {
+          "imageUrl": "https://cloud.estacaonerd.com/wp-content/uploads/2024/09/04160028/A-Casa-do-Dragao.jpg",
+          "pageUrl": "https://estacaonerd.com/a-casa-do-dragao-confira-o-sensacional-trailer-da-3a-temporada/",
+          "source": "Bing",
+          "title": "A Casa do Dragão | Confira o SENSACIONAL trailer da 3ª temporada",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://multiversonoticias.com.br/wp-content/uploads/2022/08/a-casa-do-dragao.jpg",
+          "pageUrl": "https://multiversonoticias.com.br/a-casa-do-dragao-elenco-revela-o-auge-da-casa-targaryen-em-teaser/",
+          "source": "Bing",
+          "title": "\"A Casa do Dragão\" | Elenco revela o auge da Casa Targaryen em teaser",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://cdn.observatoriodocinema.com.br/2025/05/a-casa-do-dragao-retorna-em-junho-com-episodios-da-2a-temporada-foto-divulgacaohbo.jpg",
+          "pageUrl": "https://observatoriodocinema.com.br/streaming/hbo-max/a-casa-do-dragao-hbo-anuncia-data-do-trailer-da-3a-temporada-veja/",
+          "source": "Bing",
+          "title": "A Casa do Dragão: HBO anuncia data do trailer da 3ª temporada; veja",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "Q29uaGVjaWRvIGRhIFBS",
+      "reviewId": "Q29uaGVjaWRvIGRhIFBS",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Ana Castela bloqueia Cesar Rincon após affair ser exposto",
+      "slug": "ana-castela-bloqueia-cesar-rincon-apos-affair-ser-exposto",
+      "excerpt": "Cantora bloqueia influenciador nas redes sociais depois de rumores de romance virem a público.",
+      "body": [
+        "A cantora Ana Castela bloqueou o influenciador Cesar Rincon nas redes sociais após o affair entre os dois ser exposto ao público. Rincon, conhecido da PRF e com milhões de seguidores, foi apontado como novo affair da artista. A atitude de Ana veio depois que fãs suspeitaram de um beijão debaixo do chapéu em registros que mostravam clima de intimidade entre os dois."
+      ],
+      "html": "<p>A cantora Ana Castela bloqueou o influenciador Cesar Rincon nas redes sociais após o affair entre os dois ser exposto ao público. Rincon, conhecido da PRF e com milhões de seguidores, foi apontado como novo affair da artista. A atitude de Ana veio depois que fãs suspeitaram de um beijão debaixo do chapéu em registros que mostravam clima de intimidade entre os dois.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Ana Castela",
+        "Cesar Rincon",
+        "affair",
+        "bloqueio",
+        "rumores de romance"
+      ],
+      "source": "Banda B",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcUJ5MUtfMjgwRy1xaXI1SUdVQllSVUVWbHJheENaMTREWGRWaUItMnpKOEZQeDlIeVVlbVY0RzgxSXJ4b1l3TzJRRzR2WTVUVGJraWZsYjNIc2FhWldrOGR0VTJFQzJTemRoWkNuazBTZWstSFphZy1vSjhjdFRjUnVQdGpHRGdqRGkwZ1RST1BBemNadHhLWkxVdnVGTV9Mb1ZkdE9RNjdpNTkxNHJZNXdB0gG3AUFVX3lxTFBXNzd1RUI2QXBNSXN0ZGNWdEU1WDdCWUtoeU5qZzB1RmdfTE9NSG53UVhlVGdoOExybHE0TXRkZ21EcXAzS2I2VHI2bG9RU3VXVWhZYVNCa0lheDEteVpEb0hoSWxiM0xvamcyTnRBZVdLN2p0R0kwcXhFbTlOeVRSTllVVWpZSm1XQVhmdU05Uk95dkhxUVc0WmhaYmRuYnFKQlRuZnRnMmd6RmNod0lheTRyNWJtQQ?oc=5",
+      "evidenceSources": [
+        "Banda B",
+        "Globo",
+        "Midiamax",
+        "iG Gente",
+        "Clube FM 100.5"
+      ],
+      "evidenceClaims": [
+        "Conhecido da PRF e milhões de seguidores! Saiba quem é Cesar Rincon, apontado como novo affair de Ana Castela",
+        "Ana Castela surge em clima de intimidade com suposto affair e fãs suspeitam de beijão debaixo do chapéu",
+        "Não gostou! Ana Castela bloqueia influenciador após ter affair exposto ao público",
+        "Ana Castela viaja com Cesar Rincon e aumenta rumores de romance",
+        "Romance no ar? Após rumores de affair, Ana Castela publica fotos com Rincon"
+      ],
+      "sourceCount": 5,
+      "score": 126,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Ana Castela",
+      "imageSearchQuery": "Ana Castela chapéu",
+      "imageAlt": "Ana Castela",
+      "editorialMeta": {
+        "originalTitle": "Conhecido da PRF e milhões de seguidores! Saiba quem é Cesar Rincon, apontado como novo affair de Ana Castela",
+        "sourceId": "Q29uaGVjaWRvIGRhIFBS",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "O título e o corpo afirmam que Ana Castela bloqueou Cesar Rincon, mas as evidências não mencionam explicitamente que ela o bloqueou. A evidência 'Não gostou! Ana Castela bloqueia influenciador após ter affair exposto ao público' é uma manchete que afirma o bloqueio, mas o texto do rascunho não cita essa fonte diretamente. Além disso, a evidência é uma manchete, não um relato factual confirmado.",
+            "O corpo afirma que 'fãs suspeitaram de um beijão debaixo do chapéu', mas a evidência correspondente ('Ana Castela surge em clima de intimidade com suposto affair e fãs suspeitam de beijão debaixo do chapéu') é uma manchete que apenas menciona a suspeita, não confirma o beijo. O rascunho trata a suspeita como fato, o que é exagero."
+          ],
+          "unsupportedClaims": [
+            "Ana Castela bloqueou Cesar Rincon nas redes sociais",
+            "fãs suspeitaram de um beijão debaixo do chapéu em registros que mostravam clima de intimidade"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Conhecido da PRF e milhões de seguidores! Saiba quem é Cesar Rincon, apontado como novo affair de Ana Castela"
+        ],
+        "generatedAt": "2026-06-15T15:52:24.687Z"
+      },
+      "createdAt": "2026-06-15T15:52:24.687Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/4/37/82/64/@/4343459-ana-castela-apostou-em-top-short-curto-1200x0-2.jpeg",
+          "pageUrl": "https://www.purepeople.com.br/midia/ana-castela-apostou-em-top-short-curto_m4343459",
+          "source": "Bing",
+          "title": "Foto: Ana Castela apostou em top, short curto, botas de cano longo e o ...",
+          "width": 1200,
+          "height": 1616
+        },
+        {
+          "imageUrl": "https://static.wikia.nocookie.net/famosos/images/4/48/Ana_Castela_-_The_Noite_com_Danilo_Gentili_2022.png/revision/latest?cb=20221103213245&path-prefix=pt-br",
+          "pageUrl": "https://famosos.fandom.com/pt-br/wiki/Ana_Castela",
+          "source": "Bing",
+          "title": "Ana Castela | Famosos Wiki | Fandom",
+          "width": 916,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98s-lmt2xmzpwnhyf6",
+          "pageUrl": "https://shopee.com.br/Chap%C3%A9u-Boiadeira-Insipirado-Ana-Castela-Sertanejo-Rodeio-Country-i.329503701.23392533120",
+          "source": "Bing",
+          "title": "Chapéu Boiadeira Insipirado Ana Castela Sertanejo Rodeio Country ...",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "imageUrl": "https://capricho.abril.com.br/wp-content/uploads/2023/11/entrevista-moda-beleza-ana-castela.jpg?quality=85&strip=info&w=1000",
+          "pageUrl": "https://capricho.abril.com.br/noticias-sobre/ana-castela/",
+          "source": "Bing",
+          "title": "Tudo sobre Ana Castela",
+          "width": 1000,
+          "height": 666
+        },
+        {
+          "imageUrl": "https://www.jornalipanema.com.br/arquivos/noticias/5844/ana-castela-deixa-primeiro-chapeu-no-santuario-de-aparecida.png",
+          "pageUrl": "https://www.jornalipanema.com.br/noticia/5844/votorantim/trends/ana-castela-deixa-primeiro-chapeu-no-santuario-de-aparecida.html",
+          "source": "Bing",
+          "title": "Ana Castela deixa primeiro chapéu no Santuário de Aparecida",
+          "width": 900,
+          "height": 801
+        },
+        {
+          "imageUrl": "https://images.tcdn.com.br/img/img_prod/1149067/ana_castela_chapeu_boiadeira_rs_r115161_4_regina_7246_2_7d410fabe0ab4a1ada72e99e289a5630.jpeg",
+          "pageUrl": "https://www.embapelfestas.com.br/festa-tematica/menina/ana-castela/ana-castela-chapeu-boiadeira-rs-r115161-4-regina",
+          "source": "Bing",
+          "title": "Ana Castela Chapeu Boiadeira Rs R115161.4 Regina - Unidade",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "imageUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-luqpt5crdr4kf2",
+          "pageUrl": "https://shopee.com.br/Chap%C3%A9u-Ana-Castela-Country-Boiadeira-i.346651633.21599228591",
+          "source": "Bing",
+          "title": "Chapéu Ana Castela Country Boiadeira | Shopee Brasil",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m51h06vp9x1h27",
+          "pageUrl": "https://shopee.com.br/Chap%C3%A9u-Ana-Castela-Pralana-Arizona-Queen-Azul-Royal-Com-Strass-Aba-10-i.1368785666.22493581316",
+          "source": "Bing",
+          "title": "Chapéu Ana Castela Pralana Arizona Queen Azul Royal Com Strass, Aba 10 ...",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "VGVtIGZpbG1lIGJvbSBu",
+      "reviewId": "VGVtIGZpbG1lIGJvbSBu",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Netflix, Disney+ e HBO Max: lançamentos da semana (15 a 21 de junho)",
+      "slug": "netflix-disney-e-hbo-max-lancamentos-da-semana-15-a-21-de-junho",
+      "excerpt": "Plataformas de streaming trazem novos filmes e séries entre 13 e 21 de junho.",
+      "body": [
+        "A Netflix divulgou os lançamentos da semana de 15 a 21 de junho, com uma lista de 10 ótimas opções de filmes disponíveis para assistir hoje. Entre os destaques, estão os três melhores filmes novos para ver no fim de semana de 13 e 14 de junho."
+      ],
+      "html": "<p>A Netflix divulgou os lançamentos da semana de 15 a 21 de junho, com uma lista de 10 ótimas opções de filmes disponíveis para assistir hoje. Entre os destaques, estão os três melhores filmes novos para ver no fim de semana de 13 e 14 de junho.</p>",
+      "category": "Cinema",
+      "market": "brasil",
+      "tags": [
+        "Netflix",
+        "Disney+",
+        "HBO Max",
+        "lançamentos",
+        "cinema",
+        "séries"
+      ],
+      "source": "cinepop.com.br",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTTFmN3lZR25Ub1A4TXczcU4yX21kWlFnWDdMOGJZa0tyek5XUV9BWDdyNnFmcldCTWt0dGZoMXBkTWNod3Z6RFZxQ1JmVnhPQTN4SUZScktDNXU0OUl3d0xWQXRUZlB0SnU4d0VkVXRvaGRtY2ZQUTEtZ29DZUMzOHlNOWJOSmswekFyUGZDVUdDZUxJQ3c?oc=5",
+      "evidenceSources": [
+        "cinepop.com.br",
+        "AdoroCinema",
+        "Magazine.HD",
+        "TudoCelular.com",
+        "Olhar Digital"
+      ],
+      "evidenceClaims": [
+        "Tem filme bom na Netflix: 10 ótimas opções para assistir hoje",
+        "Os 3 melhores filmes novos para ver na Netflix neste fim de semana (13/06 e 14/06)",
+        "Há 4 novas séries para ver esta semana na Netflix, Disney+ e HBO Max (15 junho)",
+        "Netflix, Prime Video e Disney+ na próxima semana: Onde os Fracos Não Têm Vez e mais",
+        "Netflix: lançamentos da semana (15 a 21 de junho)"
+      ],
+      "sourceCount": 5,
+      "score": 130,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "BUSCA_FOTO: Netflix lançamentos junho 2024",
+      "imageSearchQuery": "Netflix lançamentos junho 2024",
+      "imageAlt": "BUSCA_FOTO: Netflix lançamentos junho 2024",
+      "editorialMeta": {
+        "originalTitle": "Tem filme bom na Netflix: 10 ótimas opções para assistir hoje",
+        "sourceId": "VGVtIGZpbG1lIGJvbSBu",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.3,
+          "issues": [
+            "O título do rascunho menciona 'Netflix, Disney+ e HBO Max', mas as evidências fornecidas não mencionam Disney+ ou HBO Max.",
+            "O subtítulo afirma 'Plataformas de streaming trazem novos filmes e séries entre 13 e 21 de junho', mas as evidências não cobrem séries nem o período completo.",
+            "O corpo do texto afirma 'A Netflix divulgou os lançamentos da semana de 15 a 21 de junho', mas as evidências não confirmam que a Netflix divulgou essa lista específica.",
+            "O corpo do texto menciona '10 ótimas opções de filmes disponíveis para assistir hoje', mas a evidência correspondente é apenas o título de uma manchete, não o conteúdo.",
+            "O corpo do texto afirma 'Entre os destaques, estão os três melhores filmes novos para ver no fim de semana de 13 e 14 de junho', mas a evidência é apenas o título de uma manchete, não o conteúdo."
+          ],
+          "unsupportedClaims": [
+            "Tem filme bom na Netflix: 10 ótimas opções para assistir hoje"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Tem filme bom na Netflix: 10 ótimas opções para assistir hoje"
+        ],
+        "generatedAt": "2026-06-15T15:51:42.891Z"
+      },
+      "createdAt": "2026-06-15T15:51:42.891Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://cinemaeafins.com.br/wp-content/uploads/2024/05/netflix-em-junho-de-2024.webp",
+          "pageUrl": "https://cinemaeafins.com.br/netflix-em-junho-de-2024/",
+          "source": "Bing",
+          "title": "Os filmes e as séries que chegam na Netflix em junho de 2024",
+          "width": 1000,
+          "height": 600
+        },
+        {
+          "imageUrl": "https://alangeek.com.br/wp-content/uploads/2024/07/img_4227-1-1024x1024.jpg",
+          "pageUrl": "https://alangeek.com.br/estreias-e-lancamentos-em-destaque-em-julho-de-2024-nos-cinemas-e-nos-servicos-de-streaming/",
+          "source": "Bing",
+          "title": "Estreias e Lançamentos em Destaque em Julho de 2024 nos Cinemas e nos ...",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "imageUrl": "https://i.ytimg.com/vi/mSIzYPhilmM/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=mSIzYPhilmM",
+          "source": "Bing",
+          "title": "LANÇAMENTOS NETFLIX JUNHO 2024 | Filmes, Animes e Doramas (Lista ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://classic.exame.com/wp-content/uploads/2024/05/EXAME-POP-JUNHO_NETFLIX.jpg",
+          "pageUrl": "https://exame.com/pop/lancamentos-da-netflix-em-junho-de-2024-veja-os-filmes-e-as-series/",
+          "source": "Bing",
+          "title": "Lançamentos da Netflix em junho de 2024: veja os filmes e as séries | Exame",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://cinemaeseries.com.br/wp-content/uploads/2024/03/lancamentos-cinema-junho-2024.jpg?v=1720789182",
+          "pageUrl": "https://cinemaeseries.com.br/lancamentos-no-cinema-em-junho-2024/",
+          "source": "Bing",
+          "title": "Principais lançamentos no cinema em junho 2024 | Cinema e Séries",
+          "width": 1200,
+          "height": 700
+        },
+        {
+          "imageUrl": "https://novosdestinos.com/wp-content/uploads/2024/06/netflix-f2024-1024x576.png",
+          "pageUrl": "https://novosdestinos.com/novidades/netflix-em-junho-de-2024",
+          "source": "Bing",
+          "title": "Novidades da Netflix em Junho de 2024",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "imageUrl": "https://aniverso.pt/wp-content/uploads/2024/06/lancamentos-netflix-junho-2024.jpg",
+          "pageUrl": "https://aniverso.pt/animacao-na-netflix-junho-2024/",
+          "source": "Bing",
+          "title": "Animação na Netflix - Junho 2024 - Aniverso",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwwls1saYv1rq_mZo1MwDM7HpiEsj50_XhmeQbrzYP4ghkjNsR29EFdK0sxmpRhQzo6QRaHIIeqsTIYyNAZwwyBgC_jtSd8e1lA_lFr4WaUzHNgDSOk0z6nwJBhk6ADN6YRCBeyE2cCbFHk1pS3wbeISUp89he6H4Z1lUz8tEKOOYDQww-7FPIr5pGRN64/s640/ele%20eh%20chifrudo%20MAS%20QUEM%20NAO%20EH%20eh%20muito%20bom%20eh%20bom%20demais%20LEVAR%20CHIFRE%20DE%20MULHEEEEEEERRR.jpg",
+          "pageUrl": "https://www.nerdmaldito.com/2024/05/novidades-de-junho-de-2024-lista.html",
+          "source": "Bing",
+          "title": "Netflix | Novidades de Junho de 2024! Lista completa de lançamentos ...",
+          "width": 640,
+          "height": 413
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "Nenhuma das imagens é apropriada para a notícia sobre os lançamentos de junho da Netflix, pois não retratam claramente uma pessoa ou uma cena adequada.",
+        "visibleSubject": "",
+        "concerns": [
+          "As imagens são de montagens, cartazes ou textos que não representam claramente os lançamentos da Netflix com um foco em uma pessoa identificável."
+        ],
+        "model": "gpt-4o-mini",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "U0JUIHNlIGVtcG9sZ2Eg",
+      "reviewId": "U0JUIHNlIGVtcG9sZ2Eg",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "SBT mira público da Globo após crescimento de audiência na Copa",
+      "slug": "sbt-mira-publico-da-globo-apos-crescimento-de-audiencia-na-copa",
+      "excerpt": "SBT planeja atrair mais telespectadores da Globo durante a Copa do Mundo, impulsionado pelo crescimento de audiência registrado no Ibope.",
+      "body": [
+        "O SBT se empolgou com os números de audiência e montou um plano para roubar mais público da Globo durante a Copa do Mundo. A emissora liderou o ranking de crescimento de audiência na competição, segundo dados do Ibope."
+      ],
+      "html": "<p>O SBT se empolgou com os números de audiência e montou um plano para roubar mais público da Globo durante a Copa do Mundo. A emissora liderou o ranking de crescimento de audiência na competição, segundo dados do Ibope.</p>",
+      "category": "TV",
+      "market": "brasil",
+      "tags": [
+        "SBT",
+        "Globo",
+        "Copa do Mundo",
+        "audiência",
+        "Tiago Leifert"
+      ],
+      "source": "UOL",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORkVzel9KQ2VMVlZIMzZNYVcwWDBjRGhab2pIMi1BQkc3bHVMYTU4OUFnRmp2cDAwUExTM01oSHRnY1REeVZDZkdiMnRRdVJnYUxQZ0dpaF94V2lHaF9lRkcyeWJQLV9PV1pnQ0ZhN3FqZWp4dWlhREx6WHVpRTZCdF9YcUcwTS0zVmtIRUhxaEhHNTA1cHc2aENLMDROTTkyNktWYk1xREtPOXVQM2FuTDJvSGVYUEpsdzhOM0pwcUQyTUloVlJTMzdKU0JiZVVZMTZrUi1BVExHdnhGcjZQWk9Ha9IB6AFBVV95cUxORVlIdDhPTXp0ak9NeG04NkxrX3BYTFNFTWNobEZxN2UtU0xmMWhpam85dWNWbi1vX25yVDdkbkVDcWJNaUFBeU56NlA0ZlVxLUlfMVZEQkxYM3pyTHJqQ0EwX3pzdk0wbzFYcXJvMVZtSXoxaG9tVVQ0MEp2WW5wTThpbVlKZV8xelpLZzlSa3ZFUVRfZG5sSHNZdEpWMVRyWjBMcUdUeTRkbDNNaGNYY2dZSjFrVHVPQjFEWWw3T09uTkZpZFJ3Z3dlLUdaNkoyenpyMlNxWjFhVUkwQ1Fra1RxdTRvX1RG?oc=5",
+      "evidenceSources": [
+        "UOL",
+        "GE",
+        "VEJA",
+        "Lance!",
+        "RD1"
+      ],
+      "evidenceClaims": [
+        "SBT se empolga com audiência e monta plano para roubar mais público da Globo na Copa",
+        "Globo alcança mais de 46 milhões de pessoas em primeiro dia de Copa do Mundo",
+        "Tiago Leifert debocha do inglês de árbitro brasileiro na estreia da Copa",
+        "CazéTV, Globo e SBT: quem liderou a audiência na abertura da Copa do Mundo?",
+        "Ibope da TV: SBT lidera ranking de crescimento de audiência na Copa"
+      ],
+      "sourceCount": 5,
+      "score": 131,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Tiago Leifert",
+      "imageSearchQuery": "Tiago Leifert debocha árbitro Copa 2022",
+      "imageAlt": "Tiago Leifert",
+      "editorialMeta": {
+        "originalTitle": "SBT se empolga com audiência e monta plano para roubar mais público da Globo na Copa",
+        "sourceId": "U0JUIHNlIGVtcG9sZ2Eg",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.85,
+          "issues": [
+            "A afirmação 'SBT liderou o ranking de crescimento de audiência na competição' não está explicitamente apoiada pelas evidências fornecidas. A evidência 'Ibope da TV: SBT lidera ranking de crescimento de audiência na Copa' sugere isso, mas o texto do draft diz 'segundo dados do Ibope', o que é uma referência genérica sem citação direta."
+          ],
+          "unsupportedClaims": [
+            "SBT liderou o ranking de crescimento de audiência na competição, segundo dados do Ibope."
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "SBT se empolga com audiência e monta plano para roubar mais público da Globo na Copa"
+        ],
+        "generatedAt": "2026-06-15T15:51:17.973Z"
+      },
+      "createdAt": "2026-06-15T15:51:17.973Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2026/02/24/956510938-1771883926699ccd963a7d117718839easy-resizecom-610x400.jpg",
+          "pageUrl": "https://www.terra.com.br/esportes/futebol/copa-2026/sbt-decide-como-sera-a-divisao-entre-galvao-bueno-e-tiago-leifert-na-copa-confira,b4ada9ed30fa67681b2993ac25cba4f12mh8iq0v.html",
+          "source": "Bing",
+          "title": "SBT decide como será a divisão entre Galvão Bueno e Tiago Leifert na ...",
+          "width": 1548,
+          "height": 1015
+        },
+        {
+          "imageUrl": "https://s01.video.glbimg.com/x720/11123528.jpg",
+          "pageUrl": "https://ge.globo.com/video/tiago-leifert-anuncia-programa-e-narracao-de-jogos-da-copa-no-globoplay-11123528.ghtml",
+          "source": "Bing",
+          "title": "Vídeo: Tiago Leifert anuncia programa e narração de jogos da Copa no ...",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "imageUrl": "https://www.bastidoresdatv.com.br/wp-content/uploads/2018/06/central-da-copa1.jpg",
+          "pageUrl": "https://www.bastidoresdatv.com.br/televisao/tiago-leifert-vai-apresentar-o-ultimo-central-da-copa-da-carreira",
+          "source": "Bing",
+          "title": "Tiago Leifert vai apresentar o último \"Central da Copa\" da carreira ...",
+          "width": 1140,
+          "height": 545
+        },
+        {
+          "imageUrl": "https://cdn.massa.com.br/uploads/2025/10/sbt-copa-do-mundo-2026.jpg",
+          "pageUrl": "https://massa.com.br/esporte/sbt-copa-do-mundo-2026/",
+          "source": "Bing",
+          "title": "SBT anuncia Copa do Mundo 2026 com Galvão Bueno e Tiago Leifert",
+          "width": 1200,
+          "height": 810
+        },
+        {
+          "imageUrl": "https://ogimg.infoglobo.com.br/in/25191177-3ea-819/FT1086A/760/34602561_Tiago-Leifert-e-Alex-Escobar-apresentadores-do-Central-da-Copa.jpg?posicaoFoto9",
+          "pageUrl": "https://oglobo.globo.com/fotogalerias/relembre-momentos-de-tiago-leifert-na-tv-globo-25191171",
+          "source": "Bing",
+          "title": "Relembre momentos de Tiago Leifert na TV Globo - Jornal O Globo",
+          "width": 1265,
+          "height": 760
+        },
+        {
+          "imageUrl": "https://jpimg.com.br/uploads/2022/11/1669336660533485-750x437.jpg",
+          "pageUrl": "https://jovempan.com.br/entretenimento/boninho-elogia-primeira-narracao-de-tiago-leifert-na-copa-isso-e-meu-amigo-querido.html",
+          "source": "Bing",
+          "title": "Boninho elogia primeira narração de Tiago Leifert na Copa: 'Isso é meu ...",
+          "width": 750,
+          "height": 437
+        },
+        {
+          "imageUrl": "https://s2-gshow.glbimg.com/bi9fnPLKNT2wygx4FJ6OWw3m8Ug=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2022/P/L/BEbBFxQOKIiRp2qYbS6Q/tiago-leifert-volta-a-globo-para-copa-do-mundo-2022.jpg",
+          "pageUrl": "https://gshow.globo.com/cultura-pop/famosos/noticia/tiago-leifert-volta-a-globo-para-narrar-jogos-da-copa-do-mundo-de-2022.ghtml",
+          "source": "Bing",
+          "title": "Tiago Leifert volta à Globo para narrar jogos da Copa do Mundo de 2022 ...",
+          "width": 1200,
+          "height": 1750
+        },
+        {
+          "imageUrl": "https://nerdlicious.com.br/wp-content/uploads/2022/04/Tiago-Leifert-amazon.jpeg",
+          "pageUrl": "https://nerdlicious.com.br/2022/04/prime-video-anuncia-tiago-leifert-na-transmissao-dos-jogos-da-copa-do-brasil-2022/",
+          "source": "Bing",
+          "title": "Prime Video anuncia Tiago Leifert na transmissão dos jogos da Copa do ...",
+          "width": 1200,
+          "height": 675
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: OpenAI vision 400: Error while downloading file. Upstream status code: 525. | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "TGFyaXNzYSBUb23DoXNp",
+      "reviewId": "TGFyaXNzYSBUb23DoXNp",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Larissa Tomásia anuncia gravidez e brinca com meme do BBB",
+      "slug": "larissa-tomasia-anuncia-gravidez-e-brinca-com-meme-do-bbb",
+      "excerpt": "Ex-BBB Larissa Tomásia revela que está grávida do primeiro filho e resgata viral do reality.",
+      "body": [
+        "Larissa Tomásia, ex-participante do BBB 22, anunciou a gravidez do primeiro filho. A influenciadora compartilhou a notícia nas redes sociais com uma brincadeira que remete ao seu período no reality show."
+      ],
+      "html": "<p>Larissa Tomásia, ex-participante do BBB 22, anunciou a gravidez do primeiro filho. A influenciadora compartilhou a notícia nas redes sociais com uma brincadeira que remete ao seu período no reality show.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Larissa Tomásia",
+        "BBB 22",
+        "gravidez",
+        "baby limão",
+        "famosos"
+      ],
+      "source": "Notícias da TV",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNX3otblpWVF9qdlllNTB4Mnhfd0FJemNjN1Bzdm1NMXZSQnY4bDVRVUUyVnR4VHNLeVRlanNOMTZsellqOVRUYzVuN3U3STFOdGR4aEc4MUNxVUN5S3lzUTNOalJxbXVhSUFpc0Z1NlpuWFNLa0I2dEhKY0pZdWR3YWlNV2d0VGZkWnhHaGl2Y2dYWm1qYnk0WFlmUWtzYTYyMzUyajNDRy0yREVqYW9MT3JYeEJ6LVRtQWtGV082THJhUmdnNjUxLV90aG1aN295Z2F3ZdIB4wFBVV95cUxNdm9JLUZMaXV1Wk45eEZFQjBBdElmOXFWM3B5MTYtYS1sdlY4Tko1Z1NhNEE4a0laNU1fRGFaNjdhNFZDMHhXZG1HeUIyZ01aWHhtRmVOSkhrQ1ppS2NzcmdDMHNScksyWUdfc2UtRWh4RkktYVJlNjZvTDB0dDFYdlhSZzlWTDhjVTVJVkN2LWtJWDBwSjMwcU9EeUhnNndRLW5QTFEybHBqV3NfX0JyMGUzTnExZDJObGFEckNCU0dHb1l4OWNlNGZIazZNaHhQOU1kNG1acW9FaFduRmowZTVrUQ?oc=5",
+      "evidenceSources": [
+        "Notícias da TV",
+        "UOL",
+        "Gshow",
+        "Rádio Itatiaia",
+        "NSC Total"
+      ],
+      "evidenceClaims": [
+        "Larissa Tomásia anuncia gravidez e resgata meme que marcou sua passagem no BBB",
+        "Ex-BBB Larissa Tomásia anuncia gravidez: 'Ansiosos pela sua chegada'",
+        "Larissa Tomásia, do BBB 22, anuncia gravidez do primeiro filho: 'Baby limão está a caminho'",
+        "Larissa Tomásia anuncia gravidez e brinca com viral do BBB: 'Baby Limão'",
+        "Ex-BBB anuncia gravidez citando meme do reality show"
+      ],
+      "sourceCount": 5,
+      "score": 134,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Larissa Tomásia",
+      "imageSearchQuery": "Larissa Tomásia gravidez anúncio",
+      "imageAlt": "Larissa Tomásia",
+      "editorialMeta": {
+        "originalTitle": "Larissa Tomásia anuncia gravidez e resgata meme que marcou sua passagem no BBB",
+        "sourceId": "TGFyaXNzYSBUb23DoXNp",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "approved",
+          "confidence": 0.85,
+          "issues": [],
+          "unsupportedClaims": [],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Larissa Tomásia anuncia gravidez e resgata meme que marcou sua passagem no BBB"
+        ],
+        "generatedAt": "2026-06-15T15:50:54.844Z"
+      },
+      "createdAt": "2026-06-15T15:50:54.844Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/1/37/13/81/@/4259381-larissa-tomasia-e-musa-da-imperio-serran-1200x0-2.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/larissa-tomasia-e-musa-da-imperio-serran_m4259381",
+          "source": "Bing",
+          "title": "Foto: Larissa Tomásia é musa da Império Serrano no Carnaval 2023 ...",
+          "width": 1200,
+          "height": 1350
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/2/39/72/92/@/4529984-larissa-tomasia-foi-a-segunda-eliminada-1200x0-3.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/larissa-tomasia-foi-a-segunda-eliminada_m4529984",
+          "source": "Bing",
+          "title": "Foto: Larissa Tomásia foi a segunda eliminada em 'A Fazenda 16 ...",
+          "width": 1200,
+          "height": 1800
+        },
+        {
+          "imageUrl": "https://ofuxico.com.br/wp-content/uploads/2024/09/larissa-sacha-fazenda.jpg",
+          "pageUrl": "https://ofuxico.com.br/famosos/larissa-tomasia/",
+          "source": "Bing",
+          "title": "Larissa Tomásia - OFuxico",
+          "width": 1200,
+          "height": 800
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/7/33/97/47/@/3861684--bbb-22-larissa-tomasia-participante-580x0-1.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/-bbb-22-larissa-tomasia-participante_m3861684",
+          "source": "Bing",
+          "title": "Foto: 'BBB 22': Larissa Tomásia, participante da Casa de Vidro, tinha ...",
+          "width": 580,
+          "height": 708
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/IO2Ntw9KAByf443Bbux0Yf5cutw=/0x0:620x645/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2023/z/B/drlmBgTiuzz2SprtxSqA/larissa-tomasia.jpg",
+          "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2023/02/ex-bbb-larissa-tomasia-rebate-criticas-quem-esta-pegando-esta-amando.ghtml",
+          "source": "Bing",
+          "title": "Ex-BBB Larissa Tomásia rebate críticas: 'Quem está pegando está amando'",
+          "width": 1000,
+          "height": 1040
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/2/35/82/22/@/4104013-ex-bbb-larissa-tomasia-disse-que-os-segu-1200x0-3.jpg",
+          "pageUrl": "https://www.purepeople.com.br/midia/ex-bbb-larissa-tomasia-disse-que-os-segu_m4104013",
+          "source": "Bing",
+          "title": "Foto: Ex-BBB Larissa Tomásia disse que os seguidores \"pediram muito ...",
+          "width": 1200,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://s2-quem.glbimg.com/n7zy7VpOL1weGcge2mQtHlgmGuw=/0x0:620x574/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2023/P/S/eqtHoyTCS6JlZPTvAG9g/whatsapp-image-2023-01-12-at-15.28.30.jpeg",
+          "pageUrl": "https://revistaquem.globo.com/noticias/noticia/2023/01/larissa-tomasia-destaca-semalhancas-com-larissa-do-bbb23-segunda-versao-de-mim.ghtml",
+          "source": "Bing",
+          "title": "Larissa Tomásia destaca semalhanças com Larissa do BBB 23: 'Segunda ...",
+          "width": 984,
+          "height": 911
+        },
+        {
+          "imageUrl": "https://static1.purepeople.com.br/articles/7/39/92/77/@/4546361-larissa-tomasia-deu-a-entender-que-pode-1200x0-2.jpeg",
+          "pageUrl": "https://www.purepeople.com.br/midia/larissa-tomasia-deu-a-entender-que-pode_m4546361",
+          "source": "Bing",
+          "title": "Foto: Larissa Tomásia deu a entender que pode ter um acerto de contas ...",
+          "width": 1200,
+          "height": 675
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "Nenhuma das imagens atende adequadamente aos critérios para a ilustração da notícia sobre Larissa Tomásia, especialmente no que diz respeito a um foco claro na pessoa e na relevância da imagem para o anúncio da gravidez.",
+        "visibleSubject": "Larissa Tomásia",
+        "concerns": [
+          "A maioria das imagens são de grupo, eventos ou não mostram claramente o rosto da Larissa Tomásia.",
+          "Imagens que não refletem o anúncio de gravidez e não são individuais ou em foco.",
+          "Algumas imagens contêm outros elementos que desviam do tema central da notícia."
+        ],
+        "model": "gpt-4o-mini",
+        "origin": "web"
+      }
+    },
+    {
+      "id": "WsOpIEZlbGlwZSBhYnJl",
+      "reviewId": "WsOpIEZlbGlwZSBhYnJl",
+      "workflowVersion": 2,
+      "reviewStatus": "pending-human",
+      "title": "Zé Felipe abre o jogo sobre morar ao lado de Virginia e a chama por apelido",
+      "slug": "ze-felipe-abre-o-jogo-sobre-morar-ao-lado-de-virginia-e-a-chama-por-apelido",
+      "excerpt": "Cantor responde a seguidor sobre semblante diferente e justifica decisão de ser vizinho da ex-mulher",
+      "body": [
+        "Zé Felipe abriu o jogo sobre morar ao lado de Virginia e revelou que a chama por um apelido. A declaração ocorreu após um seguidor perguntar \"Você está triste?\", levando o cantor a fazer um desabafo sobre seu semblante diferente. Ele também justificou a decisão de ser vizinho da ex no condomínio onde ela reside."
+      ],
+      "html": "<p>Zé Felipe abriu o jogo sobre morar ao lado de Virginia e revelou que a chama por um apelido. A declaração ocorreu após um seguidor perguntar \"Você está triste?\", levando o cantor a fazer um desabafo sobre seu semblante diferente. Ele também justificou a decisão de ser vizinho da ex no condomínio onde ela reside.</p>",
+      "category": "Famosos",
+      "market": "brasil",
+      "tags": [
+        "Zé Felipe",
+        "Virginia",
+        "Poliana Rocha",
+        "mansão",
+        "condomínio"
+      ],
+      "source": "CNN Brasil",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd0xCTHpiTEVxY0l3NDFRRWNjSS1yQnY5cnhxdHF3SjJ5X1NncHFJQmlkV05ZWFBnNXFjeldGdTVlMUhoNVJVb20tUUR6b3hWT2lkM1l6TXhCa0pkMS00QUxKampXOGt6RFE4OTgzNWhTUTlfazFKck1WdVFKc0VSQUtQYmNZZFJSOWVZMzg2YUQ5WGtnR20wOU5MTURvZ3k4WWhIS1ZtcDIxMUt6Vl9sdjRQS3R6Yk1tdXFPRnh6OA?oc=5",
+      "evidenceSources": [
+        "CNN Brasil",
+        "O Globo",
+        "band.com.br",
+        "Notícias da TV",
+        "Alô Alô Bahia"
+      ],
+      "evidenceClaims": [
+        "Zé Felipe abre o jogo sobre morar ao lado de Virginia e a chama por apelido",
+        "'Você está triste?': pergunta de seguidor leva Zé Felipe a fazer desabafo sobre semblante diferente",
+        "Poliana Rocha exibe reação de netos ao visitarem nova mansão de Zé Felipe",
+        "No condomínio de Virginia: Zé Felipe justifica decisão de ser vizinho da ex",
+        "Com Virginia nos EUA, Zé Felipe mostra chegada em casa e reencontro com filhos após show"
+      ],
+      "sourceCount": 5,
+      "score": 124,
+      "trendBoost": false,
+      "trendMatches": [],
+      "image": "",
+      "imageCredit": "Imagem pendente de revisão",
+      "imageSubject": "Zé Felipe",
+      "imageSearchQuery": "Zé Felipe sorrindo em casa",
+      "imageAlt": "Zé Felipe",
+      "editorialMeta": {
+        "originalTitle": "Zé Felipe abre o jogo sobre morar ao lado de Virginia e a chama por apelido",
+        "sourceId": "WsOpIEZlbGlwZSBhYnJl",
+        "generationMode": "evidence-grounded-draft",
+        "writerProvider": "deepseek",
+        "writerModel": "deepseek-chat",
+        "automatedReview": {
+          "status": "rejected",
+          "confidence": 0.7,
+          "issues": [
+            "O título e o corpo afirmam que Zé Felipe 'abre o jogo sobre morar ao lado de Virginia e a chama por apelido', mas as evidências não fornecem detalhes sobre o apelido ou a declaração sobre morar ao lado. A evidência 'Zé Felipe abre o jogo sobre morar ao lado de Virginia e a chama por apelido' é apenas o título da fonte, não uma citação ou relato específico.",
+            "O corpo afirma que 'a declaração ocorreu após um seguidor perguntar \"Você está triste?\"', o que é apoiado pela evidência 'Você está triste?': pergunta de seguidor leva Zé Felipe a fazer desabafo sobre semblante diferente'. No entanto, a conexão entre essa pergunta e a justificativa sobre ser vizinho não é explicitada nas evidências.",
+            "O corpo afirma que 'ele também justificou a decisão de ser vizinho da ex no condomínio onde ela reside', mas a evidência 'No condomínio de Virginia: Zé Felipe justifica decisão de ser vizinho da ex' apoia apenas que ele justificou, não que a justificativa foi dada no mesmo contexto do desabafo."
+          ],
+          "unsupportedClaims": [
+            "Zé Felipe chama Virginia por um apelido (nenhuma evidência menciona apelido)",
+            "A justificativa sobre ser vizinho ocorreu no mesmo contexto do desabafo sobre o semblante"
+          ],
+          "model": "deepseek-chat",
+          "provider": "configured-provider-second-pass"
+        },
+        "factualClaims": [
+          "Zé Felipe abre o jogo sobre morar ao lado de Virginia e a chama por apelido"
+        ],
+        "generatedAt": "2026-06-15T15:50:27.417Z"
+      },
+      "createdAt": "2026-06-15T15:50:27.417Z",
+      "imageCreditStatus": "pending-visual-review",
+      "imageCreditSourceUrl": "",
+      "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      "imageCandidates": [
+        {
+          "imageUrl": "https://billboard.com.br/wp-content/uploads/2023/08/assets_fotos_903_ze-felipe-canta-musica-nova-e-jade-picon-encara-sabatina-no-domingao-5b625390def4-jpg.webp",
+          "pageUrl": "https://billboard.com.br/apos-novo-ep-ze-felipe-estreia-no-billboard-brasil-artistas-25/",
+          "source": "Bing",
+          "title": "Após novo EP, Zé Felipe estreia no Billboard Brasil Artistas 25 ...",
+          "width": 2362,
+          "height": 1576
+        },
+        {
+          "imageUrl": "https://www.bnews.com.br/media/_versions/junho_2024/1717633538667122_widexl.jpg",
+          "pageUrl": "https://www.bnews.com.br/noticias/entretenimento/virginia-e-ze-felipe-exibem-nova-mansao-localizada-em-condominio-de-famosos-veja-video.html",
+          "source": "Bing",
+          "title": "Virginia e Zé Felipe exibem nova mansão localizada em condomínio de ...",
+          "width": 1200,
+          "height": 675
+        },
+        {
+          "imageUrl": "https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2024/01/26115417/Ze-Felipe-ABRE.jpg",
+          "pageUrl": "https://www.metropoles.com/entretenimento/musica/ze-felipe-mc-rick-e-ana-castela-os-lancamentos-musicais-da-semana",
+          "source": "Bing",
+          "title": "Zé Felipe, MC Rick e Ana Castela: os lançamentos musicais da semana ...",
+          "width": 700,
+          "height": 467
+        },
+        {
+          "imageUrl": "https://ohoje.com/wp-content/uploads/2025/06/GtK7g6GXIAAkjjq.jpeg",
+          "pageUrl": "https://ohoje.com/2025/06/11/conheca-a-nova-mansao-de-ze-felipe-em-goiania-apos-separacao-de-virginia-fonseca/",
+          "source": "Bing",
+          "title": "Conheça a nova mansão de Zé Felipe em Goiânia após separação de ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://newr7-r7-prod.web.arc-cdn.net/resizer/v2/X25NVFDQPZA6RMZMWF6AW3QJ7E.jpeg?auth=3d4787efbdb0125b785602445ef87a1a547f541a00b5c9872ff557bfcf0a72ad&width=1920&height=1080",
+          "pageUrl": "https://entretenimento.r7.com/famosos-e-tv/feed-tv-arquivo-de-famosos/ana-castela-se-manifesta-sobre-possivel-casamento-com-ze-felipe-durante-aniversario-17112025/",
+          "source": "Bing",
+          "title": "Ana Castela se manifesta sobre possível casamento com Zé Felipe durante ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://bebemamae.com/wp-content/uploads/2023/01/ze-felipe-virginia-quartos-bebes-mansao-obras.jpg.webp",
+          "pageUrl": "https://bebemamae.com/famosos/ze-felipe-e-virginia-mostram-o-quarto-das-bebes-na-nova-mansao/",
+          "source": "Bing",
+          "title": "Zé Felipe e Virgínia mostram o quarto das bebês na nova mansão",
+          "width": 1200,
+          "height": 670
+        },
+        {
+          "imageUrl": "https://www.maisnovela.com.br/wp-content/uploads/2025/06/ze-felipe-em-nova-casa.jpg",
+          "pageUrl": "https://www.maisnovela.com.br/famosos/ze-felipe-surge-em-nova-casa-apos-separacao-de-virginia-saiba-todos-os-detalhes.phtml",
+          "source": "Bing",
+          "title": "Zé Felipe surge em nova casa após separação de Virginia; saiba todos os ...",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "imageUrl": "https://d24am.com/wp-content/uploads/2025/08/Ze-Felipe-e-Virginia-d24am.jpeg",
+          "pageUrl": "https://d24am.com/plus/famosos/virginia-fonseca-faz-homenagem-para-ze-felipe-no-dia-dos-pais/",
+          "source": "Bing",
+          "title": "Virginia Fonseca faz homenagem para Zé Felipe no Dia dos Pais",
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "imageReview": {
+        "status": "needs-human-review",
+        "approved": false,
+        "candidateIndex": -1,
+        "confidence": 0,
+        "reason": "OpenAI API: indisponivel nesta rodada | Codex CLI: USE_CODEX_VISION nao ativado",
+        "concerns": [
+          "vision-unavailable"
+        ],
+        "model": "",
+        "origin": "web"
+      }
+    }
+  ]
+}
