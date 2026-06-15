@@ -1,0 +1,1192 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selecao Interativa - BuzzPop</title>
+  <meta name="description" content="Ferramenta local para revisar, aprovar e exportar materias da fila editorial BuzzPop.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a1a2e'/%3E%3Cpath d='M12 18h40v8H12zm0 14h30v8H12zm0 14h24v8H12z' fill='%23f4d35e'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #1a1a2e;
+      --bg-deep: oklch(17% 0.045 280);
+      --panel: color-mix(in oklch, oklch(24% 0.052 280) 78%, transparent);
+      --panel-strong: oklch(27% 0.05 280);
+      --panel-group: oklch(23% 0.052 262);
+      --line: oklch(42% 0.05 280);
+      --line-soft: color-mix(in oklch, var(--line) 50%, transparent);
+      --text: oklch(94% 0.018 285);
+      --muted: oklch(72% 0.035 285);
+      --faint: oklch(59% 0.035 285);
+      --red: oklch(61% 0.2 27);
+      --purple: oklch(63% 0.19 312);
+      --blue: oklch(64% 0.15 245);
+      --green: oklch(70% 0.16 150);
+      --yellow: oklch(80% 0.16 86);
+      --danger: oklch(62% 0.2 25);
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --space-7: 48px;
+      --radius: 18px;
+      --shadow: 0 24px 80px color-mix(in oklch, black 42%, transparent);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        linear-gradient(145deg, color-mix(in oklch, var(--bg) 92%, black), var(--bg-deep) 52%, #1a1a2e),
+        var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, Avenir Next, Avenir, Montserrat, Segoe UI, sans-serif;
+      line-height: 1.55;
+    }
+
+    button,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .shell {
+      width: min(1440px, 100%);
+      margin: 0 auto;
+      padding: clamp(18px, 3vw, 40px);
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      margin: calc(var(--space-4) * -1) calc(var(--space-4) * -1) var(--space-5);
+      padding: var(--space-4);
+      background: color-mix(in oklch, var(--bg) 82%, transparent);
+      border-bottom: 1px solid var(--line-soft);
+      backdrop-filter: blur(18px);
+    }
+
+    .topbar-inner {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: var(--space-4);
+      align-items: center;
+      width: min(1440px, 100%);
+      margin: 0 auto;
+    }
+
+    .brand-kicker {
+      margin: 0 0 var(--space-1);
+      color: var(--yellow);
+      font-size: 0.72rem;
+      font-weight: 900;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 14ch;
+      margin: 0;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(2.2rem, 6vw, 5.8rem);
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 0.88;
+      text-transform: uppercase;
+    }
+
+    .status-strip {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: var(--space-2);
+    }
+
+    .metric {
+      min-width: 88px;
+      padding: var(--space-2) var(--space-3);
+      background: color-mix(in oklch, var(--panel-strong) 82%, transparent);
+      border: 1px solid var(--line-soft);
+      border-radius: 12px;
+      text-align: right;
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-5);
+      padding: var(--space-4);
+      background: color-mix(in oklch, var(--panel) 78%, transparent);
+      border: 1px solid var(--line-soft);
+      border-radius: var(--radius);
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    .search {
+      min-width: min(360px, 100%);
+      flex: 1;
+      padding: 0.8rem 1rem;
+      color: var(--text);
+      background: oklch(18% 0.04 280);
+      border: 1px solid var(--line-soft);
+      border-radius: 14px;
+      outline: none;
+    }
+
+    .search:focus {
+      border-color: var(--yellow);
+      box-shadow: 0 0 0 3px color-mix(in oklch, var(--yellow) 22%, transparent);
+    }
+
+    .pill,
+    .small-action,
+    .action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      border: 1px solid var(--line-soft);
+      border-radius: 999px;
+      color: var(--text);
+      background: color-mix(in oklch, var(--panel-strong) 72%, transparent);
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+    }
+
+    .pill {
+      padding: 0.65rem 0.9rem;
+      font-size: 0.76rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .pill:hover,
+    .pill.active,
+    .small-action:hover,
+    .action:hover {
+      transform: translateY(-1px);
+      border-color: color-mix(in oklch, var(--yellow) 62%, var(--line));
+    }
+
+    .pill.active {
+      color: oklch(18% 0.04 280);
+      background: var(--yellow);
+    }
+
+    .notice {
+      display: none;
+      margin-bottom: var(--space-5);
+      padding: var(--space-4);
+      color: var(--yellow);
+      background: color-mix(in oklch, var(--yellow) 11%, transparent);
+      border: 1px solid color-mix(in oklch, var(--yellow) 42%, transparent);
+      border-radius: var(--radius);
+    }
+
+    .notice.show {
+      display: block;
+    }
+
+    .groups {
+      display: grid;
+      gap: var(--space-5);
+    }
+
+    .topic-group {
+      padding: clamp(14px, 2vw, 24px);
+      background: color-mix(in oklch, var(--panel-group) 84%, transparent);
+      border: 1px solid var(--line-soft);
+      border-radius: calc(var(--radius) + 6px);
+      box-shadow: var(--shadow);
+    }
+
+    .topic-group.is-related {
+      background:
+        linear-gradient(135deg, color-mix(in oklch, var(--panel-group) 94%, transparent), color-mix(in oklch, var(--blue) 15%, var(--panel-group))),
+        var(--panel-group);
+      border-color: color-mix(in oklch, var(--blue) 42%, var(--line));
+    }
+
+    .group-head {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-4);
+    }
+
+    .group-title {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .group-title strong {
+      color: var(--text);
+      font-size: 0.95rem;
+      letter-spacing: 0.03em;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+      gap: var(--space-4);
+      align-items: start;
+    }
+
+    .card {
+      position: relative;
+      display: grid;
+      gap: var(--space-4);
+      padding: var(--space-4);
+      background: color-mix(in oklch, var(--panel) 88%, transparent);
+      border: 1px solid var(--line-soft);
+      border-radius: var(--radius);
+      box-shadow: 0 18px 48px color-mix(in oklch, black 24%, transparent);
+      container-type: inline-size;
+    }
+
+    .card[data-state="approved"] {
+      border-color: color-mix(in oklch, var(--green) 78%, var(--line));
+      box-shadow: 0 18px 48px color-mix(in oklch, var(--green) 16%, transparent);
+    }
+
+    .card[data-state="rejected"] {
+      border-color: color-mix(in oklch, var(--danger) 78%, var(--line));
+      opacity: 0.76;
+    }
+
+    .card-top {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: var(--space-3);
+      align-items: start;
+    }
+
+    .seq {
+      display: inline-grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      color: oklch(17% 0.04 280);
+      background: var(--yellow);
+      border-radius: 14px;
+      font-weight: 950;
+    }
+
+    .title-wrap {
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .card h3 {
+      margin: 0;
+      max-width: 28ch;
+      font-size: clamp(1.2rem, 2vw, 1.65rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.33rem 0.58rem;
+      border-radius: 999px;
+      font-size: 0.68rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .cat-famosos { background: color-mix(in oklch, var(--red) 84%, black); color: oklch(98% 0.01 27); }
+    .cat-musica { background: color-mix(in oklch, var(--purple) 82%, black); color: oklch(98% 0.01 312); }
+    .cat-tv { background: color-mix(in oklch, var(--blue) 82%, black); color: oklch(98% 0.01 245); }
+    .cat-cinema { background: color-mix(in oklch, var(--green) 78%, black); color: oklch(14% 0.03 150); }
+    .cat-default { background: oklch(36% 0.04 280); color: var(--text); }
+    .chars-ok { background: color-mix(in oklch, var(--green) 28%, oklch(18% 0.04 280)); color: oklch(88% 0.1 150); }
+    .chars-low { background: color-mix(in oklch, var(--yellow) 28%, oklch(18% 0.04 280)); color: oklch(90% 0.12 86); }
+    .pop { background: oklch(21% 0.05 280); color: var(--yellow); border: 1px solid color-mix(in oklch, var(--yellow) 30%, transparent); }
+
+    .body {
+      display: grid;
+      gap: var(--space-3);
+      color: color-mix(in oklch, var(--text) 88%, var(--muted));
+      font-size: 0.95rem;
+      max-width: 75ch;
+    }
+
+    .body p {
+      margin: 0;
+    }
+
+    .source-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-2);
+      align-items: center;
+    }
+
+    .source-link {
+      display: inline-flex;
+      align-items: center;
+      max-width: 100%;
+      padding: 0.45rem 0.62rem;
+      border: 1px solid var(--line-soft);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 800;
+      text-decoration: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .source-link[href]:hover {
+      color: var(--text);
+      border-color: var(--yellow);
+    }
+
+    .approved-image {
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .approved-image img {
+      width: 100%;
+      max-height: 360px;
+      object-fit: cover;
+      border: 1px solid var(--line-soft);
+      border-radius: 16px;
+      background: oklch(14% 0.03 280);
+    }
+
+    .credit {
+      color: var(--faint);
+      font-size: 0.73rem;
+      line-height: 1.35;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
+      gap: var(--space-3);
+    }
+
+    .thumb {
+      display: grid;
+      gap: var(--space-2);
+      padding: var(--space-2);
+      background: color-mix(in oklch, oklch(15% 0.035 280) 82%, transparent);
+      border: 1px solid var(--line-soft);
+      border-radius: 14px;
+    }
+
+    .thumb.selected {
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px color-mix(in oklch, var(--green) 22%, transparent);
+    }
+
+    .thumb img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      border-radius: 10px;
+      background: oklch(12% 0.03 280);
+    }
+
+    .thumb small {
+      min-height: 2.6em;
+      color: var(--faint);
+      font-size: 0.68rem;
+      line-height: 1.25;
+    }
+
+    .small-action {
+      width: 100%;
+      padding: 0.55rem 0.7rem;
+      font-size: 0.72rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .thumb.selected .small-action,
+    .small-action.selected {
+      color: oklch(12% 0.03 150);
+      background: var(--green);
+      border-color: var(--green);
+    }
+
+    .decision-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-2);
+    }
+
+    .decision {
+      padding: 0.72rem 0.8rem;
+      border: 1px solid var(--line-soft);
+      border-radius: 14px;
+      color: var(--text);
+      background: oklch(18% 0.04 280);
+      font-weight: 950;
+    }
+
+    .decision.approve:hover,
+    .decision.approve.active {
+      color: oklch(13% 0.03 150);
+      background: var(--green);
+      border-color: var(--green);
+    }
+
+    .decision.reject:hover,
+    .decision.reject.active {
+      color: oklch(98% 0.01 25);
+      background: var(--danger);
+      border-color: var(--danger);
+    }
+
+    .export {
+      margin-top: var(--space-7);
+      padding: clamp(16px, 3vw, 32px);
+      background: color-mix(in oklch, var(--panel-strong) 88%, transparent);
+      border: 1px solid var(--line-soft);
+      border-radius: calc(var(--radius) + 8px);
+      box-shadow: var(--shadow);
+    }
+
+    .export-head {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-3);
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-4);
+    }
+
+    .export h2 {
+      margin: 0;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      font-size: clamp(1.8rem, 4vw, 3.4rem);
+      line-height: 0.9;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .action {
+      padding: 0.82rem 1rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .action.primary {
+      color: oklch(16% 0.04 280);
+      background: var(--yellow);
+      border-color: var(--yellow);
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 320px;
+      resize: vertical;
+      padding: var(--space-4);
+      color: var(--text);
+      background: oklch(13% 0.035 280);
+      border: 1px solid var(--line-soft);
+      border-radius: 16px;
+      outline: none;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.82rem;
+      line-height: 1.55;
+    }
+
+    .empty {
+      padding: var(--space-7);
+      border: 1px dashed var(--line);
+      border-radius: var(--radius);
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .hide {
+      display: none !important;
+    }
+
+    @container (max-width: 460px) {
+      .card-top {
+        grid-template-columns: 1fr;
+      }
+
+      .seq {
+        width: auto;
+        height: auto;
+        padding: 0.45rem 0.7rem;
+        justify-self: start;
+      }
+
+      .decision-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 780px) {
+      .topbar-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .status-strip {
+        justify-content: flex-start;
+      }
+
+      .metric {
+        text-align: left;
+      }
+
+      .toolbar {
+        align-items: stretch;
+      }
+
+      .search {
+        min-width: 100%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div>
+          <p class="brand-kicker">BuzzPop Brasil / Revisao humana</p>
+          <h1>Selecao Interativa</h1>
+        </div>
+        <div class="status-strip" aria-live="polite">
+          <div class="metric"><strong id="metric-total">0</strong><span>Total</span></div>
+          <div class="metric"><strong id="metric-approved">0</strong><span>Aprovadas</span></div>
+          <div class="metric"><strong id="metric-rejected">0</strong><span>Rejeitadas</span></div>
+          <div class="metric"><strong id="metric-short">0</strong><span>&lt; 300</span></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="toolbar" aria-label="Filtros da selecao">
+      <input id="search" class="search" type="search" placeholder="Buscar por titulo, tag, fonte ou assunto">
+      <div class="filters" id="filters">
+        <button class="pill active" type="button" data-filter="all">Todas</button>
+        <button class="pill" type="button" data-filter="pending">Pendentes</button>
+        <button class="pill" type="button" data-filter="approved">Aprovadas</button>
+        <button class="pill" type="button" data-filter="rejected">Rejeitadas</button>
+        <button class="pill" type="button" data-filter="short">Abaixo de 300</button>
+      </div>
+    </section>
+
+    <div id="notice" class="notice"></div>
+    <main id="groups" class="groups" aria-live="polite"></main>
+
+    <section class="export" aria-label="Exportar materias aprovadas">
+      <div class="export-head">
+        <h2>Gerar codigo</h2>
+        <div class="filters">
+          <button id="generate" class="action primary" type="button">Gerar JSON</button>
+          <button id="copy" class="action" type="button">Copiar</button>
+          <button id="clear-state" class="action" type="button">Limpar escolhas</button>
+        </div>
+      </div>
+      <textarea id="output" spellcheck="false" placeholder="O JSON das materias aprovadas aparece aqui."></textarea>
+    </section>
+  </div>
+
+  <script>
+    const DATA_PATHS = [
+      "../../data/review-queue.json",
+      "/data/review-queue.json",
+      "file:///Users/rafaeloliver/.openclaw/workspace-caique/SITE%20HIBRIDO/data/review-queue.json"
+    ];
+
+    const STORAGE_KEY = "buzzpop.selecaoInterativa.v1";
+    const MIN_CHARS = 300;
+    const SOURCE_FILE = "/Users/rafaeloliver/.openclaw/workspace-caique/SITE HIBRIDO/data/review-queue.json";
+    const STOPWORDS = new Set([
+      "para", "com", "uma", "mais", "sobre", "apos", "após", "entre", "pela", "pelo", "das", "dos", "nas", "nos",
+      "que", "ter", "tem", "seu", "sua", "aos", "aos", "dia", "anos", "falar", "fala", "revela", "recebe",
+      "morre", "novo", "nova", "contra", "brasil", "brasileiro", "brasileira", "noticia", "notícias"
+    ]);
+
+    let allItems = [];
+    let groupedItems = [];
+    let state = readState();
+    let activeFilter = "all";
+    let searchTerm = "";
+
+    const els = {
+      groups: document.getElementById("groups"),
+      notice: document.getElementById("notice"),
+      search: document.getElementById("search"),
+      filters: document.getElementById("filters"),
+      total: document.getElementById("metric-total"),
+      approved: document.getElementById("metric-approved"),
+      rejected: document.getElementById("metric-rejected"),
+      short: document.getElementById("metric-short"),
+      output: document.getElementById("output"),
+      generate: document.getElementById("generate"),
+      copy: document.getElementById("copy"),
+      clearState: document.getElementById("clear-state")
+    };
+
+    init();
+
+    async function init() {
+      bindEvents();
+      try {
+        const data = await loadQueue();
+        allItems = normalizeQueue(data);
+        groupedItems = groupSimilar(allItems);
+        render();
+      } catch (error) {
+        showNotice(
+          "Nao consegui carregar " + SOURCE_FILE + ". Sirva a raiz do projeto com um servidor local e abra public/selecao-interativa/index.html. Detalhe: " + error.message,
+          true
+        );
+        els.groups.innerHTML = '<div class="empty">Fila nao carregada.</div>';
+      }
+    }
+
+    function bindEvents() {
+      els.search.addEventListener("input", () => {
+        searchTerm = els.search.value.trim().toLowerCase();
+        render();
+      });
+
+      els.filters.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-filter]");
+        if (!button) return;
+        activeFilter = button.dataset.filter;
+        els.filters.querySelectorAll(".pill").forEach((pill) => pill.classList.toggle("active", pill === button));
+        render();
+      });
+
+      els.groups.addEventListener("click", (event) => {
+        const statusButton = event.target.closest("[data-status]");
+        const imageButton = event.target.closest("[data-image-index]");
+        const approvedImageButton = event.target.closest("[data-approved-image]");
+
+        if (statusButton) {
+          const id = statusButton.closest("[data-id]").dataset.id;
+          updateItemState(id, { status: statusButton.dataset.status });
+          render();
+        }
+
+        if (imageButton) {
+          const card = imageButton.closest("[data-id]");
+          const id = card.dataset.id;
+          const item = allItems.find((entry) => entry.uid === id);
+          const candidate = item.imageCandidates[Number(imageButton.dataset.imageIndex)];
+          updateItemState(id, {
+            selectedImage: {
+              url: candidate.imageUrl || candidate.url || "",
+              pageUrl: candidate.pageUrl || candidate.sourceUrl || "",
+              credit: imageCredit(candidate)
+            }
+          });
+          render();
+        }
+
+        if (approvedImageButton) {
+          const card = approvedImageButton.closest("[data-id]");
+          const id = card.dataset.id;
+          const item = allItems.find((entry) => entry.uid === id);
+          updateItemState(id, {
+            selectedImage: {
+              url: item.image || "",
+              pageUrl: item.imageCreditSourceUrl || item.sourceUrl || "",
+              credit: item.imageCredit || "Imagem aprovada"
+            }
+          });
+          render();
+        }
+      });
+
+      els.generate.addEventListener("click", () => {
+        const payload = allItems
+          .filter((item) => getItemState(item.uid).status === "approved")
+          .map((item) => exportItem(item));
+        els.output.value = JSON.stringify(payload, null, 2);
+        showNotice(payload.length + " materia(s) aprovada(s) compilada(s) no JSON.", false);
+      });
+
+      els.copy.addEventListener("click", async () => {
+        if (!els.output.value.trim()) {
+          showNotice("Gere o JSON antes de copiar.", true);
+          return;
+        }
+        await navigator.clipboard.writeText(els.output.value);
+        showNotice("JSON copiado para a area de transferencia.", false);
+      });
+
+      els.clearState.addEventListener("click", () => {
+        const confirmed = confirm("Limpar aprovacoes, rejeicoes e imagens escolhidas desta pagina?");
+        if (!confirmed) return;
+        state = {};
+        saveState();
+        render();
+        els.output.value = "";
+        showNotice("Escolhas locais apagadas.", false);
+      });
+    }
+
+    async function loadQueue() {
+      let lastError = null;
+      for (const path of DATA_PATHS) {
+        try {
+          const response = await fetch(path, { cache: "no-store" });
+          if (!response.ok) throw new Error(response.status + " em " + path);
+          return response.json();
+        } catch (error) {
+          lastError = error;
+        }
+      }
+      throw lastError || new Error("arquivo indisponivel");
+    }
+
+    function normalizeQueue(data) {
+      const items = Array.isArray(data) ? data : data.items || data.queue || [];
+      return items
+        .filter((item) => item && (item.title || item.slug || item.reviewId))
+        .map((item, index) => {
+          const body = Array.isArray(item.body)
+            ? item.body.filter(Boolean).map(String)
+            : htmlToParagraphs(item.html || item.excerpt || "");
+          const uid = item.reviewId || item.id || item.slug || "item-" + index;
+          return {
+            ...item,
+            uid,
+            number: index + 1,
+            title: item.title || item.buzzpopTitle || "Materia sem titulo",
+            slug: item.slug || slugify(item.title || uid),
+            category: item.category || "Famosos",
+            body,
+            imageCandidates: Array.isArray(item.imageCandidates) ? item.imageCandidates : [],
+            characterCount: body.join(" ").replace(/\s+/g, " ").trim().length,
+            searchBlob: [
+              item.title,
+              item.slug,
+              item.category,
+              item.source,
+              (item.tags || []).join(" "),
+              (item.evidenceSources || []).join(" "),
+              (item.evidenceClaims || []).join(" ")
+            ].filter(Boolean).join(" ").toLowerCase()
+          };
+        });
+    }
+
+    function render() {
+      const visibleGroups = groupedItems
+        .map((group) => ({
+          ...group,
+          items: group.items.filter(shouldShow)
+        }))
+        .filter((group) => group.items.length);
+
+      updateMetrics();
+
+      if (!visibleGroups.length) {
+        els.groups.innerHTML = '<div class="empty">Nada encontrado com o filtro atual.</div>';
+        return;
+      }
+
+      els.groups.innerHTML = visibleGroups.map((group) => renderGroup(group)).join("");
+    }
+
+    function renderGroup(group) {
+      const related = group.items.length > 1;
+      const title = related
+        ? '<span>Assunto relacionado</span> <strong>' + escapeHtml(group.label) + '</strong>'
+        : '<span>Materia individual</span>';
+
+      return [
+        '<section class="topic-group ' + (related ? "is-related" : "") + '">',
+          '<div class="group-head">',
+            '<p class="group-title">' + title + '</p>',
+            related ? '<span class="badge pop">' + group.items.length + ' materias agrupadas</span>' : '',
+          '</div>',
+          '<div class="cards">',
+            group.items.map(renderCard).join(""),
+          '</div>',
+        '</section>'
+      ].join("");
+    }
+
+    function renderCard(item) {
+      const itemState = getItemState(item.uid);
+      const selectedUrl = itemState.selectedImage && itemState.selectedImage.url;
+      const status = itemState.status || "pending";
+      const categoryClass = categoryClassName(item.category);
+      const charOk = item.characterCount >= MIN_CHARS;
+      const popularity = popularityBadge(item);
+      const approvedImage = item.image ? renderApprovedImage(item, selectedUrl) : "";
+      const candidates = item.imageCandidates.length ? renderImageCandidates(item, selectedUrl) : "";
+      const sources = renderSources(item);
+      const body = item.body.map((paragraph) => '<p>' + escapeHtml(paragraph) + '</p>').join("");
+
+      return [
+        '<article class="card" data-id="' + escapeHtml(item.uid) + '" data-state="' + status + '">',
+          '<div class="card-top">',
+            '<span class="seq">' + item.number + '</span>',
+            '<div class="title-wrap">',
+              '<h3>' + escapeHtml(item.title) + '</h3>',
+              '<div class="badges">',
+                '<span class="badge ' + categoryClass + '">' + escapeHtml(item.category) + '</span>',
+                '<span class="badge ' + (charOk ? "chars-ok" : "chars-low") + '">' + item.characterCount + ' caracteres</span>',
+                '<span class="badge pop">' + popularity + '</span>',
+              '</div>',
+            '</div>',
+          '</div>',
+          '<div class="body">' + body + '</div>',
+          sources,
+          approvedImage,
+          candidates,
+          '<div class="decision-row">',
+            '<button class="decision approve ' + (status === "approved" ? "active" : "") + '" type="button" data-status="approved">✅ Aprovar</button>',
+            '<button class="decision reject ' + (status === "rejected" ? "active" : "") + '" type="button" data-status="rejected">❌ Rejeitar</button>',
+          '</div>',
+        '</article>'
+      ].join("");
+    }
+
+    function renderApprovedImage(item, selectedUrl) {
+      const src = resolveImageUrl(item.image);
+      const selected = selectedUrl === item.image;
+      return [
+        '<div class="approved-image">',
+          '<img src="' + escapeHtml(src) + '" alt="' + escapeHtml(item.imageAlt || item.title) + '" loading="lazy">',
+          '<div class="credit">' + escapeHtml(item.imageCredit || "Imagem aprovada") + '</div>',
+          '<button class="small-action ' + (selected ? "selected" : "") + '" type="button" data-approved-image="true">' + (selected ? "Selecionada" : "Usar imagem aprovada") + '</button>',
+        '</div>'
+      ].join("");
+    }
+
+    function renderImageCandidates(item, selectedUrl) {
+      return [
+        '<div>',
+          '<div class="badges" style="margin-bottom: 8px"><span class="badge pop">Candidatas de imagem</span></div>',
+          '<div class="image-grid">',
+            item.imageCandidates.map((candidate, index) => {
+              const url = candidate.imageUrl || candidate.url || "";
+              const selected = selectedUrl === url;
+              return [
+                '<div class="thumb ' + (selected ? "selected" : "") + '">',
+                  '<img src="' + escapeHtml(url) + '" alt="' + escapeHtml(candidate.title || item.title) + '" loading="lazy">',
+                  '<small>' + escapeHtml(imageCredit(candidate)) + '</small>',
+                  '<button class="small-action ' + (selected ? "selected" : "") + '" type="button" data-image-index="' + index + '">' + (selected ? "Selecionada" : "Escolher") + '</button>',
+                '</div>'
+              ].join("");
+            }).join(""),
+          '</div>',
+        '</div>'
+      ].join("");
+    }
+
+    function renderSources(item) {
+      const sources = [];
+      if (item.sourceUrl) {
+        sources.push({ label: item.source || "Fonte principal", url: item.sourceUrl });
+      }
+      (item.evidenceSources || []).forEach((label) => {
+        if (!sources.some((source) => source.label === label)) sources.push({ label, url: "" });
+      });
+
+      if (!sources.length) return "";
+
+      return [
+        '<div class="source-row">',
+          sources.slice(0, 8).map((source) => {
+            if (source.url) {
+              return '<a class="source-link" href="' + escapeHtml(source.url) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(source.label) + '</a>';
+            }
+            return '<span class="source-link">' + escapeHtml(source.label) + '</span>';
+          }).join(""),
+        '</div>'
+      ].join("");
+    }
+
+    function shouldShow(item) {
+      const itemState = getItemState(item.uid);
+      const status = itemState.status || "pending";
+      if (searchTerm && !item.searchBlob.includes(searchTerm)) return false;
+      if (activeFilter === "all") return true;
+      if (activeFilter === "short") return item.characterCount < MIN_CHARS;
+      return status === activeFilter;
+    }
+
+    function groupSimilar(items) {
+      const groups = [];
+      items.forEach((item) => {
+        const tokens = topicTokens(item);
+        let target = null;
+        let bestScore = 0;
+
+        groups.forEach((group) => {
+          const score = similarity(tokens, group.tokens);
+          const shared = tokens.filter((token) => group.tokens.includes(token)).length;
+          if ((score >= 0.24 || shared >= 2) && score >= bestScore) {
+            target = group;
+            bestScore = score;
+          }
+        });
+
+        if (!target) {
+          groups.push({
+            label: labelFromTokens(tokens, item),
+            tokens,
+            items: [item]
+          });
+          return;
+        }
+
+        target.items.push(item);
+        target.tokens = Array.from(new Set(target.tokens.concat(tokens))).slice(0, 18);
+        target.label = labelFromTokens(target.tokens, target.items[0]);
+      });
+
+      return groups;
+    }
+
+    function topicTokens(item) {
+      const text = [
+        item.title,
+        item.slug,
+        (item.tags || []).join(" "),
+        (item.evidenceClaims || []).slice(0, 3).join(" ")
+      ].join(" ");
+      return Array.from(new Set(
+        normalizeText(text)
+          .split(/\s+/)
+          .filter((token) => token.length > 3 && !STOPWORDS.has(token))
+      )).slice(0, 14);
+    }
+
+    function similarity(left, right) {
+      const a = new Set(left);
+      const b = new Set(right);
+      const intersection = left.filter((token) => b.has(token)).length;
+      const union = new Set(left.concat(right)).size || 1;
+      return intersection / union;
+    }
+
+    function labelFromTokens(tokens, item) {
+      const chosen = tokens.filter((token) => token.length > 4).slice(0, 3);
+      if (chosen.length) return chosen.map(capitalize).join(" / ");
+      return item.category || "Assunto";
+    }
+
+    function popularityBadge(item) {
+      if (item.sourceCount >= 4 || item.score >= 140) return "🔥 Muito noticiada";
+      if (item.trendBoost || (item.trendMatches && item.trendMatches.length)) return "📈 Em alta";
+      return "📰 Em discussão";
+    }
+
+    function categoryClassName(category) {
+      const normalized = normalizeText(category);
+      if (normalized.includes("famos")) return "cat-famosos";
+      if (normalized.includes("music")) return "cat-musica";
+      if (normalized === "tv" || normalized.includes("televis")) return "cat-tv";
+      if (normalized.includes("cinema") || normalized.includes("filme")) return "cat-cinema";
+      return "cat-default";
+    }
+
+    function exportItem(item) {
+      const itemState = getItemState(item.uid);
+      const selectedImage = itemState.selectedImage || {};
+      const image = selectedImage.url || item.image || "";
+      const imageCreditText = selectedImage.credit || item.imageCredit || "";
+      return {
+        title: item.title,
+        buzzpopTitle: item.title,
+        buzzpopLine: item.excerpt || "",
+        buzzpopBody: item.body,
+        slug: item.slug,
+        category: item.category,
+        image,
+        imageCredit: imageCreditText,
+        fontes: {
+          source: item.source || "",
+          sourceUrl: item.sourceUrl || "",
+          evidenceSources: item.evidenceSources || [],
+          evidenceClaims: item.evidenceClaims || []
+        }
+      };
+    }
+
+    function updateMetrics() {
+      const counts = allItems.reduce((acc, item) => {
+        const status = getItemState(item.uid).status || "pending";
+        acc.total += 1;
+        if (status === "approved") acc.approved += 1;
+        if (status === "rejected") acc.rejected += 1;
+        if (item.characterCount < MIN_CHARS) acc.short += 1;
+        return acc;
+      }, { total: 0, approved: 0, rejected: 0, short: 0 });
+
+      els.total.textContent = counts.total;
+      els.approved.textContent = counts.approved;
+      els.rejected.textContent = counts.rejected;
+      els.short.textContent = counts.short;
+    }
+
+    function getItemState(id) {
+      return state[id] || { status: "pending" };
+    }
+
+    function updateItemState(id, patch) {
+      state[id] = { ...getItemState(id), ...patch };
+      saveState();
+    }
+
+    function readState() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+      } catch {
+        return {};
+      }
+    }
+
+    function saveState() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+
+    function showNotice(message, isError) {
+      els.notice.textContent = message;
+      els.notice.classList.add("show");
+      els.notice.style.color = isError ? "var(--danger)" : "var(--yellow)";
+    }
+
+    function imageCredit(candidate) {
+      return candidate.credit || candidate.imageCredit || candidate.source || candidate.title || host(candidate.pageUrl || candidate.imageUrl || "") || "Credito nao informado";
+    }
+
+    function host(url) {
+      try {
+        return new URL(url).hostname.replace(/^www\./, "");
+      } catch {
+        return "";
+      }
+    }
+
+    function resolveImageUrl(src) {
+      if (!src) return "";
+      if (/^https?:\/\//i.test(src)) return src;
+      return "../" + src.replace(/^\/+/, "");
+    }
+
+    function htmlToParagraphs(value) {
+      const text = String(value || "");
+      const matches = Array.from(text.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)).map((match) => stripHtml(match[1]));
+      if (matches.length) return matches.filter(Boolean);
+      const plain = stripHtml(text);
+      return plain ? [plain] : [];
+    }
+
+    function stripHtml(value) {
+      return String(value || "")
+        .replace(/<br\s*\/?>/gi, "\n")
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+    }
+
+    function normalizeText(value) {
+      return String(value || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim();
+    }
+
+    function slugify(value) {
+      return normalizeText(value).replace(/\s+/g, "-").replace(/^-|-$/g, "").slice(0, 90);
+    }
+
+    function capitalize(value) {
+      return value ? value.charAt(0).toUpperCase() + value.slice(1) : value;
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+  </script>
+</body>
+</html>

@@ -108,7 +108,16 @@ npm run editorial:publish
 ```
 
 O comando acima valida `data/articles.json`, gera o site final e prepara `docs/`.
-Commit e push continuam sendo passos explicitos.
+Ao preparar `docs/`, ele adiciona ao staging o HTML da Selecao do Dia e todas as
+imagens referenciadas por essa pagina. Em seguida, confirma que os arquivos
+existem em `docs/images/auto/` e estao no Git. Commit e push continuam sendo
+passos explicitos.
+
+Validacao isolada:
+
+```bash
+npm run validate:selection-assets
+```
 
 ## IA
 
@@ -147,6 +156,7 @@ Atencao:
 - Ao clicar numa materia, deve abrir uma pagina interna com a materia completa.
 - No fim da pagina interna, manter blocos como `Mais vistas do dia` e `Mais lidas do dia`.
 - A materia deve parecer uma noticia real, nao uma curadoria.
+- O minimo de 300 caracteres vale para rascunhos novos e para a Selecao do Dia; nao deve bloquear materia antiga ja aprovada no validador final.
 - Nao escrever frases como:
   - `A cobertura aparece em X referencias consultadas`
   - `Esse conjunto da mais consistencia`
@@ -157,7 +167,7 @@ Atencao:
 - Texto deve ter corpo jornalistico, contexto, desenvolvimento e fechamento.
 - Quando a IA gerar texto fraco, generico, curto, incoerente ou com metalinguagem, reprovar antes de publicar.
 - Nao exigir comprimento artificial. O texto deve parar quando os fatos acabarem.
-- Uma nota factual pode ter de 45 a 260 palavras e de 2 a 5 paragrafos.
+- Uma nota factual pode ter de 45 a 260 palavras, minimo de 300 caracteres no corpo e de 2 a 5 paragrafos.
 - Quando o primeiro texto falhar, o gerador tenta uma correcao usando os erros do revisor antes de descartar a pauta.
 - Aceitar nota curta quando houver poucos fatos. Nunca alongar artificialmente para atingir SEO ou contagem de palavras.
 - Nunca completar materia com memoria geral sobre carreira, agenda, repercussao, reacao de fas ou proximos passos.

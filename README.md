@@ -50,6 +50,7 @@ npm run editorial:image -- ID4:0
 npm run editorial:publish
 npm run site:final
 npm run site:gh-pages
+npm run validate:selection-assets
 npm run hybrid:server
 npm run hybrid
 npm run hybrid:daily
@@ -104,5 +105,11 @@ relacionadas a cultura pop. `npm run editorial:report` mostra cada pauta
 analisada e o motivo exato de aprovacao, rejeicao ou erro.
 
 Depois publique a branch `main` usando `docs/` como origem no GitHub Pages.
+
+`site:gh-pages` copia o site para `docs/`, preserva imagens existentes, adiciona
+ao staging apenas `docs/selecao-dia/index.html` e as imagens que essa pagina
+referencia, e executa `validate:selection-assets`. O comando nao cria commit e
+nao faz push. Se qualquer imagem estiver ausente ou fora do Git, o fluxo para
+com a lista exata dos arquivos.
 
 Nunca publique `.env` ou chaves de API. O arquivo `.env` ja fica ignorado pelo Git.

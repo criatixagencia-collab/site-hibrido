@@ -11,6 +11,10 @@ const PUBLIC_IMAGE_DIR = path.resolve("public", "images", "auto");
 const PROFILE_MAP_FILE = path.resolve("data", "instagram-profiles.json");
 const MIN_BYTES = 1024;
 const DEFAULT_INSTAGRAM_ACTOR = "apify/instagram-scraper";
+const IMAGE_FETCH_TIMEOUT_MS = Number(process.env.IMAGE_FETCH_TIMEOUT_MS || 15000);
+const IMAGE_API_TIMEOUT_MS = Number(process.env.IMAGE_API_TIMEOUT_MS || 60000);
+const IMAGE_ARTICLE_TIMEOUT_MS = Number(process.env.IMAGE_ARTICLE_TIMEOUT_MS || 90000);
+const IMAGE_CONCURRENCY = Math.max(1, Number(process.env.IMAGE_CONCURRENCY || 3));
 let openAIVisionUnavailable = false;
 const SOURCE_DOMAIN_HINTS = {
   "adorocinema": ["adorocinema.com"],
@@ -50,6 +54,26 @@ function normalizeText(value = "") {
     .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function withTimeout(promise, timeoutMs, label) {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(
+      () => reject(new Error(`${label} excedeu ${timeoutMs}ms`)),
+      timeoutMs,
+    );
+
+    Promise.resolve(promise).then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      (error) => {
+        clearTimeout(timer);
+        reject(error);
+      },
+    );
+  });
 }
 
 function slugify(value) {
@@ -393,7 +417,10 @@ async function duckDuckGoImageCandidates(query) {
 }
 
 async function apifyJson(url, options = {}) {
-  const response = await fetch(url, options);
+  const response = await fetch(url, {
+    ...options,
+    signal: options.signal || AbortSignal.timeout(IMAGE_API_TIMEOUT_MS),
+  });
   const text = await response.text();
   let data;
   try {
@@ -483,6 +510,7 @@ async function downloadImage(url, slug) {
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
       accept: "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
     },
+    signal: AbortSignal.timeout(IMAGE_FETCH_TIMEOUT_MS),
   });
   if (!response.ok) return "";
   const contentType = response.headers.get("content-type") || "";
@@ -538,6 +566,7 @@ async function chooseCandidateWithOpenAI(article, candidates) {
       temperature: 0.2,
       max_tokens: 300,
     }),
+    signal: AbortSignal.timeout(IMAGE_API_TIMEOUT_MS),
   });
 
   if (!response.ok) return 0;
@@ -612,6 +641,7 @@ async function chooseInstagramCandidateWithOpenAI(article, candidates) {
       },
       max_output_tokens: 500,
     }),
+    signal: AbortSignal.timeout(IMAGE_API_TIMEOUT_MS),
   });
 
   if (!response.ok) return 0;
@@ -723,6 +753,7 @@ async function chooseCandidateWithOpenAIVision(article, candidates, origin) {
       },
       max_output_tokens: 700,
     }),
+    signal: AbortSignal.timeout(IMAGE_API_TIMEOUT_MS),
   });
 
   const text = await response.text();
@@ -869,7 +900,10 @@ async function chooseCandidateWithCodexVision(article, candidates, origin) {
             ...process.env,
             CODEX_HOME: process.env.CODEX_HOME || "/Users/rafaeloliver/.codex",
           },
-          timeout: Number(process.env.CODEX_VISION_TIMEOUT_MS || 120000),
+          timeout: Math.min(
+            Number(process.env.CODEX_VISION_TIMEOUT_MS || 60000),
+            IMAGE_API_TIMEOUT_MS,
+          ),
           stdio: ["pipe", "pipe", "pipe"],
         },
       );
@@ -943,141 +977,181 @@ async function chooseCandidateVisually(article, candidates, origin) {
   };
 }
 
+function pendingImageArticle(article, reason, concern) {
+  return {
+    ...article,
+    image: "",
+    imageCredit: "Imagem pendente de revisão",
+    imagePostUrl: "",
+    imageCreditStatus: "pending-visual-review",
+    imageCreditSourceUrl: "",
+    imagePolicy: reason,
+    imageReview: {
+      status: "needs-human-review",
+      approved: false,
+      candidateIndex: -1,
+      confidence: 0,
+      reason,
+      concerns: [concern],
+      origin: "best-effort",
+    },
+  };
+}
+
 export async function applyIllustrativeImages(articles) {
-  const updated = [];
+  const updated = new Array(articles.length);
+  let nextIndex = 0;
 
-  for (const article of articles) {
-    const profileUrl = instagramProfileForArticle(article);
-    if (profileUrl) {
+  async function worker() {
+    while (nextIndex < articles.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      const article = articles[index];
+
       try {
-        const instagramCandidates = await instagramImageCandidates(profileUrl, 6);
-        if (instagramCandidates.length) {
-          const decision = await chooseCandidateVisually(article, instagramCandidates, "instagram-oficial");
-          if (decision.approved) {
-            const chosen = instagramCandidates[decision.candidateIndex];
-            const localPath = await downloadImage(chosen.imageUrl, slugify(article.slug || article.title));
-
-            updated.push({
-              ...article,
-              image: localPath || "/images/news-placeholder.svg",
-              imageCredit: chosen.credit || "Foto: Reprodução/Instagram",
-              imagePostUrl: chosen.pageUrl || "",
-              imageCreditStatus: "instagram-profile",
-              imageCreditSourceUrl: chosen.pageUrl || "",
-              imagePolicy:
-                "Imagem de perfil publico/oficial aprovada por revisao visual; nao copiada da materia original.",
-              imageReview: {
-                status: localPath ? "approved" : "needs-human-review",
-                ...decision,
-                origin: "instagram-oficial",
-              },
-            });
-            continue;
-          }
-        }
+        updated[index] = await withTimeout(
+          applyIllustrativeImage(article),
+          IMAGE_ARTICLE_TIMEOUT_MS,
+          "Etapa de imagem da materia",
+        );
       } catch (error) {
-        article.editorialMeta = {
-          ...(article.editorialMeta || {}),
-          instagramImageError: error.message || String(error),
-        };
+        const reason = `Etapa de imagem expirou ou falhou: ${error.message || error}`;
+        console.warn(`[images] ${article.title}: ${reason}`);
+        updated[index] = pendingImageArticle(article, reason, "image-timeout-or-error");
       }
     }
+  }
 
-    const query = [
-      article.imageSearchQuery,
-      article.imageAlt,
-      article.category,
-      "foto arquivo",
-      "-noticia",
-      "-exclusivo",
-    ]
-      .filter(Boolean)
-      .join(" ");
+  const workerCount = Math.min(IMAGE_CONCURRENCY, Math.max(1, articles.length));
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  return updated;
+}
 
-    const candidates = (await duckDuckGoImageCandidates(query))
-      .filter((candidate) => candidate.imageUrl && /^https?:\/\//i.test(candidate.imageUrl))
-      .filter((candidate) => candidate.width >= 300 && candidate.height >= 180)
-      .filter((candidate) => !isBlockedCandidate(candidate, article))
-      .slice(0, 8);
-
-    if (!candidates.length) {
-      updated.push({
-        ...article,
-        image: "/images/news-placeholder.svg",
-        imageCredit: "Imagem ilustrativa: BuzzPop Brasil",
-        imageCreditStatus: "placeholder",
-        imageCreditSourceUrl: "",
-        imagePolicy: "Sem candidata ilustrativa valida fora das fontes da noticia.",
-        imageReview: {
-          status: "needs-human-review",
-          approved: false,
-          confidence: 0,
-          reason: "Nenhuma candidata valida encontrada.",
-          concerns: ["no-valid-candidate"],
-          origin: "web",
-        },
-      });
-      continue;
-    }
-
-    let decision;
+/*
+ * Each worker isolates failures per article. Network calls below also have
+ * their own shorter timeout, so a failed provider cannot block the queue.
+ */
+async function applyIllustrativeImage(article) {
+  const profileUrl = instagramProfileForArticle(article);
+  if (profileUrl) {
     try {
-      decision = await chooseCandidateVisually(article, candidates, "web");
+      const instagramCandidates = await instagramImageCandidates(profileUrl, 6);
+      if (instagramCandidates.length) {
+        const decision = await chooseCandidateVisually(article, instagramCandidates, "instagram-oficial");
+        if (decision.approved) {
+          const chosen = instagramCandidates[decision.candidateIndex];
+          const localPath = await downloadImage(chosen.imageUrl, slugify(article.slug || article.title));
+
+          return {
+            ...article,
+            image: localPath || "",
+            imageCredit: localPath
+              ? chosen.credit || "Foto: Reprodução/Instagram"
+              : "Imagem pendente de revisão",
+            imagePostUrl: chosen.pageUrl || "",
+            imageCreditStatus: localPath ? "instagram-profile" : "pending-visual-review",
+            imageCreditSourceUrl: chosen.pageUrl || "",
+            imagePolicy:
+              localPath
+                ? "Imagem de perfil publico/oficial aprovada por revisao visual; nao copiada da materia original."
+                : "Imagem aprovada, mas o download falhou; exige revisao humana.",
+            imageReview: {
+              status: localPath ? "approved" : "needs-human-review",
+              ...decision,
+              origin: "instagram-oficial",
+            },
+          };
+        }
+      }
     } catch (error) {
-      decision = {
-        approved: false,
-        candidateIndex: -1,
-        confidence: 0,
-        reason: error.message || String(error),
-        concerns: ["vision-error"],
-        model: process.env.OPENAI_VISION_MODEL || process.env.OPENAI_MODEL || "",
+      article.editorialMeta = {
+        ...(article.editorialMeta || {}),
+        instagramImageError: error.message || String(error),
       };
     }
+  }
 
-    if (!decision.approved) {
-      updated.push({
-        ...article,
-        image: "/images/news-placeholder.svg",
-        imageCredit: "Imagem pendente de revisão",
-        imageCreditStatus: "pending-visual-review",
-        imageCreditSourceUrl: "",
-        imagePolicy: "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-        imageCandidates: candidates.map((candidate) => ({
-          imageUrl: candidate.imageUrl,
-          pageUrl: candidate.pageUrl,
-          source: candidate.source,
-          title: candidate.title,
-          width: candidate.width,
-          height: candidate.height,
-        })),
-        imageReview: {
-          status: "needs-human-review",
-          ...decision,
-          origin: "web",
-        },
-      });
-      continue;
-    }
+  const query = [
+    article.imageSearchQuery,
+    article.imageAlt,
+    article.category,
+    "foto arquivo",
+    "-noticia",
+    "-exclusivo",
+  ]
+    .filter(Boolean)
+    .join(" ");
 
-    const chosen = candidates[decision.candidateIndex];
-    const localPath = await downloadImage(chosen.imageUrl, slugify(article.slug || article.title));
-    const credit = await creditForWebCandidate(chosen);
+  const candidates = (await duckDuckGoImageCandidates(query))
+    .filter((candidate) => candidate.imageUrl && /^https?:\/\//i.test(candidate.imageUrl))
+    .filter((candidate) => candidate.width >= 300 && candidate.height >= 180)
+    .filter((candidate) => !isBlockedCandidate(candidate, article))
+    .slice(0, 8);
 
-    updated.push({
+  if (!candidates.length) {
+    return pendingImageArticle(
+      article,
+      "Sem candidata ilustrativa valida fora das fontes da noticia.",
+      "no-valid-candidate",
+    );
+  }
+
+  let decision;
+  try {
+    decision = await chooseCandidateVisually(article, candidates, "web");
+  } catch (error) {
+    decision = {
+      approved: false,
+      candidateIndex: -1,
+      confidence: 0,
+      reason: error.message || String(error),
+      concerns: ["vision-error"],
+      model: process.env.OPENAI_VISION_MODEL || process.env.OPENAI_MODEL || "",
+    };
+  }
+
+  if (!decision.approved) {
+    return {
       ...article,
-      image: localPath || "/images/news-placeholder.svg",
-      imageCredit: credit.imageCredit,
-      imagePostUrl: chosen.pageUrl || "",
-      imageCreditStatus: credit.imageCreditStatus,
-      imageCreditSourceUrl: credit.imageCreditSourceUrl,
-      imagePolicy: "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
+      image: "",
+      imageCredit: "Imagem pendente de revisão",
+      imageCreditStatus: "pending-visual-review",
+      imageCreditSourceUrl: "",
+      imagePolicy: "Nenhuma candidata foi aprovada pela revisao visual automatica.",
+      imageCandidates: candidates.map((candidate) => ({
+        imageUrl: candidate.imageUrl,
+        pageUrl: candidate.pageUrl,
+        source: candidate.source,
+        title: candidate.title,
+        width: candidate.width,
+        height: candidate.height,
+      })),
       imageReview: {
-        status: localPath ? "approved" : "needs-human-review",
+        status: "needs-human-review",
         ...decision,
         origin: "web",
       },
-    });
+    };
   }
 
-  return updated;
+  const chosen = candidates[decision.candidateIndex];
+  const localPath = await downloadImage(chosen.imageUrl, slugify(article.slug || article.title));
+  const credit = await creditForWebCandidate(chosen);
+
+  return {
+    ...article,
+    image: localPath || "",
+    imageCredit: localPath ? credit.imageCredit : "Imagem pendente de revisão",
+    imagePostUrl: chosen.pageUrl || "",
+    imageCreditStatus: localPath ? credit.imageCreditStatus : "pending-visual-review",
+    imageCreditSourceUrl: credit.imageCreditSourceUrl,
+    imagePolicy: localPath
+      ? "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia."
+      : "Imagem aprovada, mas o download falhou; exige revisao humana.",
+    imageReview: {
+      status: localPath ? "approved" : "needs-human-review",
+      ...decision,
+      origin: "web",
+    },
+  };
 }

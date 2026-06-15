@@ -1,0 +1,1181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entreteu | Laboratório de logo e identidade</title>
+  <link rel="icon" href="assets/entreteu-logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800;900&family=Bebas+Neue&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #111827;
+      --muted: #667085;
+      --line: #d7dce5;
+      --paper: #fff;
+      --soft: #f4f5f7;
+      --red: #f04438;
+      --shell: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #eef1f5;
+      font-family: Archivo, Arial, sans-serif;
+      letter-spacing: 0;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .shell {
+      width: min(calc(100% - 40px), var(--shell));
+      margin-inline: auto;
+    }
+
+    .lab-header {
+      padding: 34px 0 30px;
+      color: #fff;
+      background: #090d16;
+    }
+
+    .lab-header nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 44px;
+    }
+
+    .lab-header img {
+      width: 172px;
+      filter: brightness(0) invert(1);
+    }
+
+    .lab-header a {
+      padding: 11px 14px;
+      border: 1px solid rgb(255 255 255 / 22%);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .lab-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 330px;
+      align-items: end;
+      gap: 44px;
+    }
+
+    .lab-hero h1 {
+      max-width: 800px;
+      margin: 0;
+      font-family: "DM Serif Display", Georgia, serif;
+      font-size: clamp(38px, 6vw, 76px);
+      font-weight: 400;
+      line-height: 0.96;
+    }
+
+    .lab-hero p {
+      margin: 0;
+      color: #aab2c0;
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .intro {
+      padding: 22px 0;
+      border-bottom: 1px solid var(--line);
+      background: var(--paper);
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .intro-card {
+      min-height: 86px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      background: var(--soft);
+    }
+
+    .intro-card strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .intro-card span {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .options {
+      display: grid;
+      gap: 26px;
+      padding: 34px 0 50px;
+    }
+
+    .option {
+      display: grid;
+      grid-template-columns: 330px minmax(0, 1fr);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: var(--paper);
+    }
+
+    .option-info {
+      padding: 28px;
+      border-right: 1px solid var(--line);
+    }
+
+    .option-number {
+      display: inline-grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      margin-bottom: 20px;
+      color: #fff;
+      background: var(--ink);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .option-info h2 {
+      margin: 0 0 10px;
+      font-size: 24px;
+      line-height: 1.04;
+    }
+
+    .option-info p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .tags span {
+      padding: 7px 9px;
+      border: 1px solid var(--line);
+      color: #4c5565;
+      font-size: 10px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .option-stage {
+      padding: 28px;
+    }
+
+    .logo-preview {
+      display: grid;
+      min-height: 174px;
+      place-items: center;
+      margin-bottom: 18px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .logo-preview img {
+      width: 206px;
+    }
+
+    .mini-site {
+      border: 1px solid currentColor;
+      background: #fff;
+    }
+
+    .mini-nav,
+    .mini-card {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .mini-nav {
+      border-bottom: 1px solid currentColor;
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .mini-card {
+      grid-template-columns: 96px 1fr;
+    }
+
+    .mini-thumb {
+      aspect-ratio: 1 / 0.78;
+      background: currentColor;
+    }
+
+    .mini-card span {
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .mini-card h3 {
+      margin: 6px 0 0;
+      font-size: 18px;
+      line-height: 1.12;
+    }
+
+    .swatches {
+      display: flex;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .swatches i {
+      width: 34px;
+      height: 34px;
+      border: 1px solid rgb(0 0 0 / 12%);
+    }
+
+    .wordmark {
+      display: inline-flex;
+      align-items: baseline;
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .wordmark .dark {
+      color: var(--logo-dark, #0c1424);
+    }
+
+    .wordmark .hot {
+      color: var(--logo-hot, #f04438);
+    }
+
+    .original .logo-preview {
+      background: #fff;
+    }
+
+    .original {
+      --brand-bg: #fff;
+      --brand-ink: #101828;
+      --brand-hot: #f04438;
+    }
+
+    .original .mini-site {
+      color: #101828;
+    }
+
+    .original .mini-nav strong {
+      color: #f04438;
+    }
+
+    .clean .logo-preview {
+      background: #fff;
+    }
+
+    .clean .wordmark {
+      --logo-dark: #09111f;
+      --logo-hot: #ef3f36;
+      font-family: Manrope, Arial, sans-serif;
+      font-size: 58px;
+      font-weight: 800;
+    }
+
+    .clean .mini-site {
+      color: #09111f;
+    }
+
+    .clean .mini-card span,
+    .clean .mini-nav strong {
+      color: #ef3f36;
+    }
+
+    .tabloid .logo-preview {
+      background: #0c0c0f;
+    }
+
+    .tabloid .wordmark {
+      --logo-dark: #fff;
+      --logo-hot: #ff4d3d;
+      font-family: "Bebas Neue", Impact, sans-serif;
+      font-size: 76px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .tabloid .mini-site {
+      color: #0c0c0f;
+      background: #fff;
+    }
+
+    .tabloid .mini-nav {
+      color: #fff;
+      background: #0c0c0f;
+    }
+
+    .tabloid .mini-nav strong,
+    .tabloid .mini-card span {
+      color: #ff4d3d;
+    }
+
+    .premium .logo-preview {
+      background: #fbf5ec;
+    }
+
+    .premium .wordmark {
+      --logo-dark: #19120d;
+      --logo-hot: #b73529;
+      font-family: Fraunces, Georgia, serif;
+      font-size: 66px;
+      font-weight: 900;
+      letter-spacing: -0.06em;
+    }
+
+    .premium .mini-site {
+      color: #19120d;
+      background: #fbf5ec;
+    }
+
+    .premium .mini-card span,
+    .premium .mini-nav strong {
+      color: #b73529;
+    }
+
+    .pop .logo-preview {
+      background: #ffed3b;
+    }
+
+    .pop .wordmark {
+      --logo-dark: #15142a;
+      --logo-hot: #fa3d49;
+      font-family: Archivo, Arial, sans-serif;
+      font-size: 58px;
+      font-weight: 900;
+      letter-spacing: -0.055em;
+      text-shadow: 3px 3px 0 #fff;
+    }
+
+    .pop .mini-site {
+      color: #15142a;
+      background: #ffed3b;
+    }
+
+    .pop .mini-card span,
+    .pop .mini-nav strong {
+      color: #fa3d49;
+    }
+
+    .night .logo-preview {
+      background: linear-gradient(135deg, #090d16 0%, #1f1143 52%, #ff4540 140%);
+    }
+
+    .night .wordmark {
+      --logo-dark: #fff;
+      --logo-hot: #ff5a52;
+      font-family: Manrope, Arial, sans-serif;
+      font-size: 58px;
+      font-weight: 800;
+      letter-spacing: -0.045em;
+    }
+
+    .night .mini-site {
+      color: #fff;
+      background: #090d16;
+    }
+
+    .night .mini-card span,
+    .night .mini-nav strong {
+      color: #ff5a52;
+    }
+
+    .stamp .logo-preview {
+      background: #fff;
+    }
+
+    .stamp-logo {
+      display: grid;
+      width: 176px;
+      height: 176px;
+      place-items: center;
+      border: 9px solid #111827;
+      color: #111827;
+      background: #f04438;
+      border-radius: 50%;
+      box-shadow: inset 0 0 0 6px #fff;
+      font-family: Archivo, Arial, sans-serif;
+      font-size: 25px;
+      font-weight: 900;
+      letter-spacing: -0.06em;
+      text-transform: lowercase;
+    }
+
+    .stamp-logo span {
+      color: #fff;
+    }
+
+    .stamp .mini-site {
+      color: #111827;
+      background: #fff;
+    }
+
+    .stamp .mini-card span,
+    .stamp .mini-nav strong {
+      color: #f04438;
+    }
+
+    .split .logo-preview {
+      background: #f3f6fb;
+    }
+
+    .split-logo {
+      display: grid;
+      gap: 4px;
+      text-align: center;
+      text-transform: lowercase;
+    }
+
+    .split-logo strong {
+      color: #101828;
+      font-family: Archivo, Arial, sans-serif;
+      font-size: 56px;
+      font-weight: 900;
+      letter-spacing: -0.06em;
+      line-height: 0.85;
+    }
+
+    .split-logo span {
+      justify-self: center;
+      padding: 4px 12px 5px;
+      color: #fff;
+      background: #f04438;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .split .mini-site {
+      color: #101828;
+    }
+
+    .split .mini-card span,
+    .split .mini-nav strong {
+      color: #f04438;
+    }
+
+    .monogram .logo-preview {
+      background: #e8fff6;
+    }
+
+    .mark-et {
+      display: grid;
+      width: 156px;
+      height: 156px;
+      place-items: center;
+      color: #06251d;
+      background: #39e58c;
+      border-radius: 34px;
+      font-family: Manrope, Arial, sans-serif;
+      font-size: 74px;
+      font-weight: 800;
+      letter-spacing: -0.18em;
+      box-shadow: 14px 14px 0 #06251d;
+    }
+
+    .monogram .mini-site {
+      color: #06251d;
+      background: #e8fff6;
+    }
+
+    .monogram .mini-card span,
+    .monogram .mini-nav strong {
+      color: #008a55;
+    }
+
+    .trade .logo-preview {
+      background: #f8f9fb;
+    }
+
+    .trade-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      font-family: Archivo, Arial, sans-serif;
+      font-size: 46px;
+      font-weight: 900;
+      letter-spacing: -0.055em;
+      text-transform: lowercase;
+    }
+
+    .trade-logo::before {
+      display: block;
+      width: 42px;
+      height: 70px;
+      background: #d80f1f;
+      clip-path: polygon(0 0, 100% 0, 100% 18%, 34% 18%, 34% 40%, 92% 40%, 92% 58%, 34% 58%, 34% 82%, 100% 82%, 100% 100%, 0 100%);
+      content: "";
+    }
+
+    .trade-logo span {
+      color: #111827;
+    }
+
+    .trade .mini-site {
+      color: #111827;
+      background: #fff;
+    }
+
+    .trade .mini-card span,
+    .trade .mini-nav strong {
+      color: #d80f1f;
+    }
+
+    .neon .logo-preview {
+      background: #060716;
+    }
+
+    .neon-logo {
+      color: #fff;
+      font-family: Manrope, Arial, sans-serif;
+      font-size: 58px;
+      font-weight: 800;
+      letter-spacing: -0.07em;
+      text-shadow: 0 0 18px #21f7ff, 0 0 34px #ff2ef7;
+    }
+
+    .neon-logo span {
+      color: #21f7ff;
+    }
+
+    .neon .mini-site {
+      color: #fff;
+      background: #060716;
+    }
+
+    .neon .mini-card span,
+    .neon .mini-nav strong {
+      color: #21f7ff;
+    }
+
+    .sunset .logo-preview {
+      background: linear-gradient(135deg, #fff2d8 0%, #ff8967 55%, #7c2cff 120%);
+    }
+
+    .sunset-logo {
+      color: #161128;
+      font-family: Fraunces, Georgia, serif;
+      font-size: 62px;
+      font-weight: 900;
+      letter-spacing: -0.08em;
+    }
+
+    .sunset-logo span {
+      color: #fff;
+      text-shadow: 2px 2px 0 #161128;
+    }
+
+    .sunset .mini-site {
+      color: #161128;
+      background: #fff2d8;
+    }
+
+    .sunset .mini-card span,
+    .sunset .mini-nav strong {
+      color: #7c2cff;
+    }
+
+    .signal .logo-preview {
+      background: #f3f7ff;
+    }
+
+    .signal-logo {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      gap: 12px;
+      color: #0f172a;
+      font-family: Archivo, Arial, sans-serif;
+      font-size: 54px;
+      font-weight: 900;
+      letter-spacing: -0.06em;
+      text-transform: lowercase;
+    }
+
+    .signal-logo i {
+      display: grid;
+      width: 52px;
+      height: 52px;
+      place-items: center;
+      color: #fff;
+      background: #2563eb;
+      border-radius: 50%;
+      font-style: normal;
+      letter-spacing: 0;
+    }
+
+    .signal-logo span {
+      color: #2563eb;
+    }
+
+    .signal .mini-site {
+      color: #0f172a;
+      background: #f3f7ff;
+    }
+
+    .signal .mini-card span,
+    .signal .mini-nav strong {
+      color: #2563eb;
+    }
+
+    .candy .logo-preview {
+      background: #fff;
+      background-image: radial-gradient(circle at 20% 25%, #ff6ccf 0 12%, transparent 13%), radial-gradient(circle at 84% 76%, #50e3c2 0 10%, transparent 11%);
+    }
+
+    .candy-logo {
+      color: #20133a;
+      font-family: Archivo, Arial, sans-serif;
+      font-size: 58px;
+      font-weight: 900;
+      letter-spacing: -0.07em;
+      text-transform: lowercase;
+    }
+
+    .candy-logo span {
+      color: #ff3d7f;
+    }
+
+    .candy-logo em {
+      color: #50e3c2;
+      font-style: normal;
+    }
+
+    .candy .mini-site {
+      color: #20133a;
+      background: #fff;
+    }
+
+    .candy .mini-card span,
+    .candy .mini-nav strong {
+      color: #ff3d7f;
+    }
+
+    .blackout .logo-preview {
+      background: #000;
+    }
+
+    .blackout-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
+      color: #fff;
+      font-family: Archivo, Arial, sans-serif;
+      font-size: 56px;
+      font-weight: 900;
+      letter-spacing: -0.06em;
+      text-transform: uppercase;
+    }
+
+    .blackout-logo span {
+      margin-left: 8px;
+      padding: 5px 9px;
+      color: #000;
+      background: #fff;
+      letter-spacing: -0.04em;
+    }
+
+    .blackout .mini-site {
+      color: #fff;
+      background: #000;
+    }
+
+    .blackout .mini-card span,
+    .blackout .mini-nav strong {
+      color: #fff;
+    }
+
+    .aura .logo-preview {
+      background: #edf7f2;
+    }
+
+    .aura-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: #16352c;
+      font-family: Manrope, Arial, sans-serif;
+      font-size: 54px;
+      font-weight: 800;
+      letter-spacing: -0.055em;
+      text-transform: lowercase;
+    }
+
+    .aura-logo i {
+      display: block;
+      width: 44px;
+      height: 44px;
+      background: conic-gradient(from 20deg, #ff7a59, #ffd166, #06d6a0, #118ab2, #ff7a59);
+      border-radius: 16px;
+    }
+
+    .aura-logo span {
+      color: #ff7a59;
+    }
+
+    .aura .mini-site {
+      color: #16352c;
+      background: #edf7f2;
+    }
+
+    .aura .mini-card span,
+    .aura .mini-nav strong {
+      color: #ff7a59;
+    }
+
+    .footer-note {
+      padding: 28px 0 42px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    @media (max-width: 850px) {
+      .lab-hero,
+      .option {
+        grid-template-columns: 1fr;
+      }
+
+      .intro-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .option-info {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+    }
+
+    @media (max-width: 560px) {
+      .shell {
+        width: min(calc(100% - 28px), var(--shell));
+      }
+
+      .lab-header nav {
+        align-items: flex-start;
+        margin-bottom: 34px;
+      }
+
+      .lab-header img {
+        width: 142px;
+      }
+
+      .lab-hero {
+        gap: 20px;
+      }
+
+      .intro-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .option-info,
+      .option-stage {
+        padding: 20px;
+      }
+
+      .logo-preview {
+        min-height: 142px;
+      }
+
+      .clean .wordmark,
+      .night .wordmark,
+      .pop .wordmark,
+      .neon-logo,
+      .candy-logo,
+      .blackout-logo,
+      .aura-logo,
+      .signal-logo {
+        font-size: 46px;
+      }
+
+      .tabloid .wordmark {
+        font-size: 58px;
+      }
+
+      .premium .wordmark {
+        font-size: 50px;
+      }
+
+      .split-logo strong {
+        font-size: 44px;
+      }
+
+      .stamp-logo {
+        width: 138px;
+        height: 138px;
+        font-size: 21px;
+      }
+
+      .mark-et {
+        width: 124px;
+        height: 124px;
+        border-radius: 28px;
+        font-size: 58px;
+        box-shadow: 9px 9px 0 #06251d;
+      }
+
+      .trade-logo {
+        font-size: 38px;
+      }
+
+      .trade-logo::before {
+        width: 34px;
+        height: 58px;
+      }
+
+      .sunset-logo {
+        font-size: 46px;
+      }
+
+      .mini-card {
+        grid-template-columns: 82px 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="lab-header">
+    <div class="shell">
+      <nav>
+        <img src="assets/entreteu-logo.png" alt="Entreteu">
+        <a href="index.html">Voltar ao site</a>
+      </nav>
+      <div class="lab-hero">
+        <h1>Laboratório de logo e identidade do Entreteu</h1>
+        <p>Direções visuais para comparar tom editorial, presença de marca e uso do nome em desktop, mobile, cards e chamadas rápidas.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="intro">
+    <div class="shell intro-grid">
+      <div class="intro-card">
+        <strong>Base</strong>
+        <span>O logo enviado foi mantido como referência de forma e cor.</span>
+      </div>
+      <div class="intro-card">
+        <strong>Objetivo</strong>
+        <span>Testar identidades que possam funcionar para portal de entretenimento.</span>
+      </div>
+      <div class="intro-card">
+        <strong>Uso</strong>
+        <span>Cabeçalho, avatar social, faixa mobile e cards de notícia.</span>
+      </div>
+      <div class="intro-card">
+        <strong>Leitura</strong>
+        <span>Comparar impacto, seriedade, energia pop e legibilidade.</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="shell options">
+    <article class="option original">
+      <div class="option-info">
+        <span class="option-number">01</span>
+        <h2>Original limpo</h2>
+        <p>Mantém o caminho atual: nome simples, boa leitura e vermelho como assinatura. É a opção mais segura.</p>
+        <div class="tags"><span>Neutro</span><span>Portal</span><span>Seguro</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><img src="assets/entreteu-logo.png" alt="Entreteu original"></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>entreteu</strong><span>Famosos · TV · Música</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Em alta</span><h3>A notícia do momento com leitura rápida</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#111827"></i><i style="background:#f04438"></i><i style="background:#fff"></i><i style="background:#f4f5f7"></i></div>
+      </div>
+    </article>
+
+    <article class="option clean">
+      <div class="option-info">
+        <span class="option-number">02</span>
+        <h2>News clean</h2>
+        <p>Mais moderno e editorial. Funciona bem para um site com cara de notícia diária, sem parecer infantil.</p>
+        <div class="tags"><span>Moderno</span><span>Leitura forte</span><span>Digital</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="wordmark"><span class="dark">entre</span><span class="hot">teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>agora</strong><span>Últimas notícias</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>TV</span><h3>Feed vertical com manchetes compactas</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#09111f"></i><i style="background:#ef3f36"></i><i style="background:#f7f8fa"></i><i style="background:#d7dce5"></i></div>
+      </div>
+    </article>
+
+    <article class="option tabloid">
+      <div class="option-info">
+        <span class="option-number">03</span>
+        <h2>Pop urgente</h2>
+        <p>Mais chamativo e quente, com presença de capa de entretenimento. Bom para redes, chamadas e notícias rápidas.</p>
+        <div class="tags"><span>Impacto</span><span>Quente</span><span>Social</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="wordmark"><span class="dark">entre</span><span class="hot">teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>viralizou</strong><span>Ao vivo no feed</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Famosos</span><h3>Manchete curta com muito contraste</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#0c0c0f"></i><i style="background:#ff4d3d"></i><i style="background:#fff"></i><i style="background:#ffd544"></i></div>
+      </div>
+    </article>
+
+    <article class="option premium">
+      <div class="option-info">
+        <span class="option-number">04</span>
+        <h2>Revista premium</h2>
+        <p>Mais sofisticado, com cara de revista pop. Bom se a marca quiser parecer menos fofoca e mais cultura/TV.</p>
+        <div class="tags"><span>Revista</span><span>Elegante</span><span>Cultura</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="wordmark"><span class="dark">entre</span><span class="hot">teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>seleção</strong><span>Histórias do dia</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Cinema</span><h3>Mais análise visual e menos ruído</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#19120d"></i><i style="background:#b73529"></i><i style="background:#fbf5ec"></i><i style="background:#dfcdb7"></i></div>
+      </div>
+    </article>
+
+    <article class="option pop">
+      <div class="option-info">
+        <span class="option-number">05</span>
+        <h2>Pop amarelo</h2>
+        <p>Identidade mais vibrante, ótima para entretenimento e posts de rede social. Exige cuidado para não ficar cansativa.</p>
+        <div class="tags"><span>Jovem</span><span>Energia</span><span>Compartilhável</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="wordmark"><span class="dark">entre</span><span class="hot">teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>pop</strong><span>Feed · vídeos · trends</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Música</span><h3>Visual forte para cards e stories</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#15142a"></i><i style="background:#fa3d49"></i><i style="background:#ffed3b"></i><i style="background:#fff"></i></div>
+      </div>
+    </article>
+
+    <article class="option night">
+      <div class="option-info">
+        <span class="option-number">06</span>
+        <h2>Noite streaming</h2>
+        <p>Direção escura, mais próxima de streaming e bastidores. Combina com cinema, música, cultura pop e especiais.</p>
+        <div class="tags"><span>Escuro</span><span>Streaming</span><span>Especial</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="wordmark"><span class="dark">entre</span><span class="hot">teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>estreias</strong><span>Hoje no entretenimento</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Cultura pop</span><h3>Boa para páginas especiais e vídeos</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#090d16"></i><i style="background:#1f1143"></i><i style="background:#ff5a52"></i><i style="background:#fff"></i></div>
+      </div>
+    </article>
+
+    <article class="option stamp">
+      <div class="option-info">
+        <span class="option-number">07</span>
+        <h2>Selo social</h2>
+        <p>Não substituiria o logo principal, mas funciona como avatar, favicon, sticker e assinatura de vídeo curto.</p>
+        <div class="tags"><span>Avatar</span><span>App icon</span><span>Sticker</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="stamp-logo">entre<span>teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>clip</strong><span>Resumo rápido</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Vídeo</span><h3>Selo forte para redes sociais</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#111827"></i><i style="background:#f04438"></i><i style="background:#fff"></i><i style="background:#f4f5f7"></i></div>
+      </div>
+    </article>
+
+    <article class="option split">
+      <div class="option-info">
+        <span class="option-number">08</span>
+        <h2>Stack mobile</h2>
+        <p>Versão pensada para topo de celular: ocupa menos largura e cria uma assinatura mais marcante no cabeçalho.</p>
+        <div class="tags"><span>Mobile</span><span>Vertical</span><span>Compacto</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="split-logo"><strong>entreteu</strong><span>pop news</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>mobile</strong><span>Feed vertical</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Últimas</span><h3>Boa para cabeçalho compacto</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#101828"></i><i style="background:#f04438"></i><i style="background:#f3f6fb"></i><i style="background:#fff"></i></div>
+      </div>
+    </article>
+
+    <article class="option monogram">
+      <div class="option-info">
+        <span class="option-number">09</span>
+        <h2>Monograma app</h2>
+        <p>Uma marca mais moderna para avatar, app, favicon e capa de vídeo. O nome completo pode entrar ao lado no site.</p>
+        <div class="tags"><span>App</span><span>Ícone</span><span>Memorável</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="mark-et">et</div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>entreteu</strong><span>Ícone + wordmark</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Social</span><h3>Funciona pequeno em perfil e stories</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#06251d"></i><i style="background:#39e58c"></i><i style="background:#e8fff6"></i><i style="background:#fff"></i></div>
+      </div>
+    </article>
+
+    <article class="option trade">
+      <div class="option-info">
+        <span class="option-number">10</span>
+        <h2>Trade magazine</h2>
+        <p>Mais sério e jornalístico, inspirado na linguagem de grandes marcas internacionais de bastidor e indústria do entretenimento.</p>
+        <div class="tags"><span>Autoridade</span><span>Indústria</span><span>Notícia</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="trade-logo"><span>entreteu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>breaking</strong><span>TV · cinema · música</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Mercado</span><h3>Tom mais adulto para cobertura diária</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#111827"></i><i style="background:#d80f1f"></i><i style="background:#f8f9fb"></i><i style="background:#fff"></i></div>
+      </div>
+    </article>
+
+    <article class="option neon">
+      <div class="option-info">
+        <span class="option-number">11</span>
+        <h2>Neon premiere</h2>
+        <p>Direção noturna, digital e jovem. Boa para vídeos, streaming, cultura pop, estreias e coberturas ao vivo.</p>
+        <div class="tags"><span>Neon</span><span>Streaming</span><span>Ao vivo</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="neon-logo">entre<span>teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>estreou</strong><span>Assista · leia · compartilhe</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Cinema</span><h3>Impacto visual para capas especiais</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#060716"></i><i style="background:#21f7ff"></i><i style="background:#ff2ef7"></i><i style="background:#fff"></i></div>
+      </div>
+    </article>
+
+    <article class="option sunset">
+      <div class="option-info">
+        <span class="option-number">12</span>
+        <h2>Sunset pop</h2>
+        <p>Mais tropical e brasileiro, com energia quente sem depender do vermelho original. Pode deixar a marca mais própria.</p>
+        <div class="tags"><span>Brasil</span><span>Quente</span><span>Pop</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="sunset-logo">entre<span>teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>em alta</strong><span>Famosos · música · TV</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Famosos</span><h3>Uma identidade mais calorosa e brasileira</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#161128"></i><i style="background:#ff8967"></i><i style="background:#7c2cff"></i><i style="background:#fff2d8"></i></div>
+      </div>
+    </article>
+
+    <article class="option signal">
+      <div class="option-info">
+        <span class="option-number">13</span>
+        <h2>Signal news</h2>
+        <p>Mais tech e organizado. Parece produto de notícia em tempo real, com um símbolo simples para marcar atualização.</p>
+        <div class="tags"><span>Tempo real</span><span>Produto</span><span>Claro</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="signal-logo"><i>e</i><div>entre<span>teu</span></div></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>pulso</strong><span>Atualizado agora</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Feed</span><h3>Boa para automação e publicação rápida</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#0f172a"></i><i style="background:#2563eb"></i><i style="background:#f3f7ff"></i><i style="background:#fff"></i></div>
+      </div>
+    </article>
+
+    <article class="option candy">
+      <div class="option-info">
+        <span class="option-number">14</span>
+        <h2>Candy social</h2>
+        <p>Mais leve, colorido e visualmente compartilhável. Bom para uma marca que quer conversar com TikTok/Instagram.</p>
+        <div class="tags"><span>Social</span><span>Colorido</span><span>Leve</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="candy-logo">en<em>tre</em><span>teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>trend</strong><span>O pop que circula</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Influenciadores</span><h3>Direção mais leve e amigável</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#20133a"></i><i style="background:#ff3d7f"></i><i style="background:#50e3c2"></i><i style="background:#fff"></i></div>
+      </div>
+    </article>
+
+    <article class="option blackout">
+      <div class="option-info">
+        <span class="option-number">15</span>
+        <h2>Blackout bold</h2>
+        <p>Minimalista, forte e muito legível. Pode funcionar bem se o site quiser parecer direto, rápido e menos decorativo.</p>
+        <div class="tags"><span>Bold</span><span>Minimal</span><span>Forte</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="blackout-logo">entre<span>teu</span></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>agora</strong><span>Sem rodeio</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Últimas</span><h3>Preto e branco com presença máxima</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#000"></i><i style="background:#fff"></i><i style="background:#e5e7eb"></i><i style="background:#111827"></i></div>
+      </div>
+    </article>
+
+    <article class="option aura">
+      <div class="option-info">
+        <span class="option-number">16</span>
+        <h2>Aura pop</h2>
+        <p>Uma marca mais agradável e contemporânea: símbolo colorido, fundo suave e vermelho virando apenas acento.</p>
+        <div class="tags"><span>Agradável</span><span>Contemporâneo</span><span>Flexível</span></div>
+      </div>
+      <div class="option-stage">
+        <div class="logo-preview"><div class="aura-logo"><i></i><div>entre<span>teu</span></div></div></div>
+        <div class="mini-site">
+          <div class="mini-nav"><strong>seleção pop</strong><span>Fácil de ler</span></div>
+          <div class="mini-card"><div class="mini-thumb"></div><div><span>Especial</span><h3>Visual mais simpático sem perder notícia</h3></div></div>
+        </div>
+        <div class="swatches"><i style="background:#16352c"></i><i style="background:#ff7a59"></i><i style="background:#06d6a0"></i><i style="background:#edf7f2"></i></div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="shell footer-note">
+    <p>Arquivo de teste independente. As opções acima são direções visuais para decisão de marca; nenhuma delas altera a home atual do protótipo.</p>
+  </footer>
+</body>
+</html>

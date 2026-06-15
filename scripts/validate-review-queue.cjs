@@ -4,11 +4,16 @@ const path = require("node:path");
 const QUEUE_FILE = path.resolve(__dirname, "..", "data", "review-queue.json");
 const MIN_WORDS = 45;
 const MAX_WORDS = 260;
+const MIN_CHARACTERS = 300;
 const MIN_PARAGRAPHS = 2;
 const MAX_PARAGRAPHS = 5;
 
 function wordCount(body) {
   return body.join(" ").trim().split(/\s+/).filter(Boolean).length;
+}
+
+function characterCount(body) {
+  return body.join(" ").replace(/\s+/g, " ").trim().length;
 }
 
 function validate() {
@@ -27,6 +32,7 @@ function validate() {
     const id = item.reviewId || item.id || item.slug;
     const body = Array.isArray(item.body) ? item.body : [];
     const words = wordCount(body);
+    const characters = characterCount(body);
     const review = item.editorialMeta?.automatedReview;
 
     if (review?.status !== "approved" || Number(review.confidence || 0) < 0.72) {
@@ -37,6 +43,9 @@ function validate() {
     }
     if (words < MIN_WORDS || words > MAX_WORDS) {
       issues.push(`${id}: ${words} palavras`);
+    }
+    if (characters < MIN_CHARACTERS) {
+      issues.push(`${id}: ${characters}/${MIN_CHARACTERS} caracteres`);
     }
     if (!Array.isArray(item.evidenceClaims) || item.evidenceClaims.length < 2) {
       issues.push(`${id}: evidencias insuficientes`);

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entreteu: notícias de famosos, música, TV, cinema e cultura pop.">
+  <title>Entreteu | Entretenimento sem pausa</title>
+  <link rel="icon" href="assets/entreteu-logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topline">
+      <div class="shell topline-inner">
+        <span>Domingo, 14 de junho</span>
+        <span class="topline-message">Entretenimento sem pausa</span>
+        <div class="socials" aria-label="Redes sociais">
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="TikTok">tk</a>
+          <a href="#" aria-label="YouTube">yt</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="shell brand-row">
+      <button class="icon-button menu-button" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="brand" href="#" aria-label="Entreteu - página inicial">
+        <img src="assets/entreteu-logo.png" alt="Entreteu">
+      </a>
+      <button class="icon-button search-button" type="button" aria-label="Abrir busca">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg>
+      </button>
+    </div>
+
+    <nav class="main-nav" aria-label="Categorias">
+      <div class="shell nav-inner">
+        <a class="active" href="#destaques" data-filter="todos">Destaques</a>
+        <a href="#noticias" data-filter="famosos">Famosos</a>
+        <a href="#noticias" data-filter="musica">Música</a>
+        <a href="#noticias" data-filter="tv">TV</a>
+        <a href="#noticias" data-filter="cinema">Cinema</a>
+        <a href="#noticias" data-filter="cultura">Cultura pop</a>
+      </div>
+    </nav>
+
+    <div class="search-panel" hidden>
+      <form class="shell search-form" role="search">
+        <label for="site-search">Buscar no Entreteu</label>
+        <div>
+          <input id="site-search" type="search" placeholder="Digite nome, programa ou assunto">
+          <button type="submit">Buscar</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="breaking" aria-label="Últimas notícias">
+      <div class="shell breaking-inner">
+        <div class="ticker">
+          <span>Ana Castela anuncia medidas judiciais após rumores nas redes sociais</span>
+          <span>Globo alcança mais de 46 milhões no primeiro dia da Copa</span>
+          <span>Nova sinopse de Vingadores revela detalhes da trama</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell hero-section" id="destaques">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Em alta</span>
+          <h1>O que está movimentando o entretenimento</h1>
+        </div>
+        <p>As histórias mais comentadas de famosos, música, televisão e cinema.</p>
+      </div>
+
+      <div class="lead-grid">
+        <article class="lead-story">
+          <a class="media-link" href="#">
+            <img src="assets/ana-castela.jpg" alt="Ana Castela em evento" fetchpriority="high">
+            <span class="category">Famosos</span>
+          </a>
+          <div class="lead-copy">
+            <span class="story-time">Há 18 minutos</span>
+            <h2><a href="#">Ana Castela anuncia medidas judiciais após rumores de traição</a></h2>
+            <p>Cantora se pronunciou sobre as publicações e informou que o caso será tratado por seus representantes.</p>
+          </div>
+        </article>
+
+        <div class="side-stories">
+          <article class="side-story">
+            <a class="side-image" href="#"><img src="assets/tati-machado.webp" alt="Tati Machado e Bruno Monteiro"></a>
+            <div>
+              <span class="category-text">Famosos</span>
+              <h3><a href="#">Tati Machado e Bruno Monteiro anunciam nova gravidez</a></h3>
+              <span class="story-time">Há 36 minutos</span>
+            </div>
+          </article>
+          <article class="side-story">
+            <a class="side-image" href="#"><img src="assets/anitta.jpg" alt="Anitta durante apresentação"></a>
+            <div>
+              <span class="category-text">Música</span>
+              <h3><a href="#">Anitta comanda abertura da Copa do Mundo no Canadá</a></h3>
+              <span class="story-time">Há 1 hora</span>
+            </div>
+          </article>
+          <article class="side-story">
+            <a class="side-image" href="#"><img src="assets/vingadores.webp" alt="Personagens do universo Marvel"></a>
+            <div>
+              <span class="category-text">Cinema</span>
+              <h3><a href="#">Vingadores: nova sinopse revela detalhes de Doutor Destino</a></h3>
+              <span class="story-time">Há 2 horas</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="trend-band">
+      <div class="shell trend-grid">
+        <div class="trend-title">
+          <span>Mais lidas</span>
+          <strong>Hoje</strong>
+        </div>
+        <ol>
+          <li><span>01</span><a href="#">Péricles revela perda de quase 60 kg e destaca apoio da esposa</a></li>
+          <li><span>02</span><a href="#">José Loreto surge com novo visual para papel em novela</a></li>
+          <li><span>03</span><a href="#">Paula Fernandes publica primeiras fotos com novo namorado</a></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="category-strip" aria-label="Categorias do Entreteu">
+      <div class="shell">
+        <h2>Veja também no Entreteu</h2>
+        <div class="category-rail">
+          <a href="#noticias" data-filter="famosos">
+            <span>F</span>
+            <strong>Famosos</strong>
+          </a>
+          <a href="#noticias" data-filter="musica">
+            <span>M</span>
+            <strong>Música</strong>
+          </a>
+          <a href="#noticias" data-filter="tv">
+            <span>T</span>
+            <strong>TV</strong>
+          </a>
+          <a href="#noticias" data-filter="cinema">
+            <span>C</span>
+            <strong>Cinema</strong>
+          </a>
+          <a href="#noticias" data-filter="cultura">
+            <span>P</span>
+            <strong>Cultura pop</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell latest-section" id="noticias">
+      <div class="latest-header">
+        <div>
+          <span class="eyebrow">Feed</span>
+          <h2>Últimas notícias</h2>
+        </div>
+        <div class="filter-tabs" role="group" aria-label="Filtrar notícias">
+          <button class="selected" type="button" data-filter="todos">Todas</button>
+          <button type="button" data-filter="famosos">Famosos</button>
+          <button type="button" data-filter="musica">Música</button>
+          <button type="button" data-filter="tv">TV</button>
+          <button type="button" data-filter="cinema">Cinema</button>
+          <button type="button" data-filter="cultura">Cultura pop</button>
+        </div>
+      </div>
+
+      <div class="content-layout">
+        <div class="news-list">
+          <article class="news-item" data-category="tv">
+            <a class="news-image" href="#"><img src="assets/globo-copa.webp" alt="Estúdio da Globo durante cobertura da Copa"></a>
+            <div class="news-copy">
+              <span class="category-text">TV</span>
+              <h3><a href="#">Globo alcança mais de 46 milhões de pessoas no primeiro dia da Copa</a></h3>
+              <p>Emissora registra ampla audiência com a estreia da cobertura esportiva e programação especial.</p>
+              <span class="story-time">Há 2 horas</span>
+            </div>
+          </article>
+
+          <article class="news-item" data-category="musica">
+            <a class="news-image" href="#"><img src="assets/pericles.jpg" alt="Péricles sorrindo"></a>
+            <div class="news-copy">
+              <span class="category-text">Música</span>
+              <h3><a href="#">Péricles revela perda de quase 60 kg e fala sobre nova rotina</a></h3>
+              <p>Cantor destacou o incentivo da esposa durante o processo de mudança de hábitos.</p>
+              <span class="story-time">Há 3 horas</span>
+            </div>
+          </article>
+
+          <article class="news-item" data-category="tv">
+            <a class="news-image" href="#"><img src="assets/jose-loreto.webp" alt="José Loreto caracterizado para novela"></a>
+            <div class="news-copy">
+              <span class="category-text">TV</span>
+              <h3><a href="#">José Loreto muda o visual para novo papel em Quem Ama Cuida</a></h3>
+              <p>Ator integra a segunda fase da trama e será o novo interesse amoroso de Pilar.</p>
+              <span class="story-time">Há 4 horas</span>
+            </div>
+          </article>
+
+          <article class="news-item extra-story" data-category="cinema" hidden>
+            <a class="news-image" href="#"><img src="assets/margaret-kerry.jpg" alt="Margaret Kerry como referência para Sininho"></a>
+            <div class="news-copy">
+              <span class="category-text">Cinema</span>
+              <h3><a href="#">Margaret Kerry, modelo que inspirou Sininho, morre aos 97 anos</a></h3>
+              <p>Atriz e dançarina participou da história da animação clássica de Peter Pan.</p>
+              <span class="story-time">Ontem, 22:40</span>
+            </div>
+          </article>
+
+          <article class="news-item extra-story" data-category="cultura" hidden>
+            <a class="news-image" href="#"><img src="assets/vingadores.webp" alt="Personagens do universo Marvel"></a>
+            <div class="news-copy">
+              <span class="category-text">Cultura pop</span>
+              <h3><a href="#">Universo Marvel volta ao centro das conversas com novo filme dos Vingadores</a></h3>
+              <p>Detalhes da trama colocam Doutor Destino em destaque e movimentam as redes entre fãs.</p>
+              <span class="story-time">Ontem, 22:02</span>
+            </div>
+          </article>
+
+          <article class="news-item extra-story" data-category="famosos" hidden>
+            <a class="news-image" href="#"><img src="assets/paula-fernandes.jpg" alt="Paula Fernandes ao lado do namorado"></a>
+            <div class="news-copy">
+              <span class="category-text">Famosos</span>
+              <h3><a href="#">Paula Fernandes publica primeiras fotos com novo namorado</a></h3>
+              <p>Cantora compartilhou registros da viagem do casal e recebeu mensagens dos fãs.</p>
+              <span class="story-time">Ontem, 21:15</span>
+            </div>
+          </article>
+
+          <p class="empty-state" hidden>Nenhuma notícia encontrada para este filtro.</p>
+          <button class="load-more" type="button">Carregar mais notícias</button>
+        </div>
+
+        <aside class="newsletter">
+          <span class="newsletter-index">entreteu+</span>
+          <h2>Seu resumo pop, direto ao ponto.</h2>
+          <p>Receba as principais notícias do entretenimento no início e no fim do dia.</p>
+          <form>
+            <label for="email">Seu melhor e-mail</label>
+            <input id="email" type="email" placeholder="voce@email.com" required>
+            <button type="submit">Quero receber</button>
+          </form>
+          <small>Sem excesso. Só o que vale seu tempo.</small>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-main">
+      <img src="assets/entreteu-logo.png" alt="Entreteu">
+      <p>Notícias de entretenimento, cultura pop e televisão em um só lugar.</p>
+      <nav aria-label="Links institucionais">
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a href="#">Política de privacidade</a>
+      </nav>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© 2026 Entreteu</span>
+      <span>Conteúdo em teste</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

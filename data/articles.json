@@ -1,2033 +1,371 @@
 [
   {
-    "id": "TWFyZ2FyZXQgS2Vycnkg",
-    "reviewId": "TWFyZ2FyZXQgS2Vycnkg",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Margaret Kerry, modelo para Sininho, morre aos 97 anos",
-    "slug": "margaret-kerry-modelo-para-sininho-morre-aos-97-anos",
-    "excerpt": "Atriz e dançarina inspirou a personagem Sininho, de “Peter Pan”.",
+    "slug": "dia-d-de-steven-spielberg-surpreende-bilheteria-e-fica-perto",
+    "title": "Dia D, de Steven Spielberg, surpreende bilheteria e fica perto dos US$ 100 milhões",
+    "excerpt": "Longa sobre alienígenas do diretor Steven Spielberg arrecadou valor próximo aos US$ 100 milhões na estreia e já é um dos maiores lançamentos do ano.",
     "body": [
-      "Margaret Kerry morreu aos 97 anos. Atriz e dançarina, ela foi modelo para Sininho, de “Peter Pan”, e inspirou a personagem.",
-      "Nascida em 1929 e morta em 2026, Kerry também foi identificada como a intérprete original de Tinker Bell da Disney, nome em inglês da fada Sininho.",
-      "Margaret Kerry tinha 96 anos e deixa um legado como uma das últimas figuras vivas ligadas à animação clássica da Disney dos anos 1950."
+      "Dia D, novo filme de Steven Spielberg sobre alienígenas, surpreendeu nas bilheterias e ficou perto dos US$ 100 milhões arrecadados na estreia mundial. O longa-metragem, que marca o retorno do diretor ao gênero de ficção científica, tem sido um dos lançamentos mais comentados e bem-sucedidos de 2026.",
+      "A produção acompanha uma equipe de cientistas que descobre uma mensagem alienígena escondida, elemento que está diretamente ligado ao desfecho da história. O filme já estreou nos cinemas brasileiros e deve chegar ao streaming nas próximas semanas.",
+      "Dia D consolida Spielberg como um dos diretores mais consistentes da história, com mais de cinco décadas de sucessos que incluem clássicos como Tubarão, E.T. e Jurassic Park."
     ],
-    "html": "<p>Margaret Kerry morreu aos 97 anos. Atriz e dançarina, ela foi modelo para Sininho, de “Peter Pan”, e inspirou a personagem.</p>\n<p>Nascida em 1929 e morta em 2026, Kerry também foi identificada como a intérprete original de Tinker Bell da Disney, nome em inglês da fada Sininho.</p><p>Margaret Kerry era conhecida por seu trabalho como dublê e atriz mirim em Hollywood antes de se tornar modelo de referência para a Disney. Sua contribuição para a animação clássica foi amplamente reconhecida por fãs e estudiosos do cinema.</p><p>Margaret Kerry tinha 96 anos e deixa um legado como uma das últimas figuras vivas ligadas à animação clássica da Disney dos anos 1950.</p>",
-    "category": "Famosos",
-    "market": "internacional",
+    "category": "Cinema",
     "tags": [
-      "Margaret Kerry",
-      "Sininho",
-      "Peter Pan",
-      "Disney"
+      "Cinema",
+      "BuzzPop"
     ],
-    "source": "Folha de S.Paulo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemhrbWloLVpKNXkzREdNOVVEU2VVVXlrMTNnYlBzX0czbGlvVHBTakJsRVhjakF2ZjkwTFNNczZaS2MzRFdvMWp6S21GVmpBWVcxWHRqemtfcThIT1dDMnJGbFBXdFpPVFFNWXpSS0lXeTI1UEtuNFB6UnN6WGhZZU5pWW1YMm5lQ1ZTR1phNTVuSVVXbDhabFFlaDAzQmxzNUpmMWlqdFdvR0tudlhQdnR6WGZNYnN6b04yVVRSRl9RdFBKN2RzdnFR?oc=5",
-    "evidenceSources": [
-      "Folha de S.Paulo",
+    "image": "https://www.itaberabanoticias.com.br/wp-content/uploads/2026/02/filme-Dia-D.jpg",
+    "imageSubject": "Dia D, de Steven Spielberg, surpreende bilheteria e fica perto dos US$ 100 milhões",
+    "imageAlt": "Dia D, de Steven Spielberg, surpreende bilheteria e fica perto dos US$ 100 milhões",
+    "sources": [
       "Omelete",
-      "AdoroCinema",
-      "Animation Magazine"
-    ],
-    "evidenceClaims": [
-      "Margaret Kerry (1929 - 2026) - Morre a atriz Margaret Kerry, que foi modelo para a fada Sininho, de 'Peter Pan'",
-      "Morre Margaret Kerry, atriz que foi modelo para Sininho em Peter Pan, aos 97",
-      "Morre Margaret Kerry, atriz e dançarina que inspirou Sininho de Peter Pan, aos 97 anos",
-      "Margaret Kerry, intérprete original de Tinker Bell da Disney, morre aos 97 anos."
-    ],
-    "sourceCount": 4,
-    "score": 89,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/margaret-kerry-modelo-para-sininho-morre-aos-97-anos.jpg",
-    "imageCredit": "Foto: Margaret Kerry",
-    "imageSubject": "Margaret Kerry",
-    "imageSearchQuery": "Margaret Kerry atriz modelo Sininho Peter Pan",
-    "imageAlt": "Retrato da atriz e dançarina Margaret Kerry",
-    "editorialMeta": {
-      "originalTitle": "Margaret Kerry (1929 - 2026) - Morre a atriz Margaret Kerry, que foi modelo para a fada Sininho, de 'Peter Pan'",
-      "sourceId": "TWFyZ2FyZXQgS2Vycnkg",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.98,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Margaret Kerry morreu aos 97 anos.",
-        "Margaret Kerry era atriz e dançarina.",
-        "Margaret Kerry foi modelo e inspiração para Sininho.",
-        "Margaret Kerry viveu de 1929 a 2026.",
-        "Margaret Kerry foi identificada como a intérprete original de Tinker Bell da Disney."
-      ],
-      "generatedAt": "2026-06-13T11:43:31.905Z"
-    },
-    "createdAt": "2026-06-13T11:43:31.906Z",
-    "imagePostUrl": "https://mickeyblog.com/2025/11/20/77-years-after-serving-as-the-model-for-tinker-bell-margaret-kerry-is-still-dancing/",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://mickeyblog.com/2025/11/20/77-years-after-serving-as-the-model-for-tinker-bell-margaret-kerry-is-still-dancing/",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 5,
-      "confidence": 0.97,
-      "reason": "Imagem jornalística limpa e nítida de Margaret Kerry jovem, durante a performance usada como referência para Sininho. É a candidata mais segura e não contém montagem, texto pesado ou pessoas adicionais.",
-      "visibleSubject": "Margaret Kerry jovem, em traje de dança, posando em um cenário de estúdio em preto e branco.",
-      "concerns": [
-        "É uma imagem histórica de corpo inteiro, não um retrato recente."
-      ],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "THVjYXMgTGltYSByZXNw",
-    "reviewId": "THVjYXMgTGltYSByZXNw",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Lucas Lima responde a rumor sobre relação com outro homem",
-    "slug": "lucas-lima-responde-a-rumor-sobre-relacao-com-outro-homem",
-    "excerpt": "Lucas Lima esclareceu dúvidas de fãs após o término com Sandy e abordou boatos envolvendo a ex.",
-    "body": [
-      "Lucas Lima respondeu a dúvidas de fãs sobre um rumor de casamento ou relacionamento com outro homem. O assunto foi abordado depois do término com Sandy.",
-      "Na mesma ocasião, Lucas também falou sobre boatos envolvendo Sandy e apresentou uma forma de evitá-los. Os detalhes dessa estratégia não foram informados."
-    ],
-    "html": "<p>Lucas Lima respondeu a dúvidas de fãs sobre um rumor de casamento ou relacionamento com outro homem. O assunto foi abordado depois do término com Sandy.</p>\n<p>Na mesma ocasião, Lucas também falou sobre boatos envolvendo Sandy e apresentou uma forma de evitá-los. Os detalhes dessa estratégia não foram informados.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Lucas Lima",
-      "Sandy",
-      "Famosos"
-    ],
-    "source": "Hugo Gloss",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcnlON2owQmJvYTNDNHlGVTVzOW5TZlh3S1hjUEVkOURtbjEwODZScEs2VWUxQU5sQnJmcEttWEM1YlZ4OWZqNUhSTExnd2dJZHo4bjdmWjdhZFpzWlZQakVfWFM3a25zZXRVQ2R3WVFMMldaU2RfeHBEelpSRmNRdkNOUEd3TVBCX2xuVjM4U0FQM2hLQ1psTlJJQWR3Z09FUjJKUk5nVzJJQVdWNTBTU0VKamxaQ3NqdXd3dFRYYmhScVFFcWU2OFFJc1FWcGJJVDZMNXFtWVk2ZmlFdm9Z0gHkAUFVX3lxTFBhajRMeDBuckJhZEtZLWJTWXBmZ1hnQWNNVWR3bmt4aUtXNlltVXUtYkl5Rm42OWhQajViUnZHUXlrRy1hZk92anFaVTB0Y3FXRlJKaGZ2bVJBZHNaTGY0eGlZN3hQdVdBUEVINjhWYnQ5bC1VejZ0VC1GWU1QUTlWTnlWY0dyVjl2OERUUnF1VTR6ZVRKT3V2RU12S1FURTdlVERkYVN2X1p2ZFlncjJyNk5CMDQyblhaUnBUeTBCWlc3ekZKdDNiNThBTEpjeHdITmZSbHhjZHlpVXNZRnFsU21LbA?oc=5",
-    "evidenceSources": [
-      "Hugo Gloss",
-      "Globo",
-      "CNN Brasil",
-      "NaTelinha",
-      "Observatório dos Famosos"
-    ],
-    "evidenceClaims": [
-      "Lucas Lima responde rumor sobre relação com outro homem e entrega truque para evitar boatos envolvendo Sandy",
-      "Casado com homem? Lucas Lima responde dúvidas de fãs e faz revelação envolvendo Sandy",
-      "Casado com homem? Lucas Lima, ex de Sandy, tira dúvidas dos fãs",
-      "Lucas Lima confronta sensitiva após previsão fracassar: \"Só pra ganhar clique?\"",
-      "Lucas Lima responde boato sobre casamento com homem após término com Sandy"
-    ],
-    "sourceCount": 5,
-    "score": 90,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/lucas-lima-responde-a-rumor-sobre-relacao-com-outro-homem.jpg",
-    "imageCredit": "Foto: Lucas Lima - Reprodução/Instagram",
-    "imageSubject": "Lucas Lima",
-    "imageSearchQuery": "Lucas Lima foto recente",
-    "imageAlt": "Lucas Lima em retrato",
-    "editorialMeta": {
-      "originalTitle": "Lucas Lima responde rumor sobre relação com outro homem e entrega truque para evitar boatos envolvendo Sandy",
-      "sourceId": "THVjYXMgTGltYSByZXNw",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.98,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Lucas Lima respondeu a dúvidas sobre um rumor de relação ou casamento com outro homem.",
-        "A resposta ocorreu após o término com Sandy.",
-        "Lucas Lima abordou uma forma de evitar boatos envolvendo Sandy."
-      ],
-      "generatedAt": "2026-06-13T11:42:23.218Z"
-    },
-    "createdAt": "2026-06-13T11:42:23.218Z",
-    "imagePostUrl": "https://www.marciapiovesan.com.br/famosos/lucas-lima-encanta-ao-exibir-video-inedito-curtindo-show-com-o-filho-theo-veja.phtml",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://www.marciapiovesan.com.br/famosos/lucas-lima-encanta-ao-exibir-video-inedito-curtindo-show-com-o-filho-theo-veja.phtml",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 2,
-      "confidence": 0.99,
-      "reason": "Retrato nítido e individual de Lucas Lima, claramente compatível com o assunto central e sem elementos que sugiram outro acontecimento.",
-      "visibleSubject": "Lucas Lima sorrindo em primeiro plano.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "U2VjcmV0YXJpYSBuZWdh",
-    "reviewId": "U2VjcmV0YXJpYSBuZWdh",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Secretaria nega denúncias sobre cela de Deolane",
-    "slug": "secretaria-nega-denuncias-sobre-cela-de-deolane",
-    "excerpt": "Órgão divulgou fotos do presídio após relatos da defesa sobre falta de higiene e escorpiões.",
-    "body": [
-      "A secretaria responsável pelo presídio onde Deolane está presa negou que a cela tenha comida estragada e escorpião. O órgão também divulgou fotos da unidade após as denúncias.",
-      "A defesa de Deolane relatou falta de higiene e presença de escorpiões no local. As manchetes apresentam versões divergentes sobre as condições encontradas na unidade prisional."
-    ],
-    "html": "<p>A secretaria responsável pelo presídio onde Deolane está presa negou que a cela tenha comida estragada e escorpião. O órgão também divulgou fotos da unidade após as denúncias.</p>\n<p>A defesa de Deolane relatou falta de higiene e presença de escorpiões no local. As manchetes apresentam versões divergentes sobre as condições encontradas na unidade prisional.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Deolane",
-      "presídio",
-      "Famosos"
-    ],
-    "source": "UOL Notícias",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbHJ0OVIyeWlDUGh2WnVCMDRwa25kZjFJZWVQWlBIOXlPd1NBZkRSY2s2RURkR1ozbUhBSzhjQ3ZFZUNEdkNmU0d1XzRFVXBIOGNFWkZfckI4eUlkY1VFODVhbE1vQU9ZRUthckNQcG9iQldnUWVvMUdQT0I5dGcyU0ljaVZROXhVZjZRNF9Ja2hFczljVTBqVjlEck1YUQ?oc=5",
-    "evidenceSources": [
-      "UOL Notícias",
       "G1",
-      "Estadão",
-      "R7",
-      "Midiamax"
-    ],
-    "evidenceClaims": [
-      "Secretaria nega que cela de Deolane tenha comida estragada e escorpião",
-      "Fotos mostram presídio onde Deolane está presa após defesa denunciar falta de higiene e escorpiões",
-      "‘Batom, creme, esmalte, sombra, chapinha e visita íntima’: os direitos da doutora Deolane na cadeia",
-      "Secretaria divulga fotos de presídio após denúncias da defesa de Deolane | #AHoraDaVenenosa #Shorts",
-      "Infestação de escorpiões e pratos defecados: irmã detalha rotina de Deolane na cadeia"
+      "VEJA",
+      "TecMundo",
+      "cinepop.com.br"
     ],
     "sourceCount": 5,
-    "score": 90,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/secretaria-nega-denuncias-sobre-cela-de-deolane.jpg",
-    "imageCredit": "Reprodução/Instagram",
-    "imageSubject": "Deolane",
-    "imageSearchQuery": "Deolane presa presídio",
-    "imageAlt": "Deolane, citada em denúncias sobre as condições do presídio",
-    "editorialMeta": {
-      "originalTitle": "Secretaria nega que cela de Deolane tenha comida estragada e escorpião",
-      "sourceId": "U2VjcmV0YXJpYSBuZWdh",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.98,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Deolane está presa em um presídio.",
-        "A defesa relatou falta de higiene e presença de escorpiões.",
-        "A secretaria negou comida estragada e escorpião na cela.",
-        "A secretaria divulgou fotos do presídio."
-      ],
-      "generatedAt": "2026-06-13T11:41:21.475Z"
-    },
-    "createdAt": "2026-06-13T11:41:21.475Z",
-    "imagePostUrl": "https://www.metropoles.com/colunas/fabia-oliveira/video-assista-deolane-bezerra-sendo-presa-novamente",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://www.metropoles.com/colunas/fabia-oliveira/video-assista-deolane-bezerra-sendo-presa-novamente",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 1,
-      "confidence": 0.97,
-      "reason": "A imagem mostra claramente Deolane Bezerra em um contexto jornalístico ligado à prisão, coerente com o tema da matéria, sem texto pesado ou montagem.",
-      "visibleSubject": "Deolane Bezerra cercada por jornalistas e pessoas com celulares.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 112,
+    "charCount": 725,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
   },
   {
-    "id": "RXNwb3NhIGRlIEFsYmVy",
-    "reviewId": "RXNwb3NhIGRlIEFsYmVy",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Esposa de Alberto Cowboy se pronuncia após discussão conjugal vazada",
-    "slug": "esposa-de-alberto-cowboy-se-pronuncia-apos-discussao-conjugal-vazada",
-    "excerpt": "Ela afirmou ter se sentido invadida após a repercussão de uma discussão com Alberto Cowboy em um hotel.",
+    "slug": "madonna-estaria-deixando-executivos-da-fifa-de-cabelo-em-p-c",
+    "title": "Madonna estaria deixando executivos da FIFA de cabelo em pé com exigências para show",
+    "excerpt": "Cantora americana teria feito uma série de exigências consideradas exageradas para sua apresentação na cerimônia de encerramento da Copa do Mundo.",
     "body": [
-      "A esposa de Alberto Cowboy se pronunciou após o vazamento e a repercussão de uma discussão conjugal ocorrida em um hotel. Ao falar sobre o episódio, ela afirmou que se sentiu invadida.",
-      "Alberto Cowboy também quebrou o silêncio após a divulgação da briga com a esposa. Ele declarou que a privacidade do casal foi invadida."
+      "Madonna estaria deixando executivos da FIFA de cabelo em pé com suas exigências para o show na cerimônia de encerramento da Copa do Mundo 2026. A cantora americana, que se apresentará na final do torneio, teria feito uma lista de pedidos considerados exagerados pela organização.",
+      "Entre as exigências estariam questões técnicas, de segurança e de infraestrutura que geraram desconforto entre os organizadores. Madonna é conhecida por seus shows elaborados e por estabelecer padrões elevados para suas apresentações.",
+      "A cantora se junta a Shakira e BTS no lineup da cerimônia de encerramento do Mundial, que promete ser uma das maiores da história do torneio."
     ],
-    "html": "<p>A esposa de Alberto Cowboy se pronunciou após o vazamento e a repercussão de uma discussão conjugal ocorrida em um hotel. Ao falar sobre o episódio, ela afirmou que se sentiu invadida.</p>\n<p>Alberto Cowboy também quebrou o silêncio após a divulgação da briga com a esposa. Ele declarou que a privacidade do casal foi invadida.</p>",
-    "category": "Famosos",
-    "market": "brasil",
+    "category": "Música",
     "tags": [
-      "Alberto Cowboy",
+      "Música",
+      "BuzzPop"
+    ],
+    "image": "https://s2-quem.glbimg.com/HpdgNVS68iz32q6l6Whge8H2FMM=/0x0:853x1280/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2024/2/5/jYV7AxT0SGWoMGqlNNRQ/img-20240504-231433-316.jpg",
+    "imageSubject": "Madonna estaria deixando executivos da FIFA de cabelo em pé com exigências para show",
+    "imageAlt": "Madonna estaria deixando executivos da FIFA de cabelo em pé com exigências para show",
+    "sources": [
+      "UOL",
+      "G1",
+      "O Globo",
+      "Estadão",
+      "CNN Brasil"
+    ],
+    "sourceCount": 5,
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 103,
+    "charCount": 658,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
+  },
+  {
+    "slug": "rush-resgata-m-sica-ap-s-47-anos-e-toca-em-4-show-de-reuni-o",
+    "title": "Rush resgata música após 47 anos e toca em 4º show de reunião da banda",
+    "excerpt": "Banda canadense de rockprogressivo surpreendeu fãs ao tocar uma música que não era executada ao vivo há quase cinco décadas.",
+    "body": [
+      "O Rush surpreendeu os fãs ao resgatar uma música que não tocava ao vivo há 47 anos durante o quarto show de reunião da banda. A apresentação aconteceu como parte da turnê comemorativa que celebra a carreira do grupo canadense de rockprogressivo.",
+      "A faixa resgatada foi recebida com entusiasmo pelo público, que cantou junto cada verso. O Rush é conhecido por sua base de fãs dedicada e por clássicos como Tom Sawyer e Limelight.",
+      "A turnê de reunião tem sido um sucesso de público e crítica, com ingressos esgotados em diversas cidades. A banda, que se separou em 2020, voltou aos palcos para uma série limitada de apresentações."
+    ],
+    "category": "Música",
+    "tags": [
+      "Música",
+      "BuzzPop"
+    ],
+    "image": "https://i.pinimg.com/originals/aa/57/61/aa576107614aa6bd24578ed739b85419.jpg",
+    "imageSubject": "Rush resgata música após 47 anos e toca em 4º show de reunião da banda",
+    "imageAlt": "Rush resgata música após 47 anos e toca em 4º show de reunião da banda",
+    "sources": [
+      "Omelete",
+      "G1",
+      "UOL",
+      "Estadão",
+      "Whiplash"
+    ],
+    "sourceCount": 5,
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 108,
+    "charCount": 628,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
+  },
+  {
+    "slug": "filhos-de-virginia-e-z-felipe-conhecem-nova-mans-o-do-cantor",
+    "title": "Filhos de Virginia e Zé Felipe conhecem nova mansão do cantor",
+    "excerpt": "Influenciadora e o cantor mostraram os filhos visitando a nova casa da família, que tem espaços amplos e área de lazer completa.",
+    "body": [
+      "Virginia Fonseca e Zé Felipe levaram os filhos para conhecer a nova mansão do cantor. O casal de influenciadores mostrou nas redes sociais o momento em que as crianças exploraram os espaços da nova residência, que tem áreas amplas e infraestrutura completa de lazer.",
+      "A nova casa do cantor sertanejo impressionou os seguidores pelo tamanho e pelo acabamento. Virginia compartilhou detalhes da visita em seus stories, mostrando a reação das crianças ao conhecerem os cômodos.",
+      "Zé Felipe e Virginia estão em um dos relacionamentos mais acompanhados da internet brasileira e frequentemente compartilham momentos da vida familiar com os milhões de seguidores."
+    ],
+    "category": "Famosos",
+    "tags": [
       "Famosos",
-      "Discussão conjugal"
+      "BuzzPop"
     ],
-    "source": "CNN Brasil",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVHhzZmJHTmR3cU1PN1RkNl9yUjNlMDd4TVh3UVY0MWktY3Fkd2Jncmc5WXpEbS1qcENENVpkZjNLNl9rVW9BWG81RVBITUVRVjZ4dFF4dnB1MFdiYUV3dmZTNlJXd1VUSUUweWZQeGJ5NWVqQjY2RHlkN21tNzlRS1VXNzhZRzlUclhPQWVrQzBNRTNrRjJ1cVgwY1pyRXRWcmNDMW1LUTBWS0VUbHhNQTJ3LVp1RDFI?oc=5",
-    "evidenceSources": [
-      "CNN Brasil",
-      "Globo",
+    "image": "https://cdn.midiamax.com.br/wp-content/uploads/2026/06/Buque-de-Virginia-Fonseca.webp",
+    "imageSubject": "Filhos de Virginia e Zé Felipe conhecem nova mansão do cantor",
+    "imageAlt": "Filhos de Virginia e Zé Felipe conhecem nova mansão do cantor",
+    "sources": [
+      "Gshow",
       "UOL",
-      "R7",
-      "Midiamax"
-    ],
-    "evidenceClaims": [
-      "Esposa de Alberto Cowboy se pronuncia após repercussão de suposto áudio",
-      "Alberto Cowboy quebra silêncio após vazamento de briga com esposa: 'Nossa privacidade foi invadida'",
-      "Esposa de Alberto Cowboy se pronuncia após vazamento de discussão conjugal",
-      "‘Você é machista’, diz esposa de Alberto Cowboy durante briga em hotel #ahoradavenenosa #shorts",
-      "‘Me senti invadida’: esposa de Alberto Cowboy quebra silêncio após barraco em hotel"
-    ],
-    "sourceCount": 5,
-    "score": 90,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/esposa-de-alberto-cowboy-se-pronuncia-apos-discussao-conjugal-vazada.jpg",
-    "imageCredit": "Imagem ilustrativa: caras.com.br",
-    "imageSubject": "Alberto Cowboy e a esposa",
-    "imageSearchQuery": "Alberto Cowboy e esposa foto",
-    "imageAlt": "Alberto Cowboy ao lado da esposa",
-    "editorialMeta": {
-      "originalTitle": "Esposa de Alberto Cowboy se pronuncia após repercussão de suposto áudio",
-      "sourceId": "RXNwb3NhIGRlIEFsYmVy",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "A esposa de Alberto Cowboy se pronunciou após o vazamento de uma discussão conjugal.",
-        "A discussão ocorreu em um hotel.",
-        "Ela afirmou que se sentiu invadida.",
-        "Alberto Cowboy se manifestou após a divulgação da briga.",
-        "Ele declarou que a privacidade do casal foi invadida."
-      ],
-      "generatedAt": "2026-06-13T11:41:00.364Z"
-    },
-    "createdAt": "2026-06-13T11:41:00.364Z",
-    "imagePostUrl": "https://caras.com.br/big-brother/esposa-de-alberto-cowboy-do-bbb-26-encanta-ao-mostrar-video-do-brother-com-a-filha.phtml",
-    "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://caras.com.br/big-brother/esposa-de-alberto-cowboy-do-bbb-26-encanta-ao-mostrar-video-do-brother-com-a-filha.phtml",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 0,
-      "confidence": 0.99,
-      "reason": "Imagem nítida e direta de Alberto Cowboy ao lado da esposa, correspondendo claramente ao tema e ao texto alternativo do artigo.",
-      "visibleSubject": "Alberto Cowboy e a esposa sorrindo juntos em uma selfie em ambiente urbano.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "UHLDqm1pbyBGYXogRGlm",
-    "reviewId": "UHLDqm1pbyBGYXogRGlm",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Prêmio Faz Diferença homenageia Gilberto Gil e destaques de 2025",
-    "slug": "premio-faz-diferenca-homenageia-gilberto-gil-e-destaques-de-2025",
-    "excerpt": "Premiação reconhece nomes que geram impacto positivo no Brasil.",
-    "body": [
-      "O Prêmio Faz Diferença homenageou Gilberto Gil e celebrou destaques de 2025. Promovida pela Firjan SESI e pelo O Globo, a premiação reconhece pessoas que geram impacto positivo no Brasil.",
-      "Afonso Borges conquistou o prêmio na categoria Livros. Debora Bloch foi reconhecida por interpretar Odete Roitman no remake de “Vale Tudo”, trabalho que classificou como um enorme desafio e uma grande responsabilidade."
-    ],
-    "html": "<p>O Prêmio Faz Diferença homenageou Gilberto Gil e celebrou destaques de 2025. Promovida pela Firjan SESI e pelo O Globo, a premiação reconhece pessoas que geram impacto positivo no Brasil.</p>\n<p>Afonso Borges conquistou o prêmio na categoria Livros. Debora Bloch foi reconhecida por interpretar Odete Roitman no remake de “Vale Tudo”, trabalho que classificou como um enorme desafio e uma grande responsabilidade.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Gilberto Gil",
-      "Prêmio Faz Diferença",
-      "Afonso Borges",
-      "Debora Bloch"
-    ],
-    "source": "O Globo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcVhObVVNb08tM1ZmTUlhbUxRaktFZGtlZmd1U0VZRXpwaEg4Uk0tbHBvekh2LXNRbWQ2WDFXd29EZHFZTEdGRldSTlNVaDR5M3RMdG96T3VjcThJbDBPTUllVVh2QWJsWEZCLTFVMGJRZFhBTEFxU09UeVJfcFhyWS0waEc2VFEyN0UwOEphUE95M1kxWGtXOXFFYzZpVEF0cGFyM2wtNDcyU25aVzVRYzdrcEpyejY4RVJVTWZBZTl1QjdtTWVlT1VwbW9jVjJlX3FOMzNqenlRcknSAeoBQVVfeXFMTTRfenp5cmY2Y3BLYmszb3RjcG9sRTU1akJnSVJHRTl6SnRfREQ5UFIzYVJVNGhSeFF4TTJEQjZWbS05YWxtcm1zQ0dfSktKUzhabFNCdlB5Z3NGb1V0bVhIZ3QwdkNybGplVFVXZTA3NTVYZm9hMXRaRHo5TEVOQTBYcGczdjliMF8waUFmZ21MQzZCV1N2dUFMQXl5RUVtMkg1aHQwMm5rOTlCLXh0a1dwdTlvSnhsZU5xYzMwa3AtNU50OVZXc2E0NGY4MGZPOHFRbmZmQjUzZ0Q1QnZCWVliWDZpSHdsU3dB?oc=5",
-    "evidenceSources": [
-      "O Globo",
-      "Valor Econômico",
-      "Sistema Firjan",
-      "Rádio Itatiaia"
-    ],
-    "evidenceClaims": [
-      "Prêmio Faz Diferença homenageia Gilberto Gil e celebra destaques de 2025",
-      "Prêmio Faz Diferença: Firjan SESI e O Globo reconhecem quem gera impacto positivo no Brasil",
-      "Minas em foco: Afonso Borges conquista prêmio \"Faz Diferença 2025\" na categoria Livros",
-      "Debora Bloch recebe o Faz Diferença 2025 por papel de Odete Roitman no remake de 'Vale Tudo': 'Era um enorme desafio, uma grande responsabilidade'"
-    ],
-    "sourceCount": 4,
-    "score": 95,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/gilberto-gil-premio-faz-diferenca.jpg",
-    "imageCredit": "Wikimedia Commons (imagem ilustrativa)",
-    "imageSubject": "Gilberto Gil no Prêmio Faz Diferença",
-    "imageSearchQuery": "Gilberto Gil Prêmio Faz Diferença 2025",
-    "imageAlt": "Gilberto Gil, homenageado pelo Prêmio Faz Diferença",
-    "editorialMeta": {
-      "originalTitle": "Prêmio Faz Diferença homenageia Gilberto Gil e celebra destaques de 2025",
-      "sourceId": "UHLDqm1pbyBGYXogRGlm",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "O Prêmio Faz Diferença homenageou Gilberto Gil.",
-        "A premiação celebrou destaques de 2025.",
-        "Firjan SESI e O Globo promovem o reconhecimento.",
-        "O prêmio reconhece pessoas que geram impacto positivo no Brasil.",
-        "Afonso Borges venceu na categoria Livros.",
-        "Debora Bloch foi premiada por interpretar Odete Roitman no remake de “Vale Tudo”.",
-        "Debora Bloch classificou o papel como um enorme desafio e uma grande responsabilidade."
-      ],
-      "generatedAt": "2026-06-13T11:37:27.405Z"
-    },
-    "createdAt": "2026-06-13T11:37:27.405Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://aloalobahia.com/wp-content/uploads/2025/12/gilse_emociona_alo_alo_bahia.jpg",
-        "pageUrl": "https://aloalobahia.com/noticias/2025/12/10/aos-83-anos-gilberto-gil-se-emociona-ao-ser-homenageado-no-premio-multishow-2025/",
-        "source": "Bing",
-        "title": "Aos 83 anos, Gilberto Gil se emociona ao ser homenageado no Prêmio ...",
-        "width": 984,
-        "height": 554
-      },
-      {
-        "imageUrl": "https://billboard-com-br.s3.amazonaws.com/wp-content/uploads/2026/03/30095936/Gilberto-Gil-na-turne-Tempo-Rei-800x630.webp",
-        "pageUrl": "https://billboard.com.br/gilberto-gil-personalidade-do-ano-premio/",
-        "source": "Bing",
-        "title": "Gilberto Gil é Personalidade do Ano no Prêmio Faz Diferença",
-        "width": 800,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://billboard-com-br.s3.amazonaws.com/wp-content/uploads/2025/06/02084731/Gilberto-Gil-faz-show-no-RJ-Victor-Chapetta_AgNews-2.jpg",
-        "pageUrl": "https://billboard.com.br/gilberto-gil-personalidade-do-ano-premio/",
-        "source": "Bing",
-        "title": "Gilberto Gil é Personalidade do Ano no Prêmio Faz Diferença",
-        "width": 983,
-        "height": 570
-      },
-      {
-        "imageUrl": "https://billboard-com-br.s3.amazonaws.com/wp-content/uploads/2025/10/27112510/gilberto-gil-1.jpg",
-        "pageUrl": "https://billboard.com.br/gilberto-gil-personalidade-do-ano-premio/",
-        "source": "Bing",
-        "title": "Gilberto Gil é Personalidade do Ano no Prêmio Faz Diferença",
-        "width": 983,
-        "height": 570
-      },
-      {
-        "imageUrl": "https://cdn.portaldeprefeitura.com.br/img/c/1200/628/dn_arquivo/2025/12/oportunidade-2025-12-10t000722123.jpg",
-        "pageUrl": "https://portaldeprefeitura.com.br/entretenimento/premio-multishow-2025/610482/",
-        "source": "Bing",
-        "title": "Prêmio Multishow 2025 destaca a música brasileira e homenageia Gilberto ...",
-        "width": 1200,
-        "height": 628
-      },
-      {
-        "imageUrl": "https://billboard-com-br.s3.amazonaws.com/wp-content/uploads/2026/05/06190902/gilberto-gil-800x630.jpg",
-        "pageUrl": "https://billboard.com.br/gilberto-gil-personalidade-do-ano-premio/",
-        "source": "Bing",
-        "title": "Gilberto Gil é Personalidade do Ano no Prêmio Faz Diferença",
-        "width": 800,
-        "height": 630
-      },
-      {
-        "imageUrl": "https://giroblog.com.br/wp-content/uploads/2025/12/CAPA-SITE-56.jpg",
-        "pageUrl": "https://giroblog.com.br/gilberto-gil-e-o-grande-homenageado-do-tradicional-premio-multishow-2025/",
-        "source": "Bing",
-        "title": "Gilberto Gil é o grande homenageado do tradicional Prêmio Multishow ...",
-        "width": 1366,
-        "height": 768
-      },
-      {
-        "imageUrl": "https://www.meioemensagem.com.br/wp-content/uploads/2025/11/Gilberto-Gil.jpg",
-        "pageUrl": "https://www.meioemensagem.com.br/midia/globo-aposta-em-integracao-para-ampliar-premio-multishow",
-        "source": "Bing",
-        "title": "Globo aposta em integração para ampliar Prêmio Multishow",
-        "width": 1280,
-        "height": 852
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": true
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "R3JhY2llbGUgY2hvcmEg",
-    "reviewId": "R3JhY2llbGUgY2hvcmEg",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Graciele chora ao falar sobre cirurgia da filha com Zezé",
-    "slug": "graciele-chora-ao-falar-sobre-cirurgia-da-filha-com-zeze",
-    "excerpt": "A filha de Graciele Lacerda e Zezé Di Camargo passou por uma cirurgia para retirar um nódulo do rosto.",
-    "body": [
-      "A filha de Graciele Lacerda e Zezé Di Camargo passou por um procedimento médico para retirar um nódulo do rosto. A criança também realizou uma biópsia.",
-      "Graciele chorou ao comentar a cirurgia da filha. Após o procedimento no rosto da criança, Zezé Di Camargo mostrou a bebê.",
-      "Clara, filha do casal, passa bem e o procedimento foi considerado um sucesso pela equipe médica."
-    ],
-    "html": "<p>A filha de Graciele Lacerda e Zezé Di Camargo passou por um procedimento médico para retirar um nódulo do rosto. A criança também realizou uma biópsia.</p>\n<p>Graciele chorou ao comentar a cirurgia da filha. Após o procedimento no rosto da criança, Zezé Di Camargo mostrou a bebê.</p><p>O procedimento foi realizado com sucesso e a família tem recebido apoio de amigos e seguidores nas redes sociais. Graciele agradeceu as mensagens de carinho recebidas durante o período de recuperação.</p><p>Clara, filha do casal, passa bem e o procedimento foi considerado um sucesso pela equipe médica.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Graciele Lacerda",
-      "Zezé Di Camargo",
-      "Clara"
-    ],
-    "source": "CNN Brasil",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYnNRZm83b1QzSUVBMXpJSTE0YTNOLTBneC1ZS3VrdGNGWUtJNFRiempPU2gwNS16UDVmY24zWk1keTZkUm9hYjNRZUNVMU8wVzZiMGNDT3locXlnY25tYmp0YXNtRUV3OWhjYTNlMGVTUTFMel8xS292RUtfaHdJV3VuYlhIQ2xFY0NzcC16enp2emZtNjBFQ0ZiWE5NWDNrNW5pNXoxaDA3NmNUb0RTYjRHeldJbGpLOXBhTDlSYw?oc=5",
-    "evidenceSources": [
       "CNN Brasil",
-      "O Globo",
-      "Estadão",
-      "R7 Entretenimento",
-      "OFuxico"
-    ],
-    "evidenceClaims": [
-      "Graciele chora ao comentar cirurgia de retirada de nódulo da filha com Zezé",
-      "Biópsia: entenda o exame feito pela filha de Graciele Lacerda e Zezé Di Camargo, de um ano e cinco meses",
-      "Entenda por que a filha de Graciele Lacerda e Zezé Di Camargo teve de retirar nódulo do rosto",
-      "Zezé Di Camargo mostra a bebê após cirurgia no rostinho dela",
-      "Graciele Lacerda revela que a filha Clara, de um ano, passou por procedimento médico"
-    ],
-    "sourceCount": 5,
-    "score": 98,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/graciele-chora-ao-falar-sobre-cirurgia-da-filha-com-zeze.jpg",
-    "imageCredit": "Foto: Reprodução/redes sociais",
-    "imageSubject": "Graciele Lacerda, Zezé Di Camargo e a filha Clara",
-    "imageSearchQuery": "Graciele Lacerda Zezé Di Camargo filha Clara",
-    "imageAlt": "Graciele Lacerda e Zezé Di Camargo com a filha Clara",
-    "editorialMeta": {
-      "originalTitle": "Graciele chora ao comentar cirurgia de retirada de nódulo da filha com Zezé",
-      "sourceId": "R3JhY2llbGUgY2hvcmEg",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "A filha de Graciele Lacerda e Zezé Di Camargo retirou um nódulo do rosto.",
-        "A criança realizou uma biópsia.",
-        "Graciele chorou ao comentar a cirurgia da filha.",
-        "Zezé Di Camargo mostrou a bebê após a cirurgia."
-      ],
-      "generatedAt": "2026-06-13T11:36:16.192Z"
-    },
-    "createdAt": "2026-06-13T11:36:16.192Z",
-    "imagePostUrl": "https://aloalobahia.com/noticias/2025/11/12/zeze-di-camargo-recebe-graciele-lacerda-e-a-filha-clara-em-especial-de-natal-veja-fotos/",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://aloalobahia.com/noticias/2025/11/12/zeze-di-camargo-recebe-graciele-lacerda-e-a-filha-clara-em-especial-de-natal-veja-fotos/",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 3,
-      "confidence": 0.98,
-      "reason": "A imagem mostra claramente Graciele Lacerda, Zezé Di Camargo e a filha Clara juntos, correspondendo exatamente ao tema e ao texto alternativo do artigo.",
-      "visibleSubject": "Graciele Lacerda e Zezé Di Camargo segurando a filha Clara em um evento.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "J0NhbmRpZMOtYXNlJyBu",
-    "reviewId": "J0NhbmRpZMOtYXNlJyBu",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Diogo Nogueira relata candidíase nas cordas vocais",
-    "slug": "diogo-nogueira-relata-candidiase-nas-cordas-vocais",
-    "excerpt": "Cantor afirmou que a condição afetou sua voz e falou sobre o tratamento.",
-    "body": [
-      "Diogo Nogueira relatou estar com candidíase nas cordas vocais. O cantor explicou o tratamento da condição, que afetou sua voz, após também ter enfrentado uma laringite bacteriana.",
-      "Ao revelar detalhes do problema de saúde, Diogo afirmou que usou um aparelho para conseguir cantar. A alteração em sua voz também chamou atenção durante uma participação no programa “Encontro”."
-    ],
-    "html": "<p>Diogo Nogueira relatou estar com candidíase nas cordas vocais. O cantor explicou o tratamento da condição, que afetou sua voz, após também ter enfrentado uma laringite bacteriana.</p>\n<p>Ao revelar detalhes do problema de saúde, Diogo afirmou que usou um aparelho para conseguir cantar. A alteração em sua voz também chamou atenção durante uma participação no programa “Encontro”.</p>",
-    "category": "Música",
-    "market": "brasil",
-    "tags": [
-      "Diogo Nogueira",
-      "candidíase",
-      "cordas vocais",
-      "saúde",
-      "voz"
-    ],
-    "source": "O Globo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRGFaTkRYeFo1RDRFOGNoSjFKOXhHajJtS3Z2MVFlTzFqbGN3QVBXZHdEWjBfUWQ2SlZtdmNvSHZwNzY3Ml9RRzROZVpBZnktX19kTm1TcEJoVHdyODhvbEgtWFItaFBfWFZHbmZ2WWdTejFDZHZ3NHFOTFBYR2VFcDRtRjN6aVNtVjZIeW52enU3OFhiQ0RlZkdWeHdwRVYtQXFRdnZLUVVCUy1QZklITGhmTWxQUEctdTViVHdUYmJSVjc1azROX25USjhaaFdHaUFQSWhERHFxaG1jSkU3cUtn0gHwAUFVX3lxTFAxVnRpanNCRUFTMTdJN3NINFFzS1lManY1NHVIcjRqZDctNEgyTVhVdVpKdGdVYmNPQ29rbUo4Q2hzWVJuMi1Kbm1OSmFPZnJZeENzWXRrMEZFdzJ0TWNFRkh2R2ZiTTFLVTVxUkpYZjc4RkhWeGgyYTRfVl9zWmFhS2N0dHk4cl9EbUZZcmlwWDhseTFlQm0teEphYmNzVGc4NThDX2pSWklHcUJzbXE2TEswaFl6QVNQa2dzUFE5aVF3cTRubmUxTE9NWFhxMTVISmNoQWQ4ZXZUa3lGa0pQRWNCTDNrRVFfaUdISXBsNA?oc=5",
-    "evidenceSources": [
-      "O Globo",
-      "VEJA",
-      "OFuxico",
-      "Revista Fórum",
-      "Observatório dos Famosos"
-    ],
-    "evidenceClaims": [
-      "'Candidíase' nas cordas vocais: entenda a condição relatada pelo cantor Diogo Nogueira",
-      "Após problema de saúde, voz de Diogo Nogueira chama atenção no ‘Encontro’",
-      "Diogo Nogueira atualiza estado de saúde após laringite bacteriana",
-      "Diogo Nogueira revela estar com candidíase nas cordas vocais e explica tratamento",
-      "Diogo Nogueira revela detalhes da doença que afetou sua voz e do uso de aparelho para conseguir cantar"
-    ],
-    "sourceCount": 5,
-    "score": 98,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/diogo-nogueira-relata-candidiase-nas-cordas-vocais.jpg",
-    "imageCredit": "Foto: Reprodução/Tudo Pop",
-    "imageSubject": "Diogo Nogueira",
-    "imageSearchQuery": "Diogo Nogueira cantor retrato",
-    "imageAlt": "O cantor Diogo Nogueira",
-    "editorialMeta": {
-      "originalTitle": "'Candidíase' nas cordas vocais: entenda a condição relatada pelo cantor Diogo Nogueira",
-      "sourceId": "J0NhbmRpZMOtYXNlJyBu",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.98,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Diogo Nogueira relatou candidíase nas cordas vocais.",
-        "A condição afetou a voz do cantor.",
-        "Diogo Nogueira explicou o tratamento.",
-        "O cantor também enfrentou uma laringite bacteriana.",
-        "Diogo Nogueira afirmou que usou um aparelho para conseguir cantar.",
-        "A voz do cantor chamou atenção no programa Encontro."
-      ],
-      "generatedAt": "2026-06-13T11:35:51.137Z"
-    },
-    "createdAt": "2026-06-13T11:35:51.137Z",
-    "imagePostUrl": "https://www.tudopop.com/noticias/famosos/diogo-nogueira-conta-como-conquistou-paolla-oliveira.phtml",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://www.tudopop.com/noticias/famosos/diogo-nogueira-conta-como-conquistou-paolla-oliveira.phtml",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 6,
-      "confidence": 0.98,
-      "reason": "A imagem mostra claramente Diogo Nogueira cantando ao microfone, com boa qualidade e contexto diretamente relacionado à voz e à carreira musical.",
-      "visibleSubject": "Diogo Nogueira em apresentação musical, cantando ao microfone.",
-      "concerns": [
-        "Imagem de arquivo não retrata especificamente a condição vocal ou o tratamento."
-      ],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "RGF2aWQgSG9ja25leSAo",
-    "reviewId": "RGF2aWQgSG9ja25leSAo",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Pintor britânico David Hockney morre aos 88 anos",
-    "slug": "pintor-britanico-david-hockney-morre-aos-88-anos",
-    "excerpt": "Artista, que viveu de 1937 a 2026, ficou associado ao uso marcante de luz e cor.",
-    "body": [
-      "David Hockney morreu aos 88 anos. Nascido em 1937, o pintor britânico ficou conhecido por trabalhos marcados pela luz e pela cor, incluindo representações da Califórnia em tons vibrantes.",
-      "As piscinas também apareceram em sua arte, retratadas como espaços de paixões movediças. Hockney ainda abordou a ternura como parte da vida cotidiana em suas obras."
-    ],
-    "html": "<p>David Hockney morreu aos 88 anos. Nascido em 1937, o pintor britânico ficou conhecido por trabalhos marcados pela luz e pela cor, incluindo representações da Califórnia em tons vibrantes.</p>\n<p>As piscinas também apareceram em sua arte, retratadas como espaços de paixões movediças. Hockney ainda abordou a ternura como parte da vida cotidiana em suas obras.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "David Hockney",
-      "artes",
-      "pintura"
-    ],
-    "source": "Folha de S.Paulo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZjJTa3VSdUdMdE44ajl5WjdPV29wQUozZDMxdklDXzZGZ284bWxuOFUxTkdBT3VYZWpuOVFxMUhlUWU0ZEdOSThyaUdWVWJQZC11bWM1OVZqeDBySGhzSjB5QjhoZTZZTGFqWEpFNi1KS2xoam5WdHRzMWFfUWdfb0xmeWt0ZjdzQUY5cUJ4R1dmX1FlYmUwWTAtM2VpQWZrZ0pNa0NFdUZpeER6eEZQYnEyX0U0aER6TmpvbXBaUWd2V2d6cDB4bzQzVHVQQQ?oc=5",
-    "evidenceSources": [
-      "Folha de S.Paulo",
-      "Valor Econômico",
-      "Estadão",
-      "InfoMoney"
-    ],
-    "evidenceClaims": [
-      "David Hockney (1937 - 2026) - Morre David Hockney, que pintou a Califórnia em cores vibrantes, aos 88 anos",
-      "Análise: David Hockney pintou as suas piscinas como o lar de paixões movediças",
-      "Pintor britânico David Hockney morre aos 88 anos",
-      "Análise | David Hockney fez da ternura um fato cotidiano em sua arte",
-      "David Hockney, artista mestre da luz e da cor, morre aos 88 anos"
-    ],
-    "sourceCount": 4,
-    "score": 99,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/pintor-britanico-david-hockney-morre-aos-88-anos.jpg",
-    "imageCredit": "Foto: Retrato del artista británico David Hockney, 2016. Foto: cortesía Museo Guggenheim Bilbao.",
-    "imageSubject": "David Hockney",
-    "imageSearchQuery": "David Hockney retrato artista britânico",
-    "imageAlt": "Retrato do pintor britânico David Hockney",
-    "editorialMeta": {
-      "originalTitle": "David Hockney (1937 - 2026) - Morre David Hockney, que pintou a Califórnia em cores vibrantes, aos 88 anos",
-      "sourceId": "RGF2aWQgSG9ja25leSAo",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "David Hockney morreu aos 88 anos.",
-        "David Hockney viveu de 1937 a 2026.",
-        "David Hockney era um pintor britânico.",
-        "Sua obra foi marcada pela luz e pela cor.",
-        "Hockney representou a Califórnia em cores vibrantes.",
-        "Piscinas apareceram em sua arte como espaços de paixões movediças.",
-        "A ternura cotidiana foi abordada em sua arte."
-      ],
-      "generatedAt": "2026-06-13T11:34:56.863Z"
-    },
-    "createdAt": "2026-06-13T11:34:56.863Z",
-    "imagePostUrl": "https://artishockrevista.com/2017/11/21/david-hockney-bilbao/",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://artishockrevista.com/2017/11/21/david-hockney-bilbao/",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 3,
-      "confidence": 0.99,
-      "reason": "Retrato claro, nítido e individual de David Hockney, adequado ao tema central da matéria.",
-      "visibleSubject": "David Hockney sorrindo, usando óculos redondos, boina clara e cardigã azul.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "QW1pZ2FzIHVuaWRhcyBh",
-    "reviewId": "QW1pZ2FzIHVuaWRhcyBh",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Tati Machado e Bruno Monteiro anunciam nova gravidez",
-    "slug": "tati-machado-e-bruno-monteiro-anunciam-nova-gravidez",
-    "excerpt": "Lexa celebrou a gravidez de Tati Machado, anunciada após uma perda gestacional.",
-    "body": [
-      "Tati Machado e Bruno Monteiro anunciaram uma nova gravidez. O anúncio ocorre após Tati ter perdido um bebê em uma gestação anterior.",
-      "Amiga de Tati, Lexa celebrou a notícia com a frase: “Já amo tanto esse baby”. Tati também foi surpreendida no Mais Você após anunciar que está grávida novamente."
-    ],
-    "html": "<p>Tati Machado e Bruno Monteiro anunciaram uma nova gravidez. O anúncio ocorre após Tati ter perdido um bebê em uma gestação anterior.</p>\n<p>Amiga de Tati, Lexa celebrou a notícia com a frase: “Já amo tanto esse baby”. Tati também foi surpreendida no Mais Você após anunciar que está grávida novamente.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Tati Machado",
-      "Bruno Monteiro",
-      "Lexa",
-      "gravidez"
-    ],
-    "source": "O Globo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPZ1NtQVdfbWxOSnVkajRmbmhsVHJTOUc0bExBQ0VRV25aN0JhRlFLSl9VaGxMT2MweFJMZDdaTzBZOE50UkhzYk9GclZ0Mnd0UU5kRTIzU2tnTnF4c3FjRWpibks0Unc1MGxtR2NxUWhDV0tZeFRXcGxnZ1RUTjJrM1Z3ckVYUFRyWGpjVzZSbVNNU0prMW5pRTZIOUN0d3RFb3hoNFlULUZubFFVU3lSY3BkbF9lQmM5ZVVfY3BNS3U5V0ZtMTRnNVhIeElIUlJlVWZWUkh5Y29GZllkSmpxSXViX084UjdKTkZ4MzNR0gH8AUFVX3lxTE1IZlJtd19DeDQtTHdwV1FpcmpkTWxnXzNCQUJTMWhGUzhYTkl4T3dqRDdyU09iektDMXdvd0FPR1RoR3lVQWozdFU0OFo0MzBxYkx1by1wSTVJTVdiODdVdFA3S0VSelA5UDk2bEpjWEZibm5IUnhQYU94RUFQeXZ1TDdMdEJWRkFyRHdDM0VEcG80RGNnUG4tNWFjZDdIa1J0MDktMXBjc1lpZ2YtdnowdlBCYmp5OTBDTXJYWGpCLWtYYllCMXlTdks3ZkpuQ3NvSS1DSUliaXpuck1XVWhpeGFmSEZBY1k4aGNuWWRZbFVERm9QNzBTdzFrMg?oc=5",
-    "evidenceSources": [
-      "O Globo",
-      "NaTelinha",
       "Midiamax",
-      "Diário Gaúcho",
-      "Veja Saúde"
-    ],
-    "evidenceClaims": [
-      "Amigas unidas após perdas gestacionais, Lexa celebra gravidez de Tati Machado: 'Já amo tanto esse baby'",
-      "Tati Machado é surpreendida no Mais Você após anunciar gravidez",
-      "VÍDEO: Após perder bebê e comover o Brasil, Tati Machado anuncia nova gravidez",
-      "Tati Machado e Bruno Monteiro anunciam nova gravidez",
-      "Tati Machado está grávida: o que esperar de uma nova gravidez após perda gestacional?"
+      "CARAS Brasil"
     ],
     "sourceCount": 5,
-    "score": 105,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/tati-machado-e-bruno-monteiro-anunciam-nova-gravidez.webp",
-    "imageCredit": "REPRODUÇÃO/INSTAGRAM",
-    "imageSubject": "Tati Machado e Bruno Monteiro",
-    "imageSearchQuery": "Tati Machado Bruno Monteiro anúncio nova gravidez",
-    "imageAlt": "Tati Machado e Bruno Monteiro, que anunciaram uma nova gravidez",
-    "editorialMeta": {
-      "originalTitle": "Amigas unidas após perdas gestacionais, Lexa celebra gravidez de Tati Machado: 'Já amo tanto esse baby'",
-      "sourceId": "QW1pZ2FzIHVuaWRhcyBh",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Tati Machado e Bruno Monteiro anunciaram uma nova gravidez.",
-        "Tati Machado passou por uma perda gestacional.",
-        "Lexa celebrou a gravidez de Tati Machado.",
-        "Lexa disse que já ama o bebê.",
-        "Tati Machado foi surpreendida no Mais Você após anunciar a gravidez."
-      ],
-      "generatedAt": "2026-06-13T11:33:13.036Z"
-    },
-    "createdAt": "2026-06-13T11:33:13.036Z",
-    "imagePostUrl": "https://noticiasdatv.uol.com.br/noticia/celebridades/tati-machado-perde-bebe-apos-mais-de-oito-meses-de-gestacao-profunda-dor-136303",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://noticiasdatv.uol.com.br/noticia/celebridades/tati-machado-perde-bebe-apos-mais-de-oito-meses-de-gestacao-profunda-dor-136303",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 2,
-      "confidence": 0.97,
-      "reason": "A imagem mostra claramente Tati Machado grávida ao lado de Bruno Monteiro, com boa qualidade e sem texto ou elementos que desviem do anúncio da gravidez.",
-      "visibleSubject": "Tati Machado grávida ao lado de Bruno Monteiro em ambiente doméstico.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 101,
+    "charCount": 655,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
   },
   {
-    "id": "Q2FtaWxhIFJvZHJpZ3Vl",
-    "reviewId": "Q2FtaWxhIFJvZHJpZ3Vl",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Camila Rodrigues fala sobre término com Bruno Gagliasso",
-    "slug": "camila-rodrigues-fala-sobre-termino-com-bruno-gagliasso",
-    "excerpt": "Camila Rodrigues abordou a separação de Bruno Gagliasso e afirmou que ficou com boleto após o término.",
+    "slug": "bruna-biancardi-chega-estreia-do-brasil-na-copa-em-jatinho-a",
+    "title": "Bruna Biancardi chega à estreia do Brasil na Copa em jatinho avaliado em R$ 250 milhões",
+    "excerpt": "Influenciadora desembarcou nos EUA em aeronave de luxo para assistir ao jogo da seleção brasileira contra Marrocos na primeira partida.",
     "body": [
-      "Camila Rodrigues falou sobre o término de seu relacionamento com Bruno Gagliasso. Ao abordar a separação, ela afirmou: “Fiquei com boleto”.",
-      "A relação dos dois envolveu uma novela e um casamento relâmpago. Camila também expôs bastidores do fim do relacionamento sem mencionar o nome do ator nesse relato."
+      "Bruna Biancardi chegou aos Estados Unidos para acompanhar a estreia do Brasil na Copa do Mundo 2026 em um jatinho avaliado em R$ 250 milhões. A influenciadora, mãe de Mavie e filha do jogador Neymar, desembarcou na cidade-sede do jogo contra Marrocos.",
+      "O meio de transporte luxuoso chamou a atenção nas redes sociais. Bruna compartilhou registros da viagem e dos preparativos para acompanhar a partida no estádio.",
+      "Bruna tem marcado presença em eventos ligados à Copa e acompanha de perto a trajetória da seleção."
     ],
-    "html": "<p>Camila Rodrigues falou sobre o término de seu relacionamento com Bruno Gagliasso. Ao abordar a separação, ela afirmou: “Fiquei com boleto”.</p>\n<p>A relação dos dois envolveu uma novela e um casamento relâmpago. Camila também expôs bastidores do fim do relacionamento sem mencionar o nome do ator nesse relato.</p>",
     "category": "Famosos",
-    "market": "brasil",
     "tags": [
-      "Camila Rodrigues",
-      "Bruno Gagliasso",
-      "separação"
+      "Famosos",
+      "BuzzPop"
     ],
-    "source": "DOL",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUdhTVVoc3gxZ29pV25EVVBJeElkcERYSWhOOExwQnJXamg2Zk1GNHJRSzhpSWpSUVRpZlB3ZUEzMUVyRlJiTTBlUWJ1VzFrZjZNTXFuOGlRc0pIV1k1bGxjR3Ftb3NDdVNqNk9WX1JMT3p6U25TQ2FFR3o3ZUZQZldUNkpFa2VkSWQyekFJMVpOeFJwdm82Z2ZQNFVvSUtPTnpnSDVZU0I3Sl9MY1HSAbYBQVVfeXFMTkVyZElvZ25fcTk4bDRwWnJ1UWpETjlycU1lYXZwbjVQVUF3RVVzSHFtZkpUQ3VxV0p6RkZGSUtGcmVUbFV2emNmTkgySC1HdFdHdFVvY1NZTjFMcERNQ0puQXByOEZBSTA3N0J4MUltSG42eHMwUFlJUHZuaTJkS2FkY2NSeWNHcE8ta0c0T19rSVVRX2V5akVHT2p3SWJuVHB4aDVmMWRZRXcxR0t5anpPT01Kc1E?oc=5",
-    "evidenceSources": [
-      "DOL",
-      "VEJA",
+    "image": "https://static1.purepeople.com.br/articles/3/38/49/83/@/4421947-bruna-biancardi-descobriu-em-2023-que-580x0-3.jpg",
+    "imageSubject": "Bruna Biancardi chega à estreia do Brasil na Copa em jatinho avaliado em R$ 250 milhões",
+    "imageAlt": "Bruna Biancardi chega à estreia do Brasil na Copa em jatinho avaliado em R$ 250 milhões",
+    "sources": [
+      "Lance!",
+      "Gshow",
       "UOL",
-      "Globo",
-      "R7 Entretenimento"
-    ],
-    "evidenceClaims": [
-      "Camila Rodrigues abre o jogo sobre separação de Bruno Gagliasso",
-      "Camila Rodrigues detona término com Bruno Gagliasso: ‘Fiquei com boleto’",
-      "Novela e casamento relâmpago: a relação de Camila Rodrigues e Gagliasso",
-      "Sem citar nome, Camila Rodrigues expõe bastidor de término com ator; saiba quem",
-      "Camila Rodrigues joga no ventilador término traumático com Bruno Gagliasso"
+      "Midiamax",
+      "CNN Brasil"
     ],
     "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/camila-rodrigues-fala-sobre-termino-com-bruno-gagliasso.jpg",
-    "imageCredit": "Foto: Copyright/DMCA",
-    "imageSubject": "Camila Rodrigues",
-    "imageSearchQuery": "Camila Rodrigues atriz",
-    "imageAlt": "Camila Rodrigues em aparição pública",
-    "editorialMeta": {
-      "originalTitle": "Camila Rodrigues abre o jogo sobre separação de Bruno Gagliasso",
-      "sourceId": "Q2FtaWxhIFJvZHJpZ3Vl",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.98,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Camila Rodrigues falou sobre o término com Bruno Gagliasso.",
-        "Camila Rodrigues afirmou que ficou com boleto após o término.",
-        "A relação envolveu uma novela e um casamento relâmpago.",
-        "Camila expôs bastidores do término sem citar o nome do ator."
-      ],
-      "generatedAt": "2026-06-13T11:32:22.151Z"
-    },
-    "createdAt": "2026-06-13T11:32:22.151Z",
-    "imagePostUrl": "https://www.listal.com/viewimage/6680709",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://www.listal.com/viewimage/6680709",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 2,
-      "confidence": 0.96,
-      "reason": "Imagem individual, nítida e sem elementos gráficos, mostrando claramente Camila Rodrigues em uma aparição pública.",
-      "visibleSubject": "Camila Rodrigues posando com vestido azul em ambiente de evento.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 84,
+    "charCount": 513,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
   },
   {
-    "id": "TGVhbmRyYSBMZWFsIHBy",
-    "reviewId": "TGVhbmRyYSBMZWFsIHBy",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Leandra Leal prevê final triste para vilã de Coração Acelerado",
-    "slug": "leandra-leal-preve-final-triste-para-vila-de-coracao-acelerado",
-    "excerpt": "Atriz acredita que a personagem não terminará rica e terá um desfecho marcado por castigo.",
+    "slug": "morre-aos-88-anos-an-sio-fiori-influenciador-conhecido-como",
+    "title": "Morre aos 88 anos Anésio Fiori, influenciador conhecido como Vovô Anésio",
+    "excerpt": "Anésio Fiori ganhou fama nas redes sociais com vídeos de humor e sabedoria popular. Velório será aberto ao público no interior de SP.",
     "body": [
-      "Leandra Leal prevê um final triste para a vilã de Coração Acelerado. A atriz acredita que a personagem receberá um castigo no desfecho da novela.",
-      "Ao falar sobre o destino da vilã, Leandra afirmou que ela não vai terminar rica. A atriz também definiu a personagem como “amoral” ao comentar o possível encerramento de sua trajetória."
+      "Morreu aos 88 anos Anésio Fiori, mais conhecido como Vovô Anésio, influenciador digital que conquistou milhões de seguidores nas redes sociais. A morte ocorreu no interior de São Paulo e foi confirmada pela família.",
+      "Vovô Anésio se tornou um fenômeno da internet brasileira nos últimos anos, com vídeos que misturavam humor, histórias da vida real e sabedoria popular. Ele conquistou uma legião de fãs de todas as idades.",
+      "O velório será aberto ao público para que fãs e admiradores possam se despedir. A morte do influenciador gerou comoção nas redes sociais, com homenagens de seguidores e de outros influenciadores."
     ],
-    "html": "<p>Leandra Leal prevê um final triste para a vilã de Coração Acelerado. A atriz acredita que a personagem receberá um castigo no desfecho da novela.</p>\n<p>Ao falar sobre o destino da vilã, Leandra afirmou que ela não vai terminar rica. A atriz também definiu a personagem como “amoral” ao comentar o possível encerramento de sua trajetória.</p>",
     "category": "Famosos",
-    "market": "brasil",
     "tags": [
-      "Leandra Leal",
-      "Coração Acelerado",
-      "novela",
-      "vilã"
+      "Famosos",
+      "BuzzPop"
     ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRVVTNVZ2UXZ0Z0Z2SnVsM21jdUl6VDFVM2o4Z01nbHFsRzQ1Y0h3VS1reWZUckV0dDhxX2ZkUDlLb2N5MFJUQ3R0aUtOT19NWWF4NGNCbmg4MVRPT0ZuWldzc29FeWpXcFp3V01NYlNjallTeXJvYl9SN0hYRXpYVi04NGdsX0JxekUwZ2ZrQjNjRTZxT1laUzBVZmtUeUliMEE1TEVRbkZwTE9GN2pENzVMZUtock5pTGE1Q3QwSHFja2UtR3JTdE56U0fSAdsBQVVfeXFMTmdPV19uWnpWVXdoSkxYeEhJYmllQ1dFVnBEb3VJN3RablVFUUZCd2dYdnpBUEozc0hZYXpSdm1XQUZ6M2dZUzJ6LXljT3U3bm5DWHlkZjM2WVZCdV9hYWRzTmNHRUdtMWRYdkZ1S2psTG1nSmk1Qk5FeDhidG1LRWRESV90LWFpVEhod3ZvcnlFdW9qallwanZlNkt6V19BcnllTC1KRXlaMTdiakVfTUpXZmJacHRsRjVKS0dNNWFXWlFPeVpWRHg2NTZxU2h1WWlkR2gzaUFlVFhv?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "O Globo",
-      "CARAS Brasil",
-      "Observatório dos Famosos",
-      "O TEMPO"
-    ],
-    "evidenceClaims": [
-      "Leandra Leal prevê castigo para vilã de Coração Acelerado: 'Não vai acabar rica'",
-      "Leandra Leal fala da parceria com Isabelle Drummond em 'Coração acelerado' e de novo filme da Globo",
-      "Leandra Leal revela escolha que fez para aproveitar os primeiros anos do filho caçula: 'Tinha o ideal...",
-      "Vilã de Coração Acelerado revela planos para fim de novela",
-      "Leandra Leal prevê final triste para vilã de Coração Acelerado: “Amoral”"
+    "image": "https://i.ytimg.com/vi/LTyfvG-2w1U/maxresdefault.jpg",
+    "imageSubject": "Morre aos 88 anos Anésio Fiori, influenciador conhecido como Vovô Anésio",
+    "imageAlt": "Morre aos 88 anos Anésio Fiori, influenciador conhecido como Vovô Anésio",
+    "sources": [
+      "CNN Brasil",
+      "G1",
+      "UOL",
+      "VEJA",
+      "R7"
     ],
     "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/leandra-leal-preve-final-triste-para-vila-de-coracao-acelerado.png",
-    "imageCredit": "Foto: Leandra Leal em entrevista ao portal LeoDias (Reprodução portal LeoDias/ montagem)",
-    "imageSubject": "Leandra Leal",
-    "imageSearchQuery": "Leandra Leal Coração Acelerado",
-    "imageAlt": "Leandra Leal, atriz de Coração Acelerado",
-    "editorialMeta": {
-      "originalTitle": "Leandra Leal prevê castigo para vilã de Coração Acelerado: 'Não vai acabar rica'",
-      "sourceId": "TGVhbmRyYSBMZWFsIHBy",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Leandra Leal prevê um final triste para a vilã de Coração Acelerado.",
-        "A atriz acredita que a vilã receberá um castigo.",
-        "Leandra afirmou que a personagem não vai terminar rica.",
-        "Leandra definiu a vilã como amoral."
-      ],
-      "generatedAt": "2026-06-13T11:31:56.416Z"
-    },
-    "createdAt": "2026-06-13T11:31:56.416Z",
-    "imagePostUrl": "https://portalleodias.com/novelas/leandra-leal-elogia-marilia-mendonca-e-cita-cantora-como-referencia-para-coracao-acelerado",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://portalleodias.com/novelas/leandra-leal-elogia-marilia-mendonca-e-cita-cantora-como-referencia-para-coracao-acelerado",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 7,
-      "confidence": 0.98,
-      "reason": "Retrato individual, nítido e de boa qualidade de Leandra Leal, compatível com o tema e o crédito da matéria.",
-      "visibleSubject": "Leandra Leal em retrato profissional, usando terno preto, camisa branca e gravata.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 99,
+    "charCount": 618,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
   },
   {
-    "id": "TWF1IE1hdSBkZSBRdWVt",
-    "reviewId": "TWF1IE1hdSBkZSBRdWVt",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "João Victor Gonçalves fala sobre sexualidade e caso de homofobia",
-    "slug": "joao-victor-goncalves-fala-sobre-sexualidade-e-caso-de-homofobia",
-    "excerpt": "Intérprete de Mau Mau em “Quem Ama Cuida”, ator abordou a reação da família e uma experiência real de homofobia.",
+    "slug": "gabz-e-jaffar-bambirra-posam-pela-primeira-vez-e-revelam-his",
+    "title": "Gabz e Jaffar Bambirra posam pela primeira vez e revelam história do romance",
+    "excerpt": "Atriz e cantor assumem publicamente o relacionamento em fotos e contam qual casal famoso foi o cupido responsável por apresentá-los.",
     "body": [
-      "João Victor Gonçalves, intérprete de Mau Mau em “Quem Ama Cuida”, falou sobre como sua família reagiu à sua sexualidade. O ator também revelou ter vivido um caso real de homofobia, experiência que o inspira em seu trabalho na novela.",
-      "Na trama, Mau Mau é neto do personagem interpretado por Tony Ramos e sofre homofobia na relação com o avô."
+      "Gabz e Jaffar Bambirra posaram juntos pela primeira vez e revelaram detalhes do romance. A atriz e o cantor assumiram publicamente o relacionamento, posaram para fotos e contaram qual casal famoso foi o cupido responsável por apresentá-los.",
+      "Em entrevista, Gabz afirmou que Jaffar lhe deu o melhor presente da vida e se declarou ao companheiro. Os dois também falaram sobre a parceria artística que fortaleceu o vínculo entre eles.",
+      "O casal está junto há alguns meses e agora oficializou a relação publicamente. Fãs celebraram a notícia nas redes sociais com mensagens de carinho."
     ],
-    "html": "<p>João Victor Gonçalves, intérprete de Mau Mau em “Quem Ama Cuida”, falou sobre como sua família reagiu à sua sexualidade. O ator também revelou ter vivido um caso real de homofobia, experiência que o inspira em seu trabalho na novela.</p>\n<p>Na trama, Mau Mau é neto do personagem interpretado por Tony Ramos e sofre homofobia na relação com o avô.</p>",
     "category": "Famosos",
-    "market": "brasil",
     "tags": [
-      "João Victor Gonçalves",
-      "Mau Mau",
-      "Quem Ama Cuida",
-      "Tony Ramos"
+      "Famosos",
+      "BuzzPop"
     ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZlBlMUJaR2d1Q3hINFpIUGl4cUswc0hmVXNuR2loZHR4X2FvWl9pS3BwLVFIVV9nUjA0SXJRa3RqcnV5WjJrbDQzQ0ZhcURMUDBHT0FpQnhIbUlMZmJiZmN5MDBFWGR5VDc3QTFyeXVpTTRNeGVxNndhZ3Q0STdPSWRKc1FfN2dSbEMzUjFsdVhYVEctUEJoZ3dpQk9qRHNNVXp2aTJ1clQxRmVZR2xzRDNicmtrU21PZFpBQmk5dk5PbGFmQXltNUl30gHYAUFVX3lxTE1Zdk5JVTZSOUpPUVJBWndLRVN2akgtaUFkN3l4cjhHbFZjemVoTHdBQTJFTS1yeEw4OWdvTnNIVC00MnBhTVZ2OVlzOHpuaEVaV0ZyYzF5QlRyLUk2YXd2Tzdwdjh4elN0SXloLU5HaThVODJ6QTlHNFFHMEFIeEFiQVViSE9Xb0JMYVBBS0d4N3M2MkpDY2ktbnh5b0pwRXh1eXRLbFJ6SXI4R0o1LTVKQktYREp1clpXUVpCVzNVNnh2WW9PVDFJWmxrNzRiSHRfX3pEMGNiTQ?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "O Globo",
-      "NaTelinha",
-      "Terra",
-      "purepeople.com.br"
-    ],
-    "evidenceClaims": [
-      "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
-      "João Victor Gonçalves, o Mau Mau de 'Quem ama cuida', fala da novela e de sua trajetória profissional",
-      "Mau Mau em Quem Ama Cuida, ator revela caso real de homofobia que o inspira na novela",
-      "Tony Ramos reflete sobre comportamento intolerante de personagem em Quem Ama, Cuida: 'Nada a ver comigo'",
-      "'Medos e limitações': neto que sofre homofobia de Tony Ramos em 'Quem Ama Cuida', João Victor Gonçalves desabafa sobre relação com o veterano nos bastidores da novela"
-    ],
-    "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/joao-victor-goncalves-fala-sobre-sexualidade-e-caso-de-homofobia.webp",
-    "imageCredit": "Foto: Globo/Manoella Mello",
-    "imageSubject": "João Victor Gonçalves, intérprete de Mau Mau em “Quem Ama Cuida”",
-    "imageSearchQuery": "João Victor Gonçalves Mau Mau Quem Ama Cuida",
-    "imageAlt": "João Victor Gonçalves, ator que interpreta Mau Mau em Quem Ama Cuida",
-    "editorialMeta": {
-      "originalTitle": "Mau Mau de Quem Ama Cuida, ator revela como família reagiu à sua sexualidade",
-      "sourceId": "TWF1IE1hdSBkZSBRdWVt",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "João Victor Gonçalves interpreta Mau Mau em “Quem Ama Cuida”.",
-        "O ator falou sobre a reação da família à sua sexualidade.",
-        "João Victor Gonçalves revelou ter vivido um caso real de homofobia.",
-        "A experiência inspira o ator na novela.",
-        "Mau Mau é neto do personagem de Tony Ramos na trama.",
-        "Mau Mau sofre homofobia na relação com o avô."
-      ],
-      "generatedAt": "2026-06-13T11:31:35.222Z"
-    },
-    "createdAt": "2026-06-13T11:31:35.222Z",
-    "imagePostUrl": "https://istoe.com.br/joao-victor-goncalves-horario-nobre-quem-ama-cuida",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://istoe.com.br/joao-victor-goncalves-horario-nobre-quem-ama-cuida",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 2,
-      "confidence": 0.99,
-      "reason": "Retrato individual, nítido e sem texto pesado; a fonte identifica claramente João Victor Gonçalves e corresponde ao tema da matéria.",
-      "visibleSubject": "João Victor Gonçalves sorrindo, em primeiro plano, usando camiseta branca.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "w4BzIHbDqXNwZXJhcyBk",
-    "reviewId": "w4BzIHbDqXNwZXJhcyBk",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Karin Hils se pronuncia após desabafo de Lu Andrade sobre Rouge",
-    "slug": "karin-hils-se-pronuncia-apos-desabafo-de-lu-andrade-sobre-rouge",
-    "excerpt": "Ex-cantoras do Rouge trocaram farpas às vésperas de um documentário sobre o grupo.",
-    "body": [
-      "Ex-cantoras do Rouge trocaram farpas às vésperas de um documentário. Karin Hils se pronunciou após um desabafo de Lu Andrade relacionado ao grupo.",
-      "Luciana Andrade também abordou sua saída do Rouge e esclareceu rumores sobre sua trajetória. Ao falar dos bastidores, afirmou que não brigava com ninguém e mencionou mentira e arrependimento."
-    ],
-    "html": "<p>Ex-cantoras do Rouge trocaram farpas às vésperas de um documentário. Karin Hils se pronunciou após um desabafo de Lu Andrade relacionado ao grupo.</p>\n<p>Luciana Andrade também abordou sua saída do Rouge e esclareceu rumores sobre sua trajetória. Ao falar dos bastidores, afirmou que não brigava com ninguém e mencionou mentira e arrependimento.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Rouge",
-      "Karin Hils",
-      "Lu Andrade",
-      "Luciana Andrade"
-    ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1I0NlpvQ2tkRnNVUmtXeWlUTzRVTE83dVNBNU5OV2YtbXM5TmMydV9FNUtiNGc3QWdOUlZDT1dJeHQ2X1lRQk9UNl8tNVlLYlZ1dlFVVkl1RUJKQW1IYVhRdmVFalRxc0VCMkNtNjlNRnI0cl9HVVBGQU9RT3BwWS1FZXRhOHNmMUZ4cDBCdTZpRkZfMGVGYmpvSk42QmhsaVFrclVUblRqSWphdVNlT2E2RG45S2hhUE4xN21jX2JtVHZubF9oempvb9IB2gFBVV95cUxNVkdOWjJpbURJODZQQlBYaHVjZ1RfRnlNMWRxR3VMUFZWNFJGamMxRzhPU3prc2xrbThSOS1QM2UzUnhTdWliNFYyQ01Ya3VrMTA5cFhFWUN6UmlVdnpZVVVVUktocGYydk9VUFdmSlphUDVQYzZYVXBYV1RVYUZidFlWZllsSDd2YWZhSldFd0hnaDVVWFNwaUpXYjVKVlQtbm96Wmw1Z1hHUm03ZGdYMjJ2dmg5TnozQWxmVE5lVFRKb25KSHdyOEdxTXRFQk16aENodmx0RFIyQQ?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "OFuxico",
-      "POPline",
-      "R7 Entretenimento",
-      "gente.ig.com.br"
-    ],
-    "evidenceClaims": [
-      "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
-      "Karin Hils se pronuncia após desabafo de Lu Andrade sobre Rouge",
-      "“Eu não brigava com ninguém”: Luciana expõe bastidores, mentira e arrependimento no Rouge",
-      "Luciana Andrade aborda saída do Rouge e esclarece rumores sobre sua trajetória",
-      "Karin Hils, ex-Rouge, fala de“Estrela da Casa”: 'Nem se inscreva'"
-    ],
-    "sourceCount": 5,
-    "score": 106,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/karin-hils-se-pronuncia-apos-desabafo-de-lu-andrade-sobre-rouge.jpg",
-    "imageCredit": "Foto: Karin Hils celebrou aniversário de Lu Andrade (Foto/Instagram/@karinhils)",
-    "imageSubject": "Karin Hils e Lu Andrade",
-    "imageSearchQuery": "Karin Hils Lu Andrade Rouge",
-    "imageAlt": "Karin Hils e Lu Andrade, ex-integrantes do Rouge",
-    "editorialMeta": {
-      "originalTitle": "Às vésperas de doc, ex-cantoras do Rouge trocam farpas: 'Não sou mentirosa'",
-      "sourceId": "w4BzIHbDqXNwZXJhcyBk",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Ex-cantoras do Rouge trocaram farpas às vésperas de um documentário.",
-        "Karin Hils se pronunciou após um desabafo de Lu Andrade sobre o Rouge.",
-        "Luciana Andrade abordou sua saída do Rouge.",
-        "Luciana Andrade esclareceu rumores sobre sua trajetória.",
-        "Luciana Andrade afirmou que não brigava com ninguém.",
-        "Luciana Andrade mencionou mentira e arrependimento ao expor bastidores do Rouge."
-      ],
-      "generatedAt": "2026-06-13T11:31:06.898Z"
-    },
-    "createdAt": "2026-06-13T11:31:06.898Z",
-    "imagePostUrl": "https://portalleodias.com/cultura/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://portalleodias.com/cultura/karin-hils-celebra-aniversario-de-lu-andrade-e-reacende-rumores-sobre-rouge",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 7,
-      "confidence": 0.87,
-      "reason": "A imagem mostra claramente Karin Hils e Lu Andrade juntas, embora acompanhadas por Aline Wirley, e corresponde diretamente ao contexto recente envolvendo integrantes do Rouge.",
-      "visibleSubject": "Lu Andrade ao centro, Karin Hils à direita e Aline Wirley à esquerda, em uma selfie.",
-      "concerns": [
-        "Há uma terceira integrante na foto.",
-        "A imagem contém texto sobreposto na parte inferior."
-      ],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "Q2FzYW1lbnRvIGVtIGNp",
-    "reviewId": "Q2FzYW1lbnRvIGVtIGNp",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Flávia Alessandra relembra início da relação com Otaviano Costa",
-    "slug": "flavia-alessandra-relembra-inicio-da-relacao-com-otaviano-costa",
-    "excerpt": "Atriz contou que os dois não chegaram a namorar antes do casamento, realizado cinco meses após eles se conhecerem.",
-    "body": [
-      "Flávia Alessandra revelou que ela e Otaviano Costa nunca namoraram antes de se casar. O casamento aconteceu cinco meses depois de eles se conhecerem.",
-      "Ao contar como começou a história do casal, a atriz destacou o curto período entre o primeiro encontro e a decisão de oficializar a união."
-    ],
-    "html": "<p>Flávia Alessandra revelou que ela e Otaviano Costa nunca namoraram antes de se casar. O casamento aconteceu cinco meses depois de eles se conhecerem.</p>\n<p>Ao contar como começou a história do casal, a atriz destacou o curto período entre o primeiro encontro e a decisão de oficializar a união.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Flávia Alessandra",
-      "Otaviano Costa",
-      "casamento"
-    ],
-    "source": "O Dia",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdUNPYUlmVmNFM3VtOXkwc2hzbXpabGF3R2Q1dHJMc19OZXM2UWNPRS1EZE1TbXdQbi1VQ0ZNY1YzeHVBdG45WTVpWktDQzZDSnc2eld6bm1Oa2swUXlLSUdBT0lJWi0zOGp6Rk9YRHNpM1gzeWtmRHVub1g5d0lGd29SeDNNVFdqeUZGOHRmS3hZZlFwbHpmWkVPelY5SDhDVFBxN0tRWS05aU1GT2MtV0NTMDVrOE9CQWxHb05jQ0FtZl9YWF8zSUpMS0g1QWVrazlBblA2SGwxeThOeXVJbFFOYzRCYzI2OW5RRzFB0gHzAUFVX3lxTFBwcFdVN2F4c1VDTG16NTJZWHN6LVZ1aGVCWmZuQ3RSbGFfb25Sc080U0VETnpwaVhXMDVuMUZ3Y19xMEFFcUZJR1JKWmx3MzRDYTcyV1NRMDh3QXd2RGluazFyREhBbDRjWUZad0g1ajZoNEdxU2k5SEs4QTJVSjM0MHhsWVZCVW1MQjNGYTZaUmlFLU5OZGRFeklOSVJIeDViV01fa1BIT0FKX1RBaWI0X3BCbC1iQTQyRVhuS2JkUWlwNGg4VFU5TDlERlVycTNPZEdLSzB6QzBOQ2ZmZklKVnhXYndjWlhLN2pPWndORWJJTQ?oc=5",
-    "evidenceSources": [
-      "O Dia",
-      "Notícias da TV",
-      "Globo",
-      "Alagoas Alerta",
-      "band.com.br"
-    ],
-    "evidenceClaims": [
-      "Casamento em cinco meses: Flávia Alessandra conta como começou a história com Otaviano Costa",
-      "Flávia Alessandra passa Dia dos Namorados sem Otaviano Costa: 'Não teve acordo'",
-      "'Nunca namoramos': Flávia Alessandra revela que se casou com Otaviano Costa cinco meses após conhecê-lo",
-      "Flavia Alessandra explica Dia dos Namorados longe de Otaviano Costa: ‘A ficha só caiu hoje’",
-      "Flávia Alessandra se casou com Otaviano Costa em meses: “Nunca namoramos”"
-    ],
-    "sourceCount": 5,
-    "score": 110,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/flavia-alessandra-relembra-inicio-da-relacao-com-otaviano-costa.webp",
-    "imageCredit": "Foto: Flávia Alessandra e Otaviano Costa Divulgação",
-    "imageSubject": "Flávia Alessandra e Otaviano Costa",
-    "imageSearchQuery": "Flávia Alessandra e Otaviano Costa juntos",
-    "imageAlt": "Flávia Alessandra e Otaviano Costa juntos",
-    "editorialMeta": {
-      "originalTitle": "Casamento em cinco meses: Flávia Alessandra conta como começou a história com Otaviano Costa",
-      "sourceId": "Q2FzYW1lbnRvIGVtIGNp",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Flávia Alessandra e Otaviano Costa nunca namoraram antes do casamento.",
-        "Os dois se casaram cinco meses depois de se conhecerem.",
-        "Flávia Alessandra contou como começou a história com Otaviano Costa."
-      ],
-      "generatedAt": "2026-06-13T11:30:03.944Z"
-    },
-    "createdAt": "2026-06-13T11:30:03.944Z",
-    "imagePostUrl": "https://www.terra.com.br/diversao/gente/flavia-alessandra-e-otaviano-costa-se-definem-de-forma-ousada-como-casal,d37917dbc54e0e022c997cd526836b24yehmincn.html",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://www.terra.com.br/diversao/gente/flavia-alessandra-e-otaviano-costa-se-definem-de-forma-ousada-como-casal,d37917dbc54e0e022c997cd526836b24yehmincn.html",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 0,
-      "confidence": 0.99,
-      "reason": "Flávia Alessandra e Otaviano Costa aparecem claramente juntos, em destaque, com boa qualidade e sem elementos que sugiram outro acontecimento.",
-      "visibleSubject": "Flávia Alessandra abraçada a Otaviano Costa, ambos sorrindo para a câmera.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "RGVzZW1wcmVnYWRvIHBv",
-    "reviewId": "RGVzZW1wcmVnYWRvIHBv",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Gui Ferraz relembra quase quatro anos sem trabalho",
-    "slug": "gui-ferraz-relembra-quase-quatro-anos-sem-trabalho",
-    "excerpt": "Ator de Tiago em “Quem Ama Cuida” afirma que pensou em desistir da carreira durante o período sem trabalho.",
-    "body": [
-      "Gui Ferraz, intérprete de Tiago em “Quem Ama Cuida”, relembrou uma fase de quase quatro anos sem trabalho. Durante esse período, o ator chegou a pensar em desistir da carreira.",
-      "Além da novela das 9, Gui Ferraz também integra a série “Brasil 70”, produção da Netflix sobre a Copa. O ator ganhou destaque pelos trabalhos nas duas produções."
-    ],
-    "html": "<p>Gui Ferraz, intérprete de Tiago em “Quem Ama Cuida”, relembrou uma fase de quase quatro anos sem trabalho. Durante esse período, o ator chegou a pensar em desistir da carreira.</p>\n<p>Além da novela das 9, Gui Ferraz também integra a série “Brasil 70”, produção da Netflix sobre a Copa. O ator ganhou destaque pelos trabalhos nas duas produções.</p>",
-    "category": "Famosos",
-    "market": "brasil",
-    "tags": [
-      "Gui Ferraz",
-      "Quem Ama Cuida",
-      "Brasil 70",
-      "Netflix"
-    ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeXdxZXptYnNKS0JUWE1vUXFEZThlZnpvZUxaS2pzeFhzcVgtQ2tydmtCbV85eHEzNDdfbVlPMU1JRkVQTEl6UV8xWUQzRGU1bm5JMXBRcnBpbGNNZW56M0tiM0tXMHdLMnUyVUtjZkVBUVhUeDNlemFyWURja1NXQ2ZBeEYwNFhILUYycHRVQ1lZek5PSnltallhWllOZ1R1VVpIdTJGNmU2MU5hR0lVRkUtRnVpYkRiWjBiX3VFbFU1eEVyVWxHVGNCT05QUdIB3AFBVV95cUxORnl0eDh1YzJjTmdOUUJ6VnZxMjR6UkdERGtWX3VRWTFaai1XcnMtQ1doQ21JVTdNQTFnNW5Hc3Rzam1EcjBzY05Wc0hESjhmdkhaNlpfSUxuTVc2dE14RnM5N3p3NnlpVnFyVl96M2dOT2FJWFpvS0NLMmN4UzRyalZaM21SQy1vT0Qwb1VBalNJUGlzZXZtOGo1c2ZQaE8yMzYwYWdpWXdJZTlnTUxSZ0pVSHZ2aHVqMUNOSE1jUmpzeUhmeFZhOTZBaC1oV0lucGIyeVFUN2tZU2xw?oc=5",
-    "evidenceSources": [
+    "image": "https://s2-extra.glbimg.com/nydug3JOCOtJnIkdWfwNBOczu5o=/0x0:660x882/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f551ea7087a47f39ead75f64041559a/internal_photos/bs/2024/q/l/v9bSMYTbmxA66SKMDh5A/jaffar.jpg",
+    "imageSubject": "Gabz e Jaffar Bambirra posam pela primeira vez e revelam história do romance",
+    "imageAlt": "Gabz e Jaffar Bambirra posam pela primeira vez e revelam história do romance",
+    "sources": [
       "Notícias da TV",
       "Extra online",
-      "Correio Braziliense",
-      "NaTelinha"
-    ],
-    "evidenceClaims": [
-      "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
-      "Tiago em ‘Quem ama cuida’, Gui Ferraz relembra fase de quase quatro anos sem trabalho: ‘Pensei em desistir’",
-      "Na novela das 9 e na série 'Brasil 70', Gui Ferraz é craque e dá um show de bola",
-      "Quem é Gui Ferraz? Ator ganha destaque em Quem Ama Cuida e série da Netflix sobre a Copa"
+      "Tribuna do Sertão",
+      "Repórter Maceió"
     ],
     "sourceCount": 4,
-    "score": 112,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/gui-ferraz-relembra-quase-quatro-anos-sem-trabalho.jpg",
-    "imageCredit": "Imagem ilustrativa: aocuboagenciamento.com.br",
-    "imageSubject": "Gui Ferraz",
-    "imageSearchQuery": "Gui Ferraz ator Quem Ama Cuida Tiago",
-    "imageAlt": "O ator Gui Ferraz, intérprete de Tiago em Quem Ama Cuida",
-    "editorialMeta": {
-      "originalTitle": "Desempregado por quatro anos, ator de Quem Ama Cuida quase desistiu da carreira",
-      "sourceId": "RGVzZW1wcmVnYWRvIHBv",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Gui Ferraz interpreta Tiago em “Quem Ama Cuida”.",
-        "Gui Ferraz passou quase quatro anos sem trabalho.",
-        "O ator pensou em desistir da carreira.",
-        "Gui Ferraz integra a série “Brasil 70”.",
-        "“Brasil 70” é uma série da Netflix sobre a Copa.",
-        "O ator ganhou destaque em “Quem Ama Cuida” e “Brasil 70”."
-      ],
-      "generatedAt": "2026-06-13T11:28:52.002Z"
-    },
-    "createdAt": "2026-06-13T11:28:52.002Z",
-    "imagePostUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
-    "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://aocuboagenciamento.com.br/agenciado/gui-ferraz/",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 0,
-      "confidence": 0.99,
-      "reason": "Retrato individual, nítido e sem texto, proveniente de página de agenciamento identificada diretamente como Gui Ferraz. A aparência também coincide com as outras fotos atribuídas ao ator.",
-      "visibleSubject": "Homem jovem de cabelos curtos e cacheados, usando camisa azul-clara sobre regata branca, em retrato frontal.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 93,
+    "charCount": 580,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
   },
   {
-    "id": "QmFyYnVkbywgVGFkZXUg",
-    "reviewId": "QmFyYnVkbywgVGFkZXUg",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Tadeu Schmidt volta à Central da Copa com visual barbudo",
-    "slug": "tadeu-schmidt-volta-a-central-da-copa-com-visual-barbudo",
-    "excerpt": "Apresentador retornou ao trabalho na atração da Globo, que cresceu 66,3% no Ibope.",
+    "slug": "gato-invade-palco-de-pe-a-morde-ator-e-interrompe-apresenta",
+    "title": "Gato invade palco de peça, morde ator e interrompe apresentação teatral",
+    "excerpt": "Felino subiu no cenário durante espetáculo de Romeu e Julieta, mordeu um ator brasileiro e virou a atração inesperada da noite.",
     "body": [
-      "Tadeu Schmidt voltou ao trabalho na Central da Copa e apareceu com um novo visual. O apresentador surgiu barbudo durante sua participação no programa da Globo.",
-      "A atração registrou crescimento de 66,3% no Ibope. Ao falar sobre o retorno ao trabalho em meio a perdas na família, Tadeu afirmou que viveu o luto."
+      "Um gato invadiu o palco de uma peça teatral e virou a atração inesperada da noite. O felino subiu no cenário durante a apresentação de Romeu e Julieta, mordeu um ator brasileiro e interrompeu o espetáculo por alguns minutos.",
+      "A situação inusitada arrancou gargalhadas da plateia. Enquanto a equipe do teatro tentava retirar o animal, o público reagiu entre risos e aplausos. O ator mordido levou na esportiva.",
+      "O caso viralizou nas redes sociais e o gato ganhou contas de fãs. O teatro informou que o animal foi resgatado e está bem."
     ],
-    "html": "<p>Tadeu Schmidt voltou ao trabalho na Central da Copa e apareceu com um novo visual. O apresentador surgiu barbudo durante sua participação no programa da Globo.</p>\n<p>A atração registrou crescimento de 66,3% no Ibope. Ao falar sobre o retorno ao trabalho em meio a perdas na família, Tadeu afirmou que viveu o luto.</p>",
-    "category": "TV",
-    "market": "brasil",
+    "category": "Famosos",
     "tags": [
-      "Tadeu Schmidt",
-      "Central da Copa",
-      "Globo",
-      "Ibope"
+      "Famosos",
+      "BuzzPop"
     ],
-    "source": "Notícias da TV",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWXQ4NUxGM08wU3Biei1mblZDWTRxbHNzaFkzSk9UX0t5bEV1U2NDdEFHVUFILUdjdDRtR2dzY0ZQTzVsMG9SVFhhc3R5VFVUMV9qb0lldkFPSzh1UHYxdGZwbVFVU29uY08wT0tDNHRYdENMYmt5Q3B1bkR4M0NJVHQyNkJZWDJHcWwxckwtZkRqUURfX1ZFOFpBT3NOSllqaGZDaTZRZmxzMFZ6aG52cWdxbWZ4YXp5MXpyWjR4SUswVGRHSzZnYnFobzTSAdsBQVVfeXFMTWtHMk9QVzZDZjF5Vk45SkwyRTdwRnFEakNGc1BFTXdPLVlpVzh0SEZnR1QxRGVuZlkzT2RSM0VubUZUWVlyWnJXZkk5Rmd6M2NyVEFFNmEyMm9wakF1SWQ0T2VTSWtseG1mT3lzUlp6Rmh2NWJOVVF4aFl3cVNwb3VES3lIN0xvRFhCbE5OaS1xVG5NU1lnTHY3NmZOR0JEZ2FNUlQ1QVdRLUZnd3RzZkFHUmszUWZQOWNJOHhmd0JoMDE3c3NmNHZpX0FYbXNwRUFucnN1TXhiS3Nv?oc=5",
-    "evidenceSources": [
-      "Notícias da TV",
-      "meutimao.com.br",
-      "PressReader",
-      "Extra online",
-      "Portal UAI"
+    "image": "https://ofolhetimcultural.com.br/wp-content/uploads/2025/09/G-de-Gato_Credito-Lucas-Sousa-Almeida-4.jpg",
+    "imageSubject": "Gato invade palco de peça, morde ator e interrompe apresentação teatral",
+    "imageAlt": "Gato invade palco de peça, morde ator e interrompe apresentação teatral",
+    "sources": [
+      "R7 Entretenimento",
+      "SIC Notícias",
+      "D24AM"
     ],
-    "evidenceClaims": [
-      "Barbudo, Tadeu Schmidt dá sorte à Globo: Central da Copa cresce 66,3% no Ibope",
-      "Lateral do Corinthians estreia como comentarista em programa sobre a Copa do Mundo",
-      "TORCEDORES DIVIDIDOS ENTRE A RESENHA E A PIADA",
-      "Tadeu Schmidt fala de volta ao trabalho na 'Central da Copa' em meio a perdas na família: 'Vivi o luto'",
-      "Tadeu Schmidt surge com novo visual e deixa fãs atiçados na web"
-    ],
-    "sourceCount": 5,
-    "score": 114,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/tadeu-schmidt-barbudo-central-copa.jpg",
-    "imageCredit": "Wikimedia Commons (imagem ilustrativa)",
-    "imageSubject": "Tadeu Schmidt barbudo na Central da Copa",
-    "imageSearchQuery": "Tadeu Schmidt barbudo Central da Copa 2026",
-    "imageAlt": "Tadeu Schmidt barbudo durante a Central da Copa",
-    "editorialMeta": {
-      "originalTitle": "Barbudo, Tadeu Schmidt dá sorte à Globo: Central da Copa cresce 66,3% no Ibope",
-      "sourceId": "QmFyYnVkbywgVGFkZXUg",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Tadeu Schmidt voltou ao trabalho na Central da Copa.",
-        "Tadeu Schmidt apareceu barbudo.",
-        "A Central da Copa cresceu 66,3% no Ibope.",
-        "Tadeu Schmidt falou sobre perdas na família.",
-        "Tadeu Schmidt afirmou que viveu o luto."
-      ],
-      "generatedAt": "2026-06-13T11:28:27.506Z"
-    },
-    "createdAt": "2026-06-13T11:28:27.506Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/06/17/screenshot-(4)-vb6u9oxgfs53.png",
-        "pageUrl": "https://www.terra.com.br/diversao/tv/cavalinhos-zoam-tadeu-schmidt-em-reencontro-foi-para-o-bbb-e-esqueceu-como-e-futebol,a1b63e3b60c0a2018f27005047ae1fb39qcvmft3.html",
-        "source": "Bing",
-        "title": "Cavalinhos zoam Tadeu Schmidt em retorno ao futebol no Central da Copa",
-        "width": 774,
-        "height": 421
-      },
-      {
-        "imageUrl": "https://www.mktesportivo.com/wp-content/uploads/2026/02/tadeu_central_copa-1024x651.jpg",
-        "pageUrl": "https://www.mktesportivo.com/2026/02/globo-define-tadeu-schmidt-no-comando-da-central-da-copa-apos-o-bbb-26/",
-        "source": "Bing",
-        "title": "Globo define Tadeu Schmidt na Central da Copa após o BBB 26",
-        "width": 1024,
-        "height": 651
-      },
-      {
-        "imageUrl": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/06/17/screenshot-(9)-qhw4yzdi2ng7.png",
-        "pageUrl": "https://www.terra.com.br/diversao/tv/cavalinhos-zoam-tadeu-schmidt-em-reencontro-foi-para-o-bbb-e-esqueceu-como-e-futebol,a1b63e3b60c0a2018f27005047ae1fb39qcvmft3.html",
-        "source": "Bing",
-        "title": "Cavalinhos zoam Tadeu Schmidt em retorno ao futebol no Central da Copa",
-        "width": 774,
-        "height": 435
-      },
-      {
-        "imageUrl": "https://gkpb.com.br/wp-content/uploads/2026/02/banner-tadeu.jpg",
-        "pageUrl": "https://gkpb.com.br/187362/central-da-copa-tadeu-schmidt-globo/",
-        "source": "Bing",
-        "title": "Tadeu Schmidt voltará ao esporte da Globo na 'Central da Copa' - GKPB ...",
-        "width": 1200,
-        "height": 675
-      },
-      {
-        "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/02/10/tadeu-schmidt-comanda-central-da-copa-apos-bbb-26-na-globo-698b867e8bb47.webp",
-        "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/tadeu-schmidt-comanda-central-da-copa-apos-bbb-26-na-globo.html",
-        "source": "Bing",
-        "title": "Tadeu Schmidt comanda 'Central da Copa' após BBB 26 na Globo",
-        "width": 1200,
-        "height": 628
-      },
-      {
-        "imageUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/opiniao/guilherme-rodrigues/2026/3/central-da-copa-tera-tadeu-schmidt-fabio-porchat-e-a-jogadora-tamires.webp",
-        "pageUrl": "https://www.otempo.com.br/opiniao/guilherme-rodrigues/2026/3/12/central-da-copa-tera-tadeu-schmidt-fabio-porchat-e-a-jogadora-tamires",
-        "source": "Bing",
-        "title": "Central da Copa terá Tadeu Schmidt, Fábio Porchat e a jogadora Tamires",
-        "width": 1024,
-        "height": 576
-      },
-      {
-        "imageUrl": "https://assets.portalleodias.com/2024/04/tadeu-fabio-tamires-615x461.jpg",
-        "pageUrl": "https://portalleodias.com/colunas/tadeu-schmidt-fabio-porchat-e-jogadora-tamires-farao-a-central-da-copa",
-        "source": "Bing",
-        "title": "Tadeu Schmidt, Fabio Porchat e jogadora Tamires farão a \"Central da ...",
-        "width": 615,
-        "height": 461
-      },
-      {
-        "imageUrl": "https://s2-oglobo.glbimg.com/NYuL8V6-_hs_CEYRIrwZE0eKzcI=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/s/f/qXKDB0QvGQYLsT4InIfg/ed-gama.jpg",
-        "pageUrl": "https://oglobo.globo.com/play/noticia/2025/06/16/ed-gama-tera-quadro-de-humor-no-central-da-copa-de-clubes-comandado-por-tadeu-schmidt.ghtml",
-        "source": "Bing",
-        "title": "Ed Gama terá quadro de humor no 'Central da Copa de Clubes', comandado ...",
-        "width": 1200,
-        "height": 798
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": true
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
+    "sourceCount": 3,
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 92,
+    "charCount": 533,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
   },
   {
-    "id": "J0RhaSBEYWknLi4uIG1h",
-    "reviewId": "J0RhaSBEYWknLi4uIG1h",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Aparência de Shakira na abertura da Copa 2026 intriga fãs",
-    "slug": "aparencia-de-shakira-na-abertura-da-copa-2026-intriga-fas",
-    "excerpt": "Fãs suspeitaram do uso de uma dublê no show, enquanto “Dai Dai” venceu votação sobre músicas das Copas.",
+    "slug": "queda-de-helic-ptero-no-rio-mata-6-incluindo-cantor-oliver-t",
+    "title": "Queda de helicóptero no Rio mata 6, incluindo cantor Oliver Tree e youtuber Gaspi",
+    "excerpt": "Acidente aéreo no Recreio dos Bandeirantes deixou seis mortos, entre eles o cantor americano Oliver Tree, 31, e o youtuber argentino Gaspi, 23.",
     "body": [
-      "A aparência de Shakira na abertura da Copa do Mundo de 2026 intrigou fãs, que levantaram a suspeita de que uma dublê teria sido usada no show. As informações disponíveis não confirmam que houve substituição da cantora.",
-      "Ao mesmo tempo, “Dai Dai”, música de Shakira, foi eleita a melhor canção das Copas do Mundo em uma votação de revista."
+      "A queda de um helicóptero no Rio de Janeiro deixou seis mortos na região do Recreio dos Bandeirantes. Entre as vítimas estão o cantor americano Oliver Tree, de 31 anos, e o youtuber argentino Gaspi, de 23 anos, que estavam no Brasil para compromissos profissionais durante a Copa do Mundo 2026.",
+      "Oliver Tree era conhecido por hits como Hurt e Life Goes On, que somam milhões de streams nas plataformas digitais. Gaspi acumulava mais de 2 milhões de seguidores em suas redes sociais e fazia conteúdo sobre futebol e entretenimento.",
+      "O acidente também destruiu 20 carros da BYD que estavam estacionados no local. As investigações sobre as causas da colisão estão em andamento. Fãs prestaram homenagens nas redes sociais."
     ],
-    "html": "<p>A aparência de Shakira na abertura da Copa do Mundo de 2026 intrigou fãs, que levantaram a suspeita de que uma dublê teria sido usada no show. As informações disponíveis não confirmam que houve substituição da cantora.</p>\n<p>Ao mesmo tempo, “Dai Dai”, música de Shakira, foi eleita a melhor canção das Copas do Mundo em uma votação de revista.</p>",
-    "category": "Música",
-    "market": "brasil",
+    "category": "Famosos",
     "tags": [
-      "Shakira",
-      "Dai Dai",
-      "Copa do Mundo 2026"
+      "Famosos",
+      "BuzzPop"
     ],
-    "source": "O Globo",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZ2pXMXRjRnAxTzdrMUxSMW1yX1Y2SkxfVVByRS1tTzZnUzN3X254VHFzWGJraWVZLURPeWJweEIyMHBqNG1NYzVObTd4MWFraXNjclRZT2lqdEpoZ1ZQdVNWaHhNLThTTTVGZGFVUE1OV3ZZc09fR093U1d6Mm1QLUhaUDNRSzhDSTJKb1ZlOV9WRE5pMlpzSTY5bi04S3FGME8xZ3haTjN0cDlDVzc1bWRuYW5OTHNkbUZUNGZjejlyNmFMUFZUNWQ1Z1ZkNDctSGV3NGtYN3o2RWs2Q1l0dllrWktTS2FVTV9jYjNROEFuQ1k3X0oydNIBhwJBVV95cUxPbmlDOTBuNE9ERkZMTERfYmR3dFFmUk1nX2ZJYUtzS1BBNURpXzJjZW4tSlZEOEZXc3FBdmM2ejk2MHVoWmt4X2hzR1lfazd3cEl6bE4zbFdIdUtkNXZkbFczSUtfRjZJeERZYlh0Z3Vjd3djUVUtWmpFRmRBVUpQdTYwVDd2OFZodXhlLUhlVHg3ODdYaS1aSl8xUmVaSUdDYkRSdF8yeG4tVFRITVR1SHpkcFVqZEIyUTBnUnVrM0F2UnM4MHFPRVlPWGthWUhtNktUazdfb2tqZ1BJMHQ0OTlYVm5ILWpfc01SOFNiTUlSMFh6X25SVkFXb0UtX254bkRkdTliSQ?oc=5",
-    "evidenceSources": [
-      "O Globo",
-      "R7",
-      "Estadão",
+    "image": "https://web.portalsucesso.com.br/wp-content/uploads/2021/09/oliver-tree.png",
+    "imageSubject": "Queda de helicóptero no Rio mata 6, incluindo cantor Oliver Tree e youtuber Gaspi",
+    "imageAlt": "Queda de helicóptero no Rio mata 6, incluindo cantor Oliver Tree e youtuber Gaspi",
+    "sources": [
       "CNN Brasil",
-      "Music Non Stop"
-    ],
-    "evidenceClaims": [
-      "'Dai Dai'... mas era mesmo Shakira? Aparência da cantora na abertura da Copa 2026 intriga web; entenda",
-      "Fãs levantam suspeita de que Shakira usou dublê em show da Copa do Mundo | #AHoraDaVenenosa #Shorts",
-      "Shakira domina votação de revista e ‘Dai Dai’ é eleita melhor canção das Copas do Mundo",
-      "\"Dai Dai\" foi eleita a melhor música das Copas do Mundo, diz Billboard",
-      "Copa do Mundo 2026: Shakira, música global e o espetáculo que vai além do futebol"
-    ],
-    "sourceCount": 5,
-    "score": 116,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/shakira-abertura-copa-2026.jpg",
-    "imageCredit": "Wikimedia Commons (imagem ilustrativa)",
-    "imageSubject": "Shakira na abertura da Copa do Mundo de 2026",
-    "imageSearchQuery": "Shakira abertura Copa do Mundo 2026 Dai Dai",
-    "imageAlt": "Shakira durante a abertura da Copa do Mundo de 2026",
-    "editorialMeta": {
-      "originalTitle": "'Dai Dai'... mas era mesmo Shakira? Aparência da cantora na abertura da Copa 2026 intriga web; entenda",
-      "sourceId": "J0RhaSBEYWknLi4uIG1h",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.98,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "A aparência de Shakira na abertura da Copa do Mundo de 2026 intrigou fãs.",
-        "Fãs suspeitaram do uso de uma dublê no show.",
-        "Não há confirmação, nas evidências, de que uma dublê foi usada.",
-        "“Dai Dai” foi eleita a melhor música das Copas do Mundo em uma votação de revista."
-      ],
-      "generatedAt": "2026-06-13T11:28:03.574Z"
-    },
-    "createdAt": "2026-06-13T11:28:03.574Z",
-    "imageCreditStatus": "pending-visual-review",
-    "imageCreditSourceUrl": "",
-    "imagePolicy": "Nenhuma candidata foi aprovada pela revisao visual automatica.",
-    "imageCandidates": [
-      {
-        "imageUrl": "https://tmc.com.br/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-07-at-13.56.36.jpeg.optimal.jpeg",
-        "pageUrl": "https://tmc.com.br/entretenimento/shakira-dai-dai-copa-2026/",
-        "source": "Bing",
-        "title": "Shakira lança \"Dai Dai\", música oficial da Copa, com clipe no Maracanã ...",
-        "width": 1412,
-        "height": 874
-      },
-      {
-        "imageUrl": "https://www.mktesportivo.com/wp-content/uploads/2026/05/Shakira-musica-Copa-do-Mundo-1024x574.jpg",
-        "pageUrl": "https://www.mktesportivo.com/2026/05/shakira-lanca-dai-dai-como-tema-da-copa-do-mundo-em-clipe-gravado-no-maracana/",
-        "source": "Bing",
-        "title": "Shakira lança \"Dai Dai\" como tema da Copa do Mundo em clipe gravado no ...",
-        "width": 1024,
-        "height": 574
-      },
-      {
-        "imageUrl": "https://eldiariony.com/wp-content/uploads/sites/2/2026/05/Shakira-mundial-2026.jpg?fit=1316",
-        "pageUrl": "https://eldiariony.com/2026/05/07/shakira-anuncia-dai-dai-la-cancion-oficial-de-la-copa-mundial-fifa-2026-junto-a-burna-boy/",
-        "source": "Bing",
-        "title": "Shakira anuncia el lanzamiento \"Dai Dai\", canción oficial del Mundial ...",
-        "width": 7474,
-        "height": 4983
-      },
-      {
-        "imageUrl": "https://www.vanguardia.com/resizer/v2/shakira-confirma-dai-dai-como-cancion-oficial-del-mundial-2026-y-su-fecha-de-estreno-NYFEFORC7REH3OMAMP6MQC3PSQ.jpeg?auth=154f7aac6c32ae8246527fcd668410d44355f1c7219d3c5bb75345ebdf6d7a57&smart=true&width=1200&height=800&quality=70",
-        "pageUrl": "https://www.vanguardia.com/entretenimiento/tendencias/2026/05/07/shakira-confirma-dai-dai-como-cancion-oficial-del-mundial-2026-y-su-fecha-de-estreno/",
-        "source": "Bing",
-        "title": "Shakira confirma Dai Dai como la canción oficial de la Copa Mundial de ...",
-        "width": 1200,
-        "height": 800
-      },
-      {
-        "imageUrl": "https://visaooeste.com.br/wp-content/uploads/2026/05/dai-dai-shakira-copa-do-mundo-2026.webp",
-        "pageUrl": "https://visaooeste.com.br/shakira-divulga-musica-oficial-da-copa-do-mundo-2026-gravada-no-maracana-veja/",
-        "source": "Bing",
-        "title": "Shakira divulga música oficial da Copa do Mundo 2026 gravada no ...",
-        "width": 1400,
-        "height": 933
-      },
-      {
-        "imageUrl": "https://assets.radioformula.com.mx/__export/1778210758926/sites/formula/img/2026/05/08/shakira-dai-dai-mundial.jpg_1889316708.jpg",
-        "pageUrl": "https://www.radioformula.com.mx/deportes/que-significa-dai-dai-el-titulo-del-nuevo-exito-musical-de-shakira-para-el-mundial-2026-20260507-0138.html",
-        "source": "Bing",
-        "title": "¿Qué significa 'Dai Dai', el título del nuevo éxito musical de Shakira ...",
-        "width": 1200,
-        "height": 675
-      },
-      {
-        "imageUrl": "https://static.poder360.com.br/2026/05/Shakira-Copa-do-Mundo-2026-1.png",
-        "pageUrl": "https://www.poder360.com.br/poder-sportsmkt/shakira-anuncia-dai-dai-musica-oficial-da-copa-do-mundo-de-2026/",
-        "source": "Bing",
-        "title": "Shakira anuncia \"Dai Dai\", música oficial da Copa do Mundo de 2026",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "imageUrl": "https://cadernopop.com.br/wp-content/uploads/2026/05/Shakira-Dai-Dai.webp",
-        "pageUrl": "https://cadernopop.com.br/shakira-confirma-dai-dai-como-musica-oficial-da-copa-do-mundo-2026/",
-        "source": "Bing",
-        "title": "Shakira confirma \"Dai Dai\" como música oficial da Copa do Mundo 2026 ...",
-        "width": 1200,
-        "height": 800
-      }
-    ],
-    "imageReview": {
-      "status": "approved",
-      "approved": true
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "RGlhIEQgfCBGaWxtZSBk",
-    "reviewId": "RGlhIEQgfCBGaWxtZSBk",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "‘Dia D’, de Steven Spielberg, arrecada US$ 12,5 milhões na estreia",
-    "slug": "dia-d-de-steven-spielberg-arrecada-us-12-5-milhoes-na-estreia",
-    "excerpt": "Novo filme do cineasta também recebeu o selo Certified Fresh do Rotten Tomatoes.",
-    "body": [
-      "‘Dia D’, novo filme de Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia. A produção também recebeu o selo Certified Fresh do Rotten Tomatoes.",
-      "O longa estreou no cinema de Rio Branco. O filme aborda extraterrestres e inclui uma mensagem alienígena escondida na história."
-    ],
-    "html": "<p>‘Dia D’, novo filme de Steven Spielberg, arrecadou US$ 12,5 milhões em sua estreia. A produção também recebeu o selo Certified Fresh do Rotten Tomatoes.</p>\n<p>O longa estreou no cinema de Rio Branco. O filme aborda extraterrestres e inclui uma mensagem alienígena escondida na história.</p>",
-    "category": "Cinema",
-    "market": "brasil",
-    "tags": [
-      "Dia D",
-      "Steven Spielberg",
-      "Rotten Tomatoes",
-      "cinema"
-    ],
-    "source": "Omelete",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWDh0QmdycklLcTBzT0hsMGFGdjlUdGhKNmt0c1dvSERmZEtLTmEzNzEzRjNRVWdHZFplQ1NBNVpIaWJaYW5RY1pjNzdxVXZkUGgyX05zM1dBYnN3UVNabFhYU3p5Q0FUSXRPZTRDVXRNRkloR01XU2FEeXFUS3JVQ1hzU0Ftc0Qxa0E?oc=5",
-    "evidenceSources": [
-      "Omelete",
-      "Ingresso.com",
-      "Folha de S.Paulo",
-      "AdoroCinema",
-      "G1"
-    ],
-    "evidenceClaims": [
-      "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
-      "‘Dia D’, novo filme de Steven Spielberg, obtém o selo Certified Fresh do Rotten Tomatoes",
-      "Na estreia de 'Dia D', saiba onde ver outros filmes de Steven Spielberg sobre ETs",
-      "Final explicado de Dia D: Entenda qual é a mensagem alienígena escondida por Steven Spielberg",
-      "'Dia D', novo filme de Steven Spielberg, estreia no cinema de Rio Branco"
-    ],
-    "sourceCount": 5,
-    "score": 124,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/dia-d-de-steven-spielberg-arrecada-us-12-5-milhoes-na-estreia.jpg",
-    "imageCredit": "Foto: Divulgação/Universal Pictures)\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://rollingstone.com.br/cinema/dia-d-steven-spielberg-primeiro-teaser/#breadcrumb\",\"itemListElement\":[{\"",
-    "imageSubject": "O filme ‘Dia D’, de Steven Spielberg",
-    "imageSearchQuery": "filme Dia D Steven Spielberg",
-    "imageAlt": "Imagem de divulgação do filme ‘Dia D’, de Steven Spielberg",
-    "editorialMeta": {
-      "originalTitle": "Dia D | Filme de Steven Spielberg arrecada US$ 12,5 milhões em estreia",
-      "sourceId": "RGlhIEQgfCBGaWxtZSBk",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.98,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "‘Dia D’ é o novo filme de Steven Spielberg.",
-        "O filme arrecadou US$ 12,5 milhões na estreia.",
-        "O filme recebeu o selo Certified Fresh do Rotten Tomatoes.",
-        "O longa estreou no cinema de Rio Branco.",
-        "O filme aborda extraterrestres.",
-        "A história inclui uma mensagem alienígena escondida."
-      ],
-      "generatedAt": "2026-06-13T11:26:52.923Z"
-    },
-    "createdAt": "2026-06-13T11:26:52.923Z",
-    "imagePostUrl": "https://rollingstone.com.br/cinema/dia-d-steven-spielberg-primeiro-teaser/",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://rollingstone.com.br/cinema/dia-d-steven-spielberg-primeiro-teaser/",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 6,
-      "confidence": 0.96,
-      "reason": "Imagem de divulgação nítida e sem montagem aparente, mostrando Emily Blunt em uma cena de ‘Dia D’. Representa corretamente o filme citado e é mais adequada para uso jornalístico do que os cartazes com texto pesado.",
-      "visibleSubject": "Emily Blunt como apresentadora meteorológica em uma cena do filme ‘Dia D’.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
-  },
-  {
-    "id": "MTIgZmlsbWVzIHJvbcOi",
-    "reviewId": "MTIgZmlsbWVzIHJvbcOi",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "Listas indicam filmes para assistir no Dia dos Namorados",
-    "slug": "listas-indicam-filmes-para-assistir-no-dia-dos-namorados",
-    "excerpt": "Indicações incluem romances, títulos picantes, comédias românticas e filmes para solteiros.",
-    "body": [
-      "Listas de filmes apresentam opções para o Dia dos Namorados, incluindo 12 produções românticas e sete títulos picantes disponíveis no streaming para quem pretende assistir a dois.",
-      "Há também indicações de comédias românticas e cinco filmes para solteiros que querem fugir da data. Outra indicação destaca o relançamento de clássicos do romance nos cinemas."
-    ],
-    "html": "<p>Listas de filmes apresentam opções para o Dia dos Namorados, incluindo 12 produções românticas e sete títulos picantes disponíveis no streaming para quem pretende assistir a dois.</p>\n<p>Há também indicações de comédias românticas e cinco filmes para solteiros que querem fugir da data. Outra indicação destaca o relançamento de clássicos do romance nos cinemas.</p>",
-    "category": "Cinema",
-    "market": "brasil",
-    "tags": [
-      "Dia dos Namorados",
-      "filmes românticos",
-      "comédias românticas",
-      "streaming",
-      "cinema"
-    ],
-    "source": "Capricho",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNGlsWG9YZjdDRE1wS3FDbDNOaW9pdUZ5ZXdqeU5JUHZIUFFMNlZyaHh6SGhGMFBhdlhTMDdCQXFxTHdnQ2lWM0Q5UjV2OHNmd2k0RWFXd19LVjBUQTlOSl83ZjB2MTB1WVJVeGwtQ18xdk1MSWNkeUJaaW41ODZtUDV0bzhhZW9CS2tCeENDUkN0eGRtOW0xaHN2dHZBX3duYTRJ?oc=5",
-    "evidenceSources": [
-      "Capricho",
-      "UOL",
       "G1",
-      "Omelete",
-      "Estadão"
-    ],
-    "evidenceClaims": [
-      "12 filmes românticos para assistir no Dia dos Namorados",
-      "7 filmes picantes no streaming para curtir a dois no Dia dos Namorados",
-      "Dia dos Namorados: clássicos do romance ganham relançamento especial nos cinemas; veja lista",
-      "Melhores comédias românticas para assistir",
-      "Dia dos Namorados: 5 filmes para os solteiros que querem fugir da data"
+      "UOL",
+      "Estadão",
+      "R7"
     ],
     "sourceCount": 5,
-    "score": 124,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/listas-indicam-filmes-para-assistir-no-dia-dos-namorados.jpg",
-    "imageCredit": "Imagem ilustrativa: br.freepik.com",
-    "imageSubject": "Casal assistindo a um filme romântico",
-    "imageSearchQuery": "casal assistindo filme romântico Dia dos Namorados",
-    "imageAlt": "Casal assiste a um filme romântico junto",
-    "editorialMeta": {
-      "originalTitle": "12 filmes românticos para assistir no Dia dos Namorados",
-      "sourceId": "MTIgZmlsbWVzIHJvbcOi",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "Uma lista reúne 12 filmes românticos para o Dia dos Namorados.",
-        "Uma lista indica sete filmes picantes no streaming para assistir a dois.",
-        "Há indicações de comédias românticas.",
-        "Uma lista reúne cinco filmes para solteiros que querem fugir da data.",
-        "Clássicos do romance ganharam relançamento especial nos cinemas."
-      ],
-      "generatedAt": "2026-06-13T11:25:59.041Z"
-    },
-    "createdAt": "2026-06-13T11:25:59.041Z",
-    "imagePostUrl": "https://br.freepik.com/fotos-premium/retrato-de-um-jovem-casal-sorridente-no-cinema-assistindo-filme-juntos-e-se-abracando-enquanto-desfrutam-de-um-encontro-romantico-copie-o-espaco_12112045.htm",
-    "imageCreditStatus": "domain-fallback",
-    "imageCreditSourceUrl": "https://br.freepik.com/fotos-premium/retrato-de-um-jovem-casal-sorridente-no-cinema-assistindo-filme-juntos-e-se-abracando-enquanto-desfrutam-de-um-encontro-romantico-copie-o-espaco_12112045.htm",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 6,
-      "confidence": 0.99,
-      "reason": "A imagem mostra claramente um casal adulto abraçado e sorrindo enquanto assiste a um filme no cinema, correspondendo diretamente ao tema da matéria e ao assunto visual solicitado.",
-      "visibleSubject": "Casal adulto assistindo a um filme junto em uma sala de cinema, com pipoca e bebida.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 119,
+    "charCount": 718,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
   },
   {
-    "id": "R2xvYm9OZXdzIHBsYW5l",
-    "reviewId": "R2xvYm9OZXdzIHBsYW5l",
-    "workflowVersion": 2,
-    "reviewStatus": "approved",
-    "title": "GloboNews prepara mudanças na programação e novo jornal",
-    "slug": "globonews-prepara-mudancas-na-programacao-e-novo-jornal",
-    "excerpt": "Canal reformulará a faixa matinal e prepara alterações no “Em Ponto” em meio à queda de audiência.",
+    "slug": "virginia-fonseca-estreia-como-rep-rter-do-doming-o-na-copa-e",
+    "title": "Virginia Fonseca estreia como repórter do Domingão na Copa e entra ao vivo dos EUA",
+    "excerpt": "Influenciadora fez primeira aparição como repórter do programa de Luciano Huck diretamente dos Estados Unidos durante a cobertura do Mundial.",
     "body": [
-      "Às vésperas de completar 30 anos, a GloboNews planeja mudanças na programação para tentar recuperar audiência na TV paga. A reformulação inclui alterações na faixa matinal e no programa “Em Ponto”.",
-      "O canal também prepara o lançamento de um novo jornal. As medidas ocorrem em um período de queda nos índices de audiência da emissora."
+      "Virginia Fonseca estreou como repórter do Domingão com Huck na cobertura da Copa do Mundo 2026. A influenciadora entrou ao vivo diretamente dos Estados Unidos, onde mostrou os bastidores da competição e o clima entre os torcedores brasileiros.",
+      "A estreia aconteceu durante a primeira fase do torneio. Virginia mostrou seu quarto luxuoso em um hotel nos EUA e brincou que parecia mais um apartamento. Ela também ironizou as críticas que recebeu pela contratação para a cobertura.",
+      "A entrada no time do Domingão marca uma nova fase na carreira de Virginia, que já soma milhões de seguidores e agora expande sua atuação para a televisão aberta."
     ],
-    "html": "<p>Às vésperas de completar 30 anos, a GloboNews planeja mudanças na programação para tentar recuperar audiência na TV paga. A reformulação inclui alterações na faixa matinal e no programa “Em Ponto”.</p>\n<p>O canal também prepara o lançamento de um novo jornal. As medidas ocorrem em um período de queda nos índices de audiência da emissora.</p>",
-    "category": "TV",
-    "market": "brasil",
+    "category": "Famosos",
     "tags": [
-      "GloboNews",
-      "TV paga",
-      "Em Ponto",
-      "audiência"
+      "Famosos",
+      "BuzzPop"
     ],
-    "source": "gente.ig.com.br",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcUlZNjJrSzRGVXg5SmhtUF9RRnRzQTVqQ2JqckFLSjJLRmJkY0hpTGd6M2lTd240aHVxX2tJMTRhS2NveVdpaHdVRlYtaUU4elNjUmFJMjBzcHZ4S0o1QVhTWVI3R3VWdWhKRHN5ck1hQi0xbjl5eUNGOEpUOVFTZU14UW9kOTRIM2w1OEdzVDhrWmZsak9NUm1nd192T3ZyS1BPakwxS29oNWNoMEM1Ui0zX3pkaHgycTBqZWZ6N253OTkyTmNYaWVCQ09Id9IB0wFBVV95cUxPX1RzMnpoTUtGZlR0RUV5T0hiaDM2X0tiT0w5RlZEMjl4MVA2UlhfTTd2dW9YVFQ4NVo4OUlnRGxfWjMyLTd0X1JTMTUzS2ZpVmQtMHdmWDFFTkZnVEtZZVJqaWVuRjhNRUlCaXJ6WkZwdzNzdlB6emVUWndneHlPNVprZlpPSFY4eEFyRk1pUjNQb2IzY1RNbTk0WTBuZVZVRTZMdTFSWVVTRDRMcjNIUjZqcWExOWhPaHk4Y0pTeXNnVWlKYk0yajFEYUkyampZR3Rj?oc=5",
-    "evidenceSources": [
-      "gente.ig.com.br",
-      "UOL",
-      "Terra",
-      "Portal NTVB",
-      "RD1"
-    ],
-    "evidenceClaims": [
-      "GloboNews planeja mudanças drásticas para reverter queda no Ibope",
-      "Prestes a completar 30 anos, GloboNews vai mudar programação e lançar novo jornal",
-      "Canais ao centro e à direita não conseguem alcançar a ‘esquerdista’ GloboNews no Ibope",
-      "Globo News reforma manhã e prepara mudanças no “Em Ponto\"",
-      "GloboNews completa 30 anos, vive pior fase na TV paga e toma medida para recuperar audiência"
+    "image": "https://alfinetei.com.br/app/uploads/2026/02/Virginia-Fonseca-fica-chocada-com-atitude-de-Huck-0129159300202410161535-1024x576.jpg",
+    "imageSubject": "Virginia Fonseca estreia como repórter do Domingão na Copa e entra ao vivo dos EUA",
+    "imageAlt": "Virginia Fonseca estreia como repórter do Domingão na Copa e entra ao vivo dos EUA",
+    "sources": [
+      "Gshow",
+      "VEJA",
+      "CNN Brasil",
+      "Diário do Grande ABC",
+      "UOL"
     ],
     "sourceCount": 5,
-    "score": 125,
-    "trendBoost": false,
-    "trendMatches": [],
-    "image": "/images/auto/globonews-prepara-mudancas-na-programacao-e-novo-jornal.webp",
-    "imageCredit": "Foto: Atual estúdio do GloboNews. Foto: Reprodução",
-    "imageSubject": "Estúdio da GloboNews",
-    "imageSearchQuery": "estúdio GloboNews programação 2026",
-    "imageAlt": "Estúdio de televisão da GloboNews",
-    "editorialMeta": {
-      "originalTitle": "GloboNews planeja mudanças drásticas para reverter queda no Ibope",
-      "sourceId": "R2xvYm9OZXdzIHBsYW5l",
-      "generationMode": "evidence-grounded-draft",
-      "writerProvider": "codex-oauth",
-      "writerModel": "deepseek-chat",
-      "automatedReview": {
-        "status": "approved",
-        "confidence": 0.99,
-        "issues": [],
-        "unsupportedClaims": [],
-        "model": "codex-cli",
-        "provider": "codex-oauth"
-      },
-      "factualClaims": [
-        "A GloboNews está perto de completar 30 anos.",
-        "A GloboNews planeja mudanças em sua programação.",
-        "A faixa matinal será reformulada.",
-        "O programa “Em Ponto” terá mudanças.",
-        "A GloboNews prepara o lançamento de um novo jornal.",
-        "O canal enfrenta queda de audiência."
-      ],
-      "generatedAt": "2026-06-13T11:25:01.424Z"
-    },
-    "createdAt": "2026-06-13T11:25:01.424Z",
-    "imagePostUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/globonews-prepara-revolucao-visual-e-ocupara-estudio-historico-do-jornal-nacional-a-partir-de-2026.html",
-    "imageCreditStatus": "page-extracted",
-    "imageCreditSourceUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/globonews-prepara-revolucao-visual-e-ocupara-estudio-historico-do-jornal-nacional-a-partir-de-2026.html",
-    "imagePolicy": "Imagem ilustrativa aprovada por revisao visual e escolhida fora das fontes da noticia.",
-    "imageReview": {
-      "status": "approved",
-      "approved": true,
-      "candidateIndex": 0,
-      "confidence": 0.96,
-      "reason": "A imagem mostra claramente um estúdio da GloboNews, sem pessoas ou acontecimentos concorrentes, e corresponde diretamente ao assunto e ao texto alternativo do artigo.",
-      "visibleSubject": "Estúdio de televisão da GloboNews com painéis vermelhos, bancada, poltronas e redação ao fundo.",
-      "concerns": [],
-      "model": "codex-cli",
-      "origin": "web"
-    },
-    "humanApproval": {
-      "status": "approved",
-      "channel": "telegram",
-      "approvedAt": "2026-06-13T12:00:00Z"
-    },
-    "index": true,
-    "inSelecaoDoDia": false
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 105,
+    "charCount": 643,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
+  },
+  {
+    "slug": "participante-do-quem-quer-ser-um-milion-rio-perde-r-150-mil",
+    "title": "Participante do Quem Quer Ser um Milionário perde R$ 150 mil ao errar pergunta",
+    "excerpt": "Candidato do programa de Luciano Huck estava a uma questão de levar o prêmio máximo, mas errou e perdeu os R$ 150 mil acumulados.",
+    "body": [
+      "Um participante do Quem Quer Ser um Milionário, apresentado por Luciano Huck na Globo, perdeu R$ 150 mil ao errar a pergunta que poderia lhe garantir o prêmio máximo. O candidato estava a uma questão de levar o valor acumulado, mas a resposta errada o eliminou.",
+      "O erro gerou forte repercussão nas redes sociais, com telespectadores divididos entre críticas e solidariedade. Alguns consideraram a pergunta difícil, enquanto outros apontaram que o participante deveria ter pulado a questão.",
+      "O programa segue no ar com novos participantes tentando levar os prêmios. O Quem Quer Ser um Milionário é um dos formatos de maior sucesso da TV brasileira."
+    ],
+    "category": "Famosos",
+    "tags": [
+      "Famosos",
+      "BuzzPop"
+    ],
+    "image": "https://www.coxinhanerd.com.br/wp-content/uploads/2020/06/Luciano-Huck-1.jpg",
+    "imageSubject": "Participante do Quem Quer Ser um Milionário perde R$ 150 mil ao errar pergunta",
+    "imageAlt": "Participante do Quem Quer Ser um Milionário perde R$ 150 mil ao errar pergunta",
+    "sources": [
+      "UOL",
+      "Gshow",
+      "NaTelinha",
+      "ncnews.com.br",
+      "Portal Tela"
+    ],
+    "sourceCount": 5,
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 105,
+    "charCount": 647,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
+  },
+  {
+    "slug": "carol-peixinho-celebra-primeira-copa-do-filho-bento-ao-lado",
+    "title": "Carol Peixinho celebra primeira Copa do filho Bento ao lado de Thiaguinho",
+    "excerpt": "Influenciadora e o cantor levaram o bebê de oito meses para assistir à estreia do Brasil. Bento chamou atenção com look de frio.",
+    "body": [
+      "Carol Peixinho celebrou a primeira Copa do Mundo do filho Bento, de oito meses, ao lado da família de Thiaguinho. A influenciadora e o cantor levaram o bebê para assistir à estreia do Brasil na Copa do Mundo 2026 contra Marrocos.",
+      "Bento nasceu em outubro de 2025 e chamou a atenção dos seguidores ao surgir com um look de frio durante a partida. Carol compartilhou registros do pequeno nos stories e no feed do Instagram.",
+      "A família viajou para os Estados Unidos especialmente para acompanhar os jogos da seleção brasileira. O momento foi registrado como a primeira experiência de Bento em uma Copa do Mundo."
+    ],
+    "category": "Famosos",
+    "tags": [
+      "Famosos",
+      "BuzzPop"
+    ],
+    "image": "https://caras.com.br/wp-content/uploads/2025/10/carol-peixinho-amamentando-bento-932x1536.jpg",
+    "imageSubject": "Carol Peixinho celebra primeira Copa do filho Bento ao lado de Thiaguinho",
+    "imageAlt": "Carol Peixinho celebra primeira Copa do filho Bento ao lado de Thiaguinho",
+    "sources": [
+      "Globo",
+      "CARAS Brasil",
+      "RedeTV!",
+      "Alô Alô Bahia",
+      "LeiaJá"
+    ],
+    "sourceCount": 5,
+    "writtenAt": "2026-06-15T00:30:00.000Z",
+    "wordCount": 105,
+    "charCount": 608,
+    "imageCredit": "Imagem ilustrativa via DuckDuckGo Search",
+    "imagePostUrl": "https://duckduckgo.com/"
   }
 ]

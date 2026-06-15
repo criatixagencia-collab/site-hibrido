@@ -204,13 +204,14 @@ Esses termos so podem aparecer em arquivos internos de planejamento, nunca na no
 ```txt
 Nota factual:
   -> 45 a 260 palavras no corpo
+  -> minimo de 300 caracteres no corpo
   -> 2 a 5 paragrafos
   -> pode ser curta quando as evidencias forem curtas
 ```
 
 O texto deve parar quando os fatos confirmados acabarem. Nunca alongar para atingir
-SEO, contagem de palavras ou aparencia de materia longa. Se nem 45 palavras puderem
-ser escritas sem repeticao ou invencao, a pauta deve ser rejeitada.
+SEO, contagem de palavras ou aparencia de materia longa. Se nem 45 palavras e
+300 caracteres puderem ser escritos sem repeticao ou invencao, a pauta deve ser rejeitada.
 
 O comando `npm run build` executa `npm run validate:news` antes de compilar. Isso impede que novas materias curtas, com linguagem interna ou abaixo do minimo editorial passem despercebidas.
 

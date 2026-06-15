@@ -22,7 +22,7 @@ Quando o usuario pedir um "site de hoje", "HTML de teste", "filtrar noticias" ou
 - Escrever como materia publicada para leitor final, sem mencionar bastidor, filtro, sistema, curadoria, ranking ou processo.
 - Se a automacao usar pontuacao, Google Trends, numero de fontes, decisao editorial ou analise da OpenAI, isso deve ficar em metadados internos, painel administrativo ou rodape tecnico. O corpo da materia nunca explica que a noticia foi escolhida, filtrada ou ranqueada.
 - Deixar fontes no rodape da materia e manter o corpo do texto limpo, com atribuicoes apenas quando forem necessarias por seguranca jornalistica.
-- Usar de 45 a 260 palavras e de 2 a 5 paragrafos, sempre na proporcao das evidencias; nunca alongar para preencher espaco.
+- Usar de 45 a 260 palavras, minimo de 300 caracteres no corpo e de 2 a 5 paragrafos, sempre na proporcao das evidencias; nunca alongar para preencher espaco.
 
 ## Regra de montagem do site
 
@@ -116,6 +116,7 @@ O tamanho acompanha o lastro factual:
 
 ```txt
 Corpo da materia: 45 a 260 palavras
+Caracteres do corpo: minimo de 300 caracteres
 Paragrafos: 2 a 5 paragrafos
 Linha de apoio: 140 a 220 caracteres
 Titulo: 45 a 90 caracteres, quando possivel
@@ -124,6 +125,9 @@ Titulo: 45 a 90 caracteres, quando possivel
 Uma nota curta e valida quando informa o fato central sem repetir nem inventar.
 Materia longa so pode existir quando as evidencias trouxerem detalhes suficientes.
 Comprimento nunca e criterio para completar texto com contexto generico.
+
+Esse minimo de 300 caracteres orienta rascunhos novos e a Selecao do Dia. Ele
+nao deve reprovar materia antiga ja aprovada no validador final de publicacao.
 
 ## Regra das tres fontes
 
