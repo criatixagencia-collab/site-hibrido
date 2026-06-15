@@ -129,10 +129,19 @@ function cleanCreditText(value = "") {
 }
 
 function looksLikeCreditText(value = "") {
+  const raw = String(value);
+  if (
+    /"\s*(width|height|rel|class|title)\s*=|","|\/?>|#respond|&[a-z]+=|%[0-9a-f]{2}|\\\/|primaryImageOfPage|articleBody|ImageObject|td-image-wrap|bookmark/i.test(raw)
+  ) {
+    return false;
+  }
+
   const text = cleanCreditText(value);
   if (text.length < 4 || text.length > 180) return false;
+  if (/^[a-z0-9_./"-]+$/i.test(text) && (text.match(/-/g) || []).length > 3) return false;
   if (/[.!?]\s+[A-ZÁÉÍÓÚÂÊÔÃÕÇ]/.test(text) && text.length > 120) return false;
   if (/\b(menu|newsletter|assine|coment[aá]rios?|cookies?|whatsapp)\b/i.test(text)) return false;
+  if (/"\s*(width|height|rel|class|title)\s*=|","|\/?>|#respond|&[a-z]+=|%[0-9a-f]{2}|primaryImageOfPage|articleBody|ImageObject|td-image-wrap|bookmark/i.test(text)) return false;
 
   return /(\b(foto|imagem|cr[eé]dito|credit|photo|copyright|reprodu[cç][aã]o|divulga[cç][aã]o)\b|©|getty images|agnews|brazil news|instagram|youtube|tiktok|netflix|globo|warner|disney)/i.test(text);
 }
@@ -217,7 +226,7 @@ function extractCaptionCredit(html = "") {
   return "";
 }
 
-async function extractCreditFromPage(pageUrl = "") {
+export async function extractCreditFromPage(pageUrl = "") {
   if (!/^https?:\/\//i.test(pageUrl)) return "";
 
   try {
@@ -241,7 +250,7 @@ async function extractCreditFromPage(pageUrl = "") {
   }
 }
 
-async function creditForWebCandidate(candidate) {
+export async function creditForWebCandidate(candidate) {
   const pageCredit = await extractCreditFromPage(candidate.pageUrl || "");
   if (pageCredit) {
     return {

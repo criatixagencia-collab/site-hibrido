@@ -442,8 +442,9 @@ function renderSelectionPage(articles) {
   var html = '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Seleção do Dia — BuzzPop</title><meta name="description" content="As notícias mais quentes do entretenimento brasileiro selecionadas pela BuzzPop.">' +
     '<style>' +
     '*,::after,::before{box-sizing:border-box;margin:0;padding:0}' +
+    'html,body{max-width:100%;overflow-x:hidden}' +
     'body{font-family:system-ui,-apple-system,sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.5}' +
-    '.container{max-width:720px;margin:0 auto;padding:1.5rem 1rem}' +
+    '.container{width:100%;max-width:720px;margin:0 auto;padding:1.5rem 1rem;overflow-x:hidden}' +
     '.page-title{font-size:clamp(1.5rem,5vw,2.2rem);font-weight:900;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.25rem}' +
     '.page-sub{color:#888;font-size:0.85rem;margin-bottom:2rem;border-bottom:1px solid #222;padding-bottom:1rem}' +
     '.page-count{display:inline-flex;align-items:center;gap:.45rem;margin:.75rem 0 0;padding:.45rem .7rem;background:#171717;border:1px solid #2a2a2a;border-radius:8px;color:#fafafa;font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}' +

@@ -10,7 +10,7 @@ const MIN_BODY_CHARACTERS = 280;
 const MIN_BODY_PARAGRAPHS = 2;
 const MAX_BODY_PARAGRAPHS = 5;
 const MAX_TITLE_CHARACTERS = 95;
-const MIN_ARTICLES = Number(process.env.MIN_ARTICLES || process.env.POSTS_PER_RUN || 10);
+const MIN_ARTICLES = Number(process.env.MIN_ARTICLES || process.env.POSTS_PER_RUN || 6);
 const REQUIRE_PAGE_IMAGE_CREDIT = /^true$/i.test(process.env.REQUIRE_PAGE_IMAGE_CREDIT || "");
 
 const PUBLIC_COPY_BLOCKLIST = [

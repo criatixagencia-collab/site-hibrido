@@ -4,6 +4,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { readJson, writeJson } from "./lib/store.js";
 import { toBuzzItems } from "./lib/articles.js";
+import { creditForWebCandidate } from "./lib/illustrative-images.js";
 
 function parseArgs(argv) {
   const args = { action: "list", value: "", reason: "" };
@@ -118,12 +119,15 @@ async function selectImage(queue, value) {
 
   const candidate = item.imageCandidates[index];
   item.image = await downloadSelectedImage(item, candidate, index);
-  item.imageCredit = candidate.source
-    ? `Imagem ilustrativa: ${candidate.source}`
-    : "Imagem ilustrativa aprovada manualmente";
+  const credit = await creditForWebCandidate(candidate);
+  item.imageCredit = credit.imageCredit || (
+    candidate.source
+      ? `Imagem ilustrativa: ${candidate.source}`
+      : "Imagem ilustrativa aprovada manualmente"
+  );
   item.imagePostUrl = candidate.pageUrl || "";
-  item.imageCreditStatus = "manual";
-  item.imageCreditSourceUrl = candidate.pageUrl || "";
+  item.imageCreditStatus = credit.imageCreditStatus || "manual";
+  item.imageCreditSourceUrl = credit.imageCreditSourceUrl || candidate.pageUrl || "";
   item.imageReview = {
     status: "approved",
     approved: true,
