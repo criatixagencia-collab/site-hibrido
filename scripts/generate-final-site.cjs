@@ -1,5 +1,6 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { writeSelectionDay } = require("./generate-selection-day.cjs");
 
 const root = path.resolve(__dirname, "..");
 const articlesPath = path.join(root, "data", "articles.json");
@@ -494,7 +495,10 @@ function writeFinalSite(articles) {
     fs.writeFileSync(path.join(dir, "index.html"), renderArticlePage(articles[i], articles));
   }
   
-  renderSelectionPage(articles);
+  writeSelectionDay({
+    root,
+    outputDirs: [path.join(outputDir, "selecao-dia")],
+  });
 }
 
 var articles = readArticles();
