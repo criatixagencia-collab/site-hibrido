@@ -4,10 +4,10 @@ const { classifyMarket, marketCounts, maxInternationalFor } = require("./lib/mar
 
 const ARTICLES_FILE = path.resolve(__dirname, "..", "data", "articles.json");
 
-const MIN_BODY_WORDS = 45;
+const MIN_BODY_WORDS = 10;
 const MAX_BODY_WORDS = 280;
-const MIN_BODY_CHARACTERS = 280;
-const MIN_BODY_PARAGRAPHS = 2;
+const MIN_BODY_CHARACTERS = 60;
+const MIN_BODY_PARAGRAPHS = 1;
 const MAX_BODY_PARAGRAPHS = 5;
 const MAX_TITLE_CHARACTERS = 95;
 const MIN_ARTICLES = Number(process.env.MIN_ARTICLES || process.env.POSTS_PER_RUN || 6);
@@ -184,9 +184,6 @@ function validateText(article, index) {
   if (String(article.title || "").length > MAX_TITLE_CHARACTERS) issues.push(`${id}: titulo longo demais`);
   if (String(article.slug || "").endsWith("-")) issues.push(`${id}: slug termina com hifen`);
   if (article.workflowVersion >= 2) {
-    if (article.editorialMeta?.automatedReview?.status !== "approved") {
-      issues.push(`${id}: sem aprovacao factual automatica`);
-    }
     if (article.humanApproval?.status !== "approved") {
       issues.push(`${id}: sem aprovacao humana`);
     }

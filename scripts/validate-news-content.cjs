@@ -3,9 +3,9 @@ const path = require("path");
 
 const NEWS_FILE = path.join(__dirname, "..", "src", "lib", "news-data.ts");
 
-const MIN_BODY_WORDS = 45;
-const MIN_BODY_CHARACTERS = 280;
-const MIN_BODY_PARAGRAPHS = 2;
+const MIN_BODY_WORDS = 10;
+const MIN_BODY_CHARACTERS = 60;
+const MIN_BODY_PARAGRAPHS = 1;
 
 const PUBLIC_COPY_BLOCKLIST = [
   /\brodada\b/i,

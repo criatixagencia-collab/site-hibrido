@@ -7,6 +7,8 @@ import { applyIllustrativeImages } from "./lib/illustrative-images.js";
 import { readJson, writeJson } from "./lib/store.js";
 
 const IMAGE_STAGE_TIMEOUT_MS = Number(process.env.IMAGE_STAGE_TIMEOUT_MS || 180000);
+const MIN_CARRYOVER_WORDS = 15;
+const MIN_CARRYOVER_CHARACTERS = 110;
 
 function withTimeout(promise, timeoutMs, label) {
   return new Promise((resolve, reject) => {
@@ -48,10 +50,18 @@ function pendingImageDraft(draft, reason = "Etapa de imagem ainda nao executada.
   };
 }
 
+function carryOverIsValid(item) {
+  const body = Array.isArray(item.body) && item.body.length ? item.body : [item.excerpt || ""];
+  const text = body.join(" ").replace(/\s+/g, " ").trim();
+  const words = text.split(/\s+/).filter(Boolean).length;
+  const characters = text.length;
+  return words >= MIN_CARRYOVER_WORDS && characters >= MIN_CARRYOVER_CHARACTERS;
+}
+
 function buildQueue({ previousQueue, drafts, newsCount, report, imageStage }) {
   const pendingById = new Map(
     (previousQueue.items || [])
-      .filter((item) => item.reviewStatus === "pending-human")
+      .filter((item) => item.reviewStatus === "pending-human" && carryOverIsValid(item))
       .map((item) => [item.reviewId || item.id, item]),
   );
 

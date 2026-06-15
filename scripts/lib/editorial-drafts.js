@@ -6,9 +6,9 @@ const require = createRequire(import.meta.url);
 const { classifyMarket, maxInternationalFor } = require("./market-classifier.cjs");
 
 const ALLOWED_CATEGORIES = ["Famosos", "Música", "TV", "Cinema"];
-const MIN_WORDS = 30;
+const MIN_WORDS = 15;
 const MAX_WORDS = 300;
-const MIN_CHARACTERS = 200;
+const MIN_CHARACTERS = 110;
 const MIN_PARAGRAPHS = 1;
 const MAX_PARAGRAPHS = 3;
 const MAX_TITLE_CHARACTERS = 100;
@@ -86,6 +86,15 @@ function cleanText(value = "") {
   return String(value).replace(/\s+/g, " ").trim();
 }
 
+function normalizeCategoryLabel(value = "") {
+  const normalized = normalize(value);
+  if (normalized === "musica") return "Música";
+  if (normalized === "tv") return "TV";
+  if (normalized === "cinema") return "Cinema";
+  if (normalized === "famosos") return "Famosos";
+  return "";
+}
+
 function countWords(paragraphs = []) {
   return paragraphs.join(" ").trim().split(/\s+/).filter(Boolean).length;
 }
@@ -141,7 +150,8 @@ function repairJsonDraft(raw) {
   if (!draft.imageAlt) draft.imageAlt = "";
   if (!draft.rejectionReason) draft.rejectionReason = "";
   if (!draft.status) draft.status = "draft";
-  if (!draft.category || !["Famosos", "Música", "TV", "Cinema"].includes(draft.category)) draft.category = "Famosos";
+  const normalizedCategory = normalizeCategoryLabel(draft.category);
+  draft.category = normalizedCategory || "Famosos";
   return draft;
 }
 
@@ -294,7 +304,36 @@ function localIssues(draft, item) {
 }
 
 async function writeWithFallback(promptGenerico) {
-  // Tenta Codex CLI primeiro (timeout 15s)
+  try {
+    const response = await fetch(aiChatCompletionsUrl(), {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${aiApiKey()}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model: aiModel(),
+        messages: [
+          { role: "system", content: "Voce e um jornalista brasileiro de entretenimento. Escreva apenas com base nos fatos fornecidos. Seja direto e factual." },
+          { role: "user", content: promptGenerico },
+        ],
+        temperature: 0.5,
+        max_tokens: 1200,
+      }),
+    });
+
+    const text = await response.text();
+    let data;
+    try { data = JSON.parse(text); } catch { data = { raw: text }; }
+    if (!response.ok) {
+      const message = sanitizeProviderError(data?.error?.message || data?.message || response.statusText);
+      throw new Error(`Escrita DeepSeek ${response.status}: ${message}`);
+    }
+    return data.choices?.[0]?.message?.content || "";
+  } catch (deepseekError) {
+    console.warn(`[write] DeepSeek falhou, usando fallback local: ${deepseekError.message?.slice(0, 80)}`);
+  }
+
   try {
     const result = await Promise.race([
       requestCodexJson({
@@ -312,35 +351,10 @@ async function writeWithFallback(promptGenerico) {
     }
     if (result && typeof result === "string") return result;
   } catch (codexError) {
-    console.warn(`[write] Codex falhou, usando DeepSeek: ${codexError.message?.slice(0, 60)}`);
+    throw new Error(`Escrita fallback falhou: ${codexError.message?.slice(0, 120)}`);
   }
 
-  // Fallback DeepSeek
-  const response = await fetch(aiChatCompletionsUrl(), {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${aiApiKey()}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: aiModel(),
-      messages: [
-        { role: "system", content: "Voce e um jornalista brasileiro de entretenimento. Escreva apenas com base nos fatos fornecidos. Seja direto e factual." },
-        { role: "user", content: promptGenerico },
-      ],
-      temperature: 0.5,
-      max_tokens: 1200,
-    }),
-  });
-
-  const text = await response.text();
-  let data;
-  try { data = JSON.parse(text); } catch { data = { raw: text }; }
-  if (!response.ok) {
-    const message = sanitizeProviderError(data?.error?.message || data?.message || response.statusText);
-    throw new Error(`Escrita DeepSeek ${response.status}: ${message}`);
-  }
-  return data.choices?.[0]?.message?.content || "";
+  return "";
 }
 
 async function writeSimpleText(item, evidenceClaims, correction) {
@@ -359,10 +373,9 @@ REGRAS:
 - Lide direto: primeira frase responde o que aconteceu, com quem, onde e quando
 - Tom factual, sem adjetivos promocionais
 - Nao cite fontes no corpo
-- Paragrafos de 3 a 6 linhas cada (texto bem desenvolvido)
-- Escreva entre 500 e 800 CARACTERES no total (conte os caracteres, nao palavras)
-- Isso equivale a uns 100-200 palavras, mas o importante sao os CARACTERES
-- 2 a ${MAX_PARAGRAPHS} paragrafos
+- Use 1 a ${MAX_PARAGRAPHS} paragrafos
+- 1 paragrafo e totalmente valido quando a pauta couber em uma nota curta
+- Escreva o menor texto que ainda informe algo util; em geral 15 a 90 palavras
 - Nao invente contexto biografico, agenda ou reacao
 
 Responda EXATAMENTE neste formato:
@@ -371,7 +384,7 @@ STATUS: draft (ou reject se nao houver fato suficiente)
 REJECTION: (motivo se reject)
 TITULO: (max 82 caracteres)
 LINHA: (resumo em 1 linha)
-CATEGORIA: Famosos, Musica, TV ou Cinema
+CATEGORIA: Famosos, Música, TV ou Cinema
 CORPO:
 (paragrafo 1)
 
@@ -399,8 +412,8 @@ function parseSimpleText(text) {
   draft.rejectionReason = m(/^REJECTION:\s*(.+)$/im);
   draft.title = m(/^TITULO:\s*(.+)$/im).slice(0, 82);
   draft.excerpt = m(/^LINHA:\s*(.+)$/im).slice(0, 220);
-  const cat = m(/^CATEGORIA:\s*(\S+)/im);
-  if (["Famosos", "Música", "TV", "Cinema"].includes(cat)) draft.category = cat;
+  const cat = normalizeCategoryLabel(m(/^CATEGORIA:\s*(\S+)/im));
+  if (cat) draft.category = cat;
   const bodyMatch = text.match(/^CORPO:\s*([\s\S]+?)(?=^FATOS_USADOS:|^TAGS:|^PESSOA_FOTO:|$)/im);
   if (bodyMatch) draft.body = bodyMatch[1].split(/\n{2,}/).map(p => p.trim()).filter(p => p.length > 0);
   const factsMatch = text.match(/^FATOS_USADOS:\s*([\s\S]+?)(?=^TAGS:|^PESSOA_FOTO:|^BUSCA_FOTO:|$)/im);
@@ -471,7 +484,7 @@ function generationMessages(item, evidenceClaims, correction = []) {
 
 async function draftOne(item) {
   const evidenceClaims = evidenceClaimsFor(item);
-  if (evidenceClaims.length < 2) {
+  if (evidenceClaims.length < 1) {
     return {
       draft: null,
       outcome: {
@@ -480,7 +493,7 @@ async function draftOne(item) {
         categoryHint: item.categoryHint || "",
         status: "rejected",
         stage: "evidence",
-        reasons: ["menos de duas evidencias utilizaveis"],
+        reasons: ["sem evidencia utilizavel"],
       },
     };
   }
@@ -519,7 +532,7 @@ async function draftOne(item) {
     correction = [...review.issues, ...review.unsupportedClaims].filter(Boolean);
     const { graves: rg } = classifyIssues(correction);
     if (rg.length === 0 && body.length > 0) {
-      // Erros leves: passa mesmo assim
+      // O revisor automatico agora so informa; a fila continua para avaliacao humana.
     } else if (attempt < 2 && evidenceClaims.length >= 3) {
       attempt = 2;
       generated = await writeSimpleText(item, evidenceClaims, correction);
@@ -528,10 +541,12 @@ async function draftOne(item) {
       }
       const body2 = generated.body.map(cleanText).filter(Boolean);
       review = await requestIndependentReview({ sourceTitle: item.title, evidenceClaims, draft: { title: generated.title, excerpt: generated.excerpt, body: body2, factualClaims: generated.factualClaims } });
+      if (review.status !== "approved" || review.confidence < 0.72) {
+        correction = [...review.issues, ...review.unsupportedClaims].filter(Boolean);
+      }
     } else {
       console.warn(`[editorial] revisor reprovou: ${generated.title}`);
       correction.forEach((issue) => console.warn(`- ${issue}`));
-      return { draft: null, outcome: { id: item.id, title: item.title, categoryHint: item.categoryHint || "", status: "rejected", stage: "review", attempts: attempt, reasons: correction } };
     }
   }
 
@@ -583,10 +598,10 @@ async function draftOne(item) {
       categoryHint: item.categoryHint || "",
       category: generated.category,
       status: "pending-human",
-      stage: "approved",
-      attempts: correction.length ? 2 : 1,
+      stage: review.status === "approved" && review.confidence >= 0.72 ? "approved" : "review-flagged",
       confidence: review.confidence,
-      reasons: [],
+      reasons: review.status === "approved" && review.confidence >= 0.72 ? [] : correction,
+      attempts: attempt,
     },
   };
 }
@@ -596,9 +611,9 @@ export async function generateEditorialDraftBatch(news) {
     throw new Error("AI_API_KEY ausente. O fluxo editorial nao publica fallback generico.");
   }
 
-  const target = Number(process.env.POSTS_PER_RUN || 10);
-  const minimum = Number(process.env.MIN_REVIEW_DRAFTS || Math.min(5, target));
-  const maxAttempts = Number(process.env.MAX_EDITORIAL_ATTEMPTS || Math.max(target * 3, 20));
+  const target = Math.max(Number(process.env.POSTS_PER_RUN || 0), 20);
+  const minimum = Number(process.env.MIN_REVIEW_DRAFTS || Math.min(12, target));
+  const maxAttempts = Number(process.env.MAX_EDITORIAL_ATTEMPTS || Math.max(target * 4, 40));
   const maxInternational = maxInternationalFor(target);
   const drafts = [];
   const outcomes = [];

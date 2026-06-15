@@ -24,22 +24,42 @@ const baseFeeds = [
 const editorialSearches = [
   {
     name: "Google News - Famosos",
-    query: '(famosos OR celebridades OR influenciador OR influenciadora) Brasil when:1d',
+    query: '(famosos OR celebridades OR influenciador OR influenciadora OR artista OR atriz OR cantor) Brasil when:1d',
     categoryHint: "Famosos",
   },
   {
     name: "Google News - Musica",
-    query: '(musica OR cantor OR cantora OR banda OR show OR festival) Brasil when:1d',
+    query: '(musica OR cantor OR cantora OR banda OR show OR festival OR album OR single OR turne) Brasil when:1d',
     categoryHint: "Música",
   },
   {
     name: "Google News - TV",
-    query: '(televisao OR novela OR reality OR "programa de TV" OR audiencia) Brasil when:1d',
+    query: '(televisao OR novela OR reality OR "programa de TV" OR audiencia OR apresentador OR apresentadora OR bastidores) Brasil when:1d',
     categoryHint: "TV",
   },
   {
     name: "Google News - Cinema",
-    query: '(cinema OR filme OR serie OR streaming OR ator OR atriz) Brasil when:1d',
+    query: '(cinema OR filme OR serie OR streaming OR ator OR atriz OR estreia OR elenco OR premiere) Brasil when:1d',
+    categoryHint: "Cinema",
+  },
+  {
+    name: "Google News - Reality",
+    query: '(BBB OR "A Fazenda" OR "Power Couple" OR reality OR "show de realidade") Brasil when:1d',
+    categoryHint: "TV",
+  },
+  {
+    name: "Google News - Bastidores",
+    query: '(bastidores OR entrevista OR "ao vivo" OR casamento OR separacao OR gravidez OR namoro) Brasil when:1d',
+    categoryHint: "Famosos",
+  },
+  {
+    name: "Google News - Streaming",
+    query: '(streaming OR netflix OR globoplay OR "prime video" OR disney+ OR "max" OR "apple tv") Brasil when:1d',
+    categoryHint: "Cinema",
+  },
+  {
+    name: "Google News - Premios",
+    query: '(premio OR premiacao OR "tapete vermelho" OR "red carpet" OR festival OR estreia) Brasil when:1d',
     categoryHint: "Cinema",
   },
 ];
@@ -328,9 +348,9 @@ function scoreItem(item, index, trends) {
     (score, term) => score + (includesNormalizedTerm(text, term) ? 8 : 0),
     0,
   );
-  const recencyScore = Math.max(0, 30 - index);
-  const sourceScore = Math.min(item.evidenceSources.length, 6) * 18;
-  const trendScore = trendMatchesFor(item, trends).length * 25;
+  const recencyScore = Math.max(0, 24 - index);
+  const sourceScore = Math.min(item.evidenceSources.length, 6) * 28;
+  const trendScore = trendMatchesFor(item, trends).length * 45;
   return termScore + recencyScore + sourceScore + trendScore;
 }
 
@@ -341,9 +361,11 @@ function isStrongInternationalSignal(item) {
 
 function editorialSortScore(item) {
   const market = item.market || classifyMarket(item);
-  const brazilBoost = market === "brasil" ? 60 : 0;
-  const internationalTrendBoost = market === "internacional" && item.trendBoost ? 30 : 0;
-  return item.score + brazilBoost + internationalTrendBoost;
+  const brazilBoost = market === "brasil" ? 45 : 0;
+  const trendBoost = item.trendBoost ? 50 : 0;
+  const coverageBoost = Math.min(item.sourceCount || 1, 6) * 18;
+  const multiSourceBoost = (item.sourceCount || 0) >= 2 ? 35 : 0;
+  return item.score + brazilBoost + trendBoost + coverageBoost + multiSourceBoost;
 }
 
 async function addImages(items) {
@@ -376,7 +398,7 @@ function buildFeeds(trends) {
   }));
   const trendSearches = trends
     .filter((trend) => hasEntertainmentSignal(trend.title, trend.summary))
-    .slice(0, Number(process.env.MAX_TREND_SEARCHES || 5))
+    .slice(0, Number(process.env.MAX_TREND_SEARCHES || 8))
     .map((trend, index) => ({
       name: `Google News - Tendencia ${index + 1}`,
       url: googleNewsSearchUrl(
@@ -423,7 +445,9 @@ function selectBalanced(items, maxItems) {
 }
 
 export async function fetchEntertainmentNews() {
-  const maxItems = Number(process.env.MAX_ITEMS || 18);
+  const configuredMaxItems = Number(process.env.MAX_ITEMS || 40);
+  const editorialPoolCap = Number(process.env.MAX_CAIQUE_NEWS_POOL || 40);
+  const maxItems = Math.min(configuredMaxItems, editorialPoolCap);
   const collected = [];
   const trends = await fetchBrazilTrends();
   const feeds = buildFeeds(trends);
@@ -446,7 +470,7 @@ export async function fetchEntertainmentNews() {
       const trendMatches = trendMatchesFor({ title, summary }, trends);
 
       if (!isFreshEnough(item)) return;
-      if (evidenceSources.length < 2) return;
+      if (evidenceSources.length < 1) return;
       if (hasBlockedSignal(title, summary)) return;
       if (isSportsOnly(title, summary)) return;
       if (isStaleEventPreview(title, summary)) return;
@@ -482,17 +506,21 @@ export async function fetchEntertainmentNews() {
   }
 
   const seen = new Set();
+  const minCandidateScore = Number(process.env.MIN_CANDIDATE_SCORE || 45);
   const eligible = collected
     .filter((item) => {
       const key = normalizeText(item.title);
       if (seen.has(key)) return false;
       seen.add(key);
-      return item.sourceCount >= 2 && item.score > 40;
+      return (
+        item.score >= minCandidateScore &&
+        ((item.sourceCount || 0) >= 2 || item.trendBoost || item.score >= minCandidateScore + 35)
+      );
     })
     .filter((item) => item.market === "brasil" || isStrongInternationalSignal(item));
 
   const maxInternationalCandidates = Number(
-    process.env.MAX_INTERNATIONAL_CANDIDATES || Math.min(1, maxInternationalFor(Number(process.env.POSTS_PER_RUN || 10))),
+    process.env.MAX_INTERNATIONAL_CANDIDATES || Math.min(2, maxInternationalFor(Number(process.env.POSTS_PER_RUN || 20))),
   );
   const internationalCandidates = eligible
     .filter((item) => item.market === "internacional")

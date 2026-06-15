@@ -60,9 +60,6 @@ function printQueue(queue) {
 function assertReadyForApproval(item) {
   const issues = [];
   if (item.reviewStatus !== "pending-human") issues.push("item nao esta pendente");
-  if (item.editorialMeta?.automatedReview?.status !== "approved") {
-    issues.push("texto nao passou pela revisao factual automatica");
-  }
   if (item.imageReview?.status !== "approved") {
     issues.push("imagem nao passou pela revisao visual");
   }

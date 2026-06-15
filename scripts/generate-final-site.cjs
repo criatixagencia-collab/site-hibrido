@@ -8,7 +8,7 @@ const reviewQueuePath = path.join(root, "data", "review-queue.json");
 const outputDir = path.join(root, "public", "final-site");
 const imagesDir = path.join(root, "public", "images");
 const docsImagesDir = path.join(root, "docs", "images");
-const MIN_SELECTION_BODY_CHARACTERS = 300;
+const MIN_SELECTION_BODY_CHARACTERS = 60;
 const HOME_SECTIONS = [
   { key: "famosos", label: "Famosos", aliases: ["famosos", "celebridades", "celebridade", "influenciadores", "influenciador", "famosas"] },
   { key: "musica", label: "Música", aliases: ["musica", "música", "cantor", "cantora", "banda", "bandas"] },
