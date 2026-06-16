@@ -1,428 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Seleção Interativa — BuzzPop</title>
-<meta name="description" content="Avalie cada matéria e escolha a imagem para publicação no BuzzPop. 16 de junho de 2026.">
+<title>Selecao Interativa - Site Hibrido</title>
+<meta name="description" content="Pagina interativa para aprovacao de materias e escolha de imagens do site hibrido.">
 <style>
 *,::after,::before{box-sizing:border-box;margin:0;padding:0}
-body{font-family:system-ui,-apple-system,sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.6;padding:1rem}
-.container{max-width:900px;margin:0 auto}
-h1{font-size:2rem;font-weight:900;margin-bottom:.3rem}
-.sub{color:#9ca3af;font-size:.9rem;margin-bottom:1.5rem}
-.card{background:#141414;border:1px solid #262626;border-radius:12px;padding:1.2rem;margin-bottom:1.5rem}
-.card-header{display:flex;gap:.6rem;align-items:center;margin-bottom:.8rem;flex-wrap:wrap}
-.num{background:#c12222;color:#fff;font-weight:900;padding:.2rem .6rem;border-radius:6px;font-size:.85rem}
-.badge{background:#202020;border:1px solid #333;color:#facc15;border-radius:999px;padding:.15rem .5rem;font-size:.7rem;font-weight:800;text-transform:uppercase}
-.score-badge{color:#9ca3af}
-h2{font-size:1.2rem;font-weight:800;margin-bottom:.5rem;line-height:1.3}
-.excerpt{color:#d1d5db;font-style:italic;margin-bottom:.6rem;font-size:.9rem;border-left:3px solid #c12222;padding-left:.7rem}
-.body-text{background:#1a1a1a;border-radius:8px;padding:.8rem;margin:.6rem 0;font-size:.92rem;color:#e5e7eb;line-height:1.5}
-.body-text p{margin-bottom:.8rem}
-.body-text p:last-child{margin-bottom:0}
-.meta{font-size:.78rem;color:#a3a3a3;margin:.6rem 0}
-.images-gallery{margin:1rem 0}
-.images-gallery h3{font-size:.9rem;margin-bottom:.6rem;color:#facc15}
-.img-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.6rem}
-.img-option{position:relative;border:2px solid #333;border-radius:8px;overflow:hidden;cursor:pointer;transition:border-color .2s}
-.img-option input{position:absolute;opacity:0;width:0;height:0}
-.img-option:has(input:checked){border-color:#facc15;box-shadow:0 0 0 2px rgba(250,204,21,.3)}
-.img-option label{display:block;cursor:pointer}
-.img-option img{width:100%;height:140px;object-fit:cover;display:block}
-.img-option .img-label{display:block;padding:.35rem;font-size:.68rem;color:#a3a3a3;line-height:1.2}
-.footer{text-align:center;color:#666;font-size:.72rem;margin-top:2rem;text-transform:uppercase;letter-spacing:.08em}
-.instructions{background:#1a1a2e;border:1px solid #333;border-radius:8px;padding:.8rem;margin-bottom:1.2rem;font-size:.85rem;color:#d1d5db}
-.instructions strong{color:#facc15}
-@media(max-width:600px){.img-grid{grid-template-columns:1fr 1fr}}
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.55}
+.container{width:100%;max-width:960px;margin:0 auto;padding:1.4rem 1rem 2.5rem}
+.top{border-bottom:1px solid #262626;margin-bottom:1rem;padding-bottom:1rem}
+h1{font-size:clamp(1.7rem,5vw,2.7rem);font-weight:900;text-transform:uppercase;letter-spacing:0;line-height:1}
+.sub{color:#9ca3af;font-size:.9rem;margin-top:.5rem}
+.notice{background:#151515;border:1px solid #2f2f2f;border-left:4px solid #c12222;border-radius:8px;color:#e5e7eb;margin-top:.9rem;padding:.85rem;font-size:.88rem}
+.card{background:#141414;border:1px solid #262626;border-radius:10px;margin-bottom:1rem;padding:1rem}
+.card-top{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin-bottom:.75rem}
+.num{background:#c12222;border-radius:6px;color:#fff;font-size:.72rem;font-weight:900;letter-spacing:.08em;padding:.28rem .55rem;text-transform:uppercase}
+.badge{background:#202020;border:1px solid #333;border-radius:999px;color:#facc15;font-size:.68rem;font-weight:850;letter-spacing:.06em;padding:.22rem .52rem;text-transform:uppercase}
+.badge.muted{color:#a3a3a3}
+h2{font-size:1.25rem;font-weight:850;line-height:1.25;margin-bottom:.45rem;word-break:break-word;overflow-wrap:break-word}
+.line{border-left:3px solid #c12222;color:#d1d5db;font-size:.92rem;margin-bottom:.85rem;padding-left:.7rem;word-break:break-word;overflow-wrap:break-word}
+.body-text{background:#1a1a1a;border-radius:8px;color:#e5e7eb;font-size:.95rem;margin:.75rem 0;padding:.9rem}
+.body-text p{margin:0 0 1rem}.body-text p:last-child{margin-bottom:0}
+.sources{color:#a3a3a3;font-size:.78rem;margin:.7rem 0 1rem;word-break:break-word;overflow-wrap:break-word}
+.image-block h3{color:#facc15;font-size:.9rem;margin-bottom:.65rem;text-transform:uppercase;letter-spacing:.07em}
+.img-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.65rem}
+.img-option{background:#101010;border:2px solid #333;border-radius:8px;cursor:pointer;display:block;overflow:hidden;transition:border-color .18s,box-shadow .18s}
+.img-option input{height:0;opacity:0;position:absolute;width:0}
+.img-option:has(input:checked){border-color:#facc15;box-shadow:0 0 0 2px rgba(250,204,21,.25)}
+.img-option img{background:#050505;display:block;height:142px;object-fit:cover;width:100%}
+.img-label{color:#bdbdbd;display:block;font-size:.7rem;line-height:1.25;padding:.45rem}
+.empty-images{border:1px dashed #4b5563;border-radius:8px;color:#fca5a5;font-size:.82rem;padding:.75rem}
+.footer{color:#666;font-size:.72rem;letter-spacing:.08em;margin-top:2rem;text-align:center;text-transform:uppercase}
+@media(max-width:560px){.container{padding-inline:.75rem}.img-grid{grid-template-columns:1fr 1fr}.img-option img{height:120px}}
 </style>
 </head>
 <body>
-<div class="container">
-<header>
-<h1>🎬 Seleção Interativa</h1>
-<p class="sub">16 de junho de 2026 · 5 matérias para avaliar</p>
-<div class="instructions">
-<strong>Instruções:</strong> Leia cada matéria, escolha a imagem clicando nela e depois confirme no grupo Buzz Pop pelos números.
-</div>
+<main class="container">
+<header class="top">
+<h1>Selecao Interativa</h1>
+<p class="sub">16 de junho de 2026 às 15:35 - 5 materias com textos completos</p>
+<p class="notice">Esta pagina e a Etapa 2: revisar textos completos e escolher imagens. A Etapa 1 continua separada em selecao-dia/.</p>
 </header>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="num">#1</span>
-        <span class="badge">TV</span><span class="badge score-badge">Score 156</span>
-      </div>
-      <h2>Anne Schedeen, estrela de &quot;ALF - O Eteimoso&quot;, morre aos 77 anos</h2>
-      <p class="excerpt">Atriz que deu vida à matriarca Kate Tanner na série dos anos 1980 faleceu. Fãs e colegas prestam homenagens à artista.</p>
-      <div class="body-text">
-        <p>A atriz Anne Schedeen, conhecida por interpretar Kate Tanner na série &quot;ALF - O Eteimoso&quot;, morreu aos 77 anos. A informação foi confirmada por colegas de elenco e rapidamente se espalhou pelas redes sociais, com fãs e amigos prestando homenagens à artista.</p>
-        <p>Anne era a matriarca da família Tanner na série que marcou a infância de milhões de brasileiros. Exibida originalmente entre 1986 e 1990, a produção contava a história do alienígena ALF que caía na garagem dos Tanner e passava a viver com a família. Ela interpretava a mãe paciente que mediava as confusões entre o extraterrestre e o marido Willie, papel de Max Wright.</p>
-        <p>A atriz construiu uma carreira sólida na TV americana antes e depois de ALF. Participou de séries como &quot;Three’s Company&quot;, &quot;Simon &amp; Simon&quot; e &quot;Murder, She Wrote&quot;. Mas foi como Kate Tanner que ela ganhou o coração do público brasileiro — afinal, a série foi um fenômeno de audiência no país, reprisada diversas vezes ao longo dos anos 1990 e 2000 no SBT e em outras emissoras.</p>
-        <p>Até o momento, não foram divulgadas a causa da morte nem detalhes sobre o velório. A notícia gerou comoção entre fãs nostálgicos, que lotaram as redes com memes, cenas clássicas e agradecimentos à atriz. Muitos destacaram que Anne era a &quot;mãe de todos nós&quot; e que sua interpretação ajudou a tornar ALF uma série tão querida no Brasil.</p>
-        <p>Colegas de elenco também se manifestaram, destacando o profissionalismo e o carisma de Anne dentro e fora dos sets. A morte da atriz encerra um capítulo importante da história da TV: Anne era um dos últimos membros do elenco principal ainda vivos da série, e sua partida representa o fim de uma era para os fãs do alienígena mais querido da televisão.</p>
-      </div>
-      <div class="meta">
-        <strong>Fontes:</strong> Omelete, G1, UOL, Estadão, AdoroCinema
-      </div>
-      <div class="images-gallery">
-        <h3>📸 Escolha a imagem:</h3>
-        <div class="img-grid">
-          
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_0" value="0">
-            <label for="img_1_0">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_1" value="1">
-            <label for="img_1_1">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_2" value="2">
-            <label for="img_1_2">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_3" value="3">
-            <label for="img_1_3">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_4" value="4">
-            <label for="img_1_4">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_5" value="5">
-            <label for="img_1_5">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_6" value="6">
-            <label for="img_1_6">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_7" value="7">
-            <label for="img_1_7">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="num">#2</span>
-        <span class="badge">TV</span><span class="badge score-badge">Score 156</span>
-      </div>
-      <h2>Profissional morre em acidente durante gravação da Disney na UFRJ</h2>
-      <p class="excerpt">Técnico de audiovisual sofre acidente fatal nos bastidores da série &quot;Delegacia de Homicídios&quot;. Disney suspende gravações e investiga.</p>
-      <div class="body-text">
-        <p>Um profissional de audiovisual morreu em um acidente durante a gravação da série &quot;Delegacia de Homicídios&quot;, produção original do Disney+, no campus da UFRJ, no Rio de Janeiro. A informação foi confirmada pela produção e pela polícia, que investiga as circunstâncias do ocorrido.</p>
-        <p>O acidente aconteceu nos bastidores da gravação, enquanto a equipe técnica preparava o set para mais uma cena. A vítima, cujo nome ainda não foi divulgado publicamente, era um funcionário terceirizado da área técnica. O Samu foi acionado, mas o profissional não resistiu aos ferimentos.</p>
-        <p>A Disney Brasil emitiu uma nota oficial lamentando o ocorrido. &quot;Estamos profundamente entristecidos com o acidente ocorrido durante as gravações de uma de nossas produções. Nossos pensamentos estão com a família e amigos da vítima. A produção foi suspensa temporariamente enquanto prestamos todo o suporte necessário às equipes&quot;, diz o comunicado.</p>
-        <p>A série &quot;Delegacia de Homicídios&quot; é uma das apostas do Disney+ para o mercado brasileiro. A trama acompanha o dia a dia de investigadores da polícia civil e vinha sendo gravada em locações reais no Rio para dar mais realismo às cenas. A produção já havia causado expectativa por contar com nomes conhecidos do cinema nacional.</p>
-        <p>A polícia instaurou um inquérito para apurar as causas do acidente. Técnicos de segurança do trabalho também devem ser ouvidos nos próximos dias. Ainda não há previsão de retorno das gravações.</p>
-      </div>
-      <div class="meta">
-        <strong>Fontes:</strong> O Globo, UOL, G1, Estadão, CNN Brasil
-      </div>
-      <div class="images-gallery">
-        <h3>📸 Escolha a imagem:</h3>
-        <div class="img-grid">
-          
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_0" value="0">
-            <label for="img_2_0">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_1" value="1">
-            <label for="img_2_1">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_2" value="2">
-            <label for="img_2_2">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_3" value="3">
-            <label for="img_2_3">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_4" value="4">
-            <label for="img_2_4">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_5" value="5">
-            <label for="img_2_5">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_6" value="6">
-            <label for="img_2_6">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_7" value="7">
-            <label for="img_2_7">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="num">#3</span>
-        <span class="badge">TV</span><span class="badge score-badge">Score 156</span>
-      </div>
-      <h2>Estreia de Virginia no Domingão com Huck é avaliada pelo público: nota zero</h2>
-      <p class="excerpt">Quadro da influenciadora na TV Globo é criticado nas redes e recebe avaliação negativa. Atração foi ao ar direto da Copa.</p>
-      <div class="body-text">
-        <p>A estreia do quadro de Virginia Fonseca no &quot;Domingão com Huck&quot; foi recebida com críticas pesadas pelo público. A atração, que foi ao ar direto da Copa do Mundo, recebeu nota zero em algumas avaliações e foi descrita como &quot;esquisita&quot; por telespectadores nas redes sociais.</p>
-        <p>O quadro marca a estreia de Virginia como contratada da TV Globo, depois de meses de especulação sobre seu papel na emissora. A influenciadora, que construiu uma fortuna com o marketing digital e se tornou um dos maiores nomes da internet brasileira, fez sua primeira aparição no programa dominical direto dos Estados Unidos, onde acompanha a Copa.</p>
-        <p>A recepção, no entanto, não foi das melhores. Nas redes sociais, o público dividiu opiniões — enquanto alguns seguidores elogiaram a oportunidade dada a Virginia, uma parcela significativa dos telespectadores classificou a estreia como &quot;sem graça&quot;, &quot;fora do tom&quot; e até &quot;constrangedora&quot;. Um perfil de análise de audiência chegou a dar nota zero ao quadro, gerando debates na web.</p>
-        <p>A atração faz parte de uma estratégia da Globo de renovar o &quot;Domingão com Huck&quot; e atrair o público jovem para a TV aberta. Virginia, que tem mais de 50 milhões de seguidores nas redes, foi contratada justamente para trazer essa audiência digital para a televisão. Resta saber se a emissora vai manter o formato ou fazer ajustes para as próximas edições.</p>
-        <p>A influenciadora, por enquanto, não se pronunciou oficialmente sobre as críticas. Nas redes, continuou postando normalmente, incluindo bastidores da viagem e momentos ao lado do marido, Zé Felipe, e dos filhos.</p>
-      </div>
-      <div class="meta">
-        <strong>Fontes:</strong> Metrópoles, O Globo, VEJA, UOL, CNN Brasil
-      </div>
-      <div class="images-gallery">
-        <h3>📸 Escolha a imagem:</h3>
-        <div class="img-grid">
-          
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_0" value="0">
-            <label for="img_3_0">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_1" value="1">
-            <label for="img_3_1">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_2" value="2">
-            <label for="img_3_2">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_3" value="3">
-            <label for="img_3_3">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_4" value="4">
-            <label for="img_3_4">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_5" value="5">
-            <label for="img_3_5">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_6" value="6">
-            <label for="img_3_6">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_7" value="7">
-            <label for="img_3_7">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="num">#4</span>
-        <span class="badge">TV</span><span class="badge score-badge">Score 172</span>
-      </div>
-      <h2>Record cancela reality de Boninho em noite de jogo do Brasil na Copa</h2>
-      <p class="excerpt">&quot;Casa do Patrão&quot; é tirado do ar para não perder audiência. Participante mostra mais interesse na Copa do que no confinamento.</p>
-      <div class="body-text">
-        <p>A Record decidiu cancelar a exibição do reality show &quot;Casa do Patrão&quot;, comandado por Boninho, no dia do jogo do Brasil na Copa do Mundo. A atração foi tirada da programação para não enfrentar a concorrência direta do SBT, que transmitia a partida da seleção.</p>
-        <p>A decisão da emissora não pegou ninguém de surpresa. Com a Copa do Mundo tomando a atenção do país, disputar audiência contra o futebol é uma batalha perdida para qualquer programa de entretenimento. A Record já havia sinalizado preocupação com os números de audiência durante o período do Mundial.</p>
-        <p>&quot;Casa do Patrão&quot; é a aposta de Boninho fora da Globo, onde o diretor construiu sua carreira comandando realities como &quot;Big Brother Brasil&quot;. O formato coloca participantes confinados em uma casa disputando prêmios sob as regras do próprio Boninho. O programa vinha sendo exibido em horário nobre, mas a Copa bagunçou a programação de todas as emissoras.</p>
-        <p>Nos bastidores, um dos participantes do reality, identificado como JP, já teria demonstrado mais interesse na Copa do que no próprio confinamento. Segundo fontes da produção, JP passou o dia anterior ao jogo acompanhando a cobertura esportiva e mal se concentrava nas dinâmicas do programa.</p>
-        <p>A Record não informou se o reality será exibido em outro horário ou se os episódios cancelados serão reaproveitados. O jogo do Brasil movimenta toda a grade da TV brasileira, e as emissoras seguem ajustando suas programações conforme avança o Mundial.</p>
-      </div>
-      <div class="meta">
-        <strong>Fontes:</strong> UOL, Estadão, RD1, Notícias da TV, Pipoca Moderna
-      </div>
-      <div class="images-gallery">
-        <h3>📸 Escolha a imagem:</h3>
-        <div class="img-grid">
-          
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="num">#5</span>
-        <span class="badge">TV</span><span class="badge score-badge">Score 163</span>
-      </div>
-      <h2>A Casa do Dragão ganha teaser da 3ª temporada com guerra e tragédia</h2>
-      <p class="excerpt">Faltam oito dias para a estreia. Série promete o &quot;maior episódio de TV já feito&quot;, com batalhas épicas e tom mais sombrio.</p>
-      <div class="body-text">
-        <p>Faltam oito dias para a estreia da 3ª temporada de &quot;A Casa do Dragão&quot;, e a HBO acaba de liberar um novo teaser que promete sangue, fogo e tragédia. O vídeo mostra os sinais da guerra civil que está prestes a explodir entre os Targaryen, com dragões, exércitos e muita destruição.</p>
-        <p>A nova temporada chega com a promessa de entregar o que está sendo chamado de &quot;maior episódio de TV já feito&quot;. A declaração ousada partiu da própria produção, que vem preparando o terreno para a batalha que os fãs dos livros de George R.R. Martin conhecem bem: a Dança dos Dragões. O conflito entre Rhaenyra e Aegon II é o ponto central, e a terceira temporada promete entregar esse confronto em toda a sua magnitude.</p>
-        <p>O teaser também deixa claro que o tom será muito mais sombrio que nas temporadas anteriores. Cenas de corpos espalhados, cidades em chamas e personagens abatidos dominam os poucos segundos de material divulgado. &quot;Não espere um final feliz&quot; é o que ecoa nos comentários dos fãs, que já se preparam para perder personagens queridos.</p>
-        <p>A terceira temporada de &quot;A Casa do Dragão&quot; estreia na HBO e no Max em oito dias. A série, prelúdio de &quot;Game of Thrones&quot;, acompanha a história da casa Targaryen 200 anos antes dos eventos da série original. Com a guerra civil se aproximando, a expectativa é que essa seja a temporada mais intensa até agora. As duas primeiras temporadas estão disponíveis na plataforma para quem quiser maratonar antes da estreia.</p>
-      </div>
-      <div class="meta">
-        <strong>Fontes:</strong> cinepop.com.br, Estadão, Omelete, AdoroCinema, Canaltech
-      </div>
-      <div class="images-gallery">
-        <h3>📸 Escolha a imagem:</h3>
-        <div class="img-grid">
-          
-          <div class="img-option">
-            <input type="radio" name="img_5" id="img_5_0" value="0">
-            <label for="img_5_0">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_5" id="img_5_1" value="1">
-            <label for="img_5_1">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_5" id="img_5_2" value="2">
-            <label for="img_5_2">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_5" id="img_5_3" value="3">
-            <label for="img_5_3">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_5" id="img_5_4" value="4">
-            <label for="img_5_4">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_5" id="img_5_5" value="5">
-            <label for="img_5_5">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_5" id="img_5_6" value="6">
-            <label for="img_5_6">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-
-          <div class="img-option">
-            <input type="radio" name="img_5" id="img_5_7" value="7">
-            <label for="img_5_7">
-              <img src="" alt="" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
-              <span class="img-label">Imagem pendente de revisão</span>
-            </label>
-          </div>
-        </div>
-      </div>
-    </div>
-<div class="footer">BuzzPop Brasil &copy; 2026</div>
-</div>
+<article class="card" data-review-id="TW9ycmUgQW5uZSBTY2hl"><div class="card-top"><span class="num">Materia 01</span><span class="badge">TV</span><span class="badge muted">Score 156</span></div><h2>Anne Schedeen, estrela de &quot;ALF - O Eteimoso&quot;, morre aos 77 anos</h2><p class="line">Atriz que deu vida à matriarca Kate Tanner na série dos anos 1980 faleceu. Fãs e colegas prestam homenagens à artista.</p><div class="body-text"><p>A atriz Anne Schedeen, conhecida por interpretar Kate Tanner na série &quot;ALF - O Eteimoso&quot;, morreu aos 77 anos. A informação foi confirmada por colegas de elenco e rapidamente se espalhou pelas redes sociais, com fãs e amigos prestando homenagens à artista.</p><p>Anne era a matriarca da família Tanner na série que marcou a infância de milhões de brasileiros. Exibida originalmente entre 1986 e 1990, a produção contava a história do alienígena ALF que caía na garagem dos Tanner e passava a viver com a família. Ela interpretava a mãe paciente que mediava as confusões entre o extraterrestre e o marido Willie, papel de Max Wright.</p><p>A atriz construiu uma carreira sólida na TV americana antes e depois de ALF. Participou de séries como &quot;Three's Company&quot;, &quot;Simon &amp; Simon&quot; e &quot;Murder, She Wrote&quot;. Mas foi como Kate Tanner que ela ganhou o coração do público brasileiro — afinal, a série foi um fenômeno de audiência no país, reprisada diversas vezes ao longo dos anos 1990 e 2000 no SBT e em outras emissoras.</p><p>Até o momento, não foram divulgadas a causa da morte nem detalhes sobre o velório. A notícia gerou comoção entre fãs nostálgicos, que lotaram as redes com memes, cenas clássicas e agradecimentos à atriz. Muitos destacaram que Anne era a &quot;mãe de todos nós&quot; e que sua interpretação ajudou a tornar ALF uma série tão querida no Brasil.</p><p>Colegas de elenco também se manifestaram, destacando o profissionalismo e o carisma de Anne dentro e fora dos sets. A morte da atriz encerra um capítulo importante da história da TV: Anne era um dos últimos membros do elenco principal ainda vivos da série, e sua partida representa o fim de uma era para os fãs do alienígena mais querido da televisão.</p></div><p class="sources"><strong>Fontes:</strong> Omelete / G1 / UOL / Estadão / AdoroCinema</p><section class="image-block"><h3>Escolha a imagem</h3><div class="img-grid"><label class="img-option" for="img_1_0"><input type="radio" name="img_1" id="img_1_0" value=""><img src="../images/auto/selecao-interativa/anne-schedeen-estrela-de-alf-o-eteimoso-morre-aos-77-anos-img-01.jpg" alt="Anne Schedeen" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_1_1"><input type="radio" name="img_1" id="img_1_1" value="1"><img src="../images/auto/selecao-interativa/anne-schedeen-estrela-de-alf-o-eteimoso-morre-aos-77-anos-img-02.jpg" alt="Anne Schedeen" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_1_2"><input type="radio" name="img_1" id="img_1_2" value="2"><img src="../images/auto/selecao-interativa/anne-schedeen-estrela-de-alf-o-eteimoso-morre-aos-77-anos-img-03.jpg" alt="Anne Schedeen" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_1_3"><input type="radio" name="img_1" id="img_1_3" value="3"><img src="../images/auto/selecao-interativa/anne-schedeen-estrela-de-alf-o-eteimoso-morre-aos-77-anos-img-04.jpg" alt="Anne Schedeen" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_1_4"><input type="radio" name="img_1" id="img_1_4" value="4"><img src="../images/auto/selecao-interativa/anne-schedeen-estrela-de-alf-o-eteimoso-morre-aos-77-anos-img-05.jpg" alt="Anne Schedeen" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_1_5"><input type="radio" name="img_1" id="img_1_5" value="5"><img src="../images/auto/selecao-interativa/anne-schedeen-estrela-de-alf-o-eteimoso-morre-aos-77-anos-img-06.jpg" alt="Anne Schedeen" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_1_6"><input type="radio" name="img_1" id="img_1_6" value="6"><img src="../images/auto/selecao-interativa/anne-schedeen-estrela-de-alf-o-eteimoso-morre-aos-77-anos-img-07.jpg" alt="Anne Schedeen" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_1_7"><input type="radio" name="img_1" id="img_1_7" value="7"><img src="../images/auto/selecao-interativa/anne-schedeen-estrela-de-alf-o-eteimoso-morre-aos-77-anos-img-08.jpg" alt="Anne Schedeen" loading="lazy"><span class="img-label">Bing</span></label></div></section></article><article class="card" data-review-id="UHJvZmlzc2lvbmFsIGRl"><div class="card-top"><span class="num">Materia 02</span><span class="badge">TV</span><span class="badge muted">Score 156</span></div><h2>Profissional morre em acidente durante gravação da Disney na UFRJ</h2><p class="line">Técnico de audiovisual sofre acidente fatal nos bastidores da série &quot;Delegacia de Homicídios&quot;. Disney suspende gravações e polícia investiga o caso.</p><div class="body-text"><p>Um profissional de audiovisual morreu em um acidente durante a gravação da série &quot;Delegacia de Homicídios&quot;, produção original do Disney+, no campus da UFRJ, no Rio de Janeiro. A informação foi confirmada pela produção e pela polícia, que investiga as circunstâncias do ocorrido.</p><p>O acidente aconteceu nos bastidores da gravação, enquanto a equipe técnica preparava o set para mais uma cena. A vítima, cujo nome ainda não foi divulgado publicamente pela família, era um funcionário terceirizado contratado para a produção. O Samu foi acionado imediatamente, mas o profissional não resistiu aos ferimentos e morreu no local.</p><p>A Disney Brasil emitiu uma nota oficial lamentando profundamente o ocorrido. &quot;Estamos entristecidos com o trágico acidente ocorrido durante as gravações de uma de nossas produções. Nossos pensamentos estão com a família, amigos e colegas da vítima. A produção foi suspensa temporariamente enquanto prestamos suporte às equipes&quot;, diz o comunicado.</p><p>A série &quot;Delegacia de Homicídios&quot; é uma das apostas do Disney+ para o mercado brasileiro de conteúdo original. A trama acompanha o dia a dia de investigadores da polícia civil do Rio de Janeiro e vinha sendo gravada em locações reais para dar mais realismo às cenas. A produção já havia gerado expectativa por contar com nomes conhecidos do cinema nacional.</p><p>A polícia instaurou um inquérito para apurar as causas do acidente. Peritos criminais estiveram no local para os levantamentos iniciais. Técnicos de segurança do trabalho também devem ser ouvidos nos próximos dias. Ainda não há previsão de retorno das gravações, que seguem suspensas por tempo indeterminado.</p></div><p class="sources"><strong>Fontes:</strong> O Globo / UOL / G1 / Estadão / CNN Brasil</p><section class="image-block"><h3>Escolha a imagem</h3><div class="img-grid"><label class="img-option" for="img_2_0"><input type="radio" name="img_2" id="img_2_0" value=""><img src="../images/auto/selecao-interativa/profissional-morre-em-acidente-durante-gravacao-de-serie-da-disney-no-rj-img-01.jpg" alt="não se aplica" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_2_1"><input type="radio" name="img_2" id="img_2_1" value="1"><img src="../images/auto/selecao-interativa/profissional-morre-em-acidente-durante-gravacao-de-serie-da-disney-no-rj-img-02.webp" alt="não se aplica" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_2_2"><input type="radio" name="img_2" id="img_2_2" value="2"><img src="../images/auto/selecao-interativa/profissional-morre-em-acidente-durante-gravacao-de-serie-da-disney-no-rj-img-03.jpg" alt="não se aplica" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_2_3"><input type="radio" name="img_2" id="img_2_3" value="3"><img src="../images/auto/selecao-interativa/profissional-morre-em-acidente-durante-gravacao-de-serie-da-disney-no-rj-img-04.jpg" alt="não se aplica" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_2_4"><input type="radio" name="img_2" id="img_2_4" value="4"><img src="../images/auto/selecao-interativa/profissional-morre-em-acidente-durante-gravacao-de-serie-da-disney-no-rj-img-05.webp" alt="não se aplica" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_2_5"><input type="radio" name="img_2" id="img_2_5" value="5"><img src="../images/auto/selecao-interativa/profissional-morre-em-acidente-durante-gravacao-de-serie-da-disney-no-rj-img-06.jpg" alt="não se aplica" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_2_6"><input type="radio" name="img_2" id="img_2_6" value="6"><img src="../images/auto/selecao-interativa/profissional-morre-em-acidente-durante-gravacao-de-serie-da-disney-no-rj-img-07.jpg" alt="não se aplica" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_2_7"><input type="radio" name="img_2" id="img_2_7" value="7"><img src="../images/auto/selecao-interativa/profissional-morre-em-acidente-durante-gravacao-de-serie-da-disney-no-rj-img-08.jpg" alt="não se aplica" loading="lazy"><span class="img-label">Bing</span></label></div></section></article><article class="card" data-review-id="VmlyZ2luaWEgbm8gRG9t"><div class="card-top"><span class="num">Materia 03</span><span class="badge">TV</span><span class="badge muted">Score 156</span></div><h2>Estreia de Virginia no Domingão com Huck é avaliada pelo público: nota zero</h2><p class="line">Quadro da influenciadora na TV Globo é criticado nas redes e recebe avaliação negativa dos telespectadores. Atração foi ao ar direto da Copa do Mundo.</p><div class="body-text"><p>A estreia do quadro de Virginia Fonseca no &quot;Domingão com Huck&quot; foi recebida com críticas pesadas pelo público. A atração, que foi ao ar direto da Copa do Mundo, recebeu nota zero em algumas avaliações e foi descrita como &quot;esquisita&quot; por telespectadores nas redes sociais.</p><p>O quadro marca a estreia de Virginia como contratada da TV Globo, depois de meses de especulação sobre seu papel na emissora. A influenciadora, que construiu uma fortuna com o marketing digital e se tornou um dos maiores nomes da internet brasileira, fez sua primeira aparição no programa dominical direto dos Estados Unidos, onde acompanha a Copa.</p><p>A recepção, no entanto, não foi das melhores. Nas redes sociais, o público dividiu opiniões — enquanto alguns seguidores elogiaram a oportunidade dada a Virginia, uma parcela significativa dos telespectadores classificou a estreia como &quot;sem graça&quot;, &quot;fora do tom&quot; e até &quot;constrangedora&quot;. Um perfil de análise de audiência chegou a dar nota zero ao quadro, gerando debates acalorados na web.</p><p>A atração faz parte de uma estratégia da Globo de renovar o &quot;Domingão com Huck&quot; e atrair o público jovem para a TV aberta. Virginia, que tem mais de 50 milhões de seguidores nas redes, foi contratada justamente para trazer essa audiência digital para a televisão. Resta saber se a emissora vai manter o formato ou fazer ajustes para as próximas edições.</p><p>A influenciadora, por enquanto, não se pronunciou oficialmente sobre as críticas. Nas redes, continuou postando conteúdo normalmente, incluindo bastidores da viagem e momentos ao lado do marido, o cantor Zé Felipe, e dos filhos.</p></div><p class="sources"><strong>Fontes:</strong> Metrópoles / O Globo / VEJA / UOL / CNN Brasil</p><section class="image-block"><h3>Escolha a imagem</h3><div class="img-grid"><label class="img-option" for="img_3_0"><input type="radio" name="img_3" id="img_3_0" value=""><img src="../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-01.jpg" alt="Virginia Fonseca" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_3_1"><input type="radio" name="img_3" id="img_3_1" value="1"><img src="../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-02.jpg" alt="Virginia Fonseca" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_3_2"><input type="radio" name="img_3" id="img_3_2" value="2"><img src="../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-03.jpg" alt="Virginia Fonseca" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_3_3"><input type="radio" name="img_3" id="img_3_3" value="3"><img src="../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-04.webp" alt="Virginia Fonseca" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_3_4"><input type="radio" name="img_3" id="img_3_4" value="4"><img src="../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-05.jpg" alt="Virginia Fonseca" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_3_5"><input type="radio" name="img_3" id="img_3_5" value="5"><img src="../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-06.jpg" alt="Virginia Fonseca" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_3_6"><input type="radio" name="img_3" id="img_3_6" value="6"><img src="../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-07.jpg" alt="Virginia Fonseca" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_3_7"><input type="radio" name="img_3" id="img_3_7" value="7"><img src="../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-08.jpg" alt="Virginia Fonseca" loading="lazy"><span class="img-label">Bing</span></label></div></section></article><article class="card" data-review-id="UmVjb3JkIGNhbmNlbGEg"><div class="card-top"><span class="num">Materia 04</span><span class="badge">TV</span><span class="badge muted">Score 172</span></div><h2>Record cancela reality de Boninho em noite de jogo do Brasil na Copa</h2><p class="line">Emissora tira do ar o reality &quot;Casa do Patrão&quot; em dia de partida da seleção brasileira na Copa do Mundo e não esconde preocupação com a concorrência do SBT.</p><div class="body-text"><p>A Record cancelou a exibição do reality show &quot;Casa do Patrão&quot;, comandado por Boninho, em dia de jogo da seleção brasileira na Copa do Mundo. A decisão pegou o público de surpresa e mexeu com a programação da emissora.</p><p>A emissora não esconde o receio com a força do SBT na competição de audiência durante a Copa. A estratégia foi tirar o reality do ar na noite de partida do Brasil para evitar uma derrota ainda maior nos índices.</p><p>Enquanto isso, dentro da casa mais vigiada do Brasil, o participante JP vive um dilema à parte. Mais do que o jogo do reality, ele está preocupado com a Copa do Mundo e não esconde a ansiedade de acompanhar os jogos do Brasil.</p><p>Boninho, que já foi o grande nome do reality na Globo, agora enfrenta o desafio de emplacar o formato na Record. O cancelamento da edição em plena Copa mostra como o futebol ainda dita as regras da televisão brasileira.</p><p>A expectativa agora é saber se o reality volta com força total depois do término da Copa ou se a pausa vai esfriar o interesse do público.</p></div><p class="sources"><strong>Fontes:</strong> UOL / Estadão / RD1 / Notícias da TV / Pipoca Moderna</p><section class="image-block"><h3>Escolha a imagem</h3><div class="img-grid"><label class="img-option" for="img_4_0"><input type="radio" name="img_4" id="img_4_0" value=""><img src="../images/auto/selecao-interativa/record-cancela-reality-de-boninho-em-dia-de-jogo-do-brasil-na-copa-img-01.jpg" alt="Boninho" loading="lazy"><span class="img-label">Divulgação/Record</span></label></div></section></article><article class="card" data-review-id="4oCYQSBDYXNhIGRvIERy"><div class="card-top"><span class="num">Materia 05</span><span class="badge">TV</span><span class="badge muted">Score 163</span></div><h2>&quot;A Casa do Dragão&quot; ganha teaser da 3ª temporada com guerra e tragédia</h2><p class="line">Série da HBO retorna em oito dias com episódio que está sendo chamado de &quot;o maior já feito na TV&quot; e promete um tom ainda mais sombrio.</p><div class="body-text"><p>Faltam apenas oito dias para a estreia da terceira temporada de &quot;A Casa do Dragão&quot;, e a HBO acaba de lançar um teaser que promete guerra, tragédia e um tom muito mais sombrio do que as temporadas anteriores.</p><p>O novo trailer mostra cenas de batalhas épicas e um clima de tensão que deve marcar a nova fase da série. A produção está sendo chamada por críticos de &quot;o maior episódio de TV já feito&quot;, o que gerou ainda mais expectativa entre os fãs.</p><p>A terceira temporada promete mergulhar de cabeça na guerra civil dos Targaryen, conhecida como Dança dos Dragões. A série volta sem enrolação, focada no conflito que os livros de George R. R. Martin descrevem como um dos mais sangrentos de Westeros.</p><p>Diferente do que o público pode esperar, não há final feliz no horizonte. O showrunner já adiantou que a temporada será brutal e que ninguém está a salvo. Os dragões voltam ao céu, e o fogo vai consumir tudo.</p><p>A estreia está marcada para os próximos dias e promete ser um dos maiores eventos da televisão em 2026.</p></div><p class="sources"><strong>Fontes:</strong> cinepop.com.br / Estadão / Omelete / AdoroCinema / Canaltech</p><section class="image-block"><h3>Escolha a imagem</h3><div class="img-grid"><label class="img-option" for="img_5_0"><input type="radio" name="img_5" id="img_5_0" value=""><img src="../images/auto/selecao-interativa/a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia-img-01.jpg" alt="Elenco de A Casa do Dragão" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_5_1"><input type="radio" name="img_5" id="img_5_1" value="1"><img src="../images/auto/selecao-interativa/a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia-img-02.jpg" alt="Elenco de A Casa do Dragão" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_5_2"><input type="radio" name="img_5" id="img_5_2" value="2"><img src="../images/auto/selecao-interativa/a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia-img-03.jpg" alt="Elenco de A Casa do Dragão" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_5_3"><input type="radio" name="img_5" id="img_5_3" value="3"><img src="../images/auto/selecao-interativa/a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia-img-04.jpg" alt="Elenco de A Casa do Dragão" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_5_4"><input type="radio" name="img_5" id="img_5_4" value="4"><img src="../images/auto/selecao-interativa/a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia-img-05.jpg" alt="Elenco de A Casa do Dragão" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_5_5"><input type="radio" name="img_5" id="img_5_5" value="5"><img src="../images/auto/selecao-interativa/a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia-img-06.jpg" alt="Elenco de A Casa do Dragão" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_5_6"><input type="radio" name="img_5" id="img_5_6" value="6"><img src="../images/auto/selecao-interativa/a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia-img-07.jpg" alt="Elenco de A Casa do Dragão" loading="lazy"><span class="img-label">Bing</span></label><label class="img-option" for="img_5_7"><input type="radio" name="img_5" id="img_5_7" value="7"><img src="../images/auto/selecao-interativa/a-casa-do-dragao-ganha-teaser-da-3-temporada-com-guerra-e-tragedia-img-08.webp" alt="Elenco de A Casa do Dragão" loading="lazy"><span class="img-label">Bing</span></label></div></section></article><div class="footer">Site Hibrido &copy; 2026</div>
+</main>
 </body>
 </html>
