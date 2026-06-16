@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T21:13:35.615Z",
+  "generatedAt": "2026-06-16T22:31:49.828Z",
   "sourceGeneratedAt": "2026-06-16T20:47:03.014Z",
   "mode": "selecao-interativa-oficial",
   "items": [
@@ -21,17 +21,17 @@
         "Notícias da TV"
       ],
       "sourceCount": 5,
-      "image": "../images/auto/selecao-interativa/carol-dantas-nega-indireta-e-rebate-criticas-sobre-viagem-com-neymar-na-copa-img-01.jpg",
+      "image": "../images/auto/selecao-interativa/carol-dantas-nega-indireta-e-rebate-criticas-sobre-viagem-com-neymar-na-copa-img-01.webp",
       "imageAlt": "Carol Dantas",
       "imageOptions": [
         {
-          "url": "../images/auto/selecao-interativa/carol-dantas-nega-indireta-e-rebate-criticas-sobre-viagem-com-neymar-na-copa-img-01.jpg",
+          "url": "../images/auto/selecao-interativa/carol-dantas-nega-indireta-e-rebate-criticas-sobre-viagem-com-neymar-na-copa-img-01.webp",
           "originalUrl": "https://www.mundopositivo.com.br/wp-content/uploads/2018/07/carol-dantas-agradece-neymar-e-marquezine-por-festa-do-filho-1.jpg",
           "pageUrl": "https://www.mundopositivo.com.br/diversao/carol-dantas-agradece-neymar-e-marquezine-por-festa-do-filho/",
           "credit": "Bing",
           "source": "Bing",
           "title": "Mundo Positivo » Carol Dantas agradece Neymar e Marquezine por festa do ...",
-          "bytes": 166269
+          "bytes": 42716
         },
         {
           "url": "../images/auto/selecao-interativa/carol-dantas-nega-indireta-e-rebate-criticas-sobre-viagem-com-neymar-na-copa-img-02.png",
@@ -87,90 +87,333 @@
           "title": "Neymar interage com a ex Carol Dantas em foto do filho: 'Galego ...",
           "bytes": 73742
         }
-      ]
+      ],
+      "rewriteStatus": "complete",
+      "requestedNumber": 3
     },
     {
       "num": 2,
-      "id": "SXZhbiBNb3LDqSDDqSBk",
-      "reviewId": "SXZhbiBNb3LDqSDDqSBk",
-      "slug": "ivan-more-e-demitido-da-leodias-tv-durante-cobertura-da-copa-do-mundo",
-      "title": "Ivan Moré é demitido da LeoDias TV durante cobertura da Copa do Mundo",
-      "excerpt": "Jornalista ex-Globo é dispensado em meio à transmissão do Mundial. Demissão surpreende colegas e público que acompanhava a cobertura do canal.",
+      "id": "Q29yYcOnw6NvIEFjZWxl",
+      "reviewId": "Q29yYcOnw6NvIEFjZWxl",
+      "slug": "agrado-e-leandro-terminam-namoro-em-coracao-acelerado",
+      "title": "Agrado e Leandro terminam namoro em \"Coração Acelerado\"",
+      "excerpt": "Crise do casal chega ao fim depois de música com João Raul; Agrado toma atitude sobre o ex.",
       "category": "TV",
-      "score": 222,
-      "body": "Ivan Moré foi demitido da LeoDias TV em meio à cobertura da Copa do Mundo. O jornalista, que ganhou destaque nacional durante sua passagem pela Globo, foi dispensado pela emissora enquanto o torneio ainda está em andamento, surpreendendo colegas de trabalho e o público que acompanhava suas participações.\n\nA demissão aconteceu de forma inesperada e as causas ainda não foram oficialmente esclarecidas pela emissora ou pelo próprio jornalista. Ivan Moré estava atuando na cobertura do Mundial, um dos eventos mais importantes do calendário esportivo, e sua saída repentina pegou todos de surpresa. Nos bastidores, especula-se que diferenças editoriais ou questões contratuais podem ter motivado a decisão.\n\nIvan Moré construiu uma carreira sólida no jornalismo esportivo, tendo passado por veículos como a Globo, onde trabalhou por anos como repórter e apresentador. Sua contratação pela LeoDias TV havia sido vista como um reforço de peso para a emissora, que vem tentando se firmar no mercado de cobertura esportiva. A demissão em plena Copa representa um revés tanto para o jornalista quanto para o canal.\n\nA LeoDias TV ainda não se pronunciou oficialmente sobre o ocorrido. Ivan Moré também não comentou publicamente a demissão até o momento. Enquanto isso, a cobertura da Copa do Mundo segue sem sua participação, e o mercado especula sobre qual será o próximo passo do jornalista após essa saída inesperada.",
+      "score": 193,
+      "body": "O namoro de Agrado e Leandro chegou ao fim em \"Coração Acelerado\". O casal, que vinha enfrentando uma crise nos últimos capítulos, não resistiu aos desdobramentos da trama e a relação chegou ao ponto final.\n\nA gota d'água foi uma música com João Raul, que acabou selando de vez o destino do relacionamento. A canção mexeu com os sentimentos dos personagens e criou um clima que Agrado não conseguiu ignorar.\n\nApós o término, Agrado decide deixar a crise de lado e tomar uma atitude em relação ao ex. A virada promete movimentar os próximos capítulos da novela e reposicionar os personagens na trama.\n\nJoão Raul, por sua vez, se empolga depois de um chá poderoso e faz uma dança sensual no palco, criando um clima com Agrado. O triângulo amoroso ganha novos contornos e promete agitar o folhetim.\n\n\"Coracao Acelerado\" segue como um dos grandes sucessos da TV brasileira, e o fim do namoro de Agrado e Leandro promete render novos desdobramentos nos próximos capítulos.",
       "sources": [
-        "Notícias da TV",
-        "VEJA RIO",
-        "Banda B",
-        "sportingnews.com",
-        "Terra"
+        "NSC Total",
+        "UOL",
+        "Gshow",
+        "O TEMPO",
+        "Portal iG"
       ],
       "sourceCount": 5,
-      "image": "../images/auto/selecao-interativa/ivan-more-e-demitido-da-leodias-tv-durante-cobertura-da-copa-do-mundo-img-01.jpg",
-      "imageAlt": "Ivan Moré",
+      "image": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-01.jpg",
+      "imageAlt": "Agrado",
       "imageOptions": [
         {
-          "url": "../images/auto/selecao-interativa/ivan-more-e-demitido-da-leodias-tv-durante-cobertura-da-copa-do-mundo-img-01.jpg",
-          "originalUrl": "/images/auto/ivan-more-e-demitido-da-leodias-tv-durante-cobertura-da-copa-do-mundo.jpg",
-          "pageUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbUR6VVE2NFhxNldCYXJCVjZFejNhYmhhY2dUV0Z6dVpWT2pPemJvRUQ3MEhxaXlVOVI4RUV6aXdwc1NnX0kxVnBMQlBrbllvbEVoVEowXzVrSHB3dVBfaXk2SlpXSW80cERPNDNFZmN6OG1IdWJFME4yYk9QWE5hSElUMFFIVkFVTEdjNF9CekRBaE5NZ2ctam5lSTJaTC0tYmt5UG14ZFBwTnMxelVWY2VHdEh4eDdxcjg3cVA2R0NkLVNrNmpr0gHWAUFVX3lxTE10SVc3V0ZWMTVQZ2J0ZmczcEVnWGM2ZXdEcDctMHNtUkNVY0lTTzBMLUhYdFZIeW05OHZGMmlEUjFidmJlTlVVbkZrMk5qREtjdEpDbHIyZmJXeDFpTWZ0bzNiOTV4UE9od2FkeUR6QWRIbm1CYlNlbWJOX2J0QThuLTU1QUVPcWxQMVJraDBxMExTZWl2cllPRzhJUkt6S1FPTmpPZ0xHYWFVbC1WNWZpWmJveGdsZlljSWg5QWdLLUpuSVNqakc3SUk2QnJjVVVIZUtwbmc?oc=5",
-          "credit": "Reprodução/Globo",
-          "source": "",
-          "title": "",
-          "bytes": 39879
+          "url": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-01.jpg",
+          "originalUrl": "https://s2-g1.glbimg.com/pba2ZGH-Papw9vRKkmTXzCzBw-M=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/A/A/6gbNBRRAqsYgph33TBng/agradojoao-manoellamello.jpg",
+          "pageUrl": "https://g1.globo.com/pop-arte/musica/blog/mauro-ferreira/post/2025/10/25/conheca-agrado-garcia-e-joao-raul-cantores-da-ficcao-que-guiam-a-trama-sertaneja-da-novela-coracao-acelerado.ghtml",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Conheça Agrado Garcia e João Raul, cantores da ficção que guiam a trama ...",
+          "bytes": 982471
+        },
+        {
+          "url": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-02.png",
+          "originalUrl": "https://s2-oglobo.glbimg.com/0hLn-DR-k3G6P3xqWK920Z_qnSE=/0x0:565x455/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/L/R/TcUDwWS9esRznxP2rNIg/joaoagrado.png",
+          "pageUrl": "https://oglobo.globo.com/play/novelas/noticia/2025/12/13/coracao-acelerado-tera-grande-misterio-envolvendo-protagonista-e-possivel-arco-de-redencao-para-vila.ghtml",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "'Coração acelerado' terá grande mistério envolvendo protagonista e ...",
+          "bytes": 38953
+        },
+        {
+          "url": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-03.jpg",
+          "originalUrl": "https://www.centraldoentretenimento.com/wp-content/uploads/2025/12/coracaoaceleradotv_1766074012664-scaled.jpeg",
+          "pageUrl": "https://www.centraldoentretenimento.com/coracao-acelerado-agrado-garcia-e-joao-raul-duas-vozes-ligadas-pelo-batimento-acelerado-do-coracao/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Coração Acelerado | Agrado Garcia e João Raul, duas vozes ligadas pelo ...",
+          "bytes": 716883
+        },
+        {
+          "url": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-04.jpg",
+          "originalUrl": "https://s2-redeglobo.glbimg.com/aGooV8GCj4lu7Jd4JZGz2Zt60Yk=/2362x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2025/4/g/1ELzm1Q6mtGaLbsX0UBQ/assets-fotos-1297-agrado-joao-raul-e-naiane-o-trio-que-faz-o-coracao-da-nova-trama-das-sete-pulsar-a4126696a064.jpg",
+          "pageUrl": "https://redeglobo.globo.com/redebahia/noticia/coracao-acelerado-conheca-agrado-joao-raul-e-naiane-protagonistas-da-proxima-novela-das-sete-da-tv-globo.ghtml",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "'Coração Acelerado': conheça Agrado, João Raul e Naiane, protagonistas ...",
+          "bytes": 1419741
+        },
+        {
+          "url": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-05.webp",
+          "originalUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/10/coracao-acelerado-1.jpg?w=849&h=477&crop=0",
+          "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/coracao-acelerado-tudo-o-que-se-sabe-sobre-a-nova-novela-das-7/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "\"Coração Acelerado\": tudo o que se sabe sobre a nova novela das 7 | CNN ...",
+          "bytes": 116542
+        },
+        {
+          "url": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-06.webp",
+          "originalUrl": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/11/coracao-acelerado-infancia-agrado-e1763722052989.jpg?w=1200&h=630&crop=1",
+          "pageUrl": "https://www.cnnbrasil.com.br/entretenimento/coracao-acelerado-como-foi-a-infancia-da-protagonista-agrado/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "\"Coração Acelerado\": como foi a infância da protagonista Agrado? | CNN ...",
+          "bytes": 78062
+        },
+        {
+          "url": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-07.jpg",
+          "originalUrl": "https://caras.com.br/wp-content/uploads/2026/01/agrado-e-joao-raul-coracao-acelerado.jpg",
+          "pageUrl": "https://caras.com.br/novelas/coracao-acelerado-como-sera-o-reencontro-entre-agrado-e-joao-raul.phtml",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Coração Acelerado: como será o reencontro entre Agrado e João Raul ...",
+          "bytes": 168422
+        },
+        {
+          "url": "../images/auto/selecao-interativa/agrado-e-leandro-terminam-namoro-em-coracao-acelerado-img-08.jpg",
+          "originalUrl": "https://tvprime.correiobraziliense.com.br/wp-content/uploads/2026/03/bFdTDFWgqn9Xy04o7OUjy5C06rvbdZ6PGCy5qZw0.jpg",
+          "pageUrl": "https://tvprime.correiobraziliense.com.br/noticia/371640/novelas/coracao-acelerado-agrado-ganha-presente-inacreditavel-quando-reencontra-leandro-17032026",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Coração Acelerado: Agrado ganha presente inacreditável quando ...",
+          "bytes": 69558
         }
-      ]
+      ],
+      "rewriteStatus": "complete",
+      "requestedNumber": 4
     },
     {
       "num": 3,
-      "id": "VmlyZ2luaWEgbm8gRG9t",
-      "reviewId": "VmlyZ2luaWEgbm8gRG9t",
-      "slug": "estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico",
-      "title": "Estreia de Virginia no Domingão com Huck é avaliada pelo público: nota zero",
-      "excerpt": "Quadro da influenciadora na TV Globo é criticado nas redes e recebe avaliação negativa dos telespectadores. Atração foi ao ar direto da Copa do Mundo.",
-      "category": "TV",
-      "score": 156,
-      "body": "A estreia do quadro de Virginia Fonseca no \"Domingão com Huck\" foi recebida com críticas pesadas pelo público. A atração, que foi ao ar direto da Copa do Mundo, recebeu nota zero em algumas avaliações e foi descrita como \"esquisita\" por telespectadores nas redes sociais.\n\nO quadro marca a estreia de Virginia como contratada da TV Globo, depois de meses de especulação sobre seu papel na emissora. A influenciadora, que construiu uma fortuna com o marketing digital e se tornou um dos maiores nomes da internet brasileira, fez sua primeira aparição no programa dominical direto dos Estados Unidos, onde acompanha a Copa.\n\nA recepção, no entanto, não foi das melhores. Nas redes sociais, o público dividiu opiniões — enquanto alguns seguidores elogiaram a oportunidade dada a Virginia, uma parcela significativa dos telespectadores classificou a estreia como \"sem graça\", \"fora do tom\" e até \"constrangedora\". Um perfil de análise de audiência chegou a dar nota zero ao quadro, gerando debates acalorados na web.\n\nA atração faz parte de uma estratégia da Globo de renovar o \"Domingão com Huck\" e atrair o público jovem para a TV aberta. Virginia, que tem mais de 50 milhões de seguidores nas redes, foi contratada justamente para trazer essa audiência digital para a televisão. Resta saber se a emissora vai manter o formato ou fazer ajustes para as próximas edições.\n\nA influenciadora, por enquanto, não se pronunciou oficialmente sobre as críticas. Nas redes, continuou postando conteúdo normalmente, incluindo bastidores da viagem e momentos ao lado do marido, o cantor Zé Felipe, e dos filhos.",
+      "id": "VmlyZ2luaWEgRm9uc2Vj",
+      "reviewId": "VmlyZ2luaWEgRm9uc2Vj",
+      "slug": "virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york",
+      "title": "Virginia Fonseca posa com bilionário Jacob Arabo, o \"rei dos relógios\", em Nova York",
+      "excerpt": "Influenciadora aparece ao lado do fundador da Jacob & Co, marca de relógios de luxo avaliados em milhões. Encontro reforça networking de Virginia nos EUA.",
+      "category": "Famosos",
+      "score": 190,
+      "body": "Virginia Fonseca posou ao lado do bilionário Jacob Arabo, fundador da Jacob & Co, durante sua passagem por Nova York. O encontro entre a influenciadora e o empresário conhecido como \"rei dos relógios de luxo\" aconteceu nesta semana e rendeu fotos que rapidamente circularam pelas redes sociais e perfis de fofoca.\n\nJacob Arabo é um joalheiro e relojoeiro de origem uzbeque que construiu um império no mercado de luxo americano. Sua marca, Jacob & Co, é conhecida por criar relógios e joias avaliados em dezenas de milhões de dólares, usados por celebridades como Jay-Z, Beyoncé, Cristiano Ronaldo e jogadores da NBA. Virginia apareceu nas fotos usando um look combinado com acessórios de luxo, incluindo um relógio avaliado em milhões.\n\nVirginia está nos Estados Unidos acompanhando a Copa do Mundo e tem aproveitado a viagem para fazer networking de alto nível e expandir seus negócios para além do mercado digital. O encontro com Arabo pode indicar possíveis parcerias ou colaborações futuras — a influenciadora, que construiu uma fortuna estimada em centenas de milhões com marketing digital, vem diversificando seus investimentos e ampliando sua atuação para o mercado de luxo.\n\nNas fotos divulgadas, Virginia aparece ao lado do empresário em um ambiente sofisticado. O encontro gerou burburinho entre os seguidores, que especulam sobre os bastidores da conversa e possíveis negócios. Virginia não detalhou o teor do encontro, mas a imagem ao lado de um dos nomes mais influentes do mercado de luxo mundial já fala por si sobre o novo patamar que a influenciadora busca alcançar.",
       "sources": [
-        "Metrópoles",
         "O Globo",
-        "VEJA",
         "UOL",
-        "CNN Brasil"
+        "CNN Brasil",
+        "Mais Novela",
+        "Diário do Litoral"
       ],
       "sourceCount": 5,
-      "image": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-01.jpg",
+      "image": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-01.jpg",
+      "imageAlt": "Virginia Fonseca e Jacob Arabo",
+      "imageOptions": [
+        {
+          "url": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-01.jpg",
+          "originalUrl": "https://www.otempo.com.br/content/dam/otempo/editorias/super-noticia/famosos/2025/10/super-noticia-relembre-os-namorados-famosos-de-virginia-fonseca-1761680743.jpeg",
+          "pageUrl": "https://www.otempo.com.br/super-noticia/famosos/2025/10/28/relembre-os-namorados-famosos-de-virginia-fonseca-lista-atualizada",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Relembre os namorados famosos de Virginia Fonseca; lista atualizada",
+          "bytes": 119009
+        },
+        {
+          "url": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-02.jpg",
+          "originalUrl": "https://www.marciapiovesan.com.br/wp-content/uploads/2024/12/virginia-fonseca-1.jpg",
+          "pageUrl": "https://www.marciapiovesan.com.br/famosos/virginia-fonseca-inicia-o-ano-com-reflexao-divina-veja.phtml",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Virginia Fonseca inicia o ano com reflexão divina; veja",
+          "bytes": 130602
+        },
+        {
+          "url": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-03.jpg",
+          "originalUrl": "https://digitei.com/wp-content/uploads/2025/07/virginia-fonseca.jpg",
+          "pageUrl": "https://digitei.com/quem-e-virginia-fonseca-a-historia-da-influenciadora-que-conquistou-o-brasil/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "QUEM É VIRGÍNIA FONSECA: A HISTÓRIA DA INFLUENCIADORA QUE CONQUISTOU O ...",
+          "bytes": 172389
+        },
+        {
+          "url": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-04.jpg",
+          "originalUrl": "https://static.wixstatic.com/media/171d83_0af287eff9a54963b6e8625dddf8e4bc~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_85,usm_0.66_1.00_0.01/171d83_0af287eff9a54963b6e8625dddf8e4bc~mv2.jpg",
+          "pageUrl": "https://www.amoreworldmagazine.com/post/jacob-arabo-fondatore-e-presidente-di-jacob-co",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Jacob Arabo, FONDATORE E PRESIDENTE DI JACOB&CO",
+          "bytes": 147537
+        },
+        {
+          "url": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-05.jpg",
+          "originalUrl": "https://c8.alamy.com/compde/2je0ejr/new-york-city-usa-23-juni-2022-manhattan-new-york-city-new-york-usa-23-juni-der-amerikanische-schmuck-und-uhrendesigner-jacob-arabo-und-seine-frau-angela-arabo-kommen-zur-jahrlichen-moonlight-gala-zugunsten-von-care-children-with-special-needs-1-die-am-23-juni-2022-in-der-casa-cipriani-in-manhattan-new-york-city-new-york-usa-stattfindet-foto-von-christian-loraimage-press-agency-quelle-image-press-agencyalamy-live-news-2je0ejr.jpg",
+          "pageUrl": "https://www.alamy.de/fotos-bilder/angela-arabo-und-jacob-arabo.html",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Angela arabo und jacob arabo -Fotos und -Bildmaterial in hoher ...",
+          "bytes": 142687
+        },
+        {
+          "url": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-06.jpg",
+          "originalUrl": "https://www.ofuxico.com.br/wp-content/uploads/2023/02/retrato-virginia-fonseca-estilosa.jpg",
+          "pageUrl": "https://www.ofuxico.com.br/moda-e-beleza/virginia-fonseca-surpreende-ao-exibir-relogio-de-ouro-de-r-105-mil/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Virginia Fonseca surpreende ao exibir relógio de ouro de R$ 105 mil",
+          "bytes": 140485
+        },
+        {
+          "url": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-07.jpg",
+          "originalUrl": "https://www.areavip.com.br/wp-content/uploads/2025/10/vini-jr-e-virginia-fonseca-2.jpg",
+          "pageUrl": "https://www.areavip.com.br/famosos/famosos-recriam-foto-de-virginia-fonseca-e-vini-jr-apos-assumirem-namoro/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Famosos recriam foto de Virginia Fonseca e Vini Jr após assumirem ...",
+          "bytes": 73476
+        },
+        {
+          "url": "../images/auto/selecao-interativa/virginia-fonseca-posa-com-bilionario-jacob-arabo-em-nova-york-img-08.jpg",
+          "originalUrl": "https://www.marciapiovesan.com.br/wp-content/uploads/2023/11/virginia-fonseca.jpg",
+          "pageUrl": "https://www.marciapiovesan.com.br/famosos/sensitiva-faz-previsao-surpreendente-sobre-novo-programa-de-virginia-fonseca-nao-vai-dar-certo.phtml",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Sensitiva faz previsão surpreendente sobre novo programa de Virginia ...",
+          "bytes": 724065
+        }
+      ],
+      "rewriteStatus": "complete",
+      "requestedNumber": 8
+    },
+    {
+      "num": 4,
+      "id": "U2hyZWsgNSBnYW5oYSB0",
+      "reviewId": "U2hyZWsgNSBnYW5oYSB0",
+      "slug": "shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos",
+      "title": "\"Shrek 5\" ganha trailer com Zendaya e filhos ogros já crescidos",
+      "excerpt": "Nova animação da DreamWorks revela primeiras imagens da trama e mostra como estão os filhos de Shrek e Fiona. Personagem de Zendaya rouba a cena no teaser.",
+      "category": "Cinema",
+      "score": 178,
+      "body": "\"Shrek 5\" ganhou seu primeiro trailer oficial, revelando detalhes da trama e os novos visuais dos personagens. A animação da DreamWorks, que chega aos cinemas após mais de uma década desde o último filme da franquia principal, traz Zendaya no elenco de voz e mostra os filhos dos ogros já crescidos, dando um salto temporal na história que conquistou o público nos anos 2000.\n\nO trailer apresenta uma história que se passa anos após os eventos dos filmes anteriores. Os filhos de Shrek e Fiona aparecem mais velhos, e a trama parece girar em torno dos desafios de uma nova geração de ogros e criaturas encantadas no reino de Tão Tão Distante. Zendaya dá voz a uma personagem misteriosa que deve ter papel central na história, mas a produção ainda mantém segredo sobre detalhes do roteiro e da participação da atriz vencedora do Emmy.\n\nA franquia \"Shrek\" marcou uma geração com seu humor ácido, referências pop e personagens carismáticos como o Burro, interpretado por Eddie Murphy, o Gato de Botas e o próprio Shrek na voz de Mike Myers. O quinto filme chega em um momento de retomada da nostalgia, com a DreamWorks apostando no retorno da franquia para reconquistar o público que cresceu assistindo aos filmes originais e também atrair uma nova geração de espectadores.\n\nO trailer já gerou enorme expectativa nas redes sociais, com fãs comentando cada frame e especulando sobre o rumo da história. A presença de Zendaya, uma das maiores estrelas de Hollywood da atualidade com passagens por \"Euphoria\", \"Duna\" e \"Homem-Aranha\", adiciona ainda mais peso à produção. \"Shrek 5\" tem estreia prevista para os próximos meses nos cinemas de todo o mundo, com data ainda a ser confirmada pela DreamWorks Animation.",
+      "sources": [
+        "TudoCelular.com",
+        "Globo",
+        "Notícias da TV",
+        "Omelete",
+        "papelpop"
+      ],
+      "sourceCount": 5,
+      "image": "../images/auto/selecao-interativa/shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos-img-01.png",
+      "imageAlt": "Shrek e Burro",
+      "imageOptions": [
+        {
+          "url": "../images/auto/selecao-interativa/shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos-img-01.png",
+          "originalUrl": "https://www.radioacktiva.com/wp-content/uploads/2025/02/270225-Shrek-5-redes.png",
+          "pageUrl": "https://www.radioacktiva.com/2025/revelan-primer-vistazo-de-shrek-5-con-rediseno-de-sus-protagonistas-cuando-se-estrena-368035.html",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Video: revelan primer tráiler de Shrek 5 con rediseño de personajes",
+          "bytes": 942869
+        },
+        {
+          "url": "../images/auto/selecao-interativa/shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos-img-02.jpg",
+          "originalUrl": "https://i.ytimg.com/vi/bIZpPKb6rcg/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=bIZpPKb6rcg",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Shrek 5 - First Trailer (2025) ｜ DreamWorks - YouTube",
+          "bytes": 173844
+        },
+        {
+          "url": "../images/auto/selecao-interativa/shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos-img-03.jpg",
+          "originalUrl": "https://cdn.milenio.com/uploads/media/2025/03/03/animatronico-burro-burla-trailer-shrek.jpg",
+          "pageUrl": "https://www.milenio.com/virales/animatronico-de-burro-se-burla-del-trailer-de-shrek-5",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Animatrónico de Burro se burla del tráiler de 'Shrek 5'- Grupo Milenio",
+          "bytes": 146343
+        },
+        {
+          "url": "../images/auto/selecao-interativa/shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos-img-04.jpg",
+          "originalUrl": "https://i.ytimg.com/vi/IYyfzav3x-M/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=IYyfzav3x-M",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "SHREK 5 OFFICIAL TRAILER (2025) | DreamWorks - YouTube",
+          "bytes": 179395
+        },
+        {
+          "url": "../images/auto/selecao-interativa/shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos-img-06.jpg",
+          "originalUrl": "https://i.ytimg.com/vi/7foujwANBcs/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=7foujwANBcs",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Shrek 5 - Teaser Trailer (2026) | DreamWorks - YouTube",
+          "bytes": 142511
+        },
+        {
+          "url": "../images/auto/selecao-interativa/shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos-img-07.jpg",
+          "originalUrl": "https://i.ytimg.com/vi/D3SClga6zrY/maxresdefault.jpg",
+          "pageUrl": "https://www.youtube.com/watch?v=D3SClga6zrY",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Shrek 5 - First Trailer (2025) | DreamWorks - YouTube",
+          "bytes": 175830
+        },
+        {
+          "url": "../images/auto/selecao-interativa/shrek-5-ganha-trailer-com-zendaya-e-filhos-ogros-crescidos-img-08.jpg",
+          "originalUrl": "https://img.youtube.com/vi/KbiwL74KyJQ/maxresdefault.jpg",
+          "pageUrl": "https://www.bestmovie.it/video/shrek-5-il-teaser-trailer/923651/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Shrek 5 - Il teaser trailer",
+          "bytes": 117225
+        }
+      ],
+      "rewriteStatus": "complete",
+      "requestedNumber": 10
+    },
+    {
+      "num": 5,
+      "id": "RXN0cmVpYSBkZSBWaXJnaW5pYSBGb25zZWNh",
+      "reviewId": "U2FpYmEgcXVhbCBmb2kg",
+      "slug": "estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado",
+      "title": "Estreia de Virginia Fonseca no Domingão com Huck tem ibope revelado",
+      "excerpt": "Audiência da estreia de Virginia como apresentadora do Domingão com Huck é divulgada e já causa debate.",
+      "category": "TV",
+      "score": 174,
+      "body": "A estreia de Virginia Fonseca como apresentadora do \"Domingão com Huck\" já tem seus números de audiência revelados, e o resultado acendeu o alerta na Globo. A atração marcou uma das piores audiências desde que Luciano Huck assumiu o comando do programa.\n\nOs números colocam a atração em terceiro lugar no ranking, atrás da Record e do SBT. A estreia, que era aguardada com expectativa pela emissora, não conseguiu reter a audiência esperada para um domingo à noite.\n\nVirginia, que vinha de uma carreira consolidada como influenciadora digital e empresária, enfrenta agora o desafio de se firmar como apresentadora de TV aberta. A transição do digital para a televisão tradicional nem sempre é simples, e os números mostram que o público ainda está se adaptando à nova formação.\n\nA Globo, no entanto, não deve tomar decisões precipitadas baseadas apenas na estreia. A emissora costuma dar tempo para que novos formatos e apresentadores encontrem seu público, especialmente em um programa tradicional como o Domingão.\n\nA expectativa agora é para os próximos episódios, onde a audiência pode se estabilizar ou crescer à medida que o público se acostuma com Virginia no comando ao lado de Huck.",
+      "sources": [
+        "Notícias da TV",
+        "NaTelinha",
+        "OFuxico",
+        "Estadão",
+        "RD1"
+      ],
+      "sourceCount": 5,
+      "image": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-01.jpg",
       "imageAlt": "Virginia Fonseca",
       "imageOptions": [
         {
-          "url": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-01.jpg",
-          "originalUrl": "https://180graus.com/180graus/media/image_bank/2026/2/virginia_5809921789460332194.png.1200x0_q85_crop.jpg",
-          "pageUrl": "https://180graus.com/famosos/virginia-fonseca-grava-como-convidada-no-domingao-com-huck-e-comenta-estreia-no-carnaval/",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Virginia Fonseca grava como convidada no \"Domingão com Huck\" e comenta ...",
-          "bytes": 132085
+          "url": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-01.jpg",
+          "originalUrl": "https://assets.portalleodias.com/2024/04/WhatsApp-Image-2026-02-11-at-16.49.33-615x461.jpeg",
+          "pageUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMnlaVGFVcjM2OE1EWnVPUmYxeEFiV3pxRy1WTnhKMmxZUFVVRFVMT0RfTURpVldHd0Z3bURKTGFuRzdHb1RtTGxhc1k2RTBwWE1PTVRjbEdpTUphZzRQVWQzQ2ZmZFRQQkR3Vy1TUTZ6RWRTSjFTOHBiRFlob0pySWthanhPcnFweFdsWEdVVXlXak0wNjlmVElnRzNDNXZqRDFLYW4wQktaS1VDUEwzbUdXcFlkVUp2aW1uamxrazlwTnY4OHlDcWctYzbSAdsBQVVfeXFMUElCY1B3UGJ5NVpGX2pENE42cVJ0YXFpZHVhcGUtbjRCSVhNMlo1OUkzRU55cFF4TmJja2QyTEd5cW53NkExRTRvYlNpZ2xzaWNqZ1FGZUN5OTZFQUE0YjBQeXpzOUt5aDVXSVJFN2hiZVdSWG8yV1p6TXRDenRKMThTQmJGTzJwUFRBQ2t6b01sclFCMmNZb2ktZkt2ME5hWUxXXzlkMFBXdDVqSWNUYTF3WHZSSDBwX3ZUU29NUGxiZE9Ea2Y5VUJtRHVNMVlfTUZ0S2NQWEVhQlJ3?oc=5",
+          "credit": "Foto: Virginia Fonseca chega à Globo",
+          "source": "",
+          "title": "",
+          "bytes": 48715
         },
         {
-          "url": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-02.jpg",
-          "originalUrl": "https://portalaltadefinicao.com/wp-content/uploads/2022/02/huck-860x574.jpg",
-          "pageUrl": "https://portalaltadefinicao.com/domingao-com-huck-estreia-novo-quadro-neste-domingo-6/",
+          "url": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-02.webp",
+          "originalUrl": "https://p2.trrsf.com/image/fget/cf/1548/0/images.terra.com/2026/02/12/1584042883-luciano-huck-virginia.jpg",
+          "pageUrl": "https://www.terra.com.br/diversao/gente/luciano-huck-aprova-virginia-como-reporter-da-copa-no-domingao-eu-adoraria,ed4cbc8e523389d1117081a4b7cfdcb5a6qo7vpq.html",
           "credit": "Bing",
           "source": "Bing",
-          "title": "Domingão com Huck estreia novo quadro neste domingo (6)",
-          "bytes": 58425
+          "title": "Luciano Huck aprova Virginia como repórter da Copa no 'Domingão': 'Eu ...",
+          "bytes": 63216
         },
         {
-          "url": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-03.jpg",
-          "originalUrl": "https://www.tvpop.com.br/wp-content/uploads/elementor/thumbs/virginia-fonseca-e-vini-jr-1-rj9gtsp68kmvgo54a7aoqek4sm2a3bt88xhvl4lctc.jpg",
-          "pageUrl": "https://www.tvpop.com.br/348219/vini-jr-surpreende-virginia-fonseca-no-domingao-com-huck-logo-estaremos-juntos/",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Vini Jr. surpreende Virginia Fonseca no Domingão com Huck: \"Logo ...",
-          "bytes": 81869
-        },
-        {
-          "url": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-04.webp",
+          "url": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-03.webp",
           "originalUrl": "https://statics.otvfoco.com.br/2026/02/Virginia-Fonseca-e-Luciano-Huck-no-Domingao-966x507.jpg",
           "pageUrl": "https://tvfoco.uai.com.br/apos-se-demitir-do-sbt-contrato-entre-virginia-e-globo-e-exposto/",
           "credit": "Bing",
@@ -179,7 +422,7 @@
           "bytes": 32044
         },
         {
-          "url": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-05.jpg",
+          "url": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-04.jpg",
           "originalUrl": "https://www.areavip.com.br/wp-content/uploads/2026/04/virginia-fonseca-768x448.jpg",
           "pageUrl": "https://www.areavip.com.br/televisao/bastidores/virginia-fonseca-pode-ganhar-quadro-dentro-do-domingao-com-huck/",
           "credit": "Bing",
@@ -188,160 +431,44 @@
           "bytes": 35932
         },
         {
-          "url": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-06.jpg",
-          "originalUrl": "https://www.tvpop.com.br/wp-content/uploads/elementor/thumbs/virginia-domingao-com-huck-foto-reproducao-tv-globo-tvpop-rjbigdt6a136ja0mpxlhvjdh05nrougfc459yujiu8.jpg",
-          "pageUrl": "https://www.tvpop.com.br/348463/virginia-esquece-sabadou-e-faz-domingao-bater-recorde-no-digital-e-liderar-na-tv/",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Virginia esquece Sabadou e faz Domingão bater recorde no digital e ...",
-          "bytes": 87903
-        },
-        {
-          "url": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-07.jpg",
-          "originalUrl": "https://assets.portalleodias.com/2024/04/Ensaio-tecnico-concluido-com-sucesso-e-ontem-debaixo-de-chuuuuuvaaaaaaa-Energia-surreal-ver-4.jpg",
-          "pageUrl": "https://portalleodias.com/redes-sociais/virginia-fonseca-chega-a-globo-para-participacao-especial-no-domingao-com-huck",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Virginia Fonseca chega à Globo para participação especial no \"Domingão ...",
-          "bytes": 94698
-        },
-        {
-          "url": "../images/auto/selecao-interativa/estreia-de-virginia-no-domingao-com-huck-e-avaliada-pelo-publico-img-08.jpg",
+          "url": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-05.jpg",
           "originalUrl": "https://caras.com.br/wp-content/uploads/2026/02/virginia-domingao-com-huck.jpg",
           "pageUrl": "https://caras.com.br/tv/virginia-brilha-no-domingao-com-huck-e-revela-que-disse-nao-para-um-quadro-do-programa.phtml",
           "credit": "Bing",
           "source": "Bing",
           "title": "Virginia brilha no Domingão com Huck e revela que disse 'não' para um ...",
           "bytes": 494214
+        },
+        {
+          "url": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-06.jpg",
+          "originalUrl": "https://portalaltadefinicao.com/wp-content/uploads/2022/02/huck-860x574.jpg",
+          "pageUrl": "https://portalaltadefinicao.com/domingao-com-huck-estreia-novo-quadro-neste-domingo-6/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Domingão com Huck estreia novo quadro neste domingo (6)",
+          "bytes": 58425
+        },
+        {
+          "url": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-07.webp",
+          "originalUrl": "https://uploads.metropoles.com/wp-content/uploads/2022/02/04231059/Virginia-no-Caldeirao-com-Huck-1-768x1024.jpg",
+          "pageUrl": "https://www.metropoles.com/colunas/leo-dias/encontro-de-milhoes-saiba-o-que-virginia-fara-no-domingao-com-huck",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Encontro de milhões: saiba o que Virgínia fará no Domingão com Huck ...",
+          "bytes": 87748
+        },
+        {
+          "url": "../images/auto/selecao-interativa/estreia-de-virginia-fonseca-no-domingao-com-huck-tem-ibope-revelado-img-08.jpg",
+          "originalUrl": "https://www.tvpop.com.br/wp-content/uploads/2026/02/virginia-fonseca-e-vini-jr-1.jpg",
+          "pageUrl": "https://www.tvpop.com.br/348219/vini-jr-surpreende-virginia-fonseca-no-domingao-com-huck-logo-estaremos-juntos/",
+          "credit": "Bing",
+          "source": "Bing",
+          "title": "Vini Jr. surpreende Virginia Fonseca no Domingão com Huck: \"Logo ...",
+          "bytes": 98968
         }
-      ]
-    },
-    {
-      "num": 4,
-      "id": "UmVjb3JkIGNhbmNlbGEg",
-      "reviewId": "UmVjb3JkIGNhbmNlbGEg",
-      "slug": "record-cancela-reality-de-boninho-em-dia-de-jogo-do-brasil-na-copa",
-      "title": "Record cancela reality de Boninho em noite de jogo do Brasil na Copa",
-      "excerpt": "Emissora tira do ar o reality \"Casa do Patrão\" em dia de partida da seleção brasileira na Copa do Mundo e não esconde preocupação com a concorrência do SBT.",
-      "category": "TV",
-      "score": 172,
-      "body": "A Record cancelou a exibição do reality show \"Casa do Patrão\", comandado por Boninho, em dia de jogo da seleção brasileira na Copa do Mundo. A decisão pegou o público de surpresa e mexeu com a programação da emissora.\n\nA emissora não esconde o receio com a força do SBT na competição de audiência durante a Copa. A estratégia foi tirar o reality do ar na noite de partida do Brasil para evitar uma derrota ainda maior nos índices.\n\nEnquanto isso, dentro da casa mais vigiada do Brasil, o participante JP vive um dilema à parte. Mais do que o jogo do reality, ele está preocupado com a Copa do Mundo e não esconde a ansiedade de acompanhar os jogos do Brasil.\n\nBoninho, que já foi o grande nome do reality na Globo, agora enfrenta o desafio de emplacar o formato na Record. O cancelamento da edição em plena Copa mostra como o futebol ainda dita as regras da televisão brasileira.\n\nA expectativa agora é saber se o reality volta com força total depois do término da Copa ou se a pausa vai esfriar o interesse do público.",
-      "sources": [
-        "UOL",
-        "Estadão",
-        "RD1",
-        "Notícias da TV",
-        "Pipoca Moderna"
       ],
-      "sourceCount": 5,
-      "image": "../images/auto/selecao-interativa/record-cancela-reality-de-boninho-em-dia-de-jogo-do-brasil-na-copa-img-01.jpg",
-      "imageAlt": "Boninho",
-      "imageOptions": [
-        {
-          "url": "../images/auto/selecao-interativa/record-cancela-reality-de-boninho-em-dia-de-jogo-do-brasil-na-copa-img-01.jpg",
-          "originalUrl": "/images/auto/record-cancela-reality-de-boninho-em-dia-de-jogo-do-brasil-na-copa.jpg",
-          "pageUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNV1RLaHYzOXY0R2JIaDZfNkZFOVdfTU15SFRJVnZlTVp3V0dSb29Zc05wVzdkaUdQSEwwd1lKbFpfODhXY0dUWE9kS0hWci1mcHRraWdhQUI0TVJYcXVtUXFRQzF1THJMRllWUnR5Zm56bkk2ektzeDAybUd3SGY5Wjh2VjV3SGxYanJEbnFBM0NuZlpFN3VoeTZ4N2kzS0x4YlRDcWV5SkNnWUNWZ0Q2cERqUUN5M1diMVluXzJvZjBRN2pXdDdNb09pSTlSLTI1SGlmSWoydE1BQ0ZUa3RXWC1IVHRuSTTSAewBQVVfeXFMTWhDZlJoWUhqSWtpeFJ3LXA2WWlnLWNPWmRhUjItRG5UNlp6SHNvN0tYbnBRMlhwX0Y2bFpuR290SGtNNkN1cTRMbTlzMWZGX3p5T2NwTzFlUmN2LUFZVEJTWVE3eDNrVkhBTGhpZUhCSk9NMlNYSWpUZ3NnSi1qUjY1X0lpeDcxSUk4RFI1OWFNYkNnMEU0MmN0emxBX1JWLXJXb1pIekJPSnFmVlp0eTB4U3VtcVpoeWRjU2FobmxNM0NCa2d2cHc2WUtlVWJiYWEwX2o1cVl6TnZma1ZORUdsSFFrYWtqUWs1VFo?oc=5",
-          "credit": "Divulgação/Record",
-          "source": "",
-          "title": "",
-          "bytes": 101184
-        }
-      ]
-    },
-    {
-      "num": 5,
-      "id": "VmluZ2Fuw6dhIGRlIEFk",
-      "reviewId": "VmluZ2Fuw6dhIGRlIEFk",
-      "slug": "segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana",
-      "title": "Segunda fase de \"Quem Ama Cuida\" mostra vingança de Adriana",
-      "excerpt": "Novela entra em nova fase com gravação de cena-chave e primeiro alvo da vingança de Adriana.",
-      "category": "TV",
-      "score": 193,
-      "body": "A segunda fase da novela \"Quem Ama Cuida\" já tem data para começar e promete agitar a trama com a vingança de Adriana. A equipe de produção grava, nesta semana, uma cena-chave que marca a transição da novela para um novo momento.\n\nO primeiro alvo da vingança de Adriana não será Pilar nem Diná, como muitos imaginavam. A escolha vai provocar a ruína de uma família que até então era considerada \"perfeita\" na trama, pegando o público de surpresa.\n\nAdriana, que passou boa parte da novela como vítima das circunstâncias, agora assume o protagonismo de sua própria história. A virada promete reposicionar os personagens e criar novos conflitos na reta final da produção.\n\nA nova fase também pode trazer um triângulo amoroso envolvendo a personagem. Os rumores nos bastidores indicam que o roteiro prepara reviravoltas que vão mexer com o coração do público e mudar alianças dentro da novela.\n\nCom cenas intensas sendo gravadas nesta semana, a expectativa é que a segunda fase estreie nos próximos dias e mantenha o ritmo acelerado que consolidou \"Quem Ama Cuida\" como um dos grandes sucessos da TV brasileira.",
-      "sources": [
-        "Notícias da TV",
-        "O Globo",
-        "AdoroCinema",
-        "CNN Brasil",
-        "Observatório da TV"
-      ],
-      "sourceCount": 5,
-      "image": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-01.jpg",
-      "imageAlt": "Adriana",
-      "imageOptions": [
-        {
-          "url": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-01.jpg",
-          "originalUrl": "https://tvprime.correiobraziliense.com.br/wp-content/uploads/2026/04/UiS2slqJLOqRi7zh61G0JGlB2Bwo9rY3iCKgocsb.jpg",
-          "pageUrl": "https://tvprime.correiobraziliense.com.br/noticia/377356/novelas/quem-ama-cuida-conheca-a-historia-de-adriana-na-nova-novela-substituta-de-tres-gracas-06042026",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Quem Ama Cuida: conheça a história de Adriana na nova novela substituta ...",
-          "bytes": 104142
-        },
-        {
-          "url": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-02.webp",
-          "originalUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/04/16/tragedia-une-adriana-e-pedro-em-quem-ama-cuida-69e13861a13f3.webp",
-          "pageUrl": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/tragedia-une-adriana-e-pedro-em-quem-ama-cuida.html",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Tragédia une Adriana e Pedro em 'Quem Ama Cuida'",
-          "bytes": 32564
-        },
-        {
-          "url": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-03.webp",
-          "originalUrl": "https://www.otempo.com.br/adobe/dynamicmedia/deliver/dm-aid--bfd0b4b2-a3dc-4c95-b6af-4becc7696b14/quem-e-quem-em-quem-ama-cuida-conheca-a-historia-e-o-elenco-da-nova-novela-da-globo.webp?quality=90&preferwebp=true",
-          "pageUrl": "https://www.otempo.com.br/opiniao/andre-romano/2026/4/18/quem-e-quem-em-quem-ama-cuida-conheca-a-historia-e-o-elenco-da-nova-novela-da-globo",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Quem é quem em Quem Ama Cuida: Conheça a história e o elenco da nova ...",
-          "bytes": 87326
-        },
-        {
-          "url": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-04.jpg",
-          "originalUrl": "https://conteudo.imguol.com.br/c/entretenimento/69/2026/04/02/adriana-leticia-colin-em-quem-ama-cuida-1775179539375_v2_750x421.jpg",
-          "pageUrl": "https://www.uol.com.br/splash/noticias/2026/04/06/quem-ama-cuida-qual-e-a-historia-da-proxima-novela-das-9-veja-imagens.ghtm",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Quem Ama Cuida: qual é a história da substituta de Três Graças",
-          "bytes": 42447
-        },
-        {
-          "url": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-05.jpg",
-          "originalUrl": "https://www.tvpop.com.br/wp-content/uploads/2026/05/adriana-leticia-colin.jpg",
-          "pageUrl": "https://www.tvpop.com.br/editoria/novelas/quem-ama-cuida/",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Quem Ama Cuida - Tudo sobre a novela das nove da Globo",
-          "bytes": 135429
-        },
-        {
-          "url": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-06.webp",
-          "originalUrl": "https://todamidia.com.br/wp-content/uploads/2026/05/adriana-leticia-colin-e-pedro-chay-suede-em-quem-ama-cuida-1778874820070_v2_900x506-768x432.jpg",
-          "pageUrl": "https://todamidia.com.br/quem-ama-cuida-nova-novela-das-nove-walcyr-carrasco-elenco/",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Quem Ama Cuida: Conheça a história e o elenco da nova novela",
-          "bytes": 28318
-        },
-        {
-          "url": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-07.jpg",
-          "originalUrl": "https://otempo.scene7.com/is/image/sempreeditora/nova-novela-das-nove-quem-ama-cuida-tera-elenco-estrelado-e-historia-cheia-de-vinganca-e-misterio?qlt=90&ts=1776381784010&dpr=off",
-          "pageUrl": "https://www.otempo.com.br/opiniao/henrique-gameleira/2026/4/16/nova-novela-das-nove-quem-ama-cuida-tera-elenco-estrelado-e-historia-cheia-de-vinganca-e-misterio",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "Nova novela das nove \"Quem Ama Cuida\" terá elenco estrelado e história ...",
-          "bytes": 98063
-        },
-        {
-          "url": "../images/auto/selecao-interativa/segunda-fase-de-quem-ama-cuida-mostra-vinganca-de-adriana-img-08.jpg",
-          "originalUrl": "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2026/04/design-sem-nome-2026-04-14t130149653.jpg",
-          "pageUrl": "https://www.folhape.com.br/cultura/quem-ama-cuida-novela/480627/",
-          "credit": "Bing",
-          "source": "Bing",
-          "title": "\"Quem Ama Cuida\": Conheça a trama e saiba quando estreia a nova novela ...",
-          "bytes": 80062
-        }
-      ]
+      "rewriteStatus": "complete",
+      "requestedNumber": 12
     }
   ]
 }
