@@ -1,250 +1,389 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Seleção Interativa — BuzzPop</title>
+<meta name="description" content="Avalie cada matéria e escolha a imagem para publicação no BuzzPop. 16/06/2026.">
 <style>
 *,::after,::before{box-sizing:border-box;margin:0;padding:0}
-body{font-family:system-ui,-apple-system,sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.5}
-.container{max-width:860px;margin:0 auto;padding:1.5rem 1rem}
-.header h1{font-size:clamp(1.3rem,4vw,2rem);font-weight:900;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.25rem}
-.header p{color:#888;font-size:.82rem;margin-bottom:1rem}
-.header .hint{color:#facc15;font-size:.78rem;margin-bottom:1.5rem;padding:.5rem .7rem;background:#141414;border:1px solid #333;border-radius:8px}
-.stats{display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1.2rem;padding:.65rem 1rem;background:#141414;border:1px solid #222;border-radius:10px;font-size:.8rem}
-.stats span{display:flex;align-items:center;gap:.35rem}
-.stats strong{color:#facc15;font-size:.95rem}
-.card{background:#141414;border:1px solid #222;border-radius:12px;margin-bottom:1rem;overflow:hidden;transition:border-color .2s,border-width .2s}
-.card.approved{border-color:#22c55e;border-width:2px;background:#142014}
-.card.rejected{border-color:#ef4444;border-width:2px;background:#201414;opacity:.6}
-.card-body{padding:1rem}
-.card-header{display:flex;gap:.35rem;flex-wrap:wrap;margin-bottom:.5rem}
-.badge{font-size:.6rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;padding:.2rem .5rem;border-radius:6px}
-.cat-badge{background:#c12222;color:#fff}
-.score-badge{background:#1a1a1a;border:1px solid #333;color:#facc15}
-.card-title{font-size:1rem;font-weight:700;color:#fafafa;line-height:1.3;margin-bottom:.25rem;display:flex;align-items:flex-start;gap:.35rem}
-.card-num{display:inline-flex;align-items:center;justify-content:center;min-width:1.4rem;height:1.4rem;background:#c12222;color:#fff;border-radius:4px;font-size:.68rem;font-weight:900;flex-shrink:0;margin-top:1px}
-.card-excerpt{font-size:.82rem;color:#aaa;margin-bottom:.5rem;margin-left:1.75rem}
-.card-body-toggle{font-size:.7rem;color:#facc15;cursor:pointer;text-decoration:underline;display:inline-block;margin-bottom:.5rem;margin-left:1.75rem}
-.card-body-toggle:hover{color:#fff}
-.card-fullbody{font-size:.85rem;color:#ccc;line-height:1.55;margin-bottom:.5rem;display:none;padding:.55rem;background:#0f0f0f;border-radius:6px;border:1px solid #222;margin-left:0}
-.card-fullbody.show{display:block}
-.card-fullbody p{margin-bottom:.6rem}
-.card-fullbody p:last-child{margin-bottom:0}
-
-/* Image selection area */
-.img-select{display:flex;gap:.4rem;flex-wrap:wrap;margin:.5rem 0 .75rem}
-.img-opt{position:relative;width:calc(33.33% - .3rem);min-width:130px;border-radius:8px;overflow:hidden;border:2px solid #333;cursor:pointer;opacity:.65;transition:all .15s;background:#0a0a0a;flex:1}
-.img-opt:hover{opacity:.9;border-color:#666}
-.img-opt.selected{opacity:1;border-color:#22c55e;box-shadow:0 0 10px #22c55e33}
-.img-opt img{width:100%;height:100px;object-fit:cover;display:block;background:#1a1a1a}
-.img-opt .img-label{display:flex;align-items:center;justify-content:center;gap:.25rem;padding:.2rem;font-size:.58rem;color:#888;text-transform:uppercase;letter-spacing:.05em;background:#0f0f0f}
-.img-opt.selected .img-label{color:#22c55e;font-weight:700}
-
-.actions{display:flex;gap:.4rem;margin-top:.5rem}
-.btn{flex:1;padding:.5rem;border:none;border-radius:8px;font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em;cursor:pointer;transition:all .12s}
-.btn-approve{background:#1a3a1a;color:#22c55e;border:1px solid #22c55e33}
-.btn-approve:hover,.btn-approve.active{background:#22c55e;color:#000}
-.btn-approve.active{box-shadow:0 0 10px #22c55e33}
-.btn-reject{background:#3a1a1a;color:#ef4444;border:1px solid #ef444433}
-.btn-reject:hover,.btn-reject.active{background:#ef4444;color:#fff}
-.btn-reject.active{box-shadow:0 0 10px #ef444433}
-
-.output-section{background:#0f0f0f;border:1px solid #333;border-radius:12px;padding:1rem;margin-top:1.5rem;position:sticky;bottom:0}
-.output-section h3{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:#888;margin-bottom:.4rem}
-.output-box{background:#050505;border:1px solid #222;border-radius:8px;padding:.65rem;font-family:monospace;font-size:.75rem;color:#facc15;white-space:pre-wrap;word-break:break-all;min-height:50px;margin-bottom:.4rem;max-height:200px;overflow-y:auto}
-.output-actions{display:flex;gap:.4rem;flex-wrap:wrap}
-.btn-copy{background:#c12222;color:#fff;border:none;padding:.45rem .7rem;border-radius:6px;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;cursor:pointer}
-.btn-copy:hover{background:#d33}
-.btn-reset{background:#222;color:#aaa;border:1px solid #333;padding:.45rem .7rem;border-radius:6px;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;cursor:pointer}
-.btn-reset:hover{background:#333;color:#fff}
-.status-msg{text-align:center;padding:.4rem;font-size:.75rem;color:#888}
-.footer{text-align:center;padding:2rem 0;font-size:.7rem;color:#555}
+body{font-family:system-ui,-apple-system,sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.6;padding:1rem}
+.container{max-width:900px;margin:0 auto}
+h1{font-size:2rem;font-weight:900;margin-bottom:.3rem}
+.sub{color:#9ca3af;font-size:.9rem;margin-bottom:1.5rem}
+.card{background:#141414;border:1px solid #262626;border-radius:12px;padding:1.2rem;margin-bottom:1.5rem}
+.card-header{display:flex;gap:.6rem;align-items:center;margin-bottom:.8rem;flex-wrap:wrap}
+.num{background:#c12222;color:#fff;font-weight:900;padding:.2rem .6rem;border-radius:6px;font-size:.85rem}
+.badge{background:#202020;border:1px solid #333;color:#facc15;border-radius:999px;padding:.15rem .5rem;font-size:.7rem;font-weight:800;text-transform:uppercase}
+.score{color:#9ca3af;font-size:.8rem}
+h2{font-size:1.2rem;font-weight:800;margin-bottom:.5rem;line-height:1.3}
+.excerpt{color:#d1d5db;font-style:italic;margin-bottom:.6rem;font-size:.9rem;border-left:3px solid #c12222;padding-left:.7rem}
+.body-text{background:#1a1a1a;border-radius:8px;padding:.8rem;margin:.6rem 0;font-size:.92rem;color:#e5e7eb;line-height:1.5}
+.meta{font-size:.78rem;color:#a3a3a3;margin:.6rem 0}
+.images-gallery{margin:1rem 0}
+.images-gallery h3{font-size:.9rem;margin-bottom:.6rem;color:#facc15}
+.img-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.6rem}
+.img-option{position:relative;border:2px solid #333;border-radius:8px;overflow:hidden;cursor:pointer;transition:border-color .2s}
+.img-option input{position:absolute;opacity:0;width:0;height:0}
+.img-option:has(input:checked){border-color:#facc15;box-shadow:0 0 0 2px rgba(250,204,21,.3)}
+.img-option label{display:block;cursor:pointer}
+.img-option img{width:100%;height:140px;object-fit:cover;display:block}
+.img-option .img-label{display:block;padding:.35rem;font-size:.68rem;color:#a3a3a3;line-height:1.2}
+.footer{text-align:center;color:#666;font-size:.72rem;margin-top:2rem;text-transform:uppercase;letter-spacing:.08em}
+.instructions{background:#1a1a2e;border:1px solid #333;border-radius:8px;padding:.8rem;margin-bottom:1.2rem;font-size:.85rem;color:#d1d5db}
+.instructions strong{color:#facc15}
+@media(max-width:600px){.img-grid{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
 <div class="container">
-  <div class="header">
-    <h1>🎯 Seleção Interativa — BuzzPop</h1>
-    <div class="hint">⬇️ Para cada matéria: (1) escolha a <strong>imagem</strong> clicando nela (2) clique em <strong style="color:#22c55e">✓ Aprovar</strong> ou <strong style="color:#ef4444">✗ Rejeitar</strong>. No final, copie o código.</div>
-  </div>
-  <div class="stats" id="stats">
-    <span>📰 <strong id="totalCount">0</strong></span>
-    <span>✅ <strong id="approvedCount" style="color:#22c55e">0</strong></span>
-    <span>❌ <strong id="rejectedCount" style="color:#ef4444">0</strong></span>
-    <span>⏳ <strong id="pendingCount">0</strong></span>
-  </div>
-  <div id="articles"></div>
-  <div class="output-section">
-    <h3>📋 Código de Aprovação</h3>
-    <div class="output-box" id="outputCode">Aguardando suas escolhas...</div>
-    <div class="output-actions">
-      <button class="btn-copy" onclick="copyCode()">📋 Copiar código</button>
-      <button class="btn-reset" onclick="resetAll()">↻ Resetar</button>
-      <button class="btn-reset" onclick="approveAll()">✓ Aprovar todos</button>
-    </div>
-    <div class="status-msg" id="statusMsg"></div>
-  </div>
-  <div class="footer">BuzzPop Brasil &copy; 2026</div>
+<header>
+<h1>🎬 Seleção Interativa</h1>
+<p class="sub">16 de junho de 2026 · 5 matérias para avaliar</p>
+<div class="instructions">
+<strong>Instruções:</strong> Leia cada matéria, escolha a imagem clicando nela e depois confirme no grupo Buzz Pop pelos números.
 </div>
-<script>
-let articles = [];
+</header>
 
-async function loadData() {
-  try {
-    const r = await fetch('data.json');
-    articles = await r.json();
-    articles.forEach(a => { 
-      a.status = 'pending';
-      a.selectedImage = a.imageOptions.length > 0 ? 0 : -1;
-    });
-    renderAll();
-    updateStats();
-  } catch(e) {
-    document.getElementById('articles').innerHTML = '<p style="color:#ef4444">Erro ao carregar dados.</p>';
-  }
-}
-
-function renderAll() {
-  const container = document.getElementById('articles');
-  container.innerHTML = articles.map((a, idx) => {
-    const imgOpts = a.imageOptions.map((opt, oi) => {
-      const sel = a.selectedImage === oi ? 'selected' : '';
-      const label = opt.credit ? opt.credit.slice(0,20) : 'Opção ' + (oi+1);
-      return `<div class="img-opt ${sel}" onclick="selectImage(${idx},${oi})" data-idx="${idx}" data-opt="${oi}">
-        <img src="${opt.url}" alt="Opção ${oi+1}" loading="lazy" onerror="this.parentElement.style.display='none'">
-        <div class="img-label">📷 ${label}</div>
-      </div>`;
-    }).join('');
-
-    return `
-      <div class="card" id="card-${idx}" data-idx="${idx}">
-        <div class="card-body">
-          <div class="card-header">
-            <span class="badge cat-badge">${a.category}</span>
-            <span class="badge score-badge">🔥 ${a.score}</span>
+    <div class="card">
+      <div class="card-header">
+        <span class="num">#1</span>
+        <span class="badge">TV</span>
+        <span class="score">Score 156</span>
+      </div>
+      <h2>Anne Schedeen, estrela de ‘ALF - O Eteimoso’, morre aos 77 anos</h2>
+      <p class="excerpt">Atriz Anne Schedeen, conhecida por seu papel em ‘ALF - O Eteimoso’, faleceu aos 77 anos.</p>
+      <div class="body-text">
+        <p>A atriz Anne Schedeen, conhecida por interpretar Kate Tanner na série ‘ALF - O Eteimoso’, morreu aos 77 anos. A informação foi confirmada pelo elenco da produção, gerando luto entre os fãs e colegas de trabalho.</p>
+      </div>
+      <div class="meta">
+        <strong>Tags:</strong> Anne Schedeen, ALF, falecimento, TV<br>
+        <strong>Fontes:</strong> Omelete, G1, UOL, Estadão, AdoroCinema
+      </div>
+      <div class="images-gallery">
+        <h3>📸 Escolha a imagem:</h3>
+        <div class="img-grid">
+          
+          <div class="img-option">
+            <input type="radio" name="img_1" id="img_1_0" value="0">
+            <label for="img_1_0">
+              <img src="https://m.media-amazon.com/images/M/MV5BMTU0ODY5NzE1NV5BMl5BanBnXkFtZTgwNzcxMTY1MTE@._V1_.jpg" alt="Anne Schedeen" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 1 — via Bing</span>
+            </label>
           </div>
-          <div class="card-title">
-            <span class="card-num">${a.num}.</span>
-            <span>${a.title}</span>
+          <div class="img-option">
+            <input type="radio" name="img_1" id="img_1_1" value="1">
+            <label for="img_1_1">
+              <img src="https://c8.alamy.com/comp/HD6M8P/alf-anne-schedeen-1986-90-HD6M8P.jpg" alt="ALF, Anne Schedeen, 1986-90 Stock Photo - Alamy" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 2 — via Bing</span>
+            </label>
           </div>
-          <p class="card-excerpt">${a.excerpt}</p>
-          <span class="card-body-toggle" onclick="toggleBody(${idx})">📖 Ler matéria completa</span>
-          <div class="card-fullbody" id="body-${idx}">${a.body.split('\n\n').map(p => '<p>'+p+'</p>').join('')}</div>
-          <div class="img-select">${imgOpts}</div>
-          <div class="actions">
-            <button class="btn btn-approve" id="btn-approve-${idx}" onclick="setStatus(${idx},'approved')">✓ Aprovar</button>
-            <button class="btn btn-reject" id="btn-reject-${idx}" onclick="setStatus(${idx},'rejected')">✗ Rejeitar</button>
+          <div class="img-option">
+            <input type="radio" name="img_1" id="img_1_2" value="2">
+            <label for="img_1_2">
+              <img src="https://m.media-amazon.com/images/M/MV5BMzQ4NTM5MTAzMF5BMl5BanBnXkFtZTgwMzc0NDIyMjE@._V1_FMjpg_UX1000_.jpg" alt="ALF (1986)" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 3 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_1" id="img_1_3" value="3">
+            <label for="img_1_3">
+              <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2018/08/Anne-Schedeen-in-Alf.jpg" alt="Alf Cast &amp; Character Guide: Where The Actors Are Now" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 4 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_1" id="img_1_4" value="4">
+            <label for="img_1_4">
+              <img src="https://thumbs.worthpoint.com/zoom/images1/1/0416/07/anne-schedeen-smiling-portrait-alf_1_a8b4bc069b97a2419d53e5be7dc528ee.jpg" alt="ANNE SCHEDEEN PRETTY SMILING PORTRAIT ALF ORIGINAL 1990 NBC TV PHOTO ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 5 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_1" id="img_1_5" value="5">
+            <label for="img_1_5">
+              <img src="https://c8.alamy.com/comp/HD6M8R/alf-anne-schedeen-alf-1986-90-HD6M8R.jpg" alt="ALF, Anne Schedeen, Alf, 1986-90 Stock Photo - Alamy" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 6 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_1" id="img_1_6" value="6">
+            <label for="img_1_6">
+              <img src="https://c8.alamy.com/comp/BKCDE2/alf-tv-anne-schedeen-max-wright-benji-gregory-andrea-elson-alft-004-BKCDE2.jpg" alt="Anne schedeen alf hi-res stock photography and images - Alamy" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 7 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_1" id="img_1_7" value="7">
+            <label for="img_1_7">
+              <img src="https://image.pmgstatic.com/cache/resized/w468/files/images/film/photos/000/394/394533_78a943.jpg" alt="Anne Schedeen | Galéria - Promo | ČSFD.sk" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 8 — via Bing</span>
+            </label>
           </div>
         </div>
       </div>
-    `;
-  }).join('');
-}
+    </div>
 
-function selectImage(idx, optIdx) {
-  const a = articles[idx];
-  a.selectedImage = optIdx;
-  // Update visual
-  const parent = document.querySelector(`#card-${idx} .img-select`);
-  parent.querySelectorAll('.img-opt').forEach(el => {
-    el.classList.toggle('selected', parseInt(el.dataset.opt) === optIdx);
-  });
-  updateCode();
-}
+    <div class="card">
+      <div class="card-header">
+        <span class="num">#2</span>
+        <span class="badge">TV</span>
+        <span class="score">Score 156</span>
+      </div>
+      <h2>Profissional morre em acidente durante gravação de série da Disney no RJ</h2>
+      <p class="excerpt">Um profissional de audiovisual morreu em um acidente durante a gravação da série “Delegacia de Homicídios”, da Disney, no campus da UFRJ, no Rio de Janeiro.</p>
+      <div class="body-text">
+        <p>Um profissional de audiovisual morreu em um acidente durante a gravação da série “Delegacia de Homicídios”, da Disney, no campus da UFRJ, no Rio de Janeiro. A Disney suspendeu as gravações após o ocorrido, e a polícia investiga o caso.</p>
+      </div>
+      <div class="meta">
+        <strong>Tags:</strong> Disney, série, acidente, UFRJ, Rio de Janeiro<br>
+        <strong>Fontes:</strong> O Globo, UOL, G1, Estadão, CNN Brasil
+      </div>
+      <div class="images-gallery">
+        <h3>📸 Escolha a imagem:</h3>
+        <div class="img-grid">
+          
+          <div class="img-option">
+            <input type="radio" name="img_2" id="img_2_0" value="0">
+            <label for="img_2_0">
+              <img src="https://ofuxico.com.br/img/upload/noticias/2021/04/12/serie-disney_401011_36.jpg" alt="Disney+ anuncia gravação da série Pais por Acidente - OFuxico" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 1 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_2" id="img_2_1" value="1">
+            <label for="img_2_1">
+              <img src="https://portal.macae.ufrj.br/wp-content/uploads/2024/09/AVISO-CM-UFRJ-Macae-1.png" alt="Recesso dos dias 18 e 19 de setembro não se aplica ao Campus da UFRJ ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 2 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_2" id="img_2_2" value="2">
+            <label for="img_2_2">
+              <img src="https://cinepop.com.br/wp-content/uploads/2022/08/pais-por-acidente.jpg" alt="'Pais por Acidente': Nova série latina do Disney+ ganha trailer ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 3 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_2" id="img_2_3" value="3">
+            <label for="img_2_3">
+              <img src="https://lumiere-a.akamaihd.net/v1/images/papas_por_encargo_padres_adoptivos_6e0231df.jpeg?region=0,0,1300,1950" alt="'Pais Por Acidente': quem é quem na nova série original Disney+ ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 4 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_2" id="img_2_4" value="4">
+            <label for="img_2_4">
+              <img src="https://www.loslunesseriefilos.com/wp-content/uploads/2024/12/invisible-serie-noticia-1024x576.webp" alt="Crítica | Review Invisible serie Disney: Una adaptación impecable" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 5 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_2" id="img_2_5" value="5">
+            <label for="img_2_5">
+              <img src="https://www.cristalia.com.br/arquivos/655/dr%20tatiana%20laboratorio.jpg" alt="Polilaminina: como estudo da UFRJ devolveu movimentos de pacientes" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 6 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_2" id="img_2_6" value="6">
+            <label for="img_2_6">
+              <img src="https://cdn.observatoriodocinema.com.br/2024/08/depois-do-acidente-d-1024x576.jpg" alt="Depois do Acidente: Final explicado da 2ª temporada da série da Netflix" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 7 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_2" id="img_2_7" value="7">
+            <label for="img_2_7">
+              <img src="https://fr.web.img6.acsta.net/img/f2/b2/f2b2215afb5369a52c9cf9d323c1698f.jpg" alt="Photos et affiches de Accidente Saison 2 - AlloCiné" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 8 — via Bing</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
 
-function setStatus(idx, status) {
-  articles[idx].status = status;
-  const card = document.getElementById(`card-${idx}`);
-  card.classList.remove('approved','rejected');
-  if (status === 'approved') card.classList.add('approved');
-  if (status === 'rejected') card.classList.add('rejected');
-  
-  const ba = document.getElementById(`btn-approve-${idx}`);
-  const br = document.getElementById(`btn-reject-${idx}`);
-  ba.classList.toggle('active', status === 'approved');
-  ba.textContent = status === 'approved' ? '✓ Aprovado' : '✓ Aprovar';
-  br.classList.toggle('active', status === 'rejected');
-  br.textContent = status === 'rejected' ? '✗ Rejeitado' : '✗ Rejeitar';
-  
-  updateStats();
-  updateCode();
-}
+    <div class="card">
+      <div class="card-header">
+        <span class="num">#3</span>
+        <span class="badge">TV</span>
+        <span class="score">Score 156</span>
+      </div>
+      <h2>Estreia de Virginia no ‘Domingão com Huck’ é avaliada pelo público</h2>
+      <p class="excerpt">Público avalia estreia do quadro de Virginia Fonseca no ‘Domingão com Huck’, que recebeu nota zero e foi criticado como esquisito.</p>
+      <div class="body-text">
+        <p>A estreia do quadro de Virginia Fonseca no ‘Domingão com Huck’ foi avaliada pelo público. A atração recebeu nota zero e foi descrita como “esquisita”, direto da Copa.</p>
+      </div>
+      <div class="meta">
+        <strong>Tags:</strong> Virginia Fonseca, Domingão com Huck, TV Globo, estreia, crítica<br>
+        <strong>Fontes:</strong> Metrópoles, O Globo, VEJA, UOL, CNN Brasil
+      </div>
+      <div class="images-gallery">
+        <h3>📸 Escolha a imagem:</h3>
+        <div class="img-grid">
+          
+          <div class="img-option">
+            <input type="radio" name="img_3" id="img_3_0" value="0">
+            <label for="img_3_0">
+              <img src="https://180graus.com/180graus/media/image_bank/2026/2/virginia_5809921789460332194.png.1200x0_q85_crop.jpg" alt="Virginia Fonseca grava como convidada no &quot;Domingão com Huck&quot; e comenta ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 1 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_3" id="img_3_1" value="1">
+            <label for="img_3_1">
+              <img src="https://portalaltadefinicao.com/wp-content/uploads/2022/02/huck-860x574.jpg" alt="Domingão com Huck estreia novo quadro neste domingo (6)" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 2 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_3" id="img_3_2" value="2">
+            <label for="img_3_2">
+              <img src="https://www.tvpop.com.br/wp-content/uploads/elementor/thumbs/virginia-fonseca-e-vini-jr-1-rj9gtsp68kmvgo54a7aoqek4sm2a3bt88xhvl4lctc.jpg" alt="Vini Jr. surpreende Virginia Fonseca no Domingão com Huck: &quot;Logo ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 3 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_3" id="img_3_3" value="3">
+            <label for="img_3_3">
+              <img src="https://statics.otvfoco.com.br/2026/02/Virginia-Fonseca-e-Luciano-Huck-no-Domingao-966x507.jpg" alt="Após se demitir do SBT, contrato entre Virginia e Globo é exposto" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 4 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_3" id="img_3_4" value="4">
+            <label for="img_3_4">
+              <img src="https://www.areavip.com.br/wp-content/uploads/2026/04/virginia-fonseca-768x448.jpg" alt="Virginia Fonseca pode ganhar quadro dentro do Domingão com Huck ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 5 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_3" id="img_3_5" value="5">
+            <label for="img_3_5">
+              <img src="https://www.tvpop.com.br/wp-content/uploads/elementor/thumbs/virginia-domingao-com-huck-foto-reproducao-tv-globo-tvpop-rjbigdt6a136ja0mpxlhvjdh05nrougfc459yujiu8.jpg" alt="Virginia esquece Sabadou e faz Domingão bater recorde no digital e ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 6 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_3" id="img_3_6" value="6">
+            <label for="img_3_6">
+              <img src="https://assets.portalleodias.com/2024/04/Ensaio-tecnico-concluido-com-sucesso-e-ontem-debaixo-de-chuuuuuvaaaaaaa-Energia-surreal-ver-4.jpg" alt="Virginia Fonseca chega à Globo para participação especial no &quot;Domingão ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 7 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_3" id="img_3_7" value="7">
+            <label for="img_3_7">
+              <img src="https://caras.com.br/wp-content/uploads/2026/02/virginia-domingao-com-huck.jpg" alt="Virginia brilha no Domingão com Huck e revela que disse 'não' para um ..." loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 8 — via Bing</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
 
-function toggleBody(idx) {
-  document.getElementById(`body-${idx}`).classList.toggle('show');
-}
+    <div class="card">
+      <div class="card-header">
+        <span class="num">#4</span>
+        <span class="badge">TV</span>
+        <span class="score">Score 172</span>
+      </div>
+      <h2>Record cancela reality de Boninho em dia de jogo do Brasil na Copa</h2>
+      <p class="excerpt">Record tira do ar o reality “Casa do Patrão” em noite de jogo da seleção brasileira na Copa do Mundo.</p>
+      <div class="body-text">
+        <p>A Record cancelou a exibição do reality show “Casa do Patrão”, de Boninho, em dia de jogo da seleção brasileira na Copa do Mundo. A emissora também não esconde o medo do SBT na competição e tirou o programa do ar na noite de partida do Brasil. Enquanto isso, o participante JP, confinado na casa, está mais preocupado com a Copa do que com o reality.</p>
+      </div>
+      <div class="meta">
+        <strong>Tags:</strong> Record, Boninho, Casa do Patrão, Copa do Mundo, reality show<br>
+        <strong>Fontes:</strong> UOL, Estadão, RD1, Notícias da TV, Pipoca Moderna
+      </div>
+      <div class="images-gallery">
+        <h3>📸 Escolha a imagem:</h3>
+        <div class="img-grid">
+          
+        </div>
+      </div>
+    </div>
 
-function updateStats() {
-  const t = articles.length, ap = articles.filter(a=>a.status==='approved').length;
-  const rj = articles.filter(a=>a.status==='rejected').length;
-  document.getElementById('totalCount').textContent = t;
-  document.getElementById('approvedCount').textContent = ap;
-  document.getElementById('rejectedCount').textContent = rj;
-  document.getElementById('pendingCount').textContent = t - ap - rj;
-}
-
-function updateCode() {
-  const approved = articles.filter(a => a.status === 'approved');
-  const rejected = articles.filter(a => a.status === 'rejected');
-  const pending = articles.filter(a => a.status === 'pending');
-  
-  if (approved.length === 0 && rejected.length === 0) {
-    document.getElementById('outputCode').textContent = 'Aguardando suas escolhas...';
-    return;
-  }
-  
-  let code = '';
-  if (approved.length > 0) {
-    code += '✅ APROVADOS: ' + approved.map(a => a.num).join(', ') + '\n';
-    code += 'IDs: ' + approved.map(a => a.reviewId).join(',') + '\n';
-    code += 'FOTOS: ' + approved.map(a => {
-      const opt = a.imageOptions[a.selectedImage];
-      return a.num + '=' + (opt ? opt.url : (a.image || 'auto'));
-    }).join(' | ') + '\n';
-  }
-  if (rejected.length > 0) {
-    code += '❌ REJEITADOS: ' + rejected.map(a => a.num).join(', ') + '\n';
-  }
-  if (pending.length > 0) {
-    code += '⏳ PENDENTES: ' + pending.map(a => a.num).join(', ');
-  }
-  document.getElementById('outputCode').textContent = code;
-  document.getElementById('statusMsg').textContent = `${approved.length} aprovados · ${rejected.length} rejeitados · ${pending.length} pendentes`;
-}
-
-function copyCode() {
-  const code = document.getElementById('outputCode').textContent;
-  if (!code || code === 'Aguardando suas escolhas...') return;
-  navigator.clipboard.writeText(code).then(() => {
-    document.getElementById('statusMsg').textContent = '📋 Código copiado!';
-  }).catch(() => {
-    const ta = document.createElement('textarea');
-    ta.value = code; document.body.appendChild(ta);
-    ta.select(); document.execCommand('copy'); ta.remove();
-    document.getElementById('statusMsg').textContent = '📋 Código copiado!';
-  });
-}
-
-function resetAll() {
-  if (!confirm('Resetar todas as escolhas?')) return;
-  articles.forEach((a, idx) => {
-    a.status = 'pending';
-    const card = document.getElementById(`card-${idx}`);
-    card.classList.remove('approved','rejected');
-    document.getElementById(`btn-approve-${idx}`).className = 'btn btn-approve';
-    document.getElementById(`btn-approve-${idx}`).textContent = '✓ Aprovar';
-    document.getElementById(`btn-reject-${idx}`).className = 'btn btn-reject';
-    document.getElementById(`btn-reject-${idx}`).textContent = '✗ Rejeitar';
-  });
-  updateStats(); updateCode();
-}
-
-function approveAll() {
-  articles.forEach((a, idx) => setStatus(idx, 'approved'));
-}
-
-loadData();
-</script>
+    <div class="card">
+      <div class="card-header">
+        <span class="num">#5</span>
+        <span class="badge">TV</span>
+        <span class="score">Score 163</span>
+      </div>
+      <h2>‘A Casa do Dragão’ ganha teaser da 3ª temporada com guerra e tragédia</h2>
+      <p class="excerpt">Série retorna em oito dias com episódio considerado o maior já feito na TV.</p>
+      <div class="body-text">
+        <p>Faltam oito dias para a estreia da 3ª temporada de ‘A Casa do Dragão’. A série retorna com batalhas e o que está sendo chamado de “maior episódio de TV já feito”. O novo teaser promete guerra e um tom mais sombrio, sem final feliz.</p>
+      </div>
+      <div class="meta">
+        <strong>Tags:</strong> A Casa do Dragão, 3ª temporada, teaser, guerra, TV<br>
+        <strong>Fontes:</strong> cinepop.com.br, Estadão, Omelete, AdoroCinema, Canaltech
+      </div>
+      <div class="images-gallery">
+        <h3>📸 Escolha a imagem:</h3>
+        <div class="img-grid">
+          
+          <div class="img-option">
+            <input type="radio" name="img_5" id="img_5_0" value="0">
+            <label for="img_5_0">
+              <img src="https://cdn.observatoriodocinema.com.br/2025/11/casa-do-dragao-2.jpg" alt="A Casa do Dragão: Teaser mostra as primeiras cenas da 3ª temporada" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 1 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_5" id="img_5_1" value="1">
+            <label for="img_5_1">
+              <img src="https://cloud.estacaonerd.com/wp-content/uploads/2024/09/04160028/A-Casa-do-Dragao.jpg" alt="A Casa do Dragão | Confira o SENSACIONAL trailer da 3ª temporada" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 2 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_5" id="img_5_2" value="2">
+            <label for="img_5_2">
+              <img src="https://blackcompany.com.br/wp-content/uploads/2025/11/casa-do-dragao-1024x576.jpg" alt="HBO revela primeiro teaser da 3ª temporada de A Casa do Dragão - Black&amp;CO" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 3 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_5" id="img_5_3" value="3">
+            <label for="img_5_3">
+              <img src="https://poltronanerd.com.br/wp-content/uploads/2026/04/a-casa-do-dragao-trailer.jpg" alt="Confira o teaser trailer da 3ª temporada de A Casa do Dragão" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 4 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_5" id="img_5_4" value="4">
+            <label for="img_5_4">
+              <img src="https://multiversonoticias.com.br/wp-content/uploads/2022/08/a-casa-do-dragao.jpg" alt="&quot;A Casa do Dragão&quot; | Elenco revela o auge da Casa Targaryen em teaser" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 5 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_5" id="img_5_5" value="5">
+            <label for="img_5_5">
+              <img src="https://www.portaltela.com/s.01k8r8f7wx8pm/2026/02/a-casa-do-dragao-1-1-768x432.jpg" alt="Casa do Dragão ganha pôster oficial da 3ª temporada - Portal Tela" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 6 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_5" id="img_5_6" value="6">
+            <label for="img_5_6">
+              <img src="https://cdn.observatoriodocinema.com.br/2026/02/poster-dragao-br-1637x2048.jpg" alt="A Casa do Dragão: Pôster confirma estreia da 3ª temporada em junho" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 7 — via Bing</span>
+            </label>
+          </div>
+          <div class="img-option">
+            <input type="radio" name="img_5" id="img_5_7" value="7">
+            <label for="img_5_7">
+              <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/02/casa-do-dragao.jpg?w=1200&amp;h=630&amp;crop=1" alt="3ª temporada de &quot;A Casa do Dragão&quot; ganha data de estreia | CNN Brasil" loading="lazy" onerror="this.closest('.img-option').style.display='none'">
+              <span class="img-label">Opção 8 — via Bing</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="footer">BuzzPop Brasil &copy; 2026</div>
+</div>
 </body>
 </html>
