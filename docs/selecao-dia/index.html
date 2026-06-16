@@ -1,298 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Seleção Interativa — BuzzPop</title>
-<meta name="description" content="Avalie cada matéria e escolha a imagem para publicação no BuzzPop.">
+<title>Seleção do Dia — BuzzPop</title>
+<meta name="description" content="Lista numerada de matérias candidatas para aprovação editorial do BuzzPop.">
 <style>
 *,::after,::before{box-sizing:border-box;margin:0;padding:0}
-body{font-family:system-ui,-apple-system,sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.6;padding:1rem}
-.container{max-width:900px;margin:0 auto}
-h1{font-size:2rem;font-weight:900;margin-bottom:.3rem}
-.sub{color:#9ca3af;font-size:.9rem;margin-bottom:1.5rem}
-.card{background:#141414;border:1px solid #262626;border-radius:12px;padding:1.2rem;margin-bottom:1.5rem}
-.card-header{display:flex;gap:.6rem;align-items:center;margin-bottom:.8rem;flex-wrap:wrap}
-.num{background:#c12222;color:#fff;font-weight:900;padding:.2rem .6rem;border-radius:6px;font-size:.85rem}
-.badge{background:#202020;border:1px solid #333;color:#facc15;border-radius:999px;padding:.15rem .5rem;font-size:.7rem;font-weight:800;text-transform:uppercase}
-.score{color:#9ca3af;font-size:.8rem}
-h2{font-size:1.2rem;font-weight:800;margin-bottom:.5rem;line-height:1.3}
-.excerpt{color:#d1d5db;font-style:italic;margin-bottom:.6rem;font-size:.9rem;border-left:3px solid #c12222;padding-left:.7rem}
-.body-text{background:#1a1a1a;border-radius:8px;padding:.8rem;margin:.6rem 0;font-size:.92rem;color:#e5e7eb;line-height:1.5}
-.meta{font-size:.78rem;color:#a3a3a3;margin:.6rem 0}
-.images-gallery{margin:1rem 0}
-.images-gallery h3{font-size:.9rem;margin-bottom:.6rem;color:#facc15}
-.img-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.6rem}
-.img-option{position:relative;border:2px solid #333;border-radius:8px;overflow:hidden;cursor:pointer;transition:border-color .2s}
-.img-option input{position:absolute;opacity:0;width:0;height:0}
-.img-option:has(input:checked){border-color:#facc15;box-shadow:0 0 0 2px rgba(250,204,21,.3)}
-.img-option label{display:block;cursor:pointer}
-.img-option img{width:100%;height:140px;object-fit:cover;display:block}
-.img-option .img-label{display:block;padding:.35rem;font-size:.68rem;color:#a3a3a3;line-height:1.2}
-.actions{display:flex;gap:.5rem;margin-top:.8rem;padding-top:.8rem;border-top:1px solid #262626}
-.approve-btn,.reject-btn{padding:.4rem 1rem;border-radius:6px;font-size:.8rem;font-weight:700;cursor:default;text-transform:uppercase;letter-spacing:.05em}
-.approve-btn{background:#1a3a1a;color:#4ade80;border:1px solid #166534}
-.reject-btn{background:#3a1a1a;color:#f87171;border:1px solid #991b1b}
-.footer{text-align:center;color:#666;font-size:.72rem;margin-top:2rem;text-transform:uppercase;letter-spacing:.08em}
-@media(max-width:600px){.img-grid{grid-template-columns:1fr 1fr}}
+html,body{max-width:100%;overflow-x:hidden}
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0a0a0a;color:#fafafa;line-height:1.5}
+.container{width:100%;max-width:860px;margin:0 auto;padding:1.5rem 1rem 2.5rem;overflow-x:hidden}
+.top{border-bottom:1px solid #262626;margin-bottom:1rem;padding-bottom:1rem}
+h1{font-size:clamp(1.6rem,6vw,2.6rem);font-weight:900;text-transform:uppercase;letter-spacing:0;line-height:1;word-break:break-word;overflow-wrap:break-word}
+.sub{color:#9ca3af;font-size:.86rem;margin-top:.45rem;word-break:break-word;overflow-wrap:break-word}
+.count{display:inline-flex;margin-top:.8rem;background:#c12222;color:#fff;padding:.42rem .68rem;border-radius:6px;font-size:.75rem;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+.item{display:grid;grid-template-columns:4.6rem minmax(0,1fr);background:#141414;border:1px solid #262626;border-radius:10px;margin-bottom:.8rem;overflow:hidden}
+.rank{background:#c12222;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.25rem;padding:.75rem .4rem;text-transform:uppercase;font-weight:900;letter-spacing:.08em}
+.rank span{font-size:.56rem}.rank strong{font-size:1.35rem;line-height:1;letter-spacing:0}
+.item-body{min-width:0;padding:1rem}
+.badges{display:flex;flex-wrap:wrap;gap:.35rem;margin-bottom:.55rem}
+.badge{display:inline-flex;background:#202020;border:1px solid #333;color:#facc15;border-radius:999px;padding:.22rem .52rem;font-size:.64rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.badge.category{background:#c12222;border-color:#c12222;color:#fff}
+h2{font-size:1.05rem;line-height:1.25;font-weight:850;margin-bottom:.45rem;word-break:break-word;overflow-wrap:break-word}
+.excerpt{font-size:.9rem;color:#d1d5db;margin-bottom:.75rem;word-break:break-word;overflow-wrap:break-word}
+dl{display:grid;gap:.45rem;font-size:.75rem;color:#a3a3a3}
+dl div{border-top:1px solid #242424;padding-top:.45rem;min-width:0}
+dt{font-size:.62rem;font-weight:900;color:#737373;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.12rem}
+dd{word-break:break-word;overflow-wrap:break-word}
+.copy{background:#0f0f0f;border:1px solid #333;border-radius:10px;margin-top:1.1rem;padding:1rem}
+.copy h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;color:#facc15;margin-bottom:.5rem}
+pre{white-space:pre-wrap;word-break:break-word;color:#e5e7eb;font: .78rem/1.45 ui-monospace,SFMono-Regular,Menlo,monospace}
+.footer{color:#666;text-align:center;font-size:.72rem;margin-top:2rem;text-transform:uppercase;letter-spacing:.08em}
+@media(max-width:520px){.item{grid-template-columns:1fr}.rank{flex-direction:row;justify-content:flex-start}.rank strong{font-size:1rem}.container{padding-inline:.8rem}}
 </style>
 </head>
 <body>
-<div class="container">
-<header>
-<h1>🎬 Seleção Interativa</h1>
-<p class="sub">16 de junho de 2026 · 3 matérias para avaliar · Escolha a imagem para cada uma</p>
+<main class="container">
+<header class="top">
+<h1>Seleção do Dia</h1>
+<p class="sub">Lista textual para aprovação por número no WhatsApp · Gerada em 16 de junho de 2026 às 13:04</p>
+<span class="count">36 matérias para revisar</span>
 </header>
+<article class="item"><div class="rank"><span>Matéria</span><strong>01</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 212</span><span class="badge">Confiança 85%</span></div><h2>Morre Ece İrtem, atriz de ‘Coração de Mãe’, aos 35 anos</h2><p class="excerpt">Atriz turca Ece İrtem, que interpretou Hande na novela ‘Coração de Mãe’, morre aos 35 anos.</p><dl><div><dt>Fontes</dt><dd>R7 / Globo / CNN Brasil / NaTelinha / Estadão</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>212</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>RW50ZW5kYSBhIGNhdXNh</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>02</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 193</span><span class="badge">Confiança 85%</span></div><h2>Agrado e Leandro terminam namoro em 'Coração Acelerado'</h2><p class="excerpt">Agrado e Leandro terminam o namoro após música com João Raul em 'Coração Acelerado'.</p><dl><div><dt>Fontes</dt><dd>NSC Total / UOL / Gshow / O TEMPO / Portal iG</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>193</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>Q29yYcOnw6NvIEFjZWxl</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>03</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 193</span><span class="badge">Confiança 85%</span></div><h2>Segunda fase de &quot;Quem Ama Cuida&quot; mostra vingança de Adriana</h2><p class="excerpt">Novela entra em nova fase com gravação de cena-chave e primeiro alvo da vingança de Adriana.</p><dl><div><dt>Fontes</dt><dd>Notícias da TV / O Globo / AdoroCinema / CNN Brasil / Observatório da TV</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>193</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>VmluZ2Fuw6dhIGRlIEFk</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>04</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 193</span><span class="badge">Confiança 85%</span></div><h2>Elenco de “Lá Na Minha Terra” tem Carolina Dieckmann, Eduardo Moscovis e Leandro D</h2><p class="excerpt">Carolina Dieckmann, Eduardo Moscovis e Leandro Daniel estão no elenco da novela “Lá Na Minha Terra”, da Globo.</p><dl><div><dt>Fontes</dt><dd>Notícias da TV / O Globo / SpaceMoney / NSC Total / Noticiasdetv.com</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>193</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>QXDDs3MgbW9ydG8tdml2</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>05</strong></div><div class="item-body"><div class="badges"><span class="badge category">Cinema</span><span class="badge">Score 180</span><span class="badge">Confiança 85%</span></div><h2>Netflix: 10 filmes e lançamentos da semana (15 a 21 de junho de 2026)</h2><p class="excerpt">Netflix divulga lista de 10 filmes e os lançamentos da semana de 15 a 21 de junho de 2026.</p><dl><div><dt>Fontes</dt><dd>cinepop.com.br / GZH / Olhar Digital / Oficina da Net / AdoroCinema</dd></div><div><dt>Categoria</dt><dd>Cinema</dd></div><div><dt>Score</dt><dd>180</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>VGVtIGZpbG1lIGJvbSBu</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>06</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 174</span><span class="badge">Confiança 85%</span></div><h2>Estreia de Virginia Fonseca no Domingão com Huck tem ibope revelado</h2><p class="excerpt">Saiba qual foi o ibope da estreia de Virginia Fonseca no Domingão com Huck.</p><dl><div><dt>Fontes</dt><dd>Notícias da TV / UOL / VEJA / O Globo / Diário do Grande ABC</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>174</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>U2FpYmEgcXVhbCBmb2kg</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>07</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 172</span><span class="badge">Confiança 70%</span></div><h2>Record cancela reality de Boninho em dia de jogo do Brasil na Copa</h2><p class="excerpt">Record tira do ar o reality “Casa do Patrão” em noite de jogo da seleção brasileira na Copa do Mundo.</p><dl><div><dt>Fontes</dt><dd>UOL / Estadão / RD1 / Notícias da TV / Pipoca Moderna</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>172</dd></div><div><dt>Confiança IA</dt><dd>70%</dd></div><div><dt>ID</dt><dd>UmVjb3JkIGNhbmNlbGEg</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>08</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 172</span><span class="badge">Confiança 85%</span></div><h2>Incêndio atinge casa de Regis Danese; filho mostra destruição do quarto</h2><p class="excerpt">Casa do cantor gospel Regis Danese pega fogo; filho e filha lamentam prejuízo e destruição.</p><dl><div><dt>Fontes</dt><dd>UOL / VEJA / O Globo / Estadão / Pleno.News</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>172</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>RmlsaG8gZGUgUmVnaXMg</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>09</strong></div><div class="item-body"><div class="badges"><span class="badge category">Música</span><span class="badge">Score 171</span><span class="badge">Confiança 85%</span></div><h2>Oliver Tree morre em acidente de helicóptero no Rio de Janeiro</h2><p class="excerpt">Cantor americano Oliver Tree está entre as vítimas de colisão aérea no Rio; Anac investiga possível transporte clandestino.</p><dl><div><dt>Fontes</dt><dd>BBC / CNN Brasil / O Globo / Folha de S.Paulo / Migalhas</dd></div><div><dt>Categoria</dt><dd>Música</dd></div><div><dt>Score</dt><dd>171</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>UXVlbSBlcmEgT2xpdmVy</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>10</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 170</span><span class="badge">Confiança 85%</span></div><h2>Morre Ece Irtem, atriz de 'Coração de Mãe', aos 35 anos</h2><p class="excerpt">Atriz turca Ece Irtem, conhecida por 'Coração de Mãe', morre aos 35 anos.</p><dl><div><dt>Fontes</dt><dd>Extra online / CNN Brasil / Globo / R7 / Estadão</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>170</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>TW9ycmUgYXRyaXogZGUg</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>11</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 170</span><span class="badge">Confiança 85%</span></div><h2>Anac multa operador de helicóptero por recusa de informações após acidente no Rio</h2><p class="excerpt">Anac multa operador de helicóptero envolvido em colisão no Rio; perícia confirma identidade de argentinos mortos.</p><dl><div><dt>Fontes</dt><dd>O Globo / CNN Brasil / G1 / UOL Notícias / BBC</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>170</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>Q2hvcXVlIGRlIGhlbGlj</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>12</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 165</span><span class="badge">Confiança 80%</span></div><h2>Record define &quot;A Iludida&quot; como substituta de &quot;Coração de Mãe&quot;</h2><p class="excerpt">Record confirma novela turca &quot;A Iludida&quot; na sucessão de &quot;Coração de Mãe&quot;.</p><dl><div><dt>Fontes</dt><dd>Notícias da TV / Observatório dos Famosos / O Planeta TV / Terra</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>165</dd></div><div><dt>Confiança IA</dt><dd>80%</dd></div><div><dt>ID</dt><dd>SWx1ZGlkYTogUmVjb3Jk</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>13</strong></div><div class="item-body"><div class="badges"><span class="badge category">Cinema</span><span class="badge">Score 164</span><span class="badge">Confiança 85%</span></div><h2>Mestres do Universo pode ser fracasso de bilheteria no Brasil</h2><p class="excerpt">Sucesso no Brasil, filme do He-Man pode ser um dos maiores fracassos de bilheteria do ano.</p><dl><div><dt>Fontes</dt><dd>TecMundo / AdoroCinema / VEJA SÃO PAULO / Terra / Live MKT News</dd></div><div><dt>Categoria</dt><dd>Cinema</dd></div><div><dt>Score</dt><dd>164</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>U3VjZXNzbyBubyBCcmFz</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>14</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 164</span><span class="badge">Confiança 85%</span></div><h2>Virginia acorda com música e 'cara mais novo' na cabeça após buquê reacender rumor</h2><p class="excerpt">Virginia Fonseca acorda com música sobre flores e 'cara mais novo' na cabeça após buquê reacender rumores sobre Vini Jr.</p><dl><div><dt>Fontes</dt><dd>Extra online / Gshow / Globo / VEJA / CNN Brasil</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>164</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>QXDDs3MgcnVtb3JlcyBk</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>15</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 163</span><span class="badge">Confiança 85%</span></div><h2>Morre Raimundo Carrero, escritor e jornalista pernambucano, aos 78 anos</h2><p class="excerpt">Escritor e jornalista Raimundo Carrero morre aos 78 anos no Recife.</p><dl><div><dt>Fontes</dt><dd>Folha PE / G1 / Folha de S.Paulo / Omelete / Correio Braziliense</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>163</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>TW9ycmUgUmFpbXVuZG8g</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>16</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 163</span><span class="badge">Confiança 85%</span></div><h2>‘A Casa do Dragão’ ganha teaser da 3ª temporada com guerra e tragédia</h2><p class="excerpt">Série retorna em oito dias com episódio considerado o maior já feito na TV.</p><dl><div><dt>Fontes</dt><dd>cinepop.com.br / Estadão / Omelete / AdoroCinema / Canaltech</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>163</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>4oCYQSBDYXNhIGRvIERy</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>17</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 162</span><span class="badge">Confiança 85%</span></div><h2>Ana Castela posa com Cesar Rincon e reacende rumores de namoro</h2><p class="excerpt">Cantora posa ao lado de influenciador e alimenta especulações sobre romance.</p><dl><div><dt>Fontes</dt><dd>CNN Brasil / Globo / Campo Grande News / Midiamax / Rádio Araranguá FM 95.5</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>162</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>QW5hIENhc3RlbGEgcG9z</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>18</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 161</span><span class="badge">Confiança 85%</span></div><h2>Ana Castela reacende rumores de romance com influenciador Cesar Rincon</h2><p class="excerpt">Cantora publica foto com Cesar Rincon e alimenta especulações sobre novo affair.</p><dl><div><dt>Fontes</dt><dd>Campo Grande News / G1 / CNN Brasil / Banda B / Portal Engeplus</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>161</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>QW5hIENhc3RlbGEgZSBD</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>19</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 160</span><span class="badge">Confiança 85%</span></div><h2>Luiza Brunet resgata foto com Ayrton Senna e Xuxa reage: &quot;Tudo e mais um pouco&quot;</h2><p class="excerpt">Luiza Brunet compartilhou uma foto antiga ao lado de Ayrton Senna e recebeu comentário de Xuxa Meneghel.</p><dl><div><dt>Fontes</dt><dd>CNN Brasil / Estrelando / UOL / Globo / Estadão</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>160</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>THVpemEgQnJ1bmV0IHJl</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>20</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 158</span><span class="badge">Confiança 85%</span></div><h2>Zé Felipe abre jogo sobre morar ao lado de Virginia e a chama por apelido</h2><p class="excerpt">Zé Felipe revela decisão de morar perto de Virginia e a chama por apelido após perguntas de seguidores.</p><dl><div><dt>Fontes</dt><dd>CNN Brasil / O Globo / UOL / purepeople.com.br / VEJA</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>158</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>WsOpIEZlbGlwZSBhYnJl</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>21</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 157</span><span class="badge">Confiança 85%</span></div><h2>Virginia Fonseca posa com bilionário Jacob Arabo em Nova York</h2><p class="excerpt">Virginia Fonseca encontra o empresário bilionário Jacob Arabo, da Jacob &amp; Co, em Nova York.</p><dl><div><dt>Fontes</dt><dd>CNN Brasil / UOL / O Globo / Terra / Banda B</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>157</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>VmlyZ2luaWEgcG9zYSBj</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>22</strong></div><div class="item-body"><div class="badges"><span class="badge category">Cinema</span><span class="badge">Score 157</span></div><h2>Paul Schrader detona &quot;Dia D&quot;, de Steven Spielberg</h2><p class="excerpt">Cineasta critica novo filme de Spielberg, que lidera bilheterias na estreia.</p><dl><div><dt>Fontes</dt><dd>O Vício / Valor Econômico / Omelete / AdoroCinema / O POVO+</dd></div><div><dt>Categoria</dt><dd>Cinema</dd></div><div><dt>Score</dt><dd>157</dd></div><div><dt>ID</dt><dd>UGF1bCBTY2hyYWRlciBk</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>23</strong></div><div class="item-body"><div class="badges"><span class="badge category">Cinema</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Guilherme Fontes explica por que não deu conselhos a Pedro Novaes para 'A Viagem'</h2><p class="excerpt">Guilherme Fontes comenta a escolha de Pedro Novaes para viver Alexandre no filme 'A Viagem' e revela que não deu conselhos ao ator.</p><dl><div><dt>Fontes</dt><dd>Notícias da TV / O Globo / ACidade ON / O TEMPO / Jornal Correio</dd></div><div><dt>Categoria</dt><dd>Cinema</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>R3VpbGhlcm1lIEZvbnRl</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>24</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Anne Schedeen, estrela de ‘ALF - O Eteimoso’, morre aos 77 anos</h2><p class="excerpt">Atriz Anne Schedeen, conhecida por seu papel em ‘ALF - O Eteimoso’, faleceu aos 77 anos.</p><dl><div><dt>Fontes</dt><dd>Omelete / G1 / UOL / Estadão / AdoroCinema</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>TW9ycmUgQW5uZSBTY2hl</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>25</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Profissional morre em acidente durante gravação de série da Disney no RJ</h2><p class="excerpt">Um profissional de audiovisual morreu em um acidente durante a gravação da série “Delegacia de Homicídios”, da Disney, no campus da UFRJ, no Rio de Janeiro.</p><dl><div><dt>Fontes</dt><dd>O Globo / UOL / G1 / Estadão / CNN Brasil</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>UHJvZmlzc2lvbmFsIGRl</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>26</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Estreia de Virginia no ‘Domingão com Huck’ é avaliada pelo público</h2><p class="excerpt">Público avalia estreia do quadro de Virginia Fonseca no ‘Domingão com Huck’, que recebeu nota zero e foi criticado como esquisito.</p><dl><div><dt>Fontes</dt><dd>Metrópoles / O Globo / VEJA / UOL / CNN Brasil</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>VmlyZ2luaWEgbm8gRG9t</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>27</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Carol Dantas nega indireta e rebate críticas sobre convivência com Neymar</h2><p class="excerpt">Carol Dantas rebate ataques ao acompanhar Neymar na Copa do Mundo e nega indireta a Bruna Biancardi.</p><dl><div><dt>Fontes</dt><dd>Estrelando / Globo / CNN Brasil / R7 / Notícias da TV</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>TmEgQ29wYSBkbyBNdW5k</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>28</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>SBT acusa Ibope de erros em medição de audiência de jogo do Brasil</h2><p class="excerpt">SBT reclama de erros do Ibope na medição de audiência de jogos do Brasil na Copa do Mundo.</p><dl><div><dt>Fontes</dt><dd>UOL / VEJA / RD1 / O Planeta TV / Diario de Cuiabá</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>U0JUIHZvbHRhIGEgcmVj</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>29</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Cristiana Oliveira revela desafio em sua primeira novela vertical após 7 anos</h2><p class="excerpt">Aos 62 anos, atriz expõe dificuldade ao gravar 'Então É Amor?', sua estreia em formato vertical para o Globoplay.</p><dl><div><dt>Fontes</dt><dd>Notícias da TV / NaTelinha / Gshow / Terra / O Popular</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>RGUgdm9sdGEgYXDDs3Mg</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>30</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Klebber Toledo completa 40 anos e faz declaração à esposa e filha</h2><p class="excerpt">Ator comemorou aniversário com festa discreta ao lado de Camila Queiroz e da filha.</p><dl><div><dt>Fontes</dt><dd>Metrópoles / NaTelinha / Jornal Correio / CNN Brasil / CARAS Brasil</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>SWRhZGUgZGUgS2xlYmJl</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>31</strong></div><div class="item-body"><div class="badges"><span class="badge category">Música</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Madonna gera dor de cabeça na Fifa com exigência para show na Copa</h2><p class="excerpt">Tabloide afirma que Madonna fez exigência extravagante para show na Copa do Mundo, irritando executivos da Fifa.</p><dl><div><dt>Fontes</dt><dd>papelpop / Tenho Mais Discos Que Amigos / POPline / Alpha FM / Revista Fórum</dd></div><div><dt>Categoria</dt><dd>Música</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>TWFkb25uYSBlc3Rhcmlh</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>32</strong></div><div class="item-body"><div class="badges"><span class="badge category">Famosos</span><span class="badge">Score 156</span><span class="badge">Confiança 85%</span></div><h2>Klebber Toledo celebra 40 anos com festa discreta ao lado de Camila Queiroz e filh</h2><p class="excerpt">Ator comemora aniversário em evento reservado com a esposa e a filha.</p><dl><div><dt>Fontes</dt><dd>O Globo / NaTelinha / Estrelando / CARAS Brasil / Metrópoles</dd></div><div><dt>Categoria</dt><dd>Famosos</dd></div><div><dt>Score</dt><dd>156</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>S2xlYmJlciBUb2xlZG8g</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>33</strong></div><div class="item-body"><div class="badges"><span class="badge category">Música</span><span class="badge">Score 154</span><span class="badge">Confiança 85%</span></div><h2>Bonnie Tyler acorda de coma induzido e segue em estado grave em Portugal</h2><p class="excerpt">Cantora Bonnie Tyler acorda de coma induzido após cirurgia, mas permanece em estado grave na UTI em Portugal.</p><dl><div><dt>Fontes</dt><dd>Omelete / Folha de S.Paulo / CNN Brasil / G1 / Estadão</dd></div><div><dt>Categoria</dt><dd>Música</dd></div><div><dt>Score</dt><dd>154</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>Qm9ubmllIFR5bGVyIGFj</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>34</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 153</span><span class="badge">Confiança 85%</span></div><h2>Fernando Nakagawa deixa CNN e fecha com GloboNews</h2><p class="excerpt">Jornalista pede demissão após seis anos e assina com a emissora da Globo</p><dl><div><dt>Fontes</dt><dd>Notícias da TV / UOL / iG Gente / Terra / O Planeta TV</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>153</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>RmVybmFuZG8gTmFrYWdh</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>35</strong></div><div class="item-body"><div class="badges"><span class="badge category">Cinema</span><span class="badge">Score 152</span><span class="badge">Confiança 85%</span></div><h2>Novo filme de Spielberg lidera bilheterias na estreia do Brasil na Copa</h2><p class="excerpt">'Dia D', novo filme de Steven Spielberg, lidera bilheterias no fim de semana da estreia do Brasil na Copa.</p><dl><div><dt>Fontes</dt><dd>Valor Econômico / Prefeitura de Curitiba / Omelete / O POVO+ / CNN Brasil</dd></div><div><dt>Categoria</dt><dd>Cinema</dd></div><div><dt>Score</dt><dd>152</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>Tm92byBmaWxtZSBkZSBT</dd></div></dl></div></article><article class="item"><div class="rank"><span>Matéria</span><strong>36</strong></div><div class="item-body"><div class="badges"><span class="badge category">TV</span><span class="badge">Score 150</span><span class="badge">Confiança 85%</span></div><h2>Walmir desmascara Adilson como Meia-Noite em Coração Acelerado</h2><p class="excerpt">Walmir expõe Adilson como o vilão Meia-Noite e revela compulsão por jogos em Coração Acelerado.</p><dl><div><dt>Fontes</dt><dd>Extra online / Notícias da TV / CARAS Brasil / TV Pop / contigo.com.br</dd></div><div><dt>Categoria</dt><dd>TV</dd></div><div><dt>Score</dt><dd>150</dd></div><div><dt>Confiança IA</dt><dd>85%</dd></div><div><dt>ID</dt><dd>Tm9zIHJlc3Vtb3MgZGUg</dd></div></dl></div></article><section class="copy">
+<h2>Lista para WhatsApp</h2>
+<pre>1. Morre Ece İrtem, atriz de ‘Coração de Mãe’, aos 35 anos
+TV · score 212 · conf. 85%
+Fontes: R7 / Globo / CNN Brasil / NaTelinha / Estadão
 
-    <div class="card">
-      <div class="card-header">
-        <span class="num">#1</span>
-        <span class="badge">Cinema</span>
-        <span class="score">Score 157</span>
-      </div>
-      <h2>Paul Schrader detona "Dia D", de Steven Spielberg</h2>
-      <p class="excerpt">Cineasta critica novo filme de Spielberg, que lidera bilheterias na estreia.</p>
-      <div class="body-text">
-        <p>O cineasta Paul Schrader detonou o novo filme de Steven Spielberg, "Dia D". A obra, no entanto, lidera as bilheterias no fim de semana da estreia do Brasil na Copa e se aproxima dos 100 milhões de reais arrecadados.</p>
-      </div>
-      <div class="meta">
-        <strong>Tags:</strong> Paul Schrader, Steven Spielberg, Dia D, bilheteria<br>
-        <strong>Fontes:</strong> O Vício, Valor Econômico, Omelete, AdoroCinema, O POVO+
-      </div>
-      <div class="images-gallery">
-        <h3>📸 Escolha a imagem:</h3>
-        <div class="img-grid">
-          
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_0" value="0">
-            <label for="img_1_0">
-              <img src="https://imagens.publico.pt/imagens.aspx/1797814?tp=UH&db=IMAGENS&type=PNG&share=1&o=BarraFacebook_Ipsilon.png" alt="O Estilo Transcendental no Cinema, de Paul Schrader. Em busca do ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 1 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_1" value="1">
-            <label for="img_1_1">
-              <img src="https://imgv2-2-f.scribdassets.com/img/document/622202578/original/d5c91ce2a9/1686445671?v=1" alt="Paul Schrader On Film Noir | PDF | Film Noir | Cinema Of The United States" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 2 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_2" value="2">
-            <label for="img_1_2">
-              <img src="https://cdn.posteritati.com/pages/paul-schrader-triptych/assets/schrader-triptych.jpg" alt="Three Films by Paul Schrader Limited Edition Art Print - Posteritati ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 3 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_3" value="3">
-            <label for="img_1_3">
-              <img src="https://variety.com/wp-content/uploads/2025/01/paul-schrader.jpg?w=1000&h=667&crop=1" alt="Paul Schrader Asked ChatGPT for Film Ideas, They Were All 'Original'" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 4 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_4" value="4">
-            <label for="img_1_4">
-              <img src="https://prod-images.tcm.com/Master-Profile-Images/PaulSchrader.172139.jpg" alt="Paul Schrader - Turner Classic Movies" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 5 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_5" value="5">
-            <label for="img_1_5">
-              <img src="https://cdn.shopk.it/usercontent/linha-de-sombra/media/images/cc6d2c7-171615-estilo.jpeg" alt="O ESTILO TRANSCENDENTAL NO CINEMA - OZU, BRESSON, DREYER ∙ PAUL ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 6 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_6" value="6">
-            <label for="img_1_6">
-              <img src="https://djmzubtjl6upi.cloudfront.net/wp-content/uploads/sites/9/2024/02/paul-schrader2-1500x900-1.jpg" alt="Paul Schrader introduces Obsession | Roxy Cinema New York" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 7 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_1" id="img_1_7" value="7">
-            <label for="img_1_7">
-              <img src="https://www.artnews.com/wp-content/uploads/2018/06/Schrader_Joan-of-Arc.jpg" alt="Paul Schrader and the Cinema of Transcendence" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 8 — via Bing</span>
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="actions">
-        <span class="approve-btn">✅ Aprovar</span>
-        <span class="reject-btn">❌ Rejeitar</span>
-      </div>
-    </div>
+2. Agrado e Leandro terminam namoro em 'Coração Acelerado'
+TV · score 193 · conf. 85%
+Fontes: NSC Total / UOL / Gshow / O TEMPO / Portal iG
 
-    <div class="card">
-      <div class="card-header">
-        <span class="num">#2</span>
-        <span class="badge">TV</span>
-        <span class="score">Score 163</span>
-      </div>
-      <h2>Trabalhador morre em gravação de série da Disney na UFRJ</h2>
-      <p class="excerpt">Profissional de audiovisual morre em acidente durante gravação de série da Disney+ no Rio de Janeiro.</p>
-      <div class="body-text">
-        <p>Um profissional de audiovisual morreu em um acidente durante a gravação da série “Delegacia de Homicídios”, da Disney+, no campus da Universidade Federal do Rio de Janeiro (UFRJ). A polícia investiga o caso. A Disney suspendeu as gravações da produção após o incidente.</p>
-      </div>
-      <div class="meta">
-        <strong>Tags:</strong> Disney, acidente, UFRJ, série, morte<br>
-        <strong>Fontes:</strong> O Globo, UOL, G1, Estadão, Brasil 247
-      </div>
-      <div class="images-gallery">
-        <h3>📸 Escolha a imagem:</h3>
-        <div class="img-grid">
-          
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_0" value="0">
-            <label for="img_2_0">
-              <img src="https://www.hubify.com.br/wp-content/uploads/2020/10/estudio-de-gravacao-scaled-1.jpg" alt="Estúdio de gravação: passo a passo para ter na sua empresa - Blog Hubify" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 1 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_1" value="1">
-            <label for="img_2_1">
-              <img src="https://canalvideomaker.com.br/wp-content/uploads/2024/06/Producao-Audiovisual-reduz.jpg" alt="Vale a Pena Ser Produtor Audiovisual no BR? Entenda o Mercado." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 2 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_2" value="2">
-            <label for="img_2_2">
-              <img src="https://caras.com.br/media/_versions/legacy/2012/11/06/img-448130-celso-portioli-recepcao-de-mickey-e-minnie-na-disney_widelg.jpg" alt="Celso Portiolli: gravação divertida no parque da Disney" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 3 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_3" value="3">
-            <label for="img_2_3">
-              <img src="https://www.ceac.es/sites/default/files/2023-09/MicrosoftTeams-image-20.jpg" alt="¿Qué bachillerato escoger para Comunicación Audiovisual?" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 4 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_4" value="4">
-            <label for="img_2_4">
-              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxvH4S5LBzBopifD0S0kttKZH1BfEA3OzLbAmGEaX0Lv-Jc-iq8fYKZjAcbibAytEIggcS5r2tMWjmOhSnCrSMEe8UF78I8OZLRMjAzuKQGv6oIRUSlv9wYVnNaBUY-AJFzBXNzImqC61CbYh0Y4O-0HlnwlZq1AisW1jbPsHxHgtPKMlitmhUIlNYeg/w1200-h630-p-k-no-nu/momav.jpeg" alt="🌟 Guía Completa: Tipos de Plataformas de Producción Audiovisual y ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 5 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_5" value="5">
-            <label for="img_2_5">
-              <img src="https://universae.com/wp-content/uploads/2022/01/cabecera-gs-produccion-audiovisuales-espectaculos-desktop.webp" alt="¿Qué es la Producción Audiovisual?" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 6 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_6" value="6">
-            <label for="img_2_6">
-              <img src="https://producciondevideo.com.co/wp-content/uploads/productor-audiovisual-2-1.jpg" alt="Funciones de un productor audiovisual conócelas aquí 2023 ️" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 7 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_2" id="img_2_7" value="7">
-            <label for="img_2_7">
-              <img src="https://i.ytimg.com/vi/-VucbhHMCrQ/maxresdefault.jpg" alt="ESTUDIO AUDIOVISUAL 38m2 con 5 SETUPS | Tour Detallado | 2024 - YouTube" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 8 — via Bing</span>
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="actions">
-        <span class="approve-btn">✅ Aprovar</span>
-        <span class="reject-btn">❌ Rejeitar</span>
-      </div>
-    </div>
+3. Segunda fase de &quot;Quem Ama Cuida&quot; mostra vingança de Adriana
+TV · score 193 · conf. 85%
+Fontes: Notícias da TV / O Globo / AdoroCinema / CNN Brasil / Observatório da TV
 
-    <div class="card">
-      <div class="card-header">
-        <span class="num">#3</span>
-        <span class="badge">Cinema</span>
-        <span class="score">Score 180</span>
-      </div>
-      <h2>Netflix: 10 filmes e lançamentos da semana (15 a 21 de junho de 2026)</h2>
-      <p class="excerpt">Netflix divulga lista de 10 filmes e os lançamentos da semana de 15 a 21 de junho de 2026.</p>
-      <div class="body-text">
-        <p>A Netflix divulgou uma lista com 10 ótimas opções de filmes disponíveis na plataforma. Além disso, a semana de 15 a 21 de junho de 2026 traz lançamentos, incluindo uma minissérie de suspense baseada na obra de Harlan Coben, com apenas 8 episódios.</p>
-      </div>
-      <div class="meta">
-        <strong>Tags:</strong> Netflix, filmes, séries, lançamentos, Harlan Coben<br>
-        <strong>Fontes:</strong> cinepop.com.br, GZH, Olhar Digital, Oficina da Net, AdoroCinema
-      </div>
-      <div class="images-gallery">
-        <h3>📸 Escolha a imagem:</h3>
-        <div class="img-grid">
-          
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_0" value="0">
-            <label for="img_3_0">
-              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNY6a3_fjvofoh78_gYW8axfASbYKD-A3NGk8eDzCcCDUtC8NPQuIxgbaBXLxEoLaw_BH2-L44m2W7cEE_QAes7sExSpukOko9lv2A2Mwf7mgGj48pFTTGn4XG3K3bjYfT-_rDybRke_-g8v6LP_OCHywnDFkbHLpRxDvj9JiBgLLvNQIUlROdhXuUGZG5/s16000/custe-o-que-custar-poster.png" alt="Minissérie Custe o Que Custar, adaptação da obra de Harlan Coben, ganha ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 1 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_1" value="1">
-            <label for="img_3_1">
-              <img src="https://cdn.apollo.audio/one/media/67eb/f3fd/dc7a/2d6e/6c65/fd26/HARLAN-COBEN-I-WILL-FIND-YOU.jpg?quality=80&format=jpg&crop=0,0,842,1500&resize=crop" alt="Netflix announce new Harlan Coben series I Will Find You" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 2 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_2" value="2">
-            <label for="img_3_2">
-              <img src="https://www.whats-on-netflix.com/wp-content/uploads/2024/04/harlan-coben-netflix-collection.jpg" alt="Every Harlan Coben Series on Netflix in 2026 and What's Coming Next ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 3 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_3" value="3">
-            <label for="img_3_3">
-              <img src="https://bleedingcool.com/wp-content/uploads/2024/11/AAAAQWmsk9ho483_WBr4aws3Om68MIDlwpKNVpvx-sq6LAMlhP0-YvnMak4EmKhNNyi6Z6LzNEDNe3ioMm8bt63hDAV4WNEEQ-gvHvBl3x68yzfq0QVtnjcSM3HDQr3Rz9h-jdPWuRXEWH5dushGkhO7jqtb-2000x1125.jpg" alt="Missing You Trailer: Netflix Previews Harlan Coben Limited Series" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 4 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_4" value="4">
-            <label for="img_3_4">
-              <img src="https://www.whats-on-netflix.com/wp-content/uploads/2026/01/every-harlan-coben-series-ranked-on-netflix.jpg" alt="All 12 Harlan Coben Series on Netflix, Ranked" loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 5 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_5" value="5">
-            <label for="img_3_5">
-              <img src="https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/harlan-coben-run-away.jpg?&fit=crop&w=1600&h=900" alt="'Run Away' Review: Harlan Coben's New Netflix Thriller Is a 'Bosch ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 6 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_6" value="6">
-            <label for="img_3_6">
-              <img src="https://statico.soapcentral.com/editor/2026/01/753f2-17674703829137-1920.jpg" alt="Run Away: "I'm very proud": Run Away writer Harlan Coben pens a ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 7 — via Bing</span>
-            </label>
-          </div>
-          <div class="img-option">
-            <input type="radio" name="img_3" id="img_3_7" value="7">
-            <label for="img_3_7">
-              <img src="https://www.heavenofhorror.com/wp-content/uploads/2025/12/Run-Away-Netflix-Review.jpg" alt="Run Away - Review | Netflix Limited Series | Harlan Coben | Heaven of ..." loading="lazy" onerror="this.parentElement.style.display='none'">
-              <span class="img-label">Opção 8 — via Bing</span>
-            </label>
-          </div>
-        </div>
-      </div>
-      <div class="actions">
-        <span class="approve-btn">✅ Aprovar</span>
-        <span class="reject-btn">❌ Rejeitar</span>
-      </div>
-    </div>
+4. Elenco de “Lá Na Minha Terra” tem Carolina Dieckmann, Eduardo Moscovis e Leandro D
+TV · score 193 · conf. 85%
+Fontes: Notícias da TV / O Globo / SpaceMoney / NSC Total / Noticiasdetv.com
+
+5. Netflix: 10 filmes e lançamentos da semana (15 a 21 de junho de 2026)
+Cinema · score 180 · conf. 85%
+Fontes: cinepop.com.br / GZH / Olhar Digital / Oficina da Net / AdoroCinema
+
+6. Estreia de Virginia Fonseca no Domingão com Huck tem ibope revelado
+TV · score 174 · conf. 85%
+Fontes: Notícias da TV / UOL / VEJA / O Globo / Diário do Grande ABC
+
+7. Record cancela reality de Boninho em dia de jogo do Brasil na Copa
+TV · score 172 · conf. 70%
+Fontes: UOL / Estadão / RD1 / Notícias da TV / Pipoca Moderna
+
+8. Incêndio atinge casa de Regis Danese; filho mostra destruição do quarto
+Famosos · score 172 · conf. 85%
+Fontes: UOL / VEJA / O Globo / Estadão / Pleno.News
+
+9. Oliver Tree morre em acidente de helicóptero no Rio de Janeiro
+Música · score 171 · conf. 85%
+Fontes: BBC / CNN Brasil / O Globo / Folha de S.Paulo / Migalhas
+
+10. Morre Ece Irtem, atriz de 'Coração de Mãe', aos 35 anos
+TV · score 170 · conf. 85%
+Fontes: Extra online / CNN Brasil / Globo / R7 / Estadão
+
+11. Anac multa operador de helicóptero por recusa de informações após acidente no Rio
+Famosos · score 170 · conf. 85%
+Fontes: O Globo / CNN Brasil / G1 / UOL Notícias / BBC
+
+12. Record define &quot;A Iludida&quot; como substituta de &quot;Coração de Mãe&quot;
+TV · score 165 · conf. 80%
+Fontes: Notícias da TV / Observatório dos Famosos / O Planeta TV / Terra
+
+13. Mestres do Universo pode ser fracasso de bilheteria no Brasil
+Cinema · score 164 · conf. 85%
+Fontes: TecMundo / AdoroCinema / VEJA SÃO PAULO / Terra / Live MKT News
+
+14. Virginia acorda com música e 'cara mais novo' na cabeça após buquê reacender rumor
+Famosos · score 164 · conf. 85%
+Fontes: Extra online / Gshow / Globo / VEJA / CNN Brasil
+
+15. Morre Raimundo Carrero, escritor e jornalista pernambucano, aos 78 anos
+Famosos · score 163 · conf. 85%
+Fontes: Folha PE / G1 / Folha de S.Paulo / Omelete / Correio Braziliense
+
+16. ‘A Casa do Dragão’ ganha teaser da 3ª temporada com guerra e tragédia
+TV · score 163 · conf. 85%
+Fontes: cinepop.com.br / Estadão / Omelete / AdoroCinema / Canaltech
+
+17. Ana Castela posa com Cesar Rincon e reacende rumores de namoro
+Famosos · score 162 · conf. 85%
+Fontes: CNN Brasil / Globo / Campo Grande News / Midiamax / Rádio Araranguá FM 95.5
+
+18. Ana Castela reacende rumores de romance com influenciador Cesar Rincon
+Famosos · score 161 · conf. 85%
+Fontes: Campo Grande News / G1 / CNN Brasil / Banda B / Portal Engeplus
+
+19. Luiza Brunet resgata foto com Ayrton Senna e Xuxa reage: &quot;Tudo e mais um pouco&quot;
+Famosos · score 160 · conf. 85%
+Fontes: CNN Brasil / Estrelando / UOL / Globo / Estadão
+
+20. Zé Felipe abre jogo sobre morar ao lado de Virginia e a chama por apelido
+Famosos · score 158 · conf. 85%
+Fontes: CNN Brasil / O Globo / UOL / purepeople.com.br / VEJA
+
+21. Virginia Fonseca posa com bilionário Jacob Arabo em Nova York
+Famosos · score 157 · conf. 85%
+Fontes: CNN Brasil / UOL / O Globo / Terra / Banda B
+
+22. Paul Schrader detona &quot;Dia D&quot;, de Steven Spielberg
+Cinema · score 157
+Fontes: O Vício / Valor Econômico / Omelete / AdoroCinema / O POVO+
+
+23. Guilherme Fontes explica por que não deu conselhos a Pedro Novaes para 'A Viagem'
+Cinema · score 156 · conf. 85%
+Fontes: Notícias da TV / O Globo / ACidade ON / O TEMPO / Jornal Correio
+
+24. Anne Schedeen, estrela de ‘ALF - O Eteimoso’, morre aos 77 anos
+TV · score 156 · conf. 85%
+Fontes: Omelete / G1 / UOL / Estadão / AdoroCinema
+
+25. Profissional morre em acidente durante gravação de série da Disney no RJ
+TV · score 156 · conf. 85%
+Fontes: O Globo / UOL / G1 / Estadão / CNN Brasil
+
+26. Estreia de Virginia no ‘Domingão com Huck’ é avaliada pelo público
+TV · score 156 · conf. 85%
+Fontes: Metrópoles / O Globo / VEJA / UOL / CNN Brasil
+
+27. Carol Dantas nega indireta e rebate críticas sobre convivência com Neymar
+Famosos · score 156 · conf. 85%
+Fontes: Estrelando / Globo / CNN Brasil / R7 / Notícias da TV
+
+28. SBT acusa Ibope de erros em medição de audiência de jogo do Brasil
+TV · score 156 · conf. 85%
+Fontes: UOL / VEJA / RD1 / O Planeta TV / Diario de Cuiabá
+
+29. Cristiana Oliveira revela desafio em sua primeira novela vertical após 7 anos
+TV · score 156 · conf. 85%
+Fontes: Notícias da TV / NaTelinha / Gshow / Terra / O Popular
+
+30. Klebber Toledo completa 40 anos e faz declaração à esposa e filha
+Famosos · score 156 · conf. 85%
+Fontes: Metrópoles / NaTelinha / Jornal Correio / CNN Brasil / CARAS Brasil
+
+31. Madonna gera dor de cabeça na Fifa com exigência para show na Copa
+Música · score 156 · conf. 85%
+Fontes: papelpop / Tenho Mais Discos Que Amigos / POPline / Alpha FM / Revista Fórum
+
+32. Klebber Toledo celebra 40 anos com festa discreta ao lado de Camila Queiroz e filh
+Famosos · score 156 · conf. 85%
+Fontes: O Globo / NaTelinha / Estrelando / CARAS Brasil / Metrópoles
+
+33. Bonnie Tyler acorda de coma induzido e segue em estado grave em Portugal
+Música · score 154 · conf. 85%
+Fontes: Omelete / Folha de S.Paulo / CNN Brasil / G1 / Estadão
+
+34. Fernando Nakagawa deixa CNN e fecha com GloboNews
+TV · score 153 · conf. 85%
+Fontes: Notícias da TV / UOL / iG Gente / Terra / O Planeta TV
+
+35. Novo filme de Spielberg lidera bilheterias na estreia do Brasil na Copa
+Cinema · score 152 · conf. 85%
+Fontes: Valor Econômico / Prefeitura de Curitiba / Omelete / O POVO+ / CNN Brasil
+
+36. Walmir desmascara Adilson como Meia-Noite em Coração Acelerado
+TV · score 150 · conf. 85%
+Fontes: Extra online / Notícias da TV / CARAS Brasil / TV Pop / contigo.com.br</pre>
+</section>
 <div class="footer">BuzzPop Brasil &copy; 2026</div>
-</div>
+</main>
 </body>
 </html>
