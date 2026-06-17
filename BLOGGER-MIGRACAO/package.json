@@ -1,0 +1,20 @@
+{
+  "name": "blogger-migracao",
+  "version": "1.0.0",
+  "description": "Ferramentas de teste para futura publicacao do site hibrido no Blogger.",
+  "main": "src/blogger-client.js",
+  "scripts": {
+    "auth": "node auth.js",
+    "token:test": "node scripts/test-auth.js",
+    "post:draft": "BLOGGER_POST_STATUS=DRAFT node scripts/publish-sample.js",
+    "post:live": "BLOGGER_POST_STATUS=LIVE node scripts/publish-sample.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "googleapis": "^173.0.0"
+  }
+}

@@ -1,10 +1,14 @@
 #!/usr/bin/env node
 import "dotenv/config";
+import { createRequire } from "node:module";
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { readJson, writeJson } from "./lib/store.js";
 import { toBuzzItems } from "./lib/articles.js";
 import { creditForWebCandidate } from "./lib/illustrative-images.js";
+
+const require = createRequire(import.meta.url);
+const { archivePublishedArticles } = require("./lib/archive.cjs");
 
 function parseArgs(argv) {
   const args = { action: "list", value: "", reason: "" };
@@ -67,6 +71,112 @@ function assertReadyForApproval(item) {
     issues.push("imagem ausente ou placeholder");
   }
   if (issues.length) throw new Error(`${item.reviewId || item.id}: ${issues.join("; ")}`);
+}
+
+function normalizeComparable(value = "") {
+  return String(value)
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function splitReadyBody(value = "") {
+  if (Array.isArray(value)) return value.map((part) => String(part || "").trim()).filter(Boolean);
+  return String(value || "")
+    .split(/\n{2,}/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+}
+
+function readyBodyText(item) {
+  return splitReadyBody(item?.buzzpopBody || item?.body || "").join("\n\n").trim();
+}
+
+function readyKeys(item) {
+  return [
+    item?.id,
+    item?.reviewId,
+    item?.slug,
+    item?.title,
+    item?.buzzpopTitle,
+  ].filter(Boolean);
+}
+
+function buildReadySelectionIndex(selecaoPronta) {
+  const items = Array.isArray(selecaoPronta?.items) ? selecaoPronta.items : [];
+  const exact = new Map();
+  const titles = [];
+  for (const item of items) {
+    for (const key of readyKeys(item)) {
+      exact.set(String(key), item);
+      exact.set(normalizeComparable(key), item);
+    }
+    const candidates = [
+      normalizeComparable(item.title),
+      normalizeComparable(item.buzzpopTitle),
+    ].filter((candidate) => candidate.length >= 12);
+    for (const title of candidates) titles.push({ title, item });
+  }
+  return { exact, titles };
+}
+
+function findReadySelectionItem(reviewItem, readyIndex) {
+  const keys = [
+    reviewItem.reviewId,
+    reviewItem.id,
+    reviewItem.slug,
+    reviewItem.title,
+    reviewItem.editorialMeta?.originalTitle,
+  ].filter(Boolean);
+
+  for (const key of keys) {
+    const match = readyIndex.exact.get(String(key)) || readyIndex.exact.get(normalizeComparable(key));
+    if (match) return match;
+  }
+
+  const title = normalizeComparable(reviewItem.title || reviewItem.editorialMeta?.originalTitle);
+  if (!title || title.length < 12) return null;
+  return readyIndex.titles.find((entry) => {
+    return entry.title === title || entry.title.includes(title) || title.includes(entry.title);
+  })?.item || null;
+}
+
+function applyReadySelectionText(reviewItem, readyItem) {
+  const body = splitReadyBody(readyItem.buzzpopBody);
+  return {
+    ...reviewItem,
+    title: readyItem.buzzpopTitle || readyItem.title || reviewItem.title,
+    excerpt: readyItem.buzzpopLine || readyItem.excerpt,
+    body,
+    html: body.map((paragraph) => `<p>${paragraph}</p>`).join("\n"),
+    category: readyItem.categoryHint || readyItem.category || reviewItem.category,
+    evidenceSources: readyItem.evidenceSources || readyItem.sources || reviewItem.evidenceSources,
+    evidenceClaims: readyItem.evidenceClaims || reviewItem.evidenceClaims,
+    sourceCount: readyItem.sourceCount || reviewItem.sourceCount,
+    editorialMeta: {
+      ...(reviewItem.editorialMeta || {}),
+      readySelectionSource: {
+        id: readyItem.id || "",
+        title: readyItem.title || "",
+        appliedAt: new Date().toISOString(),
+        bodyCharacters: readyBodyText(readyItem).length,
+        paragraphCount: body.length,
+      },
+    },
+  };
+}
+
+function articleForApproval(reviewItem, readyIndex) {
+  const readyItem = findReadySelectionItem(reviewItem, readyIndex);
+  const readyText = readyBodyText(readyItem);
+  if (readyItem && readyText.length >= 800) {
+    console.log(`Texto completo aplicado de data/selecao-pronta.json: ${readyItem.buzzpopTitle || readyItem.title || reviewItem.title}`);
+    return applyReadySelectionText(reviewItem, readyItem);
+  }
+  return reviewItem;
 }
 
 function extensionFrom(contentType, url) {
@@ -144,17 +254,22 @@ async function approve(queue, value) {
   const chosen = (queue.items || []).filter((item) => ids.has(item.reviewId || item.id));
   if (!chosen.length) throw new Error("Nenhum item correspondente para aprovar.");
   chosen.forEach(assertReadyForApproval);
+  const selecaoPronta = await readJson("selecao-pronta.json", null);
+  const readyIndex = buildReadySelectionIndex(selecaoPronta);
 
   const now = new Date().toISOString();
-  const approved = chosen.map((item) => ({
-    ...item,
-    reviewStatus: "approved",
-    humanApproval: {
-      status: "approved",
-      channel: "whatsapp",
-      approvedAt: now,
-    },
-  }));
+  const approved = chosen.map((item) => {
+    const article = articleForApproval(item, readyIndex);
+    return {
+      ...article,
+      reviewStatus: "approved",
+      humanApproval: {
+        status: "approved",
+        channel: "whatsapp",
+        approvedAt: now,
+      },
+    };
+  });
 
   const existing = await readJson("articles.json", []);
   const approvedKeys = new Set(
@@ -165,10 +280,8 @@ async function approve(queue, value) {
       !approvedKeys.has(item.slug) &&
       !approvedKeys.has(item.editorialMeta?.sourceId),
   );
-  const maxPublished = Number(process.env.MAX_PUBLISHED_ARTICLES || 100);
   const published = [...approved, ...preserved]
-    .sort((left, right) => new Date(right.createdAt || 0) - new Date(left.createdAt || 0))
-    .slice(0, maxPublished);
+    .sort((left, right) => new Date(right.createdAt || 0) - new Date(left.createdAt || 0));
 
   for (const item of queue.items || []) {
     if (ids.has(item.reviewId || item.id)) {
@@ -188,7 +301,9 @@ async function approve(queue, value) {
     items: toBuzzItems(published),
   });
   await writeJson("review-queue.json", queue);
+  const archivePath = archivePublishedArticles({ approved, published });
   console.log(`${approved.length} materia(s) promovida(s) para data/articles.json.`);
+  console.log(`Materias publicadas arquivadas em: ${archivePath}`);
 }
 
 async function reject(queue, value, reason) {

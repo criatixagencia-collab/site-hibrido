@@ -8,6 +8,27 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA = join(__dirname, "..", "data");
+const MIN_READY_CHARACTERS = Number(process.env.MIN_READY_ARTICLE_CHARACTERS || 1400);
+const MIN_READY_WORDS = Number(process.env.MIN_READY_ARTICLE_WORDS || 220);
+const MIN_READY_PARAGRAPHS = Number(process.env.MIN_READY_ARTICLE_PARAGRAPHS || 4);
+
+function bodyStats(text) {
+  const normalized = String(text || "").trim();
+  return {
+    characters: normalized.length,
+    words: normalized.split(/\s+/).filter(Boolean).length,
+    paragraphs: normalized.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean).length,
+  };
+}
+
+function isReadyArticle(item) {
+  const stats = bodyStats(item.buzzpopBody);
+  return (
+    stats.characters >= MIN_READY_CHARACTERS &&
+    stats.words >= MIN_READY_WORDS &&
+    stats.paragraphs >= MIN_READY_PARAGRAPHS
+  );
+}
 
 async function duckduckgoImage(query) {
   try {
@@ -47,7 +68,29 @@ async function duckduckgoImage(query) {
 async function main() {
   const raw = readFileSync(join(DATA, "selecao-pronta.json"), "utf-8");
   const data = JSON.parse(raw);
-  const items = data.items || [];
+  const originalItems = data.items || [];
+  const rejected = originalItems.filter((item) => !isReadyArticle(item));
+  const items = originalItems.filter(isReadyArticle);
+
+  if (rejected.length) {
+    console.warn(
+      `⚠️ ${rejected.length} materia(s) curta(s) foram removidas antes da busca de imagens ` +
+      `(${MIN_READY_CHARACTERS}+ caracteres, ${MIN_READY_WORDS}+ palavras, ${MIN_READY_PARAGRAPHS}+ paragrafos).`,
+    );
+    for (const item of rejected) {
+      const stats = bodyStats(item.buzzpopBody);
+      console.warn(
+        `  - ${(item.buzzpopTitle || item.title || item.id || "sem titulo").slice(0, 70)} ` +
+        `(${stats.characters}c/${stats.words}p/${stats.paragraphs}§)`,
+      );
+    }
+  }
+
+  if (!items.length) {
+    throw new Error(
+      `Nenhuma materia pronta atingiu ${MIN_READY_CHARACTERS}+ caracteres, ${MIN_READY_WORDS}+ palavras e ${MIN_READY_PARAGRAPHS}+ paragrafos. Reescreva antes de buscar imagens.`,
+    );
+  }
 
   const queries = [
     "Steven Spielberg Dia D filme 2026",

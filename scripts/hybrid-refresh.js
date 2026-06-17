@@ -1,4 +1,5 @@
 import "dotenv/config";
+import { createRequire } from "node:module";
 import { pathToFileURL } from "node:url";
 import { fetchEntertainmentNews } from "./lib/news.js";
 import { generateEditorialDraftBatch } from "./lib/editorial-drafts.js";
@@ -6,6 +7,8 @@ import { toBuzzItems } from "./lib/articles.js";
 import { applyIllustrativeImages } from "./lib/illustrative-images.js";
 import { readJson, writeJson } from "./lib/store.js";
 
+const require = createRequire(import.meta.url);
+const { archiveSelectionSnapshot } = require("./lib/archive.cjs");
 const IMAGE_STAGE_TIMEOUT_MS = Number(process.env.IMAGE_STAGE_TIMEOUT_MS || 180000);
 const MIN_CARRYOVER_WORDS = 15;
 const MIN_CARRYOVER_CHARACTERS = 110;
@@ -150,6 +153,8 @@ export async function runHybridRefresh() {
   console.log(
     `Fila editorial atualizada: ${news.length} noticias analisadas, ${generatedDrafts.length} novos rascunhos, ${queue.items.length} aguardando avaliacao humana.`,
   );
+  const archivePath = archiveSelectionSnapshot({ queue, news, report });
+  console.log(`Selecao arquivada em: ${archivePath}`);
   console.log(
     `Relatorio: ${report.approved} aprovadas, ${report.rejected} rejeitadas, ${report.errors} erros em ${report.candidatesAttempted} tentativas.`,
   );

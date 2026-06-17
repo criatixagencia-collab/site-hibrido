@@ -8,6 +8,7 @@ function extractSelectionImagePaths(html, htmlFile) {
 
   while ((match = imagePattern.exec(html))) {
     const source = match[2].trim();
+    if (source.includes("${")) continue;
     if (!source || /^(?:https?:|data:|blob:|\/\/)/i.test(source)) {
       throw new Error(`Imagem externa ou invalida na selecao: ${source || "(vazia)"}`);
     }
@@ -21,10 +22,11 @@ function extractSelectionImagePaths(html, htmlFile) {
 }
 
 function selectionAssets(root) {
-  const htmlFile = path.join(root, "docs", "selecao-dia", "index.html");
+  const htmlFile = path.join(root, "docs", "selecao-interativa", "index.html");
+  const dataFile = path.join(root, "docs", "selecao-interativa", "data.json");
   const imagesDir = path.join(root, "docs", "images", "auto");
   if (!fs.existsSync(htmlFile)) {
-    throw new Error("docs/selecao-dia/index.html nao encontrado.");
+    throw new Error("docs/selecao-interativa/index.html nao encontrado.");
   }
 
   const html = fs.readFileSync(htmlFile, "utf8");
@@ -38,7 +40,10 @@ function selectionAssets(root) {
     }
   }
 
-  return { htmlFile, imagesDir, images };
+  const files = [htmlFile];
+  if (fs.existsSync(dataFile)) files.push(dataFile);
+
+  return { htmlFile, dataFile, files, imagesDir, images };
 }
 
 module.exports = { extractSelectionImagePaths, selectionAssets };

@@ -1,0 +1,8 @@
+.env
+tokens.json
+client_secret_*.json
+google-client-secret.json
+credentials.json
+credentials*.json
+node_modules/
+npm-debug.log*

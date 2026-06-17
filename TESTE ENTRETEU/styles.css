@@ -88,13 +88,13 @@ img {
 .brand-row {
   position: relative;
   display: flex;
-  min-height: 104px;
+  min-height: 92px;
   align-items: center;
   justify-content: center;
 }
 
 .brand img {
-  width: 206px;
+  width: min(320px, 50vw);
   height: auto;
 }
 
@@ -682,14 +682,14 @@ footer {
 
 .footer-main {
   display: grid;
-  grid-template-columns: 180px 1fr auto;
+  grid-template-columns: 280px 1fr auto;
   gap: 50px;
   align-items: center;
   padding-bottom: 42px;
 }
 
 .footer-main img {
-  width: 160px;
+  width: 260px;
 }
 
 .footer-main p {
@@ -780,11 +780,11 @@ footer {
   }
 
   .brand-row {
-    min-height: 76px;
+    min-height: 72px;
   }
 
   .brand img {
-    width: 158px;
+    width: min(220px, 66vw);
   }
 
   .menu-button {

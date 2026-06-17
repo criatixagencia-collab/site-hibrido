@@ -4,11 +4,11 @@ const { classifyMarket, marketCounts, maxInternationalFor } = require("./lib/mar
 
 const ARTICLES_FILE = path.resolve(__dirname, "..", "data", "articles.json");
 
-const MIN_BODY_WORDS = 10;
-const MAX_BODY_WORDS = 280;
-const MIN_BODY_CHARACTERS = 60;
-const MIN_BODY_PARAGRAPHS = 1;
-const MAX_BODY_PARAGRAPHS = 5;
+const MIN_BODY_WORDS = 220;
+const MAX_BODY_WORDS = 650;
+const MIN_BODY_CHARACTERS = 1400;
+const MIN_BODY_PARAGRAPHS = 4;
+const MAX_BODY_PARAGRAPHS = 10;
 const MAX_TITLE_CHARACTERS = 95;
 const MIN_ARTICLES = Number(process.env.MIN_ARTICLES || process.env.POSTS_PER_RUN || 6);
 const REQUIRE_PAGE_IMAGE_CREDIT = /^true$/i.test(process.env.REQUIRE_PAGE_IMAGE_CREDIT || "");

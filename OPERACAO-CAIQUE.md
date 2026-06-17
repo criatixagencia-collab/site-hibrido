@@ -2,6 +2,9 @@
 
 Este arquivo existe para o agente Caique operar o site sem depender de memoria solta da conversa.
 
+Em prompts e instrucoes operacionais do agente, usar sempre o nome generico
+**site hibrido**. O nome comercial pode mudar.
+
 ## Caminho principal
 
 Projeto:
@@ -50,6 +53,13 @@ Por enquanto, o fluxo principal nao e WordPress. O site e gerado como HTML estat
 - Fila que aguarda avaliacao humana: `data/review-queue.json`
 - Feed bruto/processado: `data/hybrid-feed.json` e `data/news.json`
 
+## Links fixos de selecao
+
+- `selecao-dia/`: cardapio da primeira selecao. Deve ser apenas lista/menu numerado das candidatas, sem textos finais e sem escolha de imagens.
+- `selecao-interativa/`: pagina da segunda etapa. Deve conter somente as materias que Rafael/grupo escolheu, ja escritas, com corpo completo e opcoes de imagem para aprovacao.
+
+Nunca usar `selecao-dia/` para pagina interativa. Nunca sobrescrever o cardapio com a pagina de escolha de imagens.
+
 ## Comandos principais
 
 Sempre rodar a partir da pasta do projeto:
@@ -69,6 +79,121 @@ Esse comando nunca publica. Depois, listar a fila:
 ```bash
 npm run editorial:list
 ```
+
+## Processo de selecao em 3 etapas
+
+### Etapa 1 - Primeira selecao / cardapio completo
+
+O Caique nao deve escolher nem filtrar as materias por conta propria nesta etapa.
+Ele deve listar todas as candidatas disponiveis no `data/review-queue.json`,
+mantendo a media de cerca de 40 opcoes quando a coleta tiver volume.
+
+Quem faz o corte e a pessoa que pediu: Rafael, o grupo ou outro humano
+autorizado. O Caique apenas organiza e apresenta o cardapio completo.
+
+Na pagina `selecao-dia/`, cada materia deve ter botao de aprovacao para marcar
+quais vao para a Etapa 2. Toda materia que nao for aprovada fica
+automaticamente rejeitada/fora da selecao interativa. A pagina deve preservar as
+aprovacoes no navegador com `localStorage` e permitir copiar os numeros
+aprovados, texto para WhatsApp ou JSON.
+
+Resumo: etapa 1 e mostrar o menu inteiro e deixar Rafael/grupo marcar o que
+passa para a cozinha.
+
+### Etapa 2 - Pagina de selecao interativa (textos COMPLETOS)
+
+Depois que a pessoa definir quais materias passaram da primeira selecao, o
+Caique coloca apenas essas escolhidas na pagina `selecao-interativa/`.
+
+REGRA CRITICA: os textos da pagina interativa DEVEM ser completos (3-6
+paragrafos, no minimo 800 caracteres), prontos para publicacao. NUNCA usar
+os textos curtos do `review-queue.json`, que sao apenas resumos para o cardapio.
+
+#### Fluxo correto da Etapa 2
+
+Passo 1 - Escrever textos completos:
+
+- Para cada materia escolhida na primeira selecao, usar o DeepSeek para
+  reescrever com texto completo.
+- Minimo: 3 paragrafos, 800 caracteres, estilo portal. Usar UOL Splash como
+  referencia de ritmo, estrutura e linguagem de entretenimento.
+- Formato: lead direto, contexto, desenvolvimento, fechamento factual.
+- Salvar em `data/selecao-pronta.json` no formato:
+
+```json
+{
+  "generatedAt": "ISO date",
+  "mode": "caique-deepseek",
+  "items": [
+    {
+      "id": "caique-0",
+      "buzzpopTitle": "Titulo completo",
+      "buzzpopLine": "Linha de apoio",
+      "buzzpopBody": "Paragrafo 1\n\nParagrafo 2\n\nParagrafo 3",
+      "categoryHint": "TV",
+      "evidenceSources": ["Fonte1", "Fonte2"],
+      "sourceCount": 2,
+      "image": "URL da imagem principal (se houver)"
+    }
+  ]
+}
+```
+
+Passo 2 - Gerar a pagina interativa:
+
+```bash
+npm run selection:interactive
+```
+
+Esse comando executa `node scripts/gerar-selecao-interativa.cjs` (tambem existe
+o alias `node scripts/generate-selection-interactive.cjs`). O script le
+`data/selecao-pronta.json`, associa com as imagens do `review-queue.json`, baixa
+ou copia as imagens para `docs/images/auto/selecao-interativa/` e gera
+`docs/selecao-interativa/index.html` + `docs/selecao-interativa/data.json` com
+os textos completos e opcoes de imagem locais.
+
+A pagina interativa precisa funcionar como ferramenta de aprovacao, nao apenas
+como vitrine visual. Cada card deve permitir:
+
+- escolher uma imagem;
+- aprovar a materia;
+- tratar automaticamente como rejeitada toda materia que nao for aprovada;
+- mostrar status visual de aprovada ou nao aprovada;
+- preservar escolhas no navegador com `localStorage`;
+- copiar as decisoes em formato de WhatsApp ou JSON para o fluxo editorial.
+
+Passo 3 - Publicar, somente quando Rafael autorizar o deploy:
+
+```bash
+git add docs/selecao-interativa/ docs/images/auto/selecao-interativa/
+git commit -m "Selecao interativa [data] - [N] materias com textos completos"
+git push
+```
+
+NUNCA fazer:
+
+- Usar textos do `review-queue.json` direto na pagina interativa.
+- Improvisar HTML manual com Python ou outro script avulso.
+- Renderizar imagem externa direto no HTML da selecao interativa.
+- Pular o passo de reescrita com DeepSeek.
+- Usar `scripts/reescreve-artigos.js` para esta etapa quando o Caique estiver
+  executando, porque esse script chama o Caique pela API e pode causar loop.
+- Gerar pagina interativa com textos de menos de 3 paragrafos ou 800 caracteres.
+
+Resumo: etapa 2 e colocar no prato o que foi escolhido.
+
+### Etapa 3 - Publicacao
+
+So depois da aprovacao humana, com materia aprovada e imagem escolhida/aprovada,
+o Caique publica no site via:
+
+```bash
+npm run editorial:publish
+```
+
+Jamais publicar sem aprovacao humana.
+
+Resumo: etapa 3 e servir depois do ok.
 
 Se a fila vier pequena, nunca sugerir apenas "rodar de novo" ou afrouxar os
 filtros. Ler primeiro o relatorio:

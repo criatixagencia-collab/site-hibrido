@@ -34,7 +34,7 @@ function main() {
   }
 
   if (issues.length) {
-    console.error("Selecao do Dia bloqueada:");
+    console.error("Selecao Interativa bloqueada:");
     issues.forEach((issue) => console.error(`- ${issue}`));
     console.error(
       "Rode npm run stage:selection-assets e depois npm run validate:selection-assets.",
@@ -43,7 +43,7 @@ function main() {
   }
 
   console.log(
-    `OK: ${images.length} imagem(ns) da Selecao do Dia existem em docs/images/auto e estao no Git.`,
+    `OK: ${images.length} imagem(ns) estaticas da Selecao Interativa existem em docs/images/auto e estao no Git.`,
   );
 }
 
