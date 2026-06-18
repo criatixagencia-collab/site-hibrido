@@ -275,6 +275,8 @@ function candidateCredit(candidate, fallback) {
 
 function normalizeCandidates(item, reviewMatch) {
   const raw = [];
+  if (Array.isArray(item?.imageCandidates)) raw.push(...item.imageCandidates);
+  if (Array.isArray(item?.images)) raw.push(...item.images);
   if (Array.isArray(reviewMatch?.imageCandidates)) raw.push(...reviewMatch.imageCandidates);
   if (Array.isArray(reviewMatch?.images)) raw.push(...reviewMatch.images);
   if (reviewMatch?.image || reviewMatch?.imageUrl) {
@@ -721,6 +723,12 @@ async function main() {
 
     const slug = slugify(item.slug || reviewMatch.slug || title, `materia-${index + 1}`);
     const imageOptions = await buildImageOptions(item, reviewMatch, slug);
+    if (!imageOptions.length) {
+      throw new Error(
+        `Materia "${title}" nao tem nenhuma imagem candidata baixavel. ` +
+          "Preencha imageCandidates/images/image em data/selecao-pronta.json ou data/review-queue.json antes de gerar a selecao interativa.",
+      );
+    }
     const sources = (item.evidenceSources || item.sources || reviewMatch.evidenceSources || [reviewMatch.source]).filter(Boolean);
 
     outputItems.push({
