@@ -13,11 +13,17 @@ function copyDir(from, to) {
   fs.cpSync(from, to, { recursive: true, force: true });
 }
 
+function removeDir(dir) {
+  if (!fs.existsSync(dir)) return;
+  fs.rmSync(dir, { recursive: true, force: true });
+}
+
 if (!fs.existsSync(path.join(sourceSite, "index.html"))) {
   throw new Error("public/final-site/index.html nao encontrado. Rode npm run site:final antes.");
 }
 
 fs.mkdirSync(docsDir, { recursive: true });
+removeDir(path.join(docsDir, "noticias"));
 fs.cpSync(sourceSite, docsDir, { recursive: true, force: true });
 fs.writeFileSync(path.join(docsDir, ".nojekyll"), "");
 copyDir(sourceImages, docsImages);

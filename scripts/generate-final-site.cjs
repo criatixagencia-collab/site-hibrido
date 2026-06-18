@@ -172,6 +172,11 @@ function copyDir(from, to) {
   fs.cpSync(from, to, { recursive: true, force: true });
 }
 
+function removeDir(dir) {
+  if (!fs.existsSync(dir)) return;
+  fs.rmSync(dir, { recursive: true, force: true });
+}
+
 function selectionImagePath(article) {
   var image = String(article.image || "");
   if (!image || image === "/images/news-placeholder.svg") return "";
@@ -516,6 +521,7 @@ function renderSelectionPage(articles) {
 
 function writeFinalSite(articles) {
   fs.mkdirSync(outputDir, { recursive: true });
+  removeDir(path.join(outputDir, "noticias"));
   copyDir(imagesDir, path.join(outputDir, "images"));
   fs.writeFileSync(path.join(outputDir, "index.html"), renderHome(articles));
 
@@ -539,7 +545,6 @@ function writeFinalSite(articles) {
 }
 
 var articles = readArticles();
-if (!articles.length) throw new Error("Nenhuma materia em data/articles.json.");
 
 writeFinalSite(articles);
 console.log("Site final gerado em: " + outputDir);
