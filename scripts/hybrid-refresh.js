@@ -5,13 +5,11 @@ import { fetchEntertainmentNews } from "./lib/news.js";
 import { generateEditorialDraftBatch } from "./lib/editorial-drafts.js";
 import { toBuzzItems } from "./lib/articles.js";
 import { applyIllustrativeImages } from "./lib/illustrative-images.js";
-import { readJson, writeJson } from "./lib/store.js";
+import { writeJson } from "./lib/store.js";
 
 const require = createRequire(import.meta.url);
 const { archiveSelectionSnapshot } = require("./lib/archive.cjs");
 const IMAGE_STAGE_TIMEOUT_MS = Number(process.env.IMAGE_STAGE_TIMEOUT_MS || 180000);
-const MIN_CARRYOVER_WORDS = 15;
-const MIN_CARRYOVER_CHARACTERS = 110;
 
 function withTimeout(promise, timeoutMs, label) {
   return new Promise((resolve, reject) => {
@@ -53,21 +51,126 @@ function pendingImageDraft(draft, reason = "Etapa de imagem ainda nao executada.
   };
 }
 
-function carryOverIsValid(item) {
-  const body = Array.isArray(item.body) && item.body.length ? item.body : [item.excerpt || ""];
-  const text = body.join(" ").replace(/\s+/g, " ").trim();
-  const words = text.split(/\s+/).filter(Boolean).length;
-  const characters = text.length;
-  return words >= MIN_CARRYOVER_WORDS && characters >= MIN_CARRYOVER_CHARACTERS;
+function escapeHtml(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function slug(value) {
+  return String(value || "materia")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 80)
+    .replace(/-+$/g, "") || "materia";
+}
+
+function shortText(value, fallback = "") {
+  return String(value || fallback || "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function evidenceClaimsFor(item) {
+  const claims = [item.title];
+  const summary = String(item.summary || "")
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .slice(0, 5);
+  return [...new Set([...claims, ...summary])].filter(Boolean);
+}
+
+function buildRawDraft(item, now) {
+  const summary = shortText(item.summary, item.title);
+  const excerpt = shortText(summary, item.title).slice(0, 240);
+  const source = item.source || "";
+  const evidenceSources = Array.isArray(item.evidenceSources) && item.evidenceSources.length
+    ? item.evidenceSources
+    : [source].filter(Boolean);
+
+  return {
+    id: item.id,
+    reviewId: item.id,
+    workflowVersion: 2,
+    reviewStatus: "pending-human",
+    title: item.title,
+    slug: slug(item.title),
+    excerpt,
+    body: [summary || item.title || ""],
+    html: `<p>${escapeHtml(summary || item.title || "")}</p>`,
+    category: item.categoryHint || item.category || "Entretenimento",
+    market: item.market || "brasil",
+    tags: [],
+    source,
+    sourceUrl: item.link || "",
+    evidenceSources,
+    evidenceClaims: evidenceClaimsFor(item),
+    sourceCount: Number(item.sourceCount || evidenceSources.length || 0),
+    score: Number(item.score || 0),
+    trendBoost: Boolean(item.trendBoost),
+    trendMatches: Array.isArray(item.trendMatches) ? item.trendMatches : [],
+    image: item.image || "",
+    imageCredit: item.imageCredit || "",
+    imagePostUrl: "",
+    imageCreditStatus: item.imageCredit ? "raw-source" : "pending-visual-review",
+    imageCreditSourceUrl: "",
+    imagePolicy: item.imagePolicy || "Imagem pendente; escolher imagem apenas na etapa interativa.",
+    imageReview: {
+      status: "needs-human-review",
+      approved: false,
+      candidateIndex: -1,
+      confidence: 0,
+      reason: "Imagem nao analisada na Etapa 1.",
+      concerns: ["raw-collection"],
+      origin: "pending",
+    },
+    editorialMeta: {
+      rawItem: true,
+      originalTitle: item.originalTitle || item.title,
+      sourceId: item.id,
+      generationMode: "raw-collection",
+      generatedAt: now,
+    },
+    createdAt: item.publishedAt || now,
+  };
+}
+
+function buildQueueFromNews(news) {
+  const now = new Date().toISOString();
+  const items = news
+    .map((item) => buildRawDraft(item, now))
+    .sort((left, right) => {
+      const scoreDelta = Number(right.score || 0) - Number(left.score || 0);
+      if (scoreDelta) return scoreDelta;
+      return new Date(right.createdAt || 0) - new Date(left.createdAt || 0);
+    });
+
+  return {
+    workflowVersion: 2,
+    generatedAt: now,
+    status: "awaiting-human-review",
+    count: items.length,
+    newsCount: news.length,
+    lastRun: {
+      status: "raw-collection",
+      candidatesAttempted: news.length,
+      approved: 0,
+      rejected: 0,
+      errors: 0,
+      imageStage: "skipped-raw",
+    },
+    items,
+  };
 }
 
 function buildQueue({ previousQueue, drafts, newsCount, report, imageStage }) {
-  const pendingById = new Map(
-    (previousQueue.items || [])
-      .filter((item) => item.reviewStatus === "pending-human" && carryOverIsValid(item))
-      .map((item) => [item.reviewId || item.id, item]),
-  );
-
+  const pendingById = new Map();
   for (const draft of drafts) pendingById.set(draft.reviewId || draft.id, draft);
   const items = [...pendingById.values()].sort(
     (left, right) => new Date(right.createdAt || 0) - new Date(left.createdAt || 0),
@@ -86,6 +189,7 @@ function buildQueue({ previousQueue, drafts, newsCount, report, imageStage }) {
       rejected: report.rejected,
       errors: report.errors,
       imageStage,
+      previousCount: Array.isArray(previousQueue.items) ? previousQueue.items.length : 0,
     },
     items,
   };
@@ -101,15 +205,33 @@ async function persistReviewQueue(queue) {
 }
 
 export async function runHybridRefresh() {
+  const skipAIWriting = process.env.SKIP_AI_WRITING !== "false";
   const news = await fetchEntertainmentNews();
   await writeJson("news.json", news);
 
+  const rawQueue = buildQueueFromNews(news);
+  await persistReviewQueue(rawQueue);
+  console.log(
+    `[news] ${news.length} noticias coletadas. Fila crua salva com ${rawQueue.items.length} itens.`,
+  );
+
+  if (skipAIWriting) {
+    console.log(
+      "[news] SKIP_AI_WRITING ativo: pulando DeepSeek, revisor factual e imagens na Etapa 1.",
+    );
+    const report = rawQueue.lastRun;
+    const archivePath = archiveSelectionSnapshot({ queue: rawQueue, news, report });
+    console.log(`Selecao arquivada em: ${archivePath}`);
+    console.log("Nenhuma materia foi publicada em data/articles.json.");
+    return { news, queue: rawQueue, report };
+  }
+
+  console.log("[editorial] SKIP_AI_WRITING=false: iniciando escrita IA opcional.");
   const { drafts: generatedDrafts, report } = await generateEditorialDraftBatch(news);
   await writeJson("editorial-run-report.json", report);
-  const previousQueue = await readJson("review-queue.json", { items: [] });
   const textualDrafts = generatedDrafts.map((draft) => pendingImageDraft(draft));
   let queue = buildQueue({
-    previousQueue,
+    previousQueue: rawQueue,
     drafts: textualDrafts,
     newsCount: news.length,
     report,

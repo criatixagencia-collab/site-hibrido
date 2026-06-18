@@ -619,21 +619,37 @@ export async function generateEditorialDraftBatch(news) {
   const outcomes = [];
   let internationalCount = 0;
 
-  for (const item of news.slice(0, maxAttempts)) {
+  const candidates = news.slice(0, maxAttempts);
+  for (let index = 0; index < candidates.length; index += 1) {
+    const item = candidates[index];
     if (drafts.length >= target) break;
+    console.log(
+      `[editorial] ${index + 1}/${candidates.length} analisando: ${item.title}`,
+    );
     try {
       const result = await draftOne(item);
       outcomes.push(result.outcome);
       const draft = result.draft;
-      if (!draft) continue;
+      if (!draft) {
+        console.log(
+          `[editorial] ${index + 1}/${candidates.length} rejeitada: ${item.title}`,
+        );
+        continue;
+      }
       if (draft.market === "internacional" && internationalCount >= maxInternational) {
         result.outcome.status = "rejected";
         result.outcome.stage = "market-quota";
         result.outcome.reasons = ["limite de pautas internacionais atingido"];
+        console.log(
+          `[editorial] ${index + 1}/${candidates.length} rejeitada por cota internacional: ${item.title}`,
+        );
         continue;
       }
       drafts.push(draft);
       if (draft.market === "internacional") internationalCount += 1;
+      console.log(
+        `[editorial] ${drafts.length}/${target} rascunhos aprovados ate agora.`,
+      );
     } catch (error) {
       console.warn(`[editorial] falha em ${item.title}: ${error.message || error}`);
       outcomes.push({
