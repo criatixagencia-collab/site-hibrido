@@ -1,1 +1,207 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Selecao interativa - BuzzPop</title><style>body{margin:0;background:#050505;color:#fafafa;font-family:system-ui,-apple-system,sans-serif;display:grid;min-height:100vh;place-items:center;padding:24px}main{max-width:680px}h1{font-size:clamp(32px,8vw,72px);line-height:.9;text-transform:uppercase;margin:0 0 18px;font-family:Impact,Haettenschweiler,Arial Narrow Bold,sans-serif}p{color:#aaa;font-size:16px;line-height:1.5}a{color:#f43f2f}</style></head><body><main><h1>Selecao interativa</h1><p>Aguardando nova rodada editorial da Thais. Nenhuma materia esta disponivel nesta pagina agora.</p><p><a href="../">Voltar para o site</a></p></main></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Selecao Interativa - Site Hibrido</title>
+<meta name="description" content="Pagina interativa para aprovacao de materias e escolha de imagens do site hibrido.">
+<style>
+*,::after,::before{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0d0b0b;--panel:#171313;--panel-2:#211b1b;--text:#f4eeee;--muted:#b8aaa7;--line:#342a29;--red:#c12222;--yellow:#f0c646;--green:#1f8f55;--green-bg:#13231a}
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+.container{width:100%;max-width:960px;margin:0 auto;padding:1.4rem 1rem 2.5rem}
+.top{border-bottom:1px solid var(--line);margin-bottom:1rem;padding-bottom:1rem}
+h1{font-size:clamp(1.7rem,5vw,2.7rem);font-weight:900;text-transform:uppercase;letter-spacing:0;line-height:1}
+.sub{color:var(--muted);font-size:.9rem;margin-top:.5rem}
+.notice{background:#181313;border:1px solid var(--line);border-radius:8px;color:#e8dddd;margin-top:.9rem;padding:.85rem;font-size:.88rem}
+.approval-board{align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:8px;display:flex;gap:.75rem;justify-content:space-between;margin:1rem 0;padding:.75rem;position:sticky;top:.5rem;z-index:10}
+.summary{font-size:.86rem;font-weight:850;color:var(--yellow)}
+.export-actions{display:flex;flex-wrap:wrap;gap:.45rem;justify-content:flex-end}
+.tool-btn{background:#2a2221;border:1px solid #4a3b38;border-radius:6px;color:var(--text);cursor:pointer;font-size:.74rem;font-weight:850;padding:.45rem .6rem;text-transform:uppercase;letter-spacing:.04em}
+.tool-btn:hover{background:#352a28}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;margin-bottom:1rem;padding:1rem;transition:border-color .18s,background .18s}
+.card.is-approved{background:var(--green-bg);border-color:color-mix(in srgb,var(--green) 70%,#fff 0%)}
+.card-top{display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;margin-bottom:.75rem}
+.num{background:var(--red);border-radius:6px;color:#fff;font-size:.72rem;font-weight:900;letter-spacing:.08em;padding:.28rem .55rem;text-transform:uppercase}
+.badge,.status-pill{background:#241e1d;border:1px solid #3d3230;border-radius:999px;color:var(--yellow);font-size:.68rem;font-weight:850;letter-spacing:.06em;padding:.22rem .52rem;text-transform:uppercase}
+.badge.muted{color:var(--muted)}
+.status-pill{margin-left:auto;color:var(--muted)}.is-approved .status-pill{background:#14351f;border-color:#2b7c4a;color:#9df0bc}
+h2{font-size:1.25rem;font-weight:850;line-height:1.25;margin-bottom:.45rem;word-break:break-word;overflow-wrap:break-word}
+.line{background:#211918;border:1px solid #352928;border-radius:8px;color:#d8cfcc;font-size:.92rem;margin-bottom:.85rem;padding:.65rem .75rem;word-break:break-word;overflow-wrap:break-word}
+.body-text{background:var(--panel-2);border-radius:8px;color:#eee5e2;font-size:.95rem;margin:.75rem 0;padding:.9rem}
+.body-text p{margin:0 0 1rem}.body-text p:last-child{margin-bottom:0}
+.sources{color:var(--muted);font-size:.78rem;margin:.7rem 0 1rem;word-break:break-word;overflow-wrap:break-word}
+.image-block h3{color:var(--yellow);font-size:.9rem;margin-bottom:.65rem;text-transform:uppercase;letter-spacing:.07em}
+.img-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.65rem}
+.img-option{background:#100d0d;border:2px solid #332827;border-radius:8px;cursor:pointer;display:block;overflow:hidden;transition:border-color .18s,box-shadow .18s,transform .18s}
+.img-option:hover{transform:translateY(-1px)}
+.img-option input{height:0;opacity:0;position:absolute;width:0}
+.img-option:has(input:checked){border-color:var(--yellow);box-shadow:0 0 0 2px rgba(240,198,70,.25)}
+.img-option img{background:#050505;display:block;height:142px;object-fit:cover;width:100%}
+.img-label{color:#c7bbb8;display:block;font-size:.7rem;line-height:1.25;padding:.45rem}
+.empty-images{border:1px dashed #4b5563;border-radius:8px;color:#fca5a5;font-size:.82rem;padding:.75rem}
+.decision-bar{align-items:center;border-top:1px solid var(--line);display:flex;gap:.75rem;justify-content:space-between;margin-top:1rem;padding-top:.9rem}
+.decision-buttons{display:flex;flex-wrap:wrap;gap:.45rem}.decision-btn{border:1px solid transparent;border-radius:6px;color:#fff;cursor:pointer;font-size:.78rem;font-weight:900;letter-spacing:.05em;padding:.55rem .72rem;text-transform:uppercase}.decision-btn.approve{background:var(--green)}.decision-btn.clear{background:#312827;border-color:#4d403d;color:#d8cfcc}.decision-btn:hover{filter:brightness(1.08)}
+.decision-status{color:#d8cfcc;font-size:.82rem;font-weight:750;text-align:right}
+.footer{color:#666;font-size:.72rem;letter-spacing:.08em;margin-top:2rem;text-align:center;text-transform:uppercase}
+@media(max-width:680px){.approval-board,.decision-bar{align-items:stretch;flex-direction:column}.export-actions,.decision-buttons{justify-content:stretch}.tool-btn,.decision-btn{flex:1}.decision-status{text-align:left}}
+@media(max-width:560px){.container{padding-inline:.75rem}.img-grid{grid-template-columns:1fr 1fr}.img-option img{height:120px}.status-pill{margin-left:0}}
+</style>
+</head>
+<body>
+<main class="container">
+<header class="top">
+<h1>Selecao Interativa</h1>
+<p class="sub">18 de junho de 2026 às 09:36 - 2 materias com textos completos</p>
+<p class="notice">Esta pagina e a Etapa 2: revisar textos completos e escolher imagens. A Etapa 1 continua separada em selecao-dia/.</p>
+</header>
+<section class="approval-board" aria-label="Resumo da aprovacao">
+<strong class="summary" data-role="summary">0 aprovadas - 2 rejeitadas automaticamente</strong>
+<div class="export-actions">
+<button type="button" class="tool-btn" data-action="clear-all">Limpar</button>
+</div>
+</section>
+<article class="card" data-num="1" data-review-id="MTEgSG9tZW5zIGUgdW0g" data-slug="11-homens-e-um-segredo-wagner-moura-negocia-para-viver-vilao-em-novo-filme" data-title="Wagner Moura pode ser o vilão do novo 'Onze Homens e um Segredo'"><div class="card-top"><span class="num">Materia 01</span><span class="badge">Cinema</span><span class="badge muted">Score 193</span><span class="status-pill" data-role="status-pill">Nao aprovada</span></div><h2>Wagner Moura pode ser o vilão do novo 'Onze Homens e um Segredo'</h2><p class="line">Ator brasileiro negocia papel em prelúdio da franquia de assalto, ao lado de Margot Robbie e Bradley Cooper</p><div class="body-text"><p>Wagner Moura está em negociações para interpretar o vilão no novo filme da franquia &quot;Onze Homens e um Segredo&quot;. O longa, que será um prelúdio da história original, deve trazer de volta o clima de assalto sofisticado que consagrou a série. Segundo informações, o ator brasileiro pode contracenar com Margot Robbie e Bradley Cooper, que já estão confirmados no elenco.</p><p>O projeto ainda não tem título oficial, mas promete explorar as origens dos personagens antes dos eventos do primeiro filme, lançado em 2001. A direção ficará a cargo de Jay Roach, conhecido por comédias como &quot;Austin Powers&quot; e &quot;Entrando Numa Fria&quot;. A produção está em estágio inicial, e as negociações com Moura indicam que o estúdio busca um nome de peso para o papel antagonista.</p><p>Caso o acordo se concretize, esta será mais uma incursão de Wagner Moura em Hollywood, onde já atuou em produções como &quot;Sicario: Dia do Soldado&quot; e a série &quot;Narcos&quot;. O ator também está escalado para o aguardado &quot;Megalopolis&quot;, de Francis Ford Coppola. Ainda não há previsão de início das filmagens ou data de estreia para o novo capítulo da franquia.</p></div><p class="sources"><strong>Fontes:</strong> Omelete / Folha de S.Paulo / Estadão / VEJA / AdoroCinema</p><section class="image-block"><h3>Escolha a imagem</h3><div class="img-grid"><p class="empty-images">Nenhuma imagem local foi baixada para esta materia. Volte ao passo de busca de imagens antes de publicar.</p></div></section><div class="decision-bar"><div class="decision-buttons"><button type="button" class="decision-btn approve" data-action="approved">Aprovar</button><button type="button" class="decision-btn clear" data-action="pending">Desfazer aprovacao</button></div><p class="decision-status" data-role="decision-status">Status: nao aprovada</p></div></article><article class="card" data-num="2" data-review-id="UHJpbWVpcmEgaW1hZ2Vt" data-slug="primeira-imagem-de-alice-carvalho-como-marta-e-divulgada-e-semelhanca-impression" data-title="Primeira imagem de Alice Carvalho como Marta impressiona pela semelhança"><div class="card-top"><span class="num">Materia 02</span><span class="badge">Famosos</span><span class="badge muted">Score 165</span><span class="status-pill" data-role="status-pill">Nao aprovada</span></div><h2>Primeira imagem de Alice Carvalho como Marta impressiona pela semelhança</h2><p class="line">Atriz foi caracterizada para viver a maior jogadora de futebol de todos os tempos em filme biográfico</p><div class="body-text"><p>A primeira imagem oficial de Alice Carvalho caracterizada como Marta foi divulgada nesta semana e já causa furor nas redes sociais. A atriz, conhecida por papéis em novelas e séries, aparece uniformizada com a camisa da Seleção Brasileira, em um registro que destaca a impressionante semelhança física com a jogadora. O longa, que começou a ser gravado no Rio de Janeiro, promete contar a trajetória da maior artilheira da história das Copas do Mundo.</p><p>A produção, ainda sem título oficial, tem previsão de lançamento para 2027. As gravações ocorrem em locações cariocas e devem se estender por várias semanas. A equipe de caracterização caprichou nos detalhes, desde o corte de cabelo até a expressão facial, para que Alice Carvalho incorporasse a essência de Marta. Nas imagens divulgadas, a atriz aparece em campo, em um momento que remete à concentração e determinação da atleta.</p><p>Marta, que recentemente se aposentou da Seleção Brasileira, acompanha de perto o projeto. A jogadora já declarou estar emocionada com a escolha do elenco e acreditou que Alice Carvalho conseguirá transmitir sua história de superação e conquistas. O filme abordará desde a infância humilde em Dois Riachos, Alagoas, até o estrelato mundial, passando pelos títulos e recordes que a consagraram como um dos maiores nomes do esporte.</p></div><p class="sources"><strong>Fontes:</strong> R7 Entretenimento / Folha de S.Paulo / GE / Omelete / VEJA SÃO PAULO</p><section class="image-block"><h3>Escolha a imagem</h3><div class="img-grid"><p class="empty-images">Nenhuma imagem local foi baixada para esta materia. Volte ao passo de busca de imagens antes de publicar.</p></div></section><div class="decision-bar"><div class="decision-buttons"><button type="button" class="decision-btn approve" data-action="approved">Aprovar</button><button type="button" class="decision-btn clear" data-action="pending">Desfazer aprovacao</button></div><p class="decision-status" data-role="decision-status">Status: nao aprovada</p></div></article><div class="footer">Site Hibrido &copy; 2026</div>
+</main>
+
+<script>
+(function(){
+  var storageKey = "site-hibrido-selecao-interativa:" + location.pathname;
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".card"));
+  var state = {};
+
+  try {
+    state = JSON.parse(localStorage.getItem(storageKey) || "{}") || {};
+  } catch (error) {
+    state = {};
+  }
+
+  function cardKey(card) {
+    return card.dataset.reviewId || card.dataset.slug || card.dataset.num;
+  }
+
+  function selectedImageLabel(card, decision) {
+    if (decision.imageIndex === undefined || decision.imageIndex === null || decision.imageIndex === "") return "sem imagem";
+    return "opcao " + (Number(decision.imageIndex) + 1);
+  }
+
+  function persist() {
+    localStorage.setItem(storageKey, JSON.stringify(state));
+  }
+
+  function updateCard(card) {
+    var key = cardKey(card);
+    var decision = state[key] || { status: "pending" };
+    var status = decision.status || "pending";
+    var pill = card.querySelector('[data-role="status-pill"]');
+    var label = card.querySelector('[data-role="decision-status"]');
+    var selected = card.querySelector('input[type="radio"][data-image-index="' + decision.imageIndex + '"]');
+
+    if (status === "rejected") status = "pending";
+    card.classList.remove("is-approved", "is-pending");
+    card.classList.add(status === "approved" ? "is-approved" : "is-pending");
+
+    if (selected) selected.checked = true;
+    if (pill) {
+      pill.textContent = status === "approved" ? "Aprovada" : "Nao aprovada";
+    }
+    if (label) {
+      label.textContent = "Status: " + (status === "approved" ? "aprovada" : "nao aprovada") + " - Imagem: " + selectedImageLabel(card, decision);
+    }
+  }
+
+  function updateSummary() {
+    var approved = 0;
+    cards.forEach(function(card) {
+      var decision = state[cardKey(card)] || {};
+      if (decision.status === "approved") approved += 1;
+    });
+    var rejected = cards.length - approved;
+    var summary = document.querySelector('[data-role="summary"]');
+    if (summary) {
+      summary.textContent = approved + " aprovadas - " + rejected + " rejeitadas automaticamente";
+    }
+  }
+
+  function setStatus(card, status) {
+    var key = cardKey(card);
+    var current = state[key] || {};
+    state[key] = {
+      status: status,
+      imageIndex: current.imageIndex,
+      title: card.dataset.title || "",
+      reviewId: card.dataset.reviewId || "",
+      slug: card.dataset.slug || "",
+      num: card.dataset.num || "",
+      updatedAt: new Date().toISOString()
+    };
+    if (status === "pending" && state[key].imageIndex === undefined) {
+      delete state[key];
+    }
+    persist();
+    updateCard(card);
+    updateSummary();
+  }
+
+  function setImage(card, imageIndex) {
+    var key = cardKey(card);
+    var current = state[key] || { status: "pending" };
+    var status = current.status === "approved" ? "approved" : "pending";
+    state[key] = {
+      status: status,
+      imageIndex: Number(imageIndex),
+      title: card.dataset.title || "",
+      reviewId: card.dataset.reviewId || "",
+      slug: card.dataset.slug || "",
+      num: card.dataset.num || "",
+      updatedAt: new Date().toISOString()
+    };
+    persist();
+    updateCard(card);
+    updateSummary();
+  }
+
+  function decisionsArray() {
+    return cards.map(function(card) {
+      var key = cardKey(card);
+      var decision = state[key] || { status: "pending" };
+      var approved = decision.status === "approved";
+      return {
+        num: Number(card.dataset.num || 0),
+        reviewId: card.dataset.reviewId || "",
+        slug: card.dataset.slug || "",
+        title: card.dataset.title || "",
+        status: approved ? "approved" : "rejected",
+        approved: approved,
+        imageIndex: decision.imageIndex === undefined ? null : Number(decision.imageIndex),
+        imageOption: decision.imageIndex === undefined ? "" : "opcao " + (Number(decision.imageIndex) + 1)
+      };
+    });
+  }
+
+  cards.forEach(function(card) {
+    updateCard(card);
+    card.addEventListener("click", function(event) {
+      var action = event.target && event.target.dataset ? event.target.dataset.action : "";
+      if (action) setStatus(card, action);
+    });
+    card.addEventListener("change", function(event) {
+      if (event.target && event.target.matches('input[type="radio"][data-image-index]')) {
+        setImage(card, event.target.dataset.imageIndex);
+      }
+    });
+  });
+
+  document.querySelector('[data-action="clear-all"]')?.addEventListener("click", function() {
+    if (!confirm("Limpar todas as decisoes desta pagina?")) return;
+    state = {};
+    persist();
+    cards.forEach(updateCard);
+    updateSummary();
+  });
+
+  updateSummary();
+})();
+</script>
+</body>
+</html>

@@ -1,4 +1,55 @@
 {
-  "generatedAt": "2026-06-18T00:53:11.260Z",
-  "items": []
+  "generatedAt": "2026-06-18T12:36:36.245Z",
+  "sourceGeneratedAt": "2026-06-18T12:36:27.045Z",
+  "mode": "selecao-interativa-oficial",
+  "items": [
+    {
+      "num": 1,
+      "id": "MTEgSG9tZW5zIGUgdW0g",
+      "reviewId": "MTEgSG9tZW5zIGUgdW0g",
+      "slug": "11-homens-e-um-segredo-wagner-moura-negocia-para-viver-vilao-em-novo-filme",
+      "title": "Wagner Moura pode ser o vilão do novo 'Onze Homens e um Segredo'",
+      "excerpt": "Ator brasileiro negocia papel em prelúdio da franquia de assalto, ao lado de Margot Robbie e Bradley Cooper",
+      "category": "Cinema",
+      "score": 193,
+      "body": "Wagner Moura está em negociações para interpretar o vilão no novo filme da franquia \"Onze Homens e um Segredo\". O longa, que será um prelúdio da história original, deve trazer de volta o clima de assalto sofisticado que consagrou a série. Segundo informações, o ator brasileiro pode contracenar com Margot Robbie e Bradley Cooper, que já estão confirmados no elenco.\n\nO projeto ainda não tem título oficial, mas promete explorar as origens dos personagens antes dos eventos do primeiro filme, lançado em 2001. A direção ficará a cargo de Jay Roach, conhecido por comédias como \"Austin Powers\" e \"Entrando Numa Fria\". A produção está em estágio inicial, e as negociações com Moura indicam que o estúdio busca um nome de peso para o papel antagonista.\n\nCaso o acordo se concretize, esta será mais uma incursão de Wagner Moura em Hollywood, onde já atuou em produções como \"Sicario: Dia do Soldado\" e a série \"Narcos\". O ator também está escalado para o aguardado \"Megalopolis\", de Francis Ford Coppola. Ainda não há previsão de início das filmagens ou data de estreia para o novo capítulo da franquia.",
+      "sources": [
+        "Omelete",
+        "Folha de S.Paulo",
+        "Estadão",
+        "VEJA",
+        "AdoroCinema"
+      ],
+      "sourceCount": 5,
+      "image": "",
+      "imageAlt": "Wagner Moura pode ser o vilão do novo 'Onze Homens e um Segredo'",
+      "imageOptions": [],
+      "rewriteStatus": "complete",
+      "requestedNumber": 1
+    },
+    {
+      "num": 2,
+      "id": "UHJpbWVpcmEgaW1hZ2Vt",
+      "reviewId": "UHJpbWVpcmEgaW1hZ2Vt",
+      "slug": "primeira-imagem-de-alice-carvalho-como-marta-e-divulgada-e-semelhanca-impression",
+      "title": "Primeira imagem de Alice Carvalho como Marta impressiona pela semelhança",
+      "excerpt": "Atriz foi caracterizada para viver a maior jogadora de futebol de todos os tempos em filme biográfico",
+      "category": "Famosos",
+      "score": 165,
+      "body": "A primeira imagem oficial de Alice Carvalho caracterizada como Marta foi divulgada nesta semana e já causa furor nas redes sociais. A atriz, conhecida por papéis em novelas e séries, aparece uniformizada com a camisa da Seleção Brasileira, em um registro que destaca a impressionante semelhança física com a jogadora. O longa, que começou a ser gravado no Rio de Janeiro, promete contar a trajetória da maior artilheira da história das Copas do Mundo.\n\nA produção, ainda sem título oficial, tem previsão de lançamento para 2027. As gravações ocorrem em locações cariocas e devem se estender por várias semanas. A equipe de caracterização caprichou nos detalhes, desde o corte de cabelo até a expressão facial, para que Alice Carvalho incorporasse a essência de Marta. Nas imagens divulgadas, a atriz aparece em campo, em um momento que remete à concentração e determinação da atleta.\n\nMarta, que recentemente se aposentou da Seleção Brasileira, acompanha de perto o projeto. A jogadora já declarou estar emocionada com a escolha do elenco e acreditou que Alice Carvalho conseguirá transmitir sua história de superação e conquistas. O filme abordará desde a infância humilde em Dois Riachos, Alagoas, até o estrelato mundial, passando pelos títulos e recordes que a consagraram como um dos maiores nomes do esporte.",
+      "sources": [
+        "R7 Entretenimento",
+        "Folha de S.Paulo",
+        "GE",
+        "Omelete",
+        "VEJA SÃO PAULO"
+      ],
+      "sourceCount": 5,
+      "image": "",
+      "imageAlt": "Primeira imagem de Alice Carvalho como Marta impressiona pela semelhança",
+      "imageOptions": [],
+      "rewriteStatus": "complete",
+      "requestedNumber": 2
+    }
+  ]
 }
